@@ -1,0 +1,681 @@
+[    1.907482] PM: Image not found (code -22)
+[    2.013234] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[    2.154453] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[    2.154462] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.279884] usb 1-12: new high-speed USB device number 3 using xhci_hcd
+[    2.455277] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[    2.455281] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[    2.455283] usb 1-12: Product: Integrated_Webcam_HD
+[    2.455284] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[    2.561544] EXT4-fs (nvme0n1p2): mounted filesystem with ordered data mode. Quota mode: none.
+[    2.637674] systemd[1]: systemd 251.4-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[    2.637681] systemd[1]: Detected architecture x86-64.
+[    2.638428] systemd[1]: Hostname set to <precision5510>.
+[    2.731558] systemd[1]: Queued start job for default target Graphical Interface.
+[    2.732676] systemd[1]: Created slice Slice /system/getty.
+[    2.732943] systemd[1]: Created slice Slice /system/modprobe.
+[    2.733161] systemd[1]: Created slice Slice /system/systemd-fsck.
+[    2.733364] systemd[1]: Created slice User and Session Slice.
+[    2.733429] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    2.733481] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    2.733604] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    2.733636] systemd[1]: Reached target Local Encrypted Volumes.
+[    2.733646] systemd[1]: Reached target Login Prompts.
+[    2.733657] systemd[1]: Reached target Local Integrity Protected Volumes.
+[    2.733675] systemd[1]: Reached target Path Units.
+[    2.733690] systemd[1]: Reached target Remote File Systems.
+[    2.733698] systemd[1]: Reached target Slice Units.
+[    2.733715] systemd[1]: Reached target Local Verity Protected Volumes.
+[    2.733777] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    2.733953] systemd[1]: Listening on LVM2 poll daemon socket.
+[    2.734796] systemd[1]: Listening on Process Core Dump Socket.
+[    2.736892] systemd[1]: Journal Audit Socket was skipped because of a failed condition check (ConditionSecurity=audit).
+[    2.737018] systemd[1]: Listening on Journal Socket (/dev/log).
+[    2.737133] systemd[1]: Listening on Journal Socket.
+[    2.737522] systemd[1]: Listening on udev Control Socket.
+[    2.737618] systemd[1]: Listening on udev Kernel Socket.
+[    2.738308] systemd[1]: Mounting Huge Pages File System...
+[    2.738965] systemd[1]: Mounting POSIX Message Queue File System...
+[    2.739694] systemd[1]: Mounting Kernel Debug File System...
+[    2.740454] systemd[1]: Mounting Kernel Trace File System...
+[    2.740530] systemd[1]: Load AppArmor profiles was skipped because of a failed condition check (ConditionSecurity=apparmor).
+[    2.741270] systemd[1]: Starting Create List of Static Device Nodes...
+[    2.741911] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[    2.742656] systemd[1]: Starting Load Kernel Module configfs...
+[    2.743441] systemd[1]: Starting Load Kernel Module drm...
+[    2.744188] systemd[1]: Starting Load Kernel Module fuse...
+[    2.744248] systemd[1]: File System Check on Root Device was skipped because of a failed condition check (ConditionPathIsReadWrite=!/).
+[    2.745556] systemd[1]: Starting Journal Service...
+[    2.746717] systemd[1]: Starting Load Kernel Modules...
+[    2.747416] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    2.747484] systemd[1]: Repartition Root Disk was skipped because all trigger condition checks failed.
+[    2.748143] systemd[1]: Starting Coldplug All udev Devices...
+[    2.749427] systemd[1]: Mounted Huge Pages File System.
+[    2.749516] systemd[1]: Mounted POSIX Message Queue File System.
+[    2.749597] systemd[1]: Mounted Kernel Debug File System.
+[    2.749675] systemd[1]: Mounted Kernel Trace File System.
+[    2.749865] systemd[1]: Finished Create List of Static Device Nodes.
+[    2.754857] EXT4-fs (nvme0n1p2): re-mounted. Quota mode: none.
+[    2.755159] fuse: init (API version 7.36)
+[    2.757463] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[    2.757585] systemd[1]: Finished Load Kernel Module configfs.
+[    2.757808] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[    2.757909] systemd[1]: Finished Load Kernel Module drm.
+[    2.758117] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[    2.758223] systemd[1]: Finished Load Kernel Module fuse.
+[    2.758394] systemd[1]: Finished Remount Root and Kernel File Systems.
+[    2.759333] systemd[1]: Mounting FUSE Control File System...
+[    2.760257] systemd[1]: Mounting Kernel Configuration File System...
+[    2.760331] systemd[1]: First Boot Wizard was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[    2.760652] systemd[1]: Rebuild Hardware Database was skipped because all trigger condition checks failed.
+[    2.761388] systemd[1]: Starting Load/Save Random Seed...
+[    2.762118] systemd[1]: Starting Create System Users...
+[    2.762412] systemd[1]: Finished Load Kernel Modules.
+[    2.763108] systemd[1]: Starting Apply Kernel Variables...
+[    2.765584] systemd[1]: Mounted FUSE Control File System.
+[    2.766139] systemd[1]: Mounted Kernel Configuration File System.
+[    2.771563] systemd[1]: Finished Apply Kernel Variables.
+[    2.779845] systemd[1]: Finished Load/Save Random Seed.
+[    2.779969] systemd[1]: First Boot Complete was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[    2.790559] systemd[1]: Started Journal Service.
+[    2.797462] systemd-journald[222]: Received client request to flush runtime journal.
+[    3.000691] Consider using thermal netlink events interface
+[    3.002146] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[    3.011983] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[    3.011991] _ART package 0 is invalid, ignored
+[    3.012000] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[    3.040964] Adding 35994228k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35994228k SSFS
+[    3.108490] mc: Linux media interface: v0.10
+[    3.136917] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[    3.171986] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[    3.176641] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[    3.181210] videodev: Linux video capture interface: v2.00
+[    3.181285] tpm tpm0: TPM is disabled/deactivated (0x7)
+[    3.181880] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[    3.210814] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[    3.211122] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[    3.337397] Bluetooth: Core ver 2.22
+[    3.337415] NET: Registered PF_BLUETOOTH protocol family
+[    3.337416] Bluetooth: HCI device and connection manager initialized
+[    3.337421] Bluetooth: HCI socket layer initialized
+[    3.337423] Bluetooth: L2CAP socket layer initialized
+[    3.337427] Bluetooth: SCO socket layer initialized
+[    3.360213] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[    3.361019] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    3.363901] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    3.364676] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    3.364680] cfg80211: failed to load regulatory.db
+[    3.388452] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input7
+[    3.388603] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input8
+[    3.388848] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[    3.481379] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[    3.746928] intel_rapl_common: Found RAPL domain package
+[    3.746943] intel_rapl_common: Found RAPL domain dram
+[    3.753972] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[    3.754001] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[    3.766620] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[    3.766622] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[    3.766623] RAPL PMU: hw unit of domain package 2^-14 Joules
+[    3.766624] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[    3.766625] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[    3.790838] i2c i2c-2: 2/2 memory slots populated (from DMI)
+[    3.791219] i2c i2c-2: Successfully instantiated SPD at 0x50
+[    3.954413] Intel(R) Wireless WiFi driver for Linux
+[    3.954454] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[    3.979310] Console: switching to colour dummy device 80x25
+[    3.979336] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    4.004926] cryptd: max_cpu_qlen set to 1000
+[    4.012594] intel_rapl_common: Found RAPL domain package
+[    4.012597] intel_rapl_common: Found RAPL domain core
+[    4.012598] intel_rapl_common: Found RAPL domain uncore
+[    4.012599] intel_rapl_common: Found RAPL domain dram
+[    4.037252] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[    4.038684] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[    4.054514] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[    4.077108] i915 0000:00:02.0: [drm] [ENCODER:102:DDI B/PHY B] is disabled/in DSI mode with an ungated DDI clock, gate it
+[    4.077113] i915 0000:00:02.0: [drm] [ENCODER:117:DDI C/PHY C] is disabled/in DSI mode with an ungated DDI clock, gate it
+[    4.160705] MXM: GUID detected in BIOS
+[    4.160752] ACPI Warning: \_SB.PCI0.GFX0._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[    4.160843] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[    4.161221] pci 0000:01:00.0: optimus capabilities: enabled, status dynamic power, hda bios codec supported
+[    4.161224] VGA switcheroo: detected Optimus DSM method \_SB_.PCI0.PEG0.PEGP handle
+[    4.161225] nouveau: detected PR support, will not use DSM
+[    4.161248] nouveau 0000:01:00.0: enabling device (0006 -> 0007)
+[    4.161405] nouveau 0000:01:00.0: NVIDIA GM107 (117310a2)
+[    4.165705] ee1004 2-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[    4.183365] dcdbas dcdbas: Dell Systems Management Base Driver (version 5.6.0-3.4)
+[    4.188994] acpi INT33D5:00: intel-hid: created platform device
+[    4.189102] input: Intel HID events as /devices/platform/INT33D5:00/input/input10
+[    4.191619] usbcore: registered new interface driver btusb
+[    4.196193] iTCO_vendor_support: vendor-support=0
+[    4.210540] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[    4.216548] Bluetooth: hci0: Device revision is 5
+[    4.216550] Bluetooth: hci0: Secure boot is enabled
+[    4.216551] Bluetooth: hci0: OTP lock is enabled
+[    4.216552] Bluetooth: hci0: API lock is enabled
+[    4.216553] Bluetooth: hci0: Debug lock is disabled
+[    4.216554] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[    4.233389] nouveau 0000:01:00.0: bios: version 82.07.82.00.29
+[    4.245459] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[    4.246861] AVX2 version of gcm_enc/dec engaged.
+[    4.246889] AES CTR mode by8 optimization enabled
+[    4.249000] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input11
+[    4.249121] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[    4.249261] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[    4.277358] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input12
+[    4.277450] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input13
+[    4.277563] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[    4.356574] dell_laptop: Using i8042 filter function for receiving events
+[    4.368311] mousedev: PS/2 mouse device common for all mice
+[    4.388038] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[    4.388095] thermal thermal_zone10: failed to read out thermal zone (-61)
+[    4.395106] nouveau 0000:01:00.0: fb: 2048 MiB GDDR5
+[    4.395120] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 022554 [ PRIVRING ]
+[    4.396541] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[    4.436895] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input15
+[    4.436941] usbcore: registered new interface driver uvcvideo
+[    4.438992] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[    4.439008] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[    4.462378] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[    4.481591] intel_tcc_cooling: Programmable TCC Offset detected
+[    4.536059] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[    4.538553] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[    5.228388] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[    5.231774] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[    5.232631] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input16
+[    5.232746] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[    5.232817] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input17
+[    5.236707] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    5.247622] fbcon: i915drmfb (fb0) is primary device
+[    5.260166] Console: switching to colour frame buffer device 240x67
+[    5.278267] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[    5.345130] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[    5.345135] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    5.345137] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    5.345139] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[    5.345140] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[    5.345141] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[    5.345142] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[    5.345143] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[    5.411363] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[    5.411402] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[    5.411434] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+[    5.411472] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input21
+[    5.411677] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input22
+[    5.411712] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input23
+[    5.508213] vga_switcheroo: enabled
+[    5.508225] nouveau 0000:01:00.0: DRM: VRAM: 2048 MiB
+[    5.508227] nouveau 0000:01:00.0: DRM: GART: 1048576 MiB
+[    5.508229] nouveau 0000:01:00.0: DRM: Pointer to TMDS table not found
+[    5.508231] nouveau 0000:01:00.0: DRM: DCB version 4.0
+[    5.508572] nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
+[    5.508745] [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 1
+[    5.508748] nouveau 0000:01:00.0: DRM: Disabling PCI power management to avoid bug
+[    5.672574] Bluetooth: hci0: Waiting for firmware download to complete
+[    5.673562] Bluetooth: hci0: Firmware loaded in 1394629 usecs
+[    5.673636] Bluetooth: hci0: Waiting for device to boot
+[    5.684570] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[    5.684595] Bluetooth: hci0: Device booted in 10761 usecs
+[    5.685369] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[    5.689611] Bluetooth: hci0: Applying Intel DDC parameters completed
+[    5.690574] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[    5.885007] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 619444 [ PRIVRING ]
+[    6.316590] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 619444 [ PRIVRING ]
+[   27.778960] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=23433 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=33533 DF PROTO=UDP SPT=34306 DPT=53 LEN=52 ] 
+[   30.342771] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=23858 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=7877 DF PROTO=UDP SPT=33289 DPT=53 LEN=61 ] 
+[   30.344033] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=23859 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=7878 DF PROTO=UDP SPT=33289 DPT=53 LEN=61 ] 
+[   30.348972] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=23860 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=57329 DF PROTO=UDP SPT=34040 DPT=53 LEN=56 ] 
+[   30.349625] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=23861 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=57330 DF PROTO=UDP SPT=34040 DPT=53 LEN=56 ] 
+[   30.538215] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=23869 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53613 DF PROTO=UDP SPT=51404 DPT=53 LEN=51 ] 
+[   30.538921] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=23870 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53614 DF PROTO=UDP SPT=51404 DPT=53 LEN=51 ] 
+[   30.719158] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=23892 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=59450 DF PROTO=UDP SPT=50014 DPT=53 LEN=63 ] 
+[   30.719755] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=23893 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=59451 DF PROTO=UDP SPT=50014 DPT=53 LEN=63 ] 
+[   31.663954] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=23926 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=33535 DF PROTO=UDP SPT=34306 DPT=53 LEN=52 ] 
+[   31.664428] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=23927 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=33536 DF PROTO=UDP SPT=34306 DPT=53 LEN=52 ] 
+[   31.886940] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=85 TOS=0x00 PREC=0xC0 TTL=64 ID=23930 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=6072 DF PROTO=UDP SPT=43172 DPT=53 LEN=37 ] 
+[   31.887191] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=23931 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=63771 DF PROTO=UDP SPT=49975 DPT=53 LEN=39 ] 
+[   31.887423] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=85 TOS=0x00 PREC=0xC0 TTL=64 ID=23932 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=6073 DF PROTO=UDP SPT=43172 DPT=53 LEN=37 ] 
+[   31.887576] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=23933 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=63772 DF PROTO=UDP SPT=49975 DPT=53 LEN=39 ] 
+[   31.900326] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=23937 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=42778 DF PROTO=UDP SPT=40203 DPT=53 LEN=50 ] 
+[   31.900641] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=23938 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=42779 DF PROTO=UDP SPT=40203 DPT=53 LEN=50 ] 
+[   32.343879] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=23953 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=61293 DF PROTO=UDP SPT=54166 DPT=53 LEN=52 ] 
+[   32.344396] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=23954 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=61294 DF PROTO=UDP SPT=54166 DPT=53 LEN=52 ] 
+[   35.344042] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=24571 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=7879 DF PROTO=UDP SPT=33289 DPT=53 LEN=61 ] 
+[   35.344783] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=24572 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=7880 DF PROTO=UDP SPT=33289 DPT=53 LEN=61 ] 
+[   35.347140] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=24573 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=57331 DF PROTO=UDP SPT=34040 DPT=53 LEN=56 ] 
+[   35.347597] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=24574 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=57332 DF PROTO=UDP SPT=34040 DPT=53 LEN=56 ] 
+[   35.536992] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=24589 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53615 DF PROTO=UDP SPT=51404 DPT=53 LEN=51 ] 
+[   35.537214] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=24590 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53616 DF PROTO=UDP SPT=51404 DPT=53 LEN=51 ] 
+[   35.717857] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=24619 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=59452 DF PROTO=UDP SPT=50014 DPT=53 LEN=63 ] 
+[   35.718068] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=24620 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=59453 DF PROTO=UDP SPT=50014 DPT=53 LEN=63 ] 
+[   36.264291] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=24721 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11230 DF PROTO=UDP SPT=45537 DPT=53 LEN=45 ] 
+[   36.676467] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=24735 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13958 DF PROTO=UDP SPT=34889 DPT=53 LEN=52 ] 
+[   36.677036] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=24736 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13959 DF PROTO=UDP SPT=34889 DPT=53 LEN=52 ] 
+[   36.894656] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=85 TOS=0x00 PREC=0xC0 TTL=64 ID=24779 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=22441 DF PROTO=UDP SPT=39588 DPT=53 LEN=37 ] 
+[   36.895218] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=85 TOS=0x00 PREC=0xC0 TTL=64 ID=24780 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=22442 DF PROTO=UDP SPT=39588 DPT=53 LEN=37 ] 
+[   36.896562] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=24781 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9753 DF PROTO=UDP SPT=41885 DPT=53 LEN=39 ] 
+[   36.896924] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=24782 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9754 DF PROTO=UDP SPT=41885 DPT=53 LEN=39 ] 
+[   36.904494] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=24784 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=7822 DF PROTO=UDP SPT=45309 DPT=53 LEN=50 ] 
+[   36.904812] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=24785 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=7823 DF PROTO=UDP SPT=45309 DPT=53 LEN=50 ] 
+[   37.353543] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=24914 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13006 DF PROTO=UDP SPT=48016 DPT=53 LEN=52 ] 
+[   37.354125] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=24915 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13007 DF PROTO=UDP SPT=48016 DPT=53 LEN=52 ] 
+[   39.378139] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=25492 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11232 DF PROTO=UDP SPT=45537 DPT=53 LEN=45 ] 
+[   39.378582] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=25493 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11233 DF PROTO=UDP SPT=45537 DPT=53 LEN=45 ] 
+[   40.351027] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=25721 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=36704 DF PROTO=UDP SPT=49091 DPT=53 LEN=61 ] 
+[   40.351631] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=25722 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=36705 DF PROTO=UDP SPT=49091 DPT=53 LEN=61 ] 
+[   40.353992] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=25723 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=34431 DF PROTO=UDP SPT=38732 DPT=53 LEN=56 ] 
+[   40.354514] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=25724 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=34432 DF PROTO=UDP SPT=38732 DPT=53 LEN=56 ] 
+[   40.542645] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=25779 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=7106 DF PROTO=UDP SPT=42338 DPT=53 LEN=51 ] 
+[   40.543266] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=25780 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=7107 DF PROTO=UDP SPT=42338 DPT=53 LEN=51 ] 
+[   40.722089] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=25828 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=30067 DF PROTO=UDP SPT=55164 DPT=53 LEN=63 ] 
+[   40.722639] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=25829 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=30068 DF PROTO=UDP SPT=55164 DPT=53 LEN=63 ] 
+[   41.673527] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=26000 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13960 DF PROTO=UDP SPT=34889 DPT=53 LEN=52 ] 
+[   41.673738] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=26001 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13961 DF PROTO=UDP SPT=34889 DPT=53 LEN=52 ] 
+[   41.893865] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=26047 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9755 DF PROTO=UDP SPT=41885 DPT=53 LEN=39 ] 
+[   41.894137] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=26048 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9756 DF PROTO=UDP SPT=41885 DPT=53 LEN=39 ] 
+[   41.894412] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=85 TOS=0x00 PREC=0xC0 TTL=64 ID=26049 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=22443 DF PROTO=UDP SPT=39588 DPT=53 LEN=37 ] 
+[   41.894645] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=85 TOS=0x00 PREC=0xC0 TTL=64 ID=26050 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=22444 DF PROTO=UDP SPT=39588 DPT=53 LEN=37 ] 
+[   41.907553] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=26052 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=7824 DF PROTO=UDP SPT=45309 DPT=53 LEN=50 ] 
+[   41.908225] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=26053 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=7825 DF PROTO=UDP SPT=45309 DPT=53 LEN=50 ] 
+[   42.350625] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=26098 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13008 DF PROTO=UDP SPT=48016 DPT=53 LEN=52 ] 
+[   42.351075] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=26099 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=13009 DF PROTO=UDP SPT=48016 DPT=53 LEN=52 ] 
+[   44.388572] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=26644 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43591 DF PROTO=UDP SPT=52020 DPT=53 LEN=45 ] 
+[   44.389179] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=26645 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43592 DF PROTO=UDP SPT=52020 DPT=53 LEN=45 ] 
+[   45.354011] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=26869 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=36706 DF PROTO=UDP SPT=49091 DPT=53 LEN=61 ] 
+[   45.355668] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=26870 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=36707 DF PROTO=UDP SPT=49091 DPT=53 LEN=61 ] 
+[   45.356239] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=26871 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=34433 DF PROTO=UDP SPT=38732 DPT=53 LEN=56 ] 
+[   45.356714] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=26872 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=34434 DF PROTO=UDP SPT=38732 DPT=53 LEN=56 ] 
+[   45.544895] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=26897 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=7108 DF PROTO=UDP SPT=42338 DPT=53 LEN=51 ] 
+[   45.545524] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=26898 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=7109 DF PROTO=UDP SPT=42338 DPT=53 LEN=51 ] 
+[   45.724032] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=26920 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=30069 DF PROTO=UDP SPT=55164 DPT=53 LEN=63 ] 
+[   45.724724] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=111 TOS=0x00 PREC=0xC0 TTL=64 ID=26921 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0x00 TTL=64 ID=30070 DF PROTO=UDP SPT=55164 DPT=53 LEN=63 ] 
+[   46.902605] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=27058 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=2680 DF PROTO=UDP SPT=37678 DPT=53 LEN=54 ] 
+[   46.903141] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=27059 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=2681 DF PROTO=UDP SPT=37678 DPT=53 LEN=54 ] 
+[   46.903764] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=27060 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47947 DF PROTO=UDP SPT=43099 DPT=53 LEN=52 ] 
+[   46.904292] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=27061 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47948 DF PROTO=UDP SPT=43099 DPT=53 LEN=52 ] 
+[   46.915849] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=27063 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=59214 DF PROTO=UDP SPT=46770 DPT=53 LEN=50 ] 
+[   46.916420] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=27064 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=59215 DF PROTO=UDP SPT=46770 DPT=53 LEN=50 ] 
+[   47.359678] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=27166 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=42946 DF PROTO=UDP SPT=54409 DPT=53 LEN=48 ] 
+[   47.360304] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=27167 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=42947 DF PROTO=UDP SPT=54409 DPT=53 LEN=48 ] 
+[   47.688170] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=27169 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=2065 DF PROTO=UDP SPT=57543 DPT=53 LEN=52 ] 
+[   47.688835] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=27170 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=2066 DF PROTO=UDP SPT=57543 DPT=53 LEN=52 ] 
+[   49.384155] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=27444 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43593 DF PROTO=UDP SPT=52020 DPT=53 LEN=45 ] 
+[   49.384722] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=27445 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43594 DF PROTO=UDP SPT=52020 DPT=53 LEN=45 ] 
+[   50.359594] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=27642 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=25951 DF PROTO=UDP SPT=58836 DPT=53 LEN=49 ] 
+[   50.360365] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=27643 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=25952 DF PROTO=UDP SPT=58836 DPT=53 LEN=49 ] 
+[   50.361927] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=27644 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51075 DF PROTO=UDP SPT=34469 DPT=53 LEN=45 ] 
+[   50.362468] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=27645 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51076 DF PROTO=UDP SPT=34469 DPT=53 LEN=45 ] 
+[   50.548268] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=27673 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12365 DF PROTO=UDP SPT=51728 DPT=53 LEN=49 ] 
+[   50.548765] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=27674 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12366 DF PROTO=UDP SPT=51728 DPT=53 LEN=49 ] 
+[   50.732177] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=27691 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=2623 DF PROTO=UDP SPT=39219 DPT=53 LEN=41 ] 
+[   50.732710] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=27692 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=2624 DF PROTO=UDP SPT=39219 DPT=53 LEN=41 ] 
+[   51.900846] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28013 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47949 DF PROTO=UDP SPT=43099 DPT=53 LEN=52 ] 
+[   51.901381] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28014 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47950 DF PROTO=UDP SPT=43099 DPT=53 LEN=52 ] 
+[   51.902049] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=28015 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=2682 DF PROTO=UDP SPT=37678 DPT=53 LEN=54 ] 
+[   51.902510] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=28016 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=2683 DF PROTO=UDP SPT=37678 DPT=53 LEN=54 ] 
+[   51.914625] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=28019 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=59216 DF PROTO=UDP SPT=46770 DPT=53 LEN=50 ] 
+[   51.915238] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=28020 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=59217 DF PROTO=UDP SPT=46770 DPT=53 LEN=50 ] 
+[   52.357334] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=28118 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=42948 DF PROTO=UDP SPT=54409 DPT=53 LEN=48 ] 
+[   52.357872] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=28119 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=42949 DF PROTO=UDP SPT=54409 DPT=53 LEN=48 ] 
+[   52.683611] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28200 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=2067 DF PROTO=UDP SPT=57543 DPT=53 LEN=52 ] 
+[   52.683895] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28201 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=2068 DF PROTO=UDP SPT=57543 DPT=53 LEN=52 ] 
+[   54.395362] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=28266 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=39513 DF PROTO=UDP SPT=38182 DPT=53 LEN=45 ] 
+[   54.395917] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=28267 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=39514 DF PROTO=UDP SPT=38182 DPT=53 LEN=45 ] 
+[   55.360702] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=28554 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=25953 DF PROTO=UDP SPT=58836 DPT=53 LEN=49 ] 
+[   55.361208] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=28555 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=25954 DF PROTO=UDP SPT=58836 DPT=53 LEN=49 ] 
+[   55.363926] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=28556 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51077 DF PROTO=UDP SPT=34469 DPT=53 LEN=45 ] 
+[   55.364403] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=28557 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51078 DF PROTO=UDP SPT=34469 DPT=53 LEN=45 ] 
+[   55.550612] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=28564 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12367 DF PROTO=UDP SPT=51728 DPT=53 LEN=49 ] 
+[   55.551140] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=28565 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12368 DF PROTO=UDP SPT=51728 DPT=53 LEN=49 ] 
+[   55.731361] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=28593 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=2625 DF PROTO=UDP SPT=39219 DPT=53 LEN=41 ] 
+[   55.731893] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=28594 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=2626 DF PROTO=UDP SPT=39219 DPT=53 LEN=41 ] 
+[   56.905454] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28631 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47134 DF PROTO=UDP SPT=44022 DPT=53 LEN=52 ] 
+[   56.906097] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28632 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47135 DF PROTO=UDP SPT=44022 DPT=53 LEN=52 ] 
+[   56.908337] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=28633 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=18413 DF PROTO=UDP SPT=42244 DPT=53 LEN=54 ] 
+[   56.908971] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=28634 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=18414 DF PROTO=UDP SPT=42244 DPT=53 LEN=54 ] 
+[   56.917638] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=28637 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=60229 DF PROTO=UDP SPT=41535 DPT=53 LEN=50 ] 
+[   56.918217] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=28638 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=60230 DF PROTO=UDP SPT=41535 DPT=53 LEN=50 ] 
+[   57.360531] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=28708 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=25417 DF PROTO=UDP SPT=54902 DPT=53 LEN=48 ] 
+[   57.360767] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=28709 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=25418 DF PROTO=UDP SPT=54902 DPT=53 LEN=48 ] 
+[   57.696712] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28768 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=56297 DF PROTO=UDP SPT=60417 DPT=53 LEN=52 ] 
+[   57.697255] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=28769 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=56298 DF PROTO=UDP SPT=60417 DPT=53 LEN=52 ] 
+[   59.390551] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=28988 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=39515 DF PROTO=UDP SPT=38182 DPT=53 LEN=45 ] 
+[   59.391049] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=28989 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=39516 DF PROTO=UDP SPT=38182 DPT=53 LEN=45 ] 
+[   60.367134] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=29099 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=1232 DF PROTO=UDP SPT=54752 DPT=53 LEN=49 ] 
+[   60.367727] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=29100 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=1233 DF PROTO=UDP SPT=54752 DPT=53 LEN=49 ] 
+[   60.369354] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=29101 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51635 DF PROTO=UDP SPT=54668 DPT=53 LEN=45 ] 
+[   60.369806] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=29102 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51636 DF PROTO=UDP SPT=54668 DPT=53 LEN=45 ] 
+[   60.554007] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=29116 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=2592 DF PROTO=UDP SPT=43144 DPT=53 LEN=49 ] 
+[   60.554269] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=29117 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=2593 DF PROTO=UDP SPT=43144 DPT=53 LEN=49 ] 
+[   60.734568] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=29153 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=46714 DF PROTO=UDP SPT=43676 DPT=53 LEN=41 ] 
+[   60.735033] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=29154 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=46715 DF PROTO=UDP SPT=43676 DPT=53 LEN=41 ] 
+[   61.908635] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=29365 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47136 DF PROTO=UDP SPT=44022 DPT=53 LEN=52 ] 
+[   61.909482] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=29366 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=47137 DF PROTO=UDP SPT=44022 DPT=53 LEN=52 ] 
+[   61.910974] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=29367 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=18415 DF PROTO=UDP SPT=42244 DPT=53 LEN=54 ] 
+[   61.911494] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=29368 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=18416 DF PROTO=UDP SPT=42244 DPT=53 LEN=54 ] 
+[   61.920431] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=29371 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=60231 DF PROTO=UDP SPT=41535 DPT=53 LEN=50 ] 
+[   61.921051] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=29372 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=60232 DF PROTO=UDP SPT=41535 DPT=53 LEN=50 ] 
+[   62.364923] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=29485 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=25419 DF PROTO=UDP SPT=54902 DPT=53 LEN=48 ] 
+[   62.365402] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=29486 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=25420 DF PROTO=UDP SPT=54902 DPT=53 LEN=48 ] 
+[   62.694092] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=29550 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=56299 DF PROTO=UDP SPT=60417 DPT=53 LEN=52 ] 
+[   62.694608] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=29551 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=56300 DF PROTO=UDP SPT=60417 DPT=53 LEN=52 ] 
+[   64.402556] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=29942 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=26609 DF PROTO=UDP SPT=60108 DPT=53 LEN=45 ] 
+[   64.403152] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=29943 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=26610 DF PROTO=UDP SPT=60108 DPT=53 LEN=45 ] 
+[   65.367255] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=30226 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=1234 DF PROTO=UDP SPT=54752 DPT=53 LEN=49 ] 
+[   65.367815] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=30227 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=1235 DF PROTO=UDP SPT=54752 DPT=53 LEN=49 ] 
+[   65.370548] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=30228 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51637 DF PROTO=UDP SPT=54668 DPT=53 LEN=45 ] 
+[   65.371094] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=30229 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=51638 DF PROTO=UDP SPT=54668 DPT=53 LEN=45 ] 
+[   65.557295] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=30255 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=2594 DF PROTO=UDP SPT=43144 DPT=53 LEN=49 ] 
+[   65.557764] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=30256 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=2595 DF PROTO=UDP SPT=43144 DPT=53 LEN=49 ] 
+[   65.737372] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=30262 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=46716 DF PROTO=UDP SPT=43676 DPT=53 LEN=41 ] 
+[   65.738226] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=30263 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=46717 DF PROTO=UDP SPT=43676 DPT=53 LEN=41 ] 
+[   66.915377] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=30294 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=15367 DF PROTO=UDP SPT=51723 DPT=53 LEN=41 ] 
+[   66.915876] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=30295 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=15368 DF PROTO=UDP SPT=51723 DPT=53 LEN=41 ] 
+[   66.916365] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=30296 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19360 DF PROTO=UDP SPT=54205 DPT=53 LEN=36 ] 
+[   66.916999] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=30297 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19361 DF PROTO=UDP SPT=54205 DPT=53 LEN=36 ] 
+[   66.925152] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=30298 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=59918 DF PROTO=UDP SPT=46731 DPT=53 LEN=52 ] 
+[   66.925694] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=30299 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=59919 DF PROTO=UDP SPT=46731 DPT=53 LEN=52 ] 
+[   67.368203] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=30352 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=33325 DF PROTO=UDP SPT=48210 DPT=53 LEN=51 ] 
+[   67.368725] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=30353 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=33326 DF PROTO=UDP SPT=48210 DPT=53 LEN=51 ] 
+[   69.397973] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=30851 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=26611 DF PROTO=UDP SPT=60108 DPT=53 LEN=45 ] 
+[   69.398541] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=30852 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=26612 DF PROTO=UDP SPT=60108 DPT=53 LEN=45 ] 
+[   70.372642] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=31082 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=18989 DF PROTO=UDP SPT=36923 DPT=53 LEN=56 ] 
+[   70.373301] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=31083 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=18990 DF PROTO=UDP SPT=36923 DPT=53 LEN=56 ] 
+[   70.376984] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=31084 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=44778 DF PROTO=UDP SPT=50224 DPT=53 LEN=45 ] 
+[   70.377518] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=31085 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=44779 DF PROTO=UDP SPT=50224 DPT=53 LEN=45 ] 
+[   70.561875] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=31096 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=65519 DF PROTO=UDP SPT=34607 DPT=53 LEN=49 ] 
+[   70.562044] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=31097 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=65520 DF PROTO=UDP SPT=34607 DPT=53 LEN=49 ] 
+[   70.740788] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=31138 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20482 DF PROTO=UDP SPT=47578 DPT=53 LEN=45 ] 
+[   70.741155] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=31139 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20483 DF PROTO=UDP SPT=47578 DPT=53 LEN=45 ] 
+[   71.917278] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=31333 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=15369 DF PROTO=UDP SPT=51723 DPT=53 LEN=41 ] 
+[   71.917895] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=31334 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=15370 DF PROTO=UDP SPT=51723 DPT=53 LEN=41 ] 
+[   71.918566] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=31335 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19362 DF PROTO=UDP SPT=54205 DPT=53 LEN=36 ] 
+[   71.919225] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=31336 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19363 DF PROTO=UDP SPT=54205 DPT=53 LEN=36 ] 
+[   71.927515] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=31338 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=59920 DF PROTO=UDP SPT=46731 DPT=53 LEN=52 ] 
+[   71.928103] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=31339 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=59921 DF PROTO=UDP SPT=46731 DPT=53 LEN=52 ] 
+[   72.371453] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=31426 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=33327 DF PROTO=UDP SPT=48210 DPT=53 LEN=51 ] 
+[   72.371904] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=31427 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=33328 DF PROTO=UDP SPT=48210 DPT=53 LEN=51 ] 
+[   74.407734] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=31813 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=25348 DF PROTO=UDP SPT=54886 DPT=53 LEN=45 ] 
+[   74.408502] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=31814 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=25349 DF PROTO=UDP SPT=54886 DPT=53 LEN=45 ] 
+[   75.374890] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=32033 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=18991 DF PROTO=UDP SPT=36923 DPT=53 LEN=56 ] 
+[   75.375501] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=32034 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=18992 DF PROTO=UDP SPT=36923 DPT=53 LEN=56 ] 
+[   75.378021] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32035 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=44780 DF PROTO=UDP SPT=50224 DPT=53 LEN=45 ] 
+[   75.378416] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32036 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=44781 DF PROTO=UDP SPT=50224 DPT=53 LEN=45 ] 
+[   75.567311] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=32058 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=65521 DF PROTO=UDP SPT=34607 DPT=53 LEN=49 ] 
+[   75.567829] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=32059 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=65522 DF PROTO=UDP SPT=34607 DPT=53 LEN=49 ] 
+[   75.708207] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32074 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=32117 DF PROTO=UDP SPT=40428 DPT=53 LEN=52 ] 
+[   75.708823] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32075 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=32118 DF PROTO=UDP SPT=40428 DPT=53 LEN=52 ] 
+[   75.744073] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32079 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20484 DF PROTO=UDP SPT=47578 DPT=53 LEN=45 ] 
+[   75.744629] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32080 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20485 DF PROTO=UDP SPT=47578 DPT=53 LEN=45 ] 
+[   76.923141] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=32413 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=53525 DF PROTO=UDP SPT=47620 DPT=53 LEN=41 ] 
+[   76.923870] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=32414 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=53526 DF PROTO=UDP SPT=47620 DPT=53 LEN=41 ] 
+[   76.924692] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=32415 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=7201 DF PROTO=UDP SPT=54366 DPT=53 LEN=36 ] 
+[   76.925206] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=32416 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=7202 DF PROTO=UDP SPT=54366 DPT=53 LEN=36 ] 
+[   76.932959] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32418 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=650 DF PROTO=UDP SPT=33712 DPT=53 LEN=52 ] 
+[   76.933612] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32419 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=651 DF PROTO=UDP SPT=33712 DPT=53 LEN=52 ] 
+[   77.377198] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=32470 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=191 DF PROTO=UDP SPT=56310 DPT=53 LEN=51 ] 
+[   77.377926] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=32471 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=192 DF PROTO=UDP SPT=56310 DPT=53 LEN=51 ] 
+[   79.403941] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32506 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=25350 DF PROTO=UDP SPT=54886 DPT=53 LEN=45 ] 
+[   79.404436] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32507 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=25351 DF PROTO=UDP SPT=54886 DPT=53 LEN=45 ] 
+[   80.379116] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=32602 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=13171 DF PROTO=UDP SPT=47918 DPT=53 LEN=56 ] 
+[   80.379724] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=32603 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=13172 DF PROTO=UDP SPT=47918 DPT=53 LEN=56 ] 
+[   80.382121] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32604 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=54557 DF PROTO=UDP SPT=55613 DPT=53 LEN=45 ] 
+[   80.382633] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32605 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=54558 DF PROTO=UDP SPT=55613 DPT=53 LEN=45 ] 
+[   80.571482] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=32662 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=46487 DF PROTO=UDP SPT=42787 DPT=53 LEN=49 ] 
+[   80.571979] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=32663 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=46488 DF PROTO=UDP SPT=42787 DPT=53 LEN=49 ] 
+[   80.704077] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32667 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=32119 DF PROTO=UDP SPT=40428 DPT=53 LEN=52 ] 
+[   80.704661] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32668 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=32120 DF PROTO=UDP SPT=40428 DPT=53 LEN=52 ] 
+[   80.748148] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32671 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=16735 DF PROTO=UDP SPT=41157 DPT=53 LEN=45 ] 
+[   80.748364] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=32672 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=16736 DF PROTO=UDP SPT=41157 DPT=53 LEN=45 ] 
+[   81.924108] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=32771 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=53527 DF PROTO=UDP SPT=47620 DPT=53 LEN=41 ] 
+[   81.924647] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=32772 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=53528 DF PROTO=UDP SPT=47620 DPT=53 LEN=41 ] 
+[   81.925147] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=32773 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=7203 DF PROTO=UDP SPT=54366 DPT=53 LEN=36 ] 
+[   81.925602] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=32774 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=7204 DF PROTO=UDP SPT=54366 DPT=53 LEN=36 ] 
+[   81.937401] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32776 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=652 DF PROTO=UDP SPT=33712 DPT=53 LEN=52 ] 
+[   81.938055] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=32777 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=653 DF PROTO=UDP SPT=33712 DPT=53 LEN=52 ] 
+[   82.380253] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=32847 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=193 DF PROTO=UDP SPT=56310 DPT=53 LEN=51 ] 
+[   82.380449] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=32848 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=194 DF PROTO=UDP SPT=56310 DPT=53 LEN=51 ] 
+[   84.415503] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=33367 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=21604 DF PROTO=UDP SPT=33288 DPT=53 LEN=45 ] 
+[   84.416164] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=33368 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=21605 DF PROTO=UDP SPT=33288 DPT=53 LEN=45 ] 
+[   85.380789] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=33411 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=13173 DF PROTO=UDP SPT=47918 DPT=53 LEN=56 ] 
+[   85.381366] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=104 TOS=0x00 PREC=0xC0 TTL=64 ID=33412 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=76 TOS=0x00 PREC=0x00 TTL=64 ID=13174 DF PROTO=UDP SPT=47918 DPT=53 LEN=56 ] 
+[   85.384219] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=33413 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=54559 DF PROTO=UDP SPT=55613 DPT=53 LEN=45 ] 
+[   85.384695] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=33414 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=54560 DF PROTO=UDP SPT=55613 DPT=53 LEN=45 ] 
+[   85.574071] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=33416 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=46489 DF PROTO=UDP SPT=42787 DPT=53 LEN=49 ] 
+[   85.574586] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=33417 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=46490 DF PROTO=UDP SPT=42787 DPT=53 LEN=49 ] 
+[   85.715869] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=33451 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=31262 DF PROTO=UDP SPT=37698 DPT=53 LEN=52 ] 
+[   85.716595] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=33452 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=31263 DF PROTO=UDP SPT=37698 DPT=53 LEN=52 ] 
+[   85.751398] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=33458 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=16737 DF PROTO=UDP SPT=41157 DPT=53 LEN=45 ] 
+[   85.752005] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=33459 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=16738 DF PROTO=UDP SPT=41157 DPT=53 LEN=45 ] 
+[   86.929190] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=33543 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12335 DF PROTO=UDP SPT=48682 DPT=53 LEN=49 ] 
+[   86.929652] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=33544 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12336 DF PROTO=UDP SPT=48682 DPT=53 LEN=49 ] 
+[   86.930478] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=33545 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=43817 DF PROTO=UDP SPT=45630 DPT=53 LEN=43 ] 
+[   86.930994] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=33546 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=43818 DF PROTO=UDP SPT=45630 DPT=53 LEN=43 ] 
+[   86.941125] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=33548 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=4857 DF PROTO=UDP SPT=41634 DPT=53 LEN=43 ] 
+[   86.941606] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=33549 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=4858 DF PROTO=UDP SPT=41634 DPT=53 LEN=43 ] 
+[   87.383636] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=33551 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=44986 DF PROTO=UDP SPT=45206 DPT=53 LEN=41 ] 
+[   87.383798] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=33552 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=44987 DF PROTO=UDP SPT=45206 DPT=53 LEN=41 ] 
+[   89.410666] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=34158 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=21606 DF PROTO=UDP SPT=33288 DPT=53 LEN=45 ] 
+[   89.411115] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=34159 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=21607 DF PROTO=UDP SPT=33288 DPT=53 LEN=45 ] 
+[   90.385940] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=34397 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=36585 DF PROTO=UDP SPT=49631 DPT=53 LEN=46 ] 
+[   90.386443] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=34398 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=36586 DF PROTO=UDP SPT=49631 DPT=53 LEN=46 ] 
+[   90.389029] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=34399 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=43639 DF PROTO=UDP SPT=33365 DPT=53 LEN=36 ] 
+[   90.389566] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=34400 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=43640 DF PROTO=UDP SPT=33365 DPT=53 LEN=36 ] 
+[   90.577850] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=34449 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53249 DF PROTO=UDP SPT=57772 DPT=53 LEN=51 ] 
+[   90.578372] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=34450 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53250 DF PROTO=UDP SPT=57772 DPT=53 LEN=51 ] 
+[   90.710713] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=34458 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=31264 DF PROTO=UDP SPT=37698 DPT=53 LEN=52 ] 
+[   90.711301] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=34459 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=31265 DF PROTO=UDP SPT=37698 DPT=53 LEN=52 ] 
+[   90.755325] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=34470 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=61983 DF PROTO=UDP SPT=52984 DPT=53 LEN=43 ] 
+[   90.755916] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=34471 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=61984 DF PROTO=UDP SPT=52984 DPT=53 LEN=43 ] 
+[   91.930582] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=34623 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12337 DF PROTO=UDP SPT=48682 DPT=53 LEN=49 ] 
+[   91.931191] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=34624 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=12338 DF PROTO=UDP SPT=48682 DPT=53 LEN=49 ] 
+[   91.931805] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=34625 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=43819 DF PROTO=UDP SPT=45630 DPT=53 LEN=43 ] 
+[   91.932617] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=34626 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=43820 DF PROTO=UDP SPT=45630 DPT=53 LEN=43 ] 
+[   91.943818] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=34629 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=4859 DF PROTO=UDP SPT=41634 DPT=53 LEN=43 ] 
+[   91.944439] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=34630 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=4860 DF PROTO=UDP SPT=41634 DPT=53 LEN=43 ] 
+[   92.387481] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=34657 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=44988 DF PROTO=UDP SPT=45206 DPT=53 LEN=41 ] 
+[   92.388101] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=34658 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=44989 DF PROTO=UDP SPT=45206 DPT=53 LEN=41 ] 
+[   94.422321] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=35080 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6292 DF PROTO=UDP SPT=38263 DPT=53 LEN=45 ] 
+[   94.422907] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=35081 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6293 DF PROTO=UDP SPT=38263 DPT=53 LEN=45 ] 
+[   95.387241] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=35093 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=36587 DF PROTO=UDP SPT=49631 DPT=53 LEN=46 ] 
+[   95.387788] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=35094 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=36588 DF PROTO=UDP SPT=49631 DPT=53 LEN=46 ] 
+[   95.391019] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=35095 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=43641 DF PROTO=UDP SPT=33365 DPT=53 LEN=36 ] 
+[   95.391604] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=35096 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=43642 DF PROTO=UDP SPT=33365 DPT=53 LEN=36 ] 
+[   95.580238] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=35135 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53251 DF PROTO=UDP SPT=57772 DPT=53 LEN=51 ] 
+[   95.580461] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=35136 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=53252 DF PROTO=UDP SPT=57772 DPT=53 LEN=51 ] 
+[   95.757406] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=35178 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=61985 DF PROTO=UDP SPT=52984 DPT=53 LEN=43 ] 
+[   95.758499] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=35179 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=61986 DF PROTO=UDP SPT=52984 DPT=53 LEN=43 ] 
+[   96.935321] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=35491 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=21236 DF PROTO=UDP SPT=51232 DPT=53 LEN=49 ] 
+[   96.935955] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=35492 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=21237 DF PROTO=UDP SPT=51232 DPT=53 LEN=49 ] 
+[   96.937221] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=35493 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55926 DF PROTO=UDP SPT=48337 DPT=53 LEN=43 ] 
+[   96.937830] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=35494 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55927 DF PROTO=UDP SPT=48337 DPT=53 LEN=43 ] 
+[   96.947759] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=35495 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=8158 DF PROTO=UDP SPT=46409 DPT=53 LEN=43 ] 
+[   96.948275] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=35496 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=8159 DF PROTO=UDP SPT=46409 DPT=53 LEN=43 ] 
+[   97.391324] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=35575 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=11372 DF PROTO=UDP SPT=42767 DPT=53 LEN=41 ] 
+[   97.391868] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=35576 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=11373 DF PROTO=UDP SPT=42767 DPT=53 LEN=41 ] 
+[   97.707673] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=35616 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=24742 DF PROTO=UDP SPT=48299 DPT=53 LEN=52 ] 
+[   97.708247] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=35617 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=24743 DF PROTO=UDP SPT=48299 DPT=53 LEN=52 ] 
+[   99.417365] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=35866 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6294 DF PROTO=UDP SPT=38263 DPT=53 LEN=45 ] 
+[   99.417921] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=35867 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6295 DF PROTO=UDP SPT=38263 DPT=53 LEN=45 ] 
+[  100.393182] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=36083 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=15146 DF PROTO=UDP SPT=37784 DPT=53 LEN=46 ] 
+[  100.393734] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=36084 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=15147 DF PROTO=UDP SPT=37784 DPT=53 LEN=46 ] 
+[  100.395556] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=36085 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=25903 DF PROTO=UDP SPT=56082 DPT=53 LEN=36 ] 
+[  100.396167] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=36086 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=25904 DF PROTO=UDP SPT=56082 DPT=53 LEN=36 ] 
+[  100.585587] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=36139 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=3752 DF PROTO=UDP SPT=46344 DPT=53 LEN=51 ] 
+[  100.586081] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=36140 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=3753 DF PROTO=UDP SPT=46344 DPT=53 LEN=51 ] 
+[  100.761192] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36183 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55325 DF PROTO=UDP SPT=39112 DPT=53 LEN=43 ] 
+[  100.761700] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36184 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55326 DF PROTO=UDP SPT=39112 DPT=53 LEN=43 ] 
+[  101.937380] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36326 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55928 DF PROTO=UDP SPT=48337 DPT=53 LEN=43 ] 
+[  101.937899] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36327 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55929 DF PROTO=UDP SPT=48337 DPT=53 LEN=43 ] 
+[  101.938726] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=36328 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=21238 DF PROTO=UDP SPT=51232 DPT=53 LEN=49 ] 
+[  101.939267] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=97 TOS=0x00 PREC=0xC0 TTL=64 ID=36329 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=21239 DF PROTO=UDP SPT=51232 DPT=53 LEN=49 ] 
+[  101.950715] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36330 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=8160 DF PROTO=UDP SPT=46409 DPT=53 LEN=43 ] 
+[  101.951271] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36331 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=8161 DF PROTO=UDP SPT=46409 DPT=53 LEN=43 ] 
+[  102.394619] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=36374 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=11374 DF PROTO=UDP SPT=42767 DPT=53 LEN=41 ] 
+[  102.395093] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=36375 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=11375 DF PROTO=UDP SPT=42767 DPT=53 LEN=41 ] 
+[  102.704008] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=36440 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=24744 DF PROTO=UDP SPT=48299 DPT=53 LEN=52 ] 
+[  102.704588] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=36441 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=24745 DF PROTO=UDP SPT=48299 DPT=53 LEN=52 ] 
+[  104.429423] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=36510 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53752 DF PROTO=UDP SPT=42507 DPT=53 LEN=45 ] 
+[  104.430095] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=36511 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53753 DF PROTO=UDP SPT=42507 DPT=53 LEN=45 ] 
+[  105.394353] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=36742 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=15148 DF PROTO=UDP SPT=37784 DPT=53 LEN=46 ] 
+[  105.394924] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=36743 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=15149 DF PROTO=UDP SPT=37784 DPT=53 LEN=46 ] 
+[  105.397174] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=36744 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=25905 DF PROTO=UDP SPT=56082 DPT=53 LEN=36 ] 
+[  105.397772] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=36745 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=25906 DF PROTO=UDP SPT=56082 DPT=53 LEN=36 ] 
+[  105.587497] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=36752 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=3754 DF PROTO=UDP SPT=46344 DPT=53 LEN=51 ] 
+[  105.588134] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=36753 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=3755 DF PROTO=UDP SPT=46344 DPT=53 LEN=51 ] 
+[  105.763786] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36796 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55327 DF PROTO=UDP SPT=39112 DPT=53 LEN=43 ] 
+[  105.763984] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=36797 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=55328 DF PROTO=UDP SPT=39112 DPT=53 LEN=43 ] 
+[  106.942427] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=37019 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=64845 DF PROTO=UDP SPT=35141 DPT=53 LEN=45 ] 
+[  106.942949] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=37020 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=64846 DF PROTO=UDP SPT=35141 DPT=53 LEN=45 ] 
+[  106.944272] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=37021 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=15435 DF PROTO=UDP SPT=53118 DPT=53 LEN=52 ] 
+[  106.944948] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=37022 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=15436 DF PROTO=UDP SPT=53118 DPT=53 LEN=52 ] 
+[  106.988330] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=37034 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=57127 DF PROTO=UDP SPT=38686 DPT=53 LEN=43 ] 
+[  106.988626] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=37035 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=57128 DF PROTO=UDP SPT=38686 DPT=53 LEN=43 ] 
+[  107.398372] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=37139 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=43505 DF PROTO=UDP SPT=41013 DPT=53 LEN=42 ] 
+[  107.398548] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=37140 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=43506 DF PROTO=UDP SPT=41013 DPT=53 LEN=42 ] 
+[  107.715617] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=37209 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=36870 DF PROTO=UDP SPT=45880 DPT=53 LEN=52 ] 
+[  107.716171] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=37210 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=36871 DF PROTO=UDP SPT=45880 DPT=53 LEN=52 ] 
+[  109.423870] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=37594 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53754 DF PROTO=UDP SPT=42507 DPT=53 LEN=45 ] 
+[  109.424369] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=37595 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53755 DF PROTO=UDP SPT=42507 DPT=53 LEN=45 ] 
+[  110.399981] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=37700 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=9081 DF PROTO=UDP SPT=35101 DPT=53 LEN=41 ] 
+[  110.400541] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=37701 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=9082 DF PROTO=UDP SPT=35101 DPT=53 LEN=41 ] 
+[  110.402513] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=37702 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=53925 DF PROTO=UDP SPT=53325 DPT=53 LEN=53 ] 
+[  110.403108] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=37703 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=53926 DF PROTO=UDP SPT=53325 DPT=53 LEN=53 ] 
+[  110.591556] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=37709 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=41546 DF PROTO=UDP SPT=58181 DPT=53 LEN=46 ] 
+[  110.592118] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=37710 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=41547 DF PROTO=UDP SPT=58181 DPT=53 LEN=46 ] 
+[  110.813279] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=37759 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=60203 DF PROTO=UDP SPT=49586 DPT=53 LEN=46 ] 
+[  110.813468] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=37760 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=60204 DF PROTO=UDP SPT=49586 DPT=53 LEN=46 ] 
+[  111.943885] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38074 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=64847 DF PROTO=UDP SPT=35141 DPT=53 LEN=45 ] 
+[  111.944468] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38075 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=64848 DF PROTO=UDP SPT=35141 DPT=53 LEN=45 ] 
+[  111.947441] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=38076 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=15437 DF PROTO=UDP SPT=53118 DPT=53 LEN=52 ] 
+[  111.947980] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=38077 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=15438 DF PROTO=UDP SPT=53118 DPT=53 LEN=52 ] 
+[  111.990525] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=38080 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=57129 DF PROTO=UDP SPT=38686 DPT=53 LEN=43 ] 
+[  111.990878] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=38081 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=57130 DF PROTO=UDP SPT=38686 DPT=53 LEN=43 ] 
+[  112.400618] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=38113 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=43507 DF PROTO=UDP SPT=41013 DPT=53 LEN=42 ] 
+[  112.401166] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=38114 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=43508 DF PROTO=UDP SPT=41013 DPT=53 LEN=42 ] 
+[  112.713997] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=38207 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=36872 DF PROTO=UDP SPT=45880 DPT=53 LEN=52 ] 
+[  112.714631] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=38208 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=36873 DF PROTO=UDP SPT=45880 DPT=53 LEN=52 ] 
+[  114.436389] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38336 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=32668 DF PROTO=UDP SPT=49974 DPT=53 LEN=45 ] 
+[  114.436994] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38337 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=32669 DF PROTO=UDP SPT=49974 DPT=53 LEN=45 ] 
+[  115.400670] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=38475 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=9083 DF PROTO=UDP SPT=35101 DPT=53 LEN=41 ] 
+[  115.401207] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=38476 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=9084 DF PROTO=UDP SPT=35101 DPT=53 LEN=41 ] 
+[  115.403889] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=38477 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=53927 DF PROTO=UDP SPT=53325 DPT=53 LEN=53 ] 
+[  115.404439] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=38478 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=53928 DF PROTO=UDP SPT=53325 DPT=53 LEN=53 ] 
+[  115.594035] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=38504 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=41548 DF PROTO=UDP SPT=58181 DPT=53 LEN=46 ] 
+[  115.594551] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=38505 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=41549 DF PROTO=UDP SPT=58181 DPT=53 LEN=46 ] 
+[  115.815181] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=38566 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=60205 DF PROTO=UDP SPT=49586 DPT=53 LEN=46 ] 
+[  115.815737] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=38567 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=60206 DF PROTO=UDP SPT=49586 DPT=53 LEN=46 ] 
+[  116.948677] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38837 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=62122 DF PROTO=UDP SPT=44850 DPT=53 LEN=45 ] 
+[  116.949338] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38838 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=62123 DF PROTO=UDP SPT=44850 DPT=53 LEN=45 ] 
+[  116.951147] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=38839 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=62744 DF PROTO=UDP SPT=36258 DPT=53 LEN=52 ] 
+[  116.951680] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=38840 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=62745 DF PROTO=UDP SPT=36258 DPT=53 LEN=52 ] 
+[  116.999667] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=38849 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=27305 DF PROTO=UDP SPT=50247 DPT=53 LEN=43 ] 
+[  117.000334] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=38850 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=27306 DF PROTO=UDP SPT=50247 DPT=53 LEN=43 ] 
+[  117.405341] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=38868 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=54575 DF PROTO=UDP SPT=45390 DPT=53 LEN=42 ] 
+[  117.405901] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=38869 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=54576 DF PROTO=UDP SPT=45390 DPT=53 LEN=42 ] 
+[  119.430899] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38913 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=32670 DF PROTO=UDP SPT=49974 DPT=53 LEN=45 ] 
+[  119.431749] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=38914 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=32671 DF PROTO=UDP SPT=49974 DPT=53 LEN=45 ] 
+[  120.406206] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=39068 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=49338 DF PROTO=UDP SPT=42911 DPT=53 LEN=41 ] 
+[  120.406710] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=39069 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=49339 DF PROTO=UDP SPT=42911 DPT=53 LEN=41 ] 
+[  120.408419] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=39070 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=28143 DF PROTO=UDP SPT=53418 DPT=53 LEN=53 ] 
+[  120.408945] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=39071 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=28144 DF PROTO=UDP SPT=53418 DPT=53 LEN=53 ] 
+[  120.597916] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39111 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=57327 DF PROTO=UDP SPT=59276 DPT=53 LEN=46 ] 
+[  120.598443] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39112 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=57328 DF PROTO=UDP SPT=59276 DPT=53 LEN=46 ] 
+[  120.817820] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39143 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=19589 DF PROTO=UDP SPT=33926 DPT=53 LEN=46 ] 
+[  120.818462] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39144 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=19590 DF PROTO=UDP SPT=33926 DPT=53 LEN=46 ] 
+[  121.950670] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=39390 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=62124 DF PROTO=UDP SPT=44850 DPT=53 LEN=45 ] 
+[  121.951219] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=39391 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=62125 DF PROTO=UDP SPT=44850 DPT=53 LEN=45 ] 
+[  121.954302] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=39392 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=62746 DF PROTO=UDP SPT=36258 DPT=53 LEN=52 ] 
+[  121.955328] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=39393 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=62747 DF PROTO=UDP SPT=36258 DPT=53 LEN=52 ] 
+[  121.997726] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=39395 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=27307 DF PROTO=UDP SPT=50247 DPT=53 LEN=43 ] 
+[  121.998246] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=39396 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=27308 DF PROTO=UDP SPT=50247 DPT=53 LEN=43 ] 
+[  122.407239] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=39513 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=54577 DF PROTO=UDP SPT=45390 DPT=53 LEN=42 ] 
+[  122.407826] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=39514 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=54578 DF PROTO=UDP SPT=45390 DPT=53 LEN=42 ] 
+[  124.441656] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=39553 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11819 DF PROTO=UDP SPT=55026 DPT=53 LEN=45 ] 
+[  124.442355] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=39554 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11820 DF PROTO=UDP SPT=55026 DPT=53 LEN=45 ] 
+[  125.407426] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=39795 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=49340 DF PROTO=UDP SPT=42911 DPT=53 LEN=41 ] 
+[  125.408074] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=39796 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=49341 DF PROTO=UDP SPT=42911 DPT=53 LEN=41 ] 
+[  125.410477] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=39797 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=28145 DF PROTO=UDP SPT=53418 DPT=53 LEN=53 ] 
+[  125.411025] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=101 TOS=0x00 PREC=0xC0 TTL=64 ID=39798 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=73 TOS=0x00 PREC=0x00 TTL=64 ID=28146 DF PROTO=UDP SPT=53418 DPT=53 LEN=53 ] 
+[  125.600754] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39844 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=57329 DF PROTO=UDP SPT=59276 DPT=53 LEN=46 ] 
+[  125.601269] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39845 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=57330 DF PROTO=UDP SPT=59276 DPT=53 LEN=46 ] 
+[  125.820627] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39878 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=19591 DF PROTO=UDP SPT=33926 DPT=53 LEN=46 ] 
+[  125.821104] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=94 TOS=0x00 PREC=0xC0 TTL=64 ID=39879 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=66 TOS=0x00 PREC=0x00 TTL=64 ID=19592 DF PROTO=UDP SPT=33926 DPT=53 LEN=46 ] 
+[  126.955473] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40032 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=49804 DF PROTO=UDP SPT=47778 DPT=53 LEN=43 ] 
+[  126.956024] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40033 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=49805 DF PROTO=UDP SPT=47778 DPT=53 LEN=43 ] 
+[  126.958205] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40034 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=20069 DF PROTO=UDP SPT=53713 DPT=53 LEN=43 ] 
+[  126.958799] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40035 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=20070 DF PROTO=UDP SPT=53713 DPT=53 LEN=43 ] 
+[  127.001251] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=40045 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=32474 DF PROTO=UDP SPT=45433 DPT=53 LEN=51 ] 
+[  127.001919] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=40046 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=32475 DF PROTO=UDP SPT=45433 DPT=53 LEN=51 ] 
+[  127.436659] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=40156 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=64073 DF PROTO=UDP SPT=43172 DPT=53 LEN=42 ] 
+[  127.437086] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=40157 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=64074 DF PROTO=UDP SPT=43172 DPT=53 LEN=42 ] 
+[  129.437448] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=40620 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11821 DF PROTO=UDP SPT=55026 DPT=53 LEN=45 ] 
+[  129.438101] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=40621 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=11822 DF PROTO=UDP SPT=55026 DPT=53 LEN=45 ] 
+[  131.446532] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=40781 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=5267 DF PROTO=UDP SPT=37971 DPT=53 LEN=41 ] 
+[  131.447148] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=40782 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=5268 DF PROTO=UDP SPT=37971 DPT=53 LEN=41 ] 
+[  131.957454] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40859 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=49806 DF PROTO=UDP SPT=47778 DPT=53 LEN=43 ] 
+[  131.958115] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40860 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=49807 DF PROTO=UDP SPT=47778 DPT=53 LEN=43 ] 
+[  131.960655] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40861 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=20071 DF PROTO=UDP SPT=53713 DPT=53 LEN=43 ] 
+[  131.961200] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=40862 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=20072 DF PROTO=UDP SPT=53713 DPT=53 LEN=43 ] 
+[  132.004939] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=40871 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=32476 DF PROTO=UDP SPT=45433 DPT=53 LEN=51 ] 
+[  132.005379] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=40872 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=32477 DF PROTO=UDP SPT=45433 DPT=53 LEN=51 ] 
+[  132.441224] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=40969 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=64075 DF PROTO=UDP SPT=43172 DPT=53 LEN=42 ] 
+[  132.441508] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=40970 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=64076 DF PROTO=UDP SPT=43172 DPT=53 LEN=42 ] 
+[  132.986950] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=41103 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=58962 DF PROTO=UDP SPT=39966 DPT=53 LEN=48 ] 
+[  132.987550] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=41104 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=58963 DF PROTO=UDP SPT=39966 DPT=53 LEN=48 ] 
+[  134.448180] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=41238 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6463 DF PROTO=UDP SPT=36372 DPT=53 LEN=45 ] 
+[  134.448853] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=41239 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6464 DF PROTO=UDP SPT=36372 DPT=53 LEN=45 ] 
+[  135.708866] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=41572 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=37044 DF PROTO=UDP SPT=47755 DPT=53 LEN=52 ] 
+[  135.709507] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=41573 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=37045 DF PROTO=UDP SPT=47755 DPT=53 LEN=52 ] 
+[  136.447286] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=41709 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=5269 DF PROTO=UDP SPT=37971 DPT=53 LEN=41 ] 
+[  136.447844] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=41710 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=5270 DF PROTO=UDP SPT=37971 DPT=53 LEN=41 ] 
+[  136.962615] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=41794 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=10926 DF PROTO=UDP SPT=45310 DPT=53 LEN=43 ] 
+[  136.963239] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=41795 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=10927 DF PROTO=UDP SPT=45310 DPT=53 LEN=43 ] 
+[  136.964292] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=41796 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=33492 DF PROTO=UDP SPT=51344 DPT=53 LEN=43 ] 
+[  136.964840] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=41797 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=33493 DF PROTO=UDP SPT=51344 DPT=53 LEN=43 ] 
+[  137.012238] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=41806 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=39537 DF PROTO=UDP SPT=50143 DPT=53 LEN=51 ] 
+[  137.012858] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=41807 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=39538 DF PROTO=UDP SPT=50143 DPT=53 LEN=51 ] 
+[  137.448829] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=41877 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=31261 DF PROTO=UDP SPT=52804 DPT=53 LEN=42 ] 
+[  137.449471] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=41878 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=31262 DF PROTO=UDP SPT=52804 DPT=53 LEN=42 ] 
+[  137.990631] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=41921 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=58964 DF PROTO=UDP SPT=39966 DPT=53 LEN=48 ] 
+[  137.991288] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=41922 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=58965 DF PROTO=UDP SPT=39966 DPT=53 LEN=48 ] 
+[  139.444028] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=42077 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6465 DF PROTO=UDP SPT=36372 DPT=53 LEN=45 ] 
+[  139.444652] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=42078 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=6466 DF PROTO=UDP SPT=36372 DPT=53 LEN=45 ] 
+[  140.364327] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42094 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=4988 DF PROTO=UDP SPT=48377 DPT=53 LEN=52 ] 
+[  140.364870] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42095 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=4989 DF PROTO=UDP SPT=48377 DPT=53 LEN=52 ] 
+[  140.704086] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42180 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=37046 DF PROTO=UDP SPT=47755 DPT=53 LEN=52 ] 
+[  140.704706] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42181 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=37047 DF PROTO=UDP SPT=47755 DPT=53 LEN=52 ] 
+[  141.452538] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=42322 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=62500 DF PROTO=UDP SPT=59004 DPT=53 LEN=41 ] 
+[  141.453194] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=42323 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=62501 DF PROTO=UDP SPT=59004 DPT=53 LEN=41 ] 
+[  141.964103] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=42404 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=10928 DF PROTO=UDP SPT=45310 DPT=53 LEN=43 ] 
+[  141.964689] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=42405 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=10929 DF PROTO=UDP SPT=45310 DPT=53 LEN=43 ] 
+[  141.967133] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=42406 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=33494 DF PROTO=UDP SPT=51344 DPT=53 LEN=43 ] 
+[  141.967711] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=42407 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=33495 DF PROTO=UDP SPT=51344 DPT=53 LEN=43 ] 
+[  142.011622] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=42415 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=39539 DF PROTO=UDP SPT=50143 DPT=53 LEN=51 ] 
+[  142.012273] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=42416 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=39540 DF PROTO=UDP SPT=50143 DPT=53 LEN=51 ] 
+[  142.449611] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=42428 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=31263 DF PROTO=UDP SPT=52804 DPT=53 LEN=42 ] 
+[  142.450210] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=42429 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=31264 DF PROTO=UDP SPT=52804 DPT=53 LEN=42 ] 
+[  142.995707] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=42587 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=39330 DF PROTO=UDP SPT=49988 DPT=53 LEN=48 ] 
+[  142.996296] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=42588 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=39331 DF PROTO=UDP SPT=49988 DPT=53 LEN=48 ] 
+[  144.457425] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=42672 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63227 DF PROTO=UDP SPT=34656 DPT=53 LEN=45 ] 
+[  144.458088] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=42673 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63228 DF PROTO=UDP SPT=34656 DPT=53 LEN=45 ] 
+[  145.364134] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42915 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=4990 DF PROTO=UDP SPT=48377 DPT=53 LEN=52 ] 
+[  145.364843] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42916 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=4991 DF PROTO=UDP SPT=48377 DPT=53 LEN=52 ] 
+[  145.716138] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42973 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=21458 DF PROTO=UDP SPT=49996 DPT=53 LEN=52 ] 
+[  145.716843] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=42974 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=21459 DF PROTO=UDP SPT=49996 DPT=53 LEN=52 ] 
+[  146.453754] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=42994 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=62502 DF PROTO=UDP SPT=59004 DPT=53 LEN=41 ] 
+[  146.454011] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=89 TOS=0x00 PREC=0xC0 TTL=64 ID=42995 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=61 TOS=0x00 PREC=0x00 TTL=64 ID=62503 DF PROTO=UDP SPT=59004 DPT=53 LEN=41 ] 
+[  146.976154] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=43117 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=53291 DF PROTO=UDP SPT=34851 DPT=53 LEN=43 ] 
+[  146.976825] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=91 TOS=0x00 PREC=0xC0 TTL=64 ID=43118 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=53292 DF PROTO=UDP SPT=34851 DPT=53 LEN=43 ] 
+[  147.029730] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=43126 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=27674 DF PROTO=UDP SPT=44813 DPT=53 LEN=51 ] 
+[  147.029974] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=99 TOS=0x00 PREC=0xC0 TTL=64 ID=43127 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=27675 DF PROTO=UDP SPT=44813 DPT=53 LEN=51 ] 
+[  147.473124] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=43190 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=35297 DF PROTO=UDP SPT=55915 DPT=53 LEN=42 ] 
+[  147.473346] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=90 TOS=0x00 PREC=0xC0 TTL=64 ID=43191 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=62 TOS=0x00 PREC=0x00 TTL=64 ID=35298 DF PROTO=UDP SPT=55915 DPT=53 LEN=42 ] 
+[  147.997467] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=43323 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=39332 DF PROTO=UDP SPT=49988 DPT=53 LEN=48 ] 
+[  147.997657] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=96 TOS=0x00 PREC=0xC0 TTL=64 ID=43324 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=39333 DF PROTO=UDP SPT=49988 DPT=53 LEN=48 ] 
+[  149.454208] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=43737 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63229 DF PROTO=UDP SPT=34656 DPT=53 LEN=45 ] 
+[  149.454863] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=43738 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63230 DF PROTO=UDP SPT=34656 DPT=53 LEN=45 ] 
+[  150.368599] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=43861 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=50580 DF PROTO=UDP SPT=57912 DPT=53 LEN=52 ] 
+[  150.369209] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=43862 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=50581 DF PROTO=UDP SPT=57912 DPT=53 LEN=52 ] 
+[  150.714061] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=43928 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=21460 DF PROTO=UDP SPT=49996 DPT=53 LEN=52 ] 
+[  150.714735] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=43929 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=21461 DF PROTO=UDP SPT=49996 DPT=53 LEN=52 ] 
