@@ -1,0 +1,1258 @@
+[Sep25 16:14] DMA: preallocated 4096 KiB GFP_KERNEL pool for atomic allocations
+[  +0.000007] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[  +0.000006] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[  +0.000076] thermal_sys: Registered thermal governor 'fair_share'
+[  +0.000002] thermal_sys: Registered thermal governor 'bang_bang'
+[  +0.000000] thermal_sys: Registered thermal governor 'step_wise'
+[  +0.000001] thermal_sys: Registered thermal governor 'user_space'
+[  +0.000009] cpuidle: using governor ladder
+[  +0.000003] cpuidle: using governor menu
+[  +0.000175] Simple Boot Flag at 0x47 set to 0x80
+[  +0.000000] HugeTLB: can optimize 4095 vmemmap pages for hugepages-1048576kB
+[  +0.000000] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[  +0.000000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[  +0.000000] dca service started, version 1.12.1
+[  +0.000000] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[  +0.000000] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+[  +0.000000] PCI: Using configuration type 1 for base access
+[  +0.000404] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[  +0.002160] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[  +0.000004] HugeTLB: can optimize 7 vmemmap pages for hugepages-2048kB
+[  +0.000000] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[  +0.000000] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[  +0.000000] cryptd: max_cpu_qlen set to 1000
+[  +0.015852] raid6: avx2x4   gen() 30446 MB/s
+[  +0.017006] raid6: avx2x2   gen() 30622 MB/s
+[  +0.017005] raid6: avx2x1   gen() 25996 MB/s
+[  +0.000002] raid6: using algorithm avx2x2 gen() 30622 MB/s
+[  +0.017005] raid6: .... xor() 16725 MB/s, rmw enabled
+[  +0.000001] raid6: using avx2x2 recovery algorithm
+[  +0.000039] ACPI: Added _OSI(Module Device)
+[  +0.000001] ACPI: Added _OSI(Processor Device)
+[  +0.000001] ACPI: Added _OSI(3.0 _SCP Extensions)
+[  +0.000001] ACPI: Added _OSI(Processor Aggregator Device)
+[  +0.000001] ACPI: Added _OSI(Linux-Dell-Video)
+[  +0.000001] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[  +0.000001] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[  +0.044130] ACPI: 13 ACPI AML tables successfully acquired and loaded
+[  +0.002753] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[  +0.011793] ACPI: Dynamic OEM Table Load:
+[  +0.000007] ACPI: SSDT 0xFFFF975780EF0800 00061E (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+[  +0.001345] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+[  +0.001603] ACPI: Dynamic OEM Table Load:
+[  +0.000006] ACPI: SSDT 0xFFFF975780DBCC00 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+[  +0.001948] ACPI: Dynamic OEM Table Load:
+[  +0.000006] ACPI: SSDT 0xFFFF975780EF5000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+[  +0.001666] ACPI: Dynamic OEM Table Load:
+[  +0.000005] ACPI: SSDT 0xFFFF9757801BE600 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+[  +0.003467] ACPI: EC: EC started
+[  +0.000001] ACPI: EC: interrupt blocked
+[  +0.002821] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0.000002] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC used to handle transactions
+[  +0.000002] ACPI: Interpreter enabled
+[  +0.000042] ACPI: PM: (supports S0 S4 S5)
+[  +0.000002] ACPI: Using IOAPIC for interrupt routing
+[  +0.000040] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[  +0.000002] PCI: Using E820 reservations for host bridge windows
+[  +0.000755] ACPI: Enabled 9 GPEs in block 00 to 7F
+[  +0.005264] ACPI: PM: Power Resource [PG00]
+[  +0.036831] ACPI: PM: Power Resource [PG01]
+[  +0.000482] ACPI: PM: Power Resource [PG02]
+[  +0.002016] ACPI: PM: Power Resource [WRST]
+[  +0.000365] ACPI: PM: Power Resource [WRST]
+[  +0.000363] ACPI: PM: Power Resource [WRST]
+[  +0.000364] ACPI: PM: Power Resource [WRST]
+[  +0.000363] ACPI: PM: Power Resource [WRST]
+[  +0.000361] ACPI: PM: Power Resource [WRST]
+[  +0.000364] ACPI: PM: Power Resource [WRST]
+[  +0.000365] ACPI: PM: Power Resource [WRST]
+[  +0.000362] ACPI: PM: Power Resource [WRST]
+[  +0.000363] ACPI: PM: Power Resource [WRST]
+[  +0.000360] ACPI: PM: Power Resource [WRST]
+[  +0.000364] ACPI: PM: Power Resource [WRST]
+[  +0.000361] ACPI: PM: Power Resource [WRST]
+[  +0.000368] ACPI: PM: Power Resource [WRST]
+[  +0.000364] ACPI: PM: Power Resource [WRST]
+[  +0.000361] ACPI: PM: Power Resource [WRST]
+[  +0.000363] ACPI: PM: Power Resource [WRST]
+[  +0.000365] ACPI: PM: Power Resource [WRST]
+[  +0.000364] ACPI: PM: Power Resource [WRST]
+[  +0.000728] ACPI: PM: Power Resource [WRST]
+[  +0.021290] ACPI: PM: Power Resource [FN00]
+[  +0.000090] ACPI: PM: Power Resource [FN01]
+[  +0.000086] ACPI: PM: Power Resource [FN02]
+[  +0.000086] ACPI: PM: Power Resource [FN03]
+[  +0.000086] ACPI: PM: Power Resource [FN04]
+[  +0.001064] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[  +0.000007] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+[  +0.000050] acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR]
+[  +0.000002] acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR]
+[  +0.000001] acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_ERROR)
+[  +0.000604] PCI host bridge to bus 0000:00
+[  +0.000003] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[  +0.000002] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[  +0.000001] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]
+[  +0.000002] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+[  +0.000001] pci_bus 0000:00: root bus resource [mem 0x40000000-0xdfffffff window]
+[  +0.000002] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+[  +0.000001] pci_bus 0000:00: root bus resource [bus 00-fe]
+[  +0.000018] pci 0000:00:00.0: [8086:1918] type 00 class 0x060000
+[  +0.000086] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
+[  +0.000065] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[  +0.000422] pci 0000:00:02.0: [8086:191d] type 00 class 0x030000
+[  +0.000019] pci 0000:00:02.0: reg 0x10: [mem 0xdb000000-0xdbffffff 64bit]
+[  +0.000014] pci 0000:00:02.0: reg 0x18: [mem 0x70000000-0x7fffffff 64bit pref]
+[  +0.000010] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[  +0.000028] pci 0000:00:02.0: BAR 2: assigned to efifb
+[  +0.000005] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[  +0.000156] pci 0000:00:04.0: [8086:1903] type 00 class 0x118000
+[  +0.000016] pci 0000:00:04.0: reg 0x10: [mem 0xddd20000-0xddd27fff 64bit]
+[  +0.000314] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
+[  +0.000028] pci 0000:00:14.0: reg 0x10: [mem 0xddd10000-0xddd1ffff 64bit]
+[  +0.000090] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[  +0.000268] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
+[  +0.000027] pci 0000:00:14.2: reg 0x10: [mem 0xddd38000-0xddd38fff 64bit]
+[  +0.000262] pci 0000:00:15.0: [8086:a160] type 00 class 0x118000
+[  +0.000172] pci 0000:00:15.0: reg 0x10: [mem 0xddd37000-0xddd37fff 64bit]
+[  +0.000861] pci 0000:00:15.1: [8086:a161] type 00 class 0x118000
+[  +0.000196] pci 0000:00:15.1: reg 0x10: [mem 0xddd36000-0xddd36fff 64bit]
+[  +0.000878] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
+[  +0.000026] pci 0000:00:16.0: reg 0x10: [mem 0xddd35000-0xddd35fff 64bit]
+[  +0.000072] pci 0000:00:16.0: PME# supported from D3hot
+[  +0.000248] pci 0000:00:17.0: [8086:a102] type 00 class 0x010601
+[  +0.000026] pci 0000:00:17.0: reg 0x10: [mem 0xddd30000-0xddd31fff]
+[  +0.000016] pci 0000:00:17.0: reg 0x14: [mem 0xddd34000-0xddd340ff]
+[  +0.000015] pci 0000:00:17.0: reg 0x18: [io  0xf090-0xf097]
+[  +0.000015] pci 0000:00:17.0: reg 0x1c: [io  0xf080-0xf083]
+[  +0.000015] pci 0000:00:17.0: reg 0x20: [io  0xf060-0xf07f]
+[  +0.000016] pci 0000:00:17.0: reg 0x24: [mem 0xddd33000-0xddd337ff]
+[  +0.000046] pci 0000:00:17.0: PME# supported from D3hot
+[  +0.000278] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
+[  +0.000089] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[  +0.000557] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
+[  +0.000090] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[  +0.000560] pci 0000:00:1d.0: [8086:a118] type 01 class 0x060400
+[  +0.000091] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[  +0.000555] pci 0000:00:1d.4: [8086:a11c] type 01 class 0x060400
+[  +0.000085] pci 0000:00:1d.4: PME# supported from D0 D3hot D3cold
+[  +0.000539] pci 0000:00:1d.6: [8086:a11e] type 01 class 0x060400
+[  +0.000091] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[  +0.000546] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
+[  +0.000373] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
+[  +0.000017] pci 0000:00:1f.2: reg 0x10: [mem 0xddd2c000-0xddd2ffff]
+[  +0.000291] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
+[  +0.000028] pci 0000:00:1f.3: reg 0x10: [mem 0xddd28000-0xddd2bfff 64bit]
+[  +0.000034] pci 0000:00:1f.3: reg 0x20: [mem 0xddd00000-0xddd0ffff 64bit]
+[  +0.000047] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[  +0.000600] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
+[  +0.000058] pci 0000:00:1f.4: reg 0x10: [mem 0xddd32000-0xddd320ff 64bit]
+[  +0.000072] pci 0000:00:1f.4: reg 0x20: [io  0xf040-0xf05f]
+[  +0.000330] pci 0000:01:00.0: [10de:13b1] type 00 class 0x030200
+[  +0.000022] pci 0000:01:00.0: reg 0x10: [mem 0xdc000000-0xdcffffff]
+[  +0.000021] pci 0000:01:00.0: reg 0x14: [mem 0xb0000000-0xbfffffff 64bit pref]
+[  +0.000020] pci 0000:01:00.0: reg 0x1c: [mem 0xc0000000-0xc1ffffff 64bit pref]
+[  +0.000013] pci 0000:01:00.0: reg 0x24: [io  0xe000-0xe07f]
+[  +0.000013] pci 0000:01:00.0: reg 0x30: [mem 0xdd000000-0xdd07ffff pref]
+[  +0.000019] pci 0000:01:00.0: Enabling HDA controller
+[  +0.000049] pci 0000:01:00.0: 64.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
+[  +0.000325] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0.000003] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0.000002] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0.000003] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0.000091] pci 0000:02:00.0: [8086:24f3] type 00 class 0x028000
+[  +0.000051] pci 0000:02:00.0: reg 0x10: [mem 0xddc00000-0xddc01fff 64bit]
+[  +0.000209] pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+[  +0.000478] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0.000004] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0.000062] pci 0000:03:00.0: [10ec:525a] type 00 class 0xff0000
+[  +0.000040] pci 0000:03:00.0: reg 0x14: [mem 0xdd100000-0xdd100fff]
+[  +0.000142] pci 0000:03:00.0: supports D1 D2
+[  +0.000001] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[  +0.000384] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0.000004] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0.000002] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0.000004] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0.000055] pci 0000:04:00.0: [1179:010f] type 00 class 0x010802
+[  +0.000027] pci 0000:04:00.0: reg 0x10: [mem 0xddb00000-0xddb03fff 64bit]
+[  +0.000064] pci 0000:04:00.0: enabling Extended Tags
+[  +0.003461] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0.000005] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0.000049] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0.000046] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0.000004] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0.000003] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0.002814] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[  +0.000067] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[  +0.000064] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+[  +0.000064] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[  +0.000063] ACPI: PCI: Interrupt link LNKE configured for IRQ 11
+[  +0.000064] ACPI: PCI: Interrupt link LNKF configured for IRQ 11
+[  +0.000065] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+[  +0.000064] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+[  +0.002181] ACPI: EC: interrupt unblocked
+[  +0.000002] ACPI: EC: event unblocked
+[  +0.000008] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0.000001] ACPI: EC: GPE=0x14
+[  +0.000001] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC initialization complete
+[  +0.000002] ACPI: \_SB_.PCI0.LPCB.ECDV: EC: Used to handle transactions and events
+[  +0.000063] iommu: Default domain type: Passthrough 
+[  +0.000000] SCSI subsystem initialized
+[  +0.000000] libata version 3.00 loaded.
+[  +0.000000] ACPI: bus type USB registered
+[  +0.000000] usbcore: registered new interface driver usbfs
+[  +0.000000] usbcore: registered new interface driver hub
+[  +0.000000] usbcore: registered new device driver usb
+[  +0.000000] pps_core: LinuxPPS API ver. 1 registered
+[  +0.000000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[  +0.000000] PTP clock support registered
+[  +0.000000] Registered efivars operations
+[  +0.000392] NetLabel: Initializing
+[  +0.000001] NetLabel:  domain hash size = 128
+[  +0.000000] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[  +0.000014] NetLabel:  unlabeled traffic allowed by default
+[  +0.000001] PCI: Using ACPI for IRQ routing
+[  +0.023680] PCI: pci_cache_line_size set to 64 bytes
+[  +0.000107] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+[  +0.000002] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[  +0.000001] e820: reserve RAM buffer [mem 0x2ab5e000-0x2bffffff]
+[  +0.000001] e820: reserve RAM buffer [mem 0x36353000-0x37ffffff]
+[  +0.000001] e820: reserve RAM buffer [mem 0x389c3000-0x3bffffff]
+[  +0.000001] e820: reserve RAM buffer [mem 0x3a500000-0x3bffffff]
+[  +0.000001] e820: reserve RAM buffer [mem 0x8be000000-0x8bfffffff]
+[  +0.000109] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[  +0.000002] pci 0000:00:02.0: vgaarb: bridge control possible
+[  +0.000001] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[  +0.000003] vgaarb: loaded
+[  +0.000909] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[  +0.000006] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+[  +0.002101] clocksource: Switched to clocksource tsc-early
+[  +0.000174] AppArmor: AppArmor Filesystem Enabled
+[  +0.000023] pnp: PnP ACPI init
+[  +0.000238] system 00:00: [io  0x0680-0x069f] has been reserved
+[  +0.000003] system 00:00: [io  0xffff] has been reserved
+[  +0.000001] system 00:00: [io  0xffff] has been reserved
+[  +0.000002] system 00:00: [io  0xffff] has been reserved
+[  +0.000001] system 00:00: [io  0x1800-0x18fe] has been reserved
+[  +0.000001] system 00:00: [io  0x164e-0x164f] has been reserved
+[  +0.000104] system 00:01: [io  0x0800-0x087f] has been reserved
+[  +0.000057] system 00:03: [io  0x1854-0x1857] has been reserved
+[  +0.000485] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[  +0.000003] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[  +0.000001] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[  +0.000001] system 00:06: [mem 0xe0000000-0xefffffff] has been reserved
+[  +0.000002] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[  +0.000001] system 00:06: [mem 0xfed90000-0xfed93fff] has been reserved
+[  +0.000001] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[  +0.000002] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[  +0.000001] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[  +0.000002] system 00:06: [mem 0xdffe0000-0xdfffffff] has been reserved
+[  +0.000047] system 00:07: [mem 0xfd000000-0xfdabffff] has been reserved
+[  +0.000002] system 00:07: [mem 0xfdad0000-0xfdadffff] has been reserved
+[  +0.000001] system 00:07: [mem 0xfdb00000-0xfdffffff] has been reserved
+[  +0.000002] system 00:07: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[  +0.000001] system 00:07: [mem 0xfe036000-0xfe03bfff] has been reserved
+[  +0.000001] system 00:07: [mem 0xfe03d000-0xfe3fffff] has been reserved
+[  +0.000002] system 00:07: [mem 0xfe410000-0xfe7fffff] has been reserved
+[  +0.000342] system 00:08: [io  0xff00-0xfffe] has been reserved
+[  +0.001432] system 00:09: [mem 0xfdaf0000-0xfdafffff] has been reserved
+[  +0.000005] system 00:09: [mem 0xfdae0000-0xfdaeffff] has been reserved
+[  +0.000001] system 00:09: [mem 0xfdac0000-0xfdacffff] has been reserved
+[  +0.002502] pnp: PnP ACPI: found 11 devices
+[  +0.005612] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[  +0.000067] NET: Registered PF_INET protocol family
+[  +0.000031] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0.002828] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+[  +0.000024] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[  +0.000005] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0.000234] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[  +0.000093] TCP: Hash tables configured (established 262144 bind 65536)
+[  +0.000041] MPTCP token hash table entries: 32768 (order: 7, 786432 bytes, linear)
+[  +0.000119] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0.000051] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0.000075] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[  +0.000005] NET: Registered PF_XDP protocol family
+[  +0.000007] pci 0000:00:1d.6: bridge window [io  0x1000-0x0fff] to [bus 06-3e] add_size 1000
+[  +0.000007] pci 0000:00:1d.6: BAR 13: assigned [io  0x2000-0x2fff]
+[  +0.000003] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0.000003] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0.000006] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0.000005] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0.000010] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0.000007] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0.000013] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0.000002] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0.000007] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0.000005] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0.000009] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0.000007] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0.000014] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0.000019] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0.000001] pci 0000:00:1d.6:   bridge window [io  0x2000-0x2fff]
+[  +0.000007] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0.000006] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0.000009] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[  +0.000002] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[  +0.000001] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000dffff window]
+[  +0.000002] pci_bus 0000:00: resource 7 [mem 0x000e4000-0x000effff window]
+[  +0.000001] pci_bus 0000:00: resource 8 [mem 0x40000000-0xdfffffff window]
+[  +0.000001] pci_bus 0000:00: resource 9 [mem 0xfd000000-0xfe7fffff window]
+[  +0.000002] pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+[  +0.000001] pci_bus 0000:01: resource 1 [mem 0xdc000000-0xdd0fffff]
+[  +0.000001] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0.000002] pci_bus 0000:02: resource 1 [mem 0xddc00000-0xddcfffff]
+[  +0.000001] pci_bus 0000:03: resource 0 [io  0xd000-0xdfff]
+[  +0.000001] pci_bus 0000:03: resource 1 [mem 0xdd100000-0xddafffff]
+[  +0.000001] pci_bus 0000:03: resource 2 [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0.000002] pci_bus 0000:04: resource 1 [mem 0xddb00000-0xddbfffff]
+[  +0.000001] pci_bus 0000:06: resource 0 [io  0x2000-0x2fff]
+[  +0.000001] pci_bus 0000:06: resource 1 [mem 0xc4000000-0xda0fffff]
+[  +0.000001] pci_bus 0000:06: resource 2 [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0.000451] PCI: CLS 0 bytes, default 64
+[  +0.000006] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[  +0.000000] software IO TLB: mapped [mem 0x0000000030841000-0x0000000034841000] (64MB)
+[  +0.000033] Trying to unpack rootfs image as initramfs...
+[  +0.002712] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[  +0.000002] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[  +0.000001] RAPL PMU: hw unit of domain package 2^-14 Joules
+[  +0.000001] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[  +0.000000] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[  +0.000408] kvm: support for 'kvm_intel' disabled by bios
+[  +0.001239] Initialise system trusted keyrings
+[  +0.000027] workingset: timestamp_bits=36 max_order=23 bucket_order=0
+[  +0.000990] zbud: loaded
+[  +0.000325] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[  +0.000047] fuse: init (API version 7.36)
+[  +0.000034] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+[  +0.008858] NET: Registered PF_ALG protocol family
+[  +0.000002] xor: automatically using best checksumming function   avx       
+[  +0.000002] Key type asymmetric registered
+[  +0.000001] Asymmetric key parser 'x509' registered
+[  +0.000009] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+[  +0.000018] io scheduler mq-deadline registered
+[  +0.000001] io scheduler kyber registered
+[  +0.000022] io scheduler bfq registered
+[  +0.002444] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[  +0.000416] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[  +0.000032] ACPI: button: Lid Switch [LID0]
+[  +0.000027] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[  +0.000023] ACPI: button: Power Button [PBTN]
+[  +0.000023] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[  +0.000014] ACPI: button: Sleep Button [SBTN]
+[  +0.000030] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[  +0.000024] ACPI: button: Power Button [PWRF]
+[  +0.000306] ioatdma: Intel(R) QuickData Technology Driver 5.00
+[  +0.000030] idxd driver failed to load without MOVDIR64B.
+[  +0.000045] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[  +0.001291] loop: module loaded
+[  +0.011158] isci: Intel(R) C600 SAS Controller Driver - version 1.2.0
+[  +0.000023] Microchip SmartPQI Driver (v2.1.14-035)
+[  +0.000014] megasas: 07.719.03.00-rc1
+[  +0.000019] mpt3sas version 42.100.00.00 loaded
+[  +0.000063] VMware PVSCSI driver - version 1.0.7.0-k
+[  +0.000013] hv_vmbus: registering driver hv_storvsc
+[  +0.000146] nvme nvme0: pci function 0000:04:00.0
+[  +0.000044] ahci 0000:00:17.0: version 3.0
+[  +0.000249] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x2 impl SATA mode
+[  +0.000004] ahci 0000:00:17.0: flags: 64bit ncq sntf stag pm led clo only pio slum part ems deso sadm sds apst 
+[  +0.000198] scsi host0: ahci
+[  +0.000080] scsi host1: ahci
+[  +0.000032] ata1: DUMMY
+[  +0.000003] ata2: SATA max UDMA/133 abar m2048@0xddd33000 port 0xddd33180 irq 128
+[  +0.000079] tun: Universal TUN/TAP device driver, 1.6
+[  +0.000031] e100: Intel(R) PRO/100 Network Driver
+[  +0.000001] e100: Copyright(c) 1999-2006 Intel Corporation
+[  +0.000150] Fusion MPT base driver 3.04.20
+[  +0.000001] Copyright (c) 1999-2008 LSI Corporation
+[  +0.000003] Fusion MPT SPI Host driver 3.04.20
+[  +0.000009] Fusion MPT SAS Host driver 3.04.20
+[  +0.000028] VFIO - User Level meta-driver version: 0.3
+[  +0.000001] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[  +0.000003] ehci-pci: EHCI PCI platform driver
+[  +0.000007] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[  +0.000002] ohci-pci: OHCI PCI platform driver
+[  +0.000006] uhci_hcd: USB Universal Host Controller Interface driver
+[  +0.000142] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0.000006] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[  +0.001063] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[  +0.000263] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0.000003] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[  +0.000002] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[  +0.000029] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.19
+[  +0.000002] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0.000002] usb usb1: Product: xHCI Host Controller
+[  +0.000001] usb usb1: Manufacturer: Linux 5.19.11-1-clear xhci-hcd
+[  +0.000001] usb usb1: SerialNumber: 0000:00:14.0
+[  +0.000090] hub 1-0:1.0: USB hub found
+[  +0.000016] hub 1-0:1.0: 16 ports detected
+[  +0.002237] nvme nvme0: 4/0/0 default/read/poll queues
+[  +0.000321] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.19
+[  +0.000003] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0.000001] usb usb2: Product: xHCI Host Controller
+[  +0.000002] usb usb2: Manufacturer: Linux 5.19.11-1-clear xhci-hcd
+[  +0.000001] usb usb2: SerialNumber: 0000:00:14.0
+[  +0.000069] hub 2-0:1.0: USB hub found
+[  +0.000012] hub 2-0:1.0: 10 ports detected
+[  +0.000390]  nvme0n1: p1 p2 p3
+[  +0.000226] usb: port power management may be unreliable
+[  +0.001013] usbcore: registered new interface driver uas
+[  +0.000011] usbcore: registered new interface driver usb-storage
+[  +0.000006] usbcore: registered new interface driver ums-realtek
+[  +0.000129] rtc_cmos 00:02: RTC can wake from S4
+[  +0.000664] rtc_cmos 00:02: registered as rtc0
+[  +0.000002] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+[  +0.000638] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+[  +0.000004] intel_pstate: Intel P-state driver initializing
+[  +0.000132] intel_pstate: HWP enabled
+[  +0.000007] sdhci: Secure Digital Host Controller Interface driver
+[  +0.000001] sdhci: Copyright(c) Pierre Ossman
+[  +0.000227] No iBFT detected.
+[  +0.000022] simple-framebuffer simple-framebuffer.0: framebuffer at 0x70000000, 0x7e9000 bytes
+[  +0.000002] simple-framebuffer simple-framebuffer.0: format=a8r8g8b8, mode=1920x1080x32, linelength=7680
+[  +0.000020] fbcon: Deferring console take-over
+[  +0.000001] simple-framebuffer simple-framebuffer.0: fb0: simplefb registered!
+[  +0.000004] EFI Variables Facility v0.08 2004-May-17
+[  +0.009880] pstore: Registered efi as persistent store backend
+[  +0.225320] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[  +0.067285] ata2: SATA link down (SStatus 4 SControl 300)
+[  +0.059764] usb 1-1: New USB device found, idVendor=0bda, idProduct=8152, bcdDevice=20.00
+[  +0.000003] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0.000002] usb 1-1: Product: USB 10/100 LAN
+[  +0.000001] usb 1-1: Manufacturer: Realtek
+[  +0.000014] usb 1-1: SerialNumber: 00E04C360696
+[  +0.038958] Freeing initrd memory: 10984K
+[  +0.005230] hid: raw HID events driver (C) Jiri Kosina
+[  +0.000095] usbcore: registered new interface driver usbhid
+[  +0.000001] usbhid: USB HID core driver
+[  +0.000103] intel_rapl_common: Found RAPL domain package
+[  +0.000002] intel_rapl_common: Found RAPL domain core
+[  +0.000001] intel_rapl_common: Found RAPL domain uncore
+[  +0.000001] intel_rapl_common: Found RAPL domain dram
+[  +0.000205] drop_monitor: Initializing network drop monitor service
+[  +0.000077] Initializing XFRM netlink socket
+[  +0.000053] NET: Registered PF_INET6 protocol family
+[  +0.000230] Segment Routing with IPv6
+[  +0.000004] In-situ OAM (IOAM) with IPv6
+[  +0.000029] NET: Registered PF_PACKET protocol family
+[  +0.000016] Bridge firewalling registered
+[  +0.000438] microcode: sig=0x506e3, pf=0x20, revision=0xf0
+[  +0.000059] microcode: Microcode Update Driver: v2.2.
+[  +0.000004] IPI shorthand broadcast: enabled
+[  +0.000003] AVX2 version of gcm_enc/dec engaged.
+[  +0.000092] AES CTR mode by8 optimization enabled
+[  +0.000201] sched_clock: Marking stable (3619207691, 2451279)->(3628561950, -6902980)
+[  +0.000176] registered taskstats version 1
+[  +0.000003] Loading compiled-in X.509 certificates
+[  +0.067905] usb 1-4: new full-speed USB device number 3 using xhci_hcd
+[  +0.106968] Loaded X.509 cert 'Build time autogenerated kernel key: 399fede3412bfc381073a0d773560c6d19c536b8'
+[  +0.000584] zswap: loaded using pool zstd/zbud
+[  +0.000090] Key type ._fscrypt registered
+[  +0.000001] Key type .fscrypt registered
+[  +0.000001] Key type fscrypt-provisioning registered
+[  +0.000198] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=no
+[  +0.000175] pstore: Using crash dump compression: zstd
+[  +0.002042] Key type encrypted registered
+[  +0.000108] AppArmor: AppArmor sha1 policy hashing enabled
+[  +0.016802] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[  +0.000003] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[  +0.017658] "cryptomgr_test" (261) uses obsolete ecb(arc4) skcipher
+[  +0.075891] RAS: Correctable Errors collector initialized.
+[  +0.000267] Freeing unused decrypted memory: 2036K
+[  +0.000237] Freeing unused kernel image (initmem) memory: 2152K
+[  +0.010991] Write protecting the kernel read-only data: 32768k
+[  +0.000390] Freeing unused kernel image (text/rodata gap) memory: 2028K
+[  +0.000168] Freeing unused kernel image (rodata/data gap) memory: 1440K
+[  +0.000018] Run /init as init process
+[  +0.000001]   with arguments:
+[  +0.000002]     /init
+[  +0.000000]   with environment:
+[  +0.000001]     HOME=/
+[  +0.000001]     TERM=linux
+[  +0.000000]     BOOT_IMAGE=/boot/vmlinuz-linux-clear
+[  +0.000001]     pti=on
+[  +0.000000]     slub_debug=P
+[  +0.000001]     page_poison=1
+[  +0.010404] usb 1-12: new high-speed USB device number 4 using xhci_hcd
+[  +0.011284] fbcon: Taking over console
+[  +0.000053] Console: switching to colour frame buffer device 240x67
+[  +0.090633] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[  +0.000318] i8042: Warning: Keylock active
+[  +0.002263] serio: i8042 KBD port at 0x60,0x64 irq 1
+[  +0.000004] serio: i8042 AUX port at 0x60,0x64 irq 12
+[  +0.032530] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+[  +0.026119] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[  +0.000004] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[  +0.000002] usb 1-12: Product: Integrated_Webcam_HD
+[  +0.000001] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[  +0.064219] PM: Image not found (code -22)
+[  +0.062576] tsc: Refined TSC clocksource calibration: 2807.999 MHz
+[  +0.000004] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c523a63, max_idle_ns: 440795252908 ns
+[  +0.000046] clocksource: Switched to clocksource tsc
+[  +1.422192] EXT4-fs (nvme0n1p2): mounted filesystem with ordered data mode. Quota mode: disabled.
+[  +0.049336] systemd[1]: systemd 251.4-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0.000005] systemd[1]: Detected architecture x86-64.
+[  +0.000498] systemd[1]: Hostname set to <precision5510>.
+[  +0.079171] systemd[1]: Queued start job for default target Graphical Interface.
+[  +0.001062] systemd[1]: Created slice Slice /system/getty.
+[  +0.000223] systemd[1]: Created slice Slice /system/modprobe.
+[  +0.000185] systemd[1]: Created slice Slice /system/systemd-fsck.
+[  +0.000143] systemd[1]: Created slice User and Session Slice.
+[  +0.000048] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[  +0.000040] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  +0.000112] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[  +0.000027] systemd[1]: Reached target Local Encrypted Volumes.
+[  +0.000011] systemd[1]: Reached target Login Prompts.
+[  +0.000010] systemd[1]: Reached target Local Integrity Protected Volumes.
+[  +0.000016] systemd[1]: Reached target Path Units.
+[  +0.000013] systemd[1]: Reached target Remote File Systems.
+[  +0.000007] systemd[1]: Reached target Slice Units.
+[  +0.000016] systemd[1]: Reached target Local Verity Protected Volumes.
+[  +0.000046] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[  +0.000189] systemd[1]: Listening on LVM2 poll daemon socket.
+[  +0.000740] systemd[1]: Listening on Process Core Dump Socket.
+[  +0.001513] systemd[1]: Journal Audit Socket was skipped because of a failed condition check (ConditionSecurity=audit).
+[  +0.000224] systemd[1]: Listening on Journal Socket (/dev/log).
+[  +0.000092] systemd[1]: Listening on Journal Socket.
+[  +0.000384] systemd[1]: Listening on udev Control Socket.
+[  +0.000072] systemd[1]: Listening on udev Kernel Socket.
+[  +0.000599] systemd[1]: Mounting Huge Pages File System...
+[  +0.000585] systemd[1]: Mounting POSIX Message Queue File System...
+[  +0.000598] systemd[1]: Mounting Kernel Debug File System...
+[  +0.000550] systemd[1]: Mounting Kernel Trace File System...
+[  +0.000630] systemd[1]: Starting Load AppArmor profiles...
+[  +0.000661] systemd[1]: Starting Create List of Static Device Nodes...
+[  +0.000548] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[  +0.000638] systemd[1]: Starting Load Kernel Module configfs...
+[  +0.000602] systemd[1]: Starting Load Kernel Module drm...
+[  +0.000575] systemd[1]: Starting Load Kernel Module fuse...
+[  +0.000057] systemd[1]: File System Check on Root Device was skipped because of a failed condition check (ConditionPathIsReadWrite=!/).
+[  +0.001117] systemd[1]: Starting Journal Service...
+[  +0.001035] Linux agpgart interface v0.103
+[  +0.000009] systemd[1]: Starting Load Kernel Modules...
+[  +0.000624] systemd[1]: Starting Remount Root and Kernel File Systems...
+[  +0.000058] systemd[1]: Repartition Root Disk was skipped because all trigger condition checks failed.
+[  +0.000521] systemd[1]: Starting Coldplug All udev Devices...
+[  +0.001008] systemd[1]: Mounted Huge Pages File System.
+[  +0.000079] systemd[1]: Mounted POSIX Message Queue File System.
+[  +0.000073] systemd[1]: Mounted Kernel Debug File System.
+[  +0.000064] systemd[1]: Mounted Kernel Trace File System.
+[  +0.000158] systemd[1]: Finished Create List of Static Device Nodes.
+[  +0.004557] EXT4-fs (nvme0n1p2): re-mounted. Quota mode: disabled.
+[  +0.003253] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[  +0.000110] systemd[1]: Finished Load Kernel Module configfs.
+[  +0.000180] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[  +0.000090] systemd[1]: Finished Load Kernel Module fuse.
+[  +0.000155] systemd[1]: Finished Load Kernel Modules.
+[  +0.000143] systemd[1]: Finished Remount Root and Kernel File Systems.
+[  +0.000699] systemd[1]: Mounting FUSE Control File System...
+[  +0.000576] systemd[1]: Mounting Kernel Configuration File System...
+[  +0.000096] systemd[1]: First Boot Wizard was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[  +0.000460] systemd[1]: Rebuild Hardware Database was skipped because of a failed condition check (ConditionNeedsUpdate=/etc).
+[  +0.000608] systemd[1]: Starting Load/Save Random Seed...
+[  +0.000500] ACPI: bus type drm_connector registered
+[  +0.000102] systemd[1]: Starting Apply Kernel Variables...
+[  +0.000089] systemd[1]: Create System Users was skipped because of a failed condition check (ConditionNeedsUpdate=/etc).
+[  +0.000643] systemd[1]: Starting Create Static Device Nodes in /dev...
+[  +0.000360] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[  +0.000114] systemd[1]: Finished Load Kernel Module drm.
+[  +0.001577] systemd[1]: Mounted FUSE Control File System.
+[  +0.002159] systemd[1]: Mounted Kernel Configuration File System.
+[  +0.004182] systemd[1]: Finished Apply Kernel Variables.
+[  +0.009886] systemd[1]: Finished Load/Save Random Seed.
+[  +0.000221] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[  +0.000106] systemd[1]: First Boot Complete was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[  +0.003130] systemd[1]: Started Journal Service.
+[  +0.007336] systemd-journald[357]: Received client request to flush runtime journal.
+[  +0.143247] acpi INT33D5:00: intel-hid: created platform device
+[  +0.000114] intel_pmc_core INT33A1:00:  initialized
+[  +0.000005] input: Intel HID events as /devices/platform/INT33D5:00/input/input6
+[  +0.003256] ACPI: AC: AC Adapter [AC] (on-line)
+[  +0.004178] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[  +0.000008] _ART package 0 is invalid, ignored
+[  +0.000006] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[  +0.045908] Consider using thermal netlink events interface
+[  +0.005573] ACPI: battery: Slot [BAT0] (battery present)
+[  +0.016440] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[  +0.068632] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[  +0.000215] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[  +0.003337] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[  +0.000765] Adding 35994228k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35994228k SSFS
+[  +0.007170] EDAC MC: Ver: 3.0.0
+[  +0.000679] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[  +0.016850] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[  +0.001661] nvidiafb 0000:01:00.0: enabling device (0006 -> 0007)
+[  +0.000065] nvidiafb: Device ID: 10de13b1 
+[  +0.000002] nvidiafb: unknown NV_ARCH
+[  +0.002092] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[  +0.003012] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[  +0.000033] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[  +0.001249] tpm tpm0: TPM is disabled/deactivated (0x7)
+[  +0.010773] intel_rapl_common: Found RAPL domain package
+[  +0.000003] intel_rapl_common: Found RAPL domain dram
+[  +0.012967] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[  +0.000209] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[  +0.000908] i2c i2c-1: 2/2 memory slots populated (from DMI)
+[  +0.002077] i2c i2c-1: Successfully instantiated SPD at 0x50
+[  +0.006841] thermal LNXTHERM:00: registered as thermal_zone10
+[  +0.000004] ACPI: thermal: Thermal Zone [THM] (25 C)
+[  +0.000132] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0.000008] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0.000147] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0.000004] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0.000053] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0.000004] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0.000044] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0.000003] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0.007203] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[  +0.000015] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[  +0.011408] mc: Linux media interface: v0.10
+[  +0.003225] usbcore: registered new interface driver r8152
+[  +0.036142] Setting dangerous option enable_fbc - tainting kernel
+[  +0.000609] Stack Depot allocating hash table with kvcalloc
+[  +0.002239] Console: switching to colour dummy device 80x25
+[  +0.000021] i915 0000:00:02.0: vgaarb: deactivate vga console
+[  +0.007056] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[  +0.002039] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[  +0.034425] i915 0000:00:02.0: [drm] [ENCODER:102:DDI B/PHY B] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0.000006] i915 0000:00:02.0: [drm] [ENCODER:117:DDI C/PHY C] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0.114388] usb 1-1: reset high-speed USB device number 2 using xhci_hcd
+[  +0.017968] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input8
+[  +0.000393] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input9
+[  +0.000049] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0.210723] videodev: Linux video capture interface: v2.00
+[  +0.036825] intel_tcc_cooling: Programmable TCC Offset detected
+[  +0.008529] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[  +0.000133] usbcore: registered new interface driver cdc_ether
+[  +0.013793] Bluetooth: Core ver 2.22
+[  +0.000014] NET: Registered PF_BLUETOOTH protocol family
+[  +0.000001] Bluetooth: HCI device and connection manager initialized
+[  +0.000004] Bluetooth: HCI socket layer initialized
+[  +0.000002] Bluetooth: L2CAP socket layer initialized
+[  +0.000002] Bluetooth: SCO socket layer initialized
+[  +0.012709] r8152 1-1:1.0 eth0: v1.12.13
+[  +0.000373] usbcore: registered new interface driver btusb
+[  +0.004755] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[  +0.006794] Bluetooth: hci0: Device revision is 5
+[  +0.000003] Bluetooth: hci0: Secure boot is enabled
+[  +0.000000] Bluetooth: hci0: OTP lock is enabled
+[  +0.000001] Bluetooth: hci0: API lock is enabled
+[  +0.000001] Bluetooth: hci0: Debug lock is disabled
+[  +0.000000] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[  +0.002387] r8152 1-1:1.0: skip request firmware
+[  +0.001597] dcdbas dcdbas: Dell Systems Management Base Driver (version 5.6.0-3.4)
+[  +0.008198] ee1004 1-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[  +0.004153] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input11
+[  +0.013908] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[  +0.004320] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[  +0.000037] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[  +0.000002] cfg80211: failed to load regulatory.db
+[  +0.011814] MXM: GUID detected in BIOS
+[  +0.000069] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[  +0.003117] Intel(R) Wireless WiFi driver for Linux
+[  +0.000040] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[  +0.002735] ACPI Warning: \_SB.PCI0.GFX0._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[  +0.000331] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[  +0.001241] r8152 1-1:1.0 enp0s20f0u1: renamed from eth0
+[  +0.000063] bpfilter: Loaded bpfilter_umh pid 515
+[  +0.000227] Started bpfilter
+[  +0.005128] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input12
+[  +0.000046] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input13
+[  +0.000051] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0.002599] pci 0000:01:00.0: optimus capabilities: enabled, status dynamic power, hda bios codec supported
+[  +0.007557] VGA switcheroo: detected Optimus DSM method \_SB_.PCI0.PEG0.PEGP handle
+[  +0.000001] nouveau: detected PR support, will not use DSM
+[  +0.000089] nouveau 0000:01:00.0: NVIDIA GM107 (117310a2)
+[  +0.026841] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input15
+[  +0.002002] usbcore: registered new interface driver uvcvideo
+[  +0.023216] dell_laptop: Using i8042 filter function for receiving events
+[  +0.008713] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[  +0.023226] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[  +0.000122] thermal thermal_zone11: failed to read out thermal zone (-61)
+[  +0.018482] nouveau 0000:01:00.0: bios: version 82.07.82.00.29
+[  +0.042116] rcu: INFO: rcu_sched detected expedited stalls on CPUs/tasks: { 2-... } 22 jiffies s: 777 root: 0x4/.
+[  +0.000005] rcu: blocking rcu_node structures (internal RCU debug):
+[  +0.000001] Task dump for CPU 2:
+[  +0.000001] task:systemd-udevd   state:R  running task     stack:    0 pid:  404 ppid:   381 flags:0x0000400a
+[  +0.000003] Call Trace:
+[  +0.000002]  <TASK>
+[  +0.000002]  ? nvbios_exec+0x42/0xc0 [nouveau]
+[  +0.000064]  ? init_sub_direct+0x7e/0xc0 [nouveau]
+[  +0.000053]  ? nvbios_exec+0x42/0xc0 [nouveau]
+[  +0.000050]  ? init_sub_direct+0x7e/0xc0 [nouveau]
+[  +0.000050]  ? nvbios_exec+0x42/0xc0 [nouveau]
+[  +0.000048]  ? init_sub_direct+0x7e/0xc0 [nouveau]
+[  +0.000049]  ? nvbios_exec+0x42/0xc0 [nouveau]
+[  +0.000048]  ? nvbios_post+0x8f/0x1c0 [nouveau]
+[  +0.000048]  ? nv04_devinit_post+0x11/0x40 [nouveau]
+[  +0.000054]  ? nvkm_devinit_post+0x27/0x80 [nouveau]
+[  +0.000057]  ? nvkm_device_init+0xae/0x1c0 [nouveau]
+[  +0.000070]  ? nvkm_udevice_init+0x4b/0x80 [nouveau]
+[  +0.000066]  ? nvkm_object_init+0x3d/0x140 [nouveau]
+[  +0.000050]  ? nvkm_ioctl_new+0x1ab/0x280 [nouveau]
+[  +0.000049]  ? nvkm_client_notify+0x40/0x40 [nouveau]
+[  +0.000047]  ? nvkm_udevice_rd08+0x40/0x40 [nouveau]
+[  +0.000068]  ? nvkm_ioctl+0xde/0x1c0 [nouveau]
+[  +0.000048]  ? nvkm_client_ioctl+0x9/0x40 [nouveau]
+[  +0.000070]  ? nvif_object_ctor+0x108/0x1c0 [nouveau]
+[  +0.000048]  ? nvif_device_ctor+0x1d/0x80 [nouveau]
+[  +0.000047]  ? nouveau_cli_init+0x14c/0x480 [nouveau]
+[  +0.000069]  ? nouveau_drm_device_init+0x62/0x300 [nouveau]
+[  +0.000067]  ? nouveau_drm_probe+0x108/0x1c0 [nouveau]
+[  +0.000065]  ? __pm_runtime_resume+0x56/0x80
+[  +0.000003]  ? local_pci_probe+0x42/0xc0
+[  +0.000003]  ? pci_device_probe+0xb1/0x240
+[  +0.000002]  ? sysfs_create_link+0x1c/0x80
+[  +0.000003]  ? really_probe+0x1d2/0x3c0
+[  +0.000002]  ? pm_runtime_barrier+0x43/0xc0
+[  +0.000001]  ? __driver_probe_device+0x118/0x1c0
+[  +0.000002]  ? driver_probe_device+0x1f/0xc0
+[  +0.000001]  ? __driver_attach+0xe6/0x200
+[  +0.000002]  ? __device_attach_driver+0x140/0x140
+[  +0.000001]  ? bus_for_each_dev+0x67/0xc0
+[  +0.000003]  ? driver_attach+0x19/0x40
+[  +0.000001]  ? bus_add_driver+0x173/0x240
+[  +0.000002]  ? driver_register+0x8a/0x100
+[  +0.000002]  ? 0xffffffffc0c5c000
+[  +0.000001]  ? __pci_register_driver+0x63/0x80
+[  +0.000002]  ? nouveau_drm_init+0x18b/0x1000 [nouveau]
+[  +0.000048]  ? do_one_initcall+0x45/0x200
+[  +0.000002]  ? kmem_cache_alloc_trace+0x149/0x280
+[  +0.000003]  ? do_init_module+0x4b/0x200
+[  +0.000002]  ? load_module+0x961/0xa00
+[  +0.000001]  ? check_heap_object+0x11c/0x1c0
+[  +0.000003]  ? __check_object_size.part.0+0x4d/0x100
+[  +0.000002]  ? __do_sys_init_module+0x147/0x1c0
+[  +0.000001]  ? __do_sys_init_module+0x147/0x1c0
+[  +0.000002]  ? __x64_sys_init_module+0x15/0x40
+[  +0.000001]  ? do_syscall_64+0x3a/0xc0
+[  +0.000003]  ? irqentry_exit_to_user_mode+0x9/0x40
+[  +0.000001]  ? irqentry_exit+0x21/0x40
+[  +0.000001]  ? exc_page_fault+0x72/0x140
+[  +0.000003]  ? entry_SYSCALL_64_after_hwframe+0x4b/0xb5
+[  +0.000002]  </TASK>
+[  +0.011679] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[  +0.057412] rcu: INFO: rcu_sched detected expedited stalls on CPUs/tasks: { 2-... } 93 jiffies s: 777 root: 0x4/.
+[  +0.000004] rcu: blocking rcu_node structures (internal RCU debug):
+[  +0.000001] Task dump for CPU 2:
+[  +0.000001] task:systemd-udevd   state:R  running task     stack:    0 pid:  404 ppid:   381 flags:0x0000400a
+[  +0.000003] Call Trace:
+[  +0.000001]  <TASK>
+[  +0.000002]  ? delay_tsc+0x31/0x80
+[  +0.000004]  ? __ndelay+0x40/0x40
+[  +0.000002]  ? __const_udelay+0x38/0x80
+[  +0.000002]  ? init_condition_time+0xb9/0x100 [nouveau]
+[  +0.000062]  ? nvbios_exec+0x42/0xc0 [nouveau]
+[  +0.000051]  ? init_sub_direct+0x7e/0xc0 [nouveau]
+[  +0.000049]  ? nvbios_exec+0x42/0xc0 [nouveau]
+[  +0.000049]  ? nvbios_post+0x8f/0x1c0 [nouveau]
+[  +0.000049]  ? nv04_devinit_post+0x11/0x40 [nouveau]
+[  +0.000054]  ? nvkm_devinit_post+0x27/0x80 [nouveau]
+[  +0.000053]  ? nvkm_device_init+0xae/0x1c0 [nouveau]
+[  +0.000069]  ? nvkm_udevice_init+0x4b/0x80 [nouveau]
+[  +0.000066]  ? nvkm_object_init+0x3d/0x140 [nouveau]
+[  +0.000050]  ? nvkm_ioctl_new+0x1ab/0x280 [nouveau]
+[  +0.000049]  ? nvkm_client_notify+0x40/0x40 [nouveau]
+[  +0.000047]  ? nvkm_udevice_rd08+0x40/0x40 [nouveau]
+[  +0.000068]  ? nvkm_ioctl+0xde/0x1c0 [nouveau]
+[  +0.000048]  ? nvkm_client_ioctl+0x9/0x40 [nouveau]
+[  +0.000070]  ? nvif_object_ctor+0x108/0x1c0 [nouveau]
+[  +0.000048]  ? nvif_device_ctor+0x1d/0x80 [nouveau]
+[  +0.000046]  ? nouveau_cli_init+0x14c/0x480 [nouveau]
+[  +0.000100]  ? nouveau_drm_device_init+0x62/0x300 [nouveau]
+[  +0.000067]  ? nouveau_drm_probe+0x108/0x1c0 [nouveau]
+[  +0.000065]  ? __pm_runtime_resume+0x56/0x80
+[  +0.000002]  ? local_pci_probe+0x42/0xc0
+[  +0.000003]  ? pci_device_probe+0xb1/0x240
+[  +0.000002]  ? sysfs_create_link+0x1c/0x80
+[  +0.000004]  ? really_probe+0x1d2/0x3c0
+[  +0.000001]  ? pm_runtime_barrier+0x43/0xc0
+[  +0.000002]  ? __driver_probe_device+0x118/0x1c0
+[  +0.000001]  ? driver_probe_device+0x1f/0xc0
+[  +0.000002]  ? __driver_attach+0xe6/0x200
+[  +0.000001]  ? __device_attach_driver+0x140/0x140
+[  +0.000001]  ? bus_for_each_dev+0x67/0xc0
+[  +0.000003]  ? driver_attach+0x19/0x40
+[  +0.000001]  ? bus_add_driver+0x173/0x240
+[  +0.000002]  ? driver_register+0x8a/0x100
+[  +0.000002]  ? 0xffffffffc0c5c000
+[  +0.000001]  ? __pci_register_driver+0x63/0x80
+[  +0.000001]  ? nouveau_drm_init+0x18b/0x1000 [nouveau]
+[  +0.000049]  ? do_one_initcall+0x45/0x200
+[  +0.000002]  ? kmem_cache_alloc_trace+0x149/0x280
+[  +0.000003]  ? do_init_module+0x4b/0x200
+[  +0.000002]  ? load_module+0x961/0xa00
+[  +0.000001]  ? check_heap_object+0x11c/0x1c0
+[  +0.000002]  ? __check_object_size.part.0+0x4d/0x100
+[  +0.000002]  ? __do_sys_init_module+0x147/0x1c0
+[  +0.000002]  ? __do_sys_init_module+0x147/0x1c0
+[  +0.000001]  ? __x64_sys_init_module+0x15/0x40
+[  +0.000002]  ? do_syscall_64+0x3a/0xc0
+[  +0.000003]  ? irqentry_exit_to_user_mode+0x9/0x40
+[  +0.000001]  ? irqentry_exit+0x21/0x40
+[  +0.000002]  ? exc_page_fault+0x72/0x140
+[  +0.000002]  ? entry_SYSCALL_64_after_hwframe+0x4b/0xb5
+[  +0.000003]  </TASK>
+[  +0.011830] nouveau 0000:01:00.0: fb: 2048 MiB GDDR5
+[  +0.000013] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 022554 [ PRIVRING ]
+[  +0.001958] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[  +0.001895] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[  +0.565649] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[  +0.001975] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[  +0.000745] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input16
+[  +0.000869] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[  +0.000024] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input17
+[  +0.000964] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[  +0.000185] i915 0000:00:02.0: [drm] DRM_I915_DEBUG_RUNTIME_PM enabled
+[  +0.009102] fbcon: i915drmfb (fb0) is primary device
+[  +0.015364] Console: switching to colour frame buffer device 240x67
+[  +0.017997] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[  +0.061823] vga_switcheroo: enabled
+[  +0.000011] nouveau 0000:01:00.0: DRM: VRAM: 2048 MiB
+[  +0.000002] nouveau 0000:01:00.0: DRM: GART: 1048576 MiB
+[  +0.000002] nouveau 0000:01:00.0: DRM: Pointer to TMDS table not found
+[  +0.000001] nouveau 0000:01:00.0: DRM: DCB version 4.0
+[  +0.000412] nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
+[  +0.003337] [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 1
+[  +0.000003] nouveau 0000:01:00.0: DRM: Disabling PCI power management to avoid bug
+[  +0.012684] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[  +0.000004] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  +0.000002] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[  +0.000002] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[  +0.000000] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[  +0.000002] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[  +0.000001] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[  +0.000001] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[  +0.055850] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[  +0.000041] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[  +0.000391] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+[  +0.000153] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input21
+[  +0.000609] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input22
+[  +0.000507] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input23
+[  +0.132378] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 619444 [ PRIVRING ]
+[  +0.281851] Bluetooth: hci0: Waiting for firmware download to complete
+[  +0.000345] Bluetooth: hci0: Firmware loaded in 1401313 usecs
+[  +0.000065] Bluetooth: hci0: Waiting for device to boot
+[  +0.011991] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[  +0.000002] Bluetooth: hci0: Device booted in 11722 usecs
+[  +0.000753] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[  +0.004196] Bluetooth: hci0: Applying Intel DDC parameters completed
+[  +0.000999] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[  +1.084536] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s20f0u1: link becomes ready
+[  +0.000271] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.015968] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.414003] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.519018] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.511998] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.100742] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.539279] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.685683] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8.548332] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +17.088044] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:15] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:16] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:18] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:23] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:24] usb 2-2: new SuperSpeed USB device number 2 using xhci_hcd
+[  +0.013373] usb 2-2: New USB device found, idVendor=13fe, idProduct=6300, bcdDevice= 1.10
+[  +0.000002] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0.000001] usb 2-2: Product: USB DISK 3.0
+[  +0.000001] usb 2-2: Manufacturer:         
+[  +0.000001] usb 2-2: SerialNumber: 07009CE506060289
+[  +0.001492] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0.000079] scsi host2: usb-storage 2-2:1.0
+[  +1.031476] scsi 2:0:0:0: Direct-Access              USB DISK 3.0     PMAP PQ: 0 ANSI: 6
+[  +0.000167] sd 2:0:0:0: Attached scsi generic sg0 type 0
+[  +0.000459] sd 2:0:0:0: [sda] 60555264 512-byte logical blocks: (31.0 GB/28.9 GiB)
+[  +0.000218] sd 2:0:0:0: [sda] Write Protect is off
+[  +0.000002] sd 2:0:0:0: [sda] Mode Sense: 45 00 00 00
+[  +0.000367] sd 2:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  +0.124519]  sda: sda1
+[  +0.000221] sd 2:0:0:0: [sda] Attached SCSI removable disk
+[ +18.230109] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[Sep25 16:25] usb 2-2: USB disconnect, device number 2
+[  +0.000352] device offline error, dev sda, sector 2049 op 0x1:(WRITE) flags 0x100000 phys_seg 1 prio class 0
+[  +0.000003] Buffer I/O error on dev sda1, logical block 1, lost async page write
+[  +0.000013] device offline error, dev sda, sector 27759714 op 0x1:(WRITE) flags 0x100000 phys_seg 3 prio class 0
+[  +0.000004] Buffer I/O error on dev sda1, logical block 27757666, lost async page write
+[  +0.000001] Buffer I/O error on dev sda1, logical block 27757667, lost async page write
+[  +0.000002] Buffer I/O error on dev sda1, logical block 27757668, lost async page write
+[Sep25 16:33] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:35] usb 1-2: new high-speed USB device number 5 using xhci_hcd
+[  +0.128726] usb 1-2: New USB device found, idVendor=13fd, idProduct=0840, bcdDevice= 1.14
+[  +0.000004] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0.000001] usb 1-2: Product: External
+[  +0.000001] usb 1-2: Manufacturer: Generic
+[  +0.000001] usb 1-2: SerialNumber: 533136474E45414436333730
+[  +0.001841] usb-storage 1-2:1.0: USB Mass Storage device detected
+[  +0.000101] scsi host2: usb-storage 1-2:1.0
+[  +1.017632] scsi 2:0:0:0: Direct-Access     Generic  External         1.14 PQ: 0 ANSI: 4
+[  +0.000178] sd 2:0:0:0: Attached scsi generic sg0 type 0
+[  +0.000281] sd 2:0:0:0: [sda] 500118191 512-byte logical blocks: (256 GB/238 GiB)
+[  +0.000744] sd 2:0:0:0: [sda] Write Protect is off
+[  +0.000003] sd 2:0:0:0: [sda] Mode Sense: 23 00 00 00
+[  +0.000803] sd 2:0:0:0: [sda] No Caching mode page found
+[  +0.000002] sd 2:0:0:0: [sda] Assuming drive cache: write through
+[  +0.007214]  sda: sda1 sda2 sda3
+[  +0.000161] sd 2:0:0:0: [sda] Attached SCSI disk
+[  +0.180941] BTRFS: device fsid b8feb355-36ca-4bfd-94af-ebb9c86bfc88 devid 1 transid 6715 /dev/sda1 scanned by systemd-udevd (4159)
+[  +5.622840] BTRFS info (device sda1): using free space tree
+[  +0.000004] BTRFS info (device sda1): has skinny extents
+[  +0.008130] BTRFS info (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 521, gen 0
+[  +3.951914] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000006] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 522, gen 0
+[  +0.000007] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 8192 csum 0x6acf89fc expected csum 0x16086cd1 mirror 1
+[  +0.000002] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 523, gen 0
+[  +0.000907] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000004] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 524, gen 0
+[  +0.001082] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000003] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 525, gen 0
+[Sep25 16:36] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000006] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 526, gen 0
+[  +0.000371] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000003] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 527, gen 0
+[  +5.857236] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000027] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 528, gen 0
+[  +0.000416] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000004] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 529, gen 0
+[  +2.579870] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000006] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 530, gen 0
+[  +0.000368] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000002] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 531, gen 0
+[  +4.091840] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000005] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 532, gen 0
+[  +0.000417] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000004] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 533, gen 0
+[ +18.733434] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000020] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 534, gen 0
+[  +0.000553] BTRFS warning (device sda1): csum failed root 257 ino 264348 off 0 csum 0xedfbee70 expected csum 0xfe724b26 mirror 1
+[  +0.000004] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 0, rd 0, flush 0, corrupt 535, gen 0
+[Sep25 16:41] usb 1-2: USB disconnect, device number 5
+[  +0.014780] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 1, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000005] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 2, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000083] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 3, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000003] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 4, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000081] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 5, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000001] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 6, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000243] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 7, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000003] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 8, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000040] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 9, rd 0, flush 0, corrupt 535, gen 0
+[  +0.000002] BTRFS error (device sda1): bdev /dev/sda1 errs: wr 10, rd 0, flush 0, corrupt 535, gen 0
+[  +0.002360] BTRFS: error (device sda1: state A) in __btrfs_free_extent:3082: errno=-5 IO failure
+[  +0.000005] BTRFS info (device sda1: state EA): forced readonly
+[  +0.000002] BTRFS: error (device sda1: state EA) in btrfs_run_delayed_refs:2157: errno=-5 IO failure
+[Sep25 16:46] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.002447] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.047280] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032253] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:47] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.384028] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +32.256863] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=121341 PROTO=TCP SPT=58148 DPT=39851 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:48] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.024742] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:49] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.033085] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.255078] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.384055] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:50] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=496836 PROTO=TCP SPT=34876 DPT=36729 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:51] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.025228] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.047919] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032100] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.255898] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.383987] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:52] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=224857 PROTO=TCP SPT=47120 DPT=33151 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +36.813353] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 16:53] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.025531] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.048014] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032952] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.254871] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.384172] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:54] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=944688 PROTO=TCP SPT=37948 DPT=36709 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:55] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.037063] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.047316] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032705] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.255037] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +3.455264] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +2.474118] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.001914] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.850022] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[Sep25 16:56] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +32.255890] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=945918 PROTO=TCP SPT=53452 DPT=38897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:57] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.027728] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.047048] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.031667] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.256128] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:58] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +14.666707] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.013481] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.047779] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032322] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.449014] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.046846] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=780022 PROTO=TCP SPT=47844 DPT=44697 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 16:59] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +32.255809] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=839502 PROTO=TCP SPT=58670 DPT=21013 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:00] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=745872 PROTO=TCP SPT=45490 DPT=52965 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.046101] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=745872 PROTO=TCP SPT=45490 DPT=52965 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.005039] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=673393 PROTO=TCP SPT=45494 DPT=52965 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.001635] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=673393 PROTO=TCP SPT=45494 DPT=52965 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +19.922258] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.005783] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.047879] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032128] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:01] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.384543] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +32.256114] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=235200 PROTO=TCP SPT=56954 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:03] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.012767] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.051239] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.029669] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.254872] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.385155] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:04] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=675228 PROTO=TCP SPT=52158 DPT=45897 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:05] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.027785] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.048088] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.031162] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.192851] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.384231] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:06] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=455727 PROTO=TCP SPT=56864 DPT=42647 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:07] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.024269] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.046974] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.033003] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.191067] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.384077] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:08] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=409869 PROTO=TCP SPT=44592 DPT=36301 WINDOW=65476 RES=0x00 SYN URGP=0 
+[Sep25 17:12] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +1.013913] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +2.046801] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +4.032027] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +8.447942] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.352331] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +0.033190] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[  +5.960298] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.147578] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[Sep25 17:13] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.013828] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.086803] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.305030] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +0.286053] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.447959] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.226767] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.733176] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.716321] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.002678] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.945021] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +1.810952] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8.805055] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +1.739702] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0001 DST=0000:0000:0000:0000:0000:0000:0000:0001 LEN=80 TC=0 HOPLIMIT=64 FLOWLBL=215642 PROTO=TCP SPT=54352 DPT=54181 WINDOW=65476 RES=0x00 SYN URGP=0 
+[ +16.651396] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:14] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:15] python[29456]: segfault at 0 ip 000055c0dd4f4164 sp 00007fff147055b8 error 4 cpu 3 in _testcapi.so[55c0dd4f4000+6000]
+[  +0.000010] Code: 74 0c 48 83 00 01 c3 0f 1f 80 00 00 00 00 48 8b 05 11 9d 00 00 48 83 00 01 c3 66 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa <8b> 04 25 00 00 00 00 0f 0b 0f 1f 00 f3 0f 1e fa 48 83 ec 08 48 8d
+[  +8.622723] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:17] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:22] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:25] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.599029] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.190999] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +1.024010] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.147517] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.684456] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.576561] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8.224454] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:26] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +35.715417] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:27] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.337006] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.385025] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.638979] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.077426] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.755597] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +2.899690] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.209483] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +13.708978] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:28] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +3.399440] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +4.426272] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.001767] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.402983] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +0.478023] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +1.964802] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.003195] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.912111] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +8.034861] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +4.425741] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.003296] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.055994] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.378395] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +2.410165] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.002434] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.753023] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +5.597001] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33661 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK URGP=0 
+[  +0.000070] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=7939 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33661 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK URGP=0 ] 
+[  +0.031690] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33662 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK URGP=0 
+[  +0.000065] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=7970 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33662 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK URGP=0 ] 
+[  +0.283312] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33663 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000073] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=8218 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33663 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[  +0.616799] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33664 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000056] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=8287 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33664 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[  +1.150983] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33665 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000064] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=8896 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33665 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[  +2.239864] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33666 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000017] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=10633 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33666 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[  +4.479983] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33667 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000017] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=14488 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33667 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:29] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33668 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000021] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=17747 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33668 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[  +5.935496] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +11.984507] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33669 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000022] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=20806 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33669 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[ +37.887924] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33670 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000028] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=33637 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33670 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:31] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8.149055] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33671 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000018] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=58046 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33671 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:33] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33672 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000054] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=23185 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33672 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:34] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:35] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33673 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000062] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=60746 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33673 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:37] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33674 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000051] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=26788 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33674 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:39] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33675 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000075] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=36382 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33675 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:41] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33676 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000016] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=13948 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33676 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:42] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:43] Iptables: v4Reject: IN= OUT=enp0s20f0u1 SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33677 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 
+[  +0.000061] Iptables: v4Reject: IN= OUT=lo SRC=192.168.0.216 DST=192.168.0.216 LEN=576 TOS=0x00 PREC=0xC0 TTL=64 ID=1602 PROTO=ICMP TYPE=3 CODE=2 [SRC=192.168.0.216 DST=192.168.0.239 LEN=770 TOS=0x00 PREC=0x00 TTL=64 ID=33677 DF PROTO=TCP SPT=45484 DPT=80 WINDOW=64240 RES=0x00 ACK PSH URGP=0 ] 
+[Sep25 17:50] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +4.489153] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.002830] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.088122] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +1.723046] r8152 1-1:1.0 enp0s20f0u1: carrier off
+[  +5.226244] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.002595] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.176991] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[Sep25 17:52] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.230036] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.678999] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +1.023999] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.018448] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.814561] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.504360] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8.410625] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +16.385235] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:53] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:54] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:56] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 17:59] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.242168] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.487912] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +1.023982] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.130650] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.197287] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.463089] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.223937] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +13.756191] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +27.453625] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:00] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:02] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:06] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:09] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.139982] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.000029] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +1.016022] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.207687] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.560262] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.219570] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.364515] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:10] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +13.663878] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.586013] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.192023] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.832170] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.079598] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.136232] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.502323] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.458578] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +15.364109] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:11] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:12] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:14] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:17] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.418865] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.407959] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.640196] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.144629] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:18] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.246996] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.252054] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +14.555158] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +17.933774] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.595998] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.319989] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.704051] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.036516] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.795463] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.394012] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8.670865] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.986583] usb 1-1: USB disconnect, device number 2
+[Sep25 18:19] usb 1-1: new high-speed USB device number 7 using xhci_hcd
+[  +0.127396] usb 1-1: New USB device found, idVendor=0bda, idProduct=8152, bcdDevice=20.00
+[  +0.000003] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0.000002] usb 1-1: Product: USB 10/100 LAN
+[  +0.000001] usb 1-1: Manufacturer: Realtek
+[  +0.000001] usb 1-1: SerialNumber: 00E04C360696
+[  +0.116965] usb 1-1: reset high-speed USB device number 7 using xhci_hcd
+[  +0.149396] r8152 1-1:1.0: skip request firmware
+[  +0.023934] r8152 1-1:1.0 eth0: v1.12.13
+[  +0.008054] r8152 1-1:1.0 enp0s20f0u1: renamed from eth0
+[  +2.104659] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s20f0u1: link becomes ready
+[  +0.000625] r8152 1-1:1.0 enp0s20f0u1: carrier on
+[  +0.014919] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.282008] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.151963] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.896066] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.112664] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.335311] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.316797] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.345237] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +15.037948] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +17.777975] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.022000] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.724003] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +1.025072] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.093558] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.177384] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +4.014402] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +3.902601] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.900003] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.063009] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.960062] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.036437] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:20] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +2.829015] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.375036] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +14.621010] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +17.276945] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.280962] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.497035] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.511030] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.002439] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.149552] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.451148] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.290570] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[Sep25 18:21] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +18.790920] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.189027] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff36:0696 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0.392980] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.639008] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +0.173510] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0.530487] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  +3.539163] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7.989915] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +15.687929] Iptables: v6Deny: IN= OUT=enp0s20f0u1 SRC=fe80:0000:0000:0000:02e0:4cff:fe36:0696 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=1005013 PROTO=ICMPv6 TYPE=133 CODE=0 

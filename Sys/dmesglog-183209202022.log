@@ -1,0 +1,1091 @@
+[    2.287356] **                                                      **
+[    2.287356] ** This system shows unhashed kernel memory addresses   **
+[    2.287357] ** via the console, logs, and other interfaces. This    **
+[    2.287357] ** might reduce the security of your system.            **
+[    2.287358] **                                                      **
+[    2.287358] ** If you see this message and you are not debugging    **
+[    2.287359] ** the kernel, report this immediately to your system   **
+[    2.287359] ** administrator!                                       **
+[    2.287359] **                                                      **
+[    2.287360] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    2.287360] **********************************************************
+[    2.288611] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    2.288657] Kernel/User page tables isolation: enabled
+[    2.288672] ftrace: allocating 45426 entries in 178 pages
+[    2.296412] ftrace: allocated 178 pages with 4 groups
+[    2.296547] Dynamic Preempt: full
+[    2.296653] rcu: Preemptible hierarchical RCU implementation.
+[    2.296654] rcu: 	RCU restricting CPUs from NR_CPUS=320 to nr_cpu_ids=4.
+[    2.296655] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    2.296656] 	Trampoline variant of Tasks RCU enabled.
+[    2.296657] 	Rude variant of Tasks RCU enabled.
+[    2.296658] 	Tracing variant of Tasks RCU enabled.
+[    2.296658] rcu: RCU calculated value of scheduler-enlistment delay is 30 jiffies.
+[    2.296659] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    2.303543] NR_IRQS: 20736, nr_irqs: 1024, preallocated irqs: 16
+[    2.303777] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    2.303948] kfence: initialized - using 2097152 bytes for 255 objects at 0xffff9655daa00000-0xffff9655dac00000
+[    2.303990] random: crng init done
+[    2.304017] Console: colour dummy device 80x25
+[    2.304037] printk: console [tty0] enabled
+[    2.304060] ACPI: Core revision 20220331
+[    2.304388] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635855245 ns
+[    2.304455] APIC: Switch to symmetric I/O mode setup
+[    2.305655] x2apic: IRQ remapping doesn't support X2APIC mode
+[    2.308578] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+[    2.324486] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x285bfbafad2, max_idle_ns: 440795215530 ns
+[    2.324491] Calibrating delay loop (skipped), value calculated using timer frequency.. 5602.18 BogoMIPS (lpj=9333090)
+[    2.324494] pid_max: default: 32768 minimum: 301
+[    2.328716] LSM: Security Framework initializing
+[    2.328730] landlock: Up and running.
+[    2.328732] Yama: becoming mindful.
+[    2.328743] LSM support for eBPF active
+[    2.328853] Mount-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    2.328945] Mountpoint-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    2.329274] x86/cpu: VMX (outside TXT) disabled by BIOS
+[    2.329275] x86/cpu: SGX disabled by BIOS.
+[    2.329280] CPU0: Thermal monitoring enabled (TM1)
+[    2.329346] process: using mwait in idle threads
+[    2.329348] Last level iTLB entries: 4KB 128, 2MB 8, 4MB 8
+[    2.329350] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+[    2.329357] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    2.329361] Spectre V2 : Mitigation: IBRS
+[    2.329362] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    2.329362] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+[    2.329363] RETBleed: Mitigation: IBRS
+[    2.329366] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    2.329368] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[    2.329376] MDS: Mitigation: Clear CPU buffers
+[    2.329377] TAA: Mitigation: TSX disabled
+[    2.329378] MMIO Stale Data: Mitigation: Clear CPU buffers
+[    2.329384] SRBDS: Mitigation: Microcode
+[    2.354289] Freeing SMP alternatives memory: 36K
+[    2.354587] smpboot: CPU0: Intel(R) Xeon(R) CPU E3-1505M v5 @ 2.80GHz (family: 0x6, model: 0x5e, stepping: 0x3)
+[    2.354804] cblist_init_generic: Setting adjustable number of callback queues.
+[    2.354806] cblist_init_generic: Setting shift to 2 and lim to 1.
+[    2.354827] cblist_init_generic: Setting shift to 2 and lim to 1.
+[    2.354851] cblist_init_generic: Setting shift to 2 and lim to 1.
+[    2.354869] Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver.
+[    2.354895] ... version:                4
+[    2.354896] ... bit width:              48
+[    2.354896] ... generic registers:      8
+[    2.354897] ... value mask:             0000ffffffffffff
+[    2.354898] ... max period:             00007fffffffffff
+[    2.354899] ... fixed-purpose events:   3
+[    2.354900] ... event mask:             00000007000000ff
+[    2.355007] Estimated ratio of average max frequency by base frequency (times 1024): 1206
+[    2.355032] rcu: Hierarchical SRCU implementation.
+[    2.355033] rcu: 	Max phase no-delay instances is 1000.
+[    2.356064] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    2.356149] smp: Bringing up secondary CPUs ...
+[    2.356297] x86: Booting SMP configuration:
+[    2.356298] .... node  #0, CPUs:      #1 #2 #3
+[    2.361421] smp: Brought up 1 node, 4 CPUs
+[    2.361421] smpboot: Max logical packages: 1
+[    2.361421] smpboot: Total of 4 processors activated (22408.72 BogoMIPS)
+[    2.362959] devtmpfs: initialized
+[    2.362959] x86/mm: Memory block size: 128MB
+[    2.367836] ACPI: PM: Registering ACPI NVS region [mem 0x2ab5e000-0x2ab5efff] (4096 bytes)
+[    2.367839] ACPI: PM: Registering ACPI NVS region [mem 0x38dbd000-0x39426fff] (6725632 bytes)
+[    2.368352] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    2.368363] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    2.368418] pinctrl core: initialized pinctrl subsystem
+[    2.368656] PM: RTC time: 15:30:08, date: 2022-09-20
+[    2.369261] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    2.370043] DMA: preallocated 4096 KiB GFP_KERNEL pool for atomic allocations
+[    2.370516] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    2.370986] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    2.371163] thermal_sys: Registered thermal governor 'fair_share'
+[    2.371164] thermal_sys: Registered thermal governor 'bang_bang'
+[    2.371165] thermal_sys: Registered thermal governor 'step_wise'
+[    2.371166] thermal_sys: Registered thermal governor 'user_space'
+[    2.371167] thermal_sys: Registered thermal governor 'power_allocator'
+[    2.371179] cpuidle: using governor ladder
+[    2.371183] cpuidle: using governor menu
+[    2.371379] Simple Boot Flag at 0x47 set to 0x80
+[    2.371379] HugeTLB: can optimize 4095 vmemmap pages for hugepages-1048576kB
+[    2.371379] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[    2.371379] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    2.371379] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[    2.371379] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+[    2.371379] PCI: Using configuration type 1 for base access
+[    2.371681] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[    2.373491] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[    2.377891] HugeTLB: can optimize 7 vmemmap pages for hugepages-2048kB
+[    2.377896] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    2.377898] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    2.378379] ACPI: Added _OSI(Module Device)
+[    2.378381] ACPI: Added _OSI(Processor Device)
+[    2.378382] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    2.378383] ACPI: Added _OSI(Processor Aggregator Device)
+[    2.378385] ACPI: Added _OSI(Linux-Dell-Video)
+[    2.378386] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    2.378388] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    2.458608] ACPI: 13 ACPI AML tables successfully acquired and loaded
+[    2.463515] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    2.481506] ACPI: Dynamic OEM Table Load:
+[    2.481514] ACPI: SSDT 0xFFFF964E40F30000 00061E (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+[    2.483720] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+[    2.486754] ACPI: Dynamic OEM Table Load:
+[    2.486761] ACPI: SSDT 0xFFFF964E40E26000 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+[    2.489754] ACPI: Dynamic OEM Table Load:
+[    2.489761] ACPI: SSDT 0xFFFF964E40F33000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+[    2.492556] ACPI: Dynamic OEM Table Load:
+[    2.492561] ACPI: SSDT 0xFFFF964E40E42800 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+[    2.498034] ACPI: EC: EC started
+[    2.498035] ACPI: EC: interrupt blocked
+[    2.502163] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[    2.502166] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC used to handle transactions
+[    2.502168] ACPI: Interpreter enabled
+[    2.502228] ACPI: PM: (supports S0 S4 S5)
+[    2.502229] ACPI: Using IOAPIC for interrupt routing
+[    2.502295] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    2.502296] PCI: Using E820 reservations for host bridge windows
+[    2.503798] ACPI: Enabled 9 GPEs in block 00 to 7F
+[    2.507450] ACPI: PM: Power Resource [PG00]
+[    2.555673] ACPI: PM: Power Resource [PG01]
+[    2.556648] ACPI: PM: Power Resource [PG02]
+[    2.560842] ACPI: PM: Power Resource [WRST]
+[    2.561561] ACPI: PM: Power Resource [WRST]
+[    2.562270] ACPI: PM: Power Resource [WRST]
+[    2.562985] ACPI: PM: Power Resource [WRST]
+[    2.563694] ACPI: PM: Power Resource [WRST]
+[    2.564405] ACPI: PM: Power Resource [WRST]
+[    2.565147] ACPI: PM: Power Resource [WRST]
+[    2.565869] ACPI: PM: Power Resource [WRST]
+[    2.566605] ACPI: PM: Power Resource [WRST]
+[    2.567327] ACPI: PM: Power Resource [WRST]
+[    2.568054] ACPI: PM: Power Resource [WRST]
+[    2.568780] ACPI: PM: Power Resource [WRST]
+[    2.569498] ACPI: PM: Power Resource [WRST]
+[    2.570221] ACPI: PM: Power Resource [WRST]
+[    2.570935] ACPI: PM: Power Resource [WRST]
+[    2.571662] ACPI: PM: Power Resource [WRST]
+[    2.572382] ACPI: PM: Power Resource [WRST]
+[    2.573093] ACPI: PM: Power Resource [WRST]
+[    2.573801] ACPI: PM: Power Resource [WRST]
+[    2.575340] ACPI: PM: Power Resource [WRST]
+[    2.609993] ACPI: PM: Power Resource [FN00]
+[    2.610167] ACPI: PM: Power Resource [FN01]
+[    2.610343] ACPI: PM: Power Resource [FN02]
+[    2.610514] ACPI: PM: Power Resource [FN03]
+[    2.610681] ACPI: PM: Power Resource [FN04]
+[    2.612646] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[    2.612656] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    2.612762] acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    2.612765] acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    2.612766] acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_ERROR)
+[    2.614295] PCI host bridge to bus 0000:00
+[    2.614298] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    2.614301] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    2.614303] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]
+[    2.614305] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+[    2.614309] pci_bus 0000:00: root bus resource [mem 0x40000000-0xdfffffff window]
+[    2.614311] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+[    2.614313] pci_bus 0000:00: root bus resource [bus 00-fe]
+[    2.614339] pci 0000:00:00.0: [8086:1918] type 00 class 0x060000
+[    2.614442] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
+[    2.614514] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[    2.615604] pci 0000:00:02.0: [8086:191d] type 00 class 0x030000
+[    2.615624] pci 0000:00:02.0: reg 0x10: [mem 0xdb000000-0xdbffffff 64bit]
+[    2.615638] pci 0000:00:02.0: reg 0x18: [mem 0x70000000-0x7fffffff 64bit pref]
+[    2.615648] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[    2.615681] pci 0000:00:02.0: BAR 2: assigned to efifb
+[    2.615686] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    2.616050] pci 0000:00:04.0: [8086:1903] type 00 class 0x118000
+[    2.616067] pci 0000:00:04.0: reg 0x10: [mem 0xddd20000-0xddd27fff 64bit]
+[    2.616630] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
+[    2.616657] pci 0000:00:14.0: reg 0x10: [mem 0xddd10000-0xddd1ffff 64bit]
+[    2.616753] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[    2.617323] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
+[    2.617350] pci 0000:00:14.2: reg 0x10: [mem 0xddd38000-0xddd38fff 64bit]
+[    2.617604] pci 0000:00:15.0: [8086:a160] type 00 class 0x118000
+[    2.617800] pci 0000:00:15.0: reg 0x10: [mem 0xddd37000-0xddd37fff 64bit]
+[    2.619048] pci 0000:00:15.1: [8086:a161] type 00 class 0x118000
+[    2.619244] pci 0000:00:15.1: reg 0x10: [mem 0xddd36000-0xddd36fff 64bit]
+[    2.620441] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
+[    2.620469] pci 0000:00:16.0: reg 0x10: [mem 0xddd35000-0xddd35fff 64bit]
+[    2.620557] pci 0000:00:16.0: PME# supported from D3hot
+[    2.621040] pci 0000:00:17.0: [8086:a102] type 00 class 0x010601
+[    2.621067] pci 0000:00:17.0: reg 0x10: [mem 0xddd30000-0xddd31fff]
+[    2.621083] pci 0000:00:17.0: reg 0x14: [mem 0xddd34000-0xddd340ff]
+[    2.621098] pci 0000:00:17.0: reg 0x18: [io  0xf090-0xf097]
+[    2.621114] pci 0000:00:17.0: reg 0x1c: [io  0xf080-0xf083]
+[    2.621129] pci 0000:00:17.0: reg 0x20: [io  0xf060-0xf07f]
+[    2.621144] pci 0000:00:17.0: reg 0x24: [mem 0xddd33000-0xddd337ff]
+[    2.621195] pci 0000:00:17.0: PME# supported from D3hot
+[    2.621753] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
+[    2.621847] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    2.623198] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
+[    2.623293] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[    2.624630] pci 0000:00:1d.0: [8086:a118] type 01 class 0x060400
+[    2.624727] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[    2.626066] pci 0000:00:1d.4: [8086:a11c] type 01 class 0x060400
+[    2.626156] pci 0000:00:1d.4: PME# supported from D0 D3hot D3cold
+[    2.627464] pci 0000:00:1d.6: [8086:a11e] type 01 class 0x060400
+[    2.627561] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[    2.628918] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
+[    2.629531] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
+[    2.629549] pci 0000:00:1f.2: reg 0x10: [mem 0xddd2c000-0xddd2ffff]
+[    2.630088] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
+[    2.630116] pci 0000:00:1f.3: reg 0x10: [mem 0xddd28000-0xddd2bfff 64bit]
+[    2.630150] pci 0000:00:1f.3: reg 0x20: [mem 0xddd00000-0xddd0ffff 64bit]
+[    2.630202] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[    2.631412] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
+[    2.631470] pci 0000:00:1f.4: reg 0x10: [mem 0xddd32000-0xddd320ff 64bit]
+[    2.631542] pci 0000:00:1f.4: reg 0x20: [io  0xf040-0xf05f]
+[    2.632150] pci 0000:01:00.0: [10de:13b1] type 00 class 0x030200
+[    2.632173] pci 0000:01:00.0: reg 0x10: [mem 0xdc000000-0xdcffffff]
+[    2.632194] pci 0000:01:00.0: reg 0x14: [mem 0xb0000000-0xbfffffff 64bit pref]
+[    2.632214] pci 0000:01:00.0: reg 0x1c: [mem 0xc0000000-0xc1ffffff 64bit pref]
+[    2.632228] pci 0000:01:00.0: reg 0x24: [io  0xe000-0xe07f]
+[    2.632242] pci 0000:01:00.0: reg 0x30: [mem 0xdd000000-0xdd07ffff pref]
+[    2.632266] pci 0000:01:00.0: Enabling HDA controller
+[    2.632321] pci 0000:01:00.0: 64.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
+[    2.633149] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    2.633153] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[    2.633155] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[    2.633158] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[    2.633287] pci 0000:02:00.0: [8086:24f3] type 00 class 0x028000
+[    2.633338] pci 0000:02:00.0: reg 0x10: [mem 0xddc00000-0xddc01fff 64bit]
+[    2.633554] pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+[    2.634444] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    2.634449] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[    2.634544] pci 0000:03:00.0: [10ec:525a] type 00 class 0xff0000
+[    2.634584] pci 0000:03:00.0: reg 0x14: [mem 0xdd100000-0xdd100fff]
+[    2.634735] pci 0000:03:00.0: supports D1 D2
+[    2.634737] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[    2.635531] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[    2.635534] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    2.635537] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[    2.635541] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[    2.635628] pci 0000:04:00.0: [1179:010f] type 00 class 0x010802
+[    2.635656] pci 0000:04:00.0: reg 0x10: [mem 0xddb00000-0xddb03fff 64bit]
+[    2.635720] pci 0000:04:00.0: enabling Extended Tags
+[    2.644551] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[    2.644556] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[    2.644638] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[    2.644712] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[    2.644717] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[    2.644721] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[    2.649848] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[    2.649994] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[    2.650139] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+[    2.650282] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[    2.650426] ACPI: PCI: Interrupt link LNKE configured for IRQ 11
+[    2.650569] ACPI: PCI: Interrupt link LNKF configured for IRQ 11
+[    2.650711] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+[    2.650854] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+[    2.654683] ACPI: EC: interrupt unblocked
+[    2.654684] ACPI: EC: event unblocked
+[    2.654692] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[    2.654694] ACPI: EC: GPE=0x14
+[    2.654696] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC initialization complete
+[    2.654698] ACPI: \_SB_.PCI0.LPCB.ECDV: EC: Used to handle transactions and events
+[    2.654799] iommu: Default domain type: Translated 
+[    2.654800] iommu: DMA domain TLB invalidation policy: strict mode (set via kernel command line)
+[    2.655068] SCSI subsystem initialized
+[    2.655076] libata version 3.00 loaded.
+[    2.655076] ACPI: bus type USB registered
+[    2.655076] usbcore: registered new interface driver usbfs
+[    2.655076] usbcore: registered new interface driver hub
+[    2.655076] usbcore: registered new device driver usb
+[    2.655076] pps_core: LinuxPPS API ver. 1 registered
+[    2.655076] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    2.655076] PTP clock support registered
+[    2.655076] EDAC MC: Ver: 3.0.0
+[    2.655076] Registered efivars operations
+[    2.655076] NetLabel: Initializing
+[    2.655076] NetLabel:  domain hash size = 128
+[    2.655076] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    2.655076] NetLabel:  unlabeled traffic allowed by default
+[    2.655076] mctp: management component transport protocol core
+[    2.655076] NET: Registered PF_MCTP protocol family
+[    2.655076] PCI: Using ACPI for IRQ routing
+[    2.677494] PCI: pci_cache_line_size set to 64 bytes
+[    2.677623] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+[    2.677642] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[    2.677644] e820: reserve RAM buffer [mem 0x2ab5e000-0x2bffffff]
+[    2.677646] e820: reserve RAM buffer [mem 0x36353000-0x37ffffff]
+[    2.677647] e820: reserve RAM buffer [mem 0x389c3000-0x3bffffff]
+[    2.677649] e820: reserve RAM buffer [mem 0x3a500000-0x3bffffff]
+[    2.677650] e820: reserve RAM buffer [mem 0x8be000000-0x8bfffffff]
+[    2.677842] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[    2.677842] pci 0000:00:02.0: vgaarb: bridge control possible
+[    2.677842] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    2.677842] vgaarb: loaded
+[    2.679036] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[    2.679048] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+[    2.681173] clocksource: Switched to clocksource tsc-early
+[    2.698212] VFS: Disk quotas dquot_6.6.0
+[    2.698225] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    2.698324] pnp: PnP ACPI init
+[    2.698738] system 00:00: [io  0x0680-0x069f] has been reserved
+[    2.698742] system 00:00: [io  0xffff] has been reserved
+[    2.698745] system 00:00: [io  0xffff] has been reserved
+[    2.698747] system 00:00: [io  0xffff] has been reserved
+[    2.698749] system 00:00: [io  0x1800-0x18fe] has been reserved
+[    2.698752] system 00:00: [io  0x164e-0x164f] has been reserved
+[    2.698919] system 00:01: [io  0x0800-0x087f] has been reserved
+[    2.699036] system 00:03: [io  0x1854-0x1857] has been reserved
+[    2.699993] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[    2.699997] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[    2.699999] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[    2.700004] system 00:06: [mem 0xe0000000-0xefffffff] has been reserved
+[    2.700006] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[    2.700009] system 00:06: [mem 0xfed90000-0xfed93fff] has been reserved
+[    2.700011] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[    2.700014] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[    2.700016] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[    2.700019] system 00:06: [mem 0xdffe0000-0xdfffffff] has been reserved
+[    2.700108] system 00:07: [mem 0xfd000000-0xfdabffff] has been reserved
+[    2.700111] system 00:07: [mem 0xfdad0000-0xfdadffff] has been reserved
+[    2.700114] system 00:07: [mem 0xfdb00000-0xfdffffff] has been reserved
+[    2.700116] system 00:07: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[    2.700118] system 00:07: [mem 0xfe036000-0xfe03bfff] has been reserved
+[    2.700121] system 00:07: [mem 0xfe03d000-0xfe3fffff] has been reserved
+[    2.700123] system 00:07: [mem 0xfe410000-0xfe7fffff] has been reserved
+[    2.700705] system 00:08: [io  0xff00-0xfffe] has been reserved
+[    2.703369] system 00:09: [mem 0xfdaf0000-0xfdafffff] has been reserved
+[    2.703372] system 00:09: [mem 0xfdae0000-0xfdaeffff] has been reserved
+[    2.703375] system 00:09: [mem 0xfdac0000-0xfdacffff] has been reserved
+[    2.707523] pnp: PnP ACPI: found 11 devices
+[    2.713752] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    2.713836] NET: Registered PF_INET protocol family
+[    2.714203] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    2.717330] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+[    2.717383] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    2.717623] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    2.717961] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    2.718041] TCP: Hash tables configured (established 262144 bind 65536)
+[    2.718272] MPTCP token hash table entries: 32768 (order: 7, 786432 bytes, linear)
+[    2.718456] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[    2.718572] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[    2.718667] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    2.718675] NET: Registered PF_XDP protocol family
+[    2.718681] pci 0000:00:1d.6: bridge window [io  0x1000-0x0fff] to [bus 06-3e] add_size 1000
+[    2.718691] pci 0000:00:1d.6: BAR 13: assigned [io  0x2000-0x2fff]
+[    2.718694] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    2.718696] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[    2.718703] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[    2.718708] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[    2.718718] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    2.718725] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[    2.718739] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[    2.718741] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    2.718748] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[    2.718754] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[    2.718763] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[    2.718771] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[    2.718784] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[    2.718803] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[    2.718805] pci 0000:00:1d.6:   bridge window [io  0x2000-0x2fff]
+[    2.718812] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[    2.718818] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[    2.718828] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    2.718830] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    2.718831] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000dffff window]
+[    2.718833] pci_bus 0000:00: resource 7 [mem 0x000e4000-0x000effff window]
+[    2.718835] pci_bus 0000:00: resource 8 [mem 0x40000000-0xdfffffff window]
+[    2.718836] pci_bus 0000:00: resource 9 [mem 0xfd000000-0xfe7fffff window]
+[    2.718838] pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+[    2.718839] pci_bus 0000:01: resource 1 [mem 0xdc000000-0xdd0fffff]
+[    2.718841] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xc1ffffff 64bit pref]
+[    2.718842] pci_bus 0000:02: resource 1 [mem 0xddc00000-0xddcfffff]
+[    2.718845] pci_bus 0000:03: resource 0 [io  0xd000-0xdfff]
+[    2.718846] pci_bus 0000:03: resource 1 [mem 0xdd100000-0xddafffff]
+[    2.718847] pci_bus 0000:03: resource 2 [mem 0xc2100000-0xc2afffff 64bit pref]
+[    2.718851] pci_bus 0000:04: resource 1 [mem 0xddb00000-0xddbfffff]
+[    2.718852] pci_bus 0000:06: resource 0 [io  0x2000-0x2fff]
+[    2.718854] pci_bus 0000:06: resource 1 [mem 0xc4000000-0xda0fffff]
+[    2.718855] pci_bus 0000:06: resource 2 [mem 0x80000000-0xa1ffffff 64bit pref]
+[    2.719562] PCI: CLS 0 bytes, default 64
+[    2.719569] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    2.719570] software IO TLB: mapped [mem 0x0000000030a86000-0x0000000034a86000] (64MB)
+[    2.719615] Trying to unpack rootfs image as initramfs...
+[    2.720495] Initialise system trusted keyrings
+[    2.720508] Key type blacklist registered
+[    2.720548] workingset: timestamp_bits=41 max_order=23 bucket_order=0
+[    2.723118] zbud: loaded
+[    2.723486] integrity: Platform Keyring initialized
+[    2.723488] integrity: Machine keyring initialized
+[    2.731714] Key type asymmetric registered
+[    2.731715] Asymmetric key parser 'x509' registered
+[    3.371705] Freeing initrd memory: 11836K
+[    3.374964] alg: self-tests for CTR-KDF (hmac(sha256)) passed
+[    3.374990] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+[    3.375023] io scheduler mq-deadline registered
+[    3.375025] io scheduler kyber registered
+[    3.375075] io scheduler bfq registered
+[    3.377150] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    3.378911] ACPI: AC: AC Adapter [AC] (on-line)
+[    3.378993] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[    3.381216] ACPI: button: Lid Switch [LID0]
+[    3.381260] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    3.384563] ACPI: button: Power Button [PBTN]
+[    3.384612] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[    3.384641] ACPI: button: Sleep Button [SBTN]
+[    3.384682] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[    3.398105] ACPI: button: Power Button [PWRF]
+[    3.401046] thermal LNXTHERM:00: registered as thermal_zone0
+[    3.401048] ACPI: thermal: Thermal Zone [THM] (25 C)
+[    3.401393] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[    3.401403] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[    3.401745] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[    3.401753] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[    3.401888] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[    3.401896] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[    3.402021] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[    3.402028] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[    3.402483] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    3.406396] Non-volatile memory driver v1.3
+[    3.406398] Linux agpgart interface v0.103
+[    3.406400] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+[    3.406454] ACPI: bus type drm_connector registered
+[    3.407690] ahci 0000:00:17.0: version 3.0
+[    3.408135] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
+[    3.408200] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x2 impl SATA mode
+[    3.408203] ahci 0000:00:17.0: flags: 64bit ncq sntf stag pm led clo only pio slum part ems deso sadm sds apst 
+[    3.409666] scsi host0: ahci
+[    3.410053] scsi host1: ahci
+[    3.410119] ata1: DUMMY
+[    3.410122] ata2: SATA max UDMA/133 abar m2048@0xddd33000 port 0xddd33180 irq 126
+[    3.410174] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    3.410181] ehci-pci: EHCI PCI platform driver
+[    3.410192] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    3.410195] ohci-pci: OHCI PCI platform driver
+[    3.410205] uhci_hcd: USB Universal Host Controller Interface driver
+[    3.410272] usbcore: registered new interface driver usbserial_generic
+[    3.410278] usbserial: USB Serial support registered for generic
+[    3.410628] rtc_cmos 00:02: RTC can wake from S4
+[    3.411355] rtc_cmos 00:02: registered as rtc0
+[    3.411485] rtc_cmos 00:02: setting system clock to 2022-09-20T15:30:09 UTC (1663687809)
+[    3.411502] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+[    3.411868] intel_pstate: Intel P-state driver initializing
+[    3.412082] intel_pstate: HWP enabled
+[    3.412165] ledtrig-cpu: registered to indicate activity on CPUs
+[    3.412752] efifb: probing for efifb
+[    3.412766] efifb: framebuffer at 0x70000000, using 8128k, total 8128k
+[    3.412767] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[    3.412769] efifb: scrolling: redraw
+[    3.412770] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    3.412841] fbcon: Deferring console take-over
+[    3.412842] fb0: EFI VGA frame buffer device
+[    3.412874] hid: raw HID events driver (C) Jiri Kosina
+[    3.413360] intel_pmc_core INT33A1:00:  initialized
+[    3.413445] drop_monitor: Initializing network drop monitor service
+[    3.428289] Initializing XFRM netlink socket
+[    3.428463] NET: Registered PF_INET6 protocol family
+[    3.432957] Segment Routing with IPv6
+[    3.432959] RPL Segment Routing with IPv6
+[    3.432968] In-situ OAM (IOAM) with IPv6
+[    3.432992] NET: Registered PF_PACKET protocol family
+[    3.433580] microcode: sig=0x506e3, pf=0x20, revision=0xf0
+[    3.433670] microcode: Microcode Update Driver: v2.2.
+[    3.433674] IPI shorthand broadcast: enabled
+[    3.433702] sched_clock: Marking stable (3432728186, 620005)->(3438372725, -5024534)
+[    3.434113] registered taskstats version 1
+[    3.434266] Loading compiled-in X.509 certificates
+[    3.437673] Loaded X.509 cert 'Build time autogenerated kernel key: 2b6db7b3d7e9306fd35cdcf8aac31466d2232c4e'
+[    3.438398] zswap: loaded using pool lz4/z3fold
+[    3.438914] Key type ._fscrypt registered
+[    3.438916] Key type .fscrypt registered
+[    3.438917] Key type fscrypt-provisioning registered
+[    3.439247] integrity: Loading X.509 certificate: UEFI:db
+[    3.439291] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[    3.439293] integrity: Loading X.509 certificate: UEFI:db
+[    3.439319] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[    3.442714] PM:   Magic number: 6:590:538
+[    3.442722] tty ttyS18: hash matches
+[    3.442748] acpi LNXPOWER:18: hash matches
+[    3.442971] RAS: Correctable Errors collector initialized.
+[    3.455042] ACPI: battery: Slot [BAT0] (battery present)
+[    3.741372] tsc: Refined TSC clocksource calibration: 2807.999 MHz
+[    3.741386] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c523a63, max_idle_ns: 440795252908 ns
+[    3.741452] clocksource: Switched to clocksource tsc
+[    3.765438] ata2: SATA link down (SStatus 4 SControl 300)
+[    3.771258] Freeing unused decrypted memory: 2036K
+[    3.771836] Freeing unused kernel image (initmem) memory: 2116K
+[    3.781395] Write protecting the kernel read-only data: 28672k
+[    3.782073] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[    3.782433] Freeing unused kernel image (rodata/data gap) memory: 1112K
+[    3.835433] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    3.835436] rodata_test: all tests were successful
+[    3.835437] x86/mm: Checking user space page tables
+[    3.874947] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    3.874954] Run /init as init process
+[    3.874955]   with arguments:
+[    3.874957]     /init
+[    3.874957]   with environment:
+[    3.874958]     HOME=/
+[    3.874959]     TERM=linux
+[    3.874959]     BOOT_IMAGE=/boot/vmlinuz-linux
+[    3.874960]     sm=landlock,lockdown,yama,apparmor,bpf
+[    3.874961]     pti=on
+[    3.901542] fbcon: Taking over console
+[    3.901609] Console: switching to colour frame buffer device 240x67
+[    4.057481] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[    4.057813] i8042: Warning: Keylock active
+[    4.061951] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    4.062027] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    4.064824] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[    4.064831] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[    4.065912] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[    4.066301] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[    4.066305] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[    4.066322] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    4.066381] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.19
+[    4.066384] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.066386] usb usb1: Product: xHCI Host Controller
+[    4.066387] usb usb1: Manufacturer: Linux 5.19.9-arch1-1 xhci-hcd
+[    4.066389] usb usb1: SerialNumber: 0000:00:14.0
+[    4.066559] hub 1-0:1.0: USB hub found
+[    4.066578] hub 1-0:1.0: 16 ports detected
+[    4.071036] nvme nvme0: pci function 0000:04:00.0
+[    4.074810] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.19
+[    4.074813] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.074814] usb usb2: Product: xHCI Host Controller
+[    4.074815] usb usb2: Manufacturer: Linux 5.19.9-arch1-1 xhci-hcd
+[    4.074817] usb usb2: SerialNumber: 0000:00:14.0
+[    4.074995] hub 2-0:1.0: USB hub found
+[    4.075009] hub 2-0:1.0: 10 ports detected
+[    4.076340] usb: port power management may be unreliable
+[    4.076842] nvme nvme0: 4/0/0 default/read/poll queues
+[    4.078494]  nvme0n1: p1 p2 p3
+[    4.109519] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+[    4.234078] PM: Image not found (code -22)
+[    4.327876] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[    4.469050] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[    4.469074] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    4.594578] usb 1-12: new high-speed USB device number 3 using xhci_hcd
+[    4.770302] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[    4.770306] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[    4.770307] usb 1-12: Product: Integrated_Webcam_HD
+[    4.770309] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[    5.661587] EXT4-fs (nvme0n1p2): mounted filesystem with ordered data mode. Quota mode: none.
+[    5.755779] systemd[1]: systemd 251.4-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[    5.755789] systemd[1]: Detected architecture x86-64.
+[    5.756436] systemd[1]: Hostname set to <precision5510>.
+[    5.863156] systemd[1]: Queued start job for default target Graphical Interface.
+[    5.864414] systemd[1]: Created slice Slice /system/getty.
+[    5.864827] systemd[1]: Created slice Slice /system/modprobe.
+[    5.865093] systemd[1]: Created slice Slice /system/systemd-fsck.
+[    5.865320] systemd[1]: Created slice User and Session Slice.
+[    5.865397] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    5.865457] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    5.865607] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    5.865637] systemd[1]: Reached target Local Encrypted Volumes.
+[    5.865649] systemd[1]: Reached target Login Prompts.
+[    5.865661] systemd[1]: Reached target Local Integrity Protected Volumes.
+[    5.865677] systemd[1]: Reached target Path Units.
+[    5.865691] systemd[1]: Reached target Remote File Systems.
+[    5.865700] systemd[1]: Reached target Slice Units.
+[    5.865719] systemd[1]: Reached target Local Verity Protected Volumes.
+[    5.865785] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    5.865968] systemd[1]: Listening on LVM2 poll daemon socket.
+[    5.866776] systemd[1]: Listening on Process Core Dump Socket.
+[    5.869004] systemd[1]: Journal Audit Socket was skipped because of a failed condition check (ConditionSecurity=audit).
+[    5.869296] systemd[1]: Listening on Journal Socket (/dev/log).
+[    5.869427] systemd[1]: Listening on Journal Socket.
+[    5.869647] systemd[1]: Listening on udev Control Socket.
+[    5.869742] systemd[1]: Listening on udev Kernel Socket.
+[    5.870588] systemd[1]: Mounting Huge Pages File System...
+[    5.871524] systemd[1]: Mounting POSIX Message Queue File System...
+[    5.872434] systemd[1]: Mounting Kernel Debug File System...
+[    5.873343] systemd[1]: Mounting Kernel Trace File System...
+[    5.873433] systemd[1]: Load AppArmor profiles was skipped because of a failed condition check (ConditionSecurity=apparmor).
+[    5.874425] systemd[1]: Starting Create List of Static Device Nodes...
+[    5.875323] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[    5.876286] systemd[1]: Starting Load Kernel Module configfs...
+[    5.877257] systemd[1]: Starting Load Kernel Module drm...
+[    5.878412] systemd[1]: Starting Load Kernel Module fuse...
+[    5.878499] systemd[1]: File System Check on Root Device was skipped because of a failed condition check (ConditionPathIsReadWrite=!/).
+[    5.880297] systemd[1]: Starting Journal Service...
+[    5.881778] systemd[1]: Starting Load Kernel Modules...
+[    5.882660] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    5.882739] systemd[1]: Repartition Root Disk was skipped because all trigger condition checks failed.
+[    5.883589] systemd[1]: Starting Coldplug All udev Devices...
+[    5.885033] systemd[1]: Mounted Huge Pages File System.
+[    5.885133] systemd[1]: Mounted POSIX Message Queue File System.
+[    5.885226] systemd[1]: Mounted Kernel Debug File System.
+[    5.885316] systemd[1]: Mounted Kernel Trace File System.
+[    5.885511] systemd[1]: Finished Create List of Static Device Nodes.
+[    5.889541] fuse: init (API version 7.36)
+[    5.891584] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[    5.891720] systemd[1]: Finished Load Kernel Module configfs.
+[    5.892329] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[    5.892457] systemd[1]: Finished Load Kernel Module drm.
+[    5.892718] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[    5.892843] systemd[1]: Finished Load Kernel Module fuse.
+[    5.892890] EXT4-fs (nvme0n1p2): re-mounted. Quota mode: none.
+[    5.893619] systemd[1]: Finished Remount Root and Kernel File Systems.
+[    5.894938] systemd[1]: Mounting FUSE Control File System...
+[    5.895878] systemd[1]: Mounting Kernel Configuration File System...
+[    5.895990] systemd[1]: First Boot Wizard was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[    5.896376] systemd[1]: Rebuild Hardware Database was skipped because of a failed condition check (ConditionNeedsUpdate=/etc).
+[    5.897257] systemd[1]: Starting Load/Save Random Seed...
+[    5.897358] systemd[1]: Create System Users was skipped because of a failed condition check (ConditionNeedsUpdate=/etc).
+[    5.898249] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    5.898683] systemd[1]: Finished Load Kernel Modules.
+[    5.899249] systemd[1]: Mounted FUSE Control File System.
+[    5.899354] systemd[1]: Mounted Kernel Configuration File System.
+[    5.900232] systemd[1]: Starting Apply Kernel Variables...
+[    5.913369] systemd[1]: Finished Apply Kernel Variables.
+[    5.915227] systemd[1]: Finished Load/Save Random Seed.
+[    5.915347] systemd[1]: First Boot Complete was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[    5.936102] systemd[1]: Started Journal Service.
+[    5.943226] systemd-journald[227]: Received client request to flush runtime journal.
+[    6.133336] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[    6.133346] _ART package 0 is invalid, ignored
+[    6.133362] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[    6.133605] Consider using thermal netlink events interface
+[    6.134271] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[    6.192940] acpi INT33D5:00: intel-hid: created platform device
+[    6.193066] input: Intel HID events as /devices/platform/INT33D5:00/input/input6
+[    6.225330] Adding 35994228k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35994228k SSFS
+[    6.252954] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[    6.273748] mc: Linux media interface: v0.10
+[    6.374846] videodev: Linux video capture interface: v2.00
+[    6.409368] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[    6.415082] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[    6.427820] Bluetooth: Core ver 2.22
+[    6.427850] NET: Registered PF_BLUETOOTH protocol family
+[    6.427851] Bluetooth: HCI device and connection manager initialized
+[    6.427856] Bluetooth: HCI socket layer initialized
+[    6.427859] Bluetooth: L2CAP socket layer initialized
+[    6.427866] Bluetooth: SCO socket layer initialized
+[    6.428657] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[    6.437411] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[    6.437712] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[    6.438027] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[    6.450179] tpm tpm0: TPM is disabled/deactivated (0x7)
+[    6.493975] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[    6.494003] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[    6.503565] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[    6.503827] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    6.504204] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    6.505122] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    6.505125] cfg80211: failed to load regulatory.db
+[    6.606071] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input8
+[    6.606133] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input9
+[    6.606195] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[    6.678836] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[    6.678838] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[    6.678839] RAPL PMU: hw unit of domain package 2^-14 Joules
+[    6.678840] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[    6.678841] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[    6.691017] cryptd: max_cpu_qlen set to 1000
+[    6.700823] usbcore: registered new interface driver btusb
+[    6.740539] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[    6.751176] Bluetooth: hci0: Device revision is 5
+[    6.751178] Bluetooth: hci0: Secure boot is enabled
+[    6.751179] Bluetooth: hci0: OTP lock is enabled
+[    6.751180] Bluetooth: hci0: API lock is enabled
+[    6.751180] Bluetooth: hci0: Debug lock is disabled
+[    6.751181] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[    6.779892] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[    6.909106] intel_rapl_common: Found RAPL domain package
+[    6.909109] intel_rapl_common: Found RAPL domain dram
+[    6.928834] i2c i2c-2: 2/2 memory slots populated (from DMI)
+[    6.929246] i2c i2c-2: Successfully instantiated SPD at 0x50
+[    7.076542] MXM: GUID detected in BIOS
+[    7.076628] ACPI Warning: \_SB.PCI0.GFX0._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[    7.076780] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[    7.077400] pci 0000:01:00.0: optimus capabilities: enabled, status dynamic power, hda bios codec supported
+[    7.077403] VGA switcheroo: detected Optimus DSM method \_SB_.PCI0.PEG0.PEGP handle
+[    7.077404] nouveau: detected PR support, will not use DSM
+[    7.077431] nouveau 0000:01:00.0: enabling device (0006 -> 0007)
+[    7.077758] Console: switching to colour dummy device 80x25
+[    7.077914] nouveau 0000:01:00.0: NVIDIA GM107 (117310a2)
+[    7.085547] Intel(R) Wireless WiFi driver for Linux
+[    7.085593] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[    7.086209] AVX2 version of gcm_enc/dec engaged.
+[    7.086239] AES CTR mode by8 optimization enabled
+[    7.131294] intel_rapl_common: Found RAPL domain package
+[    7.131297] intel_rapl_common: Found RAPL domain core
+[    7.131298] intel_rapl_common: Found RAPL domain uncore
+[    7.131299] intel_rapl_common: Found RAPL domain dram
+[    7.131322] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[    7.134836] dcdbas dcdbas: Dell Systems Management Base Driver (version 5.6.0-3.4)
+[    7.134965] ee1004 2-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[    7.166706] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[    7.168343] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input11
+[    7.168435] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input12
+[    7.168508] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[    7.171036] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input14
+[    7.171130] usbcore: registered new interface driver uvcvideo
+[    7.180236] nouveau 0000:01:00.0: bios: version 82.07.82.00.29
+[    7.286480] nouveau 0000:01:00.0: fb: 2048 MiB GDDR5
+[    7.286493] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 022554 [ PRIVRING ]
+[    7.350442] Setting dangerous option enable_fbc - tainting kernel
+[    7.411705] iTCO_vendor_support: vendor-support=0
+[    7.414778] mousedev: PS/2 mouse device common for all mice
+[    7.425839] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    7.450818] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[    7.457896] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[    7.466275] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[    7.472711] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input15
+[    7.493089] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[    7.493187] thermal thermal_zone10: failed to read out thermal zone (-61)
+[    7.498294] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[    7.552480] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[    7.552500] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[    7.553053] i915 0000:00:02.0: [drm] [ENCODER:102:DDI B/PHY B] is disabled/in DSI mode with an ungated DDI clock, gate it
+[    7.553630] i915 0000:00:02.0: [drm] [ENCODER:117:DDI C/PHY C] is disabled/in DSI mode with an ungated DDI clock, gate it
+[    7.576973] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[    7.604191] intel_tcc_cooling: Programmable TCC Offset detected
+[    7.653319] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[    7.674537] dell_laptop: Using i8042 filter function for receiving events
+[    7.708862] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[    8.254191] Bluetooth: hci0: Waiting for firmware download to complete
+[    8.254907] Bluetooth: hci0: Firmware loaded in 1440439 usecs
+[    8.255051] Bluetooth: hci0: Waiting for device to boot
+[    8.266922] Bluetooth: hci0: Device booted in 11676 usecs
+[    8.266923] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[    8.268709] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[    8.272987] Bluetooth: hci0: Applying Intel DDC parameters completed
+[    8.273950] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[    8.409666] nouveau 0000:01:00.0: DRM: VRAM: 2048 MiB
+[    8.409669] nouveau 0000:01:00.0: DRM: GART: 1048576 MiB
+[    8.409671] nouveau 0000:01:00.0: DRM: Pointer to TMDS table not found
+[    8.409672] nouveau 0000:01:00.0: DRM: DCB version 4.0
+[    8.410023] nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
+[    8.410552] [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 0
+[    8.410555] nouveau 0000:01:00.0: DRM: Disabling PCI power management to avoid bug
+[    8.666498] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 1
+[    8.670167] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[    8.671139] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input16
+[    8.671253] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[    8.671285] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input17
+[    8.672623] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    8.674261] vga_switcheroo: enabled
+[    8.683292] fbcon: i915drmfb (fb0) is primary device
+[    8.697855] Console: switching to colour frame buffer device 240x67
+[    8.715934] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[    8.771778] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[    8.771782] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    8.771784] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    8.771785] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[    8.771786] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[    8.771788] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[    8.771789] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[    8.771790] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[    8.831596] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[    8.831651] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[    8.831699] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+[    8.831746] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input21
+[    8.831794] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input22
+[    8.831839] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input23
+[   10.788910] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 619444 [ PRIVRING ]
+[   29.854230] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=50792 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=38323 DF PROTO=UDP SPT=43814 DPT=53 LEN=40 ] 
+[   31.205670] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=50949 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9681 DF PROTO=UDP SPT=38846 DPT=53 LEN=39 ] 
+[   31.207337] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=50950 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9682 DF PROTO=UDP SPT=38846 DPT=53 LEN=39 ] 
+[   32.005383] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=51077 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=43088 DF PROTO=UDP SPT=53081 DPT=53 LEN=35 ] 
+[   32.006129] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=51078 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=43089 DF PROTO=UDP SPT=53081 DPT=53 LEN=35 ] 
+[   32.922196] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=51350 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=38325 DF PROTO=UDP SPT=43814 DPT=53 LEN=40 ] 
+[   32.922964] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=51351 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=38326 DF PROTO=UDP SPT=43814 DPT=53 LEN=40 ] 
+[   33.604880] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=51465 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=4499 DF PROTO=UDP SPT=56134 DPT=53 LEN=54 ] 
+[   33.605520] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=51466 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=4500 DF PROTO=UDP SPT=56134 DPT=53 LEN=54 ] 
+[   33.752120] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=51510 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=20246 DF PROTO=UDP SPT=47661 DPT=53 LEN=36 ] 
+[   33.752808] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=51511 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=20247 DF PROTO=UDP SPT=47661 DPT=53 LEN=36 ] 
+[   33.772052] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=51515 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=57859 DF PROTO=UDP SPT=40481 DPT=53 LEN=40 ] 
+[   33.772669] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=51516 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=57860 DF PROTO=UDP SPT=40481 DPT=53 LEN=40 ] 
+[   34.405727] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=51586 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=16405 DF PROTO=UDP SPT=40608 DPT=53 LEN=50 ] 
+[   34.406341] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=51587 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=16406 DF PROTO=UDP SPT=40608 DPT=53 LEN=50 ] 
+[   34.594395] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=51595 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=54227 DF PROTO=UDP SPT=47378 DPT=53 LEN=61 ] 
+[   34.595097] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=51596 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=54228 DF PROTO=UDP SPT=47378 DPT=53 LEN=61 ] 
+[   34.608735] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=51600 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=15972 DF PROTO=UDP SPT=49132 DPT=53 LEN=52 ] 
+[   34.609439] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=51601 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=15973 DF PROTO=UDP SPT=49132 DPT=53 LEN=52 ] 
+[   36.204165] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=51829 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9683 DF PROTO=UDP SPT=38846 DPT=53 LEN=39 ] 
+[   36.204777] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=51830 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=9684 DF PROTO=UDP SPT=38846 DPT=53 LEN=39 ] 
+[   37.005601] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=51948 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=43090 DF PROTO=UDP SPT=53081 DPT=53 LEN=35 ] 
+[   37.006371] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=51949 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=43091 DF PROTO=UDP SPT=53081 DPT=53 LEN=35 ] 
+[   38.167681] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=52061 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20495 DF PROTO=UDP SPT=52938 DPT=53 LEN=45 ] 
+[   38.607981] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=52153 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=4501 DF PROTO=UDP SPT=56134 DPT=53 LEN=54 ] 
+[   38.608484] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=52154 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=4502 DF PROTO=UDP SPT=56134 DPT=53 LEN=54 ] 
+[   39.408823] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=52369 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=16407 DF PROTO=UDP SPT=40608 DPT=53 LEN=50 ] 
+[   39.409512] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=52370 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=16408 DF PROTO=UDP SPT=40608 DPT=53 LEN=50 ] 
+[   40.004727] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=52428 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=47879 DF PROTO=UDP SPT=43773 DPT=53 LEN=40 ] 
+[   40.005411] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=52429 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=47880 DF PROTO=UDP SPT=43773 DPT=53 LEN=40 ] 
+[   41.591134] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=52725 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20497 DF PROTO=UDP SPT=52938 DPT=53 LEN=45 ] 
+[   41.591793] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=52726 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=20498 DF PROTO=UDP SPT=52938 DPT=53 LEN=45 ] 
+[   43.201903] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=53205 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=50222 DF PROTO=UDP SPT=42177 DPT=53 LEN=39 ] 
+[   43.202083] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=53206 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=50223 DF PROTO=UDP SPT=42177 DPT=53 LEN=39 ] 
+[   43.202248] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=53207 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=45713 DF PROTO=UDP SPT=53419 DPT=53 LEN=35 ] 
+[   43.202418] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=53208 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=45714 DF PROTO=UDP SPT=53419 DPT=53 LEN=35 ] 
+[   44.008318] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=53261 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55660 DF PROTO=UDP SPT=59459 DPT=53 LEN=40 ] 
+[   44.008890] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=53262 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55661 DF PROTO=UDP SPT=59459 DPT=53 LEN=40 ] 
+[   45.005271] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=53426 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=47881 DF PROTO=UDP SPT=43773 DPT=53 LEN=40 ] 
+[   45.005877] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=53427 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=47882 DF PROTO=UDP SPT=43773 DPT=53 LEN=40 ] 
+[   45.605899] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=53435 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=22887 DF PROTO=UDP SPT=46761 DPT=53 LEN=52 ] 
+[   45.606541] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=53436 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=22888 DF PROTO=UDP SPT=46761 DPT=53 LEN=52 ] 
+[   45.608253] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=53437 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=26067 DF PROTO=UDP SPT=38295 DPT=53 LEN=61 ] 
+[   45.608961] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=53438 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=26068 DF PROTO=UDP SPT=38295 DPT=53 LEN=61 ] 
+[   46.599021] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=53648 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53714 DF PROTO=UDP SPT=49361 DPT=53 LEN=45 ] 
+[   46.599553] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=53649 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53715 DF PROTO=UDP SPT=49361 DPT=53 LEN=45 ] 
+[   47.206039] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=53802 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=65279 DF PROTO=UDP SPT=60889 DPT=53 LEN=36 ] 
+[   47.206728] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=53803 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=65280 DF PROTO=UDP SPT=60889 DPT=53 LEN=36 ] 
+[   48.205447] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=53958 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=50224 DF PROTO=UDP SPT=42177 DPT=53 LEN=39 ] 
+[   48.206078] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=53959 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=45715 DF PROTO=UDP SPT=53419 DPT=53 LEN=35 ] 
+[   48.206699] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=53960 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=50225 DF PROTO=UDP SPT=42177 DPT=53 LEN=39 ] 
+[   48.207269] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=53961 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=45716 DF PROTO=UDP SPT=53419 DPT=53 LEN=35 ] 
+[   49.008238] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=54196 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55662 DF PROTO=UDP SPT=59459 DPT=53 LEN=40 ] 
+[   49.008504] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=54197 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55663 DF PROTO=UDP SPT=59459 DPT=53 LEN=40 ] 
+[   49.605346] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=54211 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=45455 DF PROTO=UDP SPT=56006 DPT=53 LEN=50 ] 
+[   49.605907] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=54212 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=45456 DF PROTO=UDP SPT=56006 DPT=53 LEN=50 ] 
+[   50.403122] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=54393 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=16608 DF PROTO=UDP SPT=45724 DPT=53 LEN=54 ] 
+[   50.403720] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=54394 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=16609 DF PROTO=UDP SPT=45724 DPT=53 LEN=54 ] 
+[   50.608619] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=54442 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=26069 DF PROTO=UDP SPT=38295 DPT=53 LEN=61 ] 
+[   50.609369] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=54443 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=26070 DF PROTO=UDP SPT=38295 DPT=53 LEN=61 ] 
+[   50.609902] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=54444 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=22889 DF PROTO=UDP SPT=46761 DPT=53 LEN=52 ] 
+[   50.610457] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=54445 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=22890 DF PROTO=UDP SPT=46761 DPT=53 LEN=52 ] 
+[   51.205181] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=54606 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=31301 DF PROTO=UDP SPT=44073 DPT=53 LEN=40 ] 
+[   51.205833] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=54607 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=31302 DF PROTO=UDP SPT=44073 DPT=53 LEN=40 ] 
+[   51.598787] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=54642 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53716 DF PROTO=UDP SPT=49361 DPT=53 LEN=45 ] 
+[   51.599509] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=54643 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=53717 DF PROTO=UDP SPT=49361 DPT=53 LEN=45 ] 
+[   52.205395] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=54791 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=65281 DF PROTO=UDP SPT=60889 DPT=53 LEN=36 ] 
+[   52.206042] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=54792 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=65282 DF PROTO=UDP SPT=60889 DPT=53 LEN=36 ] 
+[   54.605493] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=55177 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=45457 DF PROTO=UDP SPT=56006 DPT=53 LEN=50 ] 
+[   54.606262] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=55178 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=45458 DF PROTO=UDP SPT=56006 DPT=53 LEN=50 ] 
+[   55.204443] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=55326 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=57163 DF PROTO=UDP SPT=59570 DPT=53 LEN=39 ] 
+[   55.205105] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=55327 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=57164 DF PROTO=UDP SPT=59570 DPT=53 LEN=39 ] 
+[   55.405530] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=55384 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=16610 DF PROTO=UDP SPT=45724 DPT=53 LEN=54 ] 
+[   55.406178] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=55385 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=16611 DF PROTO=UDP SPT=45724 DPT=53 LEN=54 ] 
+[   56.205441] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=55558 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=31303 DF PROTO=UDP SPT=44073 DPT=53 LEN=40 ] 
+[   56.206022] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=55559 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=31304 DF PROTO=UDP SPT=44073 DPT=53 LEN=40 ] 
+[   56.605765] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=55611 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=35111 DF PROTO=UDP SPT=34197 DPT=53 LEN=45 ] 
+[   56.606419] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=55612 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=35112 DF PROTO=UDP SPT=34197 DPT=53 LEN=45 ] 
+[   56.806716] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=55642 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=61096 DF PROTO=UDP SPT=33298 DPT=53 LEN=35 ] 
+[   56.807341] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=55643 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=61097 DF PROTO=UDP SPT=33298 DPT=53 LEN=35 ] 
+[   60.006071] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=56350 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=56957 DF PROTO=UDP SPT=35294 DPT=53 LEN=40 ] 
+[   60.006722] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=56351 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=56958 DF PROTO=UDP SPT=35294 DPT=53 LEN=40 ] 
+[   60.208825] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=56393 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=57165 DF PROTO=UDP SPT=59570 DPT=53 LEN=39 ] 
+[   60.209494] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=56394 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=57166 DF PROTO=UDP SPT=59570 DPT=53 LEN=39 ] 
+[   60.802900] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=56397 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=44168 DF PROTO=UDP SPT=51230 DPT=53 LEN=36 ] 
+[   60.803438] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=56398 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=44169 DF PROTO=UDP SPT=51230 DPT=53 LEN=36 ] 
+[   61.604608] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=56534 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=41545 DF PROTO=UDP SPT=35027 DPT=53 LEN=52 ] 
+[   61.605205] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=56535 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=41546 DF PROTO=UDP SPT=35027 DPT=53 LEN=52 ] 
+[   61.607544] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=56536 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=43481 DF PROTO=UDP SPT=54641 DPT=53 LEN=61 ] 
+[   61.608126] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=56537 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=43482 DF PROTO=UDP SPT=54641 DPT=53 LEN=61 ] 
+[   61.608727] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=56538 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=35113 DF PROTO=UDP SPT=34197 DPT=53 LEN=45 ] 
+[   61.609287] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=56539 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=35114 DF PROTO=UDP SPT=34197 DPT=53 LEN=45 ] 
+[   61.808827] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=56554 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=61098 DF PROTO=UDP SPT=33298 DPT=53 LEN=35 ] 
+[   61.809489] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=56555 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=61099 DF PROTO=UDP SPT=33298 DPT=53 LEN=35 ] 
+[   63.206352] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=56844 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=35810 DF PROTO=UDP SPT=47518 DPT=53 LEN=40 ] 
+[   63.207031] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=56845 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=35811 DF PROTO=UDP SPT=47518 DPT=53 LEN=40 ] 
+[   65.008671] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=56890 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=56959 DF PROTO=UDP SPT=35294 DPT=53 LEN=40 ] 
+[   65.009300] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=56891 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=56960 DF PROTO=UDP SPT=35294 DPT=53 LEN=40 ] 
+[   65.603225] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=57013 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=597 DF PROTO=UDP SPT=47372 DPT=53 LEN=50 ] 
+[   65.603855] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=57014 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=598 DF PROTO=UDP SPT=47372 DPT=53 LEN=50 ] 
+[   65.805357] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=57020 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=44170 DF PROTO=UDP SPT=51230 DPT=53 LEN=36 ] 
+[   65.805869] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=57021 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=44171 DF PROTO=UDP SPT=51230 DPT=53 LEN=36 ] 
+[   66.404814] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=57036 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=7480 DF PROTO=UDP SPT=53122 DPT=53 LEN=54 ] 
+[   66.405418] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=57037 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=7481 DF PROTO=UDP SPT=53122 DPT=53 LEN=54 ] 
+[   66.608844] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=57060 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=41547 DF PROTO=UDP SPT=35027 DPT=53 LEN=52 ] 
+[   66.609540] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=57061 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=43483 DF PROTO=UDP SPT=54641 DPT=53 LEN=61 ] 
+[   66.610220] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=57062 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=41548 DF PROTO=UDP SPT=35027 DPT=53 LEN=52 ] 
+[   66.610829] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=57063 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=43484 DF PROTO=UDP SPT=54641 DPT=53 LEN=61 ] 
+[   66.614089] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=57064 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=58225 DF PROTO=UDP SPT=33601 DPT=53 LEN=45 ] 
+[   66.614748] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=57065 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=58226 DF PROTO=UDP SPT=33601 DPT=53 LEN=45 ] 
+[   67.204465] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=57188 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=54873 DF PROTO=UDP SPT=43187 DPT=53 LEN=39 ] 
+[   67.205028] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=57189 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=54874 DF PROTO=UDP SPT=43187 DPT=53 LEN=39 ] 
+[   67.205689] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=57190 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=48500 DF PROTO=UDP SPT=42384 DPT=53 LEN=35 ] 
+[   67.206157] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=57191 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=48501 DF PROTO=UDP SPT=42384 DPT=53 LEN=35 ] 
+[   68.208804] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=57419 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=35812 DF PROTO=UDP SPT=47518 DPT=53 LEN=40 ] 
+[   68.209403] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=57420 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=35813 DF PROTO=UDP SPT=47518 DPT=53 LEN=40 ] 
+[   70.605263] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=57824 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=599 DF PROTO=UDP SPT=47372 DPT=53 LEN=50 ] 
+[   70.605817] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=57825 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=600 DF PROTO=UDP SPT=47372 DPT=53 LEN=50 ] 
+[   71.203955] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=57863 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=12054 DF PROTO=UDP SPT=53977 DPT=53 LEN=36 ] 
+[   71.204519] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=57864 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=12055 DF PROTO=UDP SPT=53977 DPT=53 LEN=36 ] 
+[   71.405272] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=57900 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=7482 DF PROTO=UDP SPT=53122 DPT=53 LEN=54 ] 
+[   71.405822] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=57901 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=7483 DF PROTO=UDP SPT=53122 DPT=53 LEN=54 ] 
+[   71.612059] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=57912 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=58227 DF PROTO=UDP SPT=33601 DPT=53 LEN=45 ] 
+[   71.612743] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=57913 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=58228 DF PROTO=UDP SPT=33601 DPT=53 LEN=45 ] 
+[   72.205679] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=58016 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=48502 DF PROTO=UDP SPT=42384 DPT=53 LEN=35 ] 
+[   72.206238] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=58017 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=48503 DF PROTO=UDP SPT=42384 DPT=53 LEN=35 ] 
+[   72.206765] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=58018 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=54875 DF PROTO=UDP SPT=43187 DPT=53 LEN=39 ] 
+[   72.207250] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=58019 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=54876 DF PROTO=UDP SPT=43187 DPT=53 LEN=39 ] 
+[   75.202308] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=58595 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49860 DF PROTO=UDP SPT=45543 DPT=53 LEN=40 ] 
+[   75.202822] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=58596 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49861 DF PROTO=UDP SPT=45543 DPT=53 LEN=40 ] 
+[   76.003606] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=58753 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=18038 DF PROTO=UDP SPT=40900 DPT=53 LEN=40 ] 
+[   76.004124] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=58754 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=18039 DF PROTO=UDP SPT=40900 DPT=53 LEN=40 ] 
+[   76.208658] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=58771 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=12056 DF PROTO=UDP SPT=53977 DPT=53 LEN=36 ] 
+[   76.209107] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=58772 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=12057 DF PROTO=UDP SPT=53977 DPT=53 LEN=36 ] 
+[   76.619133] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=58880 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43912 DF PROTO=UDP SPT=58712 DPT=53 LEN=45 ] 
+[   76.619635] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=58881 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43913 DF PROTO=UDP SPT=58712 DPT=53 LEN=45 ] 
+[   77.604092] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=59024 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=19159 DF PROTO=UDP SPT=38392 DPT=53 LEN=61 ] 
+[   77.604698] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=59025 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=19160 DF PROTO=UDP SPT=38392 DPT=53 LEN=61 ] 
+[   78.404404] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=59121 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=25619 DF PROTO=UDP SPT=50026 DPT=53 LEN=52 ] 
+[   78.404953] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=59122 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=25620 DF PROTO=UDP SPT=50026 DPT=53 LEN=52 ] 
+[   79.205376] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=59220 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=8982 DF PROTO=UDP SPT=44306 DPT=53 LEN=39 ] 
+[   79.205912] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=59221 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=8983 DF PROTO=UDP SPT=44306 DPT=53 LEN=39 ] 
+[   79.206521] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=59222 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=5054 DF PROTO=UDP SPT=47592 DPT=53 LEN=35 ] 
+[   79.207061] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=59223 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=5055 DF PROTO=UDP SPT=47592 DPT=53 LEN=35 ] 
+[   80.205459] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=59455 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49862 DF PROTO=UDP SPT=45543 DPT=53 LEN=40 ] 
+[   80.206132] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=59456 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49863 DF PROTO=UDP SPT=45543 DPT=53 LEN=40 ] 
+[   81.005402] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=59526 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=18040 DF PROTO=UDP SPT=40900 DPT=53 LEN=40 ] 
+[   81.006058] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=59527 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=18041 DF PROTO=UDP SPT=40900 DPT=53 LEN=40 ] 
+[   81.603079] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=59659 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=54987 DF PROTO=UDP SPT=48137 DPT=53 LEN=54 ] 
+[   81.603791] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=59660 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=54988 DF PROTO=UDP SPT=48137 DPT=53 LEN=54 ] 
+[   81.622107] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=59661 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43914 DF PROTO=UDP SPT=58712 DPT=53 LEN=45 ] 
+[   81.622751] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=59662 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=43915 DF PROTO=UDP SPT=58712 DPT=53 LEN=45 ] 
+[   82.404470] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=59753 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=18552 DF PROTO=UDP SPT=33257 DPT=53 LEN=50 ] 
+[   82.405213] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=59754 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=18553 DF PROTO=UDP SPT=33257 DPT=53 LEN=50 ] 
+[   82.605433] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=59776 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=19161 DF PROTO=UDP SPT=38392 DPT=53 LEN=61 ] 
+[   82.606036] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=59777 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=19162 DF PROTO=UDP SPT=38392 DPT=53 LEN=61 ] 
+[   83.405479] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=59929 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=25621 DF PROTO=UDP SPT=50026 DPT=53 LEN=52 ] 
+[   83.406148] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=59930 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=25622 DF PROTO=UDP SPT=50026 DPT=53 LEN=52 ] 
+[   84.208721] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=59976 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=8984 DF PROTO=UDP SPT=44306 DPT=53 LEN=39 ] 
+[   84.209343] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=59977 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=8985 DF PROTO=UDP SPT=44306 DPT=53 LEN=39 ] 
+[   84.209973] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=59978 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=5056 DF PROTO=UDP SPT=47592 DPT=53 LEN=35 ] 
+[   84.210599] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=59979 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=5057 DF PROTO=UDP SPT=47592 DPT=53 LEN=35 ] 
+[   86.606281] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=60055 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=54989 DF PROTO=UDP SPT=48137 DPT=53 LEN=54 ] 
+[   86.606766] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=60056 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=54990 DF PROTO=UDP SPT=48137 DPT=53 LEN=54 ] 
+[   86.628438] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=60060 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63232 DF PROTO=UDP SPT=40064 DPT=53 LEN=45 ] 
+[   86.628973] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=60061 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63233 DF PROTO=UDP SPT=40064 DPT=53 LEN=45 ] 
+[   87.204876] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=60208 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=14180 DF PROTO=UDP SPT=46066 DPT=53 LEN=36 ] 
+[   87.205410] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=60209 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=14181 DF PROTO=UDP SPT=46066 DPT=53 LEN=36 ] 
+[   87.205944] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=60210 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=44346 DF PROTO=UDP SPT=56444 DPT=53 LEN=40 ] 
+[   87.206514] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=60211 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=44347 DF PROTO=UDP SPT=56444 DPT=53 LEN=40 ] 
+[   87.405256] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=60235 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=18554 DF PROTO=UDP SPT=33257 DPT=53 LEN=50 ] 
+[   87.405773] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=60236 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=18555 DF PROTO=UDP SPT=33257 DPT=53 LEN=50 ] 
+[   91.203421] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=61357 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=41856 DF PROTO=UDP SPT=57873 DPT=53 LEN=39 ] 
+[   91.203917] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=61358 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=41857 DF PROTO=UDP SPT=57873 DPT=53 LEN=39 ] 
+[   91.629484] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=61362 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63234 DF PROTO=UDP SPT=40064 DPT=53 LEN=45 ] 
+[   91.630084] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=61363 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=63235 DF PROTO=UDP SPT=40064 DPT=53 LEN=45 ] 
+[   92.005058] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=61388 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=14021 DF PROTO=UDP SPT=46407 DPT=53 LEN=35 ] 
+[   92.005590] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=61389 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=14022 DF PROTO=UDP SPT=46407 DPT=53 LEN=35 ] 
+[   92.206382] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=61402 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=14182 DF PROTO=UDP SPT=46066 DPT=53 LEN=36 ] 
+[   92.206978] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=61403 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=14183 DF PROTO=UDP SPT=46066 DPT=53 LEN=36 ] 
+[   92.208465] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=61404 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=44348 DF PROTO=UDP SPT=56444 DPT=53 LEN=40 ] 
+[   92.209013] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=61405 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=44349 DF PROTO=UDP SPT=56444 DPT=53 LEN=40 ] 
+[   92.805062] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=61520 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55826 DF PROTO=UDP SPT=60444 DPT=53 LEN=40 ] 
+[   92.805651] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=61521 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55827 DF PROTO=UDP SPT=60444 DPT=53 LEN=40 ] 
+[   93.605840] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=61640 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=49923 DF PROTO=UDP SPT=43923 DPT=53 LEN=52 ] 
+[   93.606400] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=61641 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=49924 DF PROTO=UDP SPT=43923 DPT=53 LEN=52 ] 
+[   94.405004] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=61760 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=37983 DF PROTO=UDP SPT=55838 DPT=53 LEN=61 ] 
+[   94.405478] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=61761 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=37984 DF PROTO=UDP SPT=55838 DPT=53 LEN=61 ] 
+[   96.204952] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=62283 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=41858 DF PROTO=UDP SPT=57873 DPT=53 LEN=39 ] 
+[   96.205560] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=62284 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=41859 DF PROTO=UDP SPT=57873 DPT=53 LEN=39 ] 
+[   96.635713] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=62289 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=34650 DF PROTO=UDP SPT=44938 DPT=53 LEN=45 ] 
+[   96.636244] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=62290 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=34651 DF PROTO=UDP SPT=44938 DPT=53 LEN=45 ] 
+[   97.008668] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=62327 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=14023 DF PROTO=UDP SPT=46407 DPT=53 LEN=35 ] 
+[   97.009264] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=62328 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=14024 DF PROTO=UDP SPT=46407 DPT=53 LEN=35 ] 
+[   97.603756] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=62451 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=15843 DF PROTO=UDP SPT=47356 DPT=53 LEN=50 ] 
+[   97.604289] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=62452 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=15844 DF PROTO=UDP SPT=47356 DPT=53 LEN=50 ] 
+[   97.806096] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=62513 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55828 DF PROTO=UDP SPT=60444 DPT=53 LEN=40 ] 
+[   97.806757] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=62514 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=55829 DF PROTO=UDP SPT=60444 DPT=53 LEN=40 ] 
+[   98.402709] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=62657 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=34159 DF PROTO=UDP SPT=44603 DPT=53 LEN=54 ] 
+[   98.403406] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=62658 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=34160 DF PROTO=UDP SPT=44603 DPT=53 LEN=54 ] 
+[   98.608787] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=62671 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=49925 DF PROTO=UDP SPT=43923 DPT=53 LEN=52 ] 
+[   98.609503] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=62672 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=49926 DF PROTO=UDP SPT=43923 DPT=53 LEN=52 ] 
+[   99.204916] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=62692 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19392 DF PROTO=UDP SPT=39838 DPT=53 LEN=36 ] 
+[   99.205519] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=62693 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19393 DF PROTO=UDP SPT=39838 DPT=53 LEN=36 ] 
+[   99.406116] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=62748 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=37985 DF PROTO=UDP SPT=55838 DPT=53 LEN=61 ] 
+[   99.406924] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=62749 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=37986 DF PROTO=UDP SPT=55838 DPT=53 LEN=61 ] 
+[  101.635444] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=63254 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=34652 DF PROTO=UDP SPT=44938 DPT=53 LEN=45 ] 
+[  101.636062] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=63255 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=34653 DF PROTO=UDP SPT=44938 DPT=53 LEN=45 ] 
+[  102.605406] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=63500 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=15845 DF PROTO=UDP SPT=47356 DPT=53 LEN=50 ] 
+[  102.605991] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=63501 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=15846 DF PROTO=UDP SPT=47356 DPT=53 LEN=50 ] 
+[  103.203800] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=63617 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49012 DF PROTO=UDP SPT=58387 DPT=53 LEN=40 ] 
+[  103.204386] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=63618 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49013 DF PROTO=UDP SPT=58387 DPT=53 LEN=40 ] 
+[  103.205147] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=63619 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=21290 DF PROTO=UDP SPT=35206 DPT=53 LEN=35 ] 
+[  103.205805] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=63620 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=21291 DF PROTO=UDP SPT=35206 DPT=53 LEN=35 ] 
+[  103.407870] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=63679 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=34161 DF PROTO=UDP SPT=44603 DPT=53 LEN=54 ] 
+[  103.408515] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=63680 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=34162 DF PROTO=UDP SPT=44603 DPT=53 LEN=54 ] 
+[  104.205706] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=63717 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19394 DF PROTO=UDP SPT=39838 DPT=53 LEN=36 ] 
+[  104.206419] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=63718 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=19395 DF PROTO=UDP SPT=39838 DPT=53 LEN=36 ] 
+[  106.641739] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=64094 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=48525 DF PROTO=UDP SPT=56350 DPT=53 LEN=45 ] 
+[  106.642307] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=64095 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=48526 DF PROTO=UDP SPT=56350 DPT=53 LEN=45 ] 
+[  108.205330] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=64293 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49014 DF PROTO=UDP SPT=58387 DPT=53 LEN=40 ] 
+[  108.205930] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=64294 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=49015 DF PROTO=UDP SPT=58387 DPT=53 LEN=40 ] 
+[  108.208430] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=64295 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=21292 DF PROTO=UDP SPT=35206 DPT=53 LEN=35 ] 
+[  108.208920] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=64296 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=21293 DF PROTO=UDP SPT=35206 DPT=53 LEN=35 ] 
+[  108.803749] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=64356 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=9672 DF PROTO=UDP SPT=45240 DPT=53 LEN=40 ] 
+[  108.804298] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=64357 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=9673 DF PROTO=UDP SPT=45240 DPT=53 LEN=40 ] 
+[  109.602529] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=64412 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=27698 DF PROTO=UDP SPT=36217 DPT=53 LEN=61 ] 
+[  109.603043] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=64413 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=27699 DF PROTO=UDP SPT=36217 DPT=53 LEN=61 ] 
+[  110.405465] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=64471 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=57650 DF PROTO=UDP SPT=56591 DPT=53 LEN=52 ] 
+[  110.406063] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=64472 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=57651 DF PROTO=UDP SPT=56591 DPT=53 LEN=52 ] 
+[  111.204249] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=64687 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=5078 DF PROTO=UDP SPT=36749 DPT=53 LEN=36 ] 
+[  111.204752] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=64688 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=5079 DF PROTO=UDP SPT=36749 DPT=53 LEN=36 ] 
+[  111.205222] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=64689 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=43510 DF PROTO=UDP SPT=54666 DPT=53 LEN=39 ] 
+[  111.205680] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=64690 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=43511 DF PROTO=UDP SPT=54666 DPT=53 LEN=39 ] 
+[  111.641969] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=64692 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=48527 DF PROTO=UDP SPT=56350 DPT=53 LEN=45 ] 
+[  111.642484] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=64693 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=48528 DF PROTO=UDP SPT=56350 DPT=53 LEN=45 ] 
+[  113.602213] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=65096 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=48920 DF PROTO=UDP SPT=35233 DPT=53 LEN=54 ] 
+[  113.602686] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=65097 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=48921 DF PROTO=UDP SPT=35233 DPT=53 LEN=54 ] 
+[  113.603336] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=65098 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=37549 DF PROTO=UDP SPT=41938 DPT=53 LEN=50 ] 
+[  113.603870] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=65099 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=37550 DF PROTO=UDP SPT=41938 DPT=53 LEN=50 ] 
+[  113.805279] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=65159 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=9674 DF PROTO=UDP SPT=45240 DPT=53 LEN=40 ] 
+[  113.805788] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=65160 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=9675 DF PROTO=UDP SPT=45240 DPT=53 LEN=40 ] 
+[  114.605548] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=65316 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=27700 DF PROTO=UDP SPT=36217 DPT=53 LEN=61 ] 
+[  114.606017] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=65317 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=27701 DF PROTO=UDP SPT=36217 DPT=53 LEN=61 ] 
+[  115.204219] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=65333 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=63251 DF PROTO=UDP SPT=52577 DPT=53 LEN=35 ] 
+[  115.204852] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=65334 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=63252 DF PROTO=UDP SPT=52577 DPT=53 LEN=35 ] 
+[  115.408577] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=65381 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=57652 DF PROTO=UDP SPT=56591 DPT=53 LEN=52 ] 
+[  115.409385] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=65382 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=57653 DF PROTO=UDP SPT=56591 DPT=53 LEN=52 ] 
+[  116.007699] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=65517 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54832 DF PROTO=UDP SPT=47886 DPT=53 LEN=40 ] 
+[  116.008758] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=65518 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54833 DF PROTO=UDP SPT=47886 DPT=53 LEN=40 ] 
+[  116.205514] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=37 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=43512 DF PROTO=UDP SPT=54666 DPT=53 LEN=39 ] 
+[  116.206206] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=38 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=43513 DF PROTO=UDP SPT=54666 DPT=53 LEN=39 ] 
+[  116.206763] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=39 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=5080 DF PROTO=UDP SPT=36749 DPT=53 LEN=36 ] 
+[  116.207257] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=40 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=5081 DF PROTO=UDP SPT=36749 DPT=53 LEN=36 ] 
+[  116.648609] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=62 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=1662 DF PROTO=UDP SPT=36711 DPT=53 LEN=45 ] 
+[  116.649152] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=63 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=1663 DF PROTO=UDP SPT=36711 DPT=53 LEN=45 ] 
+[  118.605267] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=582 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=37551 DF PROTO=UDP SPT=41938 DPT=53 LEN=50 ] 
+[  118.605816] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=583 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=37552 DF PROTO=UDP SPT=41938 DPT=53 LEN=50 ] 
+[  118.606381] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=584 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=48922 DF PROTO=UDP SPT=35233 DPT=53 LEN=54 ] 
+[  118.606864] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=585 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=48923 DF PROTO=UDP SPT=35233 DPT=53 LEN=54 ] 
+[  120.205273] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=1007 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=63253 DF PROTO=UDP SPT=52577 DPT=53 LEN=35 ] 
+[  120.205822] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=1008 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=63254 DF PROTO=UDP SPT=52577 DPT=53 LEN=35 ] 
+[  121.008551] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=1192 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54834 DF PROTO=UDP SPT=47886 DPT=53 LEN=40 ] 
+[  121.009004] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=1193 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54835 DF PROTO=UDP SPT=47886 DPT=53 LEN=40 ] 
+[  121.648686] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=1252 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=1664 DF PROTO=UDP SPT=36711 DPT=53 LEN=45 ] 
+[  121.649214] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=1253 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=1665 DF PROTO=UDP SPT=36711 DPT=53 LEN=45 ] 
+[  123.203170] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=1304 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=46439 DF PROTO=UDP SPT=50060 DPT=53 LEN=39 ] 
+[  123.203708] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=1305 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=46440 DF PROTO=UDP SPT=50060 DPT=53 LEN=39 ] 
+[  123.204424] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=1306 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=6285 DF PROTO=UDP SPT=33439 DPT=53 LEN=36 ] 
+[  123.205118] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=1307 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=6286 DF PROTO=UDP SPT=33439 DPT=53 LEN=36 ] 
+[  124.006098] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=1434 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=42637 DF PROTO=UDP SPT=48144 DPT=53 LEN=40 ] 
+[  124.006288] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=1435 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=42638 DF PROTO=UDP SPT=48144 DPT=53 LEN=40 ] 
+[  125.603453] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=1485 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=40469 DF PROTO=UDP SPT=40911 DPT=53 LEN=61 ] 
+[  125.604178] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=1486 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=40470 DF PROTO=UDP SPT=40911 DPT=53 LEN=61 ] 
+[  126.405062] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=1611 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=11452 DF PROTO=UDP SPT=40059 DPT=53 LEN=52 ] 
+[  126.405675] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=1612 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=11453 DF PROTO=UDP SPT=40059 DPT=53 LEN=52 ] 
+[  126.654845] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=1675 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=27135 DF PROTO=UDP SPT=52047 DPT=53 LEN=45 ] 
+[  126.655324] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=1676 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=27136 DF PROTO=UDP SPT=52047 DPT=53 LEN=45 ] 
+[  127.205631] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=1693 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17697 DF PROTO=UDP SPT=60352 DPT=53 LEN=40 ] 
+[  127.206222] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=1694 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17698 DF PROTO=UDP SPT=60352 DPT=53 LEN=40 ] 
+[  128.205411] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=1950 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=6287 DF PROTO=UDP SPT=33439 DPT=53 LEN=36 ] 
+[  128.206124] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=1951 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=46441 DF PROTO=UDP SPT=50060 DPT=53 LEN=39 ] 
+[  128.206722] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=1952 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=6288 DF PROTO=UDP SPT=33439 DPT=53 LEN=36 ] 
+[  128.207329] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=1953 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=46442 DF PROTO=UDP SPT=50060 DPT=53 LEN=39 ] 
+[  128.806555] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=2058 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=53961 DF PROTO=UDP SPT=33987 DPT=53 LEN=35 ] 
+[  128.807261] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=2059 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=53962 DF PROTO=UDP SPT=33987 DPT=53 LEN=35 ] 
+[  129.008744] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=2111 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=42639 DF PROTO=UDP SPT=48144 DPT=53 LEN=40 ] 
+[  129.009326] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=2112 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=42640 DF PROTO=UDP SPT=48144 DPT=53 LEN=40 ] 
+[  129.604625] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=2145 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=14531 DF PROTO=UDP SPT=45163 DPT=53 LEN=54 ] 
+[  129.605345] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=2146 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=14532 DF PROTO=UDP SPT=45163 DPT=53 LEN=54 ] 
+[  129.606008] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=2147 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=43823 DF PROTO=UDP SPT=38122 DPT=53 LEN=50 ] 
+[  129.606562] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=2148 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=43824 DF PROTO=UDP SPT=38122 DPT=53 LEN=50 ] 
+[  130.605404] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=2273 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=40471 DF PROTO=UDP SPT=40911 DPT=53 LEN=61 ] 
+[  130.606154] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=109 TOS=0x00 PREC=0xC0 TTL=64 ID=2274 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=40472 DF PROTO=UDP SPT=40911 DPT=53 LEN=61 ] 
+[  131.406570] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=2447 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=11454 DF PROTO=UDP SPT=40059 DPT=53 LEN=52 ] 
+[  131.407213] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0xC0 TTL=64 ID=2448 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=72 TOS=0x00 PREC=0x00 TTL=64 ID=11455 DF PROTO=UDP SPT=40059 DPT=53 LEN=52 ] 
+[  131.655305] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=2473 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=27137 DF PROTO=UDP SPT=52047 DPT=53 LEN=45 ] 
+[  131.656827] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=2474 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=27138 DF PROTO=UDP SPT=52047 DPT=53 LEN=45 ] 
+[  132.205429] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=2611 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17699 DF PROTO=UDP SPT=60352 DPT=53 LEN=40 ] 
+[  132.206134] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=88 TOS=0x00 PREC=0xC0 TTL=64 ID=2612 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=17700 DF PROTO=UDP SPT=60352 DPT=53 LEN=40 ] 
+[  133.808514] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=2787 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=53963 DF PROTO=UDP SPT=33987 DPT=53 LEN=35 ] 
+[  133.809052] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=83 TOS=0x00 PREC=0xC0 TTL=64 ID=2788 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=53964 DF PROTO=UDP SPT=33987 DPT=53 LEN=35 ] 
+[  134.605424] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=2829 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=43825 DF PROTO=UDP SPT=38122 DPT=53 LEN=50 ] 
+[  134.606053] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=98 TOS=0x00 PREC=0xC0 TTL=64 ID=2830 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=43826 DF PROTO=UDP SPT=38122 DPT=53 LEN=50 ] 
+[  134.607460] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=2831 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=14533 DF PROTO=UDP SPT=45163 DPT=53 LEN=54 ] 
+[  134.608022] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=102 TOS=0x00 PREC=0xC0 TTL=64 ID=2832 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=74 TOS=0x00 PREC=0x00 TTL=64 ID=14534 DF PROTO=UDP SPT=45163 DPT=53 LEN=54 ] 
+[  135.205033] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=2898 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=57946 DF PROTO=UDP SPT=49194 DPT=53 LEN=39 ] 
+[  135.205654] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=87 TOS=0x00 PREC=0xC0 TTL=64 ID=2899 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=59 TOS=0x00 PREC=0x00 TTL=64 ID=57947 DF PROTO=UDP SPT=49194 DPT=53 LEN=39 ] 
+[  136.663168] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=2912 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=32702 DF PROTO=UDP SPT=52208 DPT=53 LEN=45 ] 
+[  136.663751] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=93 TOS=0x00 PREC=0xC0 TTL=64 ID=2913 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=32703 DF PROTO=UDP SPT=52208 DPT=53 LEN=45 ] 
+[  136.806450] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=2939 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=26265 DF PROTO=UDP SPT=46812 DPT=53 LEN=36 ] 
+[  136.807124] iptables deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=84 TOS=0x00 PREC=0xC0 TTL=64 ID=2940 PROTO=ICMP TYPE=3 CODE=3 [SRC=127.0.0.1 DST=127.0.0.1 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=26266 DF PROTO=UDP SPT=46812 DPT=53 LEN=36 ] 
