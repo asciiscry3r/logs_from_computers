@@ -1,0 +1,1195 @@
+[гру14 16:42] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+[  +0,000006] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[  +0,000006] Spectre V2 : ibrs selected on command line.
+[  +0,000001] Spectre V2 : Mitigation: IBRS
+[  +0,000001] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[  +0,000000] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+[  +0,000001] RETBleed: Mitigation: IBRS
+[  +0,000004] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[  +0,000005] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[  +0,000008] MDS: Mitigation: Clear CPU buffers
+[  +0,000001] TAA: Mitigation: TSX disabled
+[  +0,000001] MMIO Stale Data: Mitigation: Clear CPU buffers
+[  +0,000006] SRBDS: Mitigation: Microcode
+[  +0,024693] Freeing SMP alternatives memory: 44K
+[  +0,000675] smpboot: CPU0: Intel(R) Xeon(R) CPU E3-1505M v5 @ 2.80GHz (family: 0x6, model: 0x5e, stepping: 0x3)
+[  +0,000195] cblist_init_generic: Setting adjustable number of callback queues.
+[  +0,000002] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000019] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000022] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000016] Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver.
+[  +0,000028] ... version:                4
+[  +0,000001] ... bit width:              48
+[  +0,000001] ... generic registers:      8
+[  +0,000001] ... value mask:             0000ffffffffffff
+[  +0,000001] ... max period:             00007fffffffffff
+[  +0,000001] ... fixed-purpose events:   3
+[  +0,000000] ... event mask:             00000007000000ff
+[  +0,000106] Estimated ratio of average max frequency by base frequency (times 1024): 1206
+[  +0,000028] rcu: Hierarchical SRCU implementation.
+[  +0,000001] rcu: 	Max phase no-delay instances is 400.
+[  +0,000889] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[  +0,000077] smp: Bringing up secondary CPUs ...
+[  +0,000133] x86: Booting SMP configuration:
+[  +0,000001] .... node  #0, CPUs:      #1 #2 #3
+[  +0,005524] smp: Brought up 1 node, 4 CPUs
+[  +0,000000] smpboot: Max logical packages: 1
+[  +0,000000] smpboot: Total of 4 processors activated (22399.41 BogoMIPS)
+[  +0,003983] devtmpfs: initialized
+[  +0,000000] x86/mm: Memory block size: 128MB
+[  +0,004411] ACPI: PM: Registering ACPI NVS region [mem 0x2a956000-0x2a956fff] (4096 bytes)
+[  +0,000000] ACPI: PM: Registering ACPI NVS region [mem 0x38dbd000-0x39426fff] (6725632 bytes)
+[  +0,000861] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[  +0,000009] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[  +0,000064] pinctrl core: initialized pinctrl subsystem
+[  +0,000001] pinctrl core: failed to create debugfs directory
+[  +0,000199] PM: RTC time: 14:42:30, date: 2022-12-14
+[  +0,000531] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[  +0,000816] DMA: preallocated 4096 KiB GFP_KERNEL pool for atomic allocations
+[  +0,000337] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[  +0,000327] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[  +0,000007] audit: initializing netlink subsys (enabled)
+[  +0,000011] audit: type=2000 audit(1671028950.050:1): state=initialized audit_enabled=1 res=1
+[  +0,000000] thermal_sys: Registered thermal governor 'fair_share'
+[  +0,000000] thermal_sys: Registered thermal governor 'bang_bang'
+[  +0,000000] thermal_sys: Registered thermal governor 'step_wise'
+[  +0,000000] thermal_sys: Registered thermal governor 'user_space'
+[  +0,000000] thermal_sys: Registered thermal governor 'power_allocator'
+[  +0,000000] cpuidle: using governor ladder
+[  +0,000000] cpuidle: using governor menu
+[  +0,000549] Simple Boot Flag at 0x47 set to 0x80
+[  +0,000000] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[  +0,000000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[  +0,000000] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[  +0,000000] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+[  +0,000000] PCI: Using configuration type 1 for base access
+[  +0,000430] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[  +0,003050] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[  +0,004726] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[  +0,000000] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+[  +0,000000] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[  +0,000000] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[  +0,000000] ACPI: Added _OSI(Module Device)
+[  +0,000000] ACPI: Added _OSI(Processor Device)
+[  +0,000000] ACPI: Added _OSI(3.0 _SCP Extensions)
+[  +0,000000] ACPI: Added _OSI(Processor Aggregator Device)
+[  +0,000000] ACPI: Added _OSI(Linux-Dell-Video)
+[  +0,000000] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[  +0,000000] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[  +0,078768] ACPI: 13 ACPI AML tables successfully acquired and loaded
+[  +0,004821] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[  +0,017986] ACPI: Dynamic OEM Table Load:
+[  +0,000007] ACPI: SSDT 0xFFFF8B012DFE7000 00061E (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+[  +0,002180] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+[  +0,003049] ACPI: Dynamic OEM Table Load:
+[  +0,000007] ACPI: SSDT 0xFFFF8B012DFCC000 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+[  +0,002966] ACPI: Dynamic OEM Table Load:
+[  +0,000006] ACPI: SSDT 0xFFFF8B012DFE4000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+[  +0,002772] ACPI: Dynamic OEM Table Load:
+[  +0,000005] ACPI: SSDT 0xFFFF8B012DF92800 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+[  +0,005361] ACPI: EC: EC started
+[  +0,000001] ACPI: EC: interrupt blocked
+[  +0,003629] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0,000003] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC used to handle transactions
+[  +0,000002] ACPI: Interpreter enabled
+[  +0,000063] ACPI: PM: (supports S0 S4 S5)
+[  +0,000002] ACPI: Using IOAPIC for interrupt routing
+[  +0,000066] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[  +0,000001] PCI: Using E820 reservations for host bridge windows
+[  +0,001484] ACPI: Enabled 9 GPEs in block 00 to 7F
+[  +0,003707] ACPI: PM: Power Resource [PG00]
+[  +0,037865] ACPI: PM: Power Resource [PG01]
+[  +0,000984] ACPI: PM: Power Resource [PG02]
+[  +0,004258] ACPI: PM: Power Resource [WRST]
+[  +0,000718] ACPI: PM: Power Resource [WRST]
+[  +0,000720] ACPI: PM: Power Resource [WRST]
+[  +0,000718] ACPI: PM: Power Resource [WRST]
+[  +0,000720] ACPI: PM: Power Resource [WRST]
+[  +0,000722] ACPI: PM: Power Resource [WRST]
+[  +0,000735] ACPI: PM: Power Resource [WRST]
+[  +0,000734] ACPI: PM: Power Resource [WRST]
+[  +0,000736] ACPI: PM: Power Resource [WRST]
+[  +0,000725] ACPI: PM: Power Resource [WRST]
+[  +0,000732] ACPI: PM: Power Resource [WRST]
+[  +0,000727] ACPI: PM: Power Resource [WRST]
+[  +0,000723] ACPI: PM: Power Resource [WRST]
+[  +0,000728] ACPI: PM: Power Resource [WRST]
+[  +0,000719] ACPI: PM: Power Resource [WRST]
+[  +0,000738] ACPI: PM: Power Resource [WRST]
+[  +0,000730] ACPI: PM: Power Resource [WRST]
+[  +0,000721] ACPI: PM: Power Resource [WRST]
+[  +0,001733] ACPI: PM: Power Resource [WRST]
+[  +0,001575] ACPI: PM: Power Resource [WRST]
+[  +0,034156] ACPI: PM: Power Resource [FN00]
+[  +0,000193] ACPI: PM: Power Resource [FN01]
+[  +0,000187] ACPI: PM: Power Resource [FN02]
+[  +0,000181] ACPI: PM: Power Resource [FN03]
+[  +0,000183] ACPI: PM: Power Resource [FN04]
+[  +0,001846] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[  +0,000009] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[  +0,000097] acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[  +0,000003] acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[  +0,000001] acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_ERROR)
+[  +0,001583] PCI host bridge to bus 0000:00
+[  +0,000003] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[  +0,000003] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+[  +0,000001] pci_bus 0000:00: root bus resource [mem 0x40000000-0xdfffffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [bus 00-fe]
+[  +0,000027] pci 0000:00:00.0: [8086:1918] type 00 class 0x060000
+[  +0,000112] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
+[  +0,000071] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[  +0,001043] pci 0000:00:02.0: [8086:191d] type 00 class 0x030000
+[  +0,000021] pci 0000:00:02.0: reg 0x10: [mem 0xdb000000-0xdbffffff 64bit]
+[  +0,000014] pci 0000:00:02.0: reg 0x18: [mem 0x70000000-0x7fffffff 64bit pref]
+[  +0,000010] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[  +0,000031] pci 0000:00:02.0: BAR 2: assigned to efifb
+[  +0,000004] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[  +0,000340] pci 0000:00:04.0: [8086:1903] type 00 class 0x118000
+[  +0,000019] pci 0000:00:04.0: reg 0x10: [mem 0xddd20000-0xddd27fff 64bit]
+[  +0,000529] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
+[  +0,000030] pci 0000:00:14.0: reg 0x10: [mem 0xddd10000-0xddd1ffff 64bit]
+[  +0,000090] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[  +0,000587] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
+[  +0,000029] pci 0000:00:14.2: reg 0x10: [mem 0xddd38000-0xddd38fff 64bit]
+[  +0,000243] pci 0000:00:15.0: [8086:a160] type 00 class 0x118000
+[  +0,000210] pci 0000:00:15.0: reg 0x10: [mem 0xddd37000-0xddd37fff 64bit]
+[  +0,001256] pci 0000:00:15.1: [8086:a161] type 00 class 0x118000
+[  +0,000198] pci 0000:00:15.1: reg 0x10: [mem 0xddd36000-0xddd36fff 64bit]
+[  +0,001129] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
+[  +0,000029] pci 0000:00:16.0: reg 0x10: [mem 0xddd35000-0xddd35fff 64bit]
+[  +0,000083] pci 0000:00:16.0: PME# supported from D3hot
+[  +0,000462] pci 0000:00:17.0: [8086:a102] type 00 class 0x010601
+[  +0,000028] pci 0000:00:17.0: reg 0x10: [mem 0xddd30000-0xddd31fff]
+[  +0,000016] pci 0000:00:17.0: reg 0x14: [mem 0xddd34000-0xddd340ff]
+[  +0,000015] pci 0000:00:17.0: reg 0x18: [io  0xf090-0xf097]
+[  +0,000016] pci 0000:00:17.0: reg 0x1c: [io  0xf080-0xf083]
+[  +0,000017] pci 0000:00:17.0: reg 0x20: [io  0xf060-0xf07f]
+[  +0,000016] pci 0000:00:17.0: reg 0x24: [mem 0xddd33000-0xddd337ff]
+[  +0,000049] pci 0000:00:17.0: PME# supported from D3hot
+[  +0,000542] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
+[  +0,000093] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[  +0,001233] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
+[  +0,000095] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[  +0,001230] pci 0000:00:1d.0: [8086:a118] type 01 class 0x060400
+[  +0,000096] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[  +0,001253] pci 0000:00:1d.4: [8086:a11c] type 01 class 0x060400
+[  +0,000090] pci 0000:00:1d.4: PME# supported from D0 D3hot D3cold
+[  +0,001214] pci 0000:00:1d.6: [8086:a11e] type 01 class 0x060400
+[  +0,000097] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[  +0,001214] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
+[  +0,000623] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
+[  +0,000020] pci 0000:00:1f.2: reg 0x10: [mem 0xddd2c000-0xddd2ffff]
+[  +0,000512] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
+[  +0,000031] pci 0000:00:1f.3: reg 0x10: [mem 0xddd28000-0xddd2bfff 64bit]
+[  +0,000034] pci 0000:00:1f.3: reg 0x20: [mem 0xddd00000-0xddd0ffff 64bit]
+[  +0,000050] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[  +0,001145] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
+[  +0,000062] pci 0000:00:1f.4: reg 0x10: [mem 0xddd32000-0xddd320ff 64bit]
+[  +0,000071] pci 0000:00:1f.4: reg 0x20: [io  0xf040-0xf05f]
+[  +0,000560] pci 0000:01:00.0: [10de:13b1] type 00 class 0x030200
+[  +0,000024] pci 0000:01:00.0: reg 0x10: [mem 0xdc000000-0xdcffffff]
+[  +0,000021] pci 0000:01:00.0: reg 0x14: [mem 0xb0000000-0xbfffffff 64bit pref]
+[  +0,000020] pci 0000:01:00.0: reg 0x1c: [mem 0xc0000000-0xc1ffffff 64bit pref]
+[  +0,000014] pci 0000:01:00.0: reg 0x24: [io  0xe000-0xe07f]
+[  +0,000013] pci 0000:01:00.0: reg 0x30: [mem 0xdd000000-0xdd07ffff pref]
+[  +0,000021] pci 0000:01:00.0: Enabling HDA controller
+[  +0,000054] pci 0000:01:00.0: 64.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
+[  +0,000776] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0,000003] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0,000002] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0,000003] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000122] pci 0000:02:00.0: [8086:24f3] type 00 class 0x028000
+[  +0,000062] pci 0000:02:00.0: reg 0x10: [mem 0xddc00000-0xddc01fff 64bit]
+[  +0,000213] pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+[  +0,000858] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0,000004] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0,000084] pci 0000:03:00.0: [10ec:525a] type 00 class 0xff0000
+[  +0,000042] pci 0000:03:00.0: reg 0x14: [mem 0xdd100000-0xdd100fff]
+[  +0,000146] pci 0000:03:00.0: supports D1 D2
+[  +0,000001] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[  +0,000743] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0,000003] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0,000003] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0,000004] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000093] pci 0000:04:00.0: [1179:010f] type 00 class 0x010802
+[  +0,000030] pci 0000:04:00.0: reg 0x10: [mem 0xddb00000-0xddb03fff 64bit]
+[  +0,000064] pci 0000:04:00.0: enabling Extended Tags
+[  +0,003105] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0,000004] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0,000079] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0,000077] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0,000004] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000004] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,005250] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[  +0,000152] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[  +0,000149] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+[  +0,000150] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[  +0,000151] ACPI: PCI: Interrupt link LNKE configured for IRQ 11
+[  +0,000148] ACPI: PCI: Interrupt link LNKF configured for IRQ 11
+[  +0,000147] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+[  +0,000149] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+[  +0,003985] ACPI: EC: interrupt unblocked
+[  +0,000001] ACPI: EC: event unblocked
+[  +0,000009] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0,000001] ACPI: EC: GPE=0x14
+[  +0,000002] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC initialization complete
+[  +0,000002] ACPI: \_SB_.PCI0.LPCB.ECDV: EC: Used to handle transactions and events
+[  +0,000101] iommu: Default domain type: Translated 
+[  +0,000000] iommu: DMA domain TLB invalidation policy: strict mode (set via kernel command line)
+[  +0,002510] SCSI subsystem initialized
+[  +0,000010] libata version 3.00 loaded.
+[  +0,000000] ACPI: bus type USB registered
+[  +0,000178] usbcore: registered new interface driver usbfs
+[  +0,000011] usbcore: registered new interface driver hub
+[  +0,000007] usbcore: registered new device driver usb
+[  +0,000034] pps_core: LinuxPPS API ver. 1 registered
+[  +0,000001] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[  +0,000003] PTP clock support registered
+[  +0,000013] EDAC MC: Ver: 3.0.0
+[  +0,000138] Registered efivars operations
+[  +0,000556] NetLabel: Initializing
+[  +0,000001] NetLabel:  domain hash size = 128
+[  +0,000001] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[  +0,000027] audit: type=1409 audit(1671028950.321:2): netlabel: auid=0 ses=0 subj=unconfined nlbl_domain=(default) nlbl_protocol=unlbl res=1
+[  +0,000004] NetLabel:  unlabeled traffic allowed by default
+[  -0,000004] audit: type=1406 audit(1671028950.321:3): netlabel: auid=0 ses=0 subj=unconfined unlbl_accept=1 old=0
+[  +0,000009] mctp: management component transport protocol core
+[  +0,000001] NET: Registered PF_MCTP protocol family
+[  +0,000005] PCI: Using ACPI for IRQ routing
+[  +0,023490] PCI: pci_cache_line_size set to 64 bytes
+[  +0,000123] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x2a956000-0x2bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x36352000-0x37ffffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x389c3000-0x3bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x3a500000-0x3bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x8be000000-0x8bfffffff]
+[  +0,000019] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[  +0,000000] pci 0000:00:02.0: vgaarb: bridge control possible
+[  +0,000000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[  +0,000000] vgaarb: loaded
+[  +0,001614] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[  +0,000008] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+[  +0,001633] clocksource: Switched to clocksource tsc-early
+[  +0,016609] VFS: Disk quotas dquot_6.6.0
+[  +0,000014] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[  +0,000179] AppArmor: AppArmor Filesystem Enabled
+[  +0,000003] audit: type=1400 audit(1671028950.363:4): apparmor="STATUS" info="AppArmor Filesystem Enabled" pid=1 comm="swapper/0"
+[  +0,000034] pnp: PnP ACPI init
+[  +0,000419] system 00:00: [io  0x0680-0x069f] has been reserved
+[  +0,000004] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0x1800-0x18fe] has been reserved
+[  +0,000002] system 00:00: [io  0x164e-0x164f] has been reserved
+[  +0,000167] system 00:01: [io  0x0800-0x087f] has been reserved
+[  +0,000114] system 00:03: [io  0x1854-0x1857] has been reserved
+[  +0,000962] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[  +0,000003] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[  +0,000002] system 00:06: [mem 0xe0000000-0xefffffff] has been reserved
+[  +0,000003] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfed90000-0xfed93fff] could not be reserved
+[  +0,000002] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[  +0,000003] system 00:06: [mem 0xdffe0000-0xdfffffff] has been reserved
+[  +0,000084] system 00:07: [mem 0xfd000000-0xfdabffff] has been reserved
+[  +0,000003] system 00:07: [mem 0xfdad0000-0xfdadffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfdb00000-0xfdffffff] has been reserved
+[  +0,000003] system 00:07: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[  +0,000002] system 00:07: [mem 0xfe036000-0xfe03bfff] has been reserved
+[  +0,000005] system 00:07: [mem 0xfe03d000-0xfe3fffff] has been reserved
+[  +0,000003] system 00:07: [mem 0xfe410000-0xfe7fffff] has been reserved
+[  +0,000593] system 00:08: [io  0xff00-0xfffe] has been reserved
+[  +0,002615] system 00:09: [mem 0xfdaf0000-0xfdafffff] has been reserved
+[  +0,000004] system 00:09: [mem 0xfdae0000-0xfdaeffff] has been reserved
+[  +0,000002] system 00:09: [mem 0xfdac0000-0xfdacffff] has been reserved
+[  +0,004244] pnp: PnP ACPI: found 11 devices
+[  +0,006195] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[  +0,000085] NET: Registered PF_INET protocol family
+[  +0,000300] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0,003082] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+[  +0,000045] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[  +0,000174] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0,000305] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[  +0,000080] TCP: Hash tables configured (established 262144 bind 65536)
+[  +0,000212] MPTCP token hash table entries: 32768 (order: 7, 786432 bytes, linear)
+[  +0,000163] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0,000094] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0,000091] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[  +0,000009] NET: Registered PF_XDP protocol family
+[  +0,000006] pci 0000:00:1d.6: bridge window [io  0x1000-0x0fff] to [bus 06-3e] add_size 1000
+[  +0,000009] pci 0000:00:1d.6: BAR 13: assigned [io  0x2000-0x2fff]
+[  +0,000004] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0,000003] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0,000008] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0,000005] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000016] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0,000008] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0,000013] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0,000002] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0,000007] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0,000006] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000009] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0,000007] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0,000014] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0,000019] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0,000002] pci 0000:00:1d.6:   bridge window [io  0x2000-0x2fff]
+[  +0,000007] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000005] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000010] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[  +0,000002] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[  +0,000002] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000dffff window]
+[  +0,000001] pci_bus 0000:00: resource 7 [mem 0x000e4000-0x000effff window]
+[  +0,000002] pci_bus 0000:00: resource 8 [mem 0x40000000-0xdfffffff window]
+[  +0,000001] pci_bus 0000:00: resource 9 [mem 0xfd000000-0xfe7fffff window]
+[  +0,000002] pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+[  +0,000001] pci_bus 0000:01: resource 1 [mem 0xdc000000-0xdd0fffff]
+[  +0,000002] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000001] pci_bus 0000:02: resource 1 [mem 0xddc00000-0xddcfffff]
+[  +0,000002] pci_bus 0000:03: resource 0 [io  0xd000-0xdfff]
+[  +0,000001] pci_bus 0000:03: resource 1 [mem 0xdd100000-0xddafffff]
+[  +0,000002] pci_bus 0000:03: resource 2 [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000001] pci_bus 0000:04: resource 1 [mem 0xddb00000-0xddbfffff]
+[  +0,000002] pci_bus 0000:06: resource 0 [io  0x2000-0x2fff]
+[  +0,000001] pci_bus 0000:06: resource 1 [mem 0xc4000000-0xda0fffff]
+[  +0,000001] pci_bus 0000:06: resource 2 [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000720] PCI: CLS 0 bytes, default 64
+[  +0,000011] DMAR: ACPI device "device:6f" under DMAR at fed91000 as 00:15.0
+[  +0,000004] DMAR: ACPI device "device:70" under DMAR at fed91000 as 00:15.1
+[  +0,000014] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[  +0,000001] software IO TLB: mapped [mem 0x000000002e695000-0x0000000032695000] (64MB)
+[  +0,000026] Trying to unpack rootfs image as initramfs...
+[  +0,001106] Initialise system trusted keyrings
+[  +0,000011] Key type blacklist registered
+[  +0,000034] workingset: timestamp_bits=41 max_order=23 bucket_order=0
+[  +0,002509] zbud: loaded
+[  +0,000392] integrity: Platform Keyring initialized
+[  +0,000003] integrity: Machine keyring initialized
+[  +0,008261] Key type asymmetric registered
+[  +0,000002] Asymmetric key parser 'x509' registered
+[  +0,142201] Freeing initrd memory: 43864K
+[  +0,006196] alg: self-tests for CTR-KDF (hmac(sha256)) passed
+[  +0,000025] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[  +0,000035] io scheduler mq-deadline registered
+[  +0,000001] io scheduler kyber registered
+[  +0,000051] io scheduler bfq registered
+[  +0,002048] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[  +0,001713] ACPI: AC: AC Adapter [AC] (on-line)
+[  +0,000083] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[  +0,003578] ACPI: button: Lid Switch [LID0]
+[  +0,000047] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[  +0,000158] ACPI: button: Power Button [PBTN]
+[  +0,000052] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[  +0,000028] ACPI: button: Sleep Button [SBTN]
+[  +0,000041] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[  +0,000578] ACPI: button: Power Button [PWRF]
+[  +0,002841] thermal LNXTHERM:00: registered as thermal_zone0
+[  +0,000003] ACPI: thermal: Thermal Zone [THM] (25 C)
+[  +0,000320] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000008] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000333] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000006] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000131] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000006] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000122] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000005] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000409] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[  +0,004216] Non-volatile memory driver v1.3
+[  +0,000001] Linux agpgart interface v0.103
+[  +0,003616] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[  +0,019428] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+[  +0,000748] ahci 0000:00:17.0: version 3.0
+[  +0,000443] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
+[  +0,000026] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x2 impl SATA mode
+[  +0,000004] ahci 0000:00:17.0: flags: 64bit ncq sntf stag pm led clo only pio slum part ems deso sadm sds apst 
+[  +0,002000] scsi host0: ahci
+[  +0,000241] scsi host1: ahci
+[  +0,000062] ata1: DUMMY
+[  +0,000003] ata2: SATA max UDMA/133 abar m2048@0xddd33000 port 0xddd33180 irq 128
+[  +0,000152] ACPI: bus type drm_connector registered
+[  +0,000397] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[  +0,000001] ehci-pci: EHCI PCI platform driver
+[  +0,000012] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[  +0,000001] ohci-pci: OHCI PCI platform driver
+[  +0,000008] uhci_hcd: USB Universal Host Controller Interface driver
+[  +0,000064] usbcore: registered new interface driver usbserial_generic
+[  +0,000005] usbserial: USB Serial support registered for generic
+[  +0,000300] rtc_cmos 00:02: RTC can wake from S4
+[  +0,000932] rtc_cmos 00:02: registered as rtc0
+[  +0,000150] rtc_cmos 00:02: setting system clock to 2022-12-14T14:42:30 UTC (1671028950)
+[  +0,000019] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram
+[  +0,000213] intel_pstate: Intel P-state driver initializing
+[  +0,000480] intel_pstate: HWP enabled
+[  +0,000058] ledtrig-cpu: registered to indicate activity on CPUs
+[  +0,000577] efifb: probing for efifb
+[  +0,000013] efifb: framebuffer at 0x70000000, using 8128k, total 8128k
+[  +0,000002] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[  +0,000002] efifb: scrolling: redraw
+[  +0,000000] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[  +0,000297] fbcon: Deferring console take-over
+[  +0,000001] fb0: EFI VGA frame buffer device
+[  +0,000032] hid: raw HID events driver (C) Jiri Kosina
+[  +0,000251] intel_pmc_core INT33A1:00:  initialized
+[  +0,000085] drop_monitor: Initializing network drop monitor service
+[  +0,004924] ACPI: battery: Slot [BAT0] (battery present)
+[  +0,010425] Initializing XFRM netlink socket
+[  +0,000155] NET: Registered PF_INET6 protocol family
+[  +0,007359] Segment Routing with IPv6
+[  +0,000002] RPL Segment Routing with IPv6
+[  +0,000009] In-situ OAM (IOAM) with IPv6
+[  +0,000033] NET: Registered PF_PACKET protocol family
+[  +0,001186] microcode: sig=0x506e3, pf=0x20, revision=0xf0
+[  +0,000114] microcode: Microcode Update Driver: v2.2.
+[  +0,000004] IPI shorthand broadcast: enabled
+[  +0,000021] sched_clock: Marking stable (2921537999, 4563150)->(2931586636, -5485487)
+[  +0,000279] registered taskstats version 1
+[  +0,000295] Loading compiled-in X.509 certificates
+[  +0,002838] Loaded X.509 cert 'Build time autogenerated kernel key: fec64a98734a38a3726b9e69497a45c29fc6bbd5'
+[  +0,000363] zswap: loaded using pool lz4/z3fold
+[  +0,000208] zswap: debugfs initialization failed
+[  +0,000128] Key type .fscrypt registered
+[  +0,000001] Key type fscrypt-provisioning registered
+[  +0,000051] AppArmor: AppArmor sha1 policy hashing enabled
+[  +0,000003] audit: type=1400 audit(1671028950.528:5): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[  +0,000265] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000027] integrity: Loaded X.509 cert 'Dell Inc. UEFI DB: 5ddb772dc880660055ba0bc131886bb630a639e7'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000029] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000022] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[  +0,002935] PM:   Magic number: 2:259:738
+[  +0,000203] RAS: Correctable Errors collector initialized.
+[  +0,284408] ata2: SATA link down (SStatus 4 SControl 300)
+[  +0,004850] Freeing unused decrypted memory: 2036K
+[  +0,000583] Freeing unused kernel image (initmem) memory: 2140K
+[  +0,000185] Write protecting the kernel read-only data: 32768k
+[  +0,000607] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[  +0,000286] Freeing unused kernel image (rodata/data gap) memory: 980K
+[  +0,045939] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000003] rodata_test: all tests were successful
+[  +0,000002] x86/mm: Checking user space page tables
+[  +0,041515] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000017] Run /init as init process
+[  +0,000001]   with arguments:
+[  +0,000000]     /init
+[  +0,000001]   with environment:
+[  +0,000001]     HOME=/
+[  +0,000000]     TERM=linux
+[  +0,000001]     BOOT_IMAGE=/@/boot/vmlinuz-linux-zen
+[  +0,000001]     pti=on
+[  +0,000000]     page_owner=on
+[  +0,000001]     spectre_v2=ibrs
+[  +0,047726] fbcon: Taking over console
+[  +0,000058] Console: switching to colour frame buffer device 240x67
+[  +0,030509] cec: Failed to create debugfs cec dir
+[  +0,238230] Setting dangerous option enable_fbc - tainting kernel
+[  +0,000003] Setting dangerous option edp_vswing - tainting kernel
+[  +0,001776] Console: switching to colour dummy device 80x25
+[  +0,000023] i915 0000:00:02.0: vgaarb: deactivate vga console
+[  +0,003434] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[  +0,001707] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[  +0,034876] i915 0000:00:02.0: [drm] [ENCODER:102:DDI B/PHY B] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0,000005] i915 0000:00:02.0: [drm] [ENCODER:117:DDI C/PHY C] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0,076584] tsc: Refined TSC clocksource calibration: 2807.999 MHz
+[  +0,000011] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c523a63, max_idle_ns: 440795252908 ns
+[  +0,000056] clocksource: Switched to clocksource tsc
+[  +1,062205] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[  +0,008713] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[  +0,003121] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4
+[  +0,000333] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[  +0,000128] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input5
+[  +0,009367] fbcon: i915drmfb (fb0) is primary device
+[  +0,007842] Console: switching to colour frame buffer device 240x67
+[  +0,018539] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[  +1,268166] [drm] amdgpu kernel modesetting enabled.
+[  +0,000178] amdgpu: CRAT table not found
+[  +0,000003] amdgpu: Virtual CRAT table created for CPU
+[  +0,000068] amdgpu: Topology: Add CPU node
+[  +0,073132] [drm] radeon kernel modesetting enabled.
+[  +0,369105] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[  +0,001087] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[  +0,000367] i8042: Warning: Keylock active
+[  +0,002300] serio: i8042 KBD port at 0x60,0x64 irq 1
+[  +0,000075] serio: i8042 AUX port at 0x60,0x64 irq 12
+[  +0,031486] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000007] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[  +0,001073] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[  +0,000286] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000003] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[  +0,000003] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[  +0,000046] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.00
+[  +0,000003] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000001] usb usb1: Product: xHCI Host Controller
+[  +0,000001] usb usb1: Manufacturer: Linux 6.0.12-zen1-1-zen xhci-hcd
+[  +0,000002] usb usb1: SerialNumber: 0000:00:14.0
+[  +0,000149] hub 1-0:1.0: USB hub found
+[  +0,000019] hub 1-0:1.0: 16 ports detected
+[  +0,005350] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.00
+[  +0,000003] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb2: Product: xHCI Host Controller
+[  +0,000002] usb usb2: Manufacturer: Linux 6.0.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb2: SerialNumber: 0000:00:14.0
+[  +0,000352] hub 2-0:1.0: USB hub found
+[  +0,000015] hub 2-0:1.0: 10 ports detected
+[  +0,002474] usb: port power management may be unreliable
+[  +0,009331] nvme nvme0: pci function 0000:04:00.0
+[  +0,006567] nvme nvme0: 4/0/0 default/read/poll queues
+[  +0,001178]  nvme0n1: p1 p2 p3 p4 p5
+[  +0,008183] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input6
+[  +0,054869] raid6: skipped pq benchmark and selected avx2x4
+[  +0,000003] raid6: using avx2x2 recovery algorithm
+[  +0,002697] xor: automatically using best checksumming function   avx       
+[  +0,093540] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+[  +0,001062] BTRFS: device fsid 72c5db42-a39c-498d-8a64-7e43a4b4678b devid 1 transid 64490 /dev/nvme0n1p2 scanned by systemd-udevd (160)
+[  +0,038277] PM: Image not found (code -22)
+[  +0,003625] BTRFS info (device nvme0n1p2): using crc32c (crc32c-intel) checksum algorithm
+[  +0,000007] BTRFS info (device nvme0n1p2): using free space tree
+[  +0,010735] BTRFS info (device nvme0n1p2): enabling ssd optimizations
+[  +0,010556] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[  +0,103972] audit: type=1334 audit(1671028954.553:6): prog-id=1 op=LOAD
+[  +0,002053] audit: type=1334 audit(1671028954.553:6): prog-id=2 op=LOAD
+[  +0,003233] audit: type=1334 audit(1671028954.553:6): prog-id=3 op=LOAD
+[  +0,000123] audit: type=1300 audit(1671028954.553:6): arch=c000003e syscall=175 success=yes exit=0 a0=7fa669f71010 a1=4c66 a2=56417effccb2 a3=3411 items=0 ppid=216 pid=217 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="modprobe" exe="/usr/bin/kmod" subj=unconfined key=(null)
+[  +0,000003] audit: type=1327 audit(1671028954.553:6): proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D006270665F7072656C6F6164
+[  +0,003052] systemd[1]: systemd 252.3-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000011] systemd[1]: Detected architecture x86-64.
+[  +0,000872] systemd[1]: Hostname set to <mksprecision5510>.
+[  +0,013986] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[  +0,000004] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[  +0,115878] usb 1-12: new high-speed USB device number 3 using xhci_hcd
+[  +0,167273] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[  +0,000012] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[  +0,000006] usb 1-12: Product: Integrated_Webcam_HD
+[  +0,000004] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[  +0,082937] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,255475] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001027] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,023807] systemd[1]: Queued start job for default target Graphical Interface.
+[  +0,001876] systemd[1]: Created slice Slice /system/getty.
+[  +0,000671] systemd[1]: Created slice Slice /system/modprobe.
+[  +0,000525] systemd[1]: Created slice Slice /system/systemd-fsck.
+[  +0,000585] systemd[1]: Created slice User and Session Slice.
+[  +0,000214] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[  +0,000214] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  +0,000445] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[  +0,000130] systemd[1]: Reached target Local Encrypted Volumes.
+[  +0,000092] systemd[1]: Reached target Login Prompts.
+[  +0,000087] systemd[1]: Reached target Local Integrity Protected Volumes.
+[  +0,000100] systemd[1]: Reached target Path Units.
+[  +0,000094] systemd[1]: Reached target Remote File Systems.
+[  +0,000088] systemd[1]: Reached target Slice Units.
+[  +0,000096] systemd[1]: Reached target Local Verity Protected Volumes.
+[  +0,000293] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[  +0,000476] systemd[1]: Listening on LVM2 poll daemon socket.
+[  +0,001526] systemd[1]: Listening on Process Core Dump Socket.
+[  +0,000440] systemd[1]: Listening on Journal Audit Socket.
+[  +0,000004] kauditd_printk_skb: 174 callbacks suppressed
+[  +0,000001] audit: type=1335 audit(1671028955.234:47): pid=1 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj=unconfined comm="systemd" exe="/usr/lib/systemd/systemd" nl-mcgrp=1 op=connect res=1
+[  +0,000002] audit: audit_lost=48 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000001] audit: kauditd hold queue overflow
+[  +0,000002] audit: type=1300 audit(1671028955.234:47): arch=c000003e syscall=49 success=yes exit=0 a0=27 a1=55c92b74c570 a2=c a3=7ffdf53c25d4 items=0 ppid=0 pid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd" subj=unconfined key=(null)
+[  +0,000002] audit: audit_lost=49 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000000] audit: kauditd hold queue overflow
+[  +0,000003] audit: type=1327 audit(1671028955.234:47): proctitle="/sbin/init"
+[  +0,000000] audit: audit_lost=50 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000001] audit: kauditd hold queue overflow
+[  +0,000002] audit: audit_lost=51 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000325] systemd[1]: Listening on Journal Socket (/dev/log).
+[  +0,000386] systemd[1]: Listening on Journal Socket.
+[  +0,000466] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+[  +0,005082] systemd[1]: Listening on udev Control Socket.
+[  +0,000478] systemd[1]: Listening on udev Kernel Socket.
+[  +0,001755] systemd[1]: Mounting Huge Pages File System...
+[  +0,001677] systemd[1]: Mounting POSIX Message Queue File System...
+[  +0,000421] systemd[1]: Kernel Debug File System was skipped because of an unmet condition check (ConditionPathExists=/sys/kernel/debug).
+[  +0,001538] systemd[1]: Mounting Kernel Trace File System...
+[  +0,002575] systemd[1]: Starting Create List of Static Device Nodes...
+[  +0,001461] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[  +0,001615] systemd[1]: Starting Load Kernel Module configfs...
+[  +0,001663] systemd[1]: Starting Load Kernel Module drm...
+[  +0,001616] systemd[1]: Starting Load Kernel Module fuse...
+[  +0,004419] systemd[1]: Starting Load Kernel Modules...
+[  +0,003539] systemd[1]: Starting Remount Root and Kernel File Systems...
+[  +0,000341] systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+[  +0,001592] systemd[1]: Starting Coldplug All udev Devices...
+[  +0,003124] systemd[1]: Mounted Huge Pages File System.
+[  +0,000296] systemd[1]: Mounted POSIX Message Queue File System.
+[  +0,000258] systemd[1]: Mounted Kernel Trace File System.
+[  +0,000448] systemd[1]: Finished Create List of Static Device Nodes.
+[  +0,000757] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[  +0,000244] systemd[1]: Finished Load Kernel Module configfs.
+[  +0,000658] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[  +0,000240] systemd[1]: Finished Load Kernel Module drm.
+[  +0,004949] fuse: init (API version 7.36)
+[  +0,001707] systemd[1]: Mounting Kernel Configuration File System...
+[  +0,004300] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[  +0,000555] systemd[1]: Finished Load Kernel Module fuse.
+[  +0,001922] systemd[1]: Mounted Kernel Configuration File System.
+[  +0,004750] systemd[1]: Mounting FUSE Control File System...
+[  +0,002158] vboxdrv: loading out-of-tree module taints kernel.
+[  +0,000215] vboxdrv: module verification failed: signature and/or required key missing - tainting kernel
+[  +0,000892] systemd[1]: Mounted FUSE Control File System.
+[  +0,009183] vboxdrv: Found 4 processor cores/threads
+[  +0,004234] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[  +0,011934] vboxdrv: TSC mode is Invariant, tentative frequency 2807999379 Hz
+[  +0,000002] vboxdrv: Successfully loaded version 7.0.4 r154605 (interface 0x00330004)
+[  +0,002174] VBoxNetAdp: Successfully started.
+[  +0,002540] VBoxNetFlt: Successfully started.
+[  +0,001236] systemd[1]: Finished Load Kernel Modules.
+[  +0,002709] systemd[1]: Starting Linux Kernel Runtime Guard...
+[  +0,003124] systemd[1]: Finished Linux Kernel Runtime Guard.
+[  +0,002565] systemd[1]: Starting Apply Kernel Variables...
+[  +0,015133] systemd[1]: Finished Apply Kernel Variables.
+[  +0,404022] systemd[1]: Finished Coldplug All udev Devices.
+[  +0,667570] BTRFS info (device nvme0n1p2: state M): use zstd compression, level 3
+[  +0,000005] BTRFS info (device nvme0n1p2: state M): turning on async discard
+[  +0,001775] systemd[1]: Finished Remount Root and Kernel File Systems.
+[  +0,001139] systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,000835] systemd[1]: Rebuild Hardware Database was skipped because no trigger condition checks were met.
+[  +0,001295] systemd[1]: Starting Load/Save Random Seed...
+[  +0,002511] systemd[1]: Starting Create System Users...
+[  +0,014641] systemd[1]: Finished Load/Save Random Seed.
+[  +0,000899] systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,018647] systemd[1]: Finished Create System Users.
+[  +0,002062] systemd[1]: Starting Create Static Device Nodes in /dev...
+[  +0,053982] systemd[1]: Finished Create Static Device Nodes in /dev.
+[  +0,001306] systemd[1]: Reached target Preparation for Local File Systems.
+[  +0,001027] systemd[1]: Virtual Machine and Container Storage (Compatibility) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/machines.raw).
+[  +0,002100] systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+[  +0,003954] systemd[1]: Starting Journal Service...
+[  +0,002486] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[  +0,091327] systemd[1]: Started Rule-based Manager for Device Events and Files.
+[  +0,016756] systemd[1]: Started Journal Service.
+[  +0,092252] Adding 35988720k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35988720k SSFS
+[  +0,082752] systemd-journald[265]: Received client request to flush runtime journal.
+[  +0,063944] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[  +0,000010] _ART package 0 is invalid, ignored
+[  +0,000014] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[  +0,000447] Consider using thermal netlink events interface
+[  +0,072198] acpi INT33D5:00: intel-hid: created platform device
+[  +0,000249] input: Intel HID events as /devices/platform/INT33D5:00/input/input8
+[  +0,182556] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[  +0,000161] intel-lpss 0000:00:15.0: Failed to create debugfs entries
+[  +0,000128] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[  +0,006083] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[  +0,008287] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[  +0,004241] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[  +0,000172] intel-lpss 0000:00:15.1: Failed to create debugfs entries
+[  +0,000523] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[  +0,175844] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input10
+[  +0,000069] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input11
+[  +0,000059] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,109470] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[  +0,000030] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[  +0,000046] pci 0000:00:1f.1: [8086:a120] type 00 class 0x058000
+[  +0,000062] pci 0000:00:1f.1: reg 0x10: [mem 0xfd000000-0xfdffffff 64bit]
+[  +0,199024] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input13
+[  +0,023522] i2c i2c-8: 2/2 memory slots populated (from DMI)
+[  +0,006446] i2c i2c-8: Successfully instantiated SPD at 0x50
+[  +0,016533] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[  +0,000002] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain package 2^-14 Joules
+[  +0,000000] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[  +0,004693] cryptd: max_cpu_qlen set to 1000
+[  +0,001585] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[  +0,014799] AVX2 version of gcm_enc/dec engaged.
+[  +0,000049] AES CTR mode by8 optimization enabled
+[  +0,000221] intel_rapl_common: Found RAPL domain package
+[  +0,000002] intel_rapl_common: Found RAPL domain dram
+[  +0,056667] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[  +0,003624] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[  +0,038969] Intel(R) Wireless WiFi driver for Linux
+[  +0,000053] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[  +0,001399] intel_rapl_common: Found RAPL domain package
+[  +0,000002] intel_rapl_common: Found RAPL domain core
+[  +0,000001] intel_rapl_common: Found RAPL domain uncore
+[  +0,000001] intel_rapl_common: Found RAPL domain dram
+[  +0,066029] dell_laptop: Using i8042 filter function for receiving events
+[  +0,062521] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[  +0,004456] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[  +0,000016] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[  +0,000229] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[  +0,042440] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[  +0,000005] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[  +0,070783] iTCO_vendor_support: vendor-support=0
+[  +0,039023] ee1004 8-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[  +0,003951] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+[  +0,000066] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input15
+[  +0,000060] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input16
+[  +0,000060] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+[  +0,000053] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[  +0,000055] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[  +0,017863] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[  +0,001001] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input20
+[  +0,004013] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[  +0,002459] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[  +0,008560] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input21
+[  +0,000225] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,019104] thermal thermal_zone10: failed to read out thermal zone (-61)
+[  +0,072958] intel_tcc_cooling: Programmable TCC Offset detected
+[  +0,000692] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[  +0,072495] mousedev: PS/2 mouse device common for all mice
+[  +0,001528] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[  +0,019042] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[  +0,044425] NET: Registered PF_QIPCRTR protocol family
+[  +0,093105] xt_connbytes: Forcing CT accounting to be enabled
+[  +0,305368] Bluetooth: Core ver 2.22
+[  +0,000882] NET: Registered PF_BLUETOOTH protocol family
+[  +0,000001] Bluetooth: HCI device and connection manager initialized
+[  +0,000004] Bluetooth: HCI socket layer initialized
+[  +0,000002] Bluetooth: L2CAP socket layer initialized
+[  +0,000003] Bluetooth: SCO socket layer initialized
+[  +0,076741] mc: Linux media interface: v0.10
+[  +0,024921] videodev: Linux video capture interface: v2.00
+[  +0,033048] usbcore: registered new interface driver btusb
+[  +0,002072] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[  +0,007009] Bluetooth: hci0: Device revision is 5
+[  +0,000004] Bluetooth: hci0: Secure boot is enabled
+[  +0,000001] Bluetooth: hci0: OTP lock is enabled
+[  +0,000001] Bluetooth: hci0: API lock is enabled
+[  +0,000000] Bluetooth: hci0: Debug lock is disabled
+[  +0,000001] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[  +0,031125] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[  +0,034757] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[  +0,000004] Bluetooth: BNEP filters: protocol multicast
+[  +0,000004] Bluetooth: BNEP socket layer initialized
+[  +0,021197] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[  +0,082699] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,256863] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,027894] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input23
+[  +0,000347] usbcore: registered new interface driver uvcvideo
+[  +0,015339] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +1,138585] Bluetooth: hci0: Waiting for firmware download to complete
+[  +0,000323] Bluetooth: hci0: Firmware loaded in 1541022 usecs
+[  +0,000233] Bluetooth: hci0: Waiting for device to boot
+[  +0,011764] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[  +0,000026] Bluetooth: hci0: Device booted in 11608 usecs
+[  +0,001796] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[  +0,004082] Bluetooth: hci0: Applying Intel DDC parameters completed
+[  +0,001036] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[  +0,047602] Bluetooth: MGMT ver 1.22
+[  +0,007415] NET: Registered PF_ALG protocol family
+[  +5,965004] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,018511] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,011145] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,004995] wlp2s0: authenticated
+[  +0,000499] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002394] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,002671] wlp2s0: associated
+[  +0,035755] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +1,490227] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,052663] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,202363] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +2,472092] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=48384 DF PROTO=TCP SPT=89 DPT=51576 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000037] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=21548 DF PROTO=TCP SPT=89 DPT=45202 WINDOW=249 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000024] Iptables: Drop new not syn: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=685 TOS=0x00 PREC=0x00 TTL=50 ID=45888 DF PROTO=TCP SPT=89 DPT=60742 WINDOW=370 RES=0x00 ACK PSH URGP=0 
+[  +0,000012] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=21549 DF PROTO=TCP SPT=89 DPT=45202 WINDOW=249 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000017] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=38425 DF PROTO=TCP SPT=89 DPT=57212 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,074880] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,168272] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=21550 DF PROTO=TCP SPT=89 DPT=45202 WINDOW=249 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,555148] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=38426 DF PROTO=TCP SPT=89 DPT=57212 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,448710] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=45890 DF PROTO=TCP SPT=89 DPT=60742 WINDOW=370 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,367946] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=21551 DF PROTO=TCP SPT=89 DPT=45202 WINDOW=249 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,848379] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 16:43] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +28,518859] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 16:44] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=6797 DF PROTO=TCP SPT=443 DPT=42664 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,025112] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=6798 DF PROTO=TCP SPT=443 DPT=42664 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,216198] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=115 TOS=0x00 PREC=0x00 TTL=56 ID=6799 DF PROTO=TCP SPT=443 DPT=42664 WINDOW=8 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,431866] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=115 TOS=0x00 PREC=0x00 TTL=56 ID=6800 DF PROTO=TCP SPT=443 DPT=42664 WINDOW=8 RES=0x00 ACK PSH FIN URGP=0 
+[ +17,630750] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 16:46] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 16:48] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=45040 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,250900] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=45041 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,336119] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=45042 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672279] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=45043 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,343758] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=45044 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,390338] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62582 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,251730] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62583 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,348066] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=62584 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,667928] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=62585 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,089973] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=45045 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,222344] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=62586 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,847646] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=62587 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,306435] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=45046 DF PROTO=TCP SPT=89 DPT=33656 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +3,073458] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=173 TOS=0x00 PREC=0x00 TTL=50 ID=62588 DF PROTO=TCP SPT=89 DPT=34676 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,286783] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56929 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,246958] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56930 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,348492] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=195 TOS=0x00 PREC=0x00 TTL=50 ID=56931 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,667696] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=195 TOS=0x00 PREC=0x00 TTL=50 ID=56932 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,422314] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=195 TOS=0x00 PREC=0x00 TTL=50 ID=56933 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,710102] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=195 TOS=0x00 PREC=0x00 TTL=50 ID=56934 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,371828] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=195 TOS=0x00 PREC=0x00 TTL=50 ID=56935 DF PROTO=TCP SPT=89 DPT=33578 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[гру14 16:50] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 16:58] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 17:12] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 17:42] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 18:40] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 19:42] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 20:41] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 20:43] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=23756 DF PROTO=UDP SPT=59436 DPT=1900 LEN=180 
+[  +0,188596] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=5273 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[  +0,811764] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=23885 DF PROTO=UDP SPT=59436 DPT=1900 LEN=180 
+[  +0,191109] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=5750 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[  +2,014358] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=6202 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[гру14 20:45] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=37526 DF PROTO=UDP SPT=50714 DPT=1900 LEN=180 
+[  +0,992200] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=37993 DF PROTO=UDP SPT=50714 DPT=1900 LEN=180 
+[  +1,007699] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=38949 DF PROTO=UDP SPT=50714 DPT=1900 LEN=180 
+[  +1,007875] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=39710 DF PROTO=UDP SPT=50714 DPT=1900 LEN=180 
+[гру14 20:47] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=28509 DF PROTO=UDP SPT=51245 DPT=1900 LEN=180 
+[  +0,985281] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=28971 DF PROTO=UDP SPT=51245 DPT=1900 LEN=180 
+[  +1,007342] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=29307 DF PROTO=UDP SPT=51245 DPT=1900 LEN=180 
+[  +1,008076] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=239.255.255.250 LEN=200 TOS=0x00 PREC=0x00 TTL=1 ID=30111 DF PROTO=UDP SPT=51245 DPT=1900 LEN=180 
+[гру14 21:44] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 22:39] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру14 23:36] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру15 00:00] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[ +19,246498] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[  +0,025094] BTRFS info (device nvme0n1p2): balance: start -dusage=0
+[  +0,000031] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,029270] BTRFS info (device nvme0n1p2): balance: start -dusage=5
+[  +0,000031] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,024699] BTRFS info (device nvme0n1p2): balance: start -dusage=10
+[  +0,000032] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,020703] BTRFS info (device nvme0n1p2): balance: start -musage=0 -susage=0
+[  +0,000154] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,023586] BTRFS info (device nvme0n1p2): balance: start -musage=5 -susage=5
+[  +0,000323] BTRFS info (device nvme0n1p2): relocating block group 502742908928 flags system|dup
+[  +0,034307] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[гру15 00:31] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру15 01:28] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру15 02:26] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру15 02:52] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=199 TOS=0x00 PREC=0x00 TTL=64 ID=38237 DF PROTO=UDP SPT=27036 DPT=27036 LEN=179 
+[  +0,000318] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=38243 DF PROTO=UDP SPT=27036 DPT=27036 LEN=50 
+[  +1,993406] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=38974 DF PROTO=UDP SPT=27036 DPT=27036 LEN=50 
+[гру15 02:53] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=199 TOS=0x00 PREC=0x00 TTL=64 ID=40706 DF PROTO=UDP SPT=27036 DPT=27036 LEN=179 
+[  +2,969496] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=41604 DF PROTO=UDP SPT=27036 DPT=27036 LEN=50 
+[ +17,078821] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=199 TOS=0x00 PREC=0x00 TTL=64 ID=50702 DF PROTO=UDP SPT=27036 DPT=27036 LEN=179 
+[гру15 03:20] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=26016 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK FIN URGP=0 
+[  +0,239657] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=26018 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK FIN URGP=0 
+[  +0,360093] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=26020 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672119] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=26022 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,343835] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=26024 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,656109] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=26026 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,375896] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=26027 DF PROTO=TCP SPT=89 DPT=38780 WINDOW=142 RES=0x00 ACK PSH FIN URGP=0 
+[  +3,052823] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=2.21.173.130 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=49232 DF PROTO=TCP SPT=443 DPT=48650 WINDOW=501 RES=0x00 ACK RST URGP=0 
+[  +0,000103] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=2.21.173.130 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=36531 DF PROTO=TCP SPT=443 DPT=48634 WINDOW=501 RES=0x00 ACK RST URGP=0 
+[  +6,812826] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32629 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,242193] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32630 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,176576] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=2.21.173.130 DST=192.168.1.249 LEN=40 TOS=0x00 PREC=0x00 TTL=56 ID=0 DF PROTO=TCP SPT=443 DPT=48634 WINDOW=0 RES=0x00 RST URGP=0 
+[  +0,000047] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=2.21.173.130 DST=192.168.1.249 LEN=40 TOS=0x00 PREC=0x00 TTL=56 ID=0 DF PROTO=TCP SPT=443 DPT=48650 WINDOW=0 RES=0x00 RST URGP=0 
+[  +0,067364] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32631 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,038746] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=62282 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK FIN URGP=0 
+[  +0,243427] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=62283 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK FIN URGP=0 
+[  +0,209682] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32632 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,130243] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62284 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,571184] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=60877 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK FIN URGP=0 
+[  +0,072810] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62285 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,193995] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=60878 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK FIN URGP=0 
+[  +0,024010] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32633 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,327762] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=60879 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,668123] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=60881 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,062372] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62286 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,893377] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32634 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,392455] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=60883 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,433971] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62287 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:21] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=60885 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,628491] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=34649 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK FIN URGP=0 
+[  +0,265647] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=34650 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK FIN URGP=0 
+[  +0,025811] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32636 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +0,326263] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=34651 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,391145] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=29379 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK FIN URGP=0 
+[  +0,250627] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=29380 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK FIN URGP=0 
+[  +0,026187] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=34653 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,321776] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=29381 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672034] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=29383 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,350127] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=34655 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,323800] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=155.133.226.75 DST=192.168.1.249 LEN=40 TOS=0x00 PREC=0x00 TTL=114 ID=47467 DF PROTO=TCP SPT=27020 DPT=42381 WINDOW=1023 RES=0x00 ACK FIN URGP=0 
+[  +0,256322] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=62289 DF PROTO=TCP SPT=89 DPT=42052 WINDOW=350 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,381886] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=29385 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,151918] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=60887 DF PROTO=TCP SPT=89 DPT=39816 WINDOW=151 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,767276] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=34657 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,772759] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=29387 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,314981] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=155.133.226.75 DST=192.168.1.249 LEN=140 TOS=0x00 PREC=0x00 TTL=114 ID=47468 DF PROTO=TCP SPT=27020 DPT=42381 WINDOW=1023 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,632670] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=52 ID=32638 DF PROTO=TCP SPT=443 DPT=52756 WINDOW=22458 RES=0x00 ACK FIN URGP=0 
+[  +2,658672] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=34659 DF PROTO=TCP SPT=89 DPT=39886 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,765405] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=29389 DF PROTO=TCP SPT=89 DPT=39910 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,784121] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=20144 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK FIN URGP=0 
+[  +0,242327] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=20145 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK FIN URGP=0 
+[  +0,343751] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=20146 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,436197] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=1277 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK FIN URGP=0 
+[  +0,231807] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=20147 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,011966] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=1278 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK FIN URGP=0 
+[  +0,271028] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=2228 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,002893] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=13854 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK FIN URGP=0 
+[  +0,000009] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=5831 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK FIN URGP=0 
+[  +0,020048] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=16332 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK FIN URGP=0 
+[  +0,046011] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=1279 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,170328] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=2229 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,007700] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=13855 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK FIN URGP=0 
+[  +0,015938] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=5832 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK FIN URGP=0 
+[  +0,011912] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=16333 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK FIN URGP=0 
+[  +0,095912] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=15366 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,212103] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=13856 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000040] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2230 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,031907] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=16334 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000014] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=5833 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,007938] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=15367 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,118167] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=1280 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,012074] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48853 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,213890] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15368 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,030578] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48854 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,031704] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=20148 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,216272] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48855 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,013573] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=13857 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000012] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2231 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,031807] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=16336 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000013] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=5834 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,380116] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15369 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,066521] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48856 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,315741] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=1281 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,545592] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2232 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000043] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=16338 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,003845] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=13858 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,027966] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=5835 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,099089] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48857 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,317124] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15370 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,642087] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=20149 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,897745] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=2017 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK FIN URGP=0 
+[  +0,055524] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=2018 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK FIN URGP=0 
+[  +0,039317] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48859 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,027567] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=1282 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,168151] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=2019 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,241493] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=3916 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,106176] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=16340 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,110717] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=2020 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,033570] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=3917 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,110744] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=13859 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000043] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=5836 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,003769] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2233 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,221366] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=3918 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,289760] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15371 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,306259] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=2021 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,075682] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=3919 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,312327] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=3920 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,468299] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=2022 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,560321] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48860 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +0,347097] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=20150 DF PROTO=TCP SPT=89 DPT=46572 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,020123] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=1283 DF PROTO=TCP SPT=89 DPT=46596 WINDOW=150 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,255918] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=3921 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,257827] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=16342 DF PROTO=TCP SPT=89 DPT=45848 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,256061] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=13860 DF PROTO=TCP SPT=89 DPT=46580 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000014] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2234 DF PROTO=TCP SPT=89 DPT=46598 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000006] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=5837 DF PROTO=TCP SPT=89 DPT=46602 WINDOW=148 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,767856] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15372 DF PROTO=TCP SPT=89 DPT=57304 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,183471] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=2023 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,993658] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=8877 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,241927] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=8878 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,339988] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=8879 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,643451] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=8880 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,711727] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=32506 DF PROTO=TCP SPT=89 DPT=57300 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,468196] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=169 TOS=0x00 PREC=0x00 TTL=50 ID=32507 DF PROTO=TCP SPT=89 DPT=57300 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,096090] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=8881 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,419897] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=3922 DF PROTO=TCP SPT=89 DPT=43310 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,932724] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=48862 DF PROTO=TCP SPT=443 DPT=52682 WINDOW=32768 RES=0x00 ACK FIN URGP=0 
+[  +1,370908] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=8882 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,461507] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=2024 DF PROTO=TCP SPT=443 DPT=44926 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,095121] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=169 TOS=0x00 PREC=0x00 TTL=50 ID=32508 DF PROTO=TCP SPT=89 DPT=57300 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,563569] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=8883 DF PROTO=TCP SPT=89 DPT=43316 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:22] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12447 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +0,243780] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12448 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +0,012449] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=18004 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK FIN URGP=0 
+[  +0,061854] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=18005 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK FIN URGP=0 
+[  +0,169726] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12449 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +0,068348] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=18007 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,427842] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12450 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +0,037108] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=18009 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,950932] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12451 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +0,032235] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=18011 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:23] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=18013 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,064080] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12452 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +3,647825] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=18016 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,255800] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12454 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +0,014713] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=50606 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK FIN URGP=0 
+[  +0,054232] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=50607 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK FIN URGP=0 
+[  +0,230515] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=50608 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,456999] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=50609 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,467292] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=32982 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK FIN URGP=0 
+[  +0,018446] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=32983 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK FIN URGP=0 
+[  +0,211305] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=56 ID=32984 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,254621] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=50610 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,169132] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=56 ID=32985 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,880259] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=56 ID=32986 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,805692] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=50613 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,922276] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=56 ID=32987 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,727235] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=50618 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,019411] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.81.130.161 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=18017 DF PROTO=TCP SPT=443 DPT=36773 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,645501] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=56 ID=32988 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,058659] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.50 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=51 ID=12456 DF PROTO=TCP SPT=443 DPT=41886 WINDOW=1274 RES=0x00 ACK FIN URGP=0 
+[  +6,763649] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=50620 DF PROTO=TCP SPT=443 DPT=58384 WINDOW=505 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,089341] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=78.154.186.224 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=56 ID=32989 DF PROTO=TCP SPT=443 DPT=60950 WINDOW=502 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,908577] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=56985 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK FIN URGP=0 
+[  +0,250541] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=56986 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK FIN URGP=0 
+[  +0,363944] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56987 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672045] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56988 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,344955] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56989 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,847068] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56990 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,375937] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=56992 DF PROTO=TCP SPT=89 DPT=36126 WINDOW=156 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,946812] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=47023 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK FIN URGP=0 
+[  +0,261059] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=47024 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK FIN URGP=0 
+[  +0,352044] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47025 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,671925] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47026 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,311993] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47027 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,627909] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47028 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,376008] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47029 DF PROTO=TCP SPT=89 DPT=53078 WINDOW=171 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,684885] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=41609 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK FIN URGP=0 
+[  +0,237255] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=41610 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK FIN URGP=0 
+[  +0,348601] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41611 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,639585] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41612 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,279905] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41613 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,715900] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41614 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,415898] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=435 TOS=0x00 PREC=0x00 TTL=50 ID=36531 DF PROTO=TCP SPT=89 DPT=53088 WINDOW=167 RES=0x00 ACK PSH FIN URGP=0 
+[  +4,704376] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41615 DF PROTO=TCP SPT=89 DPT=54402 WINDOW=155 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:24] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=160 TOS=0x00 PREC=0x00 TTL=50 ID=5302 DF PROTO=TCP SPT=89 DPT=44688 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,753311] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=213 TOS=0x00 PREC=0x00 TTL=50 ID=5303 DF PROTO=TCP SPT=89 DPT=44688 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[ +25,371825] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=30265 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,235470] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=30266 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,339889] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=30267 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,640026] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=30268 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,280028] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=30269 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,595915] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=30270 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,120143] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=30271 DF PROTO=TCP SPT=89 DPT=35022 WINDOW=1005 RES=0x00 ACK PSH FIN URGP=0 
+[  +4,711962] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=56952 DF PROTO=TCP SPT=89 DPT=43258 WINDOW=1659 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:25] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=154 TOS=0x00 PREC=0x00 TTL=50 ID=60363 DF PROTO=TCP SPT=89 DPT=36142 WINDOW=297 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,587734] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=60364 DF PROTO=TCP SPT=89 DPT=36142 WINDOW=297 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,375791] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.48 DST=192.168.1.249 LEN=249 TOS=0x00 PREC=0x00 TTL=50 ID=60365 DF PROTO=TCP SPT=89 DPT=36142 WINDOW=297 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:27] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=5731 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK FIN URGP=0 
+[  +0,042985] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=55 ID=5732 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK FIN URGP=0 
+[  +0,226995] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=5734 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,447754] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=5736 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,903625] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=5738 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,791967] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=5740 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[гру15 03:28] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=5742 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[  +7,488015] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=23.200.161.66 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=55 ID=5745 DF PROTO=TCP SPT=443 DPT=58372 WINDOW=501 RES=0x00 ACK PSH FIN URGP=0 
+[ +24,769728] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру15 04:29] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=28254 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру15 04:40] sysrq: Show backtrace of all active CPUs
+[  +0,000003] NMI backtrace for cpu 1
+[  +0,000001] CPU: 1 PID: 47468 Comm: nvidia-bug-repo Tainted: G     U     OE      6.0.12-zen1-1-zen #1 e5be3306ead82a6c834b3f8df9a8dd90aeedf090
+[  +0,000003] Hardware name: Dell Inc. Precision 5510/08R8KJ, BIOS 1.23.0 07/06/2022
+[  +0,000001] Call Trace:
+[  +0,000002]  <TASK>
+[  +0,000002]  dump_stack_lvl+0x48/0x60
+[  +0,000004]  nmi_cpu_backtrace.cold+0x32/0x79
+[  +0,000003]  ? lapic_can_unplug_cpu+0x70/0x70
+[  +0,000004]  nmi_trigger_cpumask_backtrace+0xf1/0x100
+[  +0,000003]  write_sysrq_trigger.cold+0x3d/0xcc
+[  +0,000021]  proc_reg_write+0x57/0xa0
+[  +0,000003]  vfs_write+0xe9/0x440
+[  +0,000004]  __x64_sys_write+0x74/0xf0
+[  +0,000002]  do_syscall_64+0x5c/0x90
+[  +0,000019]  ? syscall_exit_to_user_mode+0x2c/0x1d0
+[  +0,000003]  ? do_syscall_64+0x6b/0x90
+[  +0,000001]  ? syscall_exit_to_user_mode+0x2c/0x1d0
+[  +0,000002]  ? do_syscall_64+0x6b/0x90
+[  +0,000002]  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+[  +0,000003] RIP: 0033:0x7f4c754ca0b4
+[  +0,000028] Code: 15 d9 0c 0e 00 f7 d8 64 89 02 48 c7 c0 ff ff ff ff eb b7 0f 1f 00 f3 0f 1e fa 80 3d 6d 94 0e 00 00 74 13 b8 01 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 54 c3 0f 1f 00 48 83 ec 28 48 89 54 24 18 48
+[  +0,000001] RSP: 002b:00007ffe23274c38 EFLAGS: 00000202 ORIG_RAX: 0000000000000001
+[  +0,000002] RAX: ffffffffffffffda RBX: 0000000000000002 RCX: 00007f4c754ca0b4
+[  +0,000002] RDX: 0000000000000002 RSI: 00005931da936ed0 RDI: 0000000000000001
+[  +0,000001] RBP: 00005931da936ed0 R08: 00005931da93d410 R09: 0000000000000073
+[  +0,000001] R10: 0000000000000000 R11: 0000000000000202 R12: 0000000000000002
+[  +0,000001] R13: 00007f4c755ac6a0 R14: 0000000000000002 R15: 00007f4c755a7940
+[  +0,000003]  </TASK>
+[  +0,000027] Sending NMI from CPU 1 to CPUs 0,2-3:
+[  +0,000005] NMI backtrace for cpu 2
+[  +0,000015] CPU: 2 PID: 46940 Comm: objtool Tainted: G     U     OE      6.0.12-zen1-1-zen #1 e5be3306ead82a6c834b3f8df9a8dd90aeedf090
+[  +0,000003] Hardware name: Dell Inc. Precision 5510/08R8KJ, BIOS 1.23.0 07/06/2022
+[  +0,000000] RIP: 0010:file_remove_privs+0xb/0x1b0
+[  +0,000004] Code: ff ff be 00 10 00 00 e9 d0 fe ff ff b8 f5 ff ff ff e9 c9 fd ff ff e8 c4 53 9c 00 0f 1f 40 00 f3 0f 1e fa 0f 1f 44 00 00 41 56 <41> 55 41 54 55 53 48 89 fb 48 83 ec 58 48 8b 6f 18 4c 8b 67 20 65
+[  +0,000020] RSP: 0018:ffffb152cb2fbc70 EFLAGS: 00000206
+[  +0,000002] RAX: ffff8b0277d9a000 RBX: ffff8b033ec8d268 RCX: ffffb152cb2fbe08
+[  +0,000001] RDX: 000000000000007a RSI: 000000000000007a RDI: ffff8b03b4717800
+[  +0,000001] RBP: ffffb152cb2fbcb0 R08: 00000000004809a8 R09: ffff8afeddca8000
+[  +0,000001] R10: 0000000000000000 R11: 0000000000000001 R12: ffff8afeddca8000
+[  +0,000001] R13: 00000000004809a8 R14: ffff8afecf5f2000 R15: ffff8b03b4717800
+[  +0,000001] FS:  00007aa60d1fe740(0000) GS:ffff8b059dd00000(0000) knlGS:0000000000000000
+[  +0,000002] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  +0,000001] CR2: 00007ffcd5605fb0 CR3: 00000004e0be2004 CR4: 00000000003706e0
+[  +0,000002] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[  +0,000000] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[  +0,000015] Call Trace:
+[  +0,000000]  <TASK>
+[  +0,000002]  btrfs_write_check.constprop.0+0x64/0x190 [btrfs 2f991d3124df60561c30e7f13714e0c71a4ff62a]
+[  +0,000047]  btrfs_buffered_write+0xb8/0x870 [btrfs 2f991d3124df60561c30e7f13714e0c71a4ff62a]
+[  +0,000037]  ? aa_file_perm+0x122/0x4e0
+[  +0,000005]  btrfs_do_write_iter+0x39b/0x5e0 [btrfs 2f991d3124df60561c30e7f13714e0c71a4ff62a]
+[  +0,000037]  vfs_write+0x305/0x440
+[  +0,000003]  __x64_sys_write+0x74/0xf0
+[  +0,000002]  do_syscall_64+0x5c/0x90
+[  +0,000002]  ? do_syscall_64+0x6b/0x90
+[  +0,000001]  ? syscall_exit_to_user_mode+0x2c/0x1d0
+[  +0,000003]  ? do_syscall_64+0x6b/0x90
+[  +0,000001]  ? syscall_exit_to_user_mode+0x2c/0x1d0
+[  +0,000002]  ? do_syscall_64+0x6b/0x90
+[  +0,000001]  ? do_syscall_64+0x6b/0x90
+[  +0,000001]  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+[  +0,000003] RIP: 0033:0x7aa60d3120b4
+[  +0,000009] Code: 15 d9 0c 0e 00 f7 d8 64 89 02 48 c7 c0 ff ff ff ff eb b7 0f 1f 00 f3 0f 1e fa 80 3d 6d 94 0e 00 00 74 13 b8 01 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 54 c3 0f 1f 00 48 83 ec 28 48 89 54 24 18 48
+[  +0,000002] RSP: 002b:00007ffcd5605eb8 EFLAGS: 00000202 ORIG_RAX: 0000000000000001
+[  +0,000002] RAX: ffffffffffffffda RBX: 000000000000007a RCX: 00007aa60d3120b4
+[  +0,000001] RDX: 000000000000007a RSI: 00007ffcd5606090 RDI: 0000000000000002
+[  +0,000001] RBP: 00007ffcd5606090 R08: 00007aa60d3b74a0 R09: 0000000000000073
+[  +0,000001] R10: 0000000000000000 R11: 0000000000000202 R12: 000000000000007a
+[  +0,000001] R13: 00007aa60d3f45c0 R14: 000000000000007a R15: 00007aa60d3ef940
+[  +0,000002]  </TASK>
+[  +0,000001] NMI backtrace for cpu 3
+[  +0,000001] CPU: 3 PID: 0 Comm: swapper/3 Tainted: G     U     OE      6.0.12-zen1-1-zen #1 e5be3306ead82a6c834b3f8df9a8dd90aeedf090
+[  +0,000003] Hardware name: Dell Inc. Precision 5510/08R8KJ, BIOS 1.23.0 07/06/2022
+[  +0,000000] RIP: 0010:__schedule+0xad5/0x1350
+[  +0,000003] Code: 00 4c 89 ef 66 0f 1f 44 00 00 49 8b b4 24 48 05 00 00 48 85 f6 0f 84 5b 02 00 00 49 8b bd 50 05 00 00 48 39 fe 74 22 8b 46 58 <8b> 93 7c 0a 00 00 39 d0 74 15 89 83 7c 0a 00 00 49 8b b4 24 48 05
+[  +0,000002] RSP: 0018:ffffb152c010fe80 EFLAGS: 00000087
+[  +0,000002] RAX: 0000000000000000 RBX: ffff8b059ddb2d00 RCX: 0000272bb3525f43
+[  +0,000001] RDX: 0000000000000000 RSI: ffff8b000c994c80 RDI: ffff8b00dc937080
+[  +0,000001] RBP: ffffb152c010ff10 R08: 0000272bb3526982 R09: 0000000000000001
+[  +0,000001] R10: 0000000000000001 R11: 0000000000000008 R12: ffff8b0551acc280
+[  +0,000001] R13: ffff8afe00cca140 R14: 0000000000000000 R15: ffffb152c010fed0
+[  +0,000000] FS:  0000000000000000(0000) GS:ffff8b059dd80000(0000) knlGS:0000000000000000
+[  +0,000002] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  +0,000001] CR2: 0000562b34bdd000 CR3: 000000049c610002 CR4: 00000000003706e0
+[  +0,000001] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[  +0,000001] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[  +0,000001] Call Trace:
+[  +0,000001]  <TASK>
+[  +0,000002]  schedule_idle+0x2a/0x40
+[  +0,000002]  cpu_startup_entry+0x1d/0x20
+[  +0,000003]  start_secondary+0x115/0x140
+[  +0,000003]  secondary_startup_64_no_verify+0xe5/0xeb
+[  +0,000004]  </TASK>
+[  +0,000001] NMI backtrace for cpu 0 skipped: idling at intel_idle_ibrs+0x8e/0x110
+[гру15 04:45] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[ +16,823972] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[гру15 04:46] systemd[1]: systemd 252.3-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000270] systemd[1]: Detected architecture x86-64.
+[  +0,406302] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,080561] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001066] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +4,645463] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[ +19,225350] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[гру15 04:47] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=31590 DF PROTO=UDP SPT=46597 DPT=137 LEN=58 
+[  +0,237579] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=31734 DF PROTO=UDP SPT=40873 DPT=137 LEN=58 
+[  +0,270119] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=31953 DF PROTO=UDP SPT=54269 DPT=137 LEN=58 
+[гру15 04:48] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
