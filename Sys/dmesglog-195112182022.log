@@ -1,0 +1,672 @@
+[гру17 20:46] Bluetooth: hci0: Device booted in 10715 usecs
+[  +0,000028] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[  +0,001371] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[  +0,003646] Bluetooth: hci0: Applying Intel DDC parameters completed
+[  +0,000991] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[  +0,045397] Bluetooth: MGMT ver 1.22
+[  +0,008170] NET: Registered PF_ALG protocol family
+[  +3,485905] input: PS/2 Synaptics TouchPad as /devices/platform/i8042/serio1/input/input9
+[  +0,207905] psmouse serio1: Failed to enable mouse on isa0060/serio1
+[гру17 20:47] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,013415] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,005954] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,005128] wlp2s0: authenticated
+[  +0,001862] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002489] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,002864] wlp2s0: associated
+[  +0,036079] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +1,966630] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,177233] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,656140] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +3,511375] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8,417223] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +14,768827] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=56 ID=19050 DF PROTO=TCP SPT=443 DPT=35960 WINDOW=8 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,210030] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=115 TOS=0x00 PREC=0x00 TTL=56 ID=19051 DF PROTO=TCP SPT=443 DPT=35960 WINDOW=8 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,423677] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=115 TOS=0x00 PREC=0x00 TTL=56 ID=19052 DF PROTO=TCP SPT=443 DPT=35960 WINDOW=8 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,800381] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 20:48] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +6,017635] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=8692 TOS=0x00 PREC=0x00 TTL=121 ID=6135 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[  +0,000713] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=6142 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[  +0,002062] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=6160 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[  +0,002415] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=6186 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[  +0,001111] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=11572 TOS=0x00 PREC=0x00 TTL=121 ID=6203 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[  +0,001121] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=6219 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[  +0,000224] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=6228 PROTO=TCP SPT=443 DPT=57128 WINDOW=320 RES=0x00 ACK URGP=0 
+[ +16,514278] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=4372 TOS=0x00 PREC=0x00 TTL=121 ID=8708 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,001205] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=7252 TOS=0x00 PREC=0x00 TTL=121 ID=8717 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000964] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=8732 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,001024] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=4372 TOS=0x00 PREC=0x00 TTL=121 ID=8742 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,002809] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=8757 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,048054] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=9130 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000367] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=9136 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,001017] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=4372 TOS=0x00 PREC=0x00 TTL=121 ID=9147 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,002684] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=9180 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000485] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=9183 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000506] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=9188 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,001429] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=9191 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000223] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=4372 TOS=0x00 PREC=0x00 TTL=121 ID=9197 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,001279] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=2932 TOS=0x00 PREC=0x00 TTL=121 ID=9212 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000714] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=9215 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,000879] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=4372 TOS=0x00 PREC=0x00 TTL=121 ID=9225 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[  +0,002834] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=176.122.113.13 DST=192.168.1.249 LEN=5812 TOS=0x00 PREC=0x00 TTL=121 ID=9242 PROTO=TCP SPT=443 DPT=57128 WINDOW=370 RES=0x00 ACK URGP=0 
+[гру17 20:49] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 20:51] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 20:56] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 21:06] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 21:27] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 22:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 23:13] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру17 23:50] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[гру17 23:51] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[гру18 00:00] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[ +21,809028] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[  +0,013408] BTRFS info (device nvme0n1p2): balance: start -dusage=0
+[  +0,000034] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,027944] BTRFS info (device nvme0n1p2): balance: start -dusage=5
+[  +0,000033] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,026399] BTRFS info (device nvme0n1p2): balance: start -dusage=10
+[  +0,000035] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,028947] BTRFS info (device nvme0n1p2): balance: start -musage=0 -susage=0
+[  +0,000027] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +0,020556] BTRFS info (device nvme0n1p2): balance: start -musage=5 -susage=5
+[  +0,000145] BTRFS info (device nvme0n1p2): relocating block group 588810027008 flags system|dup
+[  +0,027749] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[гру18 00:04] wlp2s0: deauthenticating from 08:55:31:cf:3d:6c by local choice (Reason: 3=DEAUTH_LEAVING)
+[  +0,125134] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,008301] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +1,128659] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,002517] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002572] wlp2s0: authenticated
+[  +0,003263] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002416] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,003098] wlp2s0: associated
+[  +0,004816] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +1,184766] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,161008] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,862087] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +2,849000] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7,645761] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +8,699717] BTRFS info (device nvme0n1p2): balance: start -d -m -s
+[  +0,000206] BTRFS info (device nvme0n1p2): relocating block group 588843581440 flags system|dup
+[  +0,027454] BTRFS info (device nvme0n1p2): relocating block group 587702730752 flags data
+[  +0,273513] BTRFS info (device nvme0n1p2): found 3 extents, stage: move data extents
+[гру18 00:05] BTRFS info (device nvme0n1p2): found 3 extents, stage: update data pointers
+[  +0,288158] BTRFS info (device nvme0n1p2): relocating block group 586628988928 flags data
+[  +2,259204] BTRFS info (device nvme0n1p2): found 161 extents, stage: move data extents
+[  +0,572465] BTRFS info (device nvme0n1p2): found 161 extents, stage: update data pointers
+[  +0,291780] BTRFS info (device nvme0n1p2): relocating block group 585555247104 flags data
+[  +2,332452] BTRFS info (device nvme0n1p2): found 1366 extents, stage: move data extents
+[  +0,472675] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,343625] BTRFS info (device nvme0n1p2): found 1366 extents, stage: update data pointers
+[  +0,343688] BTRFS info (device nvme0n1p2): relocating block group 584481505280 flags data
+[  +2,392219] BTRFS info (device nvme0n1p2): found 2019 extents, stage: move data extents
+[  +0,783789] BTRFS info (device nvme0n1p2): found 2019 extents, stage: update data pointers
+[  +0,402822] BTRFS info (device nvme0n1p2): relocating block group 583407763456 flags metadata|dup
+[  +3,052680] BTRFS info (device nvme0n1p2): found 12246 extents, stage: move data extents
+[  +0,697098] BTRFS info (device nvme0n1p2): relocating block group 582334021632 flags data
+[  +2,050481] BTRFS info (device nvme0n1p2): found 784 extents, stage: move data extents
+[  +0,609549] BTRFS info (device nvme0n1p2): found 784 extents, stage: update data pointers
+[  +0,434999] BTRFS info (device nvme0n1p2): relocating block group 581226725376 flags data
+[  +2,009380] BTRFS info (device nvme0n1p2): found 607 extents, stage: move data extents
+[  +0,497156] BTRFS info (device nvme0n1p2): found 607 extents, stage: update data pointers
+[  +0,200848] BTRFS info (device nvme0n1p2): relocating block group 580152983552 flags data
+[  +1,971984] BTRFS info (device nvme0n1p2): found 1149 extents, stage: move data extents
+[  +0,458976] BTRFS info (device nvme0n1p2): found 1149 extents, stage: update data pointers
+[  +0,566502] BTRFS info (device nvme0n1p2): relocating block group 579079241728 flags data
+[  +2,419464] BTRFS info (device nvme0n1p2): found 1542 extents, stage: move data extents
+[  +0,751034] BTRFS info (device nvme0n1p2): found 1542 extents, stage: update data pointers
+[  +0,239232] BTRFS info (device nvme0n1p2): relocating block group 578005499904 flags data
+[  +2,122343] BTRFS info (device nvme0n1p2): found 1938 extents, stage: move data extents
+[  +0,669199] BTRFS info (device nvme0n1p2): found 1938 extents, stage: update data pointers
+[  +0,284951] BTRFS info (device nvme0n1p2): relocating block group 576931758080 flags data
+[  +2,221334] BTRFS info (device nvme0n1p2): found 1297 extents, stage: move data extents
+[  +0,654399] BTRFS info (device nvme0n1p2): found 1297 extents, stage: update data pointers
+[  +0,664310] BTRFS info (device nvme0n1p2): relocating block group 575858016256 flags data
+[  +2,938348] BTRFS info (device nvme0n1p2): found 5274 extents, stage: move data extents
+[  +0,282498] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,799799] BTRFS info (device nvme0n1p2): found 5274 extents, stage: update data pointers
+[  +0,609154] BTRFS info (device nvme0n1p2): relocating block group 574784274432 flags data
+[  +3,342115] BTRFS info (device nvme0n1p2): found 17204 extents, stage: move data extents
+[  +1,647331] BTRFS info (device nvme0n1p2): found 17204 extents, stage: update data pointers
+[  +0,766204] BTRFS info (device nvme0n1p2): relocating block group 573710532608 flags metadata|dup
+[  +6,567351] BTRFS info (device nvme0n1p2): found 27316 extents, stage: move data extents
+[  +1,564825] BTRFS info (device nvme0n1p2): relocating block group 572636790784 flags data
+[  +3,878596] BTRFS info (device nvme0n1p2): found 23080 extents, stage: move data extents
+[  +1,526194] BTRFS info (device nvme0n1p2): found 23080 extents, stage: update data pointers
+[  +1,059752] BTRFS info (device nvme0n1p2): relocating block group 571563048960 flags data
+[гру18 00:06] BTRFS info (device nvme0n1p2): found 27639 extents, stage: move data extents
+[  +1,398581] BTRFS info (device nvme0n1p2): found 27639 extents, stage: update data pointers
+[  +1,447985] BTRFS info (device nvme0n1p2): relocating block group 570489307136 flags data
+[  +3,026173] BTRFS info (device nvme0n1p2): found 18002 extents, stage: move data extents
+[  +1,382856] BTRFS info (device nvme0n1p2): found 18002 extents, stage: update data pointers
+[  +0,860894] BTRFS info (device nvme0n1p2): relocating block group 569415565312 flags data
+[  +3,362731] BTRFS info (device nvme0n1p2): found 24502 extents, stage: move data extents
+[  +1,986775] BTRFS info (device nvme0n1p2): found 24501 extents, stage: update data pointers
+[  +1,294796] BTRFS info (device nvme0n1p2): relocating block group 568341823488 flags data
+[  +2,589114] BTRFS info (device nvme0n1p2): found 9821 extents, stage: move data extents
+[  +1,248258] BTRFS info (device nvme0n1p2): found 9821 extents, stage: update data pointers
+[  +0,689147] BTRFS info (device nvme0n1p2): relocating block group 567268081664 flags data
+[  +2,610249] BTRFS info (device nvme0n1p2): found 10969 extents, stage: move data extents
+[  +1,024941] BTRFS info (device nvme0n1p2): found 10969 extents, stage: update data pointers
+[  +0,673685] BTRFS info (device nvme0n1p2): relocating block group 566194339840 flags data
+[  +2,313743] BTRFS info (device nvme0n1p2): found 2927 extents, stage: move data extents
+[  +1,043469] BTRFS info (device nvme0n1p2): found 2927 extents, stage: update data pointers
+[  +0,445090] BTRFS info (device nvme0n1p2): relocating block group 565120598016 flags data
+[  +2,406046] BTRFS info (device nvme0n1p2): found 10158 extents, stage: move data extents
+[  +1,050557] BTRFS info (device nvme0n1p2): found 10158 extents, stage: update data pointers
+[  +0,202029] wlp2s0: deauthenticating from 08:55:31:cf:3d:6c by local choice (Reason: 3=DEAUTH_LEAVING)
+[  +0,090089] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,016157] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,342346] BTRFS info (device nvme0n1p2): relocating block group 564046856192 flags data
+[  +2,851015] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,003625] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,001294] wlp2s0: authenticated
+[  +0,001947] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002478] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,002506] wlp2s0: associated
+[  +0,004110] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +0,380493] BTRFS info (device nvme0n1p2): found 6915 extents, stage: move data extents
+[  +0,975049] BTRFS info (device nvme0n1p2): found 6915 extents, stage: update data pointers
+[  +0,497438] BTRFS info (device nvme0n1p2): relocating block group 562973114368 flags data
+[  +0,207991] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,045738] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,978200] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +1,168555] BTRFS info (device nvme0n1p2): found 8841 extents, stage: move data extents
+[  +1,208140] BTRFS info (device nvme0n1p2): found 8841 extents, stage: update data pointers
+[  +0,492309] BTRFS info (device nvme0n1p2): relocating block group 561899372544 flags data
+[  +0,038342] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +2,097384] BTRFS info (device nvme0n1p2): found 4647 extents, stage: move data extents
+[  +0,735057] BTRFS info (device nvme0n1p2): found 4647 extents, stage: update data pointers
+[  +0,425778] BTRFS info (device nvme0n1p2): relocating block group 560825630720 flags data
+[  +1,979279] BTRFS info (device nvme0n1p2): found 3730 extents, stage: move data extents
+[  +0,773072] BTRFS info (device nvme0n1p2): found 3730 extents, stage: update data pointers
+[  +0,433146] BTRFS info (device nvme0n1p2): relocating block group 559751888896 flags data
+[  +1,150866] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +1,044124] BTRFS info (device nvme0n1p2): found 9402 extents, stage: move data extents
+[  +0,591734] BTRFS info (device nvme0n1p2): found 9402 extents, stage: update data pointers
+[  +0,406740] BTRFS info (device nvme0n1p2): relocating block group 558678147072 flags data
+[  +2,260855] BTRFS info (device nvme0n1p2): found 6576 extents, stage: move data extents
+[  +0,635364] BTRFS info (device nvme0n1p2): found 6576 extents, stage: update data pointers
+[  +0,726765] BTRFS info (device nvme0n1p2): relocating block group 557604405248 flags data
+[  +2,270399] BTRFS info (device nvme0n1p2): found 6041 extents, stage: move data extents
+[  +0,680929] BTRFS info (device nvme0n1p2): found 6041 extents, stage: update data pointers
+[  +0,455395] BTRFS info (device nvme0n1p2): relocating block group 556530663424 flags data
+[гру18 00:07] BTRFS info (device nvme0n1p2): found 3160 extents, stage: move data extents
+[  +0,645895] BTRFS info (device nvme0n1p2): found 3160 extents, stage: update data pointers
+[  +0,706090] BTRFS info (device nvme0n1p2): relocating block group 555456921600 flags data
+[  +2,335594] BTRFS info (device nvme0n1p2): found 4977 extents, stage: move data extents
+[  +0,758345] BTRFS info (device nvme0n1p2): found 4977 extents, stage: update data pointers
+[  +0,299614] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,112334] BTRFS info (device nvme0n1p2): relocating block group 554383179776 flags data
+[  +2,228648] BTRFS info (device nvme0n1p2): found 9440 extents, stage: move data extents
+[  +0,828774] BTRFS info (device nvme0n1p2): found 9440 extents, stage: update data pointers
+[  +0,464056] BTRFS info (device nvme0n1p2): relocating block group 553309437952 flags data
+[  +1,951733] BTRFS info (device nvme0n1p2): found 2189 extents, stage: move data extents
+[  +0,751650] BTRFS info (device nvme0n1p2): found 2189 extents, stage: update data pointers
+[  +0,282182] BTRFS info (device nvme0n1p2): relocating block group 552235696128 flags data
+[  +2,297068] BTRFS info (device nvme0n1p2): found 8803 extents, stage: move data extents
+[  +0,773818] BTRFS info (device nvme0n1p2): found 8803 extents, stage: update data pointers
+[  +0,485771] BTRFS info (device nvme0n1p2): relocating block group 551161954304 flags data
+[  +1,966457] BTRFS info (device nvme0n1p2): found 553 extents, stage: move data extents
+[  +0,569395] BTRFS info (device nvme0n1p2): found 553 extents, stage: update data pointers
+[  +0,447241] BTRFS info (device nvme0n1p2): relocating block group 550088212480 flags data
+[  +2,147295] BTRFS info (device nvme0n1p2): found 4850 extents, stage: move data extents
+[  +0,637757] BTRFS info (device nvme0n1p2): found 4850 extents, stage: update data pointers
+[  +0,387931] BTRFS info (device nvme0n1p2): relocating block group 549014470656 flags data
+[  +2,014966] BTRFS info (device nvme0n1p2): found 1348 extents, stage: move data extents
+[  +0,433009] BTRFS info (device nvme0n1p2): found 1348 extents, stage: update data pointers
+[  +0,195278] BTRFS info (device nvme0n1p2): relocating block group 547940728832 flags data
+[  +1,987459] BTRFS info (device nvme0n1p2): found 5901 extents, stage: move data extents
+[  +0,553929] BTRFS info (device nvme0n1p2): found 5901 extents, stage: update data pointers
+[  +0,662707] BTRFS info (device nvme0n1p2): relocating block group 546866987008 flags data
+[  +2,064844] BTRFS info (device nvme0n1p2): found 1644 extents, stage: move data extents
+[  +0,540382] BTRFS info (device nvme0n1p2): found 1644 extents, stage: update data pointers
+[  +0,311689] BTRFS info (device nvme0n1p2): relocating block group 545793245184 flags data
+[  +2,779605] BTRFS info (device nvme0n1p2): found 29387 extents, stage: move data extents
+[  +1,251887] BTRFS info (device nvme0n1p2): found 29387 extents, stage: update data pointers
+[  +1,105589] BTRFS info (device nvme0n1p2): relocating block group 544685948928 flags data
+[  +0,936255] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +2,563802] BTRFS info (device nvme0n1p2): found 32741 extents, stage: move data extents
+[  +1,421497] BTRFS info (device nvme0n1p2): found 32741 extents, stage: update data pointers
+[  +0,945484] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[гру18 00:08] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 00:10] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 00:14] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 00:15] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=20446 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000319] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=20451 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000811] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=20454 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,001289] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=8620 TOS=0x08 PREC=0x20 TTL=242 ID=20462 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,006499] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20550 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,002130] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=20561 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000531] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=20567 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000404] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20570 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000354] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=20580 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000917] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20586 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,003613] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20636 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,002001] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=20652 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,002253] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20669 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000347] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=20676 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,000684] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20681 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,001105] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=20700 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +0,003032] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=20726 PROTO=TCP SPT=443 DPT=33380 WINDOW=164 RES=0x00 ACK URGP=0 
+[  +5,342354] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26559 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000018] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26562 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000637] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26566 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,003095] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=10048 TOS=0x08 PREC=0x20 TTL=242 ID=26607 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000552] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=8620 TOS=0x08 PREC=0x20 TTL=242 ID=26615 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,005004] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26668 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001583] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=26698 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000748] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26710 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001061] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=26713 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001081] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26723 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000977] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26734 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000354] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26738 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001118] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26754 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000659] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26760 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001404] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26779 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,002750] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26815 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001147] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=26819 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000317] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26825 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000847] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=26828 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000014] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=26833 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001943] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26853 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001208] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=26878 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001006] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=26883 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000878] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=26893 PROTO=TCP SPT=443 DPT=33380 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,273060] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28207 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000928] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28227 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001261] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28246 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000379] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=28250 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002658] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=28278 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000810] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28281 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001832] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28307 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002043] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=28326 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000023] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28332 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000615] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=28343 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001922] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=28356 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000287] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=28366 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001353] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=28378 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001032] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=10048 TOS=0x08 PREC=0x20 TTL=242 ID=28381 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000678] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=28391 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001351] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=28411 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001667] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28422 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002094] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=28447 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001072] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28454 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000621] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28467 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002458] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=28493 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000947] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=28503 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000816] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=28506 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001440] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=28518 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001185] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=28524 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,182003] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=29819 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001629] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=11476 TOS=0x08 PREC=0x20 TTL=242 ID=29835 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001306] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=29861 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001871] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=29874 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001168] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=29889 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001220] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=29900 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000828] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=29904 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000491] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=10048 TOS=0x08 PREC=0x20 TTL=242 ID=29915 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001668] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=29934 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,003178] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=29965 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000687] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=29969 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000053] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=29979 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001295] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=29989 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000030] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=30001 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001559] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=30014 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002940] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=30065 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,003245] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=30100 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000383] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=30103 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000399] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=30106 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002514] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=30130 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002963] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=30147 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,184614] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=31450 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002231] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31461 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000550] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=31479 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000878] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=31495 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001677] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=31509 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,003942] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=31589 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001433] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31601 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002110] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31631 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,004257] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=31660 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000292] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31665 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000641] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31669 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001827] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=31677 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000899] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31687 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000011] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31690 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,005209] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=31724 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,003078] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=31739 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000766] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=31745 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,209144] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=32948 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001126] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=32954 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001043] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=32960 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000722] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=32965 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000469] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=32968 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001439] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=32982 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000722] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=32986 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001312] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=32992 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001251] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=32999 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002675] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=33016 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002613] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=33034 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001649] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=33043 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001134] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=33049 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,000955] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=33055 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,004672] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=33088 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,001178] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=33097 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002266] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=33109 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,003303] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=33127 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,002573] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=33147 PROTO=TCP SPT=443 DPT=33380 WINDOW=225 RES=0x00 ACK URGP=0 
+[  +0,246802] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=34014 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,004324] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=34046 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001395] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34058 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000914] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34061 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000873] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34064 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000882] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=34067 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001081] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=34079 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001732] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=34087 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000854] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34097 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002178] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34109 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000482] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34112 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000870] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34115 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000836] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=34124 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002003] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=34132 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001613] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=34150 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002311] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=34158 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001337] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=34169 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001063] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34178 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001060] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=34183 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000458] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=34187 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001658] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=34199 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001054] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=34203 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,168767] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=35120 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,003581] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=35141 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002054] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35155 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001848] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=35165 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001999] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=35177 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000594] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35183 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000585] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35186 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000647] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35189 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,004060] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=35216 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001482] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35228 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001758] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=35237 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,003584] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35261 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000372] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=35264 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,147964] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36039 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002701] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36057 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000641] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36060 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000280] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36063 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000673] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36066 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001497] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36075 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,005960] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36114 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000807] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36117 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000362] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36120 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001630] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36129 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000303] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36132 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,003309] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=36153 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,004318] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=36180 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001044] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=36186 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000644] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=36192 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001299] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=36199 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000817] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=36204 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000409] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=36210 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,179297] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=37137 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000416] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37143 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001313] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37146 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000346] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37151 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001012] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37158 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,003790] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=37184 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002213] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37196 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000698] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=37200 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,002811] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37218 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,000780] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=37223 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001922] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37234 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001190] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=37245 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001024] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=37251 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,005251] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=37284 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +0,001795] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=37297 PROTO=TCP SPT=443 DPT=33380 WINDOW=231 RES=0x00 ACK URGP=0 
+[  +1,568013] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=39970 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001799] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=39983 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001330] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=39991 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001719] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=39997 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001747] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40009 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000566] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40012 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000629] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40017 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,002909] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40039 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000741] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=40044 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000451] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=40048 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000932] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40060 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001142] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=40066 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001288] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=40072 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000925] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40084 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000615] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40093 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000013] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40096 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000687] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=40105 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000914] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=40113 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001589] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=40124 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001355] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=40132 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001291] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=40138 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001211] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40150 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000409] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40153 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001474] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=40163 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,183137] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41206 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000280] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41209 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,005122] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41239 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000958] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41247 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001308] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=41251 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000742] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41260 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,002839] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=41278 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001047] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=41286 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001026] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=41290 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001961] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=41304 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,001877] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41317 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +0,000784] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=41320 PROTO=TCP SPT=443 DPT=33380 WINDOW=237 RES=0x00 ACK URGP=0 
+[  +1,537600] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44002 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000673] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=44005 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000013] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44010 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,003994] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=44049 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,003263] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44076 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000749] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=44079 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000720] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44084 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,001086] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=44087 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000323] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=44096 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000542] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44105 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000033] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=44108 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,001033] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=44112 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,001662] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44129 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,001071] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=44141 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,001017] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=44150 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +0,000742] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=44161 PROTO=TCP SPT=443 DPT=33380 WINDOW=248 RES=0x00 ACK URGP=0 
+[  +2,368295] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=45922 PROTO=TCP SPT=443 DPT=33382 WINDOW=170 RES=0x00 ACK URGP=0 
+[  +0,002415] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=45961 PROTO=TCP SPT=443 DPT=33382 WINDOW=170 RES=0x00 ACK URGP=0 
+[  +0,002146] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=45985 PROTO=TCP SPT=443 DPT=33382 WINDOW=170 RES=0x00 ACK URGP=0 
+[  +1,065934] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49179 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,001780] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49195 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000032] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49198 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000052] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=49210 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000068] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49228 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000045] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49240 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000305] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49264 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000141] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=49280 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +0,000023] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49285 PROTO=TCP SPT=443 DPT=33382 WINDOW=175 RES=0x00 ACK URGP=0 
+[  +1,010851] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52520 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000554] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=8620 TOS=0x08 PREC=0x20 TTL=242 ID=52523 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,002985] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52565 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001057] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52585 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001614] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52597 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000604] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=52605 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001851] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=52622 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000013] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=52626 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001849] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52645 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,002047] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52662 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000928] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52680 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000412] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52683 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000015] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52686 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000571] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52689 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001020] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52699 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000638] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52704 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000855] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52722 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,002389] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=52737 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001074] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=52749 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,002001] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=52761 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000369] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=52767 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000978] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=52776 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,169641] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54067 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000983] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=54078 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000788] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54086 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,002675] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=54109 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001193] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54133 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000985] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=54136 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000661] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=54146 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000222] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54156 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001960] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54171 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000917] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=54177 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000912] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=11476 TOS=0x08 PREC=0x20 TTL=242 ID=54182 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,002103] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=54221 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001326] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=54236 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000470] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=54240 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001798] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=54266 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001903] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54288 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001203] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=54301 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001379] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54311 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000259] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=54316 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001758] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54327 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000715] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54343 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,001404] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=54352 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000664] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=54356 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000631] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=54361 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +0,000386] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=8620 TOS=0x08 PREC=0x20 TTL=242 ID=54364 PROTO=TCP SPT=443 DPT=33382 WINDOW=181 RES=0x00 ACK URGP=0 
+[  +1,941773] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61019 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001677] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61029 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001782] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=61064 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000865] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=61068 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000667] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61074 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000723] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61084 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000534] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=61090 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001869] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61094 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,002429] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=61144 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001355] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61164 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,002134] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61189 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001787] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61211 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001431] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61234 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001946] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=61245 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000328] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61256 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,002501] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61277 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001584] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61283 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000326] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61286 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001906] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=61301 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,001696] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=61312 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +0,000726] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=61316 PROTO=TCP SPT=443 DPT=33382 WINDOW=192 RES=0x00 ACK URGP=0 
+[  +2,414318] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=4083 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,001325] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=4088 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,000990] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=4106 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,001097] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=4123 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,000933] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=4137 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,001347] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=4151 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,002626] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=4171 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,003288] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=10048 TOS=0x08 PREC=0x20 TTL=242 ID=4206 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,000953] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=4216 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,000702] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=4221 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,000344] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=4226 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,003111] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=4263 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +0,001067] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=4272 PROTO=TCP SPT=443 DPT=33382 WINDOW=203 RES=0x00 ACK URGP=0 
+[  +1,819576] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=49574 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000189] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49579 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001454] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=49598 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000680] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=49606 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,002382] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=49635 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,002561] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=49664 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,011925] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=49779 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,004728] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=49819 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,002979] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=49844 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000340] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=49848 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,180345] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51116 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000525] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=51119 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001383] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51137 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,003401] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=51172 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,002507] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=10048 TOS=0x08 PREC=0x20 TTL=242 ID=51193 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,002016] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51217 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000650] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51222 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001090] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=51225 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001506] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=51246 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001668] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=51262 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000707] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=51267 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000674] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51275 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001101] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51278 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001907] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=51292 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001978] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=8620 TOS=0x08 PREC=0x20 TTL=242 ID=51312 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000683] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51320 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,004043] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51349 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000772] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=51352 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,000024] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51357 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001410] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=10048 TOS=0x08 PREC=0x20 TTL=242 ID=51365 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001628] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51391 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +0,001059] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=51394 PROTO=TCP SPT=443 DPT=33380 WINDOW=304 RES=0x00 ACK URGP=0 
+[  +1,947712] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7352 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001235] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=7362 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001649] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7367 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,002866] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7412 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001059] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=7428 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000452] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=7432 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,002536] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=7465 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000880] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=7476 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001323] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=7483 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001921] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7502 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000037] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7508 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,003357] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=7533 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001096] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=7538 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000662] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7544 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000358] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7547 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000554] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7550 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000601] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7553 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,001991] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7571 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +0,000332] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=7574 PROTO=TCP SPT=443 DPT=33382 WINDOW=214 RES=0x00 ACK URGP=0 
+[  +1,115590] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=11798 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,002200] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=11827 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001342] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=11844 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001522] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=11856 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000940] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=11861 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,001508] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=11893 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000013] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=11897 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,003836] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=11938 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000354] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=11943 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,002053] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=11962 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,002715] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=11988 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,004784] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=5764 TOS=0x08 PREC=0x20 TTL=242 ID=12023 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,003753] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=7192 TOS=0x08 PREC=0x20 TTL=242 ID=12054 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000616] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=12060 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,002419] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=4336 TOS=0x08 PREC=0x20 TTL=242 ID=12081 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[  +0,000690] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=18.66.233.121 DST=192.168.1.249 LEN=2908 TOS=0x08 PREC=0x20 TTL=242 ID=12089 PROTO=TCP SPT=443 DPT=33382 WINDOW=220 RES=0x00 ACK URGP=0 
+[гру18 00:23] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 00:40] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 01:17] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 02:06] BTRFS info (device nvme0n1p2): qgroup scan completed (inconsistency flag cleared)
+[гру18 02:15] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 03:15] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 04:15] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 05:11] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 06:12] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 07:07] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 08:02] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 09:05] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 10:08] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 11:03] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 12:08] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 13:03] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 14:02] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 15:03] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 16:05] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 17:06] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 18:03] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.CHRG], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000058] ACPI Error: Aborting method \PNOT due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,003088] ACPI Error: Aborting method \_SB.AC._PSR due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[гру18 18:06] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 18:49] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.CHRG], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000031] ACPI Error: Aborting method \PNOT due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000017] ACPI Error: Aborting method \_SB.AC._PSR due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,679721] ata2: SATA link down (SStatus 4 SControl 300)
+[гру18 19:05] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=517324 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру18 19:20] systemd[1]: systemd 252.3-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000327] systemd[1]: Detected architecture x86-64.
+[  +0,405515] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,090459] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001189] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[гру18 19:22] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
