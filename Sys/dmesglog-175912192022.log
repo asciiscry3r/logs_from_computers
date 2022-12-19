@@ -1,0 +1,1245 @@
+[гру19 16:12] zbud: loaded
+[  +0,000389] integrity: Platform Keyring initialized
+[  +0,000002] integrity: Machine keyring initialized
+[  +0,007984] Key type asymmetric registered
+[  +0,000001] Asymmetric key parser 'x509' registered
+[  +0,140322] Freeing initrd memory: 43884K
+[  +0,006202] alg: self-tests for CTR-KDF (hmac(sha256)) passed
+[  +0,000025] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[  +0,000042] io scheduler mq-deadline registered
+[  +0,000002] io scheduler kyber registered
+[  +0,000058] io scheduler bfq registered
+[  +0,002043] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[  +0,002411] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.CHRG], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000014] ACPI Error: Aborting method \PNOT due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000008] ACPI Error: Aborting method \_SB.AC._PSR due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000008] ACPI: \_SB_.AC__: Error reading AC Adapter state: AE_NOT_FOUND
+[  +0,000079] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[  +0,000143] ACPI: button: Lid Switch [LID0]
+[  +0,000041] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[  +0,000034] ACPI: button: Power Button [PBTN]
+[  +0,000043] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[  +0,000023] ACPI: button: Sleep Button [SBTN]
+[  +0,000040] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[  +0,000150] ACPI: button: Power Button [PWRF]
+[  +0,002844] thermal LNXTHERM:00: registered as thermal_zone0
+[  +0,000003] ACPI: thermal: Thermal Zone [THM] (25 C)
+[  +0,000312] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000009] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000334] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000007] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000131] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000006] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000123] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000006] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000327] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[  +0,004802] Non-volatile memory driver v1.3
+[  +0,000001] Linux agpgart interface v0.103
+[  +0,003679] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[  +0,013464] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+[  +0,000631] ahci 0000:00:17.0: version 3.0
+[  +0,000302] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
+[  +0,000025] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x2 impl SATA mode
+[  +0,000004] ahci 0000:00:17.0: flags: 64bit ncq sntf stag pm led clo only pio slum part ems deso sadm sds apst 
+[  +0,000972] scsi host0: ahci
+[  +0,000363] scsi host1: ahci
+[  +0,000064] ata1: DUMMY
+[  +0,000003] ata2: SATA max UDMA/133 abar m2048@0xddd33000 port 0xddd33180 irq 128
+[  +0,000058] ACPI: bus type drm_connector registered
+[  +0,000230] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[  +0,000002] ehci-pci: EHCI PCI platform driver
+[  +0,000011] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[  +0,000000] ohci-pci: OHCI PCI platform driver
+[  +0,000009] uhci_hcd: USB Universal Host Controller Interface driver
+[  +0,000067] usbcore: registered new interface driver usbserial_generic
+[  +0,000005] usbserial: USB Serial support registered for generic
+[  +0,000166] rtc_cmos 00:02: RTC can wake from S4
+[  +0,000994] rtc_cmos 00:02: registered as rtc0
+[  +0,000274] rtc_cmos 00:02: setting system clock to 2022-12-19T14:13:00 UTC (1671459180)
+[  +0,000172] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram
+[  +0,000947] intel_pstate: Intel P-state driver initializing
+[  +0,000200] intel_pstate: HWP enabled
+[  +0,000065] ledtrig-cpu: registered to indicate activity on CPUs
+[  +0,000539] efifb: probing for efifb
+[  +0,000013] efifb: framebuffer at 0x70000000, using 8128k, total 8128k
+[  +0,000002] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[  +0,000001] efifb: scrolling: redraw
+[  +0,000001] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[  +0,000078] fbcon: Deferring console take-over
+[  +0,000001] fb0: EFI VGA frame buffer device
+[  +0,000031] hid: raw HID events driver (C) Jiri Kosina
+[  +0,000047] intel_pmc_core INT33A1:00:  initialized
+[  +0,000086] drop_monitor: Initializing network drop monitor service
+[  +0,019621] Initializing XFRM netlink socket
+[  +0,000164] NET: Registered PF_INET6 protocol family
+[  +0,001647] ACPI: battery: Slot [BAT0] (battery present)
+[  +0,005903] Segment Routing with IPv6
+[  +0,000002] RPL Segment Routing with IPv6
+[  +0,000009] In-situ OAM (IOAM) with IPv6
+[  +0,000028] NET: Registered PF_PACKET protocol family
+[  +0,001269] microcode: sig=0x506e3, pf=0x20, revision=0xf0
+[  +0,000082] microcode: Microcode Update Driver: v2.2.
+[  +0,000004] IPI shorthand broadcast: enabled
+[  +0,000019] sched_clock: Marking stable (2922423338, 3594158)->(2932964844, -6947348)
+[  +0,000255] registered taskstats version 1
+[  +0,000263] Loading compiled-in X.509 certificates
+[  +0,002857] Loaded X.509 cert 'Build time autogenerated kernel key: fec64a98734a38a3726b9e69497a45c29fc6bbd5'
+[  +0,000377] zswap: loaded using pool lz4/z3fold
+[  +0,000239] zswap: debugfs initialization failed
+[  +0,000133] Key type .fscrypt registered
+[  +0,000001] Key type fscrypt-provisioning registered
+[  +0,000049] AppArmor: AppArmor sha1 policy hashing enabled
+[  +0,000004] audit: type=1400 audit(1671459180.533:5): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[  +0,000240] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000031] integrity: Loaded X.509 cert 'Dell Inc. UEFI DB: 5ddb772dc880660055ba0bc131886bb630a639e7'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000028] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000023] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[  +0,002959] PM:   Magic number: 2:119:233
+[  +0,000046] acpi device:4d: hash matches
+[  +0,000030] memory memory111: hash matches
+[  +0,000133] RAS: Correctable Errors collector initialized.
+[гру19 16:13] ata2: SATA link down (SStatus 4 SControl 300)
+[  +0,005327] Freeing unused decrypted memory: 2036K
+[  +0,001027] Freeing unused kernel image (initmem) memory: 2140K
+[  +0,002138] Write protecting the kernel read-only data: 32768k
+[  +0,001490] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[  +0,000682] Freeing unused kernel image (rodata/data gap) memory: 980K
+[  +0,071511] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000002] rodata_test: all tests were successful
+[  +0,000001] x86/mm: Checking user space page tables
+[  +0,040049] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000009] Run /init as init process
+[  +0,000001]   with arguments:
+[  +0,000001]     /init
+[  +0,000001]   with environment:
+[  +0,000000]     HOME=/
+[  +0,000001]     TERM=linux
+[  +0,000001]     BOOT_IMAGE=/@/boot/vmlinuz-linux-zen
+[  +0,000001]     pti=on
+[  +0,000000]     page_owner=on
+[  +0,000001]     spectre_v2=ibrs
+[  +0,046131] fbcon: Taking over console
+[  +0,000109] Console: switching to colour frame buffer device 240x67
+[  +0,031286] cec: Failed to create debugfs cec dir
+[  +0,245160] Setting dangerous option enable_fbc - tainting kernel
+[  +0,000002] Setting dangerous option edp_vswing - tainting kernel
+[  +0,001771] Console: switching to colour dummy device 80x25
+[  +0,000023] i915 0000:00:02.0: vgaarb: deactivate vga console
+[  +0,002602] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[  +0,002065] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[  +0,069257] tsc: Refined TSC clocksource calibration: 2807.999 MHz
+[  +0,000009] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c523a63, max_idle_ns: 440795252908 ns
+[  +0,000051] clocksource: Switched to clocksource tsc
+[  +1,062506] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[  +0,008241] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[  +0,003139] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4
+[  +0,000334] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[  +0,000131] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input5
+[  +0,009145] fbcon: i915drmfb (fb0) is primary device
+[  +0,008233] Console: switching to colour frame buffer device 240x67
+[  +0,022521] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[  +1,269315] [drm] amdgpu kernel modesetting enabled.
+[  +0,000177] amdgpu: CRAT table not found
+[  +0,000003] amdgpu: Virtual CRAT table created for CPU
+[  +0,000021] amdgpu: Topology: Add CPU node
+[  +0,074111] [drm] radeon kernel modesetting enabled.
+[  +0,359591] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[  +0,006211] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[  +0,000335] i8042: Warning: Keylock active
+[  +0,006079] serio: i8042 KBD port at 0x60,0x64 irq 1
+[  +0,000064] serio: i8042 AUX port at 0x60,0x64 irq 12
+[  +0,017986] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input6
+[  +0,013092] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000617] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[  +0,001080] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[  +0,000293] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000004] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[  +0,000003] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[  +0,000040] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.00
+[  +0,000002] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb1: Product: xHCI Host Controller
+[  +0,000001] usb usb1: Manufacturer: Linux 6.0.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb1: SerialNumber: 0000:00:14.0
+[  +0,000148] hub 1-0:1.0: USB hub found
+[  +0,000018] hub 1-0:1.0: 16 ports detected
+[  +0,005558] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.00
+[  +0,000003] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb2: Product: xHCI Host Controller
+[  +0,000001] usb usb2: Manufacturer: Linux 6.0.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb2: SerialNumber: 0000:00:14.0
+[  +0,000101] hub 2-0:1.0: USB hub found
+[  +0,000015] hub 2-0:1.0: 10 ports detected
+[  +0,001189] usb: port power management may be unreliable
+[  +0,005546] nvme nvme0: pci function 0000:04:00.0
+[  +0,010031] nvme nvme0: 4/0/0 default/read/poll queues
+[  +0,001356]  nvme0n1: p1 p2 p3 p4 p5
+[  +0,053973] raid6: skipped pq benchmark and selected avx2x4
+[  +0,000002] raid6: using avx2x2 recovery algorithm
+[  +0,003109] xor: automatically using best checksumming function   avx       
+[  +0,093350] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+[  +0,001376] BTRFS: device fsid 72c5db42-a39c-498d-8a64-7e43a4b4678b devid 1 transid 74584 /dev/nvme0n1p2 scanned by systemd-udevd (163)
+[  +0,038558] PM: Image not found (code -22)
+[  +0,003722] BTRFS info (device nvme0n1p2): using crc32c (crc32c-intel) checksum algorithm
+[  +0,000006] BTRFS info (device nvme0n1p2): using free space tree
+[  +0,009184] BTRFS info (device nvme0n1p2): enabling ssd optimizations
+[  +0,015214] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[  +0,098699] audit: type=1334 audit(1671459184.552:6): prog-id=1 op=LOAD
+[  +0,002057] audit: type=1334 audit(1671459184.552:6): prog-id=2 op=LOAD
+[  +0,003215] audit: type=1334 audit(1671459184.552:6): prog-id=3 op=LOAD
+[  +0,000161] audit: type=1300 audit(1671459184.552:6): arch=c000003e syscall=175 success=yes exit=0 a0=7fdf3ed70010 a1=4c66 a2=55c36822ccb2 a3=3411 items=0 ppid=218 pid=220 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="modprobe" exe="/usr/bin/kmod" subj=unconfined key=(null)
+[  +0,000003] audit: type=1327 audit(1671459184.552:6): proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D006270665F7072656C6F6164
+[  +0,003020] systemd[1]: systemd 252.3-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000011] systemd[1]: Detected architecture x86-64.
+[  +0,000868] systemd[1]: Hostname set to <mksprecision5510>.
+[  +0,019403] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[  +0,000004] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[  +0,116627] usb 1-12: new high-speed USB device number 3 using xhci_hcd
+[  +0,146514] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,020421] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[  +0,000011] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[  +0,000006] usb 1-12: Product: Integrated_Webcam_HD
+[  +0,000004] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[  +0,188074] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,000999] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,018858] systemd[1]: Queued start job for default target Graphical Interface.
+[  +0,001884] systemd[1]: Created slice Slice /system/getty.
+[  +0,000663] systemd[1]: Created slice Slice /system/modprobe.
+[  +0,000605] systemd[1]: Created slice Slice /system/systemd-fsck.
+[  +0,000488] systemd[1]: Created slice User and Session Slice.
+[  +0,000205] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[  +0,000265] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  +0,000344] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[  +0,000125] systemd[1]: Reached target Local Encrypted Volumes.
+[  +0,000084] systemd[1]: Reached target Login Prompts.
+[  +0,000083] systemd[1]: Reached target Local Integrity Protected Volumes.
+[  +0,000095] systemd[1]: Reached target Path Units.
+[  +0,000087] systemd[1]: Reached target Remote File Systems.
+[  +0,000107] systemd[1]: Reached target Slice Units.
+[  +0,000119] systemd[1]: Reached target Local Verity Protected Volumes.
+[  +0,000203] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[  +0,000790] systemd[1]: Listening on LVM2 poll daemon socket.
+[  +0,001293] systemd[1]: Listening on Process Core Dump Socket.
+[  +0,000621] kauditd_printk_skb: 174 callbacks suppressed
+[  +0,000002] audit: type=1335 audit(1671459185.083:47): pid=1 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj=unconfined comm="systemd" exe="/usr/lib/systemd/systemd" nl-mcgrp=1 op=connect res=1
+[  +0,000001] audit: audit_lost=48 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000019] audit: kauditd hold queue overflow
+[  +0,000002] audit: type=1300 audit(1671459185.083:47): arch=c000003e syscall=49 success=yes exit=0 a0=27 a1=55f1f5cd3650 a2=c a3=7ffe3b4f6a64 items=0 ppid=0 pid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd" subj=unconfined key=(null)
+[  +0,000001] audit: audit_lost=49 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000001] audit: kauditd hold queue overflow
+[  +0,000002] audit: type=1327 audit(1671459185.083:47): proctitle="/sbin/init"
+[  +0,000001] audit: audit_lost=50 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000000] audit: kauditd hold queue overflow
+[  +0,000018] audit: audit_lost=51 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000021] systemd[1]: Listening on Journal Audit Socket.
+[  +0,000337] systemd[1]: Listening on Journal Socket (/dev/log).
+[  +0,000339] systemd[1]: Listening on Journal Socket.
+[  +0,000338] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+[  +0,000535] systemd[1]: Listening on udev Control Socket.
+[  +0,000259] systemd[1]: Listening on udev Kernel Socket.
+[  +0,001530] systemd[1]: Mounting Huge Pages File System...
+[  +0,001701] systemd[1]: Mounting POSIX Message Queue File System...
+[  +0,000379] systemd[1]: Kernel Debug File System was skipped because of an unmet condition check (ConditionPathExists=/sys/kernel/debug).
+[  +0,001570] systemd[1]: Mounting Kernel Trace File System...
+[  +0,001802] systemd[1]: Starting Create List of Static Device Nodes...
+[  +0,001460] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[  +0,001724] systemd[1]: Starting Load Kernel Module configfs...
+[  +0,001768] systemd[1]: Starting Load Kernel Module drm...
+[  +0,001637] systemd[1]: Starting Load Kernel Module fuse...
+[  +0,001927] systemd[1]: Starting Load Kernel Modules...
+[  +0,001465] systemd[1]: Starting Remount Root and Kernel File Systems...
+[  +0,000241] systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+[  +0,001335] systemd[1]: Starting Coldplug All udev Devices...
+[  +0,002943] systemd[1]: Mounted Huge Pages File System.
+[  +0,000296] systemd[1]: Mounted POSIX Message Queue File System.
+[  +0,000262] systemd[1]: Mounted Kernel Trace File System.
+[  +0,000455] systemd[1]: Finished Create List of Static Device Nodes.
+[  +0,000728] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[  +0,000250] systemd[1]: Finished Load Kernel Module configfs.
+[  +0,000666] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[  +0,000232] systemd[1]: Finished Load Kernel Module drm.
+[  +0,001928] systemd[1]: Mounting Kernel Configuration File System...
+[  +0,006328] fuse: init (API version 7.36)
+[  +0,001695] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[  +0,000305] systemd[1]: Finished Load Kernel Module fuse.
+[  +0,005944] systemd[1]: Mounting FUSE Control File System...
+[  +0,002105] systemd[1]: Mounted Kernel Configuration File System.
+[  +0,004135] systemd[1]: Mounted FUSE Control File System.
+[  +0,011815] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[  +0,020756] BTRFS info (device nvme0n1p2: state M): use zstd compression, level 3
+[  +0,000005] BTRFS info (device nvme0n1p2: state M): turning on async discard
+[  +0,001860] systemd[1]: Finished Remount Root and Kernel File Systems.
+[  +0,000957] systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,000707] systemd[1]: Rebuild Hardware Database was skipped because no trigger condition checks were met.
+[  +0,001408] systemd[1]: Starting Load/Save Random Seed...
+[  +0,002510] systemd[1]: Starting Create System Users...
+[  +0,017216] systemd[1]: Finished Load/Save Random Seed.
+[  +0,000831] systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,028510] systemd[1]: Finished Create System Users.
+[  +0,002264] systemd[1]: Starting Create Static Device Nodes in /dev...
+[  +0,061536] systemd[1]: Finished Create Static Device Nodes in /dev.
+[  +0,000808] systemd[1]: Reached target Preparation for Local File Systems.
+[  +0,002754] systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+[  +0,003828] systemd[1]: Starting Journal Service...
+[  +0,002546] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[  +0,113455] systemd[1]: Started Journal Service.
+[  +0,216168] nvidia: loading out-of-tree module taints kernel.
+[  +0,000011] nvidia: module license 'NVIDIA' taints kernel.
+[  +0,000001] Disabling lock debugging due to kernel taint
+[  +0,018175] nvidia: module verification failed: signature and/or required key missing - tainting kernel
+[  +0,070720] Adding 35988720k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35988720k SSFS
+[  +0,329176] nvidia-nvlink: Nvlink Core is being initialized, major device number 510
+
+[  +0,001012] nvidia 0000:01:00.0: enabling device (0006 -> 0007)
+[  +0,026557] Consider using thermal netlink events interface
+[  +0,003567] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[  +0,000017] _ART package 0 is invalid, ignored
+[  +0,000033] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[  +0,024634] acpi INT33D5:00: intel-hid: created platform device
+[  +0,032940] input: Intel HID events as /devices/platform/INT33D5:00/input/input8
+[  +0,049249] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[  +0,054966] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[  +0,019876] systemd-journald[258]: Received client request to flush runtime journal.
+[  +0,008258] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  525.60.11  Wed Nov 23 23:04:03 UTC 2022
+[  +0,082545] nvidia_uvm: module uses symbols nvUvmInterfaceDisableAccessCntr from proprietary module nvidia, inheriting taint.
+[  +0,180926] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[  +0,000037] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[  +0,000046] pci 0000:00:1f.1: [8086:a120] type 00 class 0x058000
+[  +0,000062] pci 0000:00:1f.1: reg 0x10: [mem 0xfd000000-0xfdffffff 64bit]
+[  +0,001673] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[  +0,000313] intel-lpss 0000:00:15.0: Failed to create debugfs entries
+[  +0,000086] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[  +0,003339] nvidia-uvm: Loaded the UVM driver, major device number 507.
+[  +0,076460] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[  +0,000002] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain package 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[  +0,042974] vboxdrv: Found 4 processor cores/threads
+[  +0,001971] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[  +0,000833] cryptd: max_cpu_qlen set to 1000
+[  +0,239513] vboxdrv: TSC mode is Invariant, tentative frequency 2807999067 Hz
+[  +0,000002] vboxdrv: Successfully loaded version 7.0.4 r154605 (interface 0x00330004)
+[  +0,041040] intel_rapl_common: Found RAPL domain package
+[  +0,000002] intel_rapl_common: Found RAPL domain dram
+[  +0,005834] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input10
+[  +0,011484] VBoxNetAdp: Successfully started.
+[  +0,005461] VBoxNetFlt: Successfully started.
+[  +0,020833] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[  +0,000172] intel-lpss 0000:00:15.1: Failed to create debugfs entries
+[  +0,000104] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[  +0,002297] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[  +0,004597] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[  +0,013947] i2c i2c-6: 2/2 memory slots populated (from DMI)
+[  +0,001078] i2c i2c-6: Successfully instantiated SPD at 0x50
+[  +0,007282] AVX2 version of gcm_enc/dec engaged.
+[  +0,000054] AES CTR mode by8 optimization enabled
+[  +0,056167] Intel(R) Wireless WiFi driver for Linux
+[  +0,000055] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[  +0,087261] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[  +0,186794] psmouse serio1: synaptics: queried max coordinates: x [..5664], y [..4646]
+[  +0,011623] intel_rapl_common: Found RAPL domain package
+[  +0,000002] intel_rapl_common: Found RAPL domain core
+[  +0,000001] intel_rapl_common: Found RAPL domain uncore
+[  +0,000001] intel_rapl_common: Found RAPL domain dram
+[  +0,194254] psmouse serio1: synaptics: device claims to have min coordinates query, but I'm not able to read it.
+[  +0,000007] psmouse serio1: synaptics: Your touchpad (PNP: DLL06e5 PNP0f13) says it can support a different bus. If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to linux-input@vger.kernel.org.
+[  +0,216785] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input11
+[  +0,000080] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input12
+[  +0,000069] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,019807] NET: Registered PF_QIPCRTR protocol family
+[  +0,000950] iTCO_vendor_support: vendor-support=0
+[  +0,000167] dell_laptop: Using i8042 filter function for receiving events
+[  +0,031739] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[  +0,000087] thermal thermal_zone11: failed to read out thermal zone (-61)
+[  +0,003427] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[  +0,004847] intel_tcc_cooling: Programmable TCC Offset detected
+[  +0,011125] ee1004 6-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[  +0,007448] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[  +0,046527] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[  +0,030978] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[  +0,000017] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[  +0,000366] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[  +0,023634] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input14
+[  +0,000075] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input15
+[  +0,000072] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,009799] psmouse serio1: synaptics: Unable to initialize device.
+[  +0,008133] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[  +0,006951] mousedev: PS/2 mouse device common for all mice
+[  +0,007729] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[  +0,000005] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[  +0,005486] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[  +0,067886] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+[  +0,000088] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[  +0,000320] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[  +0,000085] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+[  +0,000083] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input21
+[  +0,000085] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input22
+[  +0,042690] xt_connbytes: Forcing CT accounting to be enabled
+[  +0,034404] nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  525.60.11  Wed Nov 23 22:49:17 UTC 2022
+[  +0,003791] [drm] [nvidia-drm] [GPU ID 0x00000100] Loading driver
+[  +0,000006] [drm] Initialized nvidia-drm 0.0.0 20160202 for 0000:01:00.0 on minor 1
+[  +0,502966] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,071923] mc: Linux media interface: v0.10
+[  +0,045888] Bluetooth: Core ver 2.22
+[  +0,000026] NET: Registered PF_BLUETOOTH protocol family
+[  +0,000002] Bluetooth: HCI device and connection manager initialized
+[  +0,000004] Bluetooth: HCI socket layer initialized
+[  +0,000002] Bluetooth: L2CAP socket layer initialized
+[  +0,000002] Bluetooth: SCO socket layer initialized
+[  +0,006316] videodev: Linux video capture interface: v2.00
+[  +0,138196] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,024358] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[  +0,078298] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,021804] usbcore: registered new interface driver btusb
+[  +0,005179] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[  +0,002450] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[  +0,152280] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[  +0,000003] Bluetooth: BNEP filters: protocol multicast
+[  +0,000004] Bluetooth: BNEP socket layer initialized
+[  +0,002834] Bluetooth: MGMT ver 1.22
+[  +0,009825] NET: Registered PF_ALG protocol family
+[  +0,206479] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input23
+[  +0,000348] usbcore: registered new interface driver uvcvideo
+[  +4,161271] input: PS/2 Synaptics TouchPad as /devices/platform/i8042/serio1/input/input9
+[  +0,207840] psmouse serio1: Failed to enable mouse on isa0060/serio1
+[ +13,330160] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,063967] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,009878] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,005106] wlp2s0: authenticated
+[  +0,008837] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002546] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,002982] wlp2s0: associated
+[  +0,060062] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +2,005571] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,070589] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,632287] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +1,871931] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=170 TOS=0x08 PREC=0x20 TTL=47 ID=18437 DF PROTO=TCP SPT=89 DPT=48096 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000067] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=170 TOS=0x08 PREC=0x20 TTL=47 ID=56953 DF PROTO=TCP SPT=89 DPT=47428 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000031] Iptables: Drop new not syn: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=159 TOS=0x08 PREC=0x20 TTL=47 ID=552 DF PROTO=TCP SPT=89 DPT=48580 WINDOW=257 RES=0x00 ACK PSH URGP=0 
+[  +0,000017] Iptables: Drop new not syn: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=769 TOS=0x08 PREC=0x20 TTL=47 ID=2126 DF PROTO=TCP SPT=89 DPT=56966 WINDOW=635 RES=0x00 ACK PSH URGP=0 
+[  +0,255187] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=170 TOS=0x08 PREC=0x20 TTL=47 ID=18438 DF PROTO=TCP SPT=89 DPT=48096 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,394833] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +1,484596] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=170 TOS=0x08 PREC=0x20 TTL=47 ID=18439 DF PROTO=TCP SPT=89 DPT=48096 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,283872] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=170 TOS=0x08 PREC=0x20 TTL=47 ID=56954 DF PROTO=TCP SPT=89 DPT=47428 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +4,190667] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=170 TOS=0x08 PREC=0x20 TTL=47 ID=18440 DF PROTO=TCP SPT=89 DPT=48096 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,148028] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +16,488441] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,590956] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=154 TOS=0x08 PREC=0x20 TTL=47 ID=22297 DF PROTO=TCP SPT=89 DPT=55538 WINDOW=173 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,362077] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=22298 DF PROTO=TCP SPT=89 DPT=55538 WINDOW=173 RES=0x00 ACK PSH FIN URGP=0 
+[гру19 16:14] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=22299 DF PROTO=TCP SPT=89 DPT=55538 WINDOW=173 RES=0x00 ACK PSH FIN URGP=0 
+[ +25,119725] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +17,053684] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=154 TOS=0x08 PREC=0x20 TTL=47 ID=13985 DF PROTO=TCP SPT=89 DPT=48566 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,834191] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=13986 DF PROTO=TCP SPT=89 DPT=48566 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,631597] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=13987 DF PROTO=TCP SPT=89 DPT=48566 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[гру19 16:15] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=54.148.53.106 DST=192.168.1.249 LEN=114 TOS=0x00 PREC=0x00 TTL=222 ID=31731 DF PROTO=TCP SPT=443 DPT=55774 WINDOW=119 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,350256] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=54.148.53.106 DST=192.168.1.249 LEN=145 TOS=0x00 PREC=0x00 TTL=222 ID=31732 DF PROTO=TCP SPT=443 DPT=55774 WINDOW=119 RES=0x00 ACK PSH FIN URGP=0 
+[ +29,176082] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 16:16] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=154 TOS=0x08 PREC=0x20 TTL=47 ID=8153 DF PROTO=TCP SPT=89 DPT=41440 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,172668] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=154 TOS=0x08 PREC=0x20 TTL=47 ID=34938 DF PROTO=TCP SPT=89 DPT=41448 WINDOW=162 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,451923] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=8154 DF PROTO=TCP SPT=89 DPT=41440 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,255824] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=34939 DF PROTO=TCP SPT=89 DPT=41448 WINDOW=162 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,375976] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=8155 DF PROTO=TCP SPT=89 DPT=41440 WINDOW=144 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,256186] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=34940 DF PROTO=TCP SPT=89 DPT=41448 WINDOW=162 RES=0x00 ACK PSH FIN URGP=0 
+[ +14,552252] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=154 TOS=0x08 PREC=0x20 TTL=47 ID=16733 DF PROTO=TCP SPT=89 DPT=37402 WINDOW=188 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,555381] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=16734 DF PROTO=TCP SPT=89 DPT=37402 WINDOW=188 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,371931] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=16735 DF PROTO=TCP SPT=89 DPT=37402 WINDOW=188 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,668758] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=154 TOS=0x08 PREC=0x20 TTL=47 ID=64474 DF PROTO=TCP SPT=89 DPT=48586 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,379676] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=64475 DF PROTO=TCP SPT=89 DPT=48586 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,961270] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=52 TOS=0x08 PREC=0x20 TTL=47 ID=59432 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK FIN URGP=0 
+[  +0,306515] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=52 TOS=0x08 PREC=0x20 TTL=47 ID=59433 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK FIN URGP=0 
+[  +0,347661] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=122 TOS=0x08 PREC=0x20 TTL=47 ID=59434 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672563] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=122 TOS=0x08 PREC=0x20 TTL=47 ID=59435 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,087594] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=64476 DF PROTO=TCP SPT=89 DPT=48586 WINDOW=141 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,255906] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=122 TOS=0x08 PREC=0x20 TTL=47 ID=59436 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,816352] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=122 TOS=0x08 PREC=0x20 TTL=47 ID=59437 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,379523] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=122 TOS=0x08 PREC=0x20 TTL=47 ID=59438 DF PROTO=TCP SPT=89 DPT=35200 WINDOW=161 RES=0x00 ACK PSH FIN URGP=0 
+[гру19 16:17] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=249 TOS=0x08 PREC=0x20 TTL=47 ID=2134 DF PROTO=TCP SPT=89 DPT=56966 WINDOW=635 RES=0x00 ACK PSH FIN URGP=0 
+[ +19,732573] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=800 TOS=0x08 PREC=0x20 TTL=47 ID=558 DF PROTO=TCP SPT=89 DPT=48580 WINDOW=257 RES=0x00 ACK PSH FIN URGP=0 
+[ +19,567572] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 16:22] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 16:30] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 16:48] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:9d9b:0f27:0020:2514 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=544897 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 16:59] wlp2s0: deauthenticated from 08:55:31:cf:3d:6c (Reason: 0=<unknown>)
+[ +11,840234] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[ +12,182738] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +6,824478] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,007971] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,001340] wlp2s0: authenticated
+[  +0,001220] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002545] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,001509] wlp2s0: associated
+[  +0,150132] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +1,292868] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,225098] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,254985] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +4,016017] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:00] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=13398 DF PROTO=TCP SPT=443 DPT=48938 WINDOW=4008 RES=0x00 ACK FIN URGP=0 
+[  +0,000148] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=31679 DF PROTO=TCP SPT=443 DPT=48934 WINDOW=4005 RES=0x00 ACK FIN URGP=0 
+[  +0,000093] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=12529 DF PROTO=TCP SPT=443 DPT=48936 WINDOW=4009 RES=0x00 ACK FIN URGP=0 
+[  +4,471808] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +10,247836] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=411 TOS=0x00 PREC=0x00 TTL=64 ID=63130 DF PROTO=TCP SPT=443 DPT=33216 WINDOW=4005 RES=0x00 ACK PSH FIN URGP=0 
+[  +6,111807] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +6,689063] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=12530 DF PROTO=TCP SPT=443 DPT=48936 WINDOW=4009 RES=0x00 ACK FIN URGP=0 
+[  +0,000157] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=31680 DF PROTO=TCP SPT=443 DPT=48934 WINDOW=4005 RES=0x00 ACK FIN URGP=0 
+[  +0,000111] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=192.168.0.218 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=64 ID=13399 DF PROTO=TCP SPT=443 DPT=48938 WINDOW=4008 RES=0x00 ACK FIN URGP=0 
+[ +26,395256] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +5,233644] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[гру19 17:03] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,057945] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,008296] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,001950] wlp2s0: authenticated
+[  +0,001421] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002494] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,001340] wlp2s0: associated
+[  +0,148962] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +2,076350] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,071005] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,632888] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +3,274118] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +7,948909] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +13,102844] wlp2s0: deauthenticated from 08:55:31:cf:3d:6c (Reason: 3=DEAUTH_LEAVING)
+[  +0,633780] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,008168] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,035211] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 2/3)
+[  +0,047804] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 3/3)
+[  +0,048080] wlp2s0: authentication with 08:55:31:cf:3d:6c timed out
+[  +2,643020] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +12,308364] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[гру19 17:04] iwlwifi 0000:02:00.0: Failed to create debugfs directory under (efault)
+[  +0,042059] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,007426] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,001302] wlp2s0: authenticated
+[  +0,000909] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002548] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,001709] wlp2s0: associated
+[  +0,153971] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +1,305806] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,004695] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,108353] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +3,525945] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +6,955085] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ +14,305870] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:05] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:06] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:08] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:11] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:16] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[ +14,689646] BTRFS info (device nvme0n1p2): balance: start -d -m -s
+[  +0,004279] BTRFS info (device nvme0n1p2): relocating block group 672729661440 flags metadata|dup
+[  +0,137989] BTRFS info (device nvme0n1p2): found 70 extents, stage: move data extents
+[  +0,078710] BTRFS info (device nvme0n1p2): relocating block group 671655919616 flags data
+[  +0,508128] BTRFS info (device nvme0n1p2): found 1 extents, stage: move data extents
+[  +0,091115] BTRFS info (device nvme0n1p2): found 1 extents, stage: update data pointers
+[  +0,069685] BTRFS info (device nvme0n1p2): relocating block group 670582177792 flags data
+[  +1,391054] BTRFS info (device nvme0n1p2): qgroup scan completed (inconsistency flag cleared)
+[  +0,482658] BTRFS info (device nvme0n1p2): found 14 extents, stage: move data extents
+[  +0,125223] BTRFS info (device nvme0n1p2): found 14 extents, stage: update data pointers
+[  +0,081067] BTRFS info (device nvme0n1p2): relocating block group 670548623360 flags system|dup
+[  +0,040490] BTRFS info (device nvme0n1p2): found 1 extents, stage: move data extents
+[  +0,033591] BTRFS info (device nvme0n1p2): relocating block group 669441327104 flags data
+[  +2,544191] BTRFS info (device nvme0n1p2): found 907 extents, stage: move data extents
+[  +0,907210] BTRFS info (device nvme0n1p2): found 907 extents, stage: update data pointers
+[  +0,429352] BTRFS info (device nvme0n1p2): relocating block group 668367585280 flags data
+[  +2,693508] BTRFS info (device nvme0n1p2): found 2716 extents, stage: move data extents
+[  +0,988020] BTRFS info (device nvme0n1p2): found 2716 extents, stage: update data pointers
+[  +0,399966] BTRFS info (device nvme0n1p2): relocating block group 667293843456 flags data
+[  +3,216269] BTRFS info (device nvme0n1p2): found 641 extents, stage: move data extents
+[  +0,571836] BTRFS info (device nvme0n1p2): found 641 extents, stage: update data pointers
+[  +0,248870] BTRFS info (device nvme0n1p2): relocating block group 666220101632 flags data
+[  +3,648222] BTRFS info (device nvme0n1p2): found 884 extents, stage: move data extents
+[  +0,938502] BTRFS info (device nvme0n1p2): found 884 extents, stage: update data pointers
+[  +0,492495] BTRFS info (device nvme0n1p2): relocating block group 665146359808 flags data
+[  +5,764967] BTRFS info (device nvme0n1p2): found 520 extents, stage: move data extents
+[  +0,318118] BTRFS info (device nvme0n1p2): found 520 extents, stage: update data pointers
+[гру19 17:17] BTRFS info (device nvme0n1p2): relocating block group 664072617984 flags data
+[  +3,797459] BTRFS info (device nvme0n1p2): found 632 extents, stage: move data extents
+[  +0,332368] BTRFS info (device nvme0n1p2): found 632 extents, stage: update data pointers
+[  +0,241991] BTRFS info (device nvme0n1p2): relocating block group 662998876160 flags data
+[  +3,148889] BTRFS info (device nvme0n1p2): found 1044 extents, stage: move data extents
+[  +0,920999] BTRFS info (device nvme0n1p2): found 1044 extents, stage: update data pointers
+[  +0,346850] BTRFS info (device nvme0n1p2): relocating block group 661925134336 flags data
+[  +4,129161] BTRFS info (device nvme0n1p2): found 4134 extents, stage: move data extents
+[  +0,782034] BTRFS info (device nvme0n1p2): found 4134 extents, stage: update data pointers
+[  +0,447110] BTRFS info (device nvme0n1p2): relocating block group 660851392512 flags data
+[  +4,092253] BTRFS info (device nvme0n1p2): found 10363 extents, stage: move data extents
+[  +1,854678] BTRFS info (device nvme0n1p2): found 10363 extents, stage: update data pointers
+[  +0,745375] BTRFS info (device nvme0n1p2): relocating block group 659777650688 flags data
+[  +3,599773] BTRFS info (device nvme0n1p2): found 13519 extents, stage: move data extents
+[  +2,062303] BTRFS info (device nvme0n1p2): found 13519 extents, stage: update data pointers
+[  +0,901071] BTRFS info (device nvme0n1p2): relocating block group 658703908864 flags metadata|dup
+[  +7,162749] BTRFS info (device nvme0n1p2): found 27341 extents, stage: move data extents
+[  +2,290893] BTRFS info (device nvme0n1p2): relocating block group 657630167040 flags data
+[  +4,040984] BTRFS info (device nvme0n1p2): found 31647 extents, stage: move data extents
+[  +2,225738] BTRFS info (device nvme0n1p2): found 31647 extents, stage: update data pointers
+[  +2,035159] BTRFS info (device nvme0n1p2): relocating block group 656556425216 flags data
+[  +4,374059] BTRFS info (device nvme0n1p2): found 23628 extents, stage: move data extents
+[  +2,312224] BTRFS info (device nvme0n1p2): found 23625 extents, stage: update data pointers
+[  +1,351987] BTRFS info (device nvme0n1p2): relocating block group 655482683392 flags data
+[  +4,370712] BTRFS info (device nvme0n1p2): found 27887 extents, stage: move data extents
+[гру19 17:18] BTRFS info (device nvme0n1p2): found 27885 extents, stage: update data pointers
+[  +1,336432] BTRFS info (device nvme0n1p2): relocating block group 654408941568 flags data
+[  +1,185499] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=43906 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK FIN URGP=0 
+[  +0,056706] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=140.82.112.25 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=47 ID=53467 DF PROTO=TCP SPT=443 DPT=60488 WINDOW=70 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,190030] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=43907 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK FIN URGP=0 
+[  +0,339976] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=43908 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,117213] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=140.82.112.25 DST=192.168.1.249 LEN=102 TOS=0x00 PREC=0x00 TTL=47 ID=53468 DF PROTO=TCP SPT=443 DPT=60488 WINDOW=70 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,319482] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=41100 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK FIN URGP=0 
+[  +0,235962] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=43909 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,015316] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=41101 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK FIN URGP=0 
+[  +0,335979] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41102 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672449] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41103 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,288117] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=43910 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,410858] BTRFS info (device nvme0n1p2): found 22306 extents, stage: move data extents
+[  +0,612792] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41104 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,498398] BTRFS info (device nvme0n1p2): found 22291 extents, stage: update data pointers
+[  +0,133438] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=43911 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,024057] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41105 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,089287] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=140.82.112.25 DST=192.168.1.249 LEN=102 TOS=0x00 PREC=0x00 TTL=47 ID=53469 DF PROTO=TCP SPT=443 DPT=60488 WINDOW=70 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,594453] BTRFS info (device nvme0n1p2): relocating block group 653335199744 flags data
+[  +0,721243] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=47923 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK FIN URGP=0 
+[  +0,056127] systemd[1]: systemd 252.3-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000395] systemd[1]: Detected architecture x86-64.
+[  +0,186413] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=47924 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK FIN URGP=0 
+[  +0,336003] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47925 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,282986] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,124022] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=17259 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK FIN URGP=0 
+[  +0,013604] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=42416 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK FIN URGP=0 
+[  +0,044356] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001416] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,205601] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=42417 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK FIN URGP=0 
+[  +0,000018] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47927 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,004130] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=17260 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK FIN URGP=0 
+[  +0,347857] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=42418 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000054] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=50 ID=17261 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,676021] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=42420 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000017] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=50 ID=17263 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,287971] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47929 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,016711] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=31293 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK FIN URGP=0 
+[  +0,255307] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=31294 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK FIN URGP=0 
+[  +0,107893] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=43912 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,224184] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=31295 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,419998] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=50 ID=17265 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,032027] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=42422 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,219777] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=31296 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,128138] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=41107 DF PROTO=TCP SPT=89 DPT=45196 WINDOW=179 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,166447] BTRFS info (device nvme0n1p2): found 14435 extents, stage: move data extents
+[  +0,844409] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=2463 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK FIN URGP=0 
+[  +0,173066] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=31297 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,066146] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=2464 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK FIN URGP=0 
+[  +0,029784] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47931 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,322163] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2465 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,672104] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2467 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,008327] BTRFS info (device nvme0n1p2): found 14417 extents, stage: update data pointers
+[  +0,021462] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=42424 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000019] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=50 ID=17267 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,949475] BTRFS info (device nvme0n1p2): relocating block group 652261457920 flags data
+[  +0,332602] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2469 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,257855] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=31298 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,827987] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=29773 DF PROTO=TCP SPT=443 DPT=43402 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,046850] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=15340 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,174841] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=29774 DF PROTO=TCP SPT=443 DPT=43402 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,076799] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=15341 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK FIN URGP=0 
+[  +0,146236] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=29775 DF PROTO=TCP SPT=443 DPT=43402 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,201173] BTRFS info (device nvme0n1p2): found 2585 extents, stage: move data extents
+[  +0,016244] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15342 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,068053] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2471 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,155468] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.249.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=29776 DF PROTO=TCP SPT=443 DPT=43402 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,098485] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=47933 DF PROTO=TCP SPT=89 DPT=42804 WINDOW=152 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,350049] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15343 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,673828] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=42426 DF PROTO=TCP SPT=89 DPT=42822 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,000052] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=50 ID=17269 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,505430] BTRFS info (device nvme0n1p2): found 2585 extents, stage: update data pointers
+[  +0,164871] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15344 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,523494] BTRFS info (device nvme0n1p2): relocating block group 651187716096 flags data
+[  +0,346444] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=31300 DF PROTO=TCP SPT=89 DPT=52490 WINDOW=302 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,255665] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=43914 DF PROTO=TCP SPT=89 DPT=41076 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,786218] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15345 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,512151] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2473 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,806098] BTRFS info (device nvme0n1p2): found 10492 extents, stage: move data extents
+[  +2,056518] BTRFS info (device nvme0n1p2): found 10492 extents, stage: update data pointers
+[  +1,228351] BTRFS info (device nvme0n1p2): relocating block group 650113974272 flags data
+[  +0,776822] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=15346 DF PROTO=TCP SPT=89 DPT=46560 WINDOW=147 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,537703] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=83 TOS=0x00 PREC=0x00 TTL=50 ID=17271 DF PROTO=TCP SPT=89 DPT=57116 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,839399] BTRFS info (device nvme0n1p2): found 5025 extents, stage: move data extents
+[  +3,254822] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=2475 DF PROTO=TCP SPT=89 DPT=42842 WINDOW=166 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,043978] BTRFS info (device nvme0n1p2): found 5025 extents, stage: update data pointers
+[  +1,032742] BTRFS info (device nvme0n1p2): relocating block group 649040232448 flags data
+[  +2,974377] BTRFS info (device nvme0n1p2): found 4870 extents, stage: move data extents
+[  +1,368183] BTRFS info (device nvme0n1p2): found 4870 extents, stage: update data pointers
+[  +0,869712] BTRFS info (device nvme0n1p2): relocating block group 647966490624 flags data
+[  +3,514526] BTRFS info (device nvme0n1p2): found 7913 extents, stage: move data extents
+[  +1,608509] BTRFS info (device nvme0n1p2): found 7913 extents, stage: update data pointers
+[  +0,744621] BTRFS info (device nvme0n1p2): relocating block group 646892748800 flags data
+[  +2,610097] BTRFS info (device nvme0n1p2): found 4328 extents, stage: move data extents
+[  +1,104265] BTRFS info (device nvme0n1p2): found 4328 extents, stage: update data pointers
+[  +0,294726] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=5823 DF PROTO=TCP SPT=443 DPT=47428 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,208954] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=5824 DF PROTO=TCP SPT=443 DPT=47428 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,215752] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=5825 DF PROTO=TCP SPT=443 DPT=47428 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,011397] BTRFS info (device nvme0n1p2): relocating block group 645819006976 flags data
+[  +0,403841] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=5826 DF PROTO=TCP SPT=443 DPT=47428 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +2,100955] BTRFS info (device nvme0n1p2): found 3998 extents, stage: move data extents
+[  +1,277967] BTRFS info (device nvme0n1p2): found 3998 extents, stage: update data pointers
+[  +1,205726] BTRFS info (device nvme0n1p2): relocating block group 644745265152 flags data
+[гру19 17:19] BTRFS info (device nvme0n1p2): found 3218 extents, stage: move data extents
+[  +1,367928] BTRFS info (device nvme0n1p2): found 3104 extents, stage: update data pointers
+[  +1,097865] BTRFS info (device nvme0n1p2): relocating block group 643671523328 flags data
+[  +4,975718] BTRFS info (device nvme0n1p2): found 4830 extents, stage: move data extents
+[  +3,116983] BTRFS info (device nvme0n1p2): found 4797 extents, stage: update data pointers
+[  +1,324707] BTRFS info (device nvme0n1p2): relocating block group 642597781504 flags data
+[  +3,854822] BTRFS info (device nvme0n1p2): found 6631 extents, stage: move data extents
+[  +2,313519] BTRFS info (device nvme0n1p2): found 6631 extents, stage: update data pointers
+[  +0,956568] BTRFS info (device nvme0n1p2): relocating block group 641524039680 flags data
+[  +3,299039] BTRFS info (device nvme0n1p2): found 5026 extents, stage: move data extents
+[  +2,135749] BTRFS info (device nvme0n1p2): found 5026 extents, stage: update data pointers
+[  +0,959811] BTRFS info (device nvme0n1p2): relocating block group 640450297856 flags data
+[  +4,629518] BTRFS info (device nvme0n1p2): found 8427 extents, stage: move data extents
+[  +1,331761] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  +0,692376] BTRFS info (device nvme0n1p2): found 8426 extents, stage: update data pointers
+[  +1,266444] BTRFS info (device nvme0n1p2): relocating block group 639376556032 flags data
+[  +5,090030] BTRFS info (device nvme0n1p2): found 6767 extents, stage: move data extents
+[  +2,038428] BTRFS info (device nvme0n1p2): found 6767 extents, stage: update data pointers
+[  +0,414640] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=160 TOS=0x08 PREC=0x20 TTL=47 ID=63175 DF PROTO=TCP SPT=89 DPT=39078 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,547080] BTRFS info (device nvme0n1p2): relocating block group 638302814208 flags data
+[  +0,673632] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=138.199.52.47 DST=192.168.1.249 LEN=213 TOS=0x08 PREC=0x20 TTL=47 ID=63176 DF PROTO=TCP SPT=89 DPT=39078 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +3,682628] BTRFS info (device nvme0n1p2): found 9444 extents, stage: move data extents
+[  +2,224707] BTRFS info (device nvme0n1p2): found 9342 extents, stage: update data pointers
+[  +0,926581] BTRFS info (device nvme0n1p2): relocating block group 637229072384 flags data
+[  +3,600745] BTRFS info (device nvme0n1p2): found 2904 extents, stage: move data extents
+[  +2,809295] BTRFS info (device nvme0n1p2): found 2901 extents, stage: update data pointers
+[  +1,047906] BTRFS info (device nvme0n1p2): relocating block group 636155330560 flags data
+[гру19 17:20] BTRFS info (device nvme0n1p2): found 2428 extents, stage: move data extents
+[  +1,934218] BTRFS info (device nvme0n1p2): found 2417 extents, stage: update data pointers
+[  +0,622766] BTRFS info (device nvme0n1p2): relocating block group 635081588736 flags data
+[  +3,043974] BTRFS info (device nvme0n1p2): found 309 extents, stage: move data extents
+[  +1,644959] BTRFS info (device nvme0n1p2): found 305 extents, stage: update data pointers
+[  +0,795910] BTRFS info (device nvme0n1p2): relocating block group 634007846912 flags data
+[  +2,924164] BTRFS info (device nvme0n1p2): found 154 extents, stage: move data extents
+[  +0,721180] BTRFS info (device nvme0n1p2): found 154 extents, stage: update data pointers
+[  +0,227047] BTRFS info (device nvme0n1p2): relocating block group 632934105088 flags data
+[  +3,400733] BTRFS info (device nvme0n1p2): found 7481 extents, stage: move data extents
+[  +1,778015] BTRFS info (device nvme0n1p2): found 7481 extents, stage: update data pointers
+[  +0,872241] BTRFS info (device nvme0n1p2): relocating block group 631860363264 flags data
+[  +3,527570] BTRFS info (device nvme0n1p2): found 26031 extents, stage: move data extents
+[  +2,287554] BTRFS info (device nvme0n1p2): found 23143 extents, stage: update data pointers
+[  +1,230733] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[  +4,378298] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[гру19 17:21] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[ +15,462771] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=39005 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,245045] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=50 ID=39006 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,336112] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=39007 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,644437] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=39008 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,275469] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=39009 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,659987] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=39010 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[  +5,119916] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=39011 DF PROTO=TCP SPT=89 DPT=43978 WINDOW=331 RES=0x00 ACK PSH FIN URGP=0 
+[гру19 17:22] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=803 TOS=0x00 PREC=0x00 TTL=50 ID=49255 DF PROTO=TCP SPT=89 DPT=43956 WINDOW=533 RES=0x00 ACK PSH FIN URGP=0 
+[гру19 17:24] usb 2-2: new SuperSpeed USB device number 2 using xhci_hcd
+[  +0,020730] usb 2-2: New USB device found, idVendor=0bda, idProduct=9210, bcdDevice=20.01
+[  +0,000006] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0,000002] usb 2-2: Product: RTL9210
+[  +0,000002] usb 2-2: Manufacturer: Realtek
+[  +0,000002] usb 2-2: SerialNumber: 012345678904
+[  +0,000366] usb 2-2: Device is not authorized for usage
+[  +0,002415] usb 2-2: Enable of device-initiated U1 failed.
+[  +0,000398] usb 2-2: Enable of device-initiated U2 failed.
+[  +0,000293] usb 2-2: authorized to connect
+[  +0,733264] usb 2-2: UAS is ignored for this device, using usb-storage instead
+[  +0,000004] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0,002110] usb-storage 2-2:1.0: Quirks match for vid 0bda pid 9210: 800000
+[  +0,002085] scsi host2: usb-storage 2-2:1.0
+[  +0,002245] usbcore: registered new interface driver usb-storage
+[  +0,006292] usbcore: registered new interface driver uas
+[  +0,029458] usb 1-2: new high-speed USB device number 5 using xhci_hcd
+[  +0,074035] usb 2-2: USB disconnect, device number 2
+[  +0,790428] usb 2-2: new SuperSpeed USB device number 3 using xhci_hcd
+[  +0,020496] usb 2-2: New USB device found, idVendor=0bda, idProduct=9210, bcdDevice=20.01
+[  +0,000006] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0,000003] usb 2-2: Product: RTL9210
+[  +0,000002] usb 2-2: Manufacturer: Realtek
+[  +0,000001] usb 2-2: SerialNumber: 012345678904
+[  +0,000382] usb 2-2: Device is not authorized for usage
+[  +0,002443] usb 2-2: Enable of device-initiated U1 failed.
+[  +0,000336] usb 2-2: Enable of device-initiated U2 failed.
+[  +0,000266] usb 2-2: UAS is ignored for this device, using usb-storage instead
+[  +0,000003] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0,000096] usb-storage 2-2:1.0: Quirks match for vid 0bda pid 9210: 800000
+[  +0,000035] scsi host2: usb-storage 2-2:1.0
+[  +0,000107] usb 2-2: authorized to connect
+[  +0,706374] usb 2-2: USB disconnect, device number 3
+[  +0,670321] usb 2-2: new SuperSpeed USB device number 4 using xhci_hcd
+[  +0,019300] usb 2-2: New USB device found, idVendor=0bda, idProduct=9210, bcdDevice=20.01
+[  +0,000005] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0,000002] usb 2-2: Product: RTL9210
+[  +0,000002] usb 2-2: Manufacturer: Realtek
+[  +0,000001] usb 2-2: SerialNumber: 012345678904
+[  +0,000298] usb 2-2: Device is not authorized for usage
+[  +0,004357] usb 2-2: Enable of device-initiated U1 failed.
+[  +0,001403] usb 2-2: Enable of device-initiated U2 failed.
+[  +0,000284] usb 2-2: UAS is ignored for this device, using usb-storage instead
+[  +0,000003] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0,000411] usb-storage 2-2:1.0: Quirks match for vid 0bda pid 9210: 800000
+[  +0,000116] scsi host2: usb-storage 2-2:1.0
+[  +0,000115] usb 2-2: authorized to connect
+[  +0,410443] usb 2-2: USB disconnect, device number 4
+[ +12,761858] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[  +6,932723] BTRFS info (device nvme0n1p2): balance: start -d -m -s
+[  +0,001203] BTRFS info (device nvme0n1p2): relocating block group 711417921536 flags metadata|dup
+[  +0,217010] BTRFS info (device nvme0n1p2): found 448 extents, stage: move data extents
+[  +0,157634] BTRFS info (device nvme0n1p2): relocating block group 710344179712 flags data
+[  +0,074453] BTRFS info (device nvme0n1p2): relocating block group 709270437888 flags data
+[  +2,515068] BTRFS info (device nvme0n1p2): found 3529 extents, stage: move data extents
+[  +0,750388] BTRFS info (device nvme0n1p2): found 3527 extents, stage: update data pointers
+[  +0,271916] BTRFS info (device nvme0n1p2): relocating block group 708196696064 flags data
+[  +3,807675] BTRFS info (device nvme0n1p2): found 16583 extents, stage: move data extents
+[  +2,760905] BTRFS info (device nvme0n1p2): found 16583 extents, stage: update data pointers
+[  +1,229583] BTRFS info (device nvme0n1p2): relocating block group 707122954240 flags data
+[  +4,366964] BTRFS info (device nvme0n1p2): found 6068 extents, stage: move data extents
+[  +2,270600] BTRFS info (device nvme0n1p2): found 6066 extents, stage: update data pointers
+[гру19 17:25] BTRFS info (device nvme0n1p2): relocating block group 706049212416 flags data
+[  +3,328184] BTRFS info (device nvme0n1p2): found 97 extents, stage: move data extents
+[  +0,376293] BTRFS info (device nvme0n1p2): found 97 extents, stage: update data pointers
+[  +0,209105] BTRFS info (device nvme0n1p2): relocating block group 704975470592 flags data
+[  +2,873825] BTRFS info (device nvme0n1p2): found 245 extents, stage: move data extents
+[  +0,661371] BTRFS info (device nvme0n1p2): found 245 extents, stage: update data pointers
+[  +1,014827] BTRFS info (device nvme0n1p2): relocating block group 703901728768 flags data
+[  +2,793311] BTRFS info (device nvme0n1p2): found 2044 extents, stage: move data extents
+[  +1,349736] BTRFS info (device nvme0n1p2): found 2044 extents, stage: update data pointers
+[  +0,458709] BTRFS info (device nvme0n1p2): relocating block group 702827986944 flags data
+[  +2,696268] BTRFS info (device nvme0n1p2): found 1306 extents, stage: move data extents
+[  +1,397211] BTRFS info (device nvme0n1p2): found 1306 extents, stage: update data pointers
+[  +0,677569] BTRFS info (device nvme0n1p2): relocating block group 701754245120 flags data
+[  +3,436391] BTRFS info (device nvme0n1p2): found 5154 extents, stage: move data extents
+[  +1,240709] BTRFS info (device nvme0n1p2): found 5154 extents, stage: update data pointers
+[  +0,438951] BTRFS info (device nvme0n1p2): relocating block group 700680503296 flags data
+[  +3,409984] BTRFS info (device nvme0n1p2): found 8223 extents, stage: move data extents
+[  +2,265794] BTRFS info (device nvme0n1p2): found 8223 extents, stage: update data pointers
+[  +1,122269] BTRFS info (device nvme0n1p2): relocating block group 699606761472 flags data
+[  +3,678745] BTRFS info (device nvme0n1p2): found 7422 extents, stage: move data extents
+[  +1,702956] BTRFS info (device nvme0n1p2): found 7421 extents, stage: update data pointers
+[  +1,225527] BTRFS info (device nvme0n1p2): relocating block group 698533019648 flags data
+[  +3,574418] BTRFS info (device nvme0n1p2): found 8570 extents, stage: move data extents
+[  +2,503578] BTRFS info (device nvme0n1p2): found 8570 extents, stage: update data pointers
+[  +1,020356] BTRFS info (device nvme0n1p2): relocating block group 697459277824 flags data
+[  +3,843739] BTRFS info (device nvme0n1p2): found 6063 extents, stage: move data extents
+[  +1,987257] BTRFS info (device nvme0n1p2): found 6063 extents, stage: update data pointers
+[  +0,732710] BTRFS info (device nvme0n1p2): relocating block group 696385536000 flags data
+[  +3,052184] BTRFS info (device nvme0n1p2): found 4237 extents, stage: move data extents
+[  +1,699881] BTRFS info (device nvme0n1p2): found 4237 extents, stage: update data pointers
+[  +1,234787] BTRFS info (device nvme0n1p2): relocating block group 695311794176 flags data
+[  +3,501395] BTRFS info (device nvme0n1p2): found 730 extents, stage: move data extents
+[гру19 17:26] BTRFS info (device nvme0n1p2): found 730 extents, stage: update data pointers
+[  +0,348425] BTRFS info (device nvme0n1p2): relocating block group 694238052352 flags data
+[  +3,649724] BTRFS info (device nvme0n1p2): found 4165 extents, stage: move data extents
+[  +1,609394] BTRFS info (device nvme0n1p2): found 4165 extents, stage: update data pointers
+[  +0,708851] BTRFS info (device nvme0n1p2): relocating block group 693164310528 flags data
+[  +4,203498] BTRFS info (device nvme0n1p2): found 6214 extents, stage: move data extents
+[  +3,215003] BTRFS info (device nvme0n1p2): found 6214 extents, stage: update data pointers
+[  +0,734675] BTRFS info (device nvme0n1p2): relocating block group 692090568704 flags data
+[  +5,107750] BTRFS info (device nvme0n1p2): found 10382 extents, stage: move data extents
+[  +2,741577] BTRFS info (device nvme0n1p2): found 10382 extents, stage: update data pointers
+[  +1,306240] BTRFS info (device nvme0n1p2): relocating block group 691016826880 flags data
+[  +4,619870] BTRFS info (device nvme0n1p2): found 16025 extents, stage: move data extents
+[  +4,016420] BTRFS info (device nvme0n1p2): found 16025 extents, stage: update data pointers
+[  +2,114286] BTRFS info (device nvme0n1p2): relocating block group 689943085056 flags data
+[  +4,790925] BTRFS info (device nvme0n1p2): found 7132 extents, stage: move data extents
+[  +2,475595] BTRFS info (device nvme0n1p2): found 7132 extents, stage: update data pointers
+[  +1,390331] BTRFS info (device nvme0n1p2): relocating block group 688869343232 flags data
+[  +3,900087] BTRFS info (device nvme0n1p2): found 8666 extents, stage: move data extents
+[  +2,425498] BTRFS info (device nvme0n1p2): found 8666 extents, stage: update data pointers
+[  +0,885617] BTRFS info (device nvme0n1p2): relocating block group 687795601408 flags data
+[  +4,582075] BTRFS info (device nvme0n1p2): found 13304 extents, stage: move data extents
+[  +2,729688] BTRFS info (device nvme0n1p2): found 13304 extents, stage: update data pointers
+[  +0,992652] BTRFS info (device nvme0n1p2): relocating block group 686721859584 flags data
+[гру19 17:27] BTRFS info (device nvme0n1p2): found 4278 extents, stage: move data extents
+[  +1,526990] BTRFS info (device nvme0n1p2): found 4278 extents, stage: update data pointers
+[  +0,965015] BTRFS info (device nvme0n1p2): relocating block group 685648117760 flags data
+[  +4,110043] BTRFS info (device nvme0n1p2): found 21248 extents, stage: move data extents
+[  +3,214565] BTRFS info (device nvme0n1p2): found 21245 extents, stage: update data pointers
+[  +1,165011] BTRFS info (device nvme0n1p2): relocating block group 684574375936 flags data
+[  +3,818693] BTRFS info (device nvme0n1p2): found 21261 extents, stage: move data extents
+[  +2,545848] BTRFS info (device nvme0n1p2): found 21261 extents, stage: update data pointers
+[  +1,400048] BTRFS info (device nvme0n1p2): relocating block group 683500634112 flags data
+[  +5,073435] BTRFS info (device nvme0n1p2): found 30138 extents, stage: move data extents
+[  +3,533232] BTRFS info (device nvme0n1p2): found 30138 extents, stage: update data pointers
+[  +1,247228] BTRFS info (device nvme0n1p2): relocating block group 682426892288 flags data
+[  +3,408390] BTRFS info (device nvme0n1p2): found 25871 extents, stage: move data extents
+[  +2,238246] BTRFS info (device nvme0n1p2): found 25871 extents, stage: update data pointers
+[  +1,141807] BTRFS info (device nvme0n1p2): relocating block group 681353150464 flags metadata|dup
+[  +5,038966] BTRFS info (device nvme0n1p2): found 28198 extents, stage: move data extents
+[  +2,094121] BTRFS info (device nvme0n1p2): relocating block group 680279408640 flags data
+[  +3,953263] BTRFS info (device nvme0n1p2): found 20080 extents, stage: move data extents
+[  +2,349971] BTRFS info (device nvme0n1p2): found 20080 extents, stage: update data pointers
+[  +1,572678] BTRFS info (device nvme0n1p2): relocating block group 679205666816 flags data
+[  +3,320116] BTRFS info (device nvme0n1p2): found 13584 extents, stage: move data extents
+[  +2,259394] BTRFS info (device nvme0n1p2): found 13584 extents, stage: update data pointers
+[гру19 17:28] BTRFS info (device nvme0n1p2): relocating block group 678131924992 flags data
+[  +4,284627] BTRFS info (device nvme0n1p2): found 11134 extents, stage: move data extents
+[  +2,039088] BTRFS info (device nvme0n1p2): found 11134 extents, stage: update data pointers
+[  +0,754733] BTRFS info (device nvme0n1p2): relocating block group 677058183168 flags data
+[  +2,910419] BTRFS info (device nvme0n1p2): found 4043 extents, stage: move data extents
+[  +1,509426] BTRFS info (device nvme0n1p2): found 4043 extents, stage: update data pointers
+[  +0,447777] BTRFS info (device nvme0n1p2): relocating block group 675984441344 flags data
+[  +2,430285] BTRFS info (device nvme0n1p2): found 897 extents, stage: move data extents
+[  +0,951641] BTRFS info (device nvme0n1p2): found 897 extents, stage: update data pointers
+[  +0,531370] BTRFS info (device nvme0n1p2): relocating block group 674910699520 flags data
+[  +3,365374] BTRFS info (device nvme0n1p2): found 727 extents, stage: move data extents
+[  +0,890747] BTRFS info (device nvme0n1p2): found 727 extents, stage: update data pointers
+[  +0,413396] BTRFS info (device nvme0n1p2): relocating block group 673836957696 flags data
+[  +2,996211] BTRFS info (device nvme0n1p2): found 4389 extents, stage: move data extents
+[  +0,935362] BTRFS info (device nvme0n1p2): found 4389 extents, stage: update data pointers
+[  +0,645714] BTRFS info (device nvme0n1p2): relocating block group 672763215872 flags data
+[  +2,606304] BTRFS info (device nvme0n1p2): found 6841 extents, stage: move data extents
+[  +1,764276] BTRFS info (device nvme0n1p2): found 6841 extents, stage: update data pointers
+[  +1,292945] BTRFS info (device nvme0n1p2): relocating block group 672729661440 flags system|dup
+[  +0,128033] BTRFS info (device nvme0n1p2): found 1 extents, stage: move data extents
+[  +0,048970] BTRFS info (device nvme0n1p2): relocating block group 671655919616 flags data
+[  +3,502188] BTRFS info (device nvme0n1p2): found 12320 extents, stage: move data extents
+[  +2,547084] BTRFS info (device nvme0n1p2): found 12320 extents, stage: update data pointers
+[  +1,201589] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[гру19 17:29] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[гру19 17:30] usb 2-2: new SuperSpeed USB device number 6 using xhci_hcd
+[  +0,020315] usb 2-2: New USB device found, idVendor=0bda, idProduct=9210, bcdDevice=20.01
+[  +0,000014] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0,000008] usb 2-2: Product: RTL9210
+[  +0,000006] usb 2-2: Manufacturer: Realtek
+[  +0,000006] usb 2-2: SerialNumber: 012345678904
+[  +0,000817] usb 2-2: Device is not authorized for usage
+[  +0,005674] usb 2-2: Enable of device-initiated U1 failed.
+[  +0,000652] usb 2-2: Enable of device-initiated U2 failed.
+[  +0,001895] usb 2-2: UAS is ignored for this device, using usb-storage instead
+[  +0,000008] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0,010232] usb-storage 2-2:1.0: Quirks match for vid 0bda pid 9210: 800000
+[  +0,001533] scsi host2: usb-storage 2-2:1.0
+[  +0,000306] usb 2-2: authorized to connect
+[  +1,029090] scsi 2:0:0:0: Direct-Access     Realtek  RTL9210 NVME     1.00 PQ: 0 ANSI: 6
+[  +0,008622] sd 2:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[  +0,001870] sd 2:0:0:0: [sda] Write Protect is off
+[  +0,000004] sd 2:0:0:0: [sda] Mode Sense: 37 00 00 08
+[  +0,002199] sd 2:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  +0,012173]  sda: sda1
+[  +0,000116] sd 2:0:0:0: [sda] Attached SCSI disk
+[  +4,476092] usb 2-2: USB disconnect, device number 6
+[гру19 17:34] device-mapper: uevent: version 1.0.3
+[  +0,000929] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+[гру19 17:35] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:a57e:9c24:8a45:bc57 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=340288 PROTO=ICMPv6 TYPE=133 CODE=0 
+[гру19 17:37] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[  +2,384558] BTRFS info (device nvme0n1p2): balance: start -d -m -s
+[  +0,000135] BTRFS info (device nvme0n1p2): relocating block group 751179923456 flags metadata|dup
+[  +0,102641] BTRFS info (device nvme0n1p2): found 57 extents, stage: move data extents
+[  +0,061909] BTRFS info (device nvme0n1p2): relocating block group 750106181632 flags data
+[  +0,037067] BTRFS info (device nvme0n1p2): relocating block group 749032439808 flags data
+[  +5,084886] BTRFS info (device nvme0n1p2): found 24473 extents, stage: move data extents
+[  +2,157178] BTRFS info (device nvme0n1p2): found 24470 extents, stage: update data pointers
+[  +0,592286] BTRFS info (device nvme0n1p2): relocating block group 747958697984 flags data
+[  +0,629131] usb 2-2: new SuperSpeed USB device number 7 using xhci_hcd
+[  +0,021170] usb 2-2: New USB device found, idVendor=0bda, idProduct=9210, bcdDevice=20.01
+[  +0,000006] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0,000002] usb 2-2: Product: RTL9210
+[  +0,000002] usb 2-2: Manufacturer: Realtek
+[  +0,000002] usb 2-2: SerialNumber: 012345678904
+[  +0,000309] usb 2-2: Device is not authorized for usage
+[  +0,002142] usb 2-2: Enable of device-initiated U1 failed.
+[  +0,000396] usb 2-2: Enable of device-initiated U2 failed.
+[  +0,000261] usb 2-2: UAS is ignored for this device, using usb-storage instead
+[  +0,000003] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0,000089] usb-storage 2-2:1.0: Quirks match for vid 0bda pid 9210: 800000
+[  +0,000039] scsi host2: usb-storage 2-2:1.0
+[  +0,000109] usb 2-2: authorized to connect
+[  +1,033282] scsi 2:0:0:0: Direct-Access     Realtek  RTL9210 NVME     1.00 PQ: 0 ANSI: 6
+[  +0,019308] sd 2:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[  +0,001868] sd 2:0:0:0: [sda] Write Protect is off
+[  +0,000009] sd 2:0:0:0: [sda] Mode Sense: 37 00 00 08
+[  +0,001821] sd 2:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  +0,021980]  sda: sda1
+[  +0,000247] sd 2:0:0:0: [sda] Attached SCSI disk
+[  +1,352951] BTRFS info (device nvme0n1p2): found 1679 extents, stage: move data extents
+[  +0,643534] BTRFS info (device nvme0n1p2): found 1679 extents, stage: update data pointers
+[  +0,206659] BTRFS info (device nvme0n1p2): relocating block group 746884956160 flags data
+[  +4,948773] BTRFS info (device nvme0n1p2): found 6305 extents, stage: move data extents
+[  +0,422752] EXT4-fs (sda1): mounted filesystem with ordered data mode. Quota mode: none.
+[  +1,781891] BTRFS info (device nvme0n1p2): found 6305 extents, stage: update data pointers
+[  +0,773413] BTRFS info (device nvme0n1p2): relocating block group 746851401728 flags system|dup
+[  +0,119178] BTRFS info (device nvme0n1p2): found 1 extents, stage: move data extents
+[  +0,082399] BTRFS info (device nvme0n1p2): relocating block group 745777659904 flags data
+[гру19 17:38] BTRFS info (device nvme0n1p2): found 12675 extents, stage: move data extents
+[  +2,024803] BTRFS info (device nvme0n1p2): found 12675 extents, stage: update data pointers
+[  +0,791505] BTRFS info (device nvme0n1p2): relocating block group 744703918080 flags data
+[  +3,642158] BTRFS info (device nvme0n1p2): found 4446 extents, stage: move data extents
+[  +1,672733] BTRFS info (device nvme0n1p2): found 4446 extents, stage: update data pointers
+[  +0,697894] BTRFS info (device nvme0n1p2): relocating block group 743630176256 flags data
+[  +3,099750] BTRFS info (device nvme0n1p2): found 593 extents, stage: move data extents
+[  +0,908675] BTRFS info (device nvme0n1p2): found 593 extents, stage: update data pointers
+[  +0,604758] BTRFS info (device nvme0n1p2): relocating block group 742556434432 flags data
+[  +3,388629] BTRFS info (device nvme0n1p2): found 783 extents, stage: move data extents
+[  +1,124972] BTRFS info (device nvme0n1p2): found 782 extents, stage: update data pointers
+[  +0,283459] BTRFS info (device nvme0n1p2): relocating block group 741482692608 flags data
+[  +3,074384] BTRFS info (device nvme0n1p2): found 1658 extents, stage: move data extents
+[  +1,574716] BTRFS info (device nvme0n1p2): found 1658 extents, stage: update data pointers
+[  +0,405489] BTRFS info (device nvme0n1p2): relocating block group 740408950784 flags data
+[  +3,059158] BTRFS info (device nvme0n1p2): found 4793 extents, stage: move data extents
+[  +1,594802] BTRFS info (device nvme0n1p2): found 4793 extents, stage: update data pointers
+[  +0,705547] BTRFS info (device nvme0n1p2): relocating block group 739335208960 flags data
+[  +3,360283] BTRFS info (device nvme0n1p2): found 9306 extents, stage: move data extents
+[  +1,902433] BTRFS info (device nvme0n1p2): found 9305 extents, stage: update data pointers
+[  +0,917684] BTRFS info (device nvme0n1p2): relocating block group 738261467136 flags data
+[  +3,332618] BTRFS info (device nvme0n1p2): found 16808 extents, stage: move data extents
+[  +2,065538] BTRFS info (device nvme0n1p2): found 16808 extents, stage: update data pointers
+[  +1,024754] BTRFS info (device nvme0n1p2): relocating block group 737187725312 flags metadata|dup
+[  +7,006968] BTRFS info (device nvme0n1p2): found 28102 extents, stage: move data extents
+[  +2,080394] BTRFS info (device nvme0n1p2): relocating block group 736113983488 flags data
+[  +3,661914] BTRFS info (device nvme0n1p2): found 19568 extents, stage: move data extents
+[  +2,630562] BTRFS info (device nvme0n1p2): found 19565 extents, stage: update data pointers
+[  +1,670884] BTRFS info (device nvme0n1p2): relocating block group 735040241664 flags data
+[гру19 17:39] BTRFS info (device nvme0n1p2): found 26566 extents, stage: move data extents
+[  +2,748902] BTRFS info (device nvme0n1p2): found 26565 extents, stage: update data pointers
+[  +1,562341] BTRFS info (device nvme0n1p2): relocating block group 733966499840 flags data
+[  +3,782130] BTRFS info (device nvme0n1p2): found 21074 extents, stage: move data extents
+[  +2,683823] BTRFS info (device nvme0n1p2): found 21074 extents, stage: update data pointers
+[  +1,454883] BTRFS info (device nvme0n1p2): relocating block group 732892758016 flags data
+[  +3,760514] BTRFS info (device nvme0n1p2): found 14807 extents, stage: move data extents
+[  +2,283691] BTRFS info (device nvme0n1p2): found 14803 extents, stage: update data pointers
+[  +1,456114] BTRFS info (device nvme0n1p2): relocating block group 731819016192 flags data
+[  +3,642866] BTRFS info (device nvme0n1p2): found 13220 extents, stage: move data extents
+[  +1,867731] BTRFS info (device nvme0n1p2): found 13220 extents, stage: update data pointers
+[  +0,920257] BTRFS info (device nvme0n1p2): relocating block group 730745274368 flags data
+[  +2,835309] BTRFS info (device nvme0n1p2): found 8737 extents, stage: move data extents
+[  +1,679463] BTRFS info (device nvme0n1p2): found 8737 extents, stage: update data pointers
+[  +0,724988] BTRFS info (device nvme0n1p2): relocating block group 729671532544 flags data
+[  +2,953074] BTRFS info (device nvme0n1p2): found 8783 extents, stage: move data extents
+[  +2,185643] BTRFS info (device nvme0n1p2): found 8783 extents, stage: update data pointers
+[  +0,873979] BTRFS info (device nvme0n1p2): relocating block group 728597790720 flags data
+[  +3,159901] BTRFS info (device nvme0n1p2): found 11216 extents, stage: move data extents
+[  +2,120845] BTRFS info (device nvme0n1p2): found 11216 extents, stage: update data pointers
+[  +0,783815] BTRFS info (device nvme0n1p2): relocating block group 727524048896 flags data
+[  +4,177427] BTRFS info (device nvme0n1p2): found 10579 extents, stage: move data extents
+[  +1,488976] BTRFS info (device nvme0n1p2): found 10578 extents, stage: update data pointers
+[  +0,771336] BTRFS info (device nvme0n1p2): relocating block group 726450307072 flags data
+[  +3,161321] BTRFS info (device nvme0n1p2): found 6177 extents, stage: move data extents
+[  +1,875353] BTRFS info (device nvme0n1p2): found 6177 extents, stage: update data pointers
+[  +0,630033] BTRFS info (device nvme0n1p2): relocating block group 725376565248 flags data
+[гру19 17:40] BTRFS info (device nvme0n1p2): found 8119 extents, stage: move data extents
+[  +1,447832] BTRFS info (device nvme0n1p2): found 8119 extents, stage: update data pointers
+[  +0,618246] BTRFS info (device nvme0n1p2): relocating block group 724302823424 flags data
+[  +2,541249] BTRFS info (device nvme0n1p2): found 4576 extents, stage: move data extents
+[  +1,330188] BTRFS info (device nvme0n1p2): found 4576 extents, stage: update data pointers
+[  +1,132541] BTRFS info (device nvme0n1p2): relocating block group 723229081600 flags data
+[  +4,400325] BTRFS info (device nvme0n1p2): found 18535 extents, stage: move data extents
+[  +2,563760] BTRFS info (device nvme0n1p2): found 18535 extents, stage: update data pointers
+[  +0,744104] BTRFS info (device nvme0n1p2): relocating block group 722155339776 flags data
+[  +0,223245] EXT4-fs (sda1): unmounting filesystem.
+[  +2,313155] BTRFS info (device nvme0n1p2): found 2735 extents, stage: move data extents
+[  +1,264045] BTRFS info (device nvme0n1p2): found 2735 extents, stage: update data pointers
+[  +0,551957] BTRFS info (device nvme0n1p2): relocating block group 721081597952 flags data
+[  +3,059122] usb 2-2: USB disconnect, device number 7
+[  +1,053017] BTRFS info (device nvme0n1p2): found 19620 extents, stage: move data extents
+[  +2,441084] BTRFS info (device nvme0n1p2): found 19620 extents, stage: update data pointers
+[  +0,875223] BTRFS info (device nvme0n1p2): relocating block group 720007856128 flags data
+[  +4,285655] BTRFS info (device nvme0n1p2): found 9553 extents, stage: move data extents
+[  +1,891197] BTRFS info (device nvme0n1p2): found 9553 extents, stage: update data pointers
+[  +1,423819] BTRFS info (device nvme0n1p2): relocating block group 718934114304 flags data
+[  +2,602102] BTRFS info (device nvme0n1p2): found 7504 extents, stage: move data extents
+[  +1,835332] BTRFS info (device nvme0n1p2): found 7504 extents, stage: update data pointers
+[  +0,580259] BTRFS info (device nvme0n1p2): relocating block group 717860372480 flags data
+[  +3,820135] BTRFS info (device nvme0n1p2): found 8622 extents, stage: move data extents
+[  +1,572991] BTRFS info (device nvme0n1p2): found 8622 extents, stage: update data pointers
+[  +0,581139] BTRFS info (device nvme0n1p2): relocating block group 716786630656 flags data
+[  +3,623155] BTRFS info (device nvme0n1p2): found 9877 extents, stage: move data extents
+[  +1,753388] BTRFS info (device nvme0n1p2): found 9877 extents, stage: update data pointers
+[  +0,638977] BTRFS info (device nvme0n1p2): relocating block group 715712888832 flags data
+[  +4,262633] BTRFS info (device nvme0n1p2): found 11609 extents, stage: move data extents
+[  +1,790756] BTRFS info (device nvme0n1p2): found 11609 extents, stage: update data pointers
+[  +0,639683] BTRFS info (device nvme0n1p2): relocating block group 714639147008 flags data
+[гру19 17:41] BTRFS info (device nvme0n1p2): found 2822 extents, stage: move data extents
+[  +1,354659] BTRFS info (device nvme0n1p2): found 2822 extents, stage: update data pointers
+[  +0,835874] BTRFS info (device nvme0n1p2): relocating block group 713565405184 flags data
+[  +2,599861] BTRFS info (device nvme0n1p2): found 343 extents, stage: move data extents
+[  +0,955323] BTRFS info (device nvme0n1p2): found 343 extents, stage: update data pointers
+[  +0,264753] BTRFS info (device nvme0n1p2): relocating block group 712491663360 flags data
+[  +2,094037] BTRFS info (device nvme0n1p2): found 135 extents, stage: move data extents
+[  +0,467673] BTRFS info (device nvme0n1p2): found 135 extents, stage: update data pointers
+[  +0,649178] BTRFS info (device nvme0n1p2): relocating block group 711417921536 flags data
+[  +3,421379] BTRFS info (device nvme0n1p2): found 7319 extents, stage: move data extents
+[  +1,741249] BTRFS info (device nvme0n1p2): found 7319 extents, stage: update data pointers
+[  +0,688442] BTRFS info (device nvme0n1p2): relocating block group 710344179712 flags data
+[  +2,325311] BTRFS info (device nvme0n1p2): found 3544 extents, stage: move data extents
+[  +1,420280] BTRFS info (device nvme0n1p2): found 3544 extents, stage: update data pointers
+[  +0,340164] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[ +14,698385] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
+[гру19 17:54] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=38729 DF PROTO=TCP SPT=443 DPT=37214 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,217511] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=38730 DF PROTO=TCP SPT=443 DPT=37214 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,214874] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=38731 DF PROTO=TCP SPT=443 DPT=37214 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,425190] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.16.248.249 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=38732 DF PROTO=TCP SPT=443 DPT=37214 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +8,239548] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=160 TOS=0x00 PREC=0x00 TTL=50 ID=41528 DF PROTO=TCP SPT=89 DPT=41590 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,832122] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=213 TOS=0x00 PREC=0x00 TTL=50 ID=41529 DF PROTO=TCP SPT=89 DPT=41590 WINDOW=143 RES=0x00 ACK PSH FIN URGP=0 
+[гру19 17:55] usb 2-2: new SuperSpeed USB device number 8 using xhci_hcd
+[  +0,019292] usb 2-2: New USB device found, idVendor=0bda, idProduct=9210, bcdDevice=20.01
+[  +0,000004] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  +0,000003] usb 2-2: Product: RTL9210
+[  +0,000001] usb 2-2: Manufacturer: Realtek
+[  +0,000002] usb 2-2: SerialNumber: 012345678904
+[  +0,000334] usb 2-2: Device is not authorized for usage
+[  +0,002785] usb 2-2: Enable of device-initiated U1 failed.
+[  +0,000413] usb 2-2: Enable of device-initiated U2 failed.
+[  +0,000252] usb 2-2: UAS is ignored for this device, using usb-storage instead
+[  +0,000002] usb-storage 2-2:1.0: USB Mass Storage device detected
+[  +0,000087] usb-storage 2-2:1.0: Quirks match for vid 0bda pid 9210: 800000
+[  +0,000033] scsi host2: usb-storage 2-2:1.0
+[  +0,000092] usb 2-2: authorized to connect
+[  +1,023410] scsi 2:0:0:0: Direct-Access     Realtek  RTL9210 NVME     1.00 PQ: 0 ANSI: 6
+[  +0,015991] sd 2:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[  +0,001861] sd 2:0:0:0: [sda] Write Protect is off
+[  +0,000010] sd 2:0:0:0: [sda] Mode Sense: 37 00 00 08
+[  +0,001833] sd 2:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  +0,023098]  sda: sda1
+[  +0,000294] sd 2:0:0:0: [sda] Attached SCSI disk
+[  +0,138960] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.18.13.33 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=56208 DF PROTO=TCP SPT=443 DPT=33396 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,233925] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.18.13.33 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=56209 DF PROTO=TCP SPT=443 DPT=33396 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,187729] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.18.13.33 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=56210 DF PROTO=TCP SPT=443 DPT=33396 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[  +0,415174] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=104.18.13.33 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=56 ID=56211 DF PROTO=TCP SPT=443 DPT=33396 WINDOW=8 RES=0x00 ACK FIN URGP=0 
+[ +15,960282] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=149.154.167.41 DST=192.168.1.249 LEN=682 TOS=0x00 PREC=0x00 TTL=51 ID=12169 DF PROTO=TCP SPT=443 DPT=54470 WINDOW=7658 RES=0x00 ACK PSH FIN URGP=0 
+[  +4,425449] BTRFS info (device nvme0n1p2): balance: start -d -m -s
+[  +0,000141] BTRFS info (device nvme0n1p2): relocating block group 788794441728 flags data
+[  +0,643687] BTRFS info (device nvme0n1p2): found 11 extents, stage: move data extents
+[  +0,402464] BTRFS info (device nvme0n1p2): found 11 extents, stage: update data pointers
+[  +0,357386] BTRFS info (device nvme0n1p2): relocating block group 787720699904 flags data
+[  +2,238255] BTRFS info (device nvme0n1p2): found 1399 extents, stage: move data extents
+[  +0,890840] BTRFS info (device nvme0n1p2): found 1399 extents, stage: update data pointers
+[  +0,257794] BTRFS info (device nvme0n1p2): scrub: started on devid 1
+[  +0,000234] BTRFS info (device nvme0n1p2): relocating block group 786646958080 flags data
+[  +1,654185] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=122 TOS=0x00 PREC=0x00 TTL=50 ID=9737 DF PROTO=TCP SPT=89 DPT=50174 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,180689] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=170 TOS=0x00 PREC=0x00 TTL=50 ID=9738 DF PROTO=TCP SPT=89 DPT=50174 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,689363] BTRFS info (device nvme0n1p2): found 8831 extents, stage: move data extents
+[  +2,014027] BTRFS info (device nvme0n1p2): found 8831 extents, stage: update data pointers
+[  +0,716587] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.10 DST=192.168.1.249 LEN=292 TOS=0x00 PREC=0x80 TTL=120 ID=13006 PROTO=TCP SPT=443 DPT=39606 WINDOW=888 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,032510] BTRFS info (device nvme0n1p2): relocating block group 785573216256 flags data
+[  +0,667335] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=62.182.99.58 DST=192.168.1.249 LEN=170 TOS=0x00 PREC=0x00 TTL=50 ID=9739 DF PROTO=TCP SPT=89 DPT=50174 WINDOW=146 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,325119] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x80 TTL=120 ID=2547 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK FIN URGP=0 
+[  +0,040687] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x80 TTL=120 ID=2548 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK FIN URGP=0 
+[  +0,221116] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=91 TOS=0x00 PREC=0x80 TTL=120 ID=2549 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,439891] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=91 TOS=0x00 PREC=0x80 TTL=120 ID=2550 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,387259] BTRFS info (device nvme0n1p2): found 141 extents, stage: move data extents
+[  +0,492955] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=91 TOS=0x00 PREC=0x80 TTL=120 ID=2551 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,357485] BTRFS info (device nvme0n1p2): found 141 extents, stage: update data pointers
+[  +0,573212] BTRFS info (device nvme0n1p2): relocating block group 784499474432 flags data
+[  +0,861063] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=91 TOS=0x00 PREC=0x80 TTL=120 ID=2552 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,528125] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.10 DST=192.168.1.249 LEN=532 TOS=0x00 PREC=0x80 TTL=120 ID=13007 PROTO=TCP SPT=443 DPT=39606 WINDOW=888 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,248230] BTRFS info (device nvme0n1p2): found 953 extents, stage: move data extents
+[  +1,333477] BTRFS info (device nvme0n1p2): found 953 extents, stage: update data pointers
+[  +0,410096] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=91 TOS=0x00 PREC=0x80 TTL=120 ID=2553 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,132266] BTRFS info (device nvme0n1p2): relocating block group 783425732608 flags data
+[  +2,340327] BTRFS info (device nvme0n1p2): found 2622 extents, stage: move data extents
+[  +1,833471] BTRFS info (device nvme0n1p2): found 2622 extents, stage: update data pointers
+[  +0,517025] BTRFS info (device nvme0n1p2): relocating block group 782351990784 flags data
+[  +2,363659] BTRFS info (device nvme0n1p2): found 4719 extents, stage: move data extents
+[  +0,237091] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=172.217.16.42 DST=192.168.1.249 LEN=91 TOS=0x00 PREC=0x80 TTL=120 ID=2554 PROTO=TCP SPT=443 DPT=49408 WINDOW=785 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,241088] BTRFS info (device nvme0n1p2): found 4719 extents, stage: update data pointers
+[  +0,530518] BTRFS info (device nvme0n1p2): relocating block group 781278248960 flags data
+[  +1,491897] EXT4-fs (sda1): mounted filesystem with ordered data mode. Quota mode: none.
+[  +2,746529] BTRFS info (device nvme0n1p2): found 11043 extents, stage: move data extents
+[  +2,047213] BTRFS info (device nvme0n1p2): found 11043 extents, stage: update data pointers
+[  +0,808562] BTRFS info (device nvme0n1p2): relocating block group 780204507136 flags data
+[гру19 17:56] BTRFS info (device nvme0n1p2): found 11121 extents, stage: move data extents
+[  +2,100177] BTRFS info (device nvme0n1p2): found 11121 extents, stage: update data pointers
+[  +0,768472] BTRFS info (device nvme0n1p2): relocating block group 779130765312 flags data
+[  +2,402935] BTRFS info (device nvme0n1p2): found 8295 extents, stage: move data extents
+[  +1,501410] BTRFS info (device nvme0n1p2): found 8295 extents, stage: update data pointers
+[  +0,605499] BTRFS info (device nvme0n1p2): relocating block group 778057023488 flags data
+[  +3,144363] BTRFS info (device nvme0n1p2): found 10166 extents, stage: move data extents
+[  +2,186106] BTRFS info (device nvme0n1p2): found 10166 extents, stage: update data pointers
+[  +0,839682] BTRFS info (device nvme0n1p2): relocating block group 776983281664 flags data
+[  +3,355833] BTRFS info (device nvme0n1p2): found 21190 extents, stage: move data extents
+[  +2,540709] BTRFS info (device nvme0n1p2): found 21187 extents, stage: update data pointers
+[  +1,055233] BTRFS info (device nvme0n1p2): relocating block group 775909539840 flags data
+[  +2,310305] BTRFS info (device nvme0n1p2): found 2067 extents, stage: move data extents
+[  +1,230264] BTRFS info (device nvme0n1p2): found 2067 extents, stage: update data pointers
+[  +0,771684] BTRFS info (device nvme0n1p2): relocating block group 774835798016 flags data
+[  +3,252323] BTRFS info (device nvme0n1p2): found 17405 extents, stage: move data extents
+[  +1,874603] BTRFS info (device nvme0n1p2): found 17405 extents, stage: update data pointers
+[  +1,137871] BTRFS info (device nvme0n1p2): relocating block group 773762056192 flags data
+[  +3,355528] BTRFS info (device nvme0n1p2): found 5989 extents, stage: move data extents
+[  +1,542770] BTRFS info (device nvme0n1p2): found 5989 extents, stage: update data pointers
+[  +0,722547] BTRFS info (device nvme0n1p2): relocating block group 772688314368 flags data
+[  +4,854704] BTRFS info (device nvme0n1p2): found 5479 extents, stage: move data extents
+[  +1,837619] BTRFS info (device nvme0n1p2): found 5479 extents, stage: update data pointers
+[  +0,808307] BTRFS info (device nvme0n1p2): relocating block group 771614572544 flags data
+[  +2,779738] BTRFS info (device nvme0n1p2): found 7259 extents, stage: move data extents
+[  +1,685696] BTRFS info (device nvme0n1p2): found 7259 extents, stage: update data pointers
+[  +0,985782] BTRFS info (device nvme0n1p2): relocating block group 770540830720 flags data
+[  +3,555117] BTRFS info (device nvme0n1p2): found 12632 extents, stage: move data extents
+[  +1,815293] BTRFS info (device nvme0n1p2): found 12632 extents, stage: update data pointers
+[  +0,816943] BTRFS info (device nvme0n1p2): relocating block group 769467088896 flags data
+[гру19 17:57] BTRFS info (device nvme0n1p2): found 7877 extents, stage: move data extents
+[  +2,115667] BTRFS info (device nvme0n1p2): found 7877 extents, stage: update data pointers
+[  +0,803515] BTRFS info (device nvme0n1p2): relocating block group 768393347072 flags data
+[  +3,969421] BTRFS info (device nvme0n1p2): found 10515 extents, stage: move data extents
+[  +2,134963] BTRFS info (device nvme0n1p2): found 10515 extents, stage: update data pointers
+[  +1,185801] BTRFS info (device nvme0n1p2): relocating block group 767319605248 flags data
+[  +3,464749] BTRFS info (device nvme0n1p2): found 8155 extents, stage: move data extents
+[  +0,878267] usb 2-2: USB disconnect, device number 8
+[  +0,860457] BTRFS info (device nvme0n1p2): found 8155 extents, stage: update data pointers
+[  +0,752194] BTRFS info (device nvme0n1p2): relocating block group 766245863424 flags data
+[  +4,963269] BTRFS info (device nvme0n1p2): found 16548 extents, stage: move data extents
+[  +2,837202] BTRFS info (device nvme0n1p2): found 16548 extents, stage: update data pointers
+[  +0,912227] BTRFS info (device nvme0n1p2): relocating block group 765172121600 flags data
+[  +4,515118] BTRFS info (device nvme0n1p2): found 13255 extents, stage: move data extents
+[  +3,035789] BTRFS info (device nvme0n1p2): found 13255 extents, stage: update data pointers
+[  +1,037228] BTRFS info (device nvme0n1p2): relocating block group 764098379776 flags data
+[  +4,209272] BTRFS info (device nvme0n1p2): found 19321 extents, stage: move data extents
+[  +2,739150] BTRFS info (device nvme0n1p2): found 19319 extents, stage: update data pointers
+[  +1,177525] BTRFS info (device nvme0n1p2): relocating block group 763024637952 flags data
+[  +4,577170] BTRFS info (device nvme0n1p2): found 22562 extents, stage: move data extents
+[  +2,764413] BTRFS info (device nvme0n1p2): found 22562 extents, stage: update data pointers
+[  +1,442017] BTRFS info (device nvme0n1p2): relocating block group 761950896128 flags data
+[  +4,530392] BTRFS info (device nvme0n1p2): found 22766 extents, stage: move data extents
+[  +3,156813] BTRFS info (device nvme0n1p2): found 22766 extents, stage: update data pointers
+[гру19 17:58] BTRFS info (device nvme0n1p2): relocating block group 760877154304 flags metadata|dup
+[  +1,825905] BTRFS info (device nvme0n1p2): found 11404 extents, stage: move data extents
+[  +0,749799] BTRFS info (device nvme0n1p2): relocating block group 759803412480 flags data
+[  +4,561266] BTRFS info (device nvme0n1p2): found 21645 extents, stage: move data extents
+[  +2,442074] BTRFS info (device nvme0n1p2): found 21644 extents, stage: update data pointers
+[  +1,309808] BTRFS info (device nvme0n1p2): relocating block group 758729670656 flags data
+[  +3,499146] BTRFS info (device nvme0n1p2): found 8498 extents, stage: move data extents
+[  +2,552191] BTRFS info (device nvme0n1p2): found 8498 extents, stage: update data pointers
+[  +0,966469] BTRFS info (device nvme0n1p2): relocating block group 757655928832 flags data
+[  +3,763144] BTRFS info (device nvme0n1p2): found 5897 extents, stage: move data extents
+[  +1,769360] BTRFS info (device nvme0n1p2): found 5897 extents, stage: update data pointers
+[  +0,660673] BTRFS info (device nvme0n1p2): relocating block group 756582187008 flags data
+[  +2,238945] BTRFS info (device nvme0n1p2): found 1959 extents, stage: move data extents
+[  +1,556272] BTRFS info (device nvme0n1p2): found 1959 extents, stage: update data pointers
+[  +0,399193] BTRFS info (device nvme0n1p2): relocating block group 755508445184 flags data
+[  +2,102667] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=13.32.121.101 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=243 ID=59079 PROTO=TCP SPT=443 DPT=35550 WINDOW=547 RES=0x00 ACK FIN URGP=0 
+[  +0,093687] BTRFS info (device nvme0n1p2): found 821 extents, stage: move data extents
+[  +0,014660] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=13.32.121.101 DST=192.168.1.249 LEN=52 TOS=0x00 PREC=0x00 TTL=243 ID=59080 PROTO=TCP SPT=443 DPT=35550 WINDOW=547 RES=0x00 ACK FIN URGP=0 
+[  +0,249855] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=13.32.121.101 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=243 ID=59081 PROTO=TCP SPT=443 DPT=35550 WINDOW=547 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,489963] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=13.32.121.101 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=243 ID=59082 PROTO=TCP SPT=443 DPT=35550 WINDOW=547 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,200141] BTRFS info (device nvme0n1p2): found 821 extents, stage: update data pointers
+[  +0,283025] BTRFS info (device nvme0n1p2): relocating block group 754434703360 flags data
+[  +0,547024] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=13.32.121.101 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=243 ID=59083 PROTO=TCP SPT=443 DPT=35550 WINDOW=547 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,645737] BTRFS info (device nvme0n1p2): found 806 extents, stage: move data extents
+[  +0,364240] Iptables: v4Reject: IN=wlp2s0 OUT= MAC=e4:a4:71:37:3b:d3:08:55:31:cf:3d:67:08:00 SRC=13.32.121.101 DST=192.168.1.249 LEN=76 TOS=0x00 PREC=0x00 TTL=243 ID=59084 PROTO=TCP SPT=443 DPT=35550 WINDOW=547 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,624313] BTRFS info (device nvme0n1p2): found 806 extents, stage: update data pointers
+[  +0,285419] BTRFS info (device nvme0n1p2): relocating block group 753360961536 flags data
+[  +2,806855] BTRFS info (device nvme0n1p2): found 4019 extents, stage: move data extents
+[  +1,781464] BTRFS info (device nvme0n1p2): found 4019 extents, stage: update data pointers
+[  +0,609928] BTRFS info (device nvme0n1p2): relocating block group 752287219712 flags data
+[  +2,584097] BTRFS info (device nvme0n1p2): found 3945 extents, stage: move data extents
+[  +1,552072] BTRFS info (device nvme0n1p2): found 3945 extents, stage: update data pointers
+[  +0,473080] BTRFS info (device nvme0n1p2): relocating block group 752253665280 flags system|dup
+[  +0,060324] BTRFS info (device nvme0n1p2): found 1 extents, stage: move data extents
+[  +0,036038] BTRFS info (device nvme0n1p2): relocating block group 751179923456 flags data
+[  +2,938669] BTRFS info (device nvme0n1p2): found 4858 extents, stage: move data extents
+[  +1,412141] BTRFS info (device nvme0n1p2): found 4858 extents, stage: update data pointers
+[  +0,512043] BTRFS info (device nvme0n1p2): relocating block group 750106181632 flags data
+[  +2,086047] BTRFS info (device nvme0n1p2): found 578 extents, stage: move data extents
+[  +1,233425] BTRFS info (device nvme0n1p2): found 578 extents, stage: update data pointers
+[  +0,327432] BTRFS info (device nvme0n1p2): balance: ended with status: 0
+[гру19 17:59] show_signal: 188 callbacks suppressed
+[  +0,000004] traps: etherape[169020] trap int3 ip:7f1b006d0048 sp:7ffccb1cea00 error:0 in libglib-2.0.so.0.7400.3[7f1b00690000+93000]
+[  +3,159447] BTRFS info (device nvme0n1p2): scrub: finished on devid 1 with status: 0
