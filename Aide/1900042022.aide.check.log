@@ -1,0 +1,87 @@
+Start timestamp: 2022-03-04 19:00:26 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	311558
+  Added entries:		1
+  Removed entries:		0
+  Changed entries:		8
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /root/.lesshsQ
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/.updated
+f   ...   i     : /etc/ld.so.cache
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.browser
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.extra
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.ssh
+d > ... mc..  . : /root
+f = ... mci.. . : /root/.lesshst
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 66055                            | 67018
+
+File: /etc/ld.so.cache
+ Inode     : 908122                           | 66108
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 829085                           | 69677
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.browser
+ Inode     : 882490                           | 71844
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.extra
+ Inode     : 870573                           | 70727
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.ssh
+ Inode     : 885248                           | 71863
+
+Directory: /root
+ Size      : 608                              | 632
+ Mtime     : 2022-03-04 18:41:52 +0200        | 2022-03-04 18:54:59 +0200
+ Ctime     : 2022-03-04 18:41:52 +0200        | 2022-03-04 18:54:59 +0200
+
+File: /root/.lesshst
+ Mtime     : 2022-03-04 18:35:26 +0200        | 2022-03-04 18:54:26 +0200
+ Ctime     : 2022-03-04 18:35:26 +0200        | 2022-03-04 18:54:26 +0200
+ Inode     : 883108                           | 883955
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : GsZWtmgNh4dUP8nh2L1oKw==
+ SHA1      : nPcug3sr1TJ6wwSJDFfztDm3qG0=
+ SHA256    : 5DZJhTJBX+vn6TREoJG812+FAyr8m+cq
+             Dm1RyRvbY+U=
+ SHA512    : 3H//Xu3BIZgob57v538aApX03o6/Bukd
+             6HdRT5d8jN5hr5mIDk0aNlTxhZnCZjrE
+             F1jqUJe7XJI7YjP3W/U9gw==
+ RMD160    : K84jWTuHQdbhDJXKknZ+kJQXrEE=
+ TIGER     : v+mtNU/jZh5C8nDlPgerq7h0PkOrouIc
+ CRC32     : rBp20Q==
+ CRC32B    : b1Wetw==
+ HAVAL     : 6IDDMGDD1Np30vDBSjLFstHt8+4H0tUq
+             YgGoYofPZMQ=
+ WHIRLPOOL : iQn4MP3tmU8mJwtyYXcqgZ9s1+VgQ7M5
+             Hp6aPhg9uLuhKU2/TKHc3/0sTHeKwjbz
+             iJAMdC/sSMQp4wA7IbfrKA==
+ GOST      : rq2756A7QHXcF+mYZArTOONlz3P330MO
+             zMwwboWZyvU=
+
+
+End timestamp: 2022-03-04 19:07:17 +0200 (run time: 6m 51s)

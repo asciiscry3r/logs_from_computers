@@ -1,0 +1,78 @@
+Start timestamp: 2022-04-28 02:13:16 +0300 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	330349
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		3
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i  .  : /etc/.updated
+f   ...   i  .  : /etc/ld.so.cache
+s   ...   i  .  : /etc/pacman.d/gnupg/S.gpg-agent
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 2228308                          | 2228285
+
+File: /etc/ld.so.cache
+ Inode     : 2229102                          | 2228264
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 2228285                          | 2228308
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : qdL3P2gRd64bpBhuB6g3TQ==
+ SHA1      : VKW40LWDO3Moje8zyn7pPZHRtDA=
+ SHA256    : K2yTqKFwbiUYUKCWTZdNaplU7I0wQPOp
+             b78D+KX/MF8=
+ SHA512    : 48Y9GAkJPIfYRjTCVy5xIPBG8u7RtYaI
+             O6V649JapyJBF7rzzxhXH6G2yxeL41er
+             pvOUufIjdFRjxMNpriiXeQ==
+ RMD160    : OFr58Hl2/ZObsQFhpduOsFhce4I=
+ TIGER     : 8f1WtRX6BudskS65pqTgiBHXqdAJLo5H
+ CRC32     : ZFjkdw==
+ CRC32B    : poWd/g==
+ HAVAL     : vKQHAUrR0k7+4iKnRDAEz3LMlOnhdWUy
+             FXGGgqlxRGc=
+ WHIRLPOOL : Dq0vKhdpPBNt0sYxF5YAp3czPgYm8onh
+             a3/8pwLN4k0aMrduyeXUZqdCYz28Ieqi
+             CCm0LnCtZoglsSi9wfU6GQ==
+ GOST      : xJI9pjWv/p5/ePddfgPZQrfC1aU+JTi4
+             pozXNDqhLtk=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : nkuze+658A03UU9GsTWNxA==
+ SHA1      : tbBJxAadrFZNf07pkh86Ne2GpaA=
+ SHA256    : SXHgk3osGW5yiXdFAfa9g54POHknS2sK
+             vdNgGN4JOF0=
+ SHA512    : 7YWjUcL9Cbnz6SzLKD8x5LCflnXSGnqY
+             Vgw4oCnZi7NIFEC/RIhJFeS3P/xPr8cc
+             zjAEhV4uSVYmxXaUmFTeSw==
+ RMD160    : oCdsF/w1eHnHthhPSAkDSR0wDxU=
+ TIGER     : kWm/2Q+v4RZ4CkkDG2HE9yyxuM0vLAp8
+ CRC32     : jT951g==
+ CRC32B    : 5AZQNA==
+ HAVAL     : ZM69RqY/afKzZrd4011d4alqc+rHkaEV
+             Xzp3SzvyzQ0=
+ WHIRLPOOL : i6sMrvBVEY/oa6qDKzK4eka0vQBFkmUk
+             U1nSS9whOblnMCJli7O8TD1moZ1doVpV
+             OUwgFcKgknUPcQNUrkDxxA==
+ GOST      : tKnHgeCiEGBdygo1Auy8PP6lTv1hWzSc
+             CuedOO5cBRM=
+
+
+End timestamp: 2022-04-28 02:20:43 +0300 (run time: 7m 27s)

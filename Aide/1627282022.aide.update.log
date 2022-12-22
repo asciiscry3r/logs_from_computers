@@ -1,0 +1,1697 @@
+Start timestamp: 2022-02-28 16:27:00 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	296761
+  Added entries:		2
+  Removed entries:		31
+  Changed entries:		237
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /etc/pacman.d/mirrorlist.pacnew
+f+++++++++++++++: /usr/bin/electron17
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+f---------------: /usr/bin/bitwarden-desktop
+f---------------: /usr/bin/electron16
+d---------------: /usr/lib/bitwarden
+f---------------: /usr/lib/bitwarden/app.asar
+d---------------: /usr/lib/bitwarden/app.asar.unpacked
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/@nodert-win10-rs4
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.security.credentials.ui
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.security.credentials.ui/build
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.security.credentials.ui/build/Release
+f---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.security.credentials.ui/build/Release/binding.node
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/forcefocus
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/forcefocus/build
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/forcefocus/build/Release
+f---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/forcefocus/build/Release/forcefocus.node
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/keytar
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/keytar/build
+d---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/keytar/build/Release
+f---------------: /usr/lib/bitwarden/app.asar.unpacked/node_modules/keytar/build/Release/keytar.node
+f---------------: /usr/lib/bitwarden/package.json
+f---------------: /usr/share/applications/bitwarden.desktop
+d---------------: /usr/share/icons/hicolor/1024x1024
+d---------------: /usr/share/icons/hicolor/1024x1024/apps
+f---------------: /usr/share/icons/hicolor/1024x1024/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/128x128/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/16x16/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/256x256/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/32x32/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/48x48/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/512x512/apps/bitwarden.png
+f---------------: /usr/share/icons/hicolor/64x64/apps/bitwarden.png
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/.updated
+f   ...   i     : /etc/geoclue/geoclue.conf
+f   ...   i     : /etc/ld.so.cache
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.browser
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.extra
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.ssh
+f   ...   i     : /etc/xdg/autostart/geoclue-demo-agent.desktop
+f = ... mc... . : /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+d = ... mc..  . : /usr
+d < ... mc..  . : /usr/bin
+f = p.. .c... X : /usr/bin/chage
+f = p.. .c... X : /usr/bin/chfn
+f = p.. .c... X : /usr/bin/chsh
+f = ... mc... . : /usr/bin/electron
+f = p.. .c... X : /usr/bin/expiry
+f = p.. .c... X : /usr/bin/gpasswd
+f = p.. .c... . : /usr/bin/ksu
+f = p.. .c... X : /usr/bin/newgrp
+f > ... mc..H . : /usr/bin/nfs-cat
+f > ... mc..H . : /usr/bin/nfs-cp
+f > ... mc..H . : /usr/bin/nfs-ls
+f > ... mc..H . : /usr/bin/nfs-stat
+f = p.. .c... X : /usr/bin/passwd
+f = p.. .c... . : /usr/bin/sg
+f = p.. .c... . : /usr/bin/su
+f = p.. .c... X : /usr/bin/unix_chkpwd
+d = ... mc..  . : /usr/include/libgeoclue-2.0
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-client.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-enum-types.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-enums.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-helpers.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-location.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-manager.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/gclue-simple.h
+f = ... mc... . : /usr/include/libgeoclue-2.0/geoclue.h
+d = ... mc..  . : /usr/include/nfsc
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-mount.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-nfs.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-nfs4.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-nlm.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-nsm.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-portmap.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw-rquota.h
+f = ... mc... . : /usr/include/nfsc/libnfs-raw.h
+f = ... mc... . : /usr/include/nfsc/libnfs-zdr.h
+f = ... mc... . : /usr/include/nfsc/libnfs.h
+d < ... mc.n  . : /usr/lib
+f = p.. .c... . : /usr/lib/Xorg.wrap
+d = ... mc..  . : /usr/lib/electron
+f = ... mc... . : /usr/lib/electron/LICENSE
+f > ... mc..H . : /usr/lib/electron/LICENSES.chromium.html
+f < ... mc..H . : /usr/lib/electron/chrome-sandbox
+f = ... mc..H . : /usr/lib/electron/chrome_100_percent.pak
+f = ... mc..H . : /usr/lib/electron/chrome_200_percent.pak
+f > ... mc..H . : /usr/lib/electron/chrome_crashpad_handler
+f > ... mc..H . : /usr/lib/electron/electron
+f > ... mc..H . : /usr/lib/electron/libEGL.so
+f < ... mc..H . : /usr/lib/electron/libGLESv2.so
+f > ... mc..H . : /usr/lib/electron/libvk_swiftshader.so
+f > ... mc..H . : /usr/lib/electron/libvulkan.so.1
+d = ... mc..  . : /usr/lib/electron/locales
+f > ... mc..H . : /usr/lib/electron/locales/am.pak
+f > ... mc..H . : /usr/lib/electron/locales/ar.pak
+f > ... mc..H . : /usr/lib/electron/locales/bg.pak
+f > ... mc..H . : /usr/lib/electron/locales/bn.pak
+f > ... mc..H . : /usr/lib/electron/locales/ca.pak
+f > ... mc..H . : /usr/lib/electron/locales/cs.pak
+f > ... mc..H . : /usr/lib/electron/locales/da.pak
+f > ... mc..H . : /usr/lib/electron/locales/de.pak
+f > ... mc..H . : /usr/lib/electron/locales/el.pak
+f < ... mc..H . : /usr/lib/electron/locales/en-GB.pak
+f < ... mc..H . : /usr/lib/electron/locales/en-US.pak
+f > ... mc..H . : /usr/lib/electron/locales/es-419.pak
+f > ... mc..H . : /usr/lib/electron/locales/es.pak
+f > ... mc..H . : /usr/lib/electron/locales/et.pak
+f > ... mc..H . : /usr/lib/electron/locales/fa.pak
+f > ... mc..H . : /usr/lib/electron/locales/fi.pak
+f > ... mc..H . : /usr/lib/electron/locales/fil.pak
+f > ... mc..H . : /usr/lib/electron/locales/fr.pak
+f > ... mc..H . : /usr/lib/electron/locales/gu.pak
+f > ... mc..H . : /usr/lib/electron/locales/he.pak
+f > ... mc..H . : /usr/lib/electron/locales/hi.pak
+f > ... mc..H . : /usr/lib/electron/locales/hr.pak
+f > ... mc..H . : /usr/lib/electron/locales/hu.pak
+f < ... mc..H . : /usr/lib/electron/locales/id.pak
+f > ... mc..H . : /usr/lib/electron/locales/it.pak
+f > ... mc..H . : /usr/lib/electron/locales/ja.pak
+f > ... mc..H . : /usr/lib/electron/locales/kn.pak
+f > ... mc..H . : /usr/lib/electron/locales/ko.pak
+f > ... mc..H . : /usr/lib/electron/locales/lt.pak
+f > ... mc..H . : /usr/lib/electron/locales/lv.pak
+f > ... mc..H . : /usr/lib/electron/locales/ml.pak
+f > ... mc..H . : /usr/lib/electron/locales/mr.pak
+f < ... mc..H . : /usr/lib/electron/locales/ms.pak
+f < ... mc..H . : /usr/lib/electron/locales/nb.pak
+f > ... mc..H . : /usr/lib/electron/locales/nl.pak
+f > ... mc..H . : /usr/lib/electron/locales/pl.pak
+f > ... mc..H . : /usr/lib/electron/locales/pt-BR.pak
+f > ... mc..H . : /usr/lib/electron/locales/pt-PT.pak
+f > ... mc..H . : /usr/lib/electron/locales/ro.pak
+f > ... mc..H . : /usr/lib/electron/locales/ru.pak
+f > ... mc..H . : /usr/lib/electron/locales/sk.pak
+f > ... mc..H . : /usr/lib/electron/locales/sl.pak
+f > ... mc..H . : /usr/lib/electron/locales/sr.pak
+f < ... mc..H . : /usr/lib/electron/locales/sv.pak
+f > ... mc..H . : /usr/lib/electron/locales/sw.pak
+f > ... mc..H . : /usr/lib/electron/locales/ta.pak
+f > ... mc..H . : /usr/lib/electron/locales/te.pak
+f > ... mc..H . : /usr/lib/electron/locales/th.pak
+f > ... mc..H . : /usr/lib/electron/locales/tr.pak
+f > ... mc..H . : /usr/lib/electron/locales/uk.pak
+f > ... mc..H . : /usr/lib/electron/locales/vi.pak
+f < ... mc..H . : /usr/lib/electron/locales/zh-CN.pak
+f < ... mc..H . : /usr/lib/electron/locales/zh-TW.pak
+d = ... mc..  . : /usr/lib/electron/resources
+f = ... mc... . : /usr/lib/electron/resources/default_app.asar
+f < ... mc..H . : /usr/lib/electron/resources.pak
+f > ... mc..H . : /usr/lib/electron/snapshot_blob.bin
+d = ... mc..  . : /usr/lib/electron/swiftshader
+f < ... mc..H . : /usr/lib/electron/swiftshader/libEGL.so
+f < ... mc..H . : /usr/lib/electron/swiftshader/libGLESv2.so
+f > ... mc..H . : /usr/lib/electron/v8_context_snapshot.bin
+f = ... mc..H . : /usr/lib/electron/version
+f = ... mc... . : /usr/lib/electron/vk_swiftshader_icd.json
+f = ... mc... . : /usr/lib/geoclue
+d = ... mc..  . : /usr/lib/geoclue-2.0/demos
+f = ... mc... . : /usr/lib/geoclue-2.0/demos/agent
+f = ... mc... . : /usr/lib/geoclue-2.0/demos/where-am-i
+d = ... mc..  . : /usr/lib/girepository-1.0
+f = ... mc... . : /usr/lib/girepository-1.0/Geoclue-2.0.typelib
+l.= ... mc..  . : /usr/lib/libgeoclue-2.so
+l.= ... mc..  . : /usr/lib/libgeoclue-2.so.0
+f = ... mc... . : /usr/lib/libgeoclue-2.so.0.0.0
+l.= ... mc..  . : /usr/lib/libnfs.so
+l.= ... mc..  . : /usr/lib/libnfs.so.14
+f > ... mc..H . : /usr/lib/libnfs.so.14.0.0
+d = ... mc..  . : /usr/lib/pkgconfig
+f = ... mc... . : /usr/lib/pkgconfig/geoclue-2.0.pc
+f = ... mc... . : /usr/lib/pkgconfig/libgeoclue-2.0.pc
+f = ... mc... . : /usr/lib/pkgconfig/libnfs.pc
+d = ... mc..  . : /usr/lib/systemd/system
+f = ... mc... . : /usr/lib/systemd/system/geoclue.service
+d = ... mc..  . : /usr/lib/sysusers.d
+f = ... mc... . : /usr/lib/sysusers.d/geoclue.conf
+d = ... mc..  . : /usr/lib/tmpfiles.d
+f = ... mc... . : /usr/lib/tmpfiles.d/geoclue.conf
+d < ... mc..  . : /usr/share/applications
+f = ... mc... . : /usr/share/applications/electron.desktop
+f = ... mc... . : /usr/share/applications/geoclue-demo-agent.desktop
+f = ... mc... . : /usr/share/applications/geoclue-where-am-i.desktop
+f = ... mci.. . : /usr/share/applications/mimeinfo.cache
+d = ... mc..  . : /usr/share/dbus-1/interfaces
+f = ... mc... . : /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Agent.xml
+f = ... mc... . : /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Client.xml
+f = ... mc... . : /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Location.xml
+f = ... mc... . : /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Manager.xml
+f = ... mc... . : /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.xml
+d = ... mc..  . : /usr/share/dbus-1/system-services
+f = ... mc... . : /usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service
+d = ... mc..  . : /usr/share/dbus-1/system.d
+f = ... mc... . : /usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf
+f = ... mc... . : /usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.conf
+d = ... mc..  . : /usr/share/gir-1.0
+f = ... mc... . : /usr/share/gir-1.0/Geoclue-2.0.gir
+d = ... mc..  . : /usr/share/gtk-doc/html/geoclue
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Agent.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Client.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Location.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Manager.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/geoclue-gclue-enums.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/geoclue.devhelp2
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/home.png
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/index.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/ix01.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/left-insensitive.png
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/left.png
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/license.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/ref-agent-dbus.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/ref-dbus.html
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/right-insensitive.png
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/right.png
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/style.css
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/up-insensitive.png
+f = ... mc... . : /usr/share/gtk-doc/html/geoclue/up.png
+d = ... mc..  . : /usr/share/gtk-doc/html/libgeoclue
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueClient.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueClientProxy.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueLocation.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueLocationProxy.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueManager.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueManagerProxy.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/GClueSimple.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/annotation-glossary.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/ch01.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/ch02.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/ch03.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/ch04.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/ch05.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/home.png
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/index.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/ix01.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/left-insensitive.png
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/left.png
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/libgeoclue-gclue-enums.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/libgeoclue.devhelp2
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/license.html
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/right-insensitive.png
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/right.png
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/style.css
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/up-insensitive.png
+f = ... mc... . : /usr/share/gtk-doc/html/libgeoclue/up.png
+d < ... mc.n  . : /usr/share/icons/hicolor
+d < ... mc..  . : /usr/share/icons/hicolor/128x128/apps
+d < ... mc..  . : /usr/share/icons/hicolor/16x16/apps
+d < ... mc..  . : /usr/share/icons/hicolor/256x256/apps
+d < ... mc..  . : /usr/share/icons/hicolor/32x32/apps
+d < ... mc..  . : /usr/share/icons/hicolor/48x48/apps
+d < ... mc..  . : /usr/share/icons/hicolor/512x512/apps
+d < ... mc..  . : /usr/share/icons/hicolor/64x64/apps
+f < ... mci.H . : /usr/share/icons/hicolor/icon-theme.cache
+d = ... mc..  . : /usr/share/licenses/electron
+l.= ... mc..  . : /usr/share/licenses/electron/LICENSE
+l.= ... mc..  . : /usr/share/licenses/electron/LICENSES.chromium.html
+d = ... mc..  . : /usr/share/man/man1
+f = ... mc... . : /usr/share/man/man1/nfs-cat.1.gz
+f = ... mc... . : /usr/share/man/man1/nfs-cp.1.gz
+f = ... mc... . : /usr/share/man/man1/nfs-ls.1.gz
+d = ... mc..  . : /usr/share/man/man5
+f = ... mc... . : /usr/share/man/man5/geoclue.5.gz
+d = ... mc..  . : /usr/share/pixmaps
+f = ... mc... . : /usr/share/pixmaps/electron.png
+d = ... mc..  . : /usr/share/polkit-1/rules.d
+f = ... mc... . : /usr/share/polkit-1/rules.d/org.freedesktop.GeoClue2.rules
+d = ... mc..  . : /usr/share/vala/vapi
+f = ... mc... . : /usr/share/vala/vapi/libgeoclue-2.0.deps
+f = ... mc... . : /usr/share/vala/vapi/libgeoclue-2.0.vapi
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 299273                           | 68156
+
+File: /etc/geoclue/geoclue.conf
+ Inode     : 185307                           | 185308
+
+File: /etc/ld.so.cache
+ Inode     : 715206                           | 680059
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 294210                           | 112910
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.browser
+ Inode     : 423623                           | 114338
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.extra
+ Inode     : 298880                           | 113014
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.ssh
+ Inode     : 424195                           | 114777
+
+File: /etc/xdg/autostart/geoclue-demo-agent.desktop
+ Inode     : 185308                           | 185307
+
+File: /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+ Mtime     : 2022-02-27 20:26:03 +0200        | 2022-02-28 16:13:27 +0200
+ Ctime     : 2022-02-27 20:26:03 +0200        | 2022-02-28 16:13:27 +0200
+
+Directory: /usr
+ Mtime     : 2022-02-27 20:22:09 +0200        | 2022-02-28 16:13:26 +0200
+ Ctime     : 2022-02-27 20:22:09 +0200        | 2022-02-28 16:13:26 +0200
+
+Directory: /usr/bin
+ Size      : 77264                            | 77224
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/bin/chage
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chfn
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chsh
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/electron
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+
+File: /usr/bin/expiry
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/gpasswd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoMAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/ksu
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:10 +0200        | 2022-02-27 20:53:06 +0200
+
+File: /usr/bin/newgrp
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/nfs-cat
+ Size      : 14168                            | 14272
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : wIlxSKgBPgBOS/rZ9X/Rmw==         | /sQQxKWpwBM9nopwHegwtg==
+ SHA256    : /LeJ37tHfAQ6SN2dbwmyQZvvxdL3wTjW | rKN6jpM/c5VNlYt3PYyTWyVA7LFoL269
+             hQHBeSv3psk=                     | qPdxtbwWmQw=
+ RMD160    : Ua5cyEfuQl6yIsE6b0PXKq1K1Yc=     | GcCT4zL8tsDLdWF6o4Ga/BKZU4k=
+
+File: /usr/bin/nfs-cp
+ Size      : 14168                            | 14272
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 1oMuT4dC8IkvqiMug241aA==         | e8jDLmx+lr/JRrLGvrHhAQ==
+ SHA256    : 55OLGs3Moe3EfgZ7Q+8jEeuIgVhczKNW | jTYQg9omwlZx9VC0j7d7/5JfL3dMp2B/
+             ktiqqT+/bMU=                     | 0MKN5S9Tyww=
+ RMD160    : neN8WM3TT6O4uegY21w68VIfwSA=     | 87viZFOEob6KaI1vBuum57x2aMY=
+
+File: /usr/bin/nfs-ls
+ Size      : 14168                            | 14272
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : hFk/rbQqh8frypukarQKQg==         | NR2z6EoGjFN0x0JCeweRPA==
+ SHA256    : uX/ockUZlXw8Y1+aVV8tHCehOOKCUU34 | +uePpx/G0mof/cu+/ZabgCZdONThh+IN
+             wkD4s2X5Lfo=                     | jRQcQijxg8M=
+ RMD160    : bpA4tloq3v3aCii9lUTmb1aV8mc=     | dsdIOP+4kRochYCpuXdUJztr1eM=
+
+File: /usr/bin/nfs-stat
+ Size      : 14168                            | 14272
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : zJGsQg1FWzSeXEn00xNEmw==         | RaH7MpVL2PspzBb02x/lRw==
+ SHA256    : Fi8ocE2irBLhJdfOIlZ5RXPKcqUZtWow | TvD2NJTcJyd4hYEa2uIcqBAw3cH3bP9k
+             dwHUQge3gXY=                     | sJOt5bKClfA=
+ RMD160    : tlKj42RcG0D+ebFRzhZ6uG4qWL4=     | Fih/jKPwkQy+f95QgwwS3T7vMxE=
+
+File: /usr/bin/passwd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgsAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/sg
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+
+File: /usr/bin/su
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-27 20:20:28 +0200        | 2022-02-27 20:53:06 +0200
+
+File: /usr/bin/unix_chkpwd
+ Perm      : -rwsr-sr-x                       | -rwxr-sr-x
+ Ctime     : 2022-02-27 20:20:19 +0200        | 2022-02-27 20:53:06 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+Directory: /usr/include/libgeoclue-2.0
+ Mtime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-client.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-enum-types.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-enums.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-helpers.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-location.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-manager.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/gclue-simple.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/libgeoclue-2.0/geoclue.h
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/include/nfsc
+ Mtime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-mount.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-nfs.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-nfs4.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-nlm.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-nsm.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-portmap.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw-rquota.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-raw.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs-zdr.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/include/nfsc/libnfs.h
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/lib
+ Size      : 133976                           | 133944
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Linkcount : 176                              | 175
+
+File: /usr/lib/Xorg.wrap
+ Perm      : -r-sr-xr-x                       | -r-xr-xr-x
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-27 20:53:06 +0200
+
+Directory: /usr/lib/electron
+ Mtime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/electron/LICENSE
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+
+File: /usr/lib/electron/LICENSES.chromium.html
+ Size      : 5353825                          | 5386355
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+ MD5       : 8tdSf5ciQTj6td6TeujJXg==         | uYdTBD6Vg317YB6xUrPI7w==
+ SHA256    : ThY5L+xU7Q7uybsMTMU6krn1mfJfaC/s | nKQ0Xh6+1FSNxZ/fTcyoY5cYY5TkMNMu
+             d7EjoS5TR20=                     | et1NYfbKIJM=
+ RMD160    : 7QofkF1Ws6N4v8a2i+Zt3ybVRxM=     | UzcB7yBPqnwvC4g/aPwOdMmX4do=
+
+File: /usr/lib/electron/chrome-sandbox
+ Size      : 15576                            | 15176
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+ MD5       : +wqmT0CY9AFpJJvGCKb4TQ==         | dfLOdkDxB7kJV1tJXuX6xw==
+ SHA256    : 93A9bqsK8ZlClUW2DHnbgo9Y7EKhrfC6 | NbZStJk+B6bh3ZGuIYwLxjIwd6dgY3dK
+             9XiF48tTsGU=                     | GcOsS39d8Tg=
+ RMD160    : elIuizXaRapKFpuPNFXgIoXmjd0=     | DxkVzbWq5hnlB80q6/J5swBmSVo=
+
+File: /usr/lib/electron/chrome_100_percent.pak
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+ MD5       : bde9C9AW3w7ebDB7BAI8iQ==         | 3qpRZHx14MhIyobDq00YWA==
+ SHA256    : nwxoavAEjzjXCOuJ8E9L4e/Sf6pXtlrS | BvFIWvlHZ7J9SyzBkDoALz1DTzSY/j2q
+             mwPXNvER1WY=                     | qHWXQxuGvDk=
+ RMD160    : QlXjrNsXnSHVGdoazg6ZuNkliJQ=     | 6F7EihXxfMuF+NoelcsoMRaOh4I=
+
+File: /usr/lib/electron/chrome_200_percent.pak
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+ MD5       : esInE1u6AuIRz+CtLfz6pw==         | ZPwCm+GQ4+DD+aSzcj1vMg==
+ SHA256    : 5BVUrZXGdlCpKMtVN+O2nIPPZO4u7UsJ | cwBOh2Nu3Rg34gNZDRFSL21S/uiPxdke
+             8Pjrb6hanJg=                     | qE+Cd4R06Qk=
+ RMD160    : j94+ZdYpH5+/9WdeqqfGy6EKk8k=     | KCRQPBTF5tNsED3ZEBMgGP8f/Rk=
+
+File: /usr/lib/electron/chrome_crashpad_handler
+ Size      : 985864                           | 1015944
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:24 +0200
+ MD5       : f0HJeGREovU6znXGiKe7vw==         | Qe/wOU3RSykgjFY4Pjweyw==
+ SHA256    : WznxZldD4RJiW3iSqT7+U72WcIpZuGSK | OnM7yaBbRnKnIu2dV27skNwuwtHSr8SP
+             OJJMJF2fFrQ=                     | CspOZZUA2G8=
+ RMD160    : ABXoan8ek9SNrhc/cbALDneFSJc=     | kfU1ybY2QhFXFMyml6vDLO5mdfs=
+
+File: /usr/lib/electron/electron
+ Size      : 154646752                        | 156560320
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : GMv0nDHH/Y405x2ho1+VjA==         | CVdH1HTAUp67jPiFBkg4ZQ==
+ SHA256    : 7VnfxE12eF03KI4qRm6ihM1UzCW63lfk | JAtsi9WASZGhfC3e3rihGkHK7Jwzqi+7
+             wxoLLUGaBzE=                     | PanUle6U5XA=
+ RMD160    : GRBQHoo2qb/Kct+dL5KoKmIwaV8=     | Wbpfev4GKBWJihNcQ25k+JKJLJA=
+
+File: /usr/lib/electron/libEGL.so
+ Size      : 34464                            | 35352
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : V2AIHuzffi2CmiCD+iUCYQ==         | DCMloe4CI1WNRRmXowcKcA==
+ SHA256    : IYMZBigRB7WC9cc8sBsBBl8za6olEjUb | EaSsM1sqDiOsXvFW/tJY1Fn5ynmiHaLT
+             T08uLj4W1mg=                     | C7ZdQi+U7Fc=
+ RMD160    : uSnZ1p+cdV0YqYAnP2KjMuYxo6U=     | 1m0C0PeF2lEfaSHkXOxJWiwcWbU=
+
+File: /usr/lib/electron/libGLESv2.so
+ Size      : 7141864                          | 6140520
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : u3DQG47a0GQQymqKQpi1PQ==         | p9qd8dR1L8TqReYXkcUlZQ==
+ SHA256    : K375aGGFO1ze2iLW0KSTKC2jfN4//aNW | +3aN4rgoyFoLFwt6p1E5TPpDmwKTmSiJ
+             MV8cczqTOQk=                     | /CY2flc9Djo=
+ RMD160    : 4M/6+6m3tquJhqrV+AtbiPEiTxc=     | jjN1S6emud2dJcyZV+5NBeF31GY=
+
+File: /usr/lib/electron/libvk_swiftshader.so
+ Size      : 4444760                          | 4497904
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : tP2GMltU6VncQfZksZ8ryw==         | G4KjijPN5epmbrtAtiYl6Q==
+ SHA256    : 1/Lgnls82zWIUl533y4gLKihML7xRlMC | m4XAhXfv7vIlH8dBU/TmQBUGYEeWW63O
+             zX3KI0SRB1w=                     | F4Pg+h8O8nw=
+ RMD160    : KawBZBWjUZN6iB/vIFoGGbl6S2o=     | IPtTRS3MHvB7+CUzFDB2Nn/qqVc=
+
+File: /usr/lib/electron/libvulkan.so.1
+ Size      : 295904                           | 363376
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : mnt2t21CAgV8BsGaJ7Uetg==         | Gx9+uyslzKjul3sXzFdRLQ==
+ SHA256    : UwUoI/sWC40YdOJEbOEyWd8FKuV/ypj2 | JJgy55wW2QhrASHIJD3EPF7nVFT6Ck3p
+             OermP06lohw=                     | Z82t145oMgo=
+ RMD160    : OfGl3u8jZqvD4czCeJEJEKcWAM4=     | 9qidsk10IVa3N7vR6Bx6X2QeNQw=
+
+Directory: /usr/lib/electron/locales
+ Mtime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/electron/locales/am.pak
+ Size      : 175867                           | 176905
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : vtflizY5nxogepQJ3djzYg==         | /h5gjr855EgTA6LzJu7llw==
+ SHA256    : lEkzulXh0Kozj4BHiA1Z15fz9rHBor7L | HxohadK8ltEauLFyGZkvx3cn5ksar2wV
+             HfXsk7607lY=                     | 0fzPZJ7w9Lc=
+ RMD160    : +UeQcBexzjuzf8MAmHgcNJ9omFA=     | F8H7GVpnJ0iItNWMWCBrZIcUN+s=
+
+File: /usr/lib/electron/locales/ar.pak
+ Size      : 181683                           | 182825
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : jxThiqFS7fYRz+n1zXHipw==         | KmXCL++PJCu4Nf6Gq4WK1A==
+ SHA256    : kIGalODEJ7x8Ecrz+xP0QrFPosp/h5aS | wDKS1TI0MaYi8bMEKW7aIIe+njSkjnaB
+             j4Z0/MayNI0=                     | Ljqw3ZEn5gA=
+ RMD160    : XfNPHZzleGJCvbnJHcqA6NOAzH0=     | SFqbFV6ha52fVX54rJK6gf78oks=
+
+File: /usr/lib/electron/locales/bg.pak
+ Size      : 195247                           | 197697
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : ls7yeX9sAT3IZhj66B0dGQ==         | jE0uHhEAmLZUDzFeJw/h6A==
+ SHA256    : K0hOQpwQ5QEYJC3BxwmyFb4xvbPUEQH6 | J2AkNsmOW7ew7/D7BXOvetHlP7QMoA2i
+             VRepbT9Z9No=                     | EblEcaJ68SU=
+ RMD160    : ubYLCxEVYaVr+AdNvuTE0yn1HYQ=     | sLB39Iz4GUQ7XyDB+VeTpNQE0gs=
+
+File: /usr/lib/electron/locales/bn.pak
+ Size      : 252001                           | 255800
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : L6TN1NwlRWPBYKfwQYOftg==         | MeUBEzviOIzQIzSkXo5CdQ==
+ SHA256    : u/5e90kDDw1TzWFJVHmD1fv8xjKIg5Vd | ZrV78qACL46VKyyFTgm08YdKNJt2tJfr
+             Rqc9q7j7XwM=                     | NCSJG8IKPl4=
+ RMD160    : tux0h10Jw7bY/BEWpBDAerh3jyA=     | lUrWsF3XlMYwyCe3e6e9AeFxPdg=
+
+File: /usr/lib/electron/locales/ca.pak
+ Size      : 122404                           | 122788
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : L5fp7UL1J2sVnibfkGh7dA==         | 5bStINiXt6ItKpzaSXqxiw==
+ SHA256    : RrccygKr2OjHGqQHYa1aBVxvMHYiD6RO | Rkdlrb6VBfDcNHKwBNPw+G4k82hJZnEK
+             mAsI/+Jk7p4=                     | XkTaE+inpxg=
+ RMD160    : u+1slirBB6+75SLgGb+xnyHjOiY=     | p3++ZsWJ8VcziJ7kWAr6DtVyurA=
+
+File: /usr/lib/electron/locales/cs.pak
+ Size      : 125849                           | 126008
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : G5v4VBwgTLRv3RlEyKk7Uw==         | 1tNDOmWOKy4jGJO/vEsP8g==
+ SHA256    : /6m0tHWCsqvkyPkOLbtyRsl1ilh/egMg | JMpYMrOkD3mkM+drc8New5mzJXFyRuyH
+             PuuOItuJQ+E=                     | YP8pvkYUWys=
+ RMD160    : DdepZrsDufkS5pi+q1DrjtdL5wo=     | GzyZQw1DK+ip0ABqwiFNf/0BOR8=
+
+File: /usr/lib/electron/locales/da.pak
+ Size      : 114528                           | 114662
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : BTwrmU1DpZq8MSnO9W4Cgg==         | 8LafP4QU1+RuBRnjdS0Lbw==
+ SHA256    : Beb2HFjB4wmCyPx+DpXZBuRWIhCGC9z+ | hnWFDM4aUSRZZR6kF/maOjf/HkoYYe3z
+             SrCMhfkF90s=                     | NE3eg6nEmUA=
+ RMD160    : pYome4mvbM6IrSMp6SL4tQ5njf4=     | 9lZTPbSz/xg3TW5f9W8+hF8TFKo=
+
+File: /usr/lib/electron/locales/de.pak
+ Size      : 123532                           | 123987
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : VmWjQ1BBYHq2842cgtS9cA==         | mlCJeHVmu9HEUTGZehvCTA==
+ SHA256    : uacrwVcg6JLUt0dmlIIYu1/aJvKpz3aN | z0bVkoaQ+RAmSZHtaIDdL9tPF8N9rk0L
+             QpAPiPYFs5Q=                     | Ck/DDhRiGjs=
+ RMD160    : qLZ0eLKB1G8wOCyqC38MoN+QWw0=     | i7bkrgIiQRofAT5XOnUhL8fug84=
+
+File: /usr/lib/electron/locales/el.pak
+ Size      : 214649                           | 218121
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : knJWN1fiGcsL2orGJ1hv6w==         | GE+gtEzb0JTiyL2+M7+PlA==
+ SHA256    : B7bWsT6ThHg2q7XdTomh/e7lMqFwWZej | kRrePiA+EVBnel6z2p2mz0XHhkmb4xe8
+             v9ySO7bgid0=                     | zyf7mpK3lwQ=
+ RMD160    : Gl15DlOvT/q6PkHCk2Iz2wEe6AE=     | 8DrKk/GynaC+ucvXJmKxYz5Pw/c=
+
+File: /usr/lib/electron/locales/en-GB.pak
+ Size      : 100473                           | 100136
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : csbv/ju7WUmOOyHeDizTCg==         | bPqIcknC/5nR1/ALhOeT1g==
+ SHA256    : Ssflusn7VSv5MmTObaiL0BOkLnFAPkmi | wv/D8IXMCNZIwUyT/p88KunlrMKjhMy3
+             AWicsIiZyH0=                     | WhhGi3XAaMA=
+ RMD160    : peXZfgk3mFH4sBm0YDfvcxsSgTM=     | YleTLl4wppbmSgkDPw/Q6GJuVu0=
+
+File: /usr/lib/electron/locales/en-US.pak
+ Size      : 101327                           | 100956
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : SMIHROf6Ho5qO6lJovGy8A==         | 5dP099ji3vTm5Ynn+Ucc1w==
+ SHA256    : rBJ1csQ16gulefqkLcQS7jB4qD8+jqdU | DptK3Nf9o8Pk+F4HkcAdwkSD8dQRF/bb
+             NDTNxv4eZj4=                     | S02l+SWUo3Q=
+ RMD160    : HrLLRUndc/SabSLL7rsCV86nT5w=     | GNzAgcL9qQFeCyLLl9ADQZCS31g=
+
+File: /usr/lib/electron/locales/es-419.pak
+ Size      : 120988                           | 121595
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 6c6JD9qMq1wPxv3dZkui9A==         | 2fMlrZ22dgNo0Mr49geMTA==
+ SHA256    : tuf1NO2GDU+/4gEONflCgO21lf/diDEj | MzpKxXYixXl0ZKwgl0fRSUQ1TT5iU/s8
+             rfgync/e3qo=                     | 07QnJe8q8B8=
+ RMD160    : cTqdsUj8lo/2ppvMx/elacRtRdY=     | p0+nc/eB+iwGTY49fba1+DraMes=
+
+File: /usr/lib/electron/locales/es.pak
+ Size      : 122233                           | 122956
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : wwNUA4MkEfX1meE1fh/AxA==         | 8SlPsIbCDEQZyXlVqcyaZA==
+ SHA256    : Uvc8FFDo5h3j4L5+kqc4UBTGCX7w13Rb | TrufC/1Jx7osqtK3zs9dAQHiRbyaQJFM
+             EM7Rh/p9Aqg=                     | gEI9PiV4kiU=
+ RMD160    : NL97SOreT5fC1CJJ8YAbSvoEveU=     | jl/etT62sbH+4LFhCFfJSvQxux0=
+
+File: /usr/lib/electron/locales/et.pak
+ Size      : 110183                           | 110520
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : RgTsrFTRZEpNPmlHE1r/WQ==         | Q1ZUuyYH9Z2lUvWrHZ2N7Q==
+ SHA256    : 0SdO85nkBOUuCeOTdDxcihpmId8S8Z64 | 0SSdNo5QBEFz16RZGqIes29dJ9NdI53O
+             N0dMBFTDakk=                     | DeIatc+pxag=
+ RMD160    : nwx/3Hq4kMgZ3PUNRPpGA7Uy3wk=     | UEefLBrTD0VaTrxst33q9ktCAMc=
+
+File: /usr/lib/electron/locales/fa.pak
+ Size      : 172786                           | 175147
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : C8XeG5tovUQ0SIiWgoTc4A==         | Rht9zYOZl3aJXsS0hBjvyg==
+ SHA256    : 1wV+rZ9Mql8hC9U7iUfR6s1faf+Xhz7W | 9odeV1rcsCKFwKECbKTHRkfKg5pJlTOr
+             zWJA6ViaXKw=                     | 3rgK23JyXGU=
+ RMD160    : CV+KnzJ8JD401KSUxnRc7q9nV8k=     | GSJPaIOApBtqZkrFBOEsG5jf0uU=
+
+File: /usr/lib/electron/locales/fi.pak
+ Size      : 112362                           | 112609
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : YNHVgKo8FcCjy/fVtgVtTg==         | vH/uGHQ/ro5M9xMPds+E+g==
+ SHA256    : xxiQ0x1yAUuZ/Rba2vIuFmUgYGGYswM9 | E4Z4uVP61Lb40CkrBsQAEA06/m5DLcbf
+             WqAbUXZdcUk=                     | JwvkRNVQoFI=
+ RMD160    : 80701/2fdWJ6fw9jrYnXZPen7Z0=     | 9Xam5HNATnQE5l3L19/6E+h90/I=
+
+File: /usr/lib/electron/locales/fil.pak
+ Size      : 125920                           | 126730
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : dBF0xRfUjEsZrAolZM8rPQ==         | lo71qi2pLJF/LLinUX8A8A==
+ SHA256    : 6+14r1g4dO4xcAIw1pUr7Zo+La0xPEfC | KgPnHsY6UNi6VM1BuQj2T+ucozaGVaKO
+             RspHB2Z0T3A=                     | oETY/op2SAs=
+ RMD160    : kHc7Rjq3BRN0MmJgWWhVstjrXD8=     | SpM2elzajLzsg04fkCiedpd1N1A=
+
+File: /usr/lib/electron/locales/fr.pak
+ Size      : 131611                           | 131921
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : ak84gkdG9N74n4ygF6bXPw==         | q+S2Qd0sBo6Rl5m2AKF50A==
+ SHA256    : szaVYA34zprBh3Gk50V7kPot2LnsL0L/ | iTlZvVBnvwtXz85sHitriyu9AeiBwR2h
+             fRHZfWzt3gw=                     | K06WAT0qub8=
+ RMD160    : Kf9TELdKhKQbRwFZoWplCvw/RKc=     | 4AYiLEUxNd9CEgYG1MSwsc+x+Kc=
+
+File: /usr/lib/electron/locales/gu.pak
+ Size      : 242482                           | 247192
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : vF8PctmarQN2+xeaSPxQOQ==         | 1OFQR8of6Kerrv6tLQ3GnA==
+ SHA256    : SKec+3HuDHua5XU0TufhrCjToTkLYY/b | RKfAIsSYQf2gHsLlQ6HVLZR/DUxLSFiO
+             dhTbDZZMvJY=                     | lHmdHUqEoWs=
+ RMD160    : 9rt4mtixZEah30hQJXwRwzICwlo=     | wqIN/jqMdnRRCkBi4M3qAv4P+/U=
+
+File: /usr/lib/electron/locales/he.pak
+ Size      : 151734                           | 152496
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : hlrTDGi/hmag94CpS9NV3w==         | +3jN2CESdyfyfyHP1E5esA==
+ SHA256    : R/ebB074w9sS+G9CbUPrrwiJlOCb8wGc | 89yewfpK2OO5ogXYgevNkwcNFL6mUxtn
+             1Yt8HXEVeM4=                     | uLANW0H5lL0=
+ RMD160    : mIIGfyouMGg+DOQ27Oqnj72Fnjk=     | U9IFox2/xC8vhjQHenhr7StAs2Q=
+
+File: /usr/lib/electron/locales/hi.pak
+ Size      : 251357                           | 255452
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : wCtWzMlmazSwXgMwlZ+L3g==         | x/5vYwzGHKCuSZjgQNhrAg==
+ SHA256    : o/cVMvNd9Z2DnW4pvbhz2bXFZvZz6Rm9 | ZmgIQHm9xz5VRH74NpS/oFFicLAPTwaF
+             oU9EQ6dk3Bw=                     | eSfyz1ocI3Q=
+ RMD160    : GzjdjS7GdgQdqF1TVEg/awO5Fr0=     | qn3QhfMK2fLisd2/o8j0Lt3uL/Q=
+
+File: /usr/lib/electron/locales/hr.pak
+ Size      : 120274                           | 120391
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : UuR5zV8MrAgwPuF83Slmbg==         | oOu/66LM2/Blg+17UBuWxw==
+ SHA256    : w9e8GnIsQjcuf7hio8rGURyWRdHIAJk1 | qyfGWYqRgYZq4tdIZC8fVS7pajvgDzQC
+             zER661Z25mU=                     | OAhSJgjTdgg=
+ RMD160    : 7AQ+V3PgAoN8JMa/X2ioW18XDy8=     | Ys2KwoZF9eMw653xy/YxS0fKGrw=
+
+File: /usr/lib/electron/locales/hu.pak
+ Size      : 129361                           | 130409
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : h2IvDlBc+kNTh0OaRxz4bA==         | 7P3G+dXGF0IWV8Y1k6vUJg==
+ SHA256    : mqkRanaYowcLjgeLv0XrTYpDQOJgKXC4 | ohdV5BybdDvFI5gfSfFpCd1DOCtD1pzJ
+             wMNjXzz1eKg=                     | O4Ea7GjeOa8=
+ RMD160    : yIk1bUAOCRUFhQh/neAIqNoJ3Ck=     | ga3Fb9gqIFJHKxa4dyupAaw81os=
+
+File: /usr/lib/electron/locales/id.pak
+ Size      : 109209                           | 108883
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : f6XQvDvjHCwsbSKGlBZxCQ==         | 5NoisEBJJrn2P0ZXrXQYoQ==
+ SHA256    : foGm/UfK1fkcqFEhgqj86RwPJ4llpC/U | Ci1cDEA5vugilxsbpU7iFKa0s7imVVq1
+             6kAlzIIyaZg=                     | Tr8EdTHt2EA=
+ RMD160    : 4lY1rEjti9N2yWzkLAFaepKEw5g=     | Fz+y7mTSAzaUgZr/xikUZ1qINpY=
+
+File: /usr/lib/electron/locales/it.pak
+ Size      : 122775                           | 123883
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : Gortip+34GW0qul6uRWuCA==         | 6xjh7a9TSzmkQjUR8teRkg==
+ SHA256    : VW1ekDQsURgyUgBGcU8atcEXNohe9S2A | oFZSPq6g0o6jrbtleu3e7hqsWXk/B2gi
+             QCmRJOCkOik=                     | r5e2MDylX8E=
+ RMD160    : r0wUlC0M7FggpHRcbj8LgRqheuo=     | X2Fihqqb5Nm2HcHyT0V69LWn8iQ=
+
+File: /usr/lib/electron/locales/ja.pak
+ Size      : 144544                           | 144605
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : /nRXcPvMIlbe0tuomOBKhQ==         | E6beLp2OjamcoEiFrP+UMg==
+ SHA256    : 1pgB0m49m2GW1jz5gn7IN/mLNMe1uuPN | DMj8RHdrLp6aYLs2u5Dennk/Pge/shHd
+             +KyFcc7eV0A=                     | 3O9ftSIuIqw=
+ RMD160    : loeVeW7qihsUtmawTvCx1XyvoqY=     | gau1+kZtFm3mAK0sDo1nwmgXNwk=
+
+File: /usr/lib/electron/locales/kn.pak
+ Size      : 276082                           | 279508
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : kjxYXW7Tsh1Z61qo+nJZeA==         | HAU8IR/z7F0Ey4qIwW+y2w==
+ SHA256    : bOlbtkBdIn8DxLErjQ82T0VlWF5RPwQs | y4t0VtfvgBFybZkncQV1i/k3VyijDOMz
+             uuAYNVG/KW0=                     | 3G99YHxPqJE=
+ RMD160    : HF1BuhnVqscSq7YuUTqFEjynYSA=     | I/8qqqo4wsCxSARi8X0vI61RXp8=
+
+File: /usr/lib/electron/locales/ko.pak
+ Size      : 120031                           | 120957
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : nPaCLo5QQBMkOLjeWy5AQw==         | kIw5mX1Ku3aQnwBtJW/cwA==
+ SHA256    : YELU5xMB054nOKCf2k88Sk/qbMbw1FxX | Q/PhFO7FIAks559xmfbJFAGz272CAGEO
+             p53B+DX0VUY=                     | 5IurYv/nqi4=
+ RMD160    : D4j7mF0U7wo4B/hXjuparRFn40g=     | SojUfAS7Mu2HEvgXs3PKmR0B1xE=
+
+File: /usr/lib/electron/locales/lt.pak
+ Size      : 131771                           | 132643
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : RLIb2Cqg5aWnifx8nS526Q==         | FF6ggNiT7JPjjw2j2cV6sQ==
+ SHA256    : Cu/f1lZc1aLqCGo+SdNOoUbIR/zqTxT9 | dnTQ0tBWIPd0jIYxsJPn4u5+E08OM1i7
+             y0IKZaHxpMA=                     | 2PObst0YFOs=
+ RMD160    : 20fdKPxV+Zakf7ChuDt+P/Vb1hY=     | DCWSdx+fWMObX4NYgGdUulsszNY=
+
+File: /usr/lib/electron/locales/lv.pak
+ Size      : 130870                           | 131608
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : h9+tbKpUttcd72G22Z2Ysw==         | 3Jgu0YQya9TG9iCgZYmIyg==
+ SHA256    : IkIrR/52yiX4XiRjbFApvFOpuH3AkEE6 | ysRGUVw37kent7DFgvGNyeBheWQvJwnD
+             S8DmlNgQ0qM=                     | Z0AoLuZlImU=
+ RMD160    : 0dql9qH1Jv9XfHoaBfSjk3x236M=     | gZ0F2UmYIDRXIj4FTjvexvjXLQo=
+
+File: /usr/lib/electron/locales/ml.pak
+ Size      : 290555                           | 294968
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 6FRGbh2B7kI7tIcy9wjLzA==         | mnXaPqj5YT6V+zprS5cyug==
+ SHA256    : ggQGGgNNPEIJ0OOzSihJg8xLPU4Va8JA | b5aXl8r3KBtLbDxJfbo5tsf3S+adTlBr
+             kN3JOejg+hM=                     | LsO6bs35ptQ=
+ RMD160    : Kg4biWfGFYGBBmmOVcQnmxeu/Wc=     | UCldz0s4e7gioOwjPdO+PmBmqFw=
+
+File: /usr/lib/electron/locales/mr.pak
+ Size      : 238158                           | 242303
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 3lHF0IVU7daRDCUV4B0g1w==         | Oms4K+gwLBgK9FZ5Nyl6NA==
+ SHA256    : sm42TkbGp4UgmX3b8Oc1C2IJ26dhff++ | oFJfa68tt2Z3q5N9hVKNJJ6nugkmn4Wh
+             /yRRe9jDGJQ=                     | gIPVFNEnkPY=
+ RMD160    : CbpKVkNJ6sE1boDhSd/T16NlTOY=     | hdgfulQ3Ecvok+iTlyCA9EdXGZ8=
+
+File: /usr/lib/electron/locales/ms.pak
+ Size      : 112528                           | 112490
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 8QBtM9X4JLqU4q/03FnaVA==         | dMYJbYrusJRM3XbTLuev5w==
+ SHA256    : vx4gtEqsa72wDiIWqsv5yKD3fI2r0Lg7 | aTVasFjthTUax0W6ug01OqfU0Whi+4Sf
+             pxcKAnoydA8=                     | 0fdzoQwe57A=
+ RMD160    : A8ONP2nV7f8NJe2TjraKkU6IK7I=     | 8uzSXIz7IILiV5vovSjMDT1+NYQ=
+
+File: /usr/lib/electron/locales/nb.pak
+ Size      : 111294                           | 111147
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : x1AxdH6BgLzfRHxqunciDQ==         | JRq9570DRAZT7okvAeFz7Q==
+ SHA256    : TtcU2ZiYgIKHYDAq25PIeICviGVkCj0E | VRT9UnYPYQ4KwtzZW7NOfd/4WW1AR0PR
+             vGy5GURZs4M=                     | Vo/ptQKNi54=
+ RMD160    : GnfnNMKHw5qzyVa62Dxmv78sEjk=     | mxYDS2M1yw+3hUaLBvBokeMpfew=
+
+File: /usr/lib/electron/locales/nl.pak
+ Size      : 115025                           | 115364
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : B0ShcJ8O7NHk/bjEufI9vg==         | 9iQskaglQbkBSODbjLbZUg==
+ SHA256    : doYkPpqEZX1J9xBWjGkymr78Bq++Q8D5 | WVrugWWnSMNTQlStTrFQMs5OgHiAzFt7
+             HpWP0cOaLSg=                     | B3r4E/IZfNQ=
+ RMD160    : HYm7hnlsIyNB5dVDBRY1t+KW6zc=     | jaTSVOTKBhOZjA5NN9yU106/5DM=
+
+File: /usr/lib/electron/locales/pl.pak
+ Size      : 125878                           | 126108
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 6OjNWJvIM//xcMlFPWl3+g==         | 73hBTH4TuUp4uWJ8sQXzsQ==
+ SHA256    : eI6kzHxAOZFrAllLeoVGdK45NhG45fMT | DJhGOyXCesYYWmWvOxRjZCqRfUicxNMz
+             VIvjmg82jls=                     | adIIHVBqM40=
+ RMD160    : Kn3KGoXQllMAou195wQPz2xyG0E=     | RZ51jmR21It5092f13c2fVLxOyE=
+
+File: /usr/lib/electron/locales/pt-BR.pak
+ Size      : 119667                           | 120211
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : PTDDza9boYNOiEr/KioXeQ==         | GFklOAyYx9yBLYE2ZZzaiQ==
+ SHA256    : 6miH8T/hXA9hARUoPxsnjTv4UiIV66Vn | 1oa+h9CvmTQwRTLgIQpNpDVs8ptAeMFH
+             ro/xGhLCvYk=                     | ORooNIYuM94=
+ RMD160    : R2lX7VGvWPqhNSBZYruI1gdgHo0=     | EG1IxOlMbUIqh+pFJNXnBVYU7es=
+
+File: /usr/lib/electron/locales/pt-PT.pak
+ Size      : 123487                           | 123673
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 94aFRdqEgquKFE8yg24KNw==         | 8vh4bq4paFSrUw65g7PMjg==
+ SHA256    : 1xqJPnkmvcOBw/mKP0WsvtxjljFctTPQ | p0J6HvKEQ0b1jk3UivC+iq9ERCwAQAZh
+             UNmkteOoq9o=                     | 7V7Yk2fhyj8=
+ RMD160    : Dfa9rVr2s8Yj5QxI2Jdd+/AEcEo=     | XaHZfSSDdflhpL1vUuSDZq7aaoY=
+
+File: /usr/lib/electron/locales/ro.pak
+ Size      : 122430                           | 123264
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : H2UT+iOv2Cqf4N/L17fRYA==         | G+Rqph1eiGrBV8VIqjp/Uw==
+ SHA256    : 9MZ2JTsT2Khti6NQPV7b0SVB1fL9B8Bh | URbzF4EZJ8UiIGSamYTkAbHSBfXdTfPV
+             V2hfGS1wsWw=                     | i9cbqq9Lck0=
+ RMD160    : +W9oMh9c8bngaSa/Hm/t40/MaKY=     | +tUDJM1W4voFbOrxpy7tW+zeb1Q=
+
+File: /usr/lib/electron/locales/ru.pak
+ Size      : 195492                           | 197158
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : gt8np/b5iNuvfp6bJ4YnWQ==         | BPzYyAZkAV1W8lJqr0oVVw==
+ SHA256    : BhbOHEF7d0eiTQWd7E83Bi8OdlNJR/f6 | VSl+PW6rc8VKJy2E8JlFFduxFfMoR6Ca
+             QZQRe7yyaiU=                     | 0eTctDP0p2w=
+ RMD160    : QyjA/gTeHPecGFxttzbSgPpCy/0=     | nTqWviF8fTzIrxpY6hORUkf4rYY=
+
+File: /usr/lib/electron/locales/sk.pak
+ Size      : 128022                           | 128182
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : Cy7H9HmIXCbJDaib72MA9w==         | OY9dwDa8TIAgOkWvqr0VNQ==
+ SHA256    : MqP4hsv2rSZNCKKih0GIekD12/pIIBCl | bwZTODTbCQEjMdChStMUka3aCh/RldLg
+             IA+kSlZfmSY=                     | B8Rel+/jmhM=
+ RMD160    : uioq0l2Sok2X81MAuVn6b/HzoDU=     | txnp/YdX774MHXyS3d1KUwIvpec=
+
+File: /usr/lib/electron/locales/sl.pak
+ Size      : 121776                           | 121992
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : jXqcLx23IQwW3DdXxHIrTA==         | 6bmgWNK4HYxZJjo+9yVtIw==
+ SHA256    : 66J5YzTyjlx79bLjSVJGPBQxy645XaLX | qs6/VXT6fpcB656udbZlDCYR3gYHDQjl
+             ylCGFv5e/WI=                     | Ic8hkpkMrNI=
+ RMD160    : qOLO2X7dagVKBAss93SyR2ESALk=     | bN0Rmr3RsaMfZ38+tYK8X2cExtA=
+
+File: /usr/lib/electron/locales/sr.pak
+ Size      : 185350                           | 186471
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : SPZ3GJBv6bNqEZmfdlHFOw==         | EovZmmofra/bBcm8TLOzaw==
+ SHA256    : xbkohzmlH9KP+3Sun+ita7HIZg4+qJvj | RNmltzj//ikARgt+9LrZQpSi4vlMA1x/
+             63E2yihNdpk=                     | x2HWkB7Q2nk=
+ RMD160    : RCyxK4501otPb+up+b74ACivALU=     | 0YxkAwZbVKO0NRwq2MFBBrD5kPs=
+
+File: /usr/lib/electron/locales/sv.pak
+ Size      : 111606                           | 111541
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : wV7mUwRVmqgm+zsek+oWpQ==         | z/oFAf2GZjKVSItvetMi+Q==
+ SHA256    : mxUr1DvbqDw8f+8uscOpHlysIRzCEDoa | gyrUMhFfMk4vGxWJfporkYfG2kcQ2vSJ
+             22U5mkBqRg4=                     | txpDKxyTvRs=
+ RMD160    : nlHVztrDRiH+DoB0OslYKSxAUgU=     | Su4ZfyiJ9WTWt4VHrNlm9Sd88go=
+
+File: /usr/lib/electron/locales/sw.pak
+ Size      : 114769                           | 115258
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : JCmo27beescaGAJoV0wnpA==         | TiefNbIO3nGiTrlRwsqX3Q==
+ SHA256    : 3HiqVavwXKRoAVC8JEI60neZ6qPsPbxs | 7MD+0zoymE4mEgmyk0mZAwYcocJNvWRF
+             PUmHVFPvSFg=                     | +lR1aJTwAKg=
+ RMD160    : kMeQ7ualJL5CnxKjhmvACZnlkuU=     | fvvVKn7Ujst4vzy8gBW6+1EEU8c=
+
+File: /usr/lib/electron/locales/ta.pak
+ Size      : 288553                           | 292638
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 6NVgf/9FmCeHsTkTDsnCyw==         | Y9q+Bk2kZ2CkczHV7tn8RA==
+ SHA256    : oxmLRs1eQLdw/uORPn0IsfoEVqRCDFM7 | IjUbGuSxQUtyZEG5rd+tcEjrq6FGsHNd
+             6mv/mImu1/A=                     | zT6Z5/qxWa8=
+ RMD160    : lczlgQoFXsTD0E2mtqTbzfT7rlc=     | SnrCw+EDqgr2Z1tebdilfxOEyP8=
+
+File: /usr/lib/electron/locales/te.pak
+ Size      : 267715                           | 272599
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : bwdrT82X+e8FwNFRzaaxfA==         | FdopQybhT/+WSQF6eB1trA==
+ SHA256    : mY4cuGkr5y/FX1d9i/Em6vyNHLxwkYbc | tboZ/wvvLazSwxW+PhnplNiYhPpRtHxs
+             c/bHuBFxyvw=                     | YtpYxl9X+O8=
+ RMD160    : dtX4v0bi8fUhR+JKGlVALtSAhjU=     | /d55YN8vbNRUwXQuGsclMv/qvNk=
+
+File: /usr/lib/electron/locales/th.pak
+ Size      : 225821                           | 229029
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : v+Z4PGBJ4SSMb22qvGWS6w==         | 2mIsnwtzqc7nbMtr7KysmA==
+ SHA256    : TpPNGmCW6SJedOGlsDqIH1p2j3ITbny9 | 8wPAVr3gjrATfrAL3Uumuz4wC3BKhO1Q
+             lqdU2DToKxk=                     | nVDyCEVTt1Q=
+ RMD160    : hUViikF4/Ue/UYeyTsvFy5EFBZ0=     | sdcl3In843GsMtyudunJtT1+QiA=
+
+File: /usr/lib/electron/locales/tr.pak
+ Size      : 117415                           | 117704
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : vtxlcXIEinzfMDsVBxqB4g==         | aw5CpdqufS1rx3rYFePy3w==
+ SHA256    : S7EW6ddWplvkdcqv72BMhc1q17hISzrI | 2973eTY8O41LTYqd9IhQUYdy4dviWiAM
+             SAWYpMzI1aw=                     | 33OIOE5mNlU=
+ RMD160    : 9ENf7n2g1GdJwmrudXUHfp+E/xk=     | 8BxNTZS1VMrcyqVtGfrGFJlyAOs=
+
+File: /usr/lib/electron/locales/uk.pak
+ Size      : 197773                           | 199665
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : GlMrs2cvXWrimVk5Zr9eUA==         | 27NfKG2og6ib+oawWghMiQ==
+ SHA256    : 9gKTH6ahxaohBbC/fIfXa9cCJa0BCOB/ | fRJP4Jtkr+YrmxFFkKvG4BVoalp17/L6
+             LUesjZ781P4=                     | l1LGj7CP1qo=
+ RMD160    : ykv+oWyq7tgZh5yDesrb+UL0x9Q=     | MVc+r63v+Lztf4G/pnqYdG1ZRQw=
+
+File: /usr/lib/electron/locales/vi.pak
+ Size      : 139478                           | 141145
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : cY/36Y1UAloPf4yU6KjaGw==         | zOdCIzsd9Zs50Gg1YtmlhQ==
+ SHA256    : 4d8Xcd4/i6bOUjCJrmD9YLzX5qdqQ5kQ | yS/N0DgbTmDv0W1mvWP8BoPDQEq6WBPa
+             c3EpZkGiEEs=                     | uFtdLAQnS4k=
+ RMD160    : uBqf1UIcO9kPFn0pePpoVlJlswg=     | 9YYYqVbQJadlzzav6mB1VWk75zE=
+
+File: /usr/lib/electron/locales/zh-CN.pak
+ Size      : 102574                           | 102205
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : tBdiqn5y52otwjJHw41Dig==         | VBAz1HLItT4Cm/NDUoaiBA==
+ SHA256    : NnguD1/kWaxAdgvsg9UW281VC3jV3Qro | mrc+K9ZdvqrYEb+askZjyRcJgJqHLnJL
+             Dw1Vj/2Op3w=                     | FWMTU2GFHbc=
+ RMD160    : X8hqvj0nVrM6BdfL5QKdhaUersk=     | a9CPk32jXCuR+lT72ot9/hM9wBs=
+
+File: /usr/lib/electron/locales/zh-TW.pak
+ Size      : 101968                           | 101430
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : L4Myi5uWid0zhN3Pme4ssA==         | 0mQ8TvrXai75pTuRuU/ZRA==
+ SHA256    : ljYOfAC6MEWtS6j7FDDS858HmUEKdnyt | 1CMRw9mICgeIhJ4jibJBXH35W+fMDlyv
+             Wb0jk506bgA=                     | YbUOXRyOcO8=
+ RMD160    : C5A7sLc8I/sSpfHiuxATIC6gOb4=     | Jj/5WqOzeAvPHb+LMophaLQG8Ws=
+
+Directory: /usr/lib/electron/resources
+ Mtime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/electron/resources/default_app.asar
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/electron/resources.pak
+ Size      : 5122551                          | 5052483
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : yGJY8SNS82E63hz9Bt/I+g==         | SPwKFke1BQkOaEvs97If4Q==
+ SHA256    : HoTVg1rW2quzfkezUQBmIUx6S3fviNwQ | sfmBnFgdF8Z6Bf0cHXtkDUL/1KAjk6mm
+             QJoOpZak+qo=                     | GFuySPFShTE=
+ RMD160    : zWSW0uqpxCJdnddL6qXU+1EBzAE=     | Brv4L0GbQ40kTe9oMgu9TwRk39Q=
+
+File: /usr/lib/electron/snapshot_blob.bin
+ Size      : 49586                            | 351072
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 9sGjYoxrcfs0mzzXOyH6HA==         | XEQDnM+Wp7+m5brAXRs9wg==
+ SHA256    : RdgTNKa3+XR2iRXyZLuJt0edSI8539/j | N6a2GqjgjwIXJw8l5Kuuuc4D8DnJGHN/
+             UG7e74MIczg=                     | KT/Jfh2eVNM=
+ RMD160    : prK/60Emeib7qC76i1nf/QhBrM8=     | L3EuvndMlI7bIuulVO0/nZHhG5M=
+
+Directory: /usr/lib/electron/swiftshader
+ Mtime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/electron/swiftshader/libEGL.so
+ Size      : 58816                            | 58720
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:40 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 8EakoHLaJAOO8QqLztROpQ==         | OoPrdM+YmamviDoa9fnWAg==
+ SHA256    : VJ4OoIlYx5O0rhuY1hgo1FrRJWrgKeDv | n+I+edfPbv/eI8fHGju56UsYmJKQB7LS
+             eDY0EK7hHBU=                     | qJKnigPoYyQ=
+ RMD160    : sOrKcnN7OUQ8TthyuvJc5QR5jvg=     | EbwR6TmrolM0TnhN8lOfMdvwJ0U=
+
+File: /usr/lib/electron/swiftshader/libGLESv2.so
+ Size      : 2952360                          | 2952248
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : bTtfBsEf1Kxbs1BU3+IS9Q==         | dlfvkfrM5SyO8UMqOTOucA==
+ SHA256    : uO+L4HBplr40rFT+CENKJp6iJ9j5icCL | OigMgZ8BKFJ4euqAabJz/H5qjku17Vme
+             PN/V09KI9tI=                     | 7uU8rlm8mZQ=
+ RMD160    : +iAjBqzBI16qh7A5cel4AdTcIms=     | 2Y0XzcQCtj48LENLkpgM6vFWELs=
+
+File: /usr/lib/electron/v8_context_snapshot.bin
+ Size      : 164931                           | 671784
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : 8zIVJUa+R7KPG6AAYwCJXw==         | yxqVOrBAv7/2IPdgfp6qbw==
+ SHA256    : BtqB5AKrJmoNE8m/XmYh9uASeoH5RnoS | xPWIs/7q9iGNPpReHlptau4FI7nuC0yV
+             esT4uIRkVOA=                     | 7CaVgIFNbXs=
+ RMD160    : /x72AYu8n1d2kt2h8dr4GunF8S0=     | not9ug38cbvhcaOVSRQAdPKDBqQ=
+
+File: /usr/lib/electron/version
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : B060u8sds4DHCGyLPJN8uw==         | +/PFRX5Zi7R6LP6GcazaFg==
+ SHA256    : oR711aYWks8NZ5RQmEWIzuiHl7bcWUyu | tZlEbBACEB8PFPokoO+QsB7KWqugRH/J
+             0yx9jTFNZ3s=                     | 5VLjgqHQvko=
+ RMD160    : 1BQ84HVo3dVblJ1EwUYfOyxFvJw=     | ndrQgQozorR8O0w6gIoc0G9/lk8=
+
+File: /usr/lib/electron/vk_swiftshader_icd.json
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/geoclue
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/lib/geoclue-2.0/demos
+ Mtime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/geoclue-2.0/demos/agent
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/geoclue-2.0/demos/where-am-i
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/lib/girepository-1.0
+ Mtime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/girepository-1.0/Geoclue-2.0.typelib
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Link: /usr/lib/libgeoclue-2.so
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Link: /usr/lib/libgeoclue-2.so.0
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/libgeoclue-2.so.0.0.0
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Link: /usr/lib/libnfs.so
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+Link: /usr/lib/libnfs.so.14
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/libnfs.so.14.0.0
+ Size      : 366320                           | 366432
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+ MD5       : OQIiqPsojU62gCaZYbftLQ==         | 3JJGKDfWxYgUIHfPSkoSGg==
+ SHA256    : sfMSBmPZQDkcFNtA4RRCMPTX8rrn0MGr | aSXbCKq+VcqTLJpWoB+8b2iMYqIKmkR1
+             YKE2/10GapM=                     | 06QQ1VL6B14=
+ RMD160    : E0JfXYnPI1gUU0AynJz7Zr14SjM=     | rOM0LwjIuBQdh3D4koELlm5OpDM=
+
+Directory: /usr/lib/pkgconfig
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/pkgconfig/geoclue-2.0.pc
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/pkgconfig/libgeoclue-2.0.pc
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/pkgconfig/libnfs.pc
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/lib/systemd/system
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/systemd/system/geoclue.service
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/lib/sysusers.d
+ Mtime     : 2022-02-27 20:21:59 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:59 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/sysusers.d/geoclue.conf
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/lib/tmpfiles.d
+ Mtime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/lib/tmpfiles.d/geoclue.conf
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/applications
+ Size      : 2384                             | 2344
+ Mtime     : 2022-02-27 20:26:42 +0200        | 2022-02-28 16:13:29 +0200
+ Ctime     : 2022-02-27 20:26:42 +0200        | 2022-02-28 16:13:29 +0200
+
+File: /usr/share/applications/electron.desktop
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/applications/geoclue-demo-agent.desktop
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/applications/geoclue-where-am-i.desktop
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/applications/mimeinfo.cache
+ Mtime     : 2022-02-27 20:26:42 +0200        | 2022-02-28 16:13:29 +0200
+ Ctime     : 2022-02-27 20:26:42 +0200        | 2022-02-28 16:13:29 +0200
+ Inode     : 715292                           | 636065
+
+Directory: /usr/share/dbus-1/interfaces
+ Mtime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Agent.xml
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Client.xml
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Location.xml
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Manager.xml
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.xml
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/dbus-1/system-services
+ Mtime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/dbus-1/system.d
+ Mtime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.conf
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/gir-1.0
+ Mtime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:57 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gir-1.0/Geoclue-2.0.gir
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/gtk-doc/html/geoclue
+ Mtime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Agent.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Client.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Location.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Manager.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/geoclue-gclue-enums.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/geoclue.devhelp2
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/home.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/index.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/ix01.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/left-insensitive.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/left.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/license.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/ref-agent-dbus.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/ref-dbus.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/right-insensitive.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/right.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/style.css
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/up-insensitive.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/geoclue/up.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/gtk-doc/html/libgeoclue
+ Mtime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueClient.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueClientProxy.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueLocation.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueLocationProxy.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueManager.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueManagerProxy.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/GClueSimple.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/annotation-glossary.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/ch01.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/ch02.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/ch03.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/ch04.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/ch05.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/home.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/index.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/ix01.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/left-insensitive.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/left.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/libgeoclue-gclue-enums.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/libgeoclue.devhelp2
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/license.html
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/right-insensitive.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/right.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/style.css
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/up-insensitive.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/gtk-doc/html/libgeoclue/up.png
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/icons/hicolor
+ Size      : 576                              | 544
+ Mtime     : 2022-02-27 20:26:02 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:26:02 +0200        | 2022-02-28 16:10:30 +0200
+ Linkcount : 21                               | 20
+
+Directory: /usr/share/icons/hicolor/128x128/apps
+ Size      : 560                              | 528
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:10:30 +0200
+
+Directory: /usr/share/icons/hicolor/16x16/apps
+ Size      : 1032                             | 1000
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:10:30 +0200
+
+Directory: /usr/share/icons/hicolor/256x256/apps
+ Size      : 384                              | 352
+ Mtime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:10:30 +0200
+
+Directory: /usr/share/icons/hicolor/32x32/apps
+ Size      : 816                              | 784
+ Mtime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:10:30 +0200
+
+Directory: /usr/share/icons/hicolor/48x48/apps
+ Size      : 1040                             | 1008
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:10:30 +0200
+
+Directory: /usr/share/icons/hicolor/512x512/apps
+ Size      : 112                              | 80
+ Mtime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:10:30 +0200
+
+Directory: /usr/share/icons/hicolor/64x64/apps
+ Size      : 376                              | 344
+ Mtime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:21:56 +0200        | 2022-02-28 16:10:30 +0200
+
+File: /usr/share/icons/hicolor/icon-theme.cache
+ Size      : 13768                            | 13656
+ Mtime     : 2022-02-27 20:26:02 +0200        | 2022-02-28 16:10:30 +0200
+ Ctime     : 2022-02-27 20:26:02 +0200        | 2022-02-28 16:10:30 +0200
+ Inode     : 715241                           | 66689
+ MD5       : fz6eWmMrTWWnfwzlVBMhFA==         | +bQ461BrLKPP89IF0RSJoA==
+ SHA256    : uA0TnAwGq9l7SLGcMh1uw7lvIeYpROWD | hGAK5LwJPgxbjepo8WMYsuXOenCljohR
+             L/WOUnVVY2w=                     | 9IJxbSupQa8=
+ RMD160    : XIOb0HrI2euBeekGcFcGjC+Z08E=     | fGPeAcCrg+vUtHVgj0YXceTRL7o=
+
+Directory: /usr/share/licenses/electron
+ Mtime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+Link: /usr/share/licenses/electron/LICENSE
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+Link: /usr/share/licenses/electron/LICENSES.chromium.html
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/man/man1
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/man/man1/nfs-cat.1.gz
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/man/man1/nfs-cp.1.gz
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/man/man1/nfs-ls.1.gz
+ Mtime     : 2022-02-17 19:52:18 +0200        | 2022-02-26 11:29:46 +0200
+ Ctime     : 2022-02-27 20:21:21 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/man/man5
+ Mtime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:22:01 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/man/man5/geoclue.5.gz
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/pixmaps
+ Mtime     : 2022-02-27 20:21:59 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:59 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/pixmaps/electron.png
+ Mtime     : 2022-01-30 11:28:07 +0200        | 2022-02-27 13:38:04 +0200
+ Ctime     : 2022-02-27 20:20:41 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/polkit-1/rules.d
+ Mtime     : 2022-02-27 20:21:20 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:20 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/polkit-1/rules.d/org.freedesktop.GeoClue2.rules
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+Directory: /usr/share/vala/vapi
+ Mtime     : 2022-02-27 20:21:28 +0200        | 2022-02-28 16:13:25 +0200
+ Ctime     : 2022-02-27 20:21:28 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/vala/vapi/libgeoclue-2.0.deps
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+File: /usr/share/vala/vapi/libgeoclue-2.0.vapi
+ Mtime     : 2022-02-26 17:18:09 +0200        | 2022-02-27 11:04:55 +0200
+ Ctime     : 2022-02-27 20:21:07 +0200        | 2022-02-28 16:13:25 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : qOxgI5Li0hHROzY1CDP4QQ==
+ SHA1      : nFk/dABHPq9DJp5vE67jOAJtBqU=
+ SHA256    : AUDLuTWwKt+ua8CUO0K+GoY5fCy6Y0ES
+             R6yah8b29eM=
+ SHA512    : hFIAaLiRmzlAm9X6053DbCIXdp5NhodN
+             hUnKAjNIId2bynXEznPspc/+CrkakMJX
+             nq3ZuG48t2Mmnmq1TJHB0g==
+ RMD160    : 3PRrQYx3RuKjGsXH8xvK7+6xN44=
+ TIGER     : CGvzaFm/hG6DgsTl2/5EK2ir3mwx8xZU
+ CRC32     : Im1alA==
+ CRC32B    : iqWq4w==
+ HAVAL     : rwU178TWX0Kb6mZ7afjbXkmQ1QbBocQq
+             l+h8/SWWazo=
+ WHIRLPOOL : S1zPO5HjjMxonXTKKzWfEtpMTvYQ45o3
+             7IX5h/E6+IE5w0kwOQocrlJQMLjcwKeT
+             U0f34suIK7K6M5F0R6tpsQ==
+ GOST      : xRFOoLsogJy5YWG+6O9uXMsysEOnCq2D
+             XZsCBlHsoEE=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : HvUs78NBShyA3BqabIgNnQ==
+ SHA1      : 4CTll6Hc11jjD6iuB3g8MkHbScs=
+ SHA256    : OR1znl9TDozlDrxphx5unkQeLSooIftG
+             FaXyFPyjlQs=
+ SHA512    : Y/N2zVuQuz56Zc77ncAMAZxpE0pefVyx
+             pNd53ZLEowheSH/jJFktIh/PIXJReow9
+             1TDfBM/PYi+MtXWpdD8/Ow==
+ RMD160    : WE/fUNsvgoOxNsVkRiw3DnZDJpM=
+ TIGER     : Mwj4KvjDEcYYQFPIh684bAMcbyZAUWbc
+ CRC32     : CeTiUQ==
+ CRC32B    : sixOzQ==
+ HAVAL     : HqYE+1JajYbG/7dKHaVCbZqvGF+Tg2B9
+             giTAJeZ/0Ig=
+ WHIRLPOOL : R0H5mmqOgehhN4hM0z5EIcNvGPJrzPCl
+             6qbQV9I5RZesTFp2H4LFxfR5RVw/BBxb
+             eMXBCen/3O15lGvYvaUBsw==
+ GOST      : KR9c/zkvlTJTOl0O0wH7i1PXubhzqOjX
+             KFlEFxJf6Pc=
+
+
+End timestamp: 2022-02-28 16:33:19 +0200 (run time: 6m 19s)

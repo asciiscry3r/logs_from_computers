@@ -1,0 +1,78 @@
+Start timestamp: 2022-02-24 19:28:16 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	296440
+  Added entries:		1
+  Removed entries:		0
+  Changed entries:		1
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /root/.cache/vim/swap/%etc%aide.conf.swp
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d > ... mc..  . : /root/.cache/vim/swap
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /root/.cache/vim/swap
+ Size      : 48                               | 88
+ Mtime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:24:42 +0200
+ Ctime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:24:42 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : n+2XO7aOuZRKgW3eBsNgOg==
+ SHA1      : sqOZ2+LO0gcq+c7Ndb3weVg8dFo=
+ SHA256    : nntGHBxycUFlxFCA8vVM4zi0qxMw2nBN
+             prxRKL0TCr8=
+ SHA512    : /dfKNkgHiAQo7MZXmveBxJEM6ee+f3OK
+             ttI34Nx3/ihkzTZ/GW4WMjGq+sd+u4uZ
+             BhIN7FW5VY6lqu8tklwf9g==
+ RMD160    : IdGZVZ0E1FLYwhdRZD+OTdLeUpE=
+ TIGER     : 0wgx/M/QEF26aNNq1CZ+k4uBxz8u0HMY
+ CRC32     : scFVlg==
+ CRC32B    : Inubdg==
+ HAVAL     : bH+iTzMdLGamD8puV0276QzkLdZ8ndzt
+             rYAxSVn4wp8=
+ WHIRLPOOL : s1dWwQmvfKkQIoGmE3SrJsRdMYzBRegi
+             3HsftIZx03z22O1pwDDb2Yut59996Ww7
+             YFOH14uKSharSRCaqPr80Q==
+ GOST      : gh5ErS5mvrHCNpuygaPfXq42miEdBXmU
+             +sz4v9mtNrU=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : /5jP6pxz2Sw2KToEUmB3qQ==
+ SHA1      : SUC3kcDgjyAjqZDTrtryTJjgDHQ=
+ SHA256    : S1wOpnzQ+lgO0NPz6H6WTKlv8S41f7Io
+             gPPvzFMhvS8=
+ SHA512    : nvXCapecHim3qiPkC97AJrS412GgefvI
+             Z/vOEWpGk+OE1GMFVrsEOA23NbAK5Puf
+             rP36Gc3g4vfcycfgtind/A==
+ RMD160    : Iz7sqismFnurV/bW6J5E8slwjEc=
+ TIGER     : 8aUV5nUsEy2QCBGQ9TMPL6/6pQzccNob
+ CRC32     : rUoi1g==
+ CRC32B    : qBEmTw==
+ HAVAL     : h/qtn0UpJ424ZfNZhCxieLs295Kuvoat
+             W5OvypG6qG8=
+ WHIRLPOOL : K7hhbZ8KCj8iTwZBRFHo+TR4wdRXTG5Y
+             KJXv+bR12QUejSsBxki8rauoPYn4lMny
+             roynwPYDgTWCSx5ND+Ohvw==
+ GOST      : +hOPkqYEpNn2dvyq3xnKio3EcTFfe8ol
+             /LsGp8s0VCc=
+
+
+End timestamp: 2022-02-24 19:31:56 +0200 (run time: 3m 40s)

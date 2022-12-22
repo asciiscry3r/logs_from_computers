@@ -1,0 +1,96 @@
+Start timestamp: 2022-03-20 23:47:59 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	309873
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		5
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/aide.conf
+d = ... mc..  . : /root
+d = ... mc..  . : /root/.cache/vim/backup
+d = ... mc..  . : /root/.cache/vim/swap
+f < ... mci.H . : /root/.viminfo
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/aide.conf
+ Inode     : 366884                           | 505800
+
+Directory: /root
+ Mtime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+ Ctime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+
+Directory: /root/.cache/vim/backup
+ Mtime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+ Ctime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+
+Directory: /root/.cache/vim/swap
+ Mtime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+ Ctime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+
+File: /root/.viminfo
+ Size      : 15931                            | 12686
+ Mtime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+ Ctime     : 2022-03-15 01:44:45 +0200        | 2022-03-20 23:40:58 +0200
+ Inode     : 223096                           | 505801
+ MD5       : HXGcfwQ0/DyVbqncd3OO7Q==         | QW5aebLZ5oQPBssV8+v7yw==
+ SHA256    : /CLTmehGmM1ciMzqppQrQXkq2Mt7eedv | 8O8Kj5b6afUBtksiAQ3j42ajEP5RRZvi
+             fnJ6rcmQkGE=                     | purF8+k0rto=
+ RMD160    : ycBKU1+hvSZCL8Mh7DmzWbQPlWM=     | m3uBG5cOBdYejKU4uKqgou9gTKU=
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : 3aMqwFfRTBADaC4idKG6+Q==
+ SHA1      : iQtGdhSDlVpxasIkvwqOYpK4yqE=
+ SHA256    : LGMWxLgOWHykzeuWOL/UWh6lfwMFA22s
+             9tgZPxiba3Y=
+ SHA512    : JUCF7ILXJA6QLcoQ6+eSegLFISSadmzX
+             9Wnxg8FNHb43ELBcAmqJ0p1oN7F+dXL1
+             o5r0XSWQtB9h9PEqNjmr4w==
+ RMD160    : ykv1Il+7/HCsOYdcq/BYIDUp3XE=
+ TIGER     : gk9D9v1blOsi/yIVKm4Zgb/S7qNzy6sd
+ CRC32     : Dwyqjw==
+ CRC32B    : hxZ+xw==
+ HAVAL     : IwtPwgvj1Qqe4Ubz22kwqku4JvSsSOrJ
+             Nhd/v4ZGNTo=
+ WHIRLPOOL : fJ7PU+AbF9Kbja1AEXXfA9YD4V9qD1T7
+             jrlH0GhdSU0LCU4ose7KO+z10GrC7JWU
+             qAbOS4F6Y4nhWPFJua2pxw==
+ GOST      : 0Xy5IRCu83D4jbkbli3Uuy5sdutx7qdn
+             J2tM/ZGvsi8=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : E+uWJXVNXJkIzGu4rWx+nA==
+ SHA1      : lf7LKt1WUezXuvAwJN0Jw6HEXPU=
+ SHA256    : tEYpUXogJByh6e88EJxRgamhgtwLEzF2
+             ESPjxbbDGOw=
+ SHA512    : It9iMNnUPtYlUXZdTpIrG0GDs/E43j2G
+             xnkNO5wSbNgrGfioB8BJjXuLISruka1z
+             eutuEEJw1K5obsYs6ksAYQ==
+ RMD160    : kDADLS/MQhWT/nsfI9UaGaSmc/8=
+ TIGER     : TVkiYbDg1klM6TsNJF9jQRW0gsBihoVG
+ CRC32     : 61bkKg==
+ CRC32B    : F8lwOw==
+ HAVAL     : dx553ypAb8pfhMOYykpMw9/5ztSV69+6
+             E3kVywjz7+k=
+ WHIRLPOOL : mV2IoPy+cWVjbfvcLurdvGqr+cIPgvsy
+             iyLrElOMCwmBqLQRbecqwDxKgdiOPr6Y
+             c5R7bv/z6Xt2ntdIsOZtkw==
+ GOST      : aLTs6cmP3gwvkldh/wxErqY44TLE0C1e
+             KsD7FJZEEVc=
+
+
+End timestamp: 2022-03-20 23:54:36 +0200 (run time: 6m 37s)

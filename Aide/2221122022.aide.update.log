@@ -1,0 +1,52 @@
+Start timestamp: 2022-03-12 22:21:43 +0200 (AIDE 0.17.3)
+AIDE found NO differences between database and filesystem. Looks okay!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Number of entries:	399804
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : IKxCy5VBISpkwG52kfeoDQ==
+ SHA1      : Yv0H8xPISX7jCwst+F7PJDdyVz8=
+ SHA256    : 6YWBJGNBaTb0013hnk6ZavYEkKHMMqRL
+             my7wwKOIl6I=
+ SHA512    : wZEu0bBRZqAmAkwty79//7gTbxa7jcyF
+             z5hfVb69F5g8EfALAJEtwUpmLtBf5ZVJ
+             okFBJhkURlQbgMGX8CUlCw==
+ RMD160    : fP4z6sVeWiRZDe4u+3w0CYvyHeA=
+ TIGER     : PaEJHKSG2KyQpZ60OYTBvXPKo4oBVi8O
+ CRC32     : MD7F2w==
+ CRC32B    : RNoz+Q==
+ HAVAL     : a3aYKKdvQkYwoSLR9HJ7nbojstymYRbk
+             hul2eMjp+6I=
+ WHIRLPOOL : xpCcuBhhx20TA1bsmEcCbbc+d/DIjZ9R
+             wE5+Z1zHAKrqfpuiNvR7Gy+Yh1goQpwp
+             BVgnfPTTcfUS+BwNcTgoSA==
+ GOST      : q+0WUYRUlliJsT1ubFeWZEab1IhLZcIV
+             A0NqLFNAmzU=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : 8IXLXvTlmfMg2J+bUE+B1Q==
+ SHA1      : +2Af/k1CWULMOF9g7p+cqx4UtNY=
+ SHA256    : Av2mekXBhW6ZKZhFw4YDyVoXq9XJJPkC
+             TViXvAVLJ6E=
+ SHA512    : HaYmrTuPCWu9L+9n/sybGhlumbpCugTP
+             QhEZhFwUhs0staGTHwchQbBgOTscD0EV
+             Y8D/pnAD1Uq5d1KD+jamRQ==
+ RMD160    : vRoe+XdPs5vv3KpXTbKV4R9295A=
+ TIGER     : sA1RMiRp+T7wfL/JtwWSYxsgmoXMWSEK
+ CRC32     : e8FcMw==
+ CRC32B    : EFRvdw==
+ HAVAL     : K3G5GJX9jjjCGQhKXZJZhn3Hc1Lgbpkg
+             UeEJnbQfWMk=
+ WHIRLPOOL : esNiqj646d8NxSs58hjTSgkUCv5dy4WW
+             +VDi2I3PBG2Vq1ys0l1Ka0OwYPjQBKE4
+             J+pnrHxbF2vndy7Kq/FBcQ==
+ GOST      : qGtn8yDmd1zZ7hI/zzaq/a6LFE0k0eGP
+             N79kFiVZqKE=
+
+
+End timestamp: 2022-03-12 22:28:07 +0200 (run time: 6m 24s)

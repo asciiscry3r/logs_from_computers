@@ -1,0 +1,96 @@
+Start timestamp: 2022-03-02 08:39:03 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	302895
+  Added entries:		7
+  Removed entries:		7
+  Changed entries:		1
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+d+++++++++++++++: /root/.parallel_notmine_three
+d+++++++++++++++: /root/.parallel_notmine_three/tmp
+d+++++++++++++++: /root/.parallel_notmine_three/tmp/sshlogin
+d+++++++++++++++: /root/.parallel_notmine_three/tmp/sshlogin/mksredmibook14ii
+f+++++++++++++++: /root/.parallel_notmine_three/tmp/sshlogin/mksredmibook14ii/cpuspec
+f+++++++++++++++: /root/.parallel_notmine_three/tmp/sshlogin/mksredmibook14ii/linelen
+f+++++++++++++++: /root/.parallel_notmine_three/tmp/sshlogin/mksredmibook14ii/setpgrp_func
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+d---------------: /root/.parallel
+d---------------: /root/.parallel/tmp
+d---------------: /root/.parallel/tmp/sshlogin
+d---------------: /root/.parallel/tmp/sshlogin/mksredmibook14ii
+f---------------: /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+f---------------: /root/.parallel/tmp/sshlogin/mksredmibook14ii/linelen
+f---------------: /root/.parallel/tmp/sshlogin/mksredmibook14ii/setpgrp_func
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d > ... mc..  . : /root
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /root
+ Size      : 440                              | 448
+ Mtime     : 2022-03-02 01:10:35 +0200        | 2022-03-02 08:24:09 +0200
+ Ctime     : 2022-03-02 01:10:35 +0200        | 2022-03-02 08:24:09 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : 4/kL+jjvFdpADZotdvFaBg==
+ SHA1      : JouuxyOSpp3MdRocD35+0LkeRSw=
+ SHA256    : r9LK+B5RleJsFQLkh5LMNBDEjlmU4H9c
+             LJm2/LVFnHM=
+ SHA512    : RqfZrNEJzzdy8SlJUa5UWP2U+jWuk5Ix
+             UUUmaEqxVV5/q2F66o94cmIwBwdDpEzd
+             FFhQFe0LLAGhsFglxtBYFA==
+ RMD160    : 0co8HeRPQkBNKFj1NaW++FsduYo=
+ TIGER     : wdre2qd0tfbX0sJ+vpTuIz2q1GI0gDNi
+ CRC32     : puXwOQ==
+ CRC32B    : jIuQpg==
+ HAVAL     : Wy7PhooKiT87Pnf2YgZ8x/7759JUA7La
+             JYbR59GWgdQ=
+ WHIRLPOOL : HZ/KKURyCC1BoL3bUhfbJDVhrjgmdS9U
+             3yoB7OcXWPCvkOaQ/BjRCBowIuGBaJ2/
+             tAwjyc77HYqkcs9FzuP4vg==
+ GOST      : gRMAE5QJwsgEJ6KMLGSAkXPBZMdue8oC
+             ClGG1m4DrPU=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : ygZtKnK6NCCvjHFaw/46CA==
+ SHA1      : RRnwyS2W8JIUg5xSQqD9Hh1GM3w=
+ SHA256    : OX9GNqqNSgY+kIyh7/TpU/2Qk4+qmGFQ
+             1LHN0EdSBpk=
+ SHA512    : jMOpfoArfc0BDRKeH5Se6IKtJcOo6rGF
+             RHtZU9sHSiQLMrPSCTV9E0DVYKVKt1E0
+             SE0ShNdXSG2VtAOgVuJGQw==
+ RMD160    : njXUsDzr4sQLfm3V9INcYX4CKvs=
+ TIGER     : Jrj/Fy6yrLNI5V/CUpvg9nDaWcIbZy/O
+ CRC32     : YLVLaQ==
+ CRC32B    : wCS8hw==
+ HAVAL     : xl7m84NMz5exywjtJrLaWlmS4Xrc2H+8
+             McNmcHjrdSY=
+ WHIRLPOOL : Jf3ojJdEj6L8WAekQ6L+SK9fQWlIAUdk
+             OB5AdUz2JIjqpCny2PlowLnWg/Ur2F/L
+             tshtCLKFEHuB7ZkMu6Id2A==
+ GOST      : ZlaZzzDmbq/x+Pw7q9tuNSBpT4McIxKg
+             lkzbIFlUgH0=
+
+
+End timestamp: 2022-03-02 08:45:27 +0200 (run time: 6m 24s)

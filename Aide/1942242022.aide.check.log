@@ -1,0 +1,2155 @@
+Start timestamp: 2022-02-24 19:42:07 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	296456
+  Added entries:		17
+  Removed entries:		0
+  Changed entries:		509
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /usr/bin/rpi-imager
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.3
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.0.0
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.1.0
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.2.0
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.3.0
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.4.0
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.5.0
+l+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.6.0
+f+++++++++++++++: /usr/lib/libcurl-gnutls.so.4.7.0
+f+++++++++++++++: /usr/share/applications/rpi-imager.desktop
+d+++++++++++++++: /usr/share/doc/rpi-imager
+f+++++++++++++++: /usr/share/doc/rpi-imager/changelog.gz
+f+++++++++++++++: /usr/share/icons/hicolor/128x128/apps/rpi-imager.png
+l+++++++++++++++: /usr/share/licenses/libcurl-gnutls
+f+++++++++++++++: /usr/share/metainfo/rpi-imager.metainfo.xml
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/ImageMagick-7/colors.xml
+f   ...   i     : /etc/ImageMagick-7/delegates.xml
+f   ...   i     : /etc/ImageMagick-7/log.xml
+f   ...   i     : /etc/ImageMagick-7/mime.xml
+f   ...   i     : /etc/ImageMagick-7/policy.xml
+f   ...   i     : /etc/ImageMagick-7/quantization-table.xml
+f   ...   i     : /etc/ImageMagick-7/thresholds.xml
+f   ...   i     : /etc/ImageMagick-7/type-dejavu.xml
+f   ...   i     : /etc/ImageMagick-7/type-ghostscript.xml
+f   ...   i     : /etc/ImageMagick-7/type.xml
+f   ...   i     : /etc/aide.conf
+f   ...   i     : /etc/ld.so.cache
+d = ... mc..  . : /root
+d = ... mc..  . : /root/.cache/vim/backup
+d = ... mc..  . : /root/.cache/vim/swap
+f < ... mci.H . : /root/.viminfo
+d = ... mc..  . : /usr
+d > ... mc..  . : /usr/bin
+f = ... .ci.. . : /usr/bin/Magick++-config
+f = ... .c... . : /usr/bin/MagickCore-config
+f = ... .c... . : /usr/bin/MagickWand-config
+l.= ... .c..  . : /usr/bin/animate
+l.= ... .c..  . : /usr/bin/compare
+l.= ... .c..  . : /usr/bin/composite
+l.= ... .c..  . : /usr/bin/conjure
+l.= ... .c..  . : /usr/bin/convert
+l.= ... .c..  . : /usr/bin/display
+l.= ... .c..  . : /usr/bin/identify
+l.= ... .c..  . : /usr/bin/import
+f = ... .c... . : /usr/bin/magick
+l.= ... .c..  . : /usr/bin/magick-script
+l.= ... .c..  . : /usr/bin/mogrify
+l.= ... .c..  . : /usr/bin/montage
+l.= ... .c..  . : /usr/bin/stream
+d = ... mc..  . : /usr/include/ImageMagick-7
+d = ... mc..  . : /usr/include/ImageMagick-7/Magick++
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Blob.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/CoderInfo.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Color.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Drawable.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Exception.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Functions.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Geometry.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Image.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Include.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Montage.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Pixels.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/ResourceLimits.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/STL.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/SecurityPolicy.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/Statistic.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++/TypeMetric.h
+f = ... .c... . : /usr/include/ImageMagick-7/Magick++.h
+d = ... mc..  . : /usr/include/ImageMagick-7/MagickCore
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/MagickCore.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/animate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/annotate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/artifact.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/attribute.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/blob.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/cache-view.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/cache.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/channel.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/cipher.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/client.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/coder.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/color.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/colormap.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/colorspace.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/compare.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/composite.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/compress.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/configure.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/constitute.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/decorate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/delegate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/deprecate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/display.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/distort.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/distribute-cache.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/draw.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/effect.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/enhance.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/exception.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/feature.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/fourier.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/fx.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/gem.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/geometry.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/histogram.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/identify.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/image-view.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/image.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/layer.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/linked-list.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/list.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/locale_.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/log.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/magic.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/magick-baseconfig.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/magick-config.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/magick-type.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/magick.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/matrix.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/memory_.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/method-attribute.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/methods.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/mime.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/module.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/monitor.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/montage.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/morphology.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/nt-base.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/opencl.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/option.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/paint.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/pixel-accessor.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/pixel.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/policy.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/prepress.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/profile.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/property.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/quantize.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/quantum.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/random_.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/registry.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/resample.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/resize.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/resource_.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/segment.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/semaphore.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/shear.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/signature.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/splay-tree.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/static.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/statistic.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/stream.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/string_.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/studio.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/threshold.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/timer.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/token.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/transform.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/type.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/utility.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/version.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/vision.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/visual-effects.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/widget.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/xml-tree.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickCore/xwindow.h
+d = ... mc..  . : /usr/include/ImageMagick-7/MagickWand
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/MagickWand.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/animate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/compare.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/composite.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/conjure.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/convert.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/deprecate.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/display.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/drawing-wand.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/identify.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/import.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/magick-cli.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/magick-image.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/magick-property.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/method-attribute.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/mogrify.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/montage.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/operation.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/pixel-iterator.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/pixel-wand.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/stream.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/wand-view.h
+f = ... .c... . : /usr/include/ImageMagick-7/MagickWand/wandcli.h
+d > ... mc..  . : /usr/lib
+d = ... mc..  . : /usr/lib/ImageMagick-7.1.0/config-Q16HDRI
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/config-Q16HDRI/configure.xml
+d = ... mc..  . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/aai.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/aai.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/art.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/art.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ashlar.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ashlar.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/avs.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/avs.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bgr.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bgr.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bmp.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bmp.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/braille.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/braille.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cals.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cals.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/caption.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/caption.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cin.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cin.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cip.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cip.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/clip.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/clip.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cmyk.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cmyk.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cube.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cube.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cut.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cut.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dcm.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dcm.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dds.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dds.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/debug.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/debug.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dib.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dib.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/djvu.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/djvu.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dng.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dng.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dot.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dot.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dpx.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dpx.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ept.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ept.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/exr.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/exr.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/farbfeld.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/farbfeld.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fax.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fax.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fits.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fits.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fl32.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fl32.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ftxt.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ftxt.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gif.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gif.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gradient.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gradient.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gray.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gray.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hald.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hald.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hdr.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hdr.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/heic.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/heic.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/histogram.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/histogram.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hrz.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hrz.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/html.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/html.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/icon.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/icon.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/info.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/info.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/inline.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/inline.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ipl.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ipl.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jbig.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jbig.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jnx.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jnx.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jp2.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jp2.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jpeg.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jpeg.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/json.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/json.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jxl.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jxl.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/kernel.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/kernel.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/label.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/label.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mac.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mac.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/magick.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/magick.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/map.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/map.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mask.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mask.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mat.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mat.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/matte.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/matte.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/meta.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/meta.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/miff.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/miff.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mono.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mono.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpc.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpc.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpr.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpr.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/msl.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/msl.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mtv.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mtv.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mvg.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mvg.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/null.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/null.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ora.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ora.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/otb.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/otb.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/palm.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/palm.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pango.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pango.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pattern.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pattern.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcd.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcd.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcl.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcl.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcx.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcx.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdb.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdb.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdf.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdf.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pes.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pes.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pgx.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pgx.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pict.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pict.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pix.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pix.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/plasma.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/plasma.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/png.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/png.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pnm.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pnm.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps2.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps2.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps3.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps3.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/psd.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/psd.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pwp.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pwp.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/qoi.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/qoi.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/raw.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/raw.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgb.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgb.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgf.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgf.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rla.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rla.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rle.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rle.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/scr.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/scr.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sct.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sct.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sfw.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sfw.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sgi.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sgi.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sixel.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sixel.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/stegano.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/stegano.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/strimg.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/strimg.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sun.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sun.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/svg.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/svg.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tga.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tga.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/thumbnail.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/thumbnail.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tiff.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tiff.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tile.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tile.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim2.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim2.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ttf.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ttf.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/txt.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/txt.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uil.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uil.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/url.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/url.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uyvy.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uyvy.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vicar.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vicar.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vid.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vid.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/video.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/video.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/viff.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/viff.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vips.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vips.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wbmp.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wbmp.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/webp.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/webp.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wmf.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wmf.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wpg.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wpg.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/x.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/x.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xbm.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xbm.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xc.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xc.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xcf.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xcf.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xpm.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xpm.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xps.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xps.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xwd.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xwd.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yaml.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yaml.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ycbcr.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ycbcr.so
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yuv.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yuv.so
+d = ... mc..  . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/filters
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/filters/analyze.la
+f = ... .c... . : /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/filters/analyze.so
+l.= ... .c..  . : /usr/lib/libMagick++-7.Q16HDRI.so
+l.= ... .c..  . : /usr/lib/libMagick++-7.Q16HDRI.so.5
+f = ... .c... . : /usr/lib/libMagick++-7.Q16HDRI.so.5.0.0
+l.= ... .c..  . : /usr/lib/libMagickCore-7.Q16HDRI.so
+l.= ... .c..  . : /usr/lib/libMagickCore-7.Q16HDRI.so.10
+f = ... .c... . : /usr/lib/libMagickCore-7.Q16HDRI.so.10.0.0
+l.= ... .c..  . : /usr/lib/libMagickWand-7.Q16HDRI.so
+l.= ... .c..  . : /usr/lib/libMagickWand-7.Q16HDRI.so.10
+f = ... .c... . : /usr/lib/libMagickWand-7.Q16HDRI.so.10.0.0
+d = ... mc..  . : /usr/lib/perl5/5.34/vendor_perl/Image
+d = ... mc..  . : /usr/lib/perl5/5.34/vendor_perl/Image/Magick
+f = ... .c... . : /usr/lib/perl5/5.34/vendor_perl/Image/Magick/Q16HDRI.pm
+f = ... .c... . : /usr/lib/perl5/5.34/vendor_perl/Image/Magick.pm
+d = ... mc..  . : /usr/lib/perl5/5.34/vendor_perl/auto/Image/Magick/Q16HDRI
+f = ... .c... . : /usr/lib/perl5/5.34/vendor_perl/auto/Image/Magick/Q16HDRI/Q16HDRI.so
+f = ... .c... . : /usr/lib/perl5/5.34/vendor_perl/auto/Image/Magick/Q16HDRI/autosplit.ix
+d = ... mc..  . : /usr/lib/pkgconfig
+f = ... .c... . : /usr/lib/pkgconfig/ImageMagick-7.Q16HDRI.pc
+f = ... .c... . : /usr/lib/pkgconfig/ImageMagick.pc
+f = ... .c... . : /usr/lib/pkgconfig/Magick++-7.Q16HDRI.pc
+f = ... .c... . : /usr/lib/pkgconfig/Magick++.pc
+f = ... .c... . : /usr/lib/pkgconfig/MagickCore-7.Q16HDRI.pc
+f = ... .c... . : /usr/lib/pkgconfig/MagickCore.pc
+f = ... .c... . : /usr/lib/pkgconfig/MagickWand-7.Q16HDRI.pc
+f = ... .c... . : /usr/lib/pkgconfig/MagickWand.pc
+d = ... mc..  . : /usr/share/ImageMagick-7
+f = ... .c... . : /usr/share/ImageMagick-7/english.xml
+f = ... .c... . : /usr/share/ImageMagick-7/francais.xml
+f = ... .c... . : /usr/share/ImageMagick-7/locale.xml
+d > ... mc..  . : /usr/share/applications
+f = ... mci.. . : /usr/share/applications/mimeinfo.cache
+d > ... mc.n  . : /usr/share/doc
+d = ... mc..  . : /usr/share/icons/hicolor
+d > ... mc..  . : /usr/share/icons/hicolor/128x128/apps
+f > ... mci.H . : /usr/share/icons/hicolor/icon-theme.cache
+d > ... mc..  . : /usr/share/licenses
+d = ... mc..  . : /usr/share/licenses/imagemagick
+f = ... .c... . : /usr/share/licenses/imagemagick/LICENSE
+f = ... .c... . : /usr/share/licenses/imagemagick/NOTICE
+d = ... mc..  . : /usr/share/man/man1
+f = ... .c... . : /usr/share/man/man1/ImageMagick.1.gz
+f = ... .c... . : /usr/share/man/man1/Magick++-config.1.gz
+f = ... .c... . : /usr/share/man/man1/MagickCore-config.1.gz
+f = ... .c... . : /usr/share/man/man1/MagickWand-config.1.gz
+f = ... .c... . : /usr/share/man/man1/animate.1.gz
+f = ... .c... . : /usr/share/man/man1/compare.1.gz
+f = ... .c... . : /usr/share/man/man1/composite.1.gz
+f = ... .c... . : /usr/share/man/man1/conjure.1.gz
+f = ... .c... . : /usr/share/man/man1/convert.1.gz
+f = ... .c... . : /usr/share/man/man1/display.1.gz
+f = ... .c... . : /usr/share/man/man1/identify.1.gz
+f = ... .c... . : /usr/share/man/man1/import.1.gz
+f = ... .c... . : /usr/share/man/man1/magick-script.1.gz
+f = ... .c... . : /usr/share/man/man1/magick.1.gz
+f = ... .c... . : /usr/share/man/man1/mogrify.1.gz
+f = ... .c... . : /usr/share/man/man1/montage.1.gz
+f = ... .c... . : /usr/share/man/man1/stream.1.gz
+d = ... mc..  . : /usr/share/man/man3
+f = ... .c... . : /usr/share/man/man3/Image::Magick.3pm.gz
+f = ... .c... . : /usr/share/man/man3/Image::Magick::Q16HDRI.3pm.gz
+d > ... mc..  . : /usr/share/metainfo
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/ImageMagick-7/colors.xml
+ Inode     : 925                              | 1149
+
+File: /etc/ImageMagick-7/delegates.xml
+ Inode     : 926                              | 925
+
+File: /etc/ImageMagick-7/log.xml
+ Inode     : 927                              | 926
+
+File: /etc/ImageMagick-7/mime.xml
+ Inode     : 928                              | 927
+
+File: /etc/ImageMagick-7/policy.xml
+ Inode     : 929                              | 928
+
+File: /etc/ImageMagick-7/quantization-table.xml
+ Inode     : 930                              | 929
+
+File: /etc/ImageMagick-7/thresholds.xml
+ Inode     : 931                              | 930
+
+File: /etc/ImageMagick-7/type-dejavu.xml
+ Inode     : 932                              | 931
+
+File: /etc/ImageMagick-7/type-ghostscript.xml
+ Inode     : 1117                             | 932
+
+File: /etc/ImageMagick-7/type.xml
+ Inode     : 1148                             | 1117
+
+File: /etc/aide.conf
+ Inode     : 298373                           | 681995
+
+File: /etc/ld.so.cache
+ Inode     : 27922                            | 681993
+
+Directory: /root
+ Mtime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+ Ctime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+
+Directory: /root/.cache/vim/backup
+ Mtime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+ Ctime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+
+Directory: /root/.cache/vim/swap
+ Mtime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+ Ctime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+
+File: /root/.viminfo
+ Size      : 12148                            | 10930
+ Mtime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+ Ctime     : 2022-02-24 14:49:34 +0200        | 2022-02-24 19:41:53 +0200
+ Inode     : 58277                            | 298373
+ MD5       : w8rn3F1wR7r9WvC3FHDN3A==         | VxVryRHZw1kKJdo6jD4LEw==
+ SHA256    : XfK52z0EGm162IS7GO9lf4GkL+e1aRuF | iIMOTuvkI8l0TLMnGrQ3F+HEAtI32hOz
+             D23mgy0YSoY=                     | EvFIAErAm7I=
+ RMD160    : Lcv0fXjR9hNrM5B90DsS+BQqF/M=     | hIcj+x9lcAmGqa9WBGJx1WcD4sE=
+
+Directory: /usr
+ Mtime     : 2022-02-24 18:35:50 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:35:50 +0200        | 2022-02-24 19:37:52 +0200
+
+Directory: /usr/bin
+ Size      : 75832                            | 75864
+ Mtime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:52 +0200
+
+File: /usr/bin/Magick++-config
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Inode     : 1149                             | 1148
+
+File: /usr/bin/MagickCore-config
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/bin/MagickWand-config
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/animate
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/compare
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/composite
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/conjure
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/convert
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/display
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/identify
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/import
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/bin/magick
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/magick-script
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/mogrify
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/montage
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/bin/stream
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/include/ImageMagick-7
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/include/ImageMagick-7/Magick++
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Blob.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/CoderInfo.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Color.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Drawable.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Exception.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Functions.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Geometry.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Image.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Include.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Montage.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Pixels.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/ResourceLimits.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/STL.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/SecurityPolicy.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/Statistic.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++/TypeMetric.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/Magick++.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/include/ImageMagick-7/MagickCore
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/MagickCore.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/animate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/annotate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/artifact.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/attribute.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/blob.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/cache-view.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/cache.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/channel.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/cipher.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/client.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/coder.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/color.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/colormap.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/colorspace.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/compare.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/composite.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/compress.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/configure.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/constitute.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/decorate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/delegate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/deprecate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/display.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/distort.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/distribute-cache.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/draw.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/effect.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/enhance.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/exception.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/feature.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/fourier.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/fx.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/gem.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/geometry.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/histogram.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/identify.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/image-view.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/image.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/layer.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/linked-list.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/list.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/locale_.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/log.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/magic.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/magick-baseconfig.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/magick-config.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/magick-type.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/magick.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/matrix.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/memory_.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/method-attribute.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/methods.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/mime.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/module.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/monitor.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/montage.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/morphology.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/nt-base.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/opencl.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/option.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/paint.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/pixel-accessor.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/pixel.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/policy.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/prepress.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/profile.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/property.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/quantize.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/quantum.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/random_.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/registry.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/resample.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/resize.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/resource_.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/segment.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/semaphore.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/shear.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/signature.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/splay-tree.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/static.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/statistic.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/stream.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/string_.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/studio.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/threshold.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/timer.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/token.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/transform.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/type.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/utility.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/version.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/vision.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/visual-effects.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/widget.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/xml-tree.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickCore/xwindow.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/include/ImageMagick-7/MagickWand
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/MagickWand.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/animate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/compare.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/composite.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/conjure.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/convert.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/deprecate.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/display.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/drawing-wand.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/identify.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/import.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/magick-cli.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/magick-image.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/magick-property.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/method-attribute.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/mogrify.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/montage.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/operation.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/pixel-iterator.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/pixel-wand.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/stream.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/wand-view.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/include/ImageMagick-7/MagickWand/wandcli.h
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib
+ Size      : 132144                           | 132544
+ Mtime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:38 +0200
+ Ctime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:38 +0200
+
+Directory: /usr/lib/ImageMagick-7.1.0/config-Q16HDRI
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/config-Q16HDRI/configure.xml
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/aai.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/aai.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/art.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/art.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ashlar.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ashlar.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/avs.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/avs.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bgr.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bgr.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bmp.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/bmp.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/braille.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/braille.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cals.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cals.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/caption.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/caption.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cin.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cin.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cip.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cip.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/clip.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/clip.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cmyk.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cmyk.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cube.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cube.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cut.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/cut.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dcm.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dcm.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dds.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dds.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/debug.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/debug.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dib.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dib.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/djvu.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/djvu.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dng.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dng.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dot.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dot.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dpx.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/dpx.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ept.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ept.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/exr.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/exr.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/farbfeld.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/farbfeld.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fax.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fax.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fits.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fits.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fl32.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/fl32.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ftxt.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ftxt.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gif.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gif.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gradient.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gradient.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gray.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/gray.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hald.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hald.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hdr.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hdr.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/heic.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/heic.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/histogram.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/histogram.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hrz.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/hrz.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/html.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/html.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/icon.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/icon.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/info.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/info.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/inline.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/inline.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ipl.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ipl.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jbig.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jbig.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jnx.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jnx.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jp2.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jp2.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jpeg.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jpeg.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/json.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/json.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jxl.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jxl.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/kernel.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/kernel.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/label.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/label.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mac.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mac.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/magick.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/magick.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/map.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/map.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mask.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mask.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mat.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mat.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/matte.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/matte.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/meta.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/meta.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/miff.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/miff.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mono.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mono.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpc.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpc.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpr.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mpr.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/msl.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/msl.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mtv.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mtv.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mvg.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/mvg.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/null.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/null.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ora.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ora.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/otb.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/otb.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/palm.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/palm.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pango.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pango.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pattern.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pattern.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcd.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcd.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcl.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcl.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcx.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pcx.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdb.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdb.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdf.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pdf.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pes.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pes.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pgx.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pgx.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pict.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pict.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pix.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pix.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/plasma.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/plasma.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/png.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/png.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pnm.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pnm.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps2.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps2.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps3.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ps3.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/psd.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/psd.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pwp.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/pwp.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/qoi.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/qoi.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/raw.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/raw.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgb.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgb.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgf.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rgf.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rla.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rla.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rle.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/rle.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/scr.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/scr.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sct.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sct.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sfw.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sfw.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sgi.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sgi.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sixel.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sixel.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/stegano.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/stegano.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/strimg.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/strimg.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sun.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sun.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/svg.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/svg.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tga.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tga.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/thumbnail.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/thumbnail.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tiff.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tiff.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tile.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tile.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim2.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tim2.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ttf.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ttf.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/txt.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/txt.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uil.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uil.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/url.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/url.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uyvy.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/uyvy.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vicar.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vicar.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vid.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vid.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/video.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/video.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/viff.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/viff.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vips.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/vips.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wbmp.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wbmp.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/webp.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/webp.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wmf.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wmf.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wpg.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/wpg.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/x.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/x.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xbm.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xbm.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xc.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xc.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xcf.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xcf.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xpm.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xpm.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xps.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xps.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xwd.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xwd.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yaml.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yaml.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ycbcr.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ycbcr.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yuv.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yuv.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/filters
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/filters/analyze.la
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/filters/analyze.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/lib/libMagick++-7.Q16HDRI.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/lib/libMagick++-7.Q16HDRI.so.5
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/libMagick++-7.Q16HDRI.so.5.0.0
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/lib/libMagickCore-7.Q16HDRI.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/lib/libMagickCore-7.Q16HDRI.so.10
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/libMagickCore-7.Q16HDRI.so.10.0.0
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/lib/libMagickWand-7.Q16HDRI.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Link: /usr/lib/libMagickWand-7.Q16HDRI.so.10
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/libMagickWand-7.Q16HDRI.so.10.0.0
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/Image
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/Image/Magick
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/perl5/5.34/vendor_perl/Image/Magick/Q16HDRI.pm
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/perl5/5.34/vendor_perl/Image/Magick.pm
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/auto/Image/Magick/Q16HDRI
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/perl5/5.34/vendor_perl/auto/Image/Magick/Q16HDRI/Q16HDRI.so
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/perl5/5.34/vendor_perl/auto/Image/Magick/Q16HDRI/autosplit.ix
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/lib/pkgconfig
+ Mtime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/ImageMagick-7.Q16HDRI.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/ImageMagick.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/Magick++-7.Q16HDRI.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/Magick++.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/MagickCore-7.Q16HDRI.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/MagickCore.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/MagickWand-7.Q16HDRI.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/lib/pkgconfig/MagickWand.pc
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/share/ImageMagick-7
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/ImageMagick-7/english.xml
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/ImageMagick-7/francais.xml
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/ImageMagick-7/locale.xml
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/share/applications
+ Size      : 2344                             | 2384
+ Mtime     : 2022-02-24 18:39:23 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:39:23 +0200        | 2022-02-24 19:37:52 +0200
+
+File: /usr/share/applications/mimeinfo.cache
+ Mtime     : 2022-02-24 18:39:23 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:39:23 +0200        | 2022-02-24 19:37:52 +0200
+ Inode     : 680214                           | 681994
+
+Directory: /usr/share/doc
+ Size      : 5504                             | 5536
+ Mtime     : 2022-02-22 23:13:39 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-22 23:13:39 +0200        | 2022-02-24 19:37:52 +0200
+ Linkcount : 199                              | 200
+
+Directory: /usr/share/icons/hicolor
+ Mtime     : 2022-02-24 18:39:18 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:39:18 +0200        | 2022-02-24 19:37:52 +0200
+
+Directory: /usr/share/icons/hicolor/128x128/apps
+ Size      : 528                              | 560
+ Mtime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:52 +0200
+
+File: /usr/share/icons/hicolor/icon-theme.cache
+ Size      : 13732                            | 13768
+ Mtime     : 2022-02-24 18:39:18 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:39:18 +0200        | 2022-02-24 19:37:52 +0200
+ Inode     : 679854                           | 681914
+ MD5       : pC9HSfsLRokGa7en1oX8QQ==         | fz6eWmMrTWWnfwzlVBMhFA==
+ SHA256    : S7ncW6H8pNAXqSa6sOXDEXWTbnauqrZa | uA0TnAwGq9l7SLGcMh1uw7lvIeYpROWD
+             8EtjafAUDio=                     | L/WOUnVVY2w=
+ RMD160    : HPWYnjcSWXaCWzDJHnhNyA2OlFI=     | XIOb0HrI2euBeekGcFcGjC+Z08E=
+
+Directory: /usr/share/licenses
+ Size      : 12296                            | 12328
+ Mtime     : 2022-02-24 18:35:31 +0200        | 2022-02-24 19:37:38 +0200
+ Ctime     : 2022-02-24 18:35:31 +0200        | 2022-02-24 19:37:38 +0200
+
+Directory: /usr/share/licenses/imagemagick
+ Mtime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/licenses/imagemagick/LICENSE
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/licenses/imagemagick/NOTICE
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/share/man/man1
+ Mtime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/ImageMagick.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/Magick++-config.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/MagickCore-config.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/MagickWand-config.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/animate.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/compare.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/composite.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/conjure.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/convert.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/display.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/identify.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/import.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/magick-script.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/magick.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/mogrify.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/montage.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man1/stream.1.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/share/man/man3
+ Mtime     : 2022-02-24 18:35:37 +0200        | 2022-02-24 19:37:15 +0200
+ Ctime     : 2022-02-24 18:35:37 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man3/Image::Magick.3pm.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+File: /usr/share/man/man3/Image::Magick::Q16HDRI.3pm.gz
+ Ctime     : 2022-02-24 18:35:06 +0200        | 2022-02-24 19:37:15 +0200
+
+Directory: /usr/share/metainfo
+ Size      : 640                              | 680
+ Mtime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:52 +0200
+ Ctime     : 2022-02-24 18:35:42 +0200        | 2022-02-24 19:37:52 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : n+2XO7aOuZRKgW3eBsNgOg==
+ SHA1      : sqOZ2+LO0gcq+c7Ndb3weVg8dFo=
+ SHA256    : nntGHBxycUFlxFCA8vVM4zi0qxMw2nBN
+             prxRKL0TCr8=
+ SHA512    : /dfKNkgHiAQo7MZXmveBxJEM6ee+f3OK
+             ttI34Nx3/ihkzTZ/GW4WMjGq+sd+u4uZ
+             BhIN7FW5VY6lqu8tklwf9g==
+ RMD160    : IdGZVZ0E1FLYwhdRZD+OTdLeUpE=
+ TIGER     : 0wgx/M/QEF26aNNq1CZ+k4uBxz8u0HMY
+ CRC32     : scFVlg==
+ CRC32B    : Inubdg==
+ HAVAL     : bH+iTzMdLGamD8puV0276QzkLdZ8ndzt
+             rYAxSVn4wp8=
+ WHIRLPOOL : s1dWwQmvfKkQIoGmE3SrJsRdMYzBRegi
+             3HsftIZx03z22O1pwDDb2Yut59996Ww7
+             YFOH14uKSharSRCaqPr80Q==
+ GOST      : gh5ErS5mvrHCNpuygaPfXq42miEdBXmU
+             +sz4v9mtNrU=
+
+
+End timestamp: 2022-02-24 19:45:39 +0200 (run time: 3m 32s)

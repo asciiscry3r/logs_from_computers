@@ -1,0 +1,153 @@
+Start timestamp: 2022-02-28 22:44:28 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	297682
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		18
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/.updated
+f   ...   i     : /etc/ld.so.cache
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.browser
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.extra
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.ssh
+f = p.. .c... X : /usr/bin/chage
+f = p.. .c... X : /usr/bin/chfn
+f = p.. .c... X : /usr/bin/chsh
+f = p.. .c... X : /usr/bin/expiry
+f = p.. .c... X : /usr/bin/gpasswd
+f = p.. .c... . : /usr/bin/ksu
+f = p.. .c... X : /usr/bin/newgrp
+f = p.. .c... X : /usr/bin/passwd
+f = p.. .c... . : /usr/bin/sg
+f = p.. .c... . : /usr/bin/su
+f = p.. .c... X : /usr/bin/unix_chkpwd
+f = p.. .c... . : /usr/lib/Xorg.wrap
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 50834                            | 57651
+
+File: /etc/ld.so.cache
+ Inode     : 753803                           | 51690
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 66723                            | 66046
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.browser
+ Inode     : 67249                            | 66723
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.extra
+ Inode     : 67007                            | 66047
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.ssh
+ Inode     : 67257                            | 66724
+
+File: /usr/bin/chage
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chfn
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chsh
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/expiry
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/gpasswd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoMAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/ksu
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:00 +0200        | 2022-02-28 21:28:39 +0200
+
+File: /usr/bin/newgrp
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/passwd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgsAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/sg
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+
+File: /usr/bin/su
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-02-28 21:05:16 +0200        | 2022-02-28 21:28:39 +0200
+
+File: /usr/bin/unix_chkpwd
+ Perm      : -rwsr-sr-x                       | -rwxr-sr-x
+ Ctime     : 2022-02-28 21:05:08 +0200        | 2022-02-28 21:28:39 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/lib/Xorg.wrap
+ Perm      : -r-sr-xr-x                       | -r-xr-xr-x
+ Ctime     : 2022-02-28 21:06:39 +0200        | 2022-02-28 21:28:39 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : mtHlgRqQwGDIwd7ntL6xFw==
+ SHA1      : DaQQXMmyIvH+AmwrwiyIlR0v27c=
+ SHA256    : rcHTpWDpMci9rjL3nPjdiflaHaQcIvcH
+             7JHQ4UYwGXA=
+ SHA512    : LZuJlAfMqtLM5FVhcTjBlWYR6DnKl4A9
+             GD/SEqJUYJPezQ8YEykRt6nQppZBJNSH
+             FHIqW34073+O3Gj+WFDcqA==
+ RMD160    : XFGHSTQ0Gknr8cFH2G3dbcbwwTY=
+ TIGER     : gpj2dkImE6wmC5U/hP+iQtAHE1i+lf/x
+ CRC32     : XvpNrg==
+ CRC32B    : IG/Bjw==
+ HAVAL     : ttrSdlQG/bnLEAOSl9P5gEl7YWgUsgiw
+             Q7nigmpQQ/0=
+ WHIRLPOOL : M/qdFlRYRvGQaquOTh0KjJxu5ZCUh3Go
+             d/h+W2CtwaLJxitDnbHeNfC9Yy2l1JmY
+             m8Zqxbne3VUOdeEgqLQefA==
+ GOST      : ZB2xkYLeYcmQieeN39i6kUaQlkK/xWVn
+             FZeOTvxn1zQ=
+
+
+End timestamp: 2022-02-28 22:48:56 +0200 (run time: 4m 28s)

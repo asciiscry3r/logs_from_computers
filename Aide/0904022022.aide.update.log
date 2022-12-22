@@ -1,0 +1,1511 @@
+Start timestamp: 2022-03-02 09:04:45 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	302903
+  Added entries:		15
+  Removed entries:		7
+  Changed entries:		219
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+d+++++++++++++++: /root/.parallel
+d+++++++++++++++: /root/.parallel/tmp
+d+++++++++++++++: /root/.parallel/tmp/sshlogin
+d+++++++++++++++: /root/.parallel/tmp/sshlogin/mksredmibook14ii
+f+++++++++++++++: /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+f+++++++++++++++: /root/.parallel/tmp/sshlogin/mksredmibook14ii/linelen
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/attrs.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc/attrs.py
+d+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info/PKG-INFO
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info/SOURCES.txt
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info/dependency_links.txt
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info/entry_points.txt
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info/installed-files.txt
+f+++++++++++++++: /usr/lib/python3.10/site-packages/asciidoc-10.1.4-py3.10.egg-info/top_level.txt
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+d---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info
+f---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info/PKG-INFO
+f---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info/SOURCES.txt
+f---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info/dependency_links.txt
+f---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info/entry_points.txt
+f---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info/installed-files.txt
+f---------------: /usr/lib/python3.10/site-packages/asciidoc-10.1.3-py3.10.egg-info/top_level.txt
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/.updated
+f   ...   i     : /etc/ld.so.cache
+f < ...    .H . : /etc/resolv.conf
+d > ... mc.n  . : /root
+d = ... mc..  . : /usr
+d = ... mc..  . : /usr/bin
+f = ... mci.H . : /usr/bin/a2x
+f = ... mci.H . : /usr/bin/asciidoc
+f = p.. .c... X : /usr/bin/chage
+f = p.. .c... X : /usr/bin/chfn
+f = p.. .c... X : /usr/bin/chsh
+f = p.. .c... X : /usr/bin/expiry
+f = p.. .c... X : /usr/bin/gpasswd
+f = p.. .c... . : /usr/bin/ksu
+f = p.. .c... X : /usr/bin/newgrp
+f = p.. .c... X : /usr/bin/passwd
+f = p.. .c... . : /usr/bin/sg
+f = p.. .c... . : /usr/bin/su
+f = p.. .c... X : /usr/bin/unix_chkpwd
+f = p.. .c... . : /usr/lib/Xorg.wrap
+d = ... mc..  . : /usr/lib/python3.10/site-packages
+d > ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__init__.py
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__main__.py
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/__metadata__.py
+d > ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/__init__.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/__main__.cpython-310.pyc
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/__metadata__.cpython-310.pyc
+f < ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/a2x.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/api.cpython-310.pyc
+f < ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/asciidoc.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/collections.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/exceptions.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/message.cpython-310.pyc
+f > ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/plugin.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/__pycache__/utils.cpython-310.pyc
+f < ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/a2x.py
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/api.py
+f < ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/asciidoc.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/blocks
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/blocks/__init__.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/blocks/__pycache__
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/blocks/__pycache__/__init__.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/blocks/__pycache__/table.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/blocks/table.py
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/collections.py
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/exceptions.py
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/message.py
+f > ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/plugin.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/asciidoc.conf
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex/asciidoc-dblatex.sty
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex/asciidoc-dblatex.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex/dblatex-readme.txt
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/asciidoc-docbook-xsl.txt
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/chunked.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/common.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/epub.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/fo.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/htmlhelp.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/manpage.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/text.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/xhtml.xsl
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook45.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/docbook5.conf
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/__pycache__
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/__pycache__/unwraplatex.cpython-310.pyc
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/__pycache__
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/__pycache__/code-filter.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter-readme.txt
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter-test.txt
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter.conf
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/__pycache__
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/__pycache__/graphviz2png.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/asciidoc-graphviz-sample.txt
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/graphviz-filter.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/graphviz2png.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/__pycache__
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/__pycache__/latex2img.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/latex-filter.conf
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/latex2img.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/__pycache__
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/__pycache__/music2png.cpython-310.pyc
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/music-filter-test.txt
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/music-filter.conf
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/music2png.py
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/source
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/source/source-highlight-filter-test.txt
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/source/source-highlight-filter.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/filters/unwraplatex.py
+f = ... mci.H . : /usr/lib/python3.10/site-packages/asciidoc/resources/help.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/html4.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/html5.conf
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/1.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/10.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/11.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/12.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/13.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/14.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/15.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/2.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/3.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/4.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/5.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/6.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/7.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/8.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/9.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/caution.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/example.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/home.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/important.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/next.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/note.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/prev.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/tip.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/up.png
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/icons/warning.png
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/ASCIIMathML.js
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/LaTeXMathML.js
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/asciidoc.js
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/slidy.js
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/toc.js
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ca.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-cs.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-de.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-el.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-en.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-es.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-fi.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-fr.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-hu.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-id.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-it.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ja.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-nl.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-pl.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-pt-BR.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ro.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ru.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-sv.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-uk.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/lang-zh-CN.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/latex.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/slidy.conf
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/asciidoc.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/docbook-xsl.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/pygments.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/slidy.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/toc2.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/xhtml11-quirks.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/text.conf
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/themes/flask
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/themes/flask/flask.css
+d = ... mc..  . : /usr/lib/python3.10/site-packages/asciidoc/resources/themes/volnitsky
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/themes/volnitsky/volnitsky.css
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/xhtml11-quirks.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/resources/xhtml11.conf
+f = ... mci.. . : /usr/lib/python3.10/site-packages/asciidoc/utils.py
+d = ... mc..  . : /usr/share/doc/asciidoc
+f = ... mci.. . : /usr/share/doc/asciidoc/BUGS.adoc
+f > ... mci.H . : /usr/share/doc/asciidoc/CHANGELOG.adoc
+f = ... mci.. . : /usr/share/doc/asciidoc/INSTALL.adoc
+f = ... mci.. . : /usr/share/doc/asciidoc/README.md
+d = ... mc..  . : /usr/share/doc/asciidoc/dblatex
+f = ... mci.. . : /usr/share/doc/asciidoc/dblatex/dblatex-readme.txt
+d = ... mc..  . : /usr/share/doc/asciidoc/doc
+f = ... mci.H . : /usr/share/doc/asciidoc/doc/a2x.1
+f = ... mci.H . : /usr/share/doc/asciidoc/doc/a2x.1.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/article-docinfo.xml
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/article.txt
+f = ... mci.H . : /usr/share/doc/asciidoc/doc/asciidoc.1
+f = ... mci.H . : /usr/share/doc/asciidoc/doc/asciidoc.1.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/asciidoc.conf
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/asciidoc.dict
+f = ... mci.H . : /usr/share/doc/asciidoc/doc/asciidoc.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/asciidocapi.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/asciimath.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/book-multi.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/book.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/customers.csv
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/epub-notes.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/faq.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/latex-backend.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/latex-bugs.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/latex-filter.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/latexmath.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/latexmathml.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/music-filter.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/publishing-ebooks-with-asciidoc.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/slidy-example.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/slidy.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/source-highlight-filter.txt
+f = ... mci.H . : /usr/share/doc/asciidoc/doc/testasciidoc.1
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/testasciidoc.1.txt
+f = ... mci.. . : /usr/share/doc/asciidoc/doc/testasciidoc.txt
+d = ... mc..  . : /usr/share/doc/asciidoc/docbook-xsl
+f = ... mci.. . : /usr/share/doc/asciidoc/docbook-xsl/asciidoc-docbook-xsl.txt
+d = ... mc..  . : /usr/share/doc/asciidoc/images
+f = ... mci.. . : /usr/share/doc/asciidoc/images/highlighter.png
+f = ... mci.. . : /usr/share/doc/asciidoc/images/smallnew.png
+f = ... mci.. . : /usr/share/doc/asciidoc/images/tiger.png
+d = ... mc..  . : /usr/share/man/man1
+f > ... mci.H . : /usr/share/man/man1/a2x.1.gz
+f > ... mci.H . : /usr/share/man/man1/asciidoc.1.gz
+f > ... mci.H . : /usr/share/man/man1/testasciidoc.1.gz
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 71831                            | 182585
+
+File: /etc/ld.so.cache
+ Inode     : 812018                           | 808046
+
+File: /etc/resolv.conf
+ Size      : 106                              | 64
+ MD5       : FSXL2wHlGVa27Kx9l+w2GQ==         | gJe2X3lObMdema7+hBgTaw==
+ SHA256    : KqwU6/aNIf1/fCmH0vet3OtUOoZJECBb | zVHEYKQUlrY+yGW/VIU9K1KIT6kLEK5X
+             mskf8eoKA9Y=                     | ZUb1LP9As1E=
+ RMD160    : 3h3l+1Ksg6E0KjuU+sfxSA76ZVw=     | FW8Q8OG5UpmQiZIzKuvLKgtHU0U=
+ TIGER     : 21GSiSBPWd8DAzcBgQYX/PfT+tU+Hhod | +F0eoM5DRjae3yiQF3CMdfihpQ28clcK
+
+Directory: /root
+ Size      : 448                              | 480
+ Mtime     : 2022-03-02 08:24:09 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:24:09 +0200        | 2022-03-02 09:04:25 +0200
+ Linkcount : 12                               | 13
+
+Directory: /usr
+ Mtime     : 2022-03-02 08:17:12 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:17:12 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/bin
+ Mtime     : 2022-03-02 08:17:04 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:17:04 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/bin/a2x
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807896                           | 804717
+ MD5       : 4S/6+ipuAYV4iuf31Zor6w==         | /ssmy12tfciuFQGH4trOmw==
+ SHA256    : QXJY7bSv06PGZkoVkP30yy9aK6j7l6kA | GcP+otsy2swcURoQ9YOaPY89sL57K9Cr
+             E92GtXtTLFs=                     | AclibGCrzGI=
+ RMD160    : NShmNCNHVmyZQ07xbWZoX5vsYJs=     | p3wenZ/Bt+5pGLZPmsipv9ePnio=
+
+File: /usr/bin/asciidoc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807897                           | 804718
+ MD5       : kJNCMza/f2uEpKhp3JP7SA==         | UhE05sssk3unGJNJyJOGpQ==
+ SHA256    : edAwCT/LX8hPNjPSOEqj2BxkCJLO1+HM | Fff6XBk8/HTm97tPHVoO3KeGXZp+hKyR
+             bAgptDRNkSk=                     | rHySxmWsvj8=
+ RMD160    : Qqqtq41lRYvyixWu8AfqnE0Dwoc=     | QFkUb5PoWNHGp3JLj+pBTM9g3zU=
+
+File: /usr/bin/chage
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chfn
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chsh
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/expiry
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/gpasswd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoMAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/ksu
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:24 +0200        | 2022-03-02 08:48:47 +0200
+
+File: /usr/bin/newgrp
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/passwd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgsAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/sg
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+
+File: /usr/bin/su
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 08:15:40 +0200        | 2022-03-02 08:48:47 +0200
+
+File: /usr/bin/unix_chkpwd
+ Perm      : -rwsr-sr-x                       | -rwxr-sr-x
+ Ctime     : 2022-03-02 08:15:31 +0200        | 2022-03-02 08:48:47 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/lib/Xorg.wrap
+ Perm      : -r-sr-xr-x                       | -r-xr-xr-x
+ Ctime     : 2022-03-02 08:17:04 +0200        | 2022-03-02 08:48:47 +0200
+
+Directory: /usr/lib/python3.10/site-packages
+ Mtime     : 2022-03-02 08:16:52 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:16:52 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc
+ Size      : 464                              | 488
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__init__.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807906                           | 805032
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__main__.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807907                           | 805103
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__metadata__.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807908                           | 805142
+ MD5       : u3vx9d0PrkU0pVutV1w2Wg==         | 8qF9y9K3zjH/acVMuviQTg==
+ SHA256    : YhG9bkES9/3OS3IsWgG8Y0BoLg0UxXJB | vEtMnDosWVUntUgwQV+GWxzKATKaAbwe
+             6o2SvujYK4Y=                     | myn8a+oID8I=
+ RMD160    : gZUADHa23huIN0MoDomAYKOlo0Q=     | vp0Z8M6T4+dQgPaRmJnzswttvKU=
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/__pycache__
+ Size      : 512                              | 552
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/__init__.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807910                           | 805143
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/__main__.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807911                           | 805168
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/__metadata__.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807912                           | 805169
+ MD5       : W5jd2piCsytZWapn61G49w==         | kNZakRZrx2jmiFDKTkI8uQ==
+ SHA256    : PA3XMqukMQOgDGUOgU/17CLRddUSJ7vn | xw9YrYg1Su9k0ClQ5h7Rk96wZtn3RpVa
+             TEDmA4aSYX4=                     | qeo3ricXD90=
+ RMD160    : fs502MhgFsmufk48AbacJquV5Pw=     | GhLWt9TgVemXwUsbcMRK9oOqFYk=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/a2x.cpython-310.pyc
+ Size      : 29337                            | 29065
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807913                           | 805170
+ MD5       : ZqmuIObpa1rknUb5+XOPfg==         | ROs5qvlBP+6te2Q2J4wZ2Q==
+ SHA256    : o6EvK7/a3z6WjmulM5BMfC+VcaLm3vG8 | e0izDrSc3YVN0AFnnapAbSH6mADgaGP4
+             epGswz87SuY=                     | SebjOPuG3jY=
+ RMD160    : tPazhBcvyqsEV8kMlWTsXLvhWZ4=     | pZUfF8TC/DBZ47TaxlwrdwlU2XQ=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/api.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807914                           | 805175
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/asciidoc.cpython-310.pyc
+ Size      : 147962                           | 146256
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807915                           | 805185
+ MD5       : CacjYcQE3h3OHv879/LARA==         | nQMvEOu7TYvq3WWnih9GrQ==
+ SHA256    : IjgHBiRAsr2HSdwWQbd+ZLH1+y1T7qSB | xKp+ooXZJ6TVnqjin67AgH+noK7rgYcX
+             Vtl5KPP2Pes=                     | jsYeMIqoYB8=
+ RMD160    : mgZfnnmU9DlNVcVBwnE17CA3DyE=     | UwreyKPdX+7b7EJmTfKKCDVfSE4=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/collections.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807916                           | 805187
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/exceptions.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807917                           | 805188
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/message.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807918                           | 805189
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/plugin.cpython-310.pyc
+ Size      : 6929                             | 6978
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807919                           | 805215
+ MD5       : ULOA9niwMZnBGH/oxsQcUQ==         | STt8eOcomBFneg1FlkyWuQ==
+ SHA256    : lXUr3n/srzpBY15gYG7dNPwLYvdlnwwI | 2lno1XOSFgF2MFu+GmtodfrOCXxd0bdP
+             uph6/Dbji6k=                     | JC3rvgZKp6I=
+ RMD160    : XN6e5tg1UnDyisd1UluC/SqjLys=     | 0qpU0FzY6Z3W2ifMPHHXsHe118M=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/__pycache__/utils.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807920                           | 805224
+
+File: /usr/lib/python3.10/site-packages/asciidoc/a2x.py
+ Size      : 38652                            | 38124
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807921                           | 805225
+ MD5       : 3OMnsuQ1puSBZmTW6lfdyg==         | lt3Ua36JAxwX/N/0UsVwAw==
+ SHA256    : 3Of3jG6bQKlKMo8lYwtlY78YIK7xvv3h | gcaAtCEDt36Lknf2zBef/22CM9uf+AKR
+             8CYE2cP1pEA=                     | clGyzGYl900=
+ RMD160    : yzLoLk8a5sQ/n5AC7y9xIv+XgQo=     | rCaZlWE6WXpxqbqUbjv7wOx2ZmM=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/api.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807922                           | 805226
+
+File: /usr/lib/python3.10/site-packages/asciidoc/asciidoc.py
+ Size      : 237487                           | 235621
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807923                           | 805298
+ MD5       : zFz+iu7gQYTzbuN47T6CUw==         | UCS9HV/U6fA2dYgfaZFslQ==
+ SHA256    : t0SmGYkV70LwJ60XzgmInO+0kj9rd0UT | KKhwolwi735Begn9sIsaFxvRTva6XELV
+             a6mU0VtCjiY=                     | 4BD96OPZdMU=
+ RMD160    : DgEqBFacnvg1jQRtosg4t3FBOeY=     | lLYH4E1DrJrmgaiK/v5t1N+Odq0=
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/blocks
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/blocks/__init__.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807925                           | 805311
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/blocks/__pycache__
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/blocks/__pycache__/__init__.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807927                           | 805312
+
+File: /usr/lib/python3.10/site-packages/asciidoc/blocks/__pycache__/table.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807928                           | 805313
+
+File: /usr/lib/python3.10/site-packages/asciidoc/blocks/table.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807929                           | 805405
+
+File: /usr/lib/python3.10/site-packages/asciidoc/collections.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807930                           | 805406
+
+File: /usr/lib/python3.10/site-packages/asciidoc/exceptions.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807931                           | 805407
+
+File: /usr/lib/python3.10/site-packages/asciidoc/message.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807932                           | 805408
+
+File: /usr/lib/python3.10/site-packages/asciidoc/plugin.py
+ Size      : 8270                             | 8308
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807933                           | 805412
+ MD5       : PlcCZL+kfDcPTyOWHe+mNQ==         | THfJtJSswFtxB4cDVoSEJQ==
+ SHA256    : E2ch5cmFjPEosE3wHEztBudLLHTTFNSk | +HVLNSw+1SfQIX7gUuUqD67uUcoQZ1un
+             WeYBgTR8JsY=                     | W2mkAyfNr0M=
+ RMD160    : bFWR/O9KiqXopDXo0i+VHmSuyrY=     | hfqbAflTmljkfIW8ELPRDJXCkLA=
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/asciidoc.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807935                           | 805413
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex/asciidoc-dblatex.sty
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807937                           | 805434
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex/asciidoc-dblatex.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807938                           | 805435
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/dblatex/dblatex-readme.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807939                           | 805436
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/asciidoc-docbook-xsl.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807941                           | 805437
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/chunked.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807942                           | 805438
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/common.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807943                           | 805439
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/epub.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807944                           | 805440
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/fo.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807945                           | 805441
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/htmlhelp.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807946                           | 805467
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/manpage.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807947                           | 805468
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/text.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807948                           | 805469
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook-xsl/xhtml.xsl
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807949                           | 805470
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook45.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807950                           | 805471
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/docbook5.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807951                           | 805472
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/__pycache__
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/__pycache__/unwraplatex.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807954                           | 807894
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/__pycache__
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/__pycache__/code-filter.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807957                           | 807895
+ MD5       : yMvXSaWunCbBu+/Y6XjlmA==         | y0gZqaEiPq9HHdpP3LCwbQ==
+ SHA256    : 9CHNTG67Dl1pwaferfzJZe/y4s84Byb/ | Fz1IqO4aU4RU5MHomdR+3kZ95as4+A9S
+             hgQKjGTm0MU=                     | zgVX9qDFKJs=
+ RMD160    : Lf16dyDoFbUmSwRVVRPZknWGnbQ=     | /JChfse2VmhtNgAATqaWWP7CSvo=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter-readme.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807958                           | 807896
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter-test.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807959                           | 807897
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807960                           | 807899
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/code/code-filter.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807961                           | 807900
+ MD5       : qOvKS3jCG62XxG+6gYeV8A==         | X4/cnu1CJhVz66VVKd4zWA==
+ SHA256    : 40dccjXmdFfvuwmFMQBjcCzPSqRRSRj4 | +2xhAJzscx7CPMc2dSrF86ydlIkso7jl
+             y8RTmhRElJ8=                     | CvUeBBXPSxY=
+ RMD160    : DQR6VuN8bIZP8/4bd2EaffNVZ0c=     | 9M0HvyXAnvWjeCKHMu2+dRlSbV0=
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/__pycache__
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/__pycache__/graphviz2png.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807964                           | 807901
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/asciidoc-graphviz-sample.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807965                           | 807902
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/graphviz-filter.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807966                           | 807903
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/graphviz/graphviz2png.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807967                           | 807904
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/__pycache__
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/__pycache__/latex2img.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807970                           | 807905
+ MD5       : DJS63fCQMjrAwg6Ozbsjbg==         | AwSLaI0z4dy1kKZKpmGmpA==
+ SHA256    : FYNUycH4I9qqeFNdahnd1d7J3+ACPL5F | h/21Pjqa1+ggsREtUxBb9llMK10d3J7Y
+             NjvjpY5Pn7s=                     | +q08uXuBEio=
+ RMD160    : gZF0ao06s9VD1gYhjNRtZFdMsGE=     | 4/fVCusX7DPQQuiGe4d0XQ6z78Q=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/latex-filter.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807971                           | 807906
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/latex/latex2img.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807972                           | 807907
+ MD5       : J+iMiMg5mkrqKJ/eABvAMg==         | BfZa2dAnb6Ym26OEssLpjQ==
+ SHA256    : bwyKYsDPv7PNwiT6ZHwLxJ6T2kKkQaGX | TcrCS6P2hpY48M86cC73kedFozhEqGsb
+             EHNgzM51CIU=                     | 4N+ofbm18BI=
+ RMD160    : o8kyqdwrZd2t9OpQbt5AaseBOVY=     | 6ewNkDncA4G07CEDIzydVo+UUpw=
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/__pycache__
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/__pycache__/music2png.cpython-310.pyc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807975                           | 807908
+ MD5       : 9Ojz0d8hbXLoZXDElmhn0w==         | yl+s4hWsRUAPg9q3/21ExQ==
+ SHA256    : SwINNtx1uh44loTHw73VLcpXYcTXv8IE | iTfqESw9OeRwuzK/jZI6YFy7KJTsu5on
+             uOvMbAmfSUQ=                     | cRL7h3uEasI=
+ RMD160    : O8OYfTFL7YaTeW9mGYW43tqyuvM=     | np9UDB3wB1PPzGIL74fBtPPlUfg=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/music-filter-test.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807976                           | 807910
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/music-filter.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807977                           | 807911
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/music/music2png.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807978                           | 807912
+ MD5       : jRwMeN2hJ6AdSlWAcThEew==         | PDF89Q2nUaKtLNN3n9tCMQ==
+ SHA256    : FgzZ/4W2KcDCSYuAEAGcsCugv0QanDeY | oKkZUUKFt1uKMFafq8nxooMc3Ry0FtQN
+             21AzE1sH5f0=                     | EgvgDvQYZjk=
+ RMD160    : sj0hMz6CgakUZw5mGnt0zd0fb9k=     | Tr/QdtiYAA9z8uqK/Cixl1XOhZU=
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/source
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/source/source-highlight-filter-test.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807980                           | 807913
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/source/source-highlight-filter.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807981                           | 807914
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/filters/unwraplatex.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807982                           | 807915
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/help.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807983                           | 807916
+ MD5       : PXcGZ/WcDxDjCePbbhc+/g==         | nIrjXs8XKGjyfefqhrY2sg==
+ SHA256    : c0J0c5qzY6A2ICr9PxSDcE0q6L74ml3Q | oVMVR+1yithFG2SQuPPGUFZa1pBOoujL
+             DCByH0kWheo=                     | +skVZrMJS1Y=
+ RMD160    : TS9EEUjd+Z1ShQT57DOioD6+4Gg=     | Pk6kyxomFE4h764mxqPN3iI7zsA=
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/html4.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807984                           | 807917
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/html5.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807985                           | 807918
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/icons
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/1.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807988                           | 807919
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/10.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807989                           | 807920
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/11.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807990                           | 807921
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/12.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807991                           | 807922
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/13.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807992                           | 807923
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/14.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807993                           | 807925
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/15.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807994                           | 807927
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/2.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807995                           | 807928
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/3.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807996                           | 807929
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/4.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807997                           | 807930
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/5.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807998                           | 807931
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/6.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 807999                           | 807932
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/7.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808000                           | 807933
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/8.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808001                           | 807935
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/callouts/9.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808002                           | 807937
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/caution.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808003                           | 807938
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/example.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808004                           | 807939
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/home.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808005                           | 807941
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/important.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808006                           | 807942
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/next.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808007                           | 807943
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/note.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808008                           | 807944
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/prev.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808009                           | 807945
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/tip.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808010                           | 807946
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/up.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808011                           | 807947
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/icons/warning.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808012                           | 807948
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/ASCIIMathML.js
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808014                           | 807949
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/LaTeXMathML.js
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808015                           | 807950
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/asciidoc.js
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808016                           | 807951
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/slidy.js
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808017                           | 807954
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/javascripts/toc.js
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808018                           | 807957
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ca.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808019                           | 807958
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-cs.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808020                           | 807959
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-de.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808021                           | 807960
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-el.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808022                           | 807961
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-en.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808023                           | 807964
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-es.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808024                           | 807965
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-fi.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808025                           | 807966
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-fr.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808026                           | 807967
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-hu.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808027                           | 807970
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-id.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808028                           | 807971
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-it.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808029                           | 807972
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ja.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808030                           | 807975
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-nl.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808031                           | 807976
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-pl.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808032                           | 807977
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-pt-BR.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808033                           | 807978
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ro.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808034                           | 807980
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-ru.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808035                           | 807981
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-sv.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808036                           | 807982
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-uk.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808037                           | 807983
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/lang-zh-CN.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808038                           | 807984
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/latex.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808039                           | 807985
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/slidy.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808040                           | 807988
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/asciidoc.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808042                           | 807989
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/docbook-xsl.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808043                           | 807990
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/pygments.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808044                           | 807991
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/slidy.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808045                           | 807992
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/toc2.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808046                           | 807993
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/stylesheets/xhtml11-quirks.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808047                           | 807994
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/text.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808048                           | 807995
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/themes/flask
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/themes/flask/flask.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808051                           | 807996
+
+Directory: /usr/lib/python3.10/site-packages/asciidoc/resources/themes/volnitsky
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/themes/volnitsky/volnitsky.css
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808053                           | 807997
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/xhtml11-quirks.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808054                           | 807998
+
+File: /usr/lib/python3.10/site-packages/asciidoc/resources/xhtml11.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808055                           | 807999
+
+File: /usr/lib/python3.10/site-packages/asciidoc/utils.py
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808056                           | 808000
+
+Directory: /usr/share/doc/asciidoc
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/share/doc/asciidoc/BUGS.adoc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808058                           | 808001
+
+File: /usr/share/doc/asciidoc/CHANGELOG.adoc
+ Size      : 160341                           | 160523
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808059                           | 808002
+ MD5       : ho3BmKJUGfXnlo0H+Vizsw==         | pfk+PiIVbsNDfNVQwSCr7Q==
+ SHA256    : PczAwF16veBuWXEMjZXG+skFvx4iFKjf | HyzL4ZmkVI672CmO11U3le5O99s4uHQG
+             pTxfhcgFiPQ=                     | DZ76JXFjvJU=
+ RMD160    : HMTwW2je3kaOFII178IiDmDxBqM=     | 714DQBk471TC/KJ7Th8vtR6zpfQ=
+
+File: /usr/share/doc/asciidoc/INSTALL.adoc
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808060                           | 808003
+
+File: /usr/share/doc/asciidoc/README.md
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808061                           | 808004
+
+Directory: /usr/share/doc/asciidoc/dblatex
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/share/doc/asciidoc/dblatex/dblatex-readme.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808063                           | 808005
+
+Directory: /usr/share/doc/asciidoc/doc
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/share/doc/asciidoc/doc/a2x.1
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808065                           | 808006
+ MD5       : crJJLAwZTL86LxhPSHH6XQ==         | H3YerzKEXDtgBGHnYJs8NA==
+ SHA256    : c85/uSVtINIURyfn5c/eb28oJCbtSsSk | qFO1LnIRXWmkDTnSppcd0v8oPhSZrZ/w
+             FSC2/znZwC0=                     | QixTxvjIeT8=
+ RMD160    : QwOFpGnU/dNjZv4VeMhb7kF7TDY=     | kgRPYATwslwQlsEYYz7Wfc5g3jg=
+
+File: /usr/share/doc/asciidoc/doc/a2x.1.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808066                           | 808007
+ MD5       : uPYO3BiApUDz/MO7kUSkCA==         | 8u7+UhrVRa6cH5BLzYSKyA==
+ SHA256    : CfyLHStTOAkVuczgSUYLVoISUzKjICCM | M6fEC427SmvgSgqLR44cFO/O4ZwgFbnp
+             QvlJG3ap3GM=                     | BrdCumzgIak=
+ RMD160    : URXcH8dYokUrLQcwL/1SsXD7hrI=     | e6mYY8idzU+puF8yJMHdO7gaP0g=
+
+File: /usr/share/doc/asciidoc/doc/article-docinfo.xml
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808067                           | 808008
+
+File: /usr/share/doc/asciidoc/doc/article.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808068                           | 808009
+
+File: /usr/share/doc/asciidoc/doc/asciidoc.1
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808069                           | 808010
+ MD5       : 3l3Mj16WhAxc6j9Tb0DMxQ==         | F7F5wcrzvaGMTh2zHQzJ3g==
+ SHA256    : n4v3D+8OSWG2Or58Q9dCc3HCfDL5mIpv | vHr6fR27kIXK04hQf20GBYIz8Q+9k8aw
+             ipR+S1YVHIk=                     | 4KxzZa5xk1s=
+ RMD160    : +5YJr8skdPVJaZUQcpJ8HtsGSHo=     | wEY1UhvK/wzXxWO11670AVpcUj0=
+
+File: /usr/share/doc/asciidoc/doc/asciidoc.1.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808070                           | 808011
+ MD5       : x8VqJMi7sCax0cr7WdESkw==         | aPG9q3RXPkKvymba227HmQ==
+ SHA256    : m1tAH2grQaNhlla9+70z7KaygInB5uSe | CErX5HNeNjYntd+cGpJU/9OwB9F/rSeY
+             BKCspdqK12Q=                     | IozzTFbnr8Q=
+ RMD160    : wz40j7oQSIJD8funcDW/h38L5Ck=     | PG+oYXnkC67rSPRLprddZL/z+nU=
+
+File: /usr/share/doc/asciidoc/doc/asciidoc.conf
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808071                           | 808012
+
+File: /usr/share/doc/asciidoc/doc/asciidoc.dict
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808072                           | 808014
+
+File: /usr/share/doc/asciidoc/doc/asciidoc.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808073                           | 808015
+ MD5       : HElAoEUQOzlH02uDnTFIgg==         | E0XvcJfXDta8BNjGqMZXyQ==
+ SHA256    : dj3utoQi6jsKzwfdf2nb+dbHSwPLYvKw | yQT6ZGFNld8gGyY2SSavdje5kMMwhoSo
+             N40TvsZpkSI=                     | LPOwR/0OoS4=
+ RMD160    : X7vzmfMVZ0B/A/NVxcyDBkDWoGo=     | PTAb3Ucx1S0FD533pXLtKMlxJ3w=
+
+File: /usr/share/doc/asciidoc/doc/asciidocapi.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808074                           | 808016
+
+File: /usr/share/doc/asciidoc/doc/asciimath.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808075                           | 808017
+
+File: /usr/share/doc/asciidoc/doc/book-multi.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808076                           | 808018
+
+File: /usr/share/doc/asciidoc/doc/book.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808077                           | 808019
+
+File: /usr/share/doc/asciidoc/doc/customers.csv
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808078                           | 808020
+
+File: /usr/share/doc/asciidoc/doc/epub-notes.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808079                           | 808021
+
+File: /usr/share/doc/asciidoc/doc/faq.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808080                           | 808022
+
+File: /usr/share/doc/asciidoc/doc/latex-backend.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808081                           | 808023
+
+File: /usr/share/doc/asciidoc/doc/latex-bugs.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808082                           | 808024
+
+File: /usr/share/doc/asciidoc/doc/latex-filter.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808083                           | 808025
+
+File: /usr/share/doc/asciidoc/doc/latexmath.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808084                           | 808026
+
+File: /usr/share/doc/asciidoc/doc/latexmathml.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808085                           | 808027
+
+File: /usr/share/doc/asciidoc/doc/music-filter.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808086                           | 808028
+
+File: /usr/share/doc/asciidoc/doc/publishing-ebooks-with-asciidoc.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808087                           | 808029
+
+File: /usr/share/doc/asciidoc/doc/slidy-example.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808088                           | 808030
+
+File: /usr/share/doc/asciidoc/doc/slidy.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808089                           | 808031
+
+File: /usr/share/doc/asciidoc/doc/source-highlight-filter.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808090                           | 808032
+
+File: /usr/share/doc/asciidoc/doc/testasciidoc.1
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808091                           | 808033
+ MD5       : 5by3MUJ8YNveJlcbDXky+g==         | lA7Wkz6nsgVmf2RuJFcf2Q==
+ SHA256    : Y8vvUDRSnd3AcSWoN5OMJwBDSKos4n3P | Xpt9Q82MW8N6h/Ay8f/mMPvKELJ+BglE
+             QB+97WNseTU=                     | yTmuXtIaWps=
+ RMD160    : IV3BNs7PV4qeZTPQQ4kggf8weKI=     | y69gM7KCMHAf4SiVp4LYNRFepXM=
+
+File: /usr/share/doc/asciidoc/doc/testasciidoc.1.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808092                           | 808034
+
+File: /usr/share/doc/asciidoc/doc/testasciidoc.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808093                           | 808035
+
+Directory: /usr/share/doc/asciidoc/docbook-xsl
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/share/doc/asciidoc/docbook-xsl/asciidoc-docbook-xsl.txt
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808095                           | 808036
+
+Directory: /usr/share/doc/asciidoc/images
+ Mtime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/share/doc/asciidoc/images/highlighter.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808097                           | 808037
+
+File: /usr/share/doc/asciidoc/images/smallnew.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808098                           | 808038
+
+File: /usr/share/doc/asciidoc/images/tiger.png
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808099                           | 808039
+
+Directory: /usr/share/man/man1
+ Mtime     : 2022-03-02 08:17:04 +0200        | 2022-03-02 09:04:25 +0200
+ Ctime     : 2022-03-02 08:17:04 +0200        | 2022-03-02 09:04:25 +0200
+
+File: /usr/share/man/man1/a2x.1.gz
+ Size      : 5187                             | 5189
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808100                           | 808040
+ MD5       : 6BqjQixzQhc1MIzDAphDNg==         | lckU3hMIDyIpPNfZ42skwA==
+ SHA256    : M2KY3gKmL8XnlqjEA+xHP3DuxmkTeqmr | wjeTzWl4rmjGwpxF53gs7GEGvaibNJo6
+             D3DKW0PufUY=                     | Z0W/TLE+3TY=
+ RMD160    : 3gcedzHTfyZExOapSI9Bljzd+1w=     | 7tMxTNAtkfwymKvxaqrf4bwGjIg=
+
+File: /usr/share/man/man1/asciidoc.1.gz
+ Size      : 3287                             | 3290
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808101                           | 808042
+ MD5       : Jerik+1IUP+8TpaqSs2aMQ==         | 5oRmnXY1zy0YoFT2btywwA==
+ SHA256    : NNwNX1vS4oUqZ5yLiqwMlFnzz0EhepEV | X6ehNix/tT6tCkXlNlRTkDkWmIb2SdGB
+             OP1KXnjj12k=                     | F0rEP5s+jPg=
+ RMD160    : 7VoIn04qUlvBsEFOZIlplGyySPk=     | KEn5fynfeUd8VRYV3d4YIuVdiyk=
+
+File: /usr/share/man/man1/testasciidoc.1.gz
+ Size      : 1396                             | 1399
+ Mtime     : 2022-02-22 09:27:35 +0200        | 2022-03-01 20:32:37 +0200
+ Ctime     : 2022-03-02 08:15:38 +0200        | 2022-03-02 09:04:25 +0200
+ Inode     : 808102                           | 808043
+ MD5       : MiCw2WEAnAxViVO2+0khiw==         | 40Bt98/254oZBKy+F7tOzQ==
+ SHA256    : acJxxxN6Lt3schVe27of8CFoLmkw8caB | c1WEf7Qnsiv3P7uiGNtBB+/oNOjqhoNJ
+             Z1uaqIBk0nk=                     | YaMvhrzrEik=
+ RMD160    : zxZAk+fVD0H8+3dzirSin0pyPjA=     | yWe5k4ecXuvTQLXUaa60/1nEgsU=
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : ygZtKnK6NCCvjHFaw/46CA==
+ SHA1      : RRnwyS2W8JIUg5xSQqD9Hh1GM3w=
+ SHA256    : OX9GNqqNSgY+kIyh7/TpU/2Qk4+qmGFQ
+             1LHN0EdSBpk=
+ SHA512    : jMOpfoArfc0BDRKeH5Se6IKtJcOo6rGF
+             RHtZU9sHSiQLMrPSCTV9E0DVYKVKt1E0
+             SE0ShNdXSG2VtAOgVuJGQw==
+ RMD160    : njXUsDzr4sQLfm3V9INcYX4CKvs=
+ TIGER     : Jrj/Fy6yrLNI5V/CUpvg9nDaWcIbZy/O
+ CRC32     : YLVLaQ==
+ CRC32B    : wCS8hw==
+ HAVAL     : xl7m84NMz5exywjtJrLaWlmS4Xrc2H+8
+             McNmcHjrdSY=
+ WHIRLPOOL : Jf3ojJdEj6L8WAekQ6L+SK9fQWlIAUdk
+             OB5AdUz2JIjqpCny2PlowLnWg/Ur2F/L
+             tshtCLKFEHuB7ZkMu6Id2A==
+ GOST      : ZlaZzzDmbq/x+Pw7q9tuNSBpT4McIxKg
+             lkzbIFlUgH0=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : pQVOb9dqsk7tAIQIf4+pow==
+ SHA1      : OdtOlois0wOB0+8hvewWLFHkrco=
+ SHA256    : o+aHUZQZVElElYD05+JcFop2EL++auJE
+             tj/hMZWUp+I=
+ SHA512    : m5R6IwaxlbK/jlcOYrZCrXflRK2Tyc6S
+             yQ6li3Lwi3zopn18kh3m40W8xBfEJThs
+             //2qiZqldKK/EDLUYHtb4Q==
+ RMD160    : nweOrG+C7Cufe3uRN6AOZt5BijM=
+ TIGER     : 33r23gEZdcZCTj1xo1I3nJNfG6Ntj77W
+ CRC32     : TKQP5g==
+ CRC32B    : /8IfZw==
+ HAVAL     : 71ciLbA6D2wm/4775nGwHaSjXvemfWM4
+             SWZaZdl23hs=
+ WHIRLPOOL : TARHe8US7Kw3j7wnDhp/Jmyd7xj7ZsuS
+             KYjyQZwNDGguoKHEJuJA0qeHQMEeUnY1
+             uFZvaxdHiq+CivrP7q+MAg==
+ GOST      : UCAkQTyDQjqme6FSZ7RVyy9Id9Zbm8Cw
+             qqwE15TE94c=
+
+
+End timestamp: 2022-03-02 09:09:48 +0200 (run time: 5m 3s)

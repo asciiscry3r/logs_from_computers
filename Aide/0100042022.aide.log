@@ -1,0 +1,615 @@
+Start timestamp: 2022-02-04 01:00:06 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	462409
+  Added entries:		1
+  Removed entries:		0
+  Changed entries:		109
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /root/.cache/vim/swap/%etc%default%grub.swp
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc.. ...: /boot
+f   ...   i  .  : /etc/.updated
+f   ...   i  .  : /etc/ld.so.cache
+s   ...   i  .  : /etc/pacman.d/gnupg/S.gpg-agent
+d = ... mc.. ...: /opt/android-sdk/platform-tools
+d = ... mc.. ...: /opt/cef-obs/Release
+d = ... mc.. ...: /opt/cef-obs/Resources
+d = ... mc.. ...: /opt/google/chrome/WidevineCdm/_platform_specific/linux_x64
+d = ... mc.. ...: /opt/thefanclub/overgrive/venv/lib/python3.10/site-packages/googleapiclient/discovery_cache/documents
+d = ... mc.. ...: /root
+d = ... mc.. ...: /root/.cache/Raspberry Pi/Imager
+d = ... mc.. ...: /root/.cache/mesa_shader_cache
+d = ... mc.. ...: /root/.cache/pip/http/a/2/5/7/f
+d = ... mc.. ...: /root/.cache/pip/http/b/6/4/2/d
+d = ... mc.. ...: /root/.cache/pip/http/d/2/2/e/0
+d = ... mc.. ...: /root/.cache/pip/http/f/4/1/9/5
+d = ... mc.. ...: /root/.cache/vim/swap
+d = ... mc.. ...: /root/.config/google-chrome/Default
+d = ... mc.. ...: /root/.gradle/caches/6.5/fileHashes
+d = ... mc.. ...: /root/.gradle/caches/6.5/javaCompile
+d = ... mc.. ...: /root/.gradle/caches/journal-1
+d = ... mc.. ...: /root/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-web/11.0.2/49ca03e2fd58cbb0ad94f6a6bd11e0c043e541a7
+d = ... mc.. ...: /root/.gradle/caches/modules-2/metadata-2.96
+d = ... mc.. ...: /root/.gradle/daemon/6.5
+d = ... mc.. ...: /root/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p
+d = ... mc.. ...: /root/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p/gradle-6.5/lib
+d = ... mc.. ...: /root/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p/gradle-6.5/lib/plugins
+d = ... mc.. ...: /root/.openjfx/cache/11.0.2
+d = ... mc.. ...: /root/.pki/nssdb
+d = ... mc.. ...: /usr/bin
+d = ... mc.. ...: /usr/include/gtk-4.0/gsk
+d = ... mc.. ...: /usr/include/gtk-4.0/gtk
+d = ... mc.. ...: /usr/lib
+d = ... mc.. ...: /usr/lib/bellagio
+d = ... mc.. ...: /usr/lib/clang/13.0.0/include
+d = ... mc.. ...: /usr/lib/d3d
+d = ... mc.. ...: /usr/lib/dri
+d = ... mc.. ...: /usr/lib/electron14
+d = ... mc.. ...: /usr/lib/firefox
+d = ... mc.. ...: /usr/lib/jvm/java-11-openjdk/jmods
+d = ... mc.. ...: /usr/lib/jvm/java-11-openjdk/lib
+d = ... mc.. ...: /usr/lib/jvm/java-17-openjdk/jmods
+d = ... mc.. ...: /usr/lib/jvm/java-17-openjdk/lib
+d = ... mc.. ...: /usr/lib/jvm/java-17-openjdk/lib/server
+d = ... mc.. ...: /usr/lib/kritaplugins
+d = ... mc.. ...: /usr/lib/libreoffice/program
+d = ... mc.. ...: /usr/lib/libreoffice/share/template/common/draw
+d = ... mc.. ...: /usr/lib/libreoffice/share/template/common/internal
+d = ... mc.. ...: /usr/lib/libreoffice/share/template/common/offimisc
+d = ... mc.. ...: /usr/lib/libreoffice/share/template/common/personal
+d = ... mc.. ...: /usr/lib/libreoffice/share/template/common/presnt
+d = ... mc.. ...: /usr/lib/libreoffice/share/xslt/import/wordml
+d = ... mc.. ...: /usr/lib/locale
+d = ... mc.. ...: /usr/lib/mit-scheme-x86-64-11.2
+d = ... mc.. ...: /usr/lib/modules/5.16.5-arch1-1
+d = ... mc.. ...: /usr/lib/modules/5.16.5-arch1-1/build
+d = ... mc.. ...: /usr/lib/networkmanager
+d = ... mc.. ...: /usr/lib/openconnect
+d = ... mc.. ...: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/TrapReceiver
+d = ... mc.. ...: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/agent
+d = ... mc.. ...: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/agent/default_store
+d = ... mc.. ...: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/default_store
+d = ... mc.. ...: /usr/lib/python3.10/site-packages/googleapiclient/discovery_cache/documents
+d = ... mc.. ...: /usr/lib/python3.10/site-packages/mesonbuild/wrap
+d = ... mc.. ...: /usr/lib/python3.10/site-packages/mesonbuild/wrap/__pycache__
+d = ... mc.. ...: /usr/lib/python3.10/site-packages/netsnmp
+d = ... mc.. ...: /usr/lib/python3.10/site-packages/netsnmp/tests
+d = ... mc.. ...: /usr/lib/python3.9/site-packages/googleapiclient/discovery_cache/documents
+d = ... mc.. ...: /usr/lib/qt6/plugins/generic
+d = ... mc.. ...: /usr/lib/qt6/plugins/imageformats
+d = ... mc.. ...: /usr/lib/qt6/plugins/platforminputcontexts
+d = ... mc.. ...: /usr/lib/qt6/plugins/platforms
+d = ... mc.. ...: /usr/lib/qt6/plugins/platformthemes
+d = ... mc.. ...: /usr/lib/qt6/plugins/printsupport
+d = ... mc.. ...: /usr/lib/qt6/plugins/sqldrivers
+d = ... mc.. ...: /usr/lib/qt6/plugins/tls
+d = ... mc.. ...: /usr/lib/qt6/plugins/xcbglintegrations
+d = ... mc.. ...: /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private
+d = ... mc.. ...: /usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis
+d = ... mc.. ...: /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib
+d = ... mc.. ...: /usr/lib/virtualbox
+d = ... mc.. ...: /usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64
+d = ... mc.. ...: /usr/lib32
+d = ... mc.. ...: /usr/lib32/dri
+d = ... mc.. ...: /usr/share/GeoIP
+d = ... mc.. ...: /usr/share/bladerf/fpga
+d > ... mc.. ...: /usr/share/doc/cmake/html/module
+d = ... mc.. ...: /usr/share/doc/cmake/html/policy
+d = ... mc.. ...: /usr/share/doc/cmake/html/prop_tgt
+d = ... mc.. ...: /usr/share/doc/cmake/html/release
+d = ... mc.. ...: /usr/share/doc/cmake/html/variable
+d = ... mc.. ...: /usr/share/doc/ghostscript/9.55.0
+d = ... mc.. ...: /usr/share/doc/openconnect
+d = ... mc.. ...: /usr/share/doc/openconnect/images
+d = ... mc.. ...: /usr/share/doc/potrace
+d = ... mc.. ...: /usr/share/doc/qt6/global
+d = ... mc.. ...: /usr/share/doc/qt6/global/externalsites
+d = ... mc.. ...: /usr/share/doc/qt6/global/template/images
+d = ... mc.. ...: /usr/share/doc/qt6/global/template/scripts
+d = ... mc.. ...: /usr/share/doc/qt6/global/template/style
+d = ... mc.. ...: /usr/share/fonts/Unifont
+d = ... mc.. ...: /usr/share/gir-1.0
+d = ... mc.. ...: /usr/share/gnome-vpn-properties/openconnect
+d = ... mc.. ...: /usr/share/gnome-vpn-properties/vpnc
+d = ... mc.. ...: /usr/share/i18n/locales
+d = ... mc.. ...: /usr/share/krita/bundles
+d = ... mc.. ...: /usr/share/licenses/net-snmp
+d = ... mc.. ...: /usr/share/licenses/vpnc
+d = ... mc.. ...: /usr/share/texmf-dist/scripts/arara
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /boot
+ Mtime     : 2022-02-04 00:01:22 +0200        | 2022-02-04 00:40:24 +0200
+ Ctime     : 2022-02-04 00:01:22 +0200        | 2022-02-04 00:40:24 +0200
+
+File: /etc/.updated
+ Inode     : 9175960                          | 9175716
+
+File: /etc/ld.so.cache
+ Inode     : 9175716                          | 9175720
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 9175720                          | 9175960
+
+Directory: /opt/android-sdk/platform-tools
+ Mtime     : 2022-01-14 10:44:24 +0200        | 2022-02-04 00:52:49 +0200
+ Ctime     : 2022-01-14 10:44:24 +0200        | 2022-02-04 00:52:49 +0200
+
+Directory: /opt/cef-obs/Release
+ Mtime     : 2022-01-14 10:47:14 +0200        | 2022-02-04 00:52:51 +0200
+ Ctime     : 2022-01-14 10:47:14 +0200        | 2022-02-04 00:52:51 +0200
+
+Directory: /opt/cef-obs/Resources
+ Mtime     : 2022-01-14 10:47:14 +0200        | 2022-02-04 00:52:50 +0200
+ Ctime     : 2022-01-14 10:47:14 +0200        | 2022-02-04 00:52:50 +0200
+
+Directory: /opt/google/chrome/WidevineCdm/_platform_specific/linux_x64
+ Mtime     : 2022-02-02 11:06:12 +0200        | 2022-02-04 00:52:49 +0200
+ Ctime     : 2022-02-02 11:06:12 +0200        | 2022-02-04 00:52:49 +0200
+
+Directory: /opt/thefanclub/overgrive/venv/lib/python3.10/site-packages/googleapiclient/discovery_cache/documents
+ Mtime     : 2022-01-14 10:57:09 +0200        | 2022-02-04 00:52:50 +0200
+ Ctime     : 2022-01-14 10:57:09 +0200        | 2022-02-04 00:52:50 +0200
+
+Directory: /root
+ Mtime     : 2022-02-03 21:22:15 +0200        | 2022-02-04 00:40:23 +0200
+ Ctime     : 2022-02-03 21:22:15 +0200        | 2022-02-04 00:40:23 +0200
+
+Directory: /root/.cache/Raspberry Pi/Imager
+ Mtime     : 2022-01-04 01:32:36 +0200        | 2022-02-04 00:40:11 +0200
+ Ctime     : 2022-01-04 01:32:36 +0200        | 2022-02-04 00:40:11 +0200
+
+Directory: /root/.cache/mesa_shader_cache
+ Mtime     : 2022-01-28 23:23:41 +0200        | 2022-02-04 00:40:10 +0200
+ Ctime     : 2022-01-28 23:23:41 +0200        | 2022-02-04 00:40:10 +0200
+
+Directory: /root/.cache/pip/http/a/2/5/7/f
+ Mtime     : 2021-12-10 16:16:05 +0200        | 2022-02-04 00:40:10 +0200
+ Ctime     : 2021-12-10 16:16:05 +0200        | 2022-02-04 00:40:10 +0200
+
+Directory: /root/.cache/pip/http/b/6/4/2/d
+ Mtime     : 2021-12-10 16:16:01 +0200        | 2022-02-04 00:40:11 +0200
+ Ctime     : 2021-12-10 16:16:01 +0200        | 2022-02-04 00:40:11 +0200
+
+Directory: /root/.cache/pip/http/d/2/2/e/0
+ Mtime     : 2021-12-10 16:16:00 +0200        | 2022-02-04 00:40:10 +0200
+ Ctime     : 2021-12-10 16:16:00 +0200        | 2022-02-04 00:40:10 +0200
+
+Directory: /root/.cache/pip/http/f/4/1/9/5
+ Mtime     : 2021-12-10 16:16:08 +0200        | 2022-02-04 00:40:11 +0200
+ Ctime     : 2021-12-10 16:16:08 +0200        | 2022-02-04 00:40:11 +0200
+
+Directory: /root/.cache/vim/swap
+ Mtime     : 2022-02-03 21:22:15 +0200        | 2022-02-04 01:00:20 +0200
+ Ctime     : 2022-02-03 21:22:15 +0200        | 2022-02-04 01:00:20 +0200
+
+Directory: /root/.config/google-chrome/Default
+ Mtime     : 2022-01-08 16:18:18 +0200        | 2022-02-04 00:40:02 +0200
+ Ctime     : 2022-01-08 16:18:18 +0200        | 2022-02-04 00:40:02 +0200
+
+Directory: /root/.gradle/caches/6.5/fileHashes
+ Mtime     : 2021-12-21 00:25:27 +0200        | 2022-02-04 00:40:08 +0200
+ Ctime     : 2021-12-21 00:25:27 +0200        | 2022-02-04 00:40:08 +0200
+
+Directory: /root/.gradle/caches/6.5/javaCompile
+ Mtime     : 2021-12-21 00:25:54 +0200        | 2022-02-04 00:40:08 +0200
+ Ctime     : 2021-12-21 00:25:54 +0200        | 2022-02-04 00:40:08 +0200
+
+Directory: /root/.gradle/caches/journal-1
+ Mtime     : 2021-12-21 00:25:27 +0200        | 2022-02-04 00:40:07 +0200
+ Ctime     : 2021-12-21 00:25:27 +0200        | 2022-02-04 00:40:07 +0200
+
+Directory: /root/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-web/11.0.2/49ca03e2fd58cbb0ad94f6a6bd11e0c043e541a7
+ Mtime     : 2021-12-21 00:25:50 +0200        | 2022-02-04 00:40:07 +0200
+ Ctime     : 2021-12-21 00:25:50 +0200        | 2022-02-04 00:40:07 +0200
+
+Directory: /root/.gradle/caches/modules-2/metadata-2.96
+ Mtime     : 2021-12-21 00:25:34 +0200        | 2022-02-04 00:40:08 +0200
+ Ctime     : 2021-12-21 00:25:34 +0200        | 2022-02-04 00:40:08 +0200
+
+Directory: /root/.gradle/daemon/6.5
+ Mtime     : 2021-12-21 17:11:18 +0200        | 2022-02-04 00:40:07 +0200
+ Ctime     : 2021-12-21 19:07:40 +0200        | 2022-02-04 00:40:07 +0200
+
+Directory: /root/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p
+ Mtime     : 2021-12-21 00:25:08 +0200        | 2022-02-04 00:40:02 +0200
+ Ctime     : 2021-12-21 00:25:08 +0200        | 2022-02-04 00:40:02 +0200
+
+Directory: /root/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p/gradle-6.5/lib
+ Mtime     : 2021-12-21 00:25:07 +0200        | 2022-02-04 00:40:06 +0200
+ Ctime     : 2021-12-21 00:25:07 +0200        | 2022-02-04 00:40:06 +0200
+
+Directory: /root/.gradle/wrapper/dists/gradle-6.5-bin/6nifqtx7604sqp1q6g8wikw7p/gradle-6.5/lib/plugins
+ Mtime     : 2021-12-21 00:25:08 +0200        | 2022-02-04 00:40:05 +0200
+ Ctime     : 2021-12-21 00:25:08 +0200        | 2022-02-04 00:40:05 +0200
+
+Directory: /root/.openjfx/cache/11.0.2
+ Mtime     : 2021-12-21 00:27:03 +0200        | 2022-02-04 00:40:08 +0200
+ Ctime     : 2021-12-21 00:27:03 +0200        | 2022-02-04 00:40:08 +0200
+
+Directory: /root/.pki/nssdb
+ Mtime     : 2022-01-08 16:17:55 +0200        | 2022-02-04 00:40:08 +0200
+ Ctime     : 2022-01-08 16:17:55 +0200        | 2022-02-04 00:40:08 +0200
+
+Directory: /usr/bin
+ Mtime     : 2022-02-04 00:04:24 +0200        | 2022-02-04 00:38:31 +0200
+ Ctime     : 2022-02-04 00:04:24 +0200        | 2022-02-04 00:38:31 +0200
+
+Directory: /usr/include/gtk-4.0/gsk
+ Mtime     : 2022-02-03 23:58:10 +0200        | 2022-02-04 00:39:59 +0200
+ Ctime     : 2022-02-03 23:58:10 +0200        | 2022-02-04 00:39:59 +0200
+
+Directory: /usr/include/gtk-4.0/gtk
+ Mtime     : 2022-02-03 23:58:10 +0200        | 2022-02-04 00:39:59 +0200
+ Ctime     : 2022-02-03 23:58:10 +0200        | 2022-02-04 00:39:59 +0200
+
+Directory: /usr/lib
+ Mtime     : 2022-02-04 00:04:24 +0200        | 2022-02-04 00:39:51 +0200
+ Ctime     : 2022-02-04 00:04:24 +0200        | 2022-02-04 00:39:51 +0200
+
+Directory: /usr/lib/bellagio
+ Mtime     : 2022-02-03 23:57:38 +0200        | 2022-02-04 00:39:09 +0200
+ Ctime     : 2022-02-03 23:57:38 +0200        | 2022-02-04 00:39:09 +0200
+
+Directory: /usr/lib/clang/13.0.0/include
+ Mtime     : 2022-02-03 23:57:54 +0200        | 2022-02-04 00:39:34 +0200
+ Ctime     : 2022-02-03 23:57:54 +0200        | 2022-02-04 00:39:34 +0200
+
+Directory: /usr/lib/d3d
+ Mtime     : 2022-02-03 23:57:38 +0200        | 2022-02-04 00:39:32 +0200
+ Ctime     : 2022-02-03 23:57:38 +0200        | 2022-02-04 00:39:32 +0200
+
+Directory: /usr/lib/dri
+ Mtime     : 2022-02-03 23:57:38 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:57:38 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/electron14
+ Mtime     : 2022-02-03 23:57:50 +0200        | 2022-02-04 00:39:27 +0200
+ Ctime     : 2022-02-03 23:57:50 +0200        | 2022-02-04 00:39:27 +0200
+
+Directory: /usr/lib/firefox
+ Mtime     : 2022-02-03 23:57:59 +0200        | 2022-02-04 00:39:36 +0200
+ Ctime     : 2022-02-03 23:57:59 +0200        | 2022-02-04 00:39:36 +0200
+
+Directory: /usr/lib/jvm/java-11-openjdk/jmods
+ Mtime     : 2022-02-03 23:58:08 +0200        | 2022-02-04 00:38:58 +0200
+ Ctime     : 2022-02-03 23:58:08 +0200        | 2022-02-04 00:38:58 +0200
+
+Directory: /usr/lib/jvm/java-11-openjdk/lib
+ Mtime     : 2022-02-03 23:58:08 +0200        | 2022-02-04 00:38:58 +0200
+ Ctime     : 2022-02-03 23:58:08 +0200        | 2022-02-04 00:38:58 +0200
+
+Directory: /usr/lib/jvm/java-17-openjdk/jmods
+ Mtime     : 2022-02-03 23:58:07 +0200        | 2022-02-04 00:38:59 +0200
+ Ctime     : 2022-02-03 23:58:07 +0200        | 2022-02-04 00:38:59 +0200
+
+Directory: /usr/lib/jvm/java-17-openjdk/lib
+ Mtime     : 2022-02-03 23:58:07 +0200        | 2022-02-04 00:38:59 +0200
+ Ctime     : 2022-02-03 23:58:07 +0200        | 2022-02-04 00:38:59 +0200
+
+Directory: /usr/lib/jvm/java-17-openjdk/lib/server
+ Mtime     : 2022-02-03 23:58:06 +0200        | 2022-02-04 00:39:03 +0200
+ Ctime     : 2022-02-03 23:58:06 +0200        | 2022-02-04 00:39:03 +0200
+
+Directory: /usr/lib/kritaplugins
+ Mtime     : 2022-02-03 23:58:15 +0200        | 2022-02-04 00:39:39 +0200
+ Ctime     : 2022-02-03 23:58:15 +0200        | 2022-02-04 00:39:39 +0200
+
+Directory: /usr/lib/libreoffice/program
+ Mtime     : 2022-02-03 23:58:28 +0200        | 2022-02-04 00:39:07 +0200
+ Ctime     : 2022-02-03 23:58:28 +0200        | 2022-02-04 00:39:07 +0200
+
+Directory: /usr/lib/libreoffice/share/template/common/draw
+ Mtime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+ Ctime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+
+Directory: /usr/lib/libreoffice/share/template/common/internal
+ Mtime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+ Ctime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+
+Directory: /usr/lib/libreoffice/share/template/common/offimisc
+ Mtime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+ Ctime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+
+Directory: /usr/lib/libreoffice/share/template/common/personal
+ Mtime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+ Ctime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+
+Directory: /usr/lib/libreoffice/share/template/common/presnt
+ Mtime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+ Ctime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:07 +0200
+
+Directory: /usr/lib/libreoffice/share/xslt/import/wordml
+ Mtime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:08 +0200
+ Ctime     : 2022-02-03 23:58:29 +0200        | 2022-02-04 00:39:08 +0200
+
+Directory: /usr/lib/locale
+ Mtime     : 2022-02-03 23:57:12 +0200        | 2022-02-04 00:39:26 +0200
+ Ctime     : 2022-02-03 23:57:12 +0200        | 2022-02-04 00:39:26 +0200
+
+Directory: /usr/lib/mit-scheme-x86-64-11.2
+ Mtime     : 2022-01-14 10:54:03 +0200        | 2022-02-04 00:39:41 +0200
+ Ctime     : 2022-01-14 10:54:03 +0200        | 2022-02-04 00:39:41 +0200
+
+Directory: /usr/lib/modules/5.16.5-arch1-1
+ Mtime     : 2022-02-04 00:01:21 +0200        | 2022-02-04 00:39:05 +0200
+ Ctime     : 2022-02-04 00:01:21 +0200        | 2022-02-04 00:39:05 +0200
+
+Directory: /usr/lib/modules/5.16.5-arch1-1/build
+ Mtime     : 2022-02-03 23:58:36 +0200        | 2022-02-04 00:39:05 +0200
+ Ctime     : 2022-02-03 23:58:36 +0200        | 2022-02-04 00:39:05 +0200
+
+Directory: /usr/lib/networkmanager
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:40 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:40 +0200
+
+Directory: /usr/lib/openconnect
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:33 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:33 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/TrapReceiver
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/agent
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/agent/default_store
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+
+Directory: /usr/lib/perl5/5.34/vendor_perl/auto/NetSNMP/default_store
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:11 +0200
+
+Directory: /usr/lib/python3.10/site-packages/googleapiclient/discovery_cache/documents
+ Mtime     : 2021-12-26 01:55:32 +0200        | 2022-02-04 00:39:14 +0200
+ Ctime     : 2021-12-26 01:55:32 +0200        | 2022-02-04 00:39:14 +0200
+
+Directory: /usr/lib/python3.10/site-packages/mesonbuild/wrap
+ Mtime     : 2022-02-03 23:58:41 +0200        | 2022-02-04 00:39:12 +0200
+ Ctime     : 2022-02-03 23:58:41 +0200        | 2022-02-04 00:39:12 +0200
+
+Directory: /usr/lib/python3.10/site-packages/mesonbuild/wrap/__pycache__
+ Mtime     : 2022-02-03 23:58:41 +0200        | 2022-02-04 00:39:12 +0200
+ Ctime     : 2022-02-03 23:58:41 +0200        | 2022-02-04 00:39:12 +0200
+
+Directory: /usr/lib/python3.10/site-packages/netsnmp
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:25 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:25 +0200
+
+Directory: /usr/lib/python3.10/site-packages/netsnmp/tests
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:25 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:39:25 +0200
+
+Directory: /usr/lib/python3.9/site-packages/googleapiclient/discovery_cache/documents
+ Mtime     : 2021-12-12 15:42:33 +0200        | 2022-02-04 00:39:33 +0200
+ Ctime     : 2021-12-12 15:42:33 +0200        | 2022-02-04 00:39:33 +0200
+
+Directory: /usr/lib/qt6/plugins/generic
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/imageformats
+ Mtime     : 2022-02-03 23:58:50 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:50 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/platforminputcontexts
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/platforms
+ Mtime     : 2022-02-03 23:58:50 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:50 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/platformthemes
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/printsupport
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/sqldrivers
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/tls
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/plugins/xcbglintegrations
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:39:49 +0200
+
+Directory: /usr/lib/rustlib/x86_64-unknown-linux-gnu/analysis
+ Mtime     : 2022-02-03 23:58:51 +0200        | 2022-02-04 00:39:38 +0200
+ Ctime     : 2022-02-03 23:58:51 +0200        | 2022-02-04 00:39:38 +0200
+
+Directory: /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib
+ Mtime     : 2022-02-03 23:58:52 +0200        | 2022-02-04 00:39:39 +0200
+ Ctime     : 2022-02-03 23:58:52 +0200        | 2022-02-04 00:39:39 +0200
+
+Directory: /usr/lib/virtualbox
+ Mtime     : 2022-02-03 23:59:02 +0200        | 2022-02-04 00:39:39 +0200
+ Ctime     : 2022-02-03 23:59:02 +0200        | 2022-02-04 00:39:39 +0200
+
+Directory: /usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64
+ Mtime     : 2022-01-18 23:18:24 +0200        | 2022-02-04 00:39:39 +0200
+ Ctime     : 2022-01-18 23:18:24 +0200        | 2022-02-04 00:39:39 +0200
+
+Directory: /usr/lib32
+ Mtime     : 2022-02-03 23:58:22 +0200        | 2022-02-04 00:38:17 +0200
+ Ctime     : 2022-02-03 23:58:22 +0200        | 2022-02-04 00:38:17 +0200
+
+Directory: /usr/lib32/dri
+ Mtime     : 2022-02-03 23:58:22 +0200        | 2022-02-04 00:38:20 +0200
+ Ctime     : 2022-02-03 23:58:22 +0200        | 2022-02-04 00:38:20 +0200
+
+Directory: /usr/share/GeoIP
+ Mtime     : 2022-02-03 23:58:01 +0200        | 2022-02-04 00:38:46 +0200
+ Ctime     : 2022-02-03 23:58:01 +0200        | 2022-02-04 00:38:46 +0200
+
+Directory: /usr/share/bladerf/fpga
+ Mtime     : 2022-02-03 23:57:50 +0200        | 2022-02-04 00:38:53 +0200
+ Ctime     : 2022-02-03 23:57:50 +0200        | 2022-02-04 00:38:53 +0200
+
+Directory: /usr/share/doc/cmake/html/module
+ Size      : 12288                            | 16384
+ Mtime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+ Ctime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+
+Directory: /usr/share/doc/cmake/html/policy
+ Mtime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+ Ctime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+
+Directory: /usr/share/doc/cmake/html/prop_tgt
+ Mtime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+ Ctime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+
+Directory: /usr/share/doc/cmake/html/release
+ Mtime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+ Ctime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+
+Directory: /usr/share/doc/cmake/html/variable
+ Mtime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+ Ctime     : 2022-02-03 23:57:55 +0200        | 2022-02-04 00:38:34 +0200
+
+Directory: /usr/share/doc/ghostscript/9.55.0
+ Mtime     : 2022-02-03 23:58:02 +0200        | 2022-02-04 00:38:33 +0200
+ Ctime     : 2022-02-03 23:58:02 +0200        | 2022-02-04 00:38:33 +0200
+
+Directory: /usr/share/doc/openconnect
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:33 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:33 +0200
+
+Directory: /usr/share/doc/openconnect/images
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:33 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:33 +0200
+
+Directory: /usr/share/doc/potrace
+ Mtime     : 2022-02-03 23:58:44 +0200        | 2022-02-04 00:38:34 +0200
+ Ctime     : 2022-02-03 23:58:44 +0200        | 2022-02-04 00:38:34 +0200
+
+Directory: /usr/share/doc/qt6/global
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+
+Directory: /usr/share/doc/qt6/global/externalsites
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+
+Directory: /usr/share/doc/qt6/global/template/images
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+
+Directory: /usr/share/doc/qt6/global/template/scripts
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+
+Directory: /usr/share/doc/qt6/global/template/style
+ Mtime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+ Ctime     : 2022-02-03 23:58:49 +0200        | 2022-02-04 00:38:36 +0200
+
+Directory: /usr/share/fonts/Unifont
+ Mtime     : 2022-01-14 11:08:13 +0200        | 2022-02-04 00:38:44 +0200
+ Ctime     : 2022-01-14 11:08:13 +0200        | 2022-02-04 00:38:44 +0200
+
+Directory: /usr/share/gir-1.0
+ Mtime     : 2022-02-03 23:59:02 +0200        | 2022-02-04 00:38:36 +0200
+ Ctime     : 2022-02-03 23:59:02 +0200        | 2022-02-04 00:38:36 +0200
+
+Directory: /usr/share/gnome-vpn-properties/openconnect
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+
+Directory: /usr/share/gnome-vpn-properties/vpnc
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+
+Directory: /usr/share/i18n/locales
+ Mtime     : 2022-02-03 23:57:10 +0200        | 2022-02-04 00:38:42 +0200
+ Ctime     : 2022-02-03 23:57:10 +0200        | 2022-02-04 00:38:42 +0200
+
+Directory: /usr/share/krita/bundles
+ Mtime     : 2022-02-03 23:58:16 +0200        | 2022-02-04 00:38:37 +0200
+ Ctime     : 2022-02-03 23:58:16 +0200        | 2022-02-04 00:38:37 +0200
+
+Directory: /usr/share/licenses/net-snmp
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+
+Directory: /usr/share/licenses/vpnc
+ Mtime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+ Ctime     : 2022-02-03 23:58:42 +0200        | 2022-02-04 00:38:52 +0200
+
+Directory: /usr/share/texmf-dist/scripts/arara
+ Mtime     : 2022-02-03 23:58:57 +0200        | 2022-02-04 00:38:54 +0200
+ Ctime     : 2022-02-03 23:58:57 +0200        | 2022-02-04 00:38:54 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : z5SnCpu06MfdNzO+bg2oew==
+ SHA1      : I8eKNJLaZDO29/F6qPRXBiY2x2U=
+ SHA256    : Bv62SFN983hREbP63ss6fyf9UR3ooCUR
+             euu9TdSpemQ=
+ SHA512    : 2dhOsEHqGfb9qujlyRpuNTEbh4Ln8BOw
+             0GE/Dl3qMqAMTXv8+TPsKhbaanVituXr
+             4/ApAj0pr88JcmxFOtq7Kw==
+ RMD160    : iKzfUeHPKw+pPI4CFmAYRROHBfA=
+ TIGER     : facxEcSUL/LXQQfvcfRHiiqVj78j5yNT
+ CRC32     : wmuCdA==
+ CRC32B    : bdsKiw==
+ HAVAL     : 5ESQcazuCGDwqdVmoflG/ZTxPe+vVnjM
+             4QJq49P6d4w=
+ WHIRLPOOL : 4LRs0t/HcZeqCd8rB0URlrmM4Pf4A3qW
+             dIbnl/yLKhFKK682IHxlQj9QWhpB062S
+             gasKvjq3+AGUlqEo3BqXzQ==
+ GOST      : Ia1RmkcLLDH1nam01OO4RUObqDeT1Buw
+             YdpeciO5sxE=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : OFm1CyKt5iTKJpkBUKFgFA==
+ SHA1      : LWTZ2Fvbc8jsC5x0r1Giu6NwYA8=
+ SHA256    : JSWcA8hoLPaoAartPzKpwX15lhjGiVVq
+             g4ko/1Iv5qs=
+ SHA512    : U1tjPiHgBK6UGK5E7koNXAs9nGrKjjg0
+             iLQDMHcw0gYaD2Rbh/bWB2TLnAQBmdO4
+             JD2Fv0jBBY+HA/y1CdmMfw==
+ RMD160    : TyHvOJeaUycmg2XaCFKhjADIfAU=
+ TIGER     : AhrFi2/J81vl7G8NvgXzidK6HQQ8xtLV
+ CRC32     : ducTcQ==
+ CRC32B    : G4UKaA==
+ HAVAL     : DOLqg/XT3YFK5NDAfUstre7YXBTQpl5Q
+             nSPx1dW9uK8=
+ WHIRLPOOL : qVzJlivvaCwK5QBNLrYD77TD8zw7O56r
+             ZpKelbSydgDfvG1wDsnXuXNefKcxfzlI
+             h8d6zF1P9RqJgli1Zz1+DA==
+ GOST      : 22ltSdlBRjbKdDN/ztwn2MPKtnaStqza
+             o2iy2zY4ZYc=
+
+
+End timestamp: 2022-02-04 01:14:43 +0200 (run time: 14m 37s)

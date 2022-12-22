@@ -1,0 +1,199 @@
+Start timestamp: 2022-03-08 17:25:48 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	395727
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		22
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/.updated
+f   ...   i     : /etc/ld.so.cache
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.browser
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.extra
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.ssh
+f   ...   i     : /etc/ssh/sshd_config
+d = ... mc..  . : /root
+d = ... mc..  . : /root/.cache/vim/backup
+d = ... mc..  . : /root/.cache/vim/swap
+f > ... mci.H . : /root/.viminfo
+f = p.. .c... X : /usr/bin/chage
+f = p.. .c... X : /usr/bin/chfn
+f = p.. .c... X : /usr/bin/chsh
+f = p.. .c... X : /usr/bin/expiry
+f = p.. .c... X : /usr/bin/gpasswd
+f = p.. .c... . : /usr/bin/ksu
+f = p.. .c... X : /usr/bin/newgrp
+f = p.. .c... X : /usr/bin/passwd
+f = p.. .c... . : /usr/bin/sg
+f = p.. .c... . : /usr/bin/su
+f = p.. .c... X : /usr/bin/unix_chkpwd
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 751885                           | 68188
+
+File: /etc/ld.so.cache
+ Inode     : 1115778                          | 67307
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 67307                            | 111288
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.browser
+ Inode     : 68188                            | 121176
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.extra
+ Inode     : 67361                            | 117753
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.ssh
+ Inode     : 68197                            | 128206
+
+File: /etc/ssh/sshd_config
+ Inode     : 1768                             | 547272
+
+Directory: /root
+ Mtime     : 2022-03-07 16:26:38 +0200        | 2022-03-08 16:45:42 +0200
+ Ctime     : 2022-03-07 16:26:38 +0200        | 2022-03-08 16:45:42 +0200
+
+Directory: /root/.cache/vim/backup
+ Mtime     : 2022-03-05 09:11:46 +0200        | 2022-03-08 16:45:42 +0200
+ Ctime     : 2022-03-05 09:11:46 +0200        | 2022-03-08 16:45:42 +0200
+
+Directory: /root/.cache/vim/swap
+ Mtime     : 2022-03-05 09:11:46 +0200        | 2022-03-08 16:45:42 +0200
+ Ctime     : 2022-03-05 09:11:46 +0200        | 2022-03-08 16:45:42 +0200
+
+File: /root/.viminfo
+ Size      : 17362                            | 17675
+ Mtime     : 2022-03-05 09:11:46 +0200        | 2022-03-08 16:45:42 +0200
+ Ctime     : 2022-03-05 09:11:46 +0200        | 2022-03-08 16:45:42 +0200
+ Inode     : 887228                           | 547221
+ MD5       : CnD0/XM3if/rdum9xA6AnQ==         | h8q+J+XilJ1Lb1FhyrP+tA==
+ SHA256    : G5CUbSJEAyjbv7FjTut3mIX20eGlh8fY | h3784zYxWzHkA0nk6MoRFwkadC5IGH/B
+             4flITRsenU4=                     | n8Oeg7ZeQzg=
+ RMD160    : 4cMg6/PvNmEPtNVTIBGjVpWGc38=     | UQGGZgXsf/miL6y+ZqSdcehw08U=
+
+File: /usr/bin/chage
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chfn
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chsh
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/expiry
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/gpasswd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoMAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/ksu
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:00 +0200        | 2022-03-08 17:24:17 +0200
+
+File: /usr/bin/newgrp
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/passwd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgsAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/sg
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+
+File: /usr/bin/su
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-08 16:08:40 +0200        | 2022-03-08 17:24:17 +0200
+
+File: /usr/bin/unix_chkpwd
+ Perm      : -rwsr-sr-x                       | -rwxr-sr-x
+ Ctime     : 2022-03-08 16:08:09 +0200        | 2022-03-08 17:24:17 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : t5SqYS8KjdO1D4ed19Ls3Q==
+ SHA1      : WtsOFyzW5OwBQLFUa1tIzf3PXxw=
+ SHA256    : vac3h7gZBa2pNwP+9RT/Zc+wvqhBvdSm
+             /XOI2b58zNM=
+ SHA512    : kBoZXLeSIv8oHSbcFWXQ0H0WkMmBMOnP
+             i0JQ47e5d1kcyEusTzjJwDDpShuYQqKu
+             4n7v6fsOSk1BsBhZLijDNA==
+ RMD160    : amv9iAMEDqXyEbGgyCGOPzrdyxw=
+ TIGER     : pluZTl9FtGkF4mUU7cc6KHGeSIMkVI6W
+ CRC32     : 5hBj2w==
+ CRC32B    : 5EBspw==
+ HAVAL     : G5wwPYPfsFc3cbjQzlxG49XaZJVKd8al
+             82WmvBaM5ho=
+ WHIRLPOOL : 6qH6o24cqwziyfaVhpF2LE1Ih8ERKSqH
+             Ppz0tMjp8+HNBib3RdPmZ+I3zF6Sdw+E
+             LVv2yb3Nm/7A367vVmN1SA==
+ GOST      : sdWLqhcetxt+fWaPIgUKZoXsOaorYfeQ
+             XbHfaKvsMuU=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : 7VQZ/D9NnyaS0i8eky7LSg==
+ SHA1      : jWga7G/eJOw11a9rrgfj21TcEVc=
+ SHA256    : YyY6O4JSr/U6PNVI3UFQqcUYcCnAj/09
+             HvRzRl7c+6k=
+ SHA512    : ExygH5M3KkvOpigc58qB9T3EosF2bEbN
+             oDmLc7Tzs6uvJ8Q1h9VkyLkyltkQSYTZ
+             r3ZF8aBcwexL8xgKvBIHpg==
+ RMD160    : OWkyyXc5l/lNFRHMF/xjfUvz+I4=
+ TIGER     : BWBmBj3J/us8eQB6wHuYWKTH2+Ij++BM
+ CRC32     : jTXyWg==
+ CRC32B    : bOozsA==
+ HAVAL     : Y4xlzQ98W+DqefsYzHZhUcUYtRiLiU3b
+             pc5bCpf7Zpg=
+ WHIRLPOOL : Xvh5yu82rjhYbrWAwxyV1RcdA30e9gmy
+             h80Y6Ukz7YrwzNQqi9znH6NinwXLknN+
+             poBZtLDVVNBcWqpkhwIikQ==
+ GOST      : TR+3dNHo7FNQcHNQxEoIiGjjpLS66euY
+             7xbmPBNGGxI=
+
+
+End timestamp: 2022-03-08 17:34:52 +0200 (run time: 9m 4s)

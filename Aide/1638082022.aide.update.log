@@ -1,0 +1,2819 @@
+Start timestamp: 2022-03-08 16:38:23 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	395727
+  Added entries:		1
+  Removed entries:		0
+  Changed entries:		437
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /opt/tfenv/libexec/tfenv-pin
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/ld.so.cache
+f   ...   i     : /etc/makepkg.conf
+d = ... mc..  . : /opt/tfenv
+f > ... mc..H . : /opt/tfenv/CHANGELOG.md
+d = ... mc..  . : /opt/tfenv/bin
+f > ... mc..H . : /opt/tfenv/bin/terraform
+f > ... mc..H . : /opt/tfenv/bin/tfenv
+d = ... mc..  . : /opt/tfenv/lib
+f > ... mc..H . : /opt/tfenv/lib/bashlog.sh
+f > ... mc..H . : /opt/tfenv/lib/helpers.sh
+d > ... mc..  . : /opt/tfenv/libexec
+f = ... mc... . : /opt/tfenv/libexec/tfenv---version
+f > ... mc..H . : /opt/tfenv/libexec/tfenv-exec
+f > ... mc..H . : /opt/tfenv/libexec/tfenv-help
+f = ... mc... . : /opt/tfenv/libexec/tfenv-init
+f > ... mc..H . : /opt/tfenv/libexec/tfenv-install
+f > ... mc..H . : /opt/tfenv/libexec/tfenv-list
+f = ... mc... . : /opt/tfenv/libexec/tfenv-list-remote
+f > ... mc..H . : /opt/tfenv/libexec/tfenv-min-required
+f > ... mci.H . : /opt/tfenv/libexec/tfenv-resolve-version
+f > ... mci.H . : /opt/tfenv/libexec/tfenv-uninstall
+f > ... mci.H . : /opt/tfenv/libexec/tfenv-use
+f > ... mci.H . : /opt/tfenv/libexec/tfenv-version-file
+f > ... mci.H . : /opt/tfenv/libexec/tfenv-version-name
+f = ... mc... . : /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+d = ... mc..  . : /usr
+d = ... mc..  . : /usr/bin
+l.= ... mc..  . : /usr/bin/luajit
+f = ... mc..H . : /usr/bin/luajit-2.1.0-beta3
+f = ... mci.. . : /usr/bin/makepkg
+f = ... mc... . : /usr/bin/makepkg-template
+f = ... mci.H . : /usr/bin/pacman
+f = ... mci.H . : /usr/bin/pacman-conf
+f = ... mci.. . : /usr/bin/pacman-db-upgrade
+f = ... mci.. . : /usr/bin/pacman-key
+f = ... mci.. . : /usr/bin/repo-add
+l.= ... mci.  . : /usr/bin/repo-elephant
+l.= ... mci.  . : /usr/bin/repo-remove
+l.= ... mci.  . : /usr/bin/terraform
+f = ... mci.H . : /usr/bin/testpkg
+l.= ... mci.  . : /usr/bin/tfenv
+f = ... mci.H . : /usr/bin/vercmp
+d = ... mc..  . : /usr/include
+f = ... mci.. . : /usr/include/alpm.h
+f = ... mci.. . : /usr/include/alpm_list.h
+d = ... mc..  . : /usr/include/luajit-2.1
+f = ... mc... . : /usr/include/luajit-2.1/lauxlib.h
+f = ... mc... . : /usr/include/luajit-2.1/lua.h
+f = ... mc... . : /usr/include/luajit-2.1/lua.hpp
+f = ... mc... . : /usr/include/luajit-2.1/luaconf.h
+f = ... mc... . : /usr/include/luajit-2.1/luajit.h
+f = ... mc... . : /usr/include/luajit-2.1/lualib.h
+d = ... mc..  . : /usr/include/mfx
+f = ... mci.. . : /usr/include/mfx/mfxadapter.h
+f = ... mci.. . : /usr/include/mfx/mfxastructures.h
+f = ... mci.. . : /usr/include/mfx/mfxaudio++.h
+f = ... mci.. . : /usr/include/mfx/mfxaudio.h
+f = ... mci.. . : /usr/include/mfx/mfxbrc.h
+f = ... mci.. . : /usr/include/mfx/mfxcamera.h
+f = ... mci.. . : /usr/include/mfx/mfxcommon.h
+f = ... mci.. . : /usr/include/mfx/mfxdefs.h
+f = ... mci.. . : /usr/include/mfx/mfxdispatcherprefixedfunctions.h
+f = ... mci.. . : /usr/include/mfx/mfxenc.h
+f = ... mci.. . : /usr/include/mfx/mfxfei.h
+f = ... mci.. . : /usr/include/mfx/mfxfeihevc.h
+f = ... mci.. . : /usr/include/mfx/mfxjpeg.h
+f = ... mci.. . : /usr/include/mfx/mfxla.h
+f = ... mci.. . : /usr/include/mfx/mfxmvc.h
+f = ... mci.. . : /usr/include/mfx/mfxpak.h
+f = ... mci.. . : /usr/include/mfx/mfxpcp.h
+f = ... mci.. . : /usr/include/mfx/mfxplugin++.h
+f = ... mci.. . : /usr/include/mfx/mfxplugin.h
+f = ... mci.. . : /usr/include/mfx/mfxsc.h
+f = ... mci.. . : /usr/include/mfx/mfxscd.h
+f = ... mci.. . : /usr/include/mfx/mfxsession.h
+f = ... mci.. . : /usr/include/mfx/mfxstructures.h
+f = ... mci.. . : /usr/include/mfx/mfxvideo++.h
+f = ... mci.. . : /usr/include/mfx/mfxvideo.h
+f = ... mci.. . : /usr/include/mfx/mfxvp8.h
+f = ... mci.. . : /usr/include/mfx/mfxvp9.h
+f = ... mci.. . : /usr/include/mfx/mfxvstructures.h
+d = ... mc..  . : /usr/lib
+l.= ... mci.  . : /usr/lib/libalpm.so
+l.= ... mci.  . : /usr/lib/libalpm.so.13
+f = ... mci.H . : /usr/lib/libalpm.so.13.0.1
+l.= ... mc..  . : /usr/lib/libluajit-5.1.so
+l.= ... mc..  . : /usr/lib/libluajit-5.1.so.2
+f = ... mc..H . : /usr/lib/libluajit-5.1.so.2.1.0
+l.= ... mci.  . : /usr/lib/libmfx.so
+l.= ... mci.  . : /usr/lib/libmfx.so.1
+f = ... mci.H . : /usr/lib/libmfx.so.1.35
+d = ... mc..  . : /usr/lib/pkgconfig
+f = ... mci.. . : /usr/lib/pkgconfig/libalpm.pc
+f = ... mci.. . : /usr/lib/pkgconfig/libmfx.pc
+f = ... mc... . : /usr/lib/pkgconfig/luajit.pc
+l.= ... mci.  . : /usr/lib/pkgconfig/mfx.pc
+d = ... mc..  . : /usr/share/bash-completion/completions
+l.= ... mci.  . : /usr/share/bash-completion/completions/makepkg
+f = ... mci.. . : /usr/share/bash-completion/completions/pacman
+l.= ... mci.  . : /usr/share/bash-completion/completions/pacman-key
+d = ... mc..  . : /usr/share/licenses/libmfx
+f = ... mci.. . : /usr/share/licenses/libmfx/LICENSE
+d = ... mc..  . : /usr/share/licenses/luajit
+f = ... mc... . : /usr/share/licenses/luajit/COPYRIGHT
+d = ... mc..  . : /usr/share/licenses/tfenv
+f = ... mci.. . : /usr/share/licenses/tfenv/LICENSE
+d = ... mc..  . : /usr/share/locale/ar/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ar/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ar/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/ast/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ast/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ast/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/az_AZ/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/az_AZ/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/az_AZ/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/az_AZ/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/bg/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/bg/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/bg/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/bg/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/br/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/br/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/br/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/br/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/ca/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ca/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ca/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/ca/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/cs/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/cs/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/cs/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/cs/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/da/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/da/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/da/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/da/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/de/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/de/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/de/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/de/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/el/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/el/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/el/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/el/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/en_GB/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/en_GB/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/en_GB/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/en_GB/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/eo/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/eo/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/eo/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/eo/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/es/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/es/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/es/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/es/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/es_419/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/es_419/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/es_419/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/es_419/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/eu/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/eu/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/eu/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/eu/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/eu_ES/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/eu_ES/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/eu_ES/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/eu_ES/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/fi/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/fi/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/fi/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/fi/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/fr/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/fr/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/fr/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/fr/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/gl/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/gl/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/gl/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/gl/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/hi/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/hi/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/hi/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/hi/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/hr/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/hr/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/hr/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/hu/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/hu/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/hu/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/hu/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/id/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/id/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/id/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/id/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/it/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/it/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/it/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/it/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/ja/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ja/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ja/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/ja/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/kk/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/kk/LC_MESSAGES/libalpm.mo
+d = ... mc..  . : /usr/share/locale/ko/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ko/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ko/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/ko/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/lt/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/lt/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/lt/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/lt/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/nb/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/nb/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/nb/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/nb/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/nl/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/nl/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/nl/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/nl/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/pl/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/pl/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/pl/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/pl/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/pt/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/pt/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/pt/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/pt/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/pt_BR/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/pt_BR/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/pt_BR/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/pt_BR/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/ro/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ro/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ro/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/ro/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/ru/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/ru/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/ru/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/ru/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/sk/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/sk/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/sk/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/sk/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/sl/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/sl/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/sl/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/sl/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/sr/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/sr/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/sr/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/sr/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/sr@latin/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/sr@latin/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/sr@latin/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/sr@latin/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/sv/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/sv/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/sv/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/sv/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/tr/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/tr/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/tr/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/tr/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/uk/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/uk/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/uk/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/uk/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/zh_CN/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/zh_CN/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/zh_CN/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/zh_CN/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/locale/zh_TW/LC_MESSAGES
+f = ... mci.. . : /usr/share/locale/zh_TW/LC_MESSAGES/libalpm.mo
+f = ... mci.. . : /usr/share/locale/zh_TW/LC_MESSAGES/pacman-scripts.mo
+f = ... mci.. . : /usr/share/locale/zh_TW/LC_MESSAGES/pacman.mo
+d = ... mc..  . : /usr/share/luajit-2.1.0-beta3/jit
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/bc.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/bcsave.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_arm.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_arm64.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_arm64be.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_mips.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_mips64.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_mips64el.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_mipsel.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_ppc.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_x64.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dis_x86.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/dump.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/p.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/v.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/vmdef.lua
+f = ... mc... . : /usr/share/luajit-2.1.0-beta3/jit/zone.lua
+d = ... mc..  . : /usr/share/makepkg
+d = ... mc..  . : /usr/share/makepkg/buildenv
+f > ... mci.H . : /usr/share/makepkg/buildenv/buildflags.sh
+f = ... mci.. . : /usr/share/makepkg/buildenv/compiler.sh
+f > ... mci.H . : /usr/share/makepkg/buildenv/debugflags.sh
+f > ... mci.H . : /usr/share/makepkg/buildenv/lto.sh
+f = ... mci.. . : /usr/share/makepkg/buildenv/makeflags.sh
+f = ... mci.. . : /usr/share/makepkg/buildenv.sh
+d = ... mc..  . : /usr/share/makepkg/executable
+f = ... mci.. . : /usr/share/makepkg/executable/ccache.sh
+f = ... mci.. . : /usr/share/makepkg/executable/checksum.sh
+f = ... mci.. . : /usr/share/makepkg/executable/distcc.sh
+f = ... mci.. . : /usr/share/makepkg/executable/fakeroot.sh
+f = ... mci.. . : /usr/share/makepkg/executable/gpg.sh
+f = ... mci.. . : /usr/share/makepkg/executable/gzip.sh
+f = ... mci.. . : /usr/share/makepkg/executable/pacman.sh
+f = ... mci.. . : /usr/share/makepkg/executable/strip.sh
+f = ... mci.. . : /usr/share/makepkg/executable/sudo.sh
+f = ... mci.. . : /usr/share/makepkg/executable/vcs.sh
+f = ... mci.. . : /usr/share/makepkg/executable.sh
+d = ... mc..  . : /usr/share/makepkg/integrity
+f = ... mci.. . : /usr/share/makepkg/integrity/generate_checksum.sh
+f = ... mci.. . : /usr/share/makepkg/integrity/generate_signature.sh
+f = ... mci.. . : /usr/share/makepkg/integrity/verify_checksum.sh
+f = ... mci.. . : /usr/share/makepkg/integrity/verify_signature.sh
+f = ... mci.. . : /usr/share/makepkg/integrity.sh
+d = ... mc..  . : /usr/share/makepkg/lint_config
+f = ... mci.. . : /usr/share/makepkg/lint_config/ext.sh
+f = ... mci.. . : /usr/share/makepkg/lint_config/paths.sh
+f = ... mci.. . : /usr/share/makepkg/lint_config/source_date_epoch.sh
+f > ... mci.H . : /usr/share/makepkg/lint_config/variable.sh
+f = ... mci.. . : /usr/share/makepkg/lint_config.sh
+d = ... mc..  . : /usr/share/makepkg/lint_package
+f = ... mci.. . : /usr/share/makepkg/lint_package/build_references.sh
+f = ... mci.. . : /usr/share/makepkg/lint_package/dotfiles.sh
+f = ... mci.. . : /usr/share/makepkg/lint_package/file_names.sh
+f = ... mci.. . : /usr/share/makepkg/lint_package/missing_backup.sh
+f = ... mci.. . : /usr/share/makepkg/lint_package.sh
+d = ... mc..  . : /usr/share/makepkg/lint_pkgbuild
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/arch.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/arch_specific.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/backup.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/changelog.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/checkdepends.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/conflicts.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/depends.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/epoch.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/fullpkgver.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/install.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/makedepends.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/optdepends.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/options.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/package_function.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/package_function_variable.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/pkgbase.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/pkglist.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/pkgname.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/pkgrel.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/pkgver.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/provides.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/source.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/util.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild/variable.sh
+f = ... mci.. . : /usr/share/makepkg/lint_pkgbuild.sh
+d = ... mc..  . : /usr/share/makepkg/reproducible
+f = ... mci.. . : /usr/share/makepkg/reproducible/python.sh
+f = ... mci.. . : /usr/share/makepkg/reproducible.sh
+d = ... mc..  . : /usr/share/makepkg/source
+f = ... mci.. . : /usr/share/makepkg/source/bzr.sh
+f = ... mci.. . : /usr/share/makepkg/source/file.sh
+f = ... mci.. . : /usr/share/makepkg/source/fossil.sh
+f = ... mci.. . : /usr/share/makepkg/source/git.sh
+f = ... mci.. . : /usr/share/makepkg/source/hg.sh
+f = ... mci.. . : /usr/share/makepkg/source/local.sh
+f = ... mci.. . : /usr/share/makepkg/source/svn.sh
+f = ... mci.. . : /usr/share/makepkg/source.sh
+f = ... mci.. . : /usr/share/makepkg/srcinfo.sh
+d = ... mc..  . : /usr/share/makepkg/tidy
+f = ... mci.. . : /usr/share/makepkg/tidy/docs.sh
+f = ... mci.. . : /usr/share/makepkg/tidy/emptydirs.sh
+f = ... mci.. . : /usr/share/makepkg/tidy/libtool.sh
+f = ... mci.. . : /usr/share/makepkg/tidy/purge.sh
+f = ... mci.. . : /usr/share/makepkg/tidy/staticlibs.sh
+f = ... mci.. . : /usr/share/makepkg/tidy/strip.sh
+f = ... mci.. . : /usr/share/makepkg/tidy/zipman.sh
+f = ... mci.. . : /usr/share/makepkg/tidy.sh
+d = ... mc..  . : /usr/share/makepkg/util
+f = ... mci.. . : /usr/share/makepkg/util/compress.sh
+f = ... mci.. . : /usr/share/makepkg/util/config.sh
+f = ... mci.. . : /usr/share/makepkg/util/dirsize.sh
+f = ... mci.. . : /usr/share/makepkg/util/error.sh
+f = ... mci.. . : /usr/share/makepkg/util/message.sh
+f = ... mci.. . : /usr/share/makepkg/util/option.sh
+f = ... mci.. . : /usr/share/makepkg/util/parseopts.sh
+f = ... mci.. . : /usr/share/makepkg/util/pkgbuild.sh
+f = ... mci.. . : /usr/share/makepkg/util/schema.sh
+f = ... mci.. . : /usr/share/makepkg/util/source.sh
+f = ... mci.. . : /usr/share/makepkg/util/util.sh
+f = ... mci.. . : /usr/share/makepkg/util.sh
+d = ... mc..  . : /usr/share/man/man1
+f = ... mc... . : /usr/share/man/man1/luajit.1.gz
+f = ... mci.H . : /usr/share/man/man1/makepkg-template.1.gz
+d = ... mc..  . : /usr/share/man/man3
+f = ... mci.H . : /usr/share/man/man3/libalpm.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_cb.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_databases.3.gz
+f = ... mci.H . : /usr/share/man/man3/libalpm_depends.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_errors.3.gz
+f = ... mci.H . : /usr/share/man/man3/libalpm_files.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_groups.3.gz
+f = ... mci.H . : /usr/share/man/man3/libalpm_handle.3.gz
+f > ... mci.H . : /usr/share/man/man3/libalpm_list.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_log.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_misc.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_options.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_packages.3.gz
+f = ... mci.H . : /usr/share/man/man3/libalpm_sig.3.gz
+f < ... mci.H . : /usr/share/man/man3/libalpm_trans.3.gz
+d = ... mc..  . : /usr/share/man/man5
+f = ... mci.H . : /usr/share/man/man5/BUILDINFO.5.gz
+f = ... mci.H . : /usr/share/man/man5/PKGBUILD.5.gz
+f = ... mci.H . : /usr/share/man/man5/alpm-hooks.5.gz
+f > ... mci.H . : /usr/share/man/man5/makepkg.conf.5.gz
+l.= ... mci.  . : /usr/share/man/man5/pacman-hooks.5.gz
+f = ... mci.H . : /usr/share/man/man5/pacman.conf.5.gz
+d = ... mc..  . : /usr/share/man/man8
+f > ... mci.H . : /usr/share/man/man8/makepkg.8.gz
+f > ... mci.H . : /usr/share/man/man8/pacman-conf.8.gz
+f > ... mci.H . : /usr/share/man/man8/pacman-key.8.gz
+f > ... mci.H . : /usr/share/man/man8/pacman.8.gz
+f > ... mci.H . : /usr/share/man/man8/repo-add.8.gz
+l.= ... mci.  . : /usr/share/man/man8/repo-remove.8.gz
+f > ... mci.H . : /usr/share/man/man8/vercmp.8.gz
+d = ... mc..  . : /usr/share/pacman
+f = ... mci.. . : /usr/share/pacman/PKGBUILD-split.proto
+f = ... mci.. . : /usr/share/pacman/PKGBUILD-vcs.proto
+f = ... mci.. . : /usr/share/pacman/PKGBUILD.proto
+f = ... mci.. . : /usr/share/pacman/proto.install
+d = ... mc..  . : /usr/share/pkgconfig
+f = ... mci.. . : /usr/share/pkgconfig/libmakepkg.pc
+d = ... mc..  . : /usr/share/zsh/site-functions
+f = ... mci.. . : /usr/share/zsh/site-functions/_pacman
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/ld.so.cache
+ Inode     : 1122190                          | 1115778
+
+File: /etc/makepkg.conf
+ Inode     : 3073                             | 1419
+
+Directory: /opt/tfenv
+ Mtime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/CHANGELOG.md
+ Size      : 4218                             | 4568
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : uESF+DSedP4+aEjeXATF8A==         | sLCbYr85nR7Oyq1X5Q9DVg==
+ SHA256    : 8HekR5JCfYgVGZOLtPGb8siIXN+y2wLH | ppL0C6lOSZz2kGqNRjBMOSeY09e9Wnss
+             XUSA9DyRrNI=                     | QjhHcVF9OTU=
+ RMD160    : YGvDCMzLCcyiPC8jbS7PWiHENHM=     | /hli5175ZLhFG11gx377LPyr3o4=
+
+Directory: /opt/tfenv/bin
+ Mtime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/bin/terraform
+ Size      : 2300                             | 2304
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : 1mQAkM9mvsO9vL87fxVIig==         | I2R4EERNQYPNKjAW/SnZsw==
+ SHA256    : wgt+FCNEvTJnAa/PXC34VhKyezEtd+if | 0/Jzueu6iSH4rvpXJ3LKRxlHGuse8rBt
+             wbBnD9Oe/qs=                     | 5tn57pcwsDQ=
+ RMD160    : TdjaYRvPgJlqUADf6SK3iI/lBMY=     | Jpyn8JhRJo0xuf+WNQXqeoH6xSY=
+
+File: /opt/tfenv/bin/tfenv
+ Size      : 3143                             | 3147
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : d3DSW6Xuu3VrYeMuW/yzlQ==         | xOApdvbHY5/IYANCk3QYiw==
+ SHA256    : 6wC/HAg8gy9aA277lqRk6KU4mJMJ7rdm | vL36VgtjK7t/ZNJcggOvltESF9Rx0EJ7
+             Hai2IH6AYek=                     | 3mZ+B1K530Y=
+ RMD160    : qqXlwtumlzRpnXKJ5QOstzeRdNo=     | L9oROaP5cP9zfH0OBhHwlYlwcHY=
+
+Directory: /opt/tfenv/lib
+ Mtime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/lib/bashlog.sh
+ Size      : 5113                             | 5119
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : UAmjw3ww+sCClB+33iAbEw==         | dXwKUscSDz0KzgHkYkZUhw==
+ SHA256    : 8070KiyQt2xWNkMNV74sEWQjQwrBM/nw | O9cPhP1whtJQDEGI79BwoIcRp/FdBaXF
+             jSQ3a/nky8M=                     | x2+UcT8TMv4=
+ RMD160    : ctHy6RBYAV10V0DKovY+2wC7pXY=     | KgGfqCSW4M+W1wgxVxwHx3LhgYw=
+
+File: /opt/tfenv/lib/helpers.sh
+ Size      : 5095                             | 5437
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : TsPrhQ4UBMsMt6dsZbzgNg==         | YtzPaLzH6Gd1nHpZ+AFJWA==
+ SHA256    : iB6zlF4ER8ZlkZsWrg2wuuPaOq9UZZQe | CH1OMkv9sut5V1NDXhckOxb+2imdc/vD
+             kJ8hjL+3XTo=                     | pqQ6xAXprG8=
+ RMD160    : 8Pp/OM85sYHu1wNOw9rupo0Q0tI=     | ydl0+KRSCbFdLA0SE5SgBIbdg2s=
+
+Directory: /opt/tfenv/libexec
+ Size      : 504                              | 536
+ Mtime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/libexec/tfenv---version
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/libexec/tfenv-exec
+ Size      : 3661                             | 3671
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : 1kuE9IzCcuiUp+1OHEjxLg==         | Sm2yE5FLv1UFTWJDcMaFyg==
+ SHA256    : veRGyetevwm4WBZVqNHTfvUI0rjvJopO | dYmvLv0uHLonBXNmSY0f/ajYzrcxSe4p
+             78NCMM3j8tM=                     | IY1TR56wpYM=
+ RMD160    : v10AKgQcWPGROJDoJbyIAjstwhY=     | 1kq3R8hSkWTL3Ig07aEmTWf1+bM=
+
+File: /opt/tfenv/libexec/tfenv-help
+ Size      : 454                              | 528
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : Nzut8cyosFULM4gZEALdhg==         | VyW8p7dPKYEk932IdE8bFQ==
+ SHA256    : FfElM24CDYRJTMWen21ucVXxx7R8vVfV | luZ9HcOIanJwiRPw6zldX1JYKy3nSkwn
+             shVr706Ofmo=                     | Jj4bZq2kYDw=
+ RMD160    : I7ZEiWuEircPJZV2U2BYz8SCUCU=     | uAGb1VoQyCgRTniJpp/+6UXpPc0=
+
+File: /opt/tfenv/libexec/tfenv-init
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/libexec/tfenv-install
+ Size      : 9385                             | 9763
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : 2jSNEGk/mnlpODiKOVA+qg==         | aURIocYas5N/v0QHyvWW0Q==
+ SHA256    : vfE7paGyDppPHJObtIS6tOGr8xXWNWM4 | 2n7PaJ48pXED2rPTBP7lHu9aWiFhdTrA
+             rulW5LSwhoo=                     | vXOFtRMaGfE=
+ RMD160    : H5zn5NNe2PD9Rf8zoZFLvAFRZbQ=     | znhttjAdwocBjxkixWY597P2GT8=
+
+File: /opt/tfenv/libexec/tfenv-list
+ Size      : 3458                             | 3484
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : kbYHBY9x5nhJLWIrvNylnQ==         | Kab1tmHO0jVE83erRZvXOQ==
+ SHA256    : 1ClZ1s5q3rrQvMPeOb5smLTJ1eoK9bsg | Jg4xe6gICWYcjrEOHThtjSxV2pZMVnvf
+             jHbiwm2toXg=                     | bEjqCPDTZdU=
+ RMD160    : k0ItL5KIauM84wH9lF6eo8H1UDM=     | s5Vm5z9SscP/b0vNq1TR6m2C5L0=
+
+File: /opt/tfenv/libexec/tfenv-list-remote
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /opt/tfenv/libexec/tfenv-min-required
+ Size      : 3178                             | 3555
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ MD5       : frE144ME1o4SiLsc2F+vtg==         | jyrt+eNzZ9FHhMRC7Q8ihA==
+ SHA256    : QqvuyhWa/GphOc/TkH8urdUfKjDKPPur | guBVC+wPIEQk3GnCl8Twe0bHZVCWDyfI
+             x3vWhUkpZdU=                     | d6htj8oa+5M=
+ RMD160    : svoQ6w7iVSgi9vh3GOxtS7SZd10=     | 81CA/QZh7zUtDpFAmhsIqE512Uc=
+
+File: /opt/tfenv/libexec/tfenv-resolve-version
+ Size      : 4554                             | 4809
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917559                           | 917560
+ MD5       : 3VxnDsKwyjvSDLlqplGp4A==         | yoK2hZgUzdOsq4QKO198GQ==
+ SHA256    : c+zd5zIlnXOA5P678MWrjtURyBYbO5cO | VX6+L+mUeY63agZa9pfLdNa3wBC8mpJm
+             YeHMkGrO/ps=                     | 1n5y0g1M5OA=
+ RMD160    : 8QpQPc2OKDwikC49lcGje/m66tQ=     | E7fUj8Io07V+SQj6f1zHV1mYYvI=
+
+File: /opt/tfenv/libexec/tfenv-uninstall
+ Size      : 4514                             | 4559
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917560                           | 917561
+ MD5       : DPJJLlNpN+hZtEAX4EdJ+Q==         | TqsQpcbGO03gRtXCNOgPvA==
+ SHA256    : 5O5XGMXLqZI//6k8bEuvdr22FCrj8seF | V3PknOB2idGG3ChjkBme4ICFRlyUJRNl
+             jwRvy1TNDKM=                     | J9qaaFQ3GcI=
+ RMD160    : qurF1r8sTaFKDT/NbLRw8KspkZY=     | fFp31jTWDwBFRzljF9MRx0v3ZIE=
+
+File: /opt/tfenv/libexec/tfenv-use
+ Size      : 4228                             | 4293
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917561                           | 917562
+ MD5       : SFnqcPrl5Qo6jkVZYlpO9g==         | uBuQxATVdrbG1MhMRHChYg==
+ SHA256    : h8Oe5C5v8eOH7sHVPew1qZHfcweaNxfx | KWGGWDsQBI+4zql8hc7ukkgjgZphHhgu
+             kWJyG3XhYxw=                     | mRZZ+vAcoZI=
+ RMD160    : HK0pni2zERz/xiLgrcBTgSvk+uE=     | gJuRkL9KwcYnQfp7yJq1mUNgdX8=
+
+File: /opt/tfenv/libexec/tfenv-version-file
+ Size      : 2842                             | 2858
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917562                           | 917563
+ MD5       : mr6f7EN2/O5vhn+lpLlzgg==         | xmOSmtZJWGZe34Gq4KQYcA==
+ SHA256    : 97PCqMI/q+KWZ3MIHOwSvVP+wXclya3l | Ah5ke2AjoKZthEPy7gU8EXlYiS9hWehc
+             D/knu5anKXc=                     | uRpfS3jzL0g=
+ RMD160    : q8sCHBAfZGpQt8vajIBJB1f5cwo=     | GZEpjS772zHjm0VzFDzeKp03hVM=
+
+File: /opt/tfenv/libexec/tfenv-version-name
+ Size      : 4031                             | 5037
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917563                           | 917564
+ MD5       : KznCjLoHpjBo08hAyeAA0w==         | 5UL8V3vjCG10+1RYz9B62Q==
+ SHA256    : EbrkOGpkpDBhqEb7I2uOcIALlZuCmvYC | RJymfy2qtaB2/yc/gwDKT0Mqd55KhLEw
+             F0MppvlJuSQ=                     | BWX78w2X9yQ=
+ RMD160    : mjp2+B4+5h8sJmzh5xP+9xLPhmE=     | B0+RO8Yo8NbSvE4QPY9H/yLlN4s=
+
+File: /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+ Mtime     : 2022-03-08 16:14:05 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-08 16:14:05 +0200        | 2022-03-08 16:30:05 +0200
+
+Directory: /usr
+ Mtime     : 2022-03-08 16:10:28 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-08 16:10:28 +0200        | 2022-03-08 16:30:05 +0200
+
+Directory: /usr/bin
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:30:05 +0200
+
+Link: /usr/bin/luajit
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/bin/luajit-2.1.0-beta3
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+ MD5       : xbRFAyVoNKhGDwSh7O4/SQ==         | 5hAGhAoUQgVPNAw38iddNw==
+ SHA256    : CXX9FeQJrVwM5zxYFmenHt9xtJgRWUEo | omJyYdxBQdr6OZIVBuL01lfcETwZi8BZ
+             Fx04Zp9jMqQ=                     | 05G5pF89qHU=
+ RMD160    : fXMtxyDjRZqOJeM1pprr/FcpwGw=     | 3HlhsnFNP5+7/6PTlgdJsTITorE=
+
+File: /usr/bin/makepkg
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1419                             | 3073
+
+File: /usr/bin/makepkg-template
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/bin/pacman
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 68019                            | 68027
+ MD5       : o9hxVINZICPK9yqzdzrvAg==         | 9Yt4GWiOWTfGETpGMzlIfg==
+ SHA256    : 3pN/k/pWoBpu3YUpqepRLcDRYdkfGR2x | cP0xeoTvbbCkXoPrvggePtdm97/REwQp
+             ueYR659BNGA=                     | 8Id0IOL2YDs=
+ RMD160    : J0YS0+BQwcgoAZK/IGqKSLJe0WM=     | ZR/GXzuYWU0Kvdr61aZNAEELQWw=
+
+File: /usr/bin/pacman-conf
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 68027                            | 113922
+ MD5       : ryCl4YEkdsCK6DoEDejtOw==         | lLdHGs3jK12b5Rx5yEne5A==
+ SHA256    : pt2gUFNWuw1EZj22GiLpAFkOxqV+DCss | E88SWrOTZ3xKPovQqQmZjb8TD0cyty32
+             xLIGX+JjZ4w=                     | bTY9s0HIKCY=
+ RMD160    : 5U9JW9aowh50v3W+35fzY9d4Z1w=     | UN6pBNIlWTBJbKNLkq9B0MzRSHc=
+
+File: /usr/bin/pacman-db-upgrade
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 113922                           | 114272
+
+File: /usr/bin/pacman-key
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114272                           | 114388
+
+File: /usr/bin/repo-add
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114388                           | 114453
+
+Link: /usr/bin/repo-elephant
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114453                           | 114651
+
+Link: /usr/bin/repo-remove
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114651                           | 114667
+
+Link: /usr/bin/terraform
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917564                           | 917565
+
+File: /usr/bin/testpkg
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114667                           | 114829
+ MD5       : XEyqtEF9ViY3CByaoNmiPw==         | kV0SPj1vKJiS2oKDJsfPeQ==
+ SHA256    : /mezPGYUqJIN43U22oVTnpaLcn6WTbqU | u3zoSzDLsAedEtK8i9nVPHn+gAZFayAf
+             Vqs1fQ0AFnU=                     | tbJJcJRxBnM=
+ RMD160    : zOi9XKk+hh9yK/auhiySpl16d8Q=     | e+YQ+xoDg43LGgavtzWnykpMiPw=
+
+Link: /usr/bin/tfenv
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917565                           | 917567
+
+File: /usr/bin/vercmp
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114829                           | 114980
+ MD5       : eNZOpRzsJMLBqfJQRntn4A==         | SBeaRa0yTDeaL0ZoVl/v+w==
+ SHA256    : qS57tuPVdVnMk6GHbPWXHkTFYoK7maoa | o2RPkWWQzPhtnnlg020c9dgZRSz6uioA
+             zNl73AWg0lI=                     | BBOeknPxyjw=
+ RMD160    : GiqXkHj1kLqC64kXroNDIibHDMM=     | XHqjdqD/+USM79aIP331D6aAovk=
+
+Directory: /usr/include
+ Mtime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/alpm.h
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 114980                           | 115002
+
+File: /usr/include/alpm_list.h
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115002                           | 115236
+
+Directory: /usr/include/luajit-2.1
+ Mtime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/luajit-2.1/lauxlib.h
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/luajit-2.1/lua.h
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/luajit-2.1/lua.hpp
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/luajit-2.1/luaconf.h
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/luajit-2.1/luajit.h
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/luajit-2.1/lualib.h
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+Directory: /usr/include/mfx
+ Mtime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/include/mfx/mfxadapter.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185773                           | 185771
+
+File: /usr/include/mfx/mfxastructures.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185774                           | 185773
+
+File: /usr/include/mfx/mfxaudio++.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185775                           | 185774
+
+File: /usr/include/mfx/mfxaudio.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185776                           | 185775
+
+File: /usr/include/mfx/mfxbrc.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185777                           | 185776
+
+File: /usr/include/mfx/mfxcamera.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185778                           | 185777
+
+File: /usr/include/mfx/mfxcommon.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185779                           | 185778
+
+File: /usr/include/mfx/mfxdefs.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185780                           | 185779
+
+File: /usr/include/mfx/mfxdispatcherprefixedfunctions.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185781                           | 185780
+
+File: /usr/include/mfx/mfxenc.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185782                           | 185781
+
+File: /usr/include/mfx/mfxfei.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185783                           | 185782
+
+File: /usr/include/mfx/mfxfeihevc.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185784                           | 185783
+
+File: /usr/include/mfx/mfxjpeg.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185785                           | 185784
+
+File: /usr/include/mfx/mfxla.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185786                           | 185785
+
+File: /usr/include/mfx/mfxmvc.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185788                           | 185786
+
+File: /usr/include/mfx/mfxpak.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185789                           | 185788
+
+File: /usr/include/mfx/mfxpcp.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185790                           | 185789
+
+File: /usr/include/mfx/mfxplugin++.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185791                           | 185790
+
+File: /usr/include/mfx/mfxplugin.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185792                           | 185791
+
+File: /usr/include/mfx/mfxsc.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185793                           | 185792
+
+File: /usr/include/mfx/mfxscd.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185794                           | 185793
+
+File: /usr/include/mfx/mfxsession.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185795                           | 185794
+
+File: /usr/include/mfx/mfxstructures.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185796                           | 185795
+
+File: /usr/include/mfx/mfxvideo++.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185797                           | 185796
+
+File: /usr/include/mfx/mfxvideo.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185798                           | 185797
+
+File: /usr/include/mfx/mfxvp8.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185799                           | 185798
+
+File: /usr/include/mfx/mfxvp9.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185800                           | 185799
+
+File: /usr/include/mfx/mfxvstructures.h
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185801                           | 185800
+
+Directory: /usr/lib
+ Mtime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+
+Link: /usr/lib/libalpm.so
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115236                           | 115413
+
+Link: /usr/lib/libalpm.so.13
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115413                           | 115438
+
+File: /usr/lib/libalpm.so.13.0.1
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115437                           | 115553
+ MD5       : Wu4EJpzN+doIVf5NPvmDpw==         | H/Xp1tkaHoh5M/CV21h+sg==
+ SHA256    : RHz3oICN50hN/QM1uB56wqM4oLXYcjJW | hwSyUMHc5Frfx7+994m+v6cyu5jZZG1D
+             WeBmdG+CaR4=                     | P8rXC8ISuCo=
+ RMD160    : mdx+e3QnCgBjpR4rDVSlIwEdwSI=     | bARSI+HARq2fAgmHk0/hdFd/Oq8=
+
+Link: /usr/lib/libluajit-5.1.so
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+Link: /usr/lib/libluajit-5.1.so.2
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/lib/libluajit-5.1.so.2.1.0
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+ MD5       : YtJQOQGBLksyGHWE705EBA==         | NnSi1Y7fmG/IoYhP1aiPzg==
+ SHA256    : /7yu0yEEODa3fYSvxkOw/OuDw5oekOV5 | oxsLZml531Hq5Bj6Nr5Klmxcn9kYYd92
+             jkL19Wzh6DU=                     | k2sDkvUJu9A=
+ RMD160    : Yv3dWTc6VSuxi8vIoUlvUVS5acI=     | +yF99FnYHduXoZZZARV29cn55+g=
+
+Link: /usr/lib/libmfx.so
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185802                           | 185801
+
+Link: /usr/lib/libmfx.so.1
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185807                           | 185802
+
+File: /usr/lib/libmfx.so.1.35
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185808                           | 185807
+ MD5       : 8p9zl26Nc4ws6ORXw9NKMw==         | 9plfEv5EDvU58x/vQQz7hA==
+ SHA256    : nXFGlzI9hmpF5VwQFMxlJmdVho55fNLW | 2Fmx+EelX3PvQJmoscCzRbISG0ITLD4h
+             JZGkdaPZX9M=                     | 4B6/vFXkmIw=
+ RMD160    : OrVyzNYLU0Gr9n/PW3XHNjMcluE=     | YHBKDIFCkry/P+OZdd92lKASSIg=
+
+Directory: /usr/lib/pkgconfig
+ Mtime     : 2022-03-08 16:10:11 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:11 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/lib/pkgconfig/libalpm.pc
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115438                           | 115580
+
+File: /usr/lib/pkgconfig/libmfx.pc
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 185809                           | 185808
+
+File: /usr/lib/pkgconfig/luajit.pc
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+Link: /usr/lib/pkgconfig/mfx.pc
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 423881                           | 185809
+
+Directory: /usr/share/bash-completion/completions
+ Mtime     : 2022-03-08 16:10:13 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:13 +0200        | 2022-03-08 16:28:22 +0200
+
+Link: /usr/share/bash-completion/completions/makepkg
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115553                           | 115581
+
+File: /usr/share/bash-completion/completions/pacman
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115580                           | 115714
+
+Link: /usr/share/bash-completion/completions/pacman-key
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115581                           | 115732
+
+Directory: /usr/share/licenses/libmfx
+ Mtime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/licenses/libmfx/LICENSE
+ Mtime     : 2022-02-25 20:55:32 +0200        | 2022-03-07 03:47:30 +0200
+ Ctime     : 2022-03-08 16:08:44 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 552682                           | 423881
+
+Directory: /usr/share/licenses/luajit
+ Mtime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/licenses/luajit/COPYRIGHT
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+Directory: /usr/share/licenses/tfenv
+ Mtime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+
+File: /usr/share/licenses/tfenv/LICENSE
+ Mtime     : 2022-03-04 20:10:39 +0200        | 2022-03-08 16:30:01 +0200
+ Ctime     : 2022-03-04 20:10:50 +0200        | 2022-03-08 16:30:05 +0200
+ Inode     : 917567                           | 917568
+
+Directory: /usr/share/locale/ar/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ar/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115714                           | 115733
+
+File: /usr/share/locale/ar/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115732                           | 115859
+
+Directory: /usr/share/locale/ast/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ast/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115733                           | 115877
+
+File: /usr/share/locale/ast/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115859                           | 115878
+
+Directory: /usr/share/locale/az_AZ/LC_MESSAGES
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/az_AZ/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115877                           | 115958
+
+File: /usr/share/locale/az_AZ/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115878                           | 115974
+
+File: /usr/share/locale/az_AZ/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115958                           | 115975
+
+Directory: /usr/share/locale/bg/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/bg/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115974                           | 116076
+
+File: /usr/share/locale/bg/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 115975                           | 116100
+
+File: /usr/share/locale/bg/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116076                           | 116101
+
+Directory: /usr/share/locale/br/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/br/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116100                           | 116123
+
+File: /usr/share/locale/br/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116101                           | 116124
+
+File: /usr/share/locale/br/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116123                           | 116125
+
+Directory: /usr/share/locale/ca/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ca/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116124                           | 116281
+
+File: /usr/share/locale/ca/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116125                           | 116299
+
+File: /usr/share/locale/ca/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116281                           | 116300
+
+Directory: /usr/share/locale/cs/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/cs/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116299                           | 116317
+
+File: /usr/share/locale/cs/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116300                           | 116318
+
+File: /usr/share/locale/cs/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116317                           | 116459
+
+Directory: /usr/share/locale/da/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/da/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116318                           | 116480
+
+File: /usr/share/locale/da/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116459                           | 116481
+
+File: /usr/share/locale/da/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116480                           | 116604
+
+Directory: /usr/share/locale/de/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/de/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116481                           | 116630
+
+File: /usr/share/locale/de/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116604                           | 116631
+
+File: /usr/share/locale/de/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116630                           | 116911
+
+Directory: /usr/share/locale/el/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/el/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116631                           | 116929
+
+File: /usr/share/locale/el/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116911                           | 116930
+
+File: /usr/share/locale/el/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116929                           | 117171
+
+Directory: /usr/share/locale/en_GB/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/en_GB/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 116930                           | 117182
+
+File: /usr/share/locale/en_GB/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117171                           | 117183
+
+File: /usr/share/locale/en_GB/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117182                           | 117272
+
+Directory: /usr/share/locale/eo/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/eo/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117183                           | 117286
+
+File: /usr/share/locale/eo/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117272                           | 117420
+
+File: /usr/share/locale/eo/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117286                           | 117442
+
+Directory: /usr/share/locale/es/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/es/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117420                           | 117443
+
+File: /usr/share/locale/es/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117442                           | 117629
+
+File: /usr/share/locale/es/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117443                           | 117650
+
+Directory: /usr/share/locale/es_419/LC_MESSAGES
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/es_419/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117629                           | 117651
+
+File: /usr/share/locale/es_419/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117650                           | 117820
+
+File: /usr/share/locale/es_419/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117651                           | 117845
+
+Directory: /usr/share/locale/eu/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/eu/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117820                           | 117846
+
+File: /usr/share/locale/eu/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117845                           | 117963
+
+File: /usr/share/locale/eu/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117846                           | 117985
+
+Directory: /usr/share/locale/eu_ES/LC_MESSAGES
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/eu_ES/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117963                           | 117986
+
+File: /usr/share/locale/eu_ES/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117985                           | 118105
+
+File: /usr/share/locale/eu_ES/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 117986                           | 118290
+
+Directory: /usr/share/locale/fi/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/fi/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118105                           | 118309
+
+File: /usr/share/locale/fi/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118290                           | 118310
+
+File: /usr/share/locale/fi/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118309                           | 118498
+
+Directory: /usr/share/locale/fr/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/fr/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118310                           | 118515
+
+File: /usr/share/locale/fr/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118498                           | 118516
+
+File: /usr/share/locale/fr/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118515                           | 119009
+
+Directory: /usr/share/locale/gl/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/gl/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 118516                           | 119025
+
+File: /usr/share/locale/gl/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119009                           | 119026
+
+File: /usr/share/locale/gl/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119025                           | 119221
+
+Directory: /usr/share/locale/hi/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:15 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/hi/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119026                           | 119245
+
+File: /usr/share/locale/hi/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119221                           | 119246
+
+File: /usr/share/locale/hi/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119245                           | 119640
+
+Directory: /usr/share/locale/hr/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/hr/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119246                           | 119665
+
+File: /usr/share/locale/hr/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119640                           | 119801
+
+Directory: /usr/share/locale/hu/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/hu/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119665                           | 119824
+
+File: /usr/share/locale/hu/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119801                           | 119825
+
+File: /usr/share/locale/hu/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119824                           | 119928
+
+Directory: /usr/share/locale/id/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/id/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119825                           | 119951
+
+File: /usr/share/locale/id/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119928                           | 119952
+
+File: /usr/share/locale/id/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119951                           | 120048
+
+Directory: /usr/share/locale/it/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/it/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 119952                           | 120067
+
+File: /usr/share/locale/it/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120048                           | 120068
+
+File: /usr/share/locale/it/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120067                           | 120162
+
+Directory: /usr/share/locale/ja/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ja/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120068                           | 120185
+
+File: /usr/share/locale/ja/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120162                           | 120186
+
+File: /usr/share/locale/ja/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120185                           | 120209
+
+Directory: /usr/share/locale/kk/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/kk/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120186                           | 120225
+
+Directory: /usr/share/locale/ko/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ko/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120209                           | 120334
+
+File: /usr/share/locale/ko/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120225                           | 120400
+
+File: /usr/share/locale/ko/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120334                           | 120414
+
+Directory: /usr/share/locale/lt/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/lt/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120400                           | 120421
+
+File: /usr/share/locale/lt/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120414                           | 120422
+
+File: /usr/share/locale/lt/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120421                           | 120443
+
+Directory: /usr/share/locale/nb/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/nb/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120422                           | 120515
+
+File: /usr/share/locale/nb/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120443                           | 120527
+
+File: /usr/share/locale/nb/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120515                           | 120533
+
+Directory: /usr/share/locale/nl/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/nl/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120527                           | 120559
+
+File: /usr/share/locale/nl/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120533                           | 120626
+
+File: /usr/share/locale/nl/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120559                           | 120698
+
+Directory: /usr/share/locale/pl/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/pl/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120626                           | 120714
+
+File: /usr/share/locale/pl/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120698                           | 120715
+
+File: /usr/share/locale/pl/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120714                           | 120721
+
+Directory: /usr/share/locale/pt/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/pt/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120715                           | 120722
+
+File: /usr/share/locale/pt/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120721                           | 120827
+
+File: /usr/share/locale/pt/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120722                           | 120881
+
+Directory: /usr/share/locale/pt_BR/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/pt_BR/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120827                           | 120895
+
+File: /usr/share/locale/pt_BR/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120881                           | 120896
+
+File: /usr/share/locale/pt_BR/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120895                           | 120908
+
+Directory: /usr/share/locale/ro/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ro/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120896                           | 120997
+
+File: /usr/share/locale/ro/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120908                           | 121014
+
+File: /usr/share/locale/ro/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 120997                           | 121015
+
+Directory: /usr/share/locale/ru/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/ru/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121014                           | 121022
+
+File: /usr/share/locale/ru/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121015                           | 121023
+
+File: /usr/share/locale/ru/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121022                           | 121053
+
+Directory: /usr/share/locale/sk/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/sk/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121023                           | 121112
+
+File: /usr/share/locale/sk/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121053                           | 121229
+
+File: /usr/share/locale/sk/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121112                           | 121381
+
+Directory: /usr/share/locale/sl/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/sl/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121229                           | 121444
+
+File: /usr/share/locale/sl/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121381                           | 121459
+
+File: /usr/share/locale/sl/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121444                           | 121460
+
+Directory: /usr/share/locale/sr/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/sr/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121459                           | 121466
+
+File: /usr/share/locale/sr/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121460                           | 121467
+
+File: /usr/share/locale/sr/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121466                           | 121634
+
+Directory: /usr/share/locale/sr@latin/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:11 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:11 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/sr@latin/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121467                           | 121703
+
+File: /usr/share/locale/sr@latin/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121634                           | 121720
+
+File: /usr/share/locale/sr@latin/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121703                           | 121726
+
+Directory: /usr/share/locale/sv/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/sv/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121720                           | 121727
+
+File: /usr/share/locale/sv/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121726                           | 121841
+
+File: /usr/share/locale/sv/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121727                           | 121933
+
+Directory: /usr/share/locale/tr/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/tr/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121841                           | 121934
+
+File: /usr/share/locale/tr/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121933                           | 122062
+
+File: /usr/share/locale/tr/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 121934                           | 122240
+
+Directory: /usr/share/locale/uk/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/uk/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122062                           | 122257
+
+File: /usr/share/locale/uk/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122240                           | 122258
+
+File: /usr/share/locale/uk/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122257                           | 122264
+
+Directory: /usr/share/locale/zh_CN/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/zh_CN/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122258                           | 122265
+
+File: /usr/share/locale/zh_CN/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122264                           | 122292
+
+File: /usr/share/locale/zh_CN/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122265                           | 122345
+
+Directory: /usr/share/locale/zh_TW/LC_MESSAGES
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/locale/zh_TW/LC_MESSAGES/libalpm.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122292                           | 122407
+
+File: /usr/share/locale/zh_TW/LC_MESSAGES/pacman-scripts.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122345                           | 122422
+
+File: /usr/share/locale/zh_TW/LC_MESSAGES/pacman.mo
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122407                           | 122423
+
+Directory: /usr/share/luajit-2.1.0-beta3/jit
+ Mtime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/bc.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/bcsave.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_arm.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_arm64.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_arm64be.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_mips.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_mips64.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_mips64el.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_mipsel.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_ppc.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_x64.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dis_x86.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/dump.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/p.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/v.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/vmdef.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/luajit-2.1.0-beta3/jit/zone.lua
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+Directory: /usr/share/makepkg
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+Directory: /usr/share/makepkg/buildenv
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/buildenv/buildflags.sh
+ Size      : 1232                             | 1241
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122423                           | 122430
+ MD5       : QeY3B8y6Hz/rFzRLuQxOLw==         | OnxDBf2iUSFl6MJooq4N3w==
+ SHA256    : ZZcYYq+G3MGHjhv3mziDZPYK5X/xKDd8 | idUdi5C4pKE/ySNcqpRwHYamIRCboA5b
+             pHr820Yg8ac=                     | 3n0zse0HFgo=
+ RMD160    : BiG9OaQ9g1Fb+/OPATNIazy70ak=     | rEBSFMlqpcXa38DLfslmaSrejVc=
+
+File: /usr/share/makepkg/buildenv/compiler.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122429                           | 122463
+
+File: /usr/share/makepkg/buildenv/debugflags.sh
+ Size      : 1443                             | 1476
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122430                           | 122464
+ MD5       : lhX2yg05qLyG5b3W2tZ0xg==         | 3JZUi5YCXWRCtMyKQhkC0Q==
+ SHA256    : XFKBjVn3Fk76mAX/jejzEciONMhxVkg4 | 7bIJqheJNbG7T9STKvaTMXLcrOzgE48a
+             /nGRs23eKNI=                     | Gnav6Fp3ads=
+ RMD160    : 9v4/D49RXF57iAv7MljGBM8N74s=     | WA9cgk1r042aiDyRBoHrZvmnwFc=
+
+File: /usr/share/makepkg/buildenv/lto.sh
+ Size      : 1176                             | 1250
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122463                           | 122465
+ MD5       : gw8L3MM/TvOdb1N/1CEEbA==         | QlgFCed93vF+StGvP44WWw==
+ SHA256    : 5Up6kvoKylk3jqjQI7B28bH1Mi1gEwr7 | tMWyilM3O8XkcsXk7QGBpYxVJX2lS0LA
+             qNMh23YYDxg=                     | zMHoitRuShI=
+ RMD160    : +cYlHrK5qoz1uUQ/d1jbL+UlEJE=     | XKIkCVvdytG5IGKbdtki/VWhVUA=
+
+File: /usr/share/makepkg/buildenv/makeflags.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122464                           | 122466
+
+File: /usr/share/makepkg/buildenv.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122422                           | 122429
+
+Directory: /usr/share/makepkg/executable
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/executable/ccache.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122466                           | 122468
+
+File: /usr/share/makepkg/executable/checksum.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122467                           | 122469
+
+File: /usr/share/makepkg/executable/distcc.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122468                           | 122470
+
+File: /usr/share/makepkg/executable/fakeroot.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122469                           | 122471
+
+File: /usr/share/makepkg/executable/gpg.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122470                           | 122472
+
+File: /usr/share/makepkg/executable/gzip.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122471                           | 122473
+
+File: /usr/share/makepkg/executable/pacman.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122472                           | 122474
+
+File: /usr/share/makepkg/executable/strip.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122473                           | 184404
+
+File: /usr/share/makepkg/executable/sudo.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122474                           | 231530
+
+File: /usr/share/makepkg/executable/vcs.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 184404                           | 231531
+
+File: /usr/share/makepkg/executable.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 122465                           | 122467
+
+Directory: /usr/share/makepkg/integrity
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/integrity/generate_checksum.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 231531                           | 392646
+
+File: /usr/share/makepkg/integrity/generate_signature.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 392645                           | 417627
+
+File: /usr/share/makepkg/integrity/verify_checksum.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 392646                           | 417628
+
+File: /usr/share/makepkg/integrity/verify_signature.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 417627                           | 423798
+
+File: /usr/share/makepkg/integrity.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 231530                           | 392645
+
+Directory: /usr/share/makepkg/lint_config
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/lint_config/ext.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 423798                           | 427158
+
+File: /usr/share/makepkg/lint_config/paths.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 423799                           | 427159
+
+File: /usr/share/makepkg/lint_config/source_date_epoch.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 427158                           | 518834
+
+File: /usr/share/makepkg/lint_config/variable.sh
+ Size      : 2315                             | 2324
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 427159                           | 518835
+ MD5       : lTcbrM9fArVMyv7nosDhtg==         | MKJdtZWcAi6RlWQ9XOokHA==
+ SHA256    : CFhqM8XwCvyz9lLmXXwz6mD4C3FQnEkM | 3PoWgpEeLKhigufjSntOLOQ6Ysi/OAo3
+             L8qyVpOEi28=                     | J7QCp/7X+uA=
+ RMD160    : q4k9OMRx+A2hFrbOoP9Sfq3vQlg=     | ANsJuR+5td9Xg71mevcC1M8r2ko=
+
+File: /usr/share/makepkg/lint_config.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 417628                           | 423799
+
+Directory: /usr/share/makepkg/lint_package
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/lint_package/build_references.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 518835                           | 535133
+
+File: /usr/share/makepkg/lint_package/dotfiles.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 535132                           | 535134
+
+File: /usr/share/makepkg/lint_package/file_names.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 535133                           | 536605
+
+File: /usr/share/makepkg/lint_package/missing_backup.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 535134                           | 536606
+
+File: /usr/share/makepkg/lint_package.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 518834                           | 535132
+
+Directory: /usr/share/makepkg/lint_pkgbuild
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/lint_pkgbuild/arch.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 536606                           | 537587
+
+File: /usr/share/makepkg/lint_pkgbuild/arch_specific.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 537586                           | 538211
+
+File: /usr/share/makepkg/lint_pkgbuild/backup.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 537587                           | 538212
+
+File: /usr/share/makepkg/lint_pkgbuild/changelog.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 538211                           | 538715
+
+File: /usr/share/makepkg/lint_pkgbuild/checkdepends.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 538212                           | 538716
+
+File: /usr/share/makepkg/lint_pkgbuild/conflicts.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 538715                           | 549946
+
+File: /usr/share/makepkg/lint_pkgbuild/depends.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 538716                           | 549947
+
+File: /usr/share/makepkg/lint_pkgbuild/epoch.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 549946                           | 549948
+
+File: /usr/share/makepkg/lint_pkgbuild/fullpkgver.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 549947                           | 552608
+
+File: /usr/share/makepkg/lint_pkgbuild/install.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 549948                           | 552609
+
+File: /usr/share/makepkg/lint_pkgbuild/makedepends.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 552608                           | 564382
+
+File: /usr/share/makepkg/lint_pkgbuild/optdepends.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 552609                           | 564383
+
+File: /usr/share/makepkg/lint_pkgbuild/options.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 564382                           | 585383
+
+File: /usr/share/makepkg/lint_pkgbuild/package_function.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 564383                           | 585485
+
+File: /usr/share/makepkg/lint_pkgbuild/package_function_variable.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 585383                           | 585486
+
+File: /usr/share/makepkg/lint_pkgbuild/pkgbase.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 585485                           | 588255
+
+File: /usr/share/makepkg/lint_pkgbuild/pkglist.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 585486                           | 588256
+
+File: /usr/share/makepkg/lint_pkgbuild/pkgname.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 588255                           | 590462
+
+File: /usr/share/makepkg/lint_pkgbuild/pkgrel.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 588256                           | 590463
+
+File: /usr/share/makepkg/lint_pkgbuild/pkgver.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 590462                           | 597181
+
+File: /usr/share/makepkg/lint_pkgbuild/provides.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 590463                           | 597182
+
+File: /usr/share/makepkg/lint_pkgbuild/source.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 597181                           | 606767
+
+File: /usr/share/makepkg/lint_pkgbuild/util.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 597182                           | 606768
+
+File: /usr/share/makepkg/lint_pkgbuild/variable.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 606767                           | 608040
+
+File: /usr/share/makepkg/lint_pkgbuild.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 536605                           | 537586
+
+Directory: /usr/share/makepkg/reproducible
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/reproducible/python.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 608040                           | 618188
+
+File: /usr/share/makepkg/reproducible.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 606768                           | 608041
+
+Directory: /usr/share/makepkg/source
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/source/bzr.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 618188                           | 619128
+
+File: /usr/share/makepkg/source/file.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 618189                           | 619129
+
+File: /usr/share/makepkg/source/fossil.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 619128                           | 621701
+
+File: /usr/share/makepkg/source/git.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 619129                           | 621702
+
+File: /usr/share/makepkg/source/hg.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 621701                           | 640425
+
+File: /usr/share/makepkg/source/local.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 621702                           | 640426
+
+File: /usr/share/makepkg/source/svn.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 640425                           | 646892
+
+File: /usr/share/makepkg/source.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 608041                           | 618189
+
+File: /usr/share/makepkg/srcinfo.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 640426                           | 646893
+
+Directory: /usr/share/makepkg/tidy
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/tidy/docs.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 646893                           | 655861
+
+File: /usr/share/makepkg/tidy/emptydirs.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 655860                           | 666666
+
+File: /usr/share/makepkg/tidy/libtool.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 655861                           | 666667
+
+File: /usr/share/makepkg/tidy/purge.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 666666                           | 676389
+
+File: /usr/share/makepkg/tidy/staticlibs.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 666667                           | 676390
+
+File: /usr/share/makepkg/tidy/strip.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 676389                           | 679956
+
+File: /usr/share/makepkg/tidy/zipman.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 676390                           | 679957
+
+File: /usr/share/makepkg/tidy.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 646892                           | 655860
+
+Directory: /usr/share/makepkg/util
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/makepkg/util/compress.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 679957                           | 682275
+
+File: /usr/share/makepkg/util/config.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 682274                           | 692912
+
+File: /usr/share/makepkg/util/dirsize.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 682275                           | 692913
+
+File: /usr/share/makepkg/util/error.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 692912                           | 712341
+
+File: /usr/share/makepkg/util/message.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 692913                           | 712342
+
+File: /usr/share/makepkg/util/option.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 712341                           | 714037
+
+File: /usr/share/makepkg/util/parseopts.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 712342                           | 714038
+
+File: /usr/share/makepkg/util/pkgbuild.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 714037                           | 716793
+
+File: /usr/share/makepkg/util/schema.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 714038                           | 719377
+
+File: /usr/share/makepkg/util/source.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 716793                           | 730926
+
+File: /usr/share/makepkg/util/util.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 719377                           | 730927
+
+File: /usr/share/makepkg/util.sh
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 679956                           | 682274
+
+Directory: /usr/share/man/man1
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/man/man1/luajit.1.gz
+ Mtime     : 2022-01-31 16:12:04 +0200        | 2022-03-08 06:22:43 +0200
+ Ctime     : 2022-03-08 16:09:52 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/man/man1/makepkg-template.1.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 730926                           | 730928
+ MD5       : 3iTFDEaF7IhRWjm8tHAoAA==         | o1xs7jUCS9kzEdagjLAWcg==
+ SHA256    : eIIh40Y9McJwDU/Vwbg69ilRgzlih7D2 | mKKQClR9ov/5H98vNzviX9l9e1Z+Z8Z6
+             /abq6E/hO+s=                     | jebWeioWnBw=
+ RMD160    : r8qmhQ//aNzFm5y6rfGrK4/J6JE=     | 4iWj57RVEfKtok4+tQEyM1K5auI=
+
+Directory: /usr/share/man/man3
+ Mtime     : 2022-03-08 16:10:10 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:10 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/man/man3/libalpm.3.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 730927                           | 765349
+ MD5       : LYHlpeSaA9pUEH5KCPIdSA==         | i9EKoftn8HdA0+vGEiLU3A==
+ SHA256    : hDCy3KXCRZarKgsQOPYcyeWIM1XBb4Nz | lGYKO8nVz0N4VUzJqy8kVmbQpPFAuEN0
+             yFu5qZ++GVI=                     | nxn7QTo7nnA=
+ RMD160    : PDV6BrymQHJ0XcNc9NtilyTE2YE=     | YAdg4R6iVC2wnbSPWIfdRpCVX7c=
+
+File: /usr/share/man/man3/libalpm_cb.3.gz
+ Size      : 4858                             | 4857
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 730928                           | 765350
+ MD5       : k8zFYvuG0naOAONWerPHwA==         | qHOLnCjldrf7ohhIbr3QAg==
+ SHA256    : MEkSew62fd9ER0EL6JxGOq24wLKLbT69 | 4h4x/Wd+vY/7HGiv3x3Zp1bHASAO0EXo
+             yiiIgI3PwHs=                     | e8sDCmpm5nc=
+ RMD160    : 70TMLIZlWYvGbzNQ/C+D0+2AWV4=     | su9hhKiVoIH4/hCs80ZLwf+LVLA=
+
+File: /usr/share/man/man3/libalpm_databases.3.gz
+ Size      : 2918                             | 2917
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 765349                           | 791377
+ MD5       : kfZhAzZW4VGpeJ3aLuLOtg==         | 3i2riBSJf58mI2sE+DLe8Q==
+ SHA256    : CtemBO1HHzXRMbsvhanNI1CxczmQPL8U | +AuSMPUXn+OQk1EcAZa0tHWeSLu+jGdo
+             k24vttKPixI=                     | 7ZqIwy8J3u0=
+ RMD160    : YtJviYIjoNKbNU/Epf0WvJ4kyDk=     | Zl+wHUqtYl+7d7oOe30Zg4JGFOk=
+
+File: /usr/share/man/man3/libalpm_depends.3.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 765350                           | 798848
+ MD5       : 2TiGddPj4nGGLQ9Q/pzOWg==         | 5KTqYjUmLiuUVdqZsGw4Cw==
+ SHA256    : UqeqC3DYQl+EX+0RkAB/NdGK9G2dqO/R | pDdJF7Ew/KayGI1cqCQ54uoiHa/eL/W8
+             80Bpo+0xRtw=                     | Qw24MZyBYpo=
+ RMD160    : xIPcFr8ndjyD6dfnoWrZ3hHG9bk=     | GvRVX4+/SVUfAAs3heDzD8YUpMU=
+
+File: /usr/share/man/man3/libalpm_errors.3.gz
+ Size      : 1860                             | 1857
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 791377                           | 799091
+ MD5       : rpcBDnU6Pksjq6Ti3uM1Uw==         | zRKQ8oOrP+5mTjr/R21jug==
+ SHA256    : bGDvyM3Mly/bXEiE9xh5DMALfaTDTUQl | ox2U4mKk0zceBYTvotrJ378EiDa5dyf+
+             6Sqywk7fgAU=                     | sKyhBWsDNSg=
+ RMD160    : dRhDjkVeTMYklaaMWr72Wr45Fyo=     | 4i4fO8E66R9poflJgjfDR80RLUY=
+
+File: /usr/share/man/man3/libalpm_files.3.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 798848                           | 811047
+ MD5       : kyEwDutprbYAXNx874YZHw==         | hCnekXygTApXCXPsUqxyQQ==
+ SHA256    : sHKQMQ7Z+ZwQvxd2I44CqIq6fev6SQ5j | tjXrdnSiJPnUaAhIKDHNfJAEK3xTub/v
+             Rhg01ylPGwU=                     | hVtAZqx09sw=
+ RMD160    : e/Na1ICeAzaZcX3hVmVPxdbk3kU=     | aRnJkUy8eMpQrU1RApOgDPGPuYc=
+
+File: /usr/share/man/man3/libalpm_groups.3.gz
+ Size      : 601                              | 600
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 799091                           | 811048
+ MD5       : y6vz9LUDWB6W35sAZrrsGA==         | qnnOkzrZBjPUmaTVcZ1pDg==
+ SHA256    : meJawCMnMMeupOsCyc0YmPMUPIfsT3QZ | UU36vCYyj9bB75W9TUalcgIU/ojuC8TI
+             eJT4zateVUc=                     | 3gMIm/x2+6Y=
+ RMD160    : wU9dntvQuDoTSsB86b+vB9ku544=     | Cm6Bb90Z0MmadxNETz1jl+jXCpg=
+
+File: /usr/share/man/man3/libalpm_handle.3.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 811047                           | 811073
+ MD5       : v7zO6x326/8e1OganPpo9A==         | S+SFilDzjWPKzc1JEbejxQ==
+ SHA256    : sJSDr+D2GhoFY7gMH/XblF7cV8lpHzHk | QZG6XO7EK02o/LD+GBlDN7zxUyxIaayS
+             uFtleExgAKc=                     | pgvxdYCvHF4=
+ RMD160    : D5Pv5DJ5uakZpepXd6p662VcDvY=     | LiOzJvLYK+hIFYICaaKmE7xoLfE=
+
+File: /usr/share/man/man3/libalpm_list.3.gz
+ Size      : 2926                             | 2927
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 811048                           | 816327
+ MD5       : TcJOVYmRJwMWRxyCfi2S8A==         | lILQylmNAJbZPKHfly328Q==
+ SHA256    : mEhIPqcb1XTNxz4M5rdZOKOrDpUVI3lM | jB/gC0H03X9U5WIaNZ2Lg5F2tBdVo1uh
+             ij/lSdzoMPU=                     | BBIQN48Oma0=
+ RMD160    : 3cXNyOpk/u8M+NgufdEDog9vUN0=     | JcR83HwhRjeMfWpP3ZiycbKTOIw=
+
+File: /usr/share/man/man3/libalpm_log.3.gz
+ Size      : 904                              | 902
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 811073                           | 816328
+ MD5       : NNNcPnEtj7Dg+qkYXiQw0w==         | /WVZV5lXqV81pD9ESgKROg==
+ SHA256    : gkUpfq67B19gE0u9R4tPPmJTg3SYLnE8 | WDbpP/0DG11BJtsejEn2EUJTs+hKiq7G
+             So7+aljytGo=                     | I56HWYhSeTI=
+ RMD160    : Sm/YtQbqH3TuFkGVvpoYCjUlUvo=     | yhCKQK7apsp9VatRNX0uX0cLsOg=
+
+File: /usr/share/man/man3/libalpm_misc.3.gz
+ Size      : 1117                             | 1116
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 816327                           | 848000
+ MD5       : eEoqweXWmhSjo4X+IIBDAA==         | FvfpaxoD5wU4PmfAYtxlXg==
+ SHA256    : tpMO7NcPYJyTFJSZlJtmAHFcDbftgZE5 | 595hxQlzljHiyizqvmj12XGLPqYVNuHE
+             JX7eXDWF4SA=                     | 9DLc4MFVJLU=
+ RMD160    : 7d7oO0nKEejhEf1Qu6fgbYfN6a4=     | EG3y/tHp9Mf+YldsWV7Gb11hpa4=
+
+File: /usr/share/man/man3/libalpm_options.3.gz
+ Size      : 4905                             | 4904
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 816328                           | 848001
+ MD5       : 3QJTGGo2QG2/CCnzJKXDUw==         | XVGOBtQarbqAR6X+IN6o5Q==
+ SHA256    : FomsOQ9VjY75u48BIcSNB9/nzl/w4R3g | p8lDJY8ONaLdQUsfmqcmv1Pcr3BhxD2T
+             XNiKg8FPr4I=                     | ZNuepUFB0j4=
+ RMD160    : 4rHtfpZsDNts1TTEXMOCNxfEMaE=     | MhThcZwjO1j66uLqxzTrFDeviuw=
+
+File: /usr/share/man/man3/libalpm_packages.3.gz
+ Size      : 4900                             | 4898
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 848000                           | 864653
+ MD5       : o5Hey7gDwiT5l3/ODl5aTw==         | jS7fCRiUe60pWRou66xCHA==
+ SHA256    : P2c4bTTnlMMVOvRT9QkI2+dpTxOE93iZ | JCP16CuITVI7Ol2BOG17Mpw6clIgSJlL
+             2zjnauOLAbM=                     | oCotgoUQcnk=
+ RMD160    : tTNyiUt8pBUbQrhdkxCnw89uPus=     | /16FiyfEJLxEusDskRojP9UGvLI=
+
+File: /usr/share/man/man3/libalpm_sig.3.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 848001                           | 870063
+ MD5       : Gb+4luqXK6JYec5707osLA==         | K6BwWsccyKR0JygdaeqH5g==
+ SHA256    : k1iS+WrLX/8MyOhBS6a86HWylqo/TR6u | Xj2dr21Ap4OKWFRU3yPJzwN3FKk5O7wN
+             Wbwd0407CHk=                     | kegK4bF+eRU=
+ RMD160    : C6oC+90XN5nKnDZMjIF7wVpKC8E=     | 9z4uyhMQw8Y00aQ/+5b0ZGgLDFI=
+
+File: /usr/share/man/man3/libalpm_trans.3.gz
+ Size      : 1991                             | 1990
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 864653                           | 870064
+ MD5       : 92QUmR/ILQigBSa7KR1SVw==         | KPigL3ZW0cMzn1inGe2QBg==
+ SHA256    : zPmSiQ/0chBGS4m6HhTS8r4PeZy8xKog | OZxXSHUQalEZ5hxWmbzSySjioI+GYZ26
+             +rROM3oiEMk=                     | W1Jh0m1Orq8=
+ RMD160    : Rxzoat5sI0It4oV3hrxXWA9GnnI=     | ly5kqzRzqzQK88AP/HV72j+6JTI=
+
+Directory: /usr/share/man/man5
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/man/man5/BUILDINFO.5.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 870063                           | 893759
+ MD5       : a/9qpyCsbAPiF25Nox6SBg==         | SgT15s0w6DzyB+B1hFrrVg==
+ SHA256    : RHUVl6YqhRZzCa0op3hDLO5JH24NOmgn | grZZBzS6K+UnPxztoy+x3zBvZ01nRtvp
+             HDjihOLfSV4=                     | qxOz8ihBl6c=
+ RMD160    : 0a6vwbpO8JloKlgkpuVB+yNC9G0=     | 5e781tds22R2d4C6OadrpxrIBl8=
+
+File: /usr/share/man/man5/PKGBUILD.5.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 870064                           | 893760
+ MD5       : thLdI//KbHmGNP2ldj2lbQ==         | qWxuPo1kifYDL7r85VOSGw==
+ SHA256    : 1QYRz9T1nSjYjd0QYKHs/n4M/WXRa4dB | C1RNrtFspSOg3ZUuvUo2+lWgQIrroe7o
+             RGCl20dUGBQ=                     | Dk73W2PChfk=
+ RMD160    : hXKix+AZIB8ZBQ3GIu4YHs8Tqt0=     | 0uR6J0mRHsQBysht1IZBCMWg/ek=
+
+File: /usr/share/man/man5/alpm-hooks.5.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 893759                           | 918807
+ MD5       : IUTNUnXvpyBy55+yzcmItQ==         | jJIKRXY42jC0kpjt6YrP2Q==
+ SHA256    : Pp8VvUX6hu/30JeV87omC0dFpIB3gQrQ | SapTd8nktncjYSIdBzDsWz8zR1MeHjl1
+             GDLOuzfXaKY=                     | 5KtQyI33Mi8=
+ RMD160    : CxjcCVhaHr2DC2Y/SRob4VTVJw8=     | Ij0Zd+DTRXYPfRprohJKyb3fNGc=
+
+File: /usr/share/man/man5/makepkg.conf.5.gz
+ Size      : 5358                             | 5426
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 893760                           | 918808
+ MD5       : 5DKZRIRdIBESkEGW0ihzmQ==         | v3IDNLw2OBxfy3yzEPDpOw==
+ SHA256    : 3Iaxl3TcS+wWNPznIg1kYZKfYCvSFuOP | 3uw+nULaN+/jkNBnUvwSBZi7nepdTaf9
+             tFRMqlt8jnk=                     | wqqgEa4UQd0=
+ RMD160    : bvpwHmNORnznfgQatWs4R8t/zEg=     | rpecGgWBFhEYrUNcGhOoVBPgrNo=
+
+Link: /usr/share/man/man5/pacman-hooks.5.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 918807                           | 1067464
+
+File: /usr/share/man/man5/pacman.conf.5.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 918808                           | 1067465
+ MD5       : pQ1fhfOq6uXQ8VYfaLyhAQ==         | /1QyA9qhZgKuJ8vO0s6u8w==
+ SHA256    : JU123DoiYvg2Y+YIuXeaoCrceE8q0Yec | 22AemkvNSKfQJvx1w3scB/RdqjeZEqoZ
+             VKmhLAyR6IY=                     | 5RBVdGcRPmA=
+ RMD160    : LpeCUZ2FprUf/7OrhwQPZujUUGk=     | R24i+aiN4YzTqSMm1gqvv/WKuXI=
+
+Directory: /usr/share/man/man8
+ Mtime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:16 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/man/man8/makepkg.8.gz
+ Size      : 5214                             | 5215
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1067464                          | 1078446
+ MD5       : jGQyDLWgvGaXf6c0kGyX0A==         | 5gfsI7+oVbpZ3tqWe2wyyA==
+ SHA256    : veq8bUeKmwVCKUUAixgy0NI24V7Q3eoj | Oon8EYIodpx+5BqjdFDw4EEUZtsbIHaR
+             dDeODzj+uUg=                     | xRkXE5Bzyzs=
+ RMD160    : oNqizwtsBYPfXQwVvsalQ3nzEfo=     | amnlywirP8Dfmjt00khsJ3quu9c=
+
+File: /usr/share/man/man8/pacman-conf.8.gz
+ Size      : 1651                             | 1652
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1067465                          | 1078447
+ MD5       : nCk6hSvXryb4T0Q9WdvT9w==         | IDNrofNpNMaS94Ara/eOFQ==
+ SHA256    : whlD4ai+XaZ637FhmwkaQ1O3is501tKv | p+wZfHxk0oYJq+v/o2UDpXI0J/fm9Si8
+             ErvKTPbfm6Q=                     | TPLd3JBymBc=
+ RMD160    : jf8wa+OxeDZ1hK0BEsPfM36rHQA=     | kcBoIaWG9hY/fs0ulrhqxEHug9g=
+
+File: /usr/share/man/man8/pacman-key.8.gz
+ Size      : 2981                             | 2982
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1078446                          | 1085888
+ MD5       : GEOr79ptfNITQvPfU+v+TA==         | kwtlWjtznk4ZgQj9r4Lycg==
+ SHA256    : znkClyQj8B3HCPhuOCkIpGGTjaXL4zh2 | Bo9VFhgWYL90dH3ID6lskg0xRxXQ24T4
+             v2Uw6+0DQLE=                     | 04Sxc2Chdgo=
+ RMD160    : 9kJaBX2a/YUr8bzvBSNKEpCS0+o=     | 6ffVvBuJ95QyU2JJvDzu9wCq/+I=
+
+File: /usr/share/man/man8/pacman.8.gz
+ Size      : 8703                             | 8705
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1078447                          | 1085889
+ MD5       : zBvvb0ZmGEsK8PQZOnFfwQ==         | Mqfk8tF/h9nFEU7LkyDoyg==
+ SHA256    : 1fZsU9T8YcJSQShK88Kd0OhY+9ZbMO/Y | tKhWcyUMpKB3oGJZlQZ7GUViuDUaj2tq
+             TUPKZKFSRjc=                     | BxJ+Vyzgnq0=
+ RMD160    : 9+eBe+f/7mLdJClpWja24AeQMo0=     | YWB6DZuXh++/J1lCvFIQ0nFNikk=
+
+File: /usr/share/man/man8/repo-add.8.gz
+ Size      : 2183                             | 2184
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1085888                          | 1088571
+ MD5       : lQWXJGbMYXRQycIjYuAB0A==         | w22B2xoKEWcD5D9DCpseqw==
+ SHA256    : jk47KzZbQdmQ38g5Jk2QZL8gt47id+Z3 | iVB6ZEhxJpOGOqYkdUz58HTjIs1m3SpM
+             2JnEA8CHw/0=                     | htY24/iYeAI=
+ RMD160    : U6aHfvciWq5/LjKMJJVuPi/X4ns=     | 00ZX7KPQNMl1TxjyeOLfSKWO190=
+
+Link: /usr/share/man/man8/repo-remove.8.gz
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1085889                          | 1088572
+
+File: /usr/share/man/man8/vercmp.8.gz
+ Size      : 1712                             | 1713
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1088571                          | 1095722
+ MD5       : 2uB3PpEAllIGlFbk6NLQLw==         | 4VDPT89jLNCdMwm92rXQAw==
+ SHA256    : 9mjxPv5okG4kseuGGfcS3CS6aNvPyQnS | oJUQpdyemReJGrLjBcsxlFkfKsxT5mBz
+             Gk3quaou2GY=                     | wWTvzt/+gU0=
+ RMD160    : eCgiQUDwBQiZFLO1crh8C5sRd8s=     | kt8sbDvPVEoRTcn0VW23gLJB7iY=
+
+Directory: /usr/share/pacman
+ Mtime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/pacman/PKGBUILD-split.proto
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1088572                          | 1095723
+
+File: /usr/share/pacman/PKGBUILD-vcs.proto
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1095722                          | 1095724
+
+File: /usr/share/pacman/PKGBUILD.proto
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1095723                          | 1111780
+
+File: /usr/share/pacman/proto.install
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1095724                          | 1111781
+
+Directory: /usr/share/pkgconfig
+ Mtime     : 2022-03-08 16:10:10 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:10 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/pkgconfig/libmakepkg.pc
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1111780                          | 1111856
+
+Directory: /usr/share/zsh/site-functions
+ Mtime     : 2022-03-08 16:10:11 +0200        | 2022-03-08 16:28:22 +0200
+ Ctime     : 2022-03-08 16:10:11 +0200        | 2022-03-08 16:28:22 +0200
+
+File: /usr/share/zsh/site-functions/_pacman
+ Mtime     : 2022-01-08 11:13:06 +0200        | 2022-03-06 10:42:33 +0200
+ Ctime     : 2022-03-08 16:08:41 +0200        | 2022-03-08 16:28:22 +0200
+ Inode     : 1111781                          | 1115716
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : 7PQMbh/s12WpTZXhRCa81A==
+ SHA1      : k/eAwyJaUbLU26aqLlFMcePZ0mo=
+ SHA256    : xSPO2Yx6Mwo8ngKx0jA4hNG8vcajMw62
+             48vzesZ1Dfc=
+ SHA512    : jb3FkWLW5uKHghrksYZ4Au33IXkisAhA
+             ji/pzXaUEPC7MIfZ5IDK0l0OrLQIzgwW
+             qZkkZm5lcHqo3/tSO1kOBg==
+ RMD160    : m0k3pqXUDnH5/diNugrfrSu5h04=
+ TIGER     : CN7PRUarBMW8IhNBdLp1ZZHGpwdzXx+V
+ CRC32     : jXHsAA==
+ CRC32B    : ouDM6w==
+ HAVAL     : Sh1NDrYGayRzOBmCrIrJbtpiHbmtDY8J
+             ruFyTXsZlPA=
+ WHIRLPOOL : JG/L+WhtLlPj0a7edci9AmtKoaV8vw9W
+             iR6OlIl07wcAV54A+4iyn2fQ/sjgg6BM
+             tixRvErkMIN0UJI7xVNyZQ==
+ GOST      : Hbw+LsvF2MSL4IOa0LKSZvD6mzezGqvt
+             of6LqoVBSVA=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : t5SqYS8KjdO1D4ed19Ls3Q==
+ SHA1      : WtsOFyzW5OwBQLFUa1tIzf3PXxw=
+ SHA256    : vac3h7gZBa2pNwP+9RT/Zc+wvqhBvdSm
+             /XOI2b58zNM=
+ SHA512    : kBoZXLeSIv8oHSbcFWXQ0H0WkMmBMOnP
+             i0JQ47e5d1kcyEusTzjJwDDpShuYQqKu
+             4n7v6fsOSk1BsBhZLijDNA==
+ RMD160    : amv9iAMEDqXyEbGgyCGOPzrdyxw=
+ TIGER     : pluZTl9FtGkF4mUU7cc6KHGeSIMkVI6W
+ CRC32     : 5hBj2w==
+ CRC32B    : 5EBspw==
+ HAVAL     : G5wwPYPfsFc3cbjQzlxG49XaZJVKd8al
+             82WmvBaM5ho=
+ WHIRLPOOL : 6qH6o24cqwziyfaVhpF2LE1Ih8ERKSqH
+             Ppz0tMjp8+HNBib3RdPmZ+I3zF6Sdw+E
+             LVv2yb3Nm/7A367vVmN1SA==
+ GOST      : sdWLqhcetxt+fWaPIgUKZoXsOaorYfeQ
+             XbHfaKvsMuU=
+
+
+End timestamp: 2022-03-08 16:46:49 +0200 (run time: 8m 26s)

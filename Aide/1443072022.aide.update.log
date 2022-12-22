@@ -1,0 +1,2033 @@
+Start timestamp: 2022-03-07 14:43:46 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	395727
+  Added entries:		1438
+  Removed entries:		0
+  Changed entries:		86
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+d+++++++++++++++: /etc/fwupd
+f+++++++++++++++: /etc/fwupd/daemon.conf
+f+++++++++++++++: /etc/fwupd/msr.conf
+f+++++++++++++++: /etc/fwupd/redfish.conf
+d+++++++++++++++: /etc/fwupd/remotes.d
+f+++++++++++++++: /etc/fwupd/remotes.d/dell-esrt.conf
+f+++++++++++++++: /etc/fwupd/remotes.d/fwupd-tests.conf
+f+++++++++++++++: /etc/fwupd/remotes.d/lvfs-testing.conf
+f+++++++++++++++: /etc/fwupd/remotes.d/lvfs.conf
+f+++++++++++++++: /etc/fwupd/remotes.d/vendor-directory.conf
+f+++++++++++++++: /etc/fwupd/remotes.d/vendor.conf
+f+++++++++++++++: /etc/fwupd/thunderbolt.conf
+f+++++++++++++++: /etc/fwupd/uefi_capsule.conf
+f+++++++++++++++: /etc/grub.d/35_fwupd
+d+++++++++++++++: /etc/libsmbios
+f+++++++++++++++: /etc/libsmbios/logging.conf
+d+++++++++++++++: /etc/pki
+d+++++++++++++++: /etc/pki/fwupd
+f+++++++++++++++: /etc/pki/fwupd/GPG-KEY-Linux-Foundation-Firmware
+f+++++++++++++++: /etc/pki/fwupd/GPG-KEY-Linux-Vendor-Firmware-Service
+f+++++++++++++++: /etc/pki/fwupd/LVFS-CA.pem
+d+++++++++++++++: /etc/pki/fwupd-metadata
+f+++++++++++++++: /etc/pki/fwupd-metadata/GPG-KEY-Linux-Foundation-Metadata
+f+++++++++++++++: /etc/pki/fwupd-metadata/GPG-KEY-Linux-Vendor-Firmware-Service
+f+++++++++++++++: /etc/pki/fwupd-metadata/LVFS-CA.pem
+f+++++++++++++++: /usr/bin/dfu-tool
+f+++++++++++++++: /usr/bin/fwupd-dbxtool
+l+++++++++++++++: /usr/bin/fwupdagent
+f+++++++++++++++: /usr/bin/fwupdate
+f+++++++++++++++: /usr/bin/fwupdmgr
+f+++++++++++++++: /usr/bin/fwupdtool
+f+++++++++++++++: /usr/bin/gcab
+f+++++++++++++++: /usr/bin/gusbcmd
+f+++++++++++++++: /usr/bin/jcat-tool
+f+++++++++++++++: /usr/bin/mbim-network
+f+++++++++++++++: /usr/bin/mbimcli
+l+++++++++++++++: /usr/bin/protoc-c
+f+++++++++++++++: /usr/bin/protoc-gen-c
+f+++++++++++++++: /usr/bin/qmi-firmware-update
+f+++++++++++++++: /usr/bin/qmi-network
+f+++++++++++++++: /usr/bin/qmicli
+f+++++++++++++++: /usr/bin/smbios-battery-ctl
+f+++++++++++++++: /usr/bin/smbios-get-ut-data
+f+++++++++++++++: /usr/bin/smbios-keyboard-ctl
+f+++++++++++++++: /usr/bin/smbios-lcd-brightness
+f+++++++++++++++: /usr/bin/smbios-passwd
+f+++++++++++++++: /usr/bin/smbios-state-byte-ctl
+f+++++++++++++++: /usr/bin/smbios-sys-info
+f+++++++++++++++: /usr/bin/smbios-sys-info-lite
+f+++++++++++++++: /usr/bin/smbios-thermal-ctl
+f+++++++++++++++: /usr/bin/smbios-token-ctl
+f+++++++++++++++: /usr/bin/smbios-upflag-ctl
+f+++++++++++++++: /usr/bin/smbios-wakeup-ctl
+f+++++++++++++++: /usr/bin/smbios-wireless-ctl
+f+++++++++++++++: /usr/include/Makefile.am
+d+++++++++++++++: /usr/include/fwupd-1
+f+++++++++++++++: /usr/include/fwupd-1/fwupd.h
+f+++++++++++++++: /usr/include/fwupd-1/fwupdplugin.h
+d+++++++++++++++: /usr/include/fwupd-1/libfwupd
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-client-sync.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-client.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-common.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-deprecated.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-enums.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-error.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-plugin.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-release.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-remote.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-request.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupd/fwupd-version.h
+d+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-archive-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-archive.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-backend.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-bluez-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-cabinet.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-cfi-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-cfu-common.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-cfu-offer.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-cfu-payload.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-chunk.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-common-cab.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-common-guid.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-common-version.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-common.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-context.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-deprecated.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-device-locker.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-device-metadata.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-dfu-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-dfuse-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-common.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-firmware-file.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-firmware-filesystem.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-firmware-section.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-firmware-volume.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-signature-list.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efi-signature.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-efivar.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-firmware-common.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-fmap-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-hid-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-hwids.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-i2c-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-ifd-bios.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-ifd-common.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-ifd-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-ifd-image.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-ihex-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-io-channel.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-plugin-vfuncs.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-plugin.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-progress.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-quirks.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-security-attrs.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-smbios.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-srec-firmware.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-udev-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-usb-device.h
+f+++++++++++++++: /usr/include/fwupd-1/libfwupdplugin/fu-volume.h
+d+++++++++++++++: /usr/include/google/protobuf-c
+l+++++++++++++++: /usr/include/google/protobuf-c/protobuf-c.h
+d+++++++++++++++: /usr/include/gusb-1
+d+++++++++++++++: /usr/include/gusb-1/gusb
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-autocleanups.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-context-private.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-context.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-device-list.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-device-private.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-device.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-endpoint-private.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-endpoint.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-interface-private.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-interface.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-source.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-util.h
+f+++++++++++++++: /usr/include/gusb-1/gusb/gusb-version.h
+f+++++++++++++++: /usr/include/gusb-1/gusb.h
+d+++++++++++++++: /usr/include/libgcab-1.0
+d+++++++++++++++: /usr/include/libgcab-1.0/libgcab
+f+++++++++++++++: /usr/include/libgcab-1.0/libgcab/gcab-cabinet.h
+f+++++++++++++++: /usr/include/libgcab-1.0/libgcab/gcab-enums.h
+f+++++++++++++++: /usr/include/libgcab-1.0/libgcab/gcab-file.h
+f+++++++++++++++: /usr/include/libgcab-1.0/libgcab/gcab-folder.h
+f+++++++++++++++: /usr/include/libgcab-1.0/libgcab.h
+d+++++++++++++++: /usr/include/libjcat-1
+f+++++++++++++++: /usr/include/libjcat-1/jcat.h
+d+++++++++++++++: /usr/include/libjcat-1/libjcat
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-blob.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-common.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-context.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-engine.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-file.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-item.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-result.h
+f+++++++++++++++: /usr/include/libjcat-1/libjcat/jcat-version.h
+d+++++++++++++++: /usr/include/libmbim-glib
+f+++++++++++++++: /usr/include/libmbim-glib/libmbim-glib.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-atds.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-auth.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-basic-connect.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-cid.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-compat.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-device.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-dss.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-enum-types.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-enums.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-error-types.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-errors.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-intel-firmware-update.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-message.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-ms-basic-connect-extensions.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-ms-firmware-id.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-ms-host-shutdown.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-ms-sar.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-ms-uicc-low-level-access.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-phonebook.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-proxy-control.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-proxy.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-qdu.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-qmi.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-quectel.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-sms.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-stk.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-ussd.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-utils.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-uuid.h
+f+++++++++++++++: /usr/include/libmbim-glib/mbim-version.h
+d+++++++++++++++: /usr/include/libqmi-glib
+f+++++++++++++++: /usr/include/libqmi-glib/libqmi-glib.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-client.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-compat.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-device.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-dms.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-dpm.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-dsd.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enum-types.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-dms.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-dsd.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-gas.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-loc.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-nas.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-oma.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-pbm.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-pdc.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-pds.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-private.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-qos.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-sar.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-uim.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-voice.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-wda.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-wds.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums-wms.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-enums.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-error-types.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-errors.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-flags64-dms.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-flags64-dsd.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-flags64-loc.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-flags64-nas.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-flags64-types.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-flags64-wds.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-gas.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-gms.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-loc.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-message-context.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-message.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-nas.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-oma.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-pbm.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-pdc.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-pds.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-proxy.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-qos.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-sar.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-uim.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-utils.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-version.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-voice.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-wda.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-wds.h
+f+++++++++++++++: /usr/include/libqmi-glib/qmi-wms.h
+d+++++++++++++++: /usr/include/libqrtr-glib
+f+++++++++++++++: /usr/include/libqrtr-glib/libqrtr-glib.h
+f+++++++++++++++: /usr/include/libqrtr-glib/qrtr-bus.h
+f+++++++++++++++: /usr/include/libqrtr-glib/qrtr-client.h
+f+++++++++++++++: /usr/include/libqrtr-glib/qrtr-node.h
+f+++++++++++++++: /usr/include/libqrtr-glib/qrtr-types.h
+f+++++++++++++++: /usr/include/libqrtr-glib/qrtr-utils.h
+f+++++++++++++++: /usr/include/libqrtr-glib/qrtr-version.h
+d+++++++++++++++: /usr/include/libxmlb-2
+d+++++++++++++++: /usr/include/libxmlb-2/libxmlb
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-builder-fixup.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-builder-node.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-builder-source-ctx.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-builder-source.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-builder.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-machine.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-node-query.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-node-silo.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-node.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-opcode.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-query-context.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-query.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-silo-export.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-silo-query.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-silo.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-stack.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-string.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-value-bindings.h
+f+++++++++++++++: /usr/include/libxmlb-2/libxmlb/xb-version.h
+f+++++++++++++++: /usr/include/libxmlb-2/xmlb.h
+d+++++++++++++++: /usr/include/protobuf-c
+f+++++++++++++++: /usr/include/protobuf-c/protobuf-c.h
+f+++++++++++++++: /usr/include/protobuf-c/protobuf-c.proto
+d+++++++++++++++: /usr/include/smbios
+f+++++++++++++++: /usr/include/smbios/dlopen.h
+d+++++++++++++++: /usr/include/smbios_c
+f+++++++++++++++: /usr/include/smbios_c/cmos.h
+f+++++++++++++++: /usr/include/smbios_c/compat.h
+d+++++++++++++++: /usr/include/smbios_c/config
+f+++++++++++++++: /usr/include/smbios_c/config/README
+d+++++++++++++++: /usr/include/smbios_c/config/abi
+f+++++++++++++++: /usr/include/smbios_c/config/abi/msvc_prefix.h
+f+++++++++++++++: /usr/include/smbios_c/config/abi/msvc_suffix.h
+f+++++++++++++++: /usr/include/smbios_c/config/abi_prefix.h
+f+++++++++++++++: /usr/include/smbios_c/config/abi_suffix.h
+f+++++++++++++++: /usr/include/smbios_c/config/auto_link.h
+f+++++++++++++++: /usr/include/smbios_c/config/boost_LICENSE_1_0_txt
+d+++++++++++++++: /usr/include/smbios_c/config/compiler
+f+++++++++++++++: /usr/include/smbios_c/config/compiler/gcc.h
+f+++++++++++++++: /usr/include/smbios_c/config/compiler/sunpro_cc.h
+f+++++++++++++++: /usr/include/smbios_c/config/compiler/visualc.h
+f+++++++++++++++: /usr/include/smbios_c/config/get_config.h
+d+++++++++++++++: /usr/include/smbios_c/config/platform
+f+++++++++++++++: /usr/include/smbios_c/config/platform/linux.h
+f+++++++++++++++: /usr/include/smbios_c/config/platform/win32.h
+f+++++++++++++++: /usr/include/smbios_c/config/platform/win64.h
+f+++++++++++++++: /usr/include/smbios_c/config/select_compiler_config.h
+f+++++++++++++++: /usr/include/smbios_c/config/select_platform_config.h
+f+++++++++++++++: /usr/include/smbios_c/config/suffix.h
+f+++++++++++++++: /usr/include/smbios_c/config/user.h
+f+++++++++++++++: /usr/include/smbios_c/dlopen.h
+f+++++++++++++++: /usr/include/smbios_c/memory.h
+d+++++++++++++++: /usr/include/smbios_c/obj
+f+++++++++++++++: /usr/include/smbios_c/obj/cmos.h
+f+++++++++++++++: /usr/include/smbios_c/obj/memory.h
+f+++++++++++++++: /usr/include/smbios_c/obj/smbios.h
+f+++++++++++++++: /usr/include/smbios_c/obj/smi.h
+f+++++++++++++++: /usr/include/smbios_c/obj/token.h
+f+++++++++++++++: /usr/include/smbios_c/smbios.h
+f+++++++++++++++: /usr/include/smbios_c/smi.h
+f+++++++++++++++: /usr/include/smbios_c/system_info.h
+f+++++++++++++++: /usr/include/smbios_c/token.h
+f+++++++++++++++: /usr/include/smbios_c/types.h
+d+++++++++++++++: /usr/lib/fwupd
+d+++++++++++++++: /usr/lib/fwupd/efi
+f+++++++++++++++: /usr/lib/fwupd/efi/fwupdx64.efi
+f+++++++++++++++: /usr/lib/fwupd/fwupd
+f+++++++++++++++: /usr/lib/fwupd/fwupd-detect-cet
+f+++++++++++++++: /usr/lib/fwupd/fwupdoffline
+d+++++++++++++++: /usr/lib/fwupd-plugins-5
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_acpi_dmar.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_acpi_facp.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_acpi_phat.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_amt.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_analogix.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_ata.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_bcm57xx.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_bios.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_ccgx.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_colorhug.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_cpu.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_cros_ec.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_dell.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_dell_dock.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_dell_esrt.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_dfu.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_dfu_csr.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_ebitdo.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_elanfp.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_elantp.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_emmc.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_ep963x.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_fastboot.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_flashrom.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_fresco_pd.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_genesys.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_goodixmoc.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_hailuck.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_intel_spi.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_iommu.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_jabra.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_lenovo_thinklmi.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_linux_lockdown.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_linux_sleep.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_linux_swap.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_linux_tainted.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_logind.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_logitech_bulkcontroller.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_logitech_hidpp.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_modem_manager.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_msr.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_mtd.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_nitrokey.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_nordic_hid.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_nvme.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_optionrom.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_parade_lspcon.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_pci_bcr.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_pci_mei.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_pixart_rf.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_powerd.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_realtek_mst.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_redfish.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_rts54hid.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_rts54hub.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_scsi.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_steelseries.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_superio.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_synaptics_cape.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_synaptics_cxaudio.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_synaptics_mst.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_synaptics_prometheus.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_synaptics_rmi.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_system76_launch.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_thelio_io.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_thunderbolt.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_tpm.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_uefi_capsule.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_uefi_dbx.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_uefi_pk.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_uefi_recovery.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_uf2.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_upower.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_usi_dock.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_vli.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_wacom_raw.so
+f+++++++++++++++: /usr/lib/fwupd-plugins-5/libfu_plugin_wacom_usb.so
+f+++++++++++++++: /usr/lib/girepository-1.0/Fwupd-2.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/FwupdPlugin-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/GCab-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/GUsb-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/Jcat-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/Mbim-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/Qmi-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/Qrtr-1.0.typelib
+f+++++++++++++++: /usr/lib/girepository-1.0/Xmlb-2.0.typelib
+d+++++++++++++++: /usr/lib/installed-tests
+d+++++++++++++++: /usr/lib/installed-tests/fwupd
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/acpi-dmar-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/acpi-facp-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/acpi-phat-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/ata-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/bcm57xx-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/ccgx-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/elantp-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/fu-dfu-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/fwupd.sh
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/linux-swap-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/nitrokey-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/nvme-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/pxi-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/redfish-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/synaptics-mst-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/synaptics-prometheus-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/synaptics-rmi-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/uefi-dbx-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/uf2-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/vli-self-test
+f+++++++++++++++: /usr/lib/installed-tests/fwupd/wacom-usb-self-test
+l+++++++++++++++: /usr/lib/libfwupd.so
+l+++++++++++++++: /usr/lib/libfwupd.so.2
+f+++++++++++++++: /usr/lib/libfwupd.so.2.0.0
+l+++++++++++++++: /usr/lib/libfwupdplugin.so
+l+++++++++++++++: /usr/lib/libfwupdplugin.so.5
+f+++++++++++++++: /usr/lib/libfwupdplugin.so.5.0.0
+l+++++++++++++++: /usr/lib/libgcab-1.0.so
+l+++++++++++++++: /usr/lib/libgcab-1.0.so.0
+f+++++++++++++++: /usr/lib/libgcab-1.0.so.0.1.0
+l+++++++++++++++: /usr/lib/libgusb.so
+l+++++++++++++++: /usr/lib/libgusb.so.2
+f+++++++++++++++: /usr/lib/libgusb.so.2.0.10
+l+++++++++++++++: /usr/lib/libjcat.so
+l+++++++++++++++: /usr/lib/libjcat.so.1
+f+++++++++++++++: /usr/lib/libjcat.so.1.0.0
+l+++++++++++++++: /usr/lib/libmbim-glib.so
+l+++++++++++++++: /usr/lib/libmbim-glib.so.4
+f+++++++++++++++: /usr/lib/libmbim-glib.so.4.6.0
+l+++++++++++++++: /usr/lib/libprotobuf-c.so
+l+++++++++++++++: /usr/lib/libprotobuf-c.so.1
+f+++++++++++++++: /usr/lib/libprotobuf-c.so.1.0.0
+l+++++++++++++++: /usr/lib/libqmi-glib.so
+l+++++++++++++++: /usr/lib/libqmi-glib.so.5
+f+++++++++++++++: /usr/lib/libqmi-glib.so.5.8.0
+l+++++++++++++++: /usr/lib/libqrtr-glib.so
+l+++++++++++++++: /usr/lib/libqrtr-glib.so.0
+f+++++++++++++++: /usr/lib/libqrtr-glib.so.0.0.0
+l+++++++++++++++: /usr/lib/libsmbios_c.so
+l+++++++++++++++: /usr/lib/libsmbios_c.so.2
+f+++++++++++++++: /usr/lib/libsmbios_c.so.2.2.1
+l+++++++++++++++: /usr/lib/libxmlb.so
+l+++++++++++++++: /usr/lib/libxmlb.so.2
+f+++++++++++++++: /usr/lib/libxmlb.so.2.0.0
+f+++++++++++++++: /usr/lib/mbim-proxy
+f+++++++++++++++: /usr/lib/modules-load.d/fwupd-redfish.conf
+f+++++++++++++++: /usr/lib/pkgconfig/fwupd-efi.pc
+f+++++++++++++++: /usr/lib/pkgconfig/fwupd.pc
+f+++++++++++++++: /usr/lib/pkgconfig/fwupdplugin.pc
+f+++++++++++++++: /usr/lib/pkgconfig/gusb.pc
+f+++++++++++++++: /usr/lib/pkgconfig/jcat.pc
+f+++++++++++++++: /usr/lib/pkgconfig/libgcab-1.0.pc
+f+++++++++++++++: /usr/lib/pkgconfig/libprotobuf-c.pc
+f+++++++++++++++: /usr/lib/pkgconfig/libsmbios_c.pc
+f+++++++++++++++: /usr/lib/pkgconfig/mbim-glib.pc
+f+++++++++++++++: /usr/lib/pkgconfig/qmi-glib.pc
+f+++++++++++++++: /usr/lib/pkgconfig/qrtr-glib.pc
+f+++++++++++++++: /usr/lib/pkgconfig/xmlb.pc
+d+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__init__.py
+d+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/__init__.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/__init__.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/_common.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/_common.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/_vars.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/_vars.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/cmos.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/cmos.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/memory.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/memory.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/smbios.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/smbios.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/smi.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/smi.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/system_info.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/system_info.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-310.pyc
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/_common.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/_vars.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/cmos.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/memory.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/smbios.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/smbios_token.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/smi.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/system_info.py
+f+++++++++++++++: /usr/lib/python3.10/site-packages/libsmbios_c/trace_decorator.py
+f+++++++++++++++: /usr/lib/qmi-proxy
+f+++++++++++++++: /usr/lib/systemd/system/fwupd-offline-update.service
+f+++++++++++++++: /usr/lib/systemd/system/fwupd-refresh.service
+f+++++++++++++++: /usr/lib/systemd/system/fwupd-refresh.timer
+f+++++++++++++++: /usr/lib/systemd/system/fwupd.service
+d+++++++++++++++: /usr/lib/systemd/system/system-update.target.wants
+l+++++++++++++++: /usr/lib/systemd/system/system-update.target.wants/fwupd-offline-update.service
+f+++++++++++++++: /usr/lib/systemd/system-preset/fwupd-refresh.preset
+f+++++++++++++++: /usr/lib/systemd/system-shutdown/fwupd.shutdown
+f+++++++++++++++: /usr/lib/udev/rules.d/90-fwupd-devices.rules
+f+++++++++++++++: /usr/lib/xb-tool
+f+++++++++++++++: /usr/share/bash-completion/completions/fwupdagent
+f+++++++++++++++: /usr/share/bash-completion/completions/fwupdmgr
+f+++++++++++++++: /usr/share/bash-completion/completions/fwupdtool
+f+++++++++++++++: /usr/share/bash-completion/completions/mbimcli
+f+++++++++++++++: /usr/share/bash-completion/completions/qmicli
+f+++++++++++++++: /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
+f+++++++++++++++: /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
+f+++++++++++++++: /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
+d+++++++++++++++: /usr/share/doc/fwupd
+d+++++++++++++++: /usr/share/doc/fwupd/builder
+f+++++++++++++++: /usr/share/doc/fwupd/builder/README.md
+f+++++++++++++++: /usr/share/fish/vendor_completions.d/fwupdmgr.fish
+d+++++++++++++++: /usr/share/fwupd
+f+++++++++++++++: /usr/share/fwupd/add_capsule_header.py
+d+++++++++++++++: /usr/share/fwupd/device-tests
+f+++++++++++++++: /usr/share/fwupd/device-tests/8bitdo-nes30pro.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/8bitdo-sf30pro.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/8bitdo-sfc30.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/aiaiai-h05.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/bizlink-no-sku-vli.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/dell-kh08p.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/dell-wd19tb.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/fwupd-a3bu-xplained.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/fwupd-at90usbkey.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/hp-dock-g5.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/hughski-colorhug-plus.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/hughski-colorhug.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/hughski-colorhug2.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/hyper-no-sku-vli.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/jabra-speak-410.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/jabra-speak-510.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/jabra-speak-710.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/lenovo-03x7168.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/lenovo-03x7605.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/lenovo-03x7608-vli.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/lenovo-03x7609-cxaudio.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/lenovo-40au0065-vli.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/lenovo-GX90T33021-vli.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-bolt-receiver.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-k780.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-m650.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-m750.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-mr0077.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-rqr12-signed.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-rqr12.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-rqr24-signed.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/logitech-rqr24.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/nordic-hid-nrf52840-mcuboot.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/realtek-rts5423.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/realtek-rts5855.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/synaptics-prometheus.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/system76-thelio.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/ugreen-cm260.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/wacom-intuos-bt-m-bluetooth.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/wacom-intuos-bt-m-main.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/wacom-intuos-bt-m.json
+f+++++++++++++++: /usr/share/fwupd/device-tests/wacom-intuos-bt-s.json
+f+++++++++++++++: /usr/share/fwupd/firmware_packager.py
+f+++++++++++++++: /usr/share/fwupd/install_dell_bios_exe.py
+d+++++++++++++++: /usr/share/fwupd/metainfo
+f+++++++++++++++: /usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs-testing.metainfo.xml
+f+++++++++++++++: /usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs.metainfo.xml
+d+++++++++++++++: /usr/share/fwupd/quirks.d
+f+++++++++++++++: /usr/share/fwupd/quirks.d/analogix.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/ata.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/bcm57xx.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/ccgx-ids.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/ccgx.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/cfi.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/colorhug.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/cpu.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/cros-ec.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/dell-dock.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/dell.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/dfu-csr.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/dfu.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/ebitdo.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/elanfp.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/elantp.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/emmc.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/ep963x.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/fastboot.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/flashrom.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/fresco-pd.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/genesys.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/goodixmoc.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/hailuck.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/intel-spi.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/iommu.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/jabra.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/logitech-bulkcontroller.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/logitech-hidpp.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/modem-manager.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/msr.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/mtd.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/nitrokey.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/nordic-hid.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/nvme.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/optionrom.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/parade-lspcon.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/pci-bcr.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/pci-mei.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/pixart-rf.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/power.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/realtek-mst.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/redfish.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/rts54hid.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/rts54hub.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/scsi.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/steelseries.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/superio.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/synaptics-cape.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/synaptics-cxaudio.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/synaptics-mst.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/synaptics-prometheus.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/synaptics-rmi.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/system76-launch.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/thelio-io.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/thunderbolt.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/tpm.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/uefi-capsule.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/uefi-recovery.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/uf2.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/usi-dock.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli-bizlink.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli-dell.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli-goodway.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli-hyper.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli-lenovo.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli-samsung.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/vli.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/wacom-raw.quirk
+f+++++++++++++++: /usr/share/fwupd/quirks.d/wacom-usb.quirk
+d+++++++++++++++: /usr/share/fwupd/remotes.d
+d+++++++++++++++: /usr/share/fwupd/remotes.d/dell-esrt
+f+++++++++++++++: /usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
+d+++++++++++++++: /usr/share/fwupd/remotes.d/vendor
+d+++++++++++++++: /usr/share/fwupd/remotes.d/vendor/firmware
+f+++++++++++++++: /usr/share/fwupd/remotes.d/vendor/firmware/README.md
+f+++++++++++++++: /usr/share/fwupd/simple_client.py
+f+++++++++++++++: /usr/share/fwupd/uefi-capsule-ux.tar.xz
+f+++++++++++++++: /usr/share/gir-1.0/Fwupd-2.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/FwupdPlugin-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/GCab-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/GUsb-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/Jcat-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/Mbim-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/Qmi-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/Qrtr-1.0.gir
+f+++++++++++++++: /usr/share/gir-1.0/Xmlb-2.0.gir
+d+++++++++++++++: /usr/share/gtk-doc/html/fwupd
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuCfuOffer.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuCfuPayload.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuContext.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuDfuFirmware.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuFirmware.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuIhexFirmware.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuPlugin.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuProgress.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuSrecFirmware.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuUdevDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FuUsbDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FwupdClient.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FwupdDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FwupdPlugin.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FwupdRelease.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-FwupdRemote.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-archive.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-chunk.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-common-cab.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-common-guid.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-common-version.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-common.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-device-locker.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-device-metadata.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-efi-signature-list.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-efi-signature.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-firmware-common.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-hwids.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-io-channel.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-mutex.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-plugin-vfuncs.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-quirks.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fu-smbios.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fwupd-client-sync.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fwupd-enums.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fwupd-error.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd-fwupd-version.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/fwupd.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/intro.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/libfwupd.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/plugin-reference.html
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/fwupd/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/gcab
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/ch01.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/gcab-GCabCabinet.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/gcab-GCabFile.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/gcab-GCabFolder.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/gcab.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gcab/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/gusb
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/faq.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-GUsbContext.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-GUsbDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-GUsbDeviceList.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-gusb-endpoint.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-gusb-interface.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-gusb-source.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb-gusb-version.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/gusb.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/introduction.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/libgusb-helpers.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/libgusb.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/specification.html
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/gusb/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/libjcat
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/intro.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-JcatBlob.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-JcatContext.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-JcatEngine.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-JcatFile.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-JcatItem.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-jcat-common.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat-jcat-result.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/libjcat.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libjcat/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/MbimDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/MbimMessage.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/MbimProxy.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-0.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-10.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-12.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-14.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-16.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-18.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-2.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-24-4.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-24.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-26-2.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-26.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-4.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-1-8.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-deprecated.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch01.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch03.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch04.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch05.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch06.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch07.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/ch08.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-Command-IDs.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-Common-utilities.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-Deprecated-API.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-Enumerations-and-Flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-Errors.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-UUIDs.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-atds.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-auth.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-basic-connect.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-dss.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-intel-firmware-update.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-ms-basic-connect-extensions.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-ms-firmware-id.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-ms-host-shutdown.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-ms-sar.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-ms-uicc-low-level-access.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-phonebook.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-qdu.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-qmi.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-quectel.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-sms.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-stk.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-ussd.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib-mbim-version.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/libmbim-glib.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/object-tree.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libmbim-glib/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClient.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientDms.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientDpm.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientDsd.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientGas.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientGms.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientLoc.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientNas.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientOma.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientPbm.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientPdc.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientPds.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientQos.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientSar.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientUim.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientVoice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientWda.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientWds.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiClientWms.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiDevice.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiMessageContext.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/QmiProxy.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-0.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-10.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-12.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-14.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-16.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-18.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-20.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-22-4.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-22.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-24-6.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-24.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-26-2.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-26-6.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-26.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-28-6.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-28.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-30-2.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-30.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-4.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-6.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-1-8.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-deprecated.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch01.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch02s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch03.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch03s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch04.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch04s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch05.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch05s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch06.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch06s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch07.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch07s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch08.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch09.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch09s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch10.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch10s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch11.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch12.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch12s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch13.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch13s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch14.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch14s02.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch15.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch16.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch17.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch18.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch19.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/ch20.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-Common-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-Common-utilities.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Activate-Automatic-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Activate-Manual-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Delete-Stored-Image-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Event-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Foxconn-Change-Device-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Foxconn-Get-Firmware-Version-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Foxconn-Set-FCC-Authentication-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Activation-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Alt-Net-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Band-Capabilities-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Boot-Image-Download-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Capabilities-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Factory-SKU-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Firmware-Preference-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Hardware-Revision-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-IDs-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-MAC-Address-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-MSISDN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Manufacturer-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Model-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Operating-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-PRL-Version-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Power-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Revision-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Software-Version-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Stored-Image-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-Time-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Get-User-Lock-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-HP-Change-Device-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-List-Stored-Images-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Read-ERI-File-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Read-User-Data-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Restore-Factory-Defaults-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Alt-Net-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Boot-Image-Download-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Event-Report-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-FCC-Authentication-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Firmware-ID-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Firmware-Preference-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Operating-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Service-Programming-Code-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-Time-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-User-Lock-Code-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Set-User-Lock-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Swi-Get-Current-Firmware-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Swi-Get-USB-Composition-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Swi-Set-USB-Composition-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Change-PIN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Get-CK-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Get-ICCID-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Get-IMSI-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Get-PIN-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Get-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Set-CK-Protection-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Set-PIN-Protection-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Unblock-CK-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Unblock-PIN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-UIM-Verify-PIN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Validate-Service-Programming-Code-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-Write-User-Data-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DMS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DPM-Close-Port-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DPM-Open-Port-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DSD-Get-APN-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DSD-Set-APN-Type-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-DSD-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-Deprecated-Interface.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-Errors.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-GAS-DMS-Get-Firmware-List-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-GAS-DMS-Set-Active-Firmware-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-GAS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-GMS-Test-Get-Value-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-GMS-Test-Set-Value-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Delete-Assistance-Data-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Delete-Assistance-Data-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Engine-State-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Fix-Recurrence-Type-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-GNSS-Sv-Info-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Engine-Lock-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Engine-Lock-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-NMEA-Types-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-NMEA-Types-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Operation-Mode-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Operation-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Predicted-Orbits-Data-Source-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Predicted-Orbits-Data-Source-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Server-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Get-Server-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Inject-Predicted-Orbits-Data-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Inject-Predicted-Orbits-Data-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Inject-Xtra-Data-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Inject-Xtra-Data-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-NMEA-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Position-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Register-Events-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-Engine-Lock-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-Engine-Lock-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-NMEA-Types-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-NMEA-Types-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-Operation-Mode-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-Operation-Mode-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-Server-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Set-Server-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Start-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-Stop-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-LOC-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Attach-Detach-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Config-Signal-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Event-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Force-Network-Search-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-CDMA-Position-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Cell-Location-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-DRX-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Home-Network-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-LTE-Cphy-CA-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Operator-Name-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-PLMN-Name-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Preferred-Networks-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-RF-Band-Information-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Serving-System-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Signal-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Signal-Strength-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-System-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-System-Selection-Preference-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Technology-Preference-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Get-Tx-Rx-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Initiate-Network-Register-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Network-Reject-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Network-Scan-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Network-Time-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Operator-Name-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Register-Indications-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Serving-System-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Set-Event-Report-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Set-Preferred-Networks-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Set-System-Selection-Preference-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Set-Technology-Preference-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Signal-Info-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-Swi-Get-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-System-Info-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-NAS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Cancel-Session-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Event-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Get-Feature-Setting-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Get-Session-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Send-Selection-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Set-Event-Report-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Set-Feature-Setting-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-Start-Session-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-OMA-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PBM-Get-All-Capabilities-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PBM-Get-Capabilities-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PBM-Indication-Register-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PBM-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Activate-Config-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Activate-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Config-Change-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Deactivate-Config-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Deactivate-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Delete-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Get-Config-Info-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Get-Config-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Get-Config-Limits-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Get-Default-Config-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Get-Selected-Config-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Get-Selected-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-List-Configs-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-List-Configs-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Load-Config-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Load-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Register-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Set-Selected-Config-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-Set-Selected-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDC-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Event-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Get-AGPS-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Get-Auto-Tracking-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Get-Default-Tracking-Session-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Get-GPS-Service-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Set-AGPS-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Set-Auto-Tracking-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Set-Default-Tracking-Session-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Set-Event-Report-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-Set-GPS-Service-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-PDS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-Flow-Status-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-Get-Flow-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-Get-Network-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-Network-Status-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-Swi-Read-Data-Stats-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QOS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-QmiMessage.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-SAR-RF-Get-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-SAR-RF-Set-State-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-SAR-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Card-Status-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Change-PIN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Change-Provisioning-Session-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Depersonalization-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Get-Card-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Get-Configuration-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Get-File-Attributes-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Get-Slot-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Power-Off-SIM-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Power-On-SIM-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Read-Record-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Read-Transparent-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Refresh-Complete-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Refresh-Register-All-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Refresh-Register-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Refresh-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Register-Events-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Set-PIN-Protection-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Slot-Status-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Switch-Slot-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Unblock-PIN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-Verify-PIN-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-UIM-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-All-Call-Status-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Answer-Call-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Answer-USSD-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Cancel-USSD-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Dial-Call-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-End-Call-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Get-All-Call-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Get-Call-Waiting-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Get-Config-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Indication-Register-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Manage-Calls-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Originate-USSD-No-Wait-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Originate-USSD-No-Wait-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Originate-USSD-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Release-USSD-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Set-Supplementary-Service-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-Supplementary-Service-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-VOICE-USSD-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-Version-and-feature-checks.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-Voice-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDA-Get-Data-Format-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDA-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDA-Set-Data-Format-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDA-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Bind-Data-Port-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Bind-Mux-Data-Port-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Create-Profile-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Delete-Profile-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Event-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Autoconnect-Settings-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Channel-Rates-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Current-Data-Bearer-Technology-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Current-Settings-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Data-Bearer-Technology-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Default-Profile-Number-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Default-Settings-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Dormancy-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-LTE-Attach-PDN-List-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-LTE-Attach-Parameters-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Max-LTE-Attach-PDN-Number-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-PDN-Throttle-Info-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Packet-Service-Status-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Packet-Statistics-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Profile-List-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Profile-Settings-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Go-Active-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Go-Dormant-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Modify-Profile-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Packet-Service-Status-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Set-Autoconnect-Settings-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Set-Default-Profile-Number-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Set-Event-Report-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Set-IP-Family-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Set-LTE-Attach-PDN-List-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Set-LTE-Attach-PDN-List-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Start-Network-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Stop-Network-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-Swi-Create-Profile-Indexed-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WDS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Delete-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Event-Report-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Get-Message-Protocol-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Get-Routes-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Get-Supported-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-List-Messages-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Modify-Tag-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Raw-Read-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Raw-Send-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Raw-Write-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Reset-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-SMSC-Address-indication.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Send-Ack-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Send-From-Memory-Storage-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Set-Event-Report-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-Set-Routes-request.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib-WMS-enumerations-and-flags.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/libqmi-glib.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/object-tree.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqmi-glib/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/QrtrBus.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/QrtrClient.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/QrtrNode.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/api-index-1-0.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/api-index-deprecated.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/ch01.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/libqrtr-glib-QRTR-utilities.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/libqrtr-glib-qrtr-version.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/libqrtr-glib.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/object-tree.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libqrtr-glib/up.png
+d+++++++++++++++: /usr/share/gtk-doc/html/libxmlb
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/annotation-glossary.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/api-index-full.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/home.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/index.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/intro.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/left-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/left.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbBuilder.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbBuilderFixup.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbBuilderNode.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbBuilderSource.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbBuilderSourceCtx.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbMachine.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbNode.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbQuery.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-XbSilo.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-node-query.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-opcode.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-query-context.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-silo-export.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-silo-query.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-stack.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-string.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb-xb-value-bindings.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb.devhelp2
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/libxmlb.html
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/right-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/right.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/style.css
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/up-insensitive.png
+f+++++++++++++++: /usr/share/gtk-doc/html/libxmlb/up.png
+f+++++++++++++++: /usr/share/icons/hicolor/scalable/apps/org.freedesktop.fwupd.svg
+d+++++++++++++++: /usr/share/licenses/libsmbios
+f+++++++++++++++: /usr/share/licenses/libsmbios/COPYING-OSL
+d+++++++++++++++: /usr/share/licenses/protobuf-c
+f+++++++++++++++: /usr/share/licenses/protobuf-c/LICENSE
+f+++++++++++++++: /usr/share/locale/af/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/ast/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/bs/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/ca/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/cs/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/cs/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/da/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/da/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/de/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/de/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/de/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/el/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/en/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/en@boldquot/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/en@quot/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/en_GB/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/en_GB/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/eo/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/es/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/es/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/eu/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/eu/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/fi/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/fi/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/fr/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/fr/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/fr/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/fur/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/fur/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/gl/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/gl/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/he/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/hi/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/hr/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/hu/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/hu/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/id/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/id/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/it/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/it/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/ja/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/ja/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/kk/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/ko/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/ko/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/ky/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/lt/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/lt/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/lv/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/nb/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/nl/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/nl/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/nl/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/oc/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/oc/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/pa/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/pl/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/pl/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/pt/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/pt/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/pt_BR/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/pt_BR/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/ro/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/ru/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/ru/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/si/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/sk/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/sl/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/sr/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/sr/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/sr@latin/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/sv/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/sv/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/tg/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/tr/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/tr/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/uk/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/zh_CN/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/zh_CN/LC_MESSAGES/gcab.mo
+f+++++++++++++++: /usr/share/locale/zh_CN/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/locale/zh_TW/LC_MESSAGES/fwupd.mo
+f+++++++++++++++: /usr/share/locale/zh_TW/LC_MESSAGES/libsmbios.mo
+f+++++++++++++++: /usr/share/man/man1/dfu-tool.1.gz
+f+++++++++++++++: /usr/share/man/man1/fwupd-dbxtool.1.gz
+f+++++++++++++++: /usr/share/man/man1/fwupdagent.1.gz
+f+++++++++++++++: /usr/share/man/man1/fwupdate.1.gz
+f+++++++++++++++: /usr/share/man/man1/fwupdmgr.1.gz
+f+++++++++++++++: /usr/share/man/man1/fwupdtool.1.gz
+f+++++++++++++++: /usr/share/man/man1/gcab.1.gz
+f+++++++++++++++: /usr/share/man/man1/jcat-tool.1.gz
+f+++++++++++++++: /usr/share/man/man1/mbim-network.1.gz
+f+++++++++++++++: /usr/share/man/man1/mbimcli.1.gz
+f+++++++++++++++: /usr/share/man/man1/qmi-firmware-update.1.gz
+f+++++++++++++++: /usr/share/man/man1/qmi-network.1.gz
+f+++++++++++++++: /usr/share/man/man1/qmicli.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-battery-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-get-ut-data.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-keyboard-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-lcd-brightness.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-passwd.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-state-byte-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-sys-info-lite.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-sys-info.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-thermal-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-token-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-upflag-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-wakeup-ctl.1.gz
+f+++++++++++++++: /usr/share/man/man1/smbios-wireless-ctl.1.gz
+f+++++++++++++++: /usr/share/metainfo/org.freedesktop.fwupd.metainfo.xml
+f+++++++++++++++: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy
+f+++++++++++++++: /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules
+d+++++++++++++++: /usr/share/smbios-utils
+d+++++++++++++++: /usr/share/smbios-utils/__pycache__
+f+++++++++++++++: /usr/share/smbios-utils/__pycache__/cli.cpython-310.opt-1.pyc
+f+++++++++++++++: /usr/share/smbios-utils/__pycache__/cli.cpython-310.pyc
+f+++++++++++++++: /usr/share/smbios-utils/cli.py
+f+++++++++++++++: /usr/share/smbios-utils/token_blacklist.csv
+f+++++++++++++++: /usr/share/smbios-utils/token_list.csv
+f+++++++++++++++: /usr/share/vala/vapi/fwupd.deps
+f+++++++++++++++: /usr/share/vala/vapi/fwupd.vapi
+f+++++++++++++++: /usr/share/vala/vapi/gusb.deps
+f+++++++++++++++: /usr/share/vala/vapi/gusb.vapi
+f+++++++++++++++: /usr/share/vala/vapi/jcat.deps
+f+++++++++++++++: /usr/share/vala/vapi/jcat.vapi
+f+++++++++++++++: /usr/share/vala/vapi/libgcab-1.0.deps
+f+++++++++++++++: /usr/share/vala/vapi/libgcab-1.0.vapi
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/ld.so.cache
+d = ... mc..  . : /root
+f = ... mc... . : /root/.cache/dconf/user
+f = ... mci.. . : /root/.lesshst
+d = ... mc..  . : /usr
+d > ... mc..  . : /usr/bin
+d > ... mc.n  . : /usr/include
+d > ... mc.n  . : /usr/include/google
+d > ... mc.n  . : /usr/lib
+d > ... mc..  . : /usr/lib/girepository-1.0
+d > ... mc..  . : /usr/lib/modules-load.d
+d > ... mc..  . : /usr/lib/pkgconfig
+d > ... mc.n  . : /usr/lib/python3.10/site-packages
+d > ... mc.n  . : /usr/lib/systemd/system
+d > ... mc..  . : /usr/lib/systemd/system-preset
+d > ... mc..  . : /usr/lib/systemd/system-shutdown
+d > ... mc..  . : /usr/lib/udev/rules.d
+d > ... mc.n  . : /usr/share
+d > ... mc..  . : /usr/share/bash-completion/completions
+d > ... mc..  . : /usr/share/dbus-1/interfaces
+d > ... mc..  . : /usr/share/dbus-1/system-services
+d > ... mc..  . : /usr/share/dbus-1/system.d
+d > ... mc.n  . : /usr/share/doc
+d > ... mc..  . : /usr/share/fish/vendor_completions.d
+d > ... mc..  . : /usr/share/gir-1.0
+d > ... mc.n  . : /usr/share/gtk-doc/html
+d = ... mc..  . : /usr/share/icons/hicolor
+f > ... mci.H . : /usr/share/icons/hicolor/icon-theme.cache
+d > ... mc..  . : /usr/share/icons/hicolor/scalable/apps
+d > ... mc.n  . : /usr/share/licenses
+d > ... mc..  . : /usr/share/locale/af/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ast/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/bs/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ca/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/cs/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/da/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/de/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/el/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/en/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/en@boldquot/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/en@quot/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/en_GB/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/eo/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/es/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/eu/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fi/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fur/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/gl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/he/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/hi/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/hr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/hu/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/id/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/it/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ja/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/kk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ko/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ky/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/lt/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/lv/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/nb/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/nl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/oc/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pa/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pt/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pt_BR/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ro/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ru/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/si/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sr@latin/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sv/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/tg/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/tr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/uk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/zh_CN/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/zh_TW/LC_MESSAGES
+d > ... mc..  . : /usr/share/man/man1
+d > ... mc..  . : /usr/share/metainfo
+d > ... mc..  . : /usr/share/polkit-1/actions
+d > ... mc..  . : /usr/share/polkit-1/rules.d
+d > ... mc..  . : /usr/share/vala/vapi
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/ld.so.cache
+ Inode     : 1096164                          | 1097812
+
+Directory: /root
+ Mtime     : 2022-03-07 13:44:50 +0200        | 2022-03-07 14:42:43 +0200
+ Ctime     : 2022-03-07 13:44:50 +0200        | 2022-03-07 14:42:43 +0200
+
+File: /root/.cache/dconf/user
+ Mtime     : 2022-03-02 20:20:06 +0200        | 2022-03-07 14:39:56 +0200
+ Ctime     : 2022-03-02 20:20:06 +0200        | 2022-03-07 14:39:56 +0200
+
+File: /root/.lesshst
+ Mtime     : 2022-03-07 13:44:50 +0200        | 2022-03-07 14:42:43 +0200
+ Ctime     : 2022-03-07 13:44:50 +0200        | 2022-03-07 14:42:43 +0200
+ Inode     : 1090774                          | 366318
+
+Directory: /usr
+ Mtime     : 2022-03-07 13:51:08 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:08 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/bin
+ Size      : 80864                            | 81816
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/include
+ Size      : 26872                            | 27224
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 392                              | 403
+
+Directory: /usr/include/google
+ Size      : 72                               | 104
+ Mtime     : 2022-02-14 14:14:25 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-02-14 14:14:25 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/lib
+ Size      : 134416                           | 135760
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 178                              | 181
+
+Directory: /usr/lib/girepository-1.0
+ Size      : 3912                             | 4216
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/lib/modules-load.d
+ Size      : 96                               | 136
+ Mtime     : 2022-03-07 13:51:00 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:00 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/lib/pkgconfig
+ Size      : 32208                            | 32560
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/lib/python3.10/site-packages
+ Size      : 10744                            | 10776
+ Mtime     : 2022-03-07 13:50:51 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:51 +0200        | 2022-03-07 14:35:14 +0200
+ Linkcount : 220                              | 221
+
+Directory: /usr/lib/systemd/system
+ Size      : 13512                            | 13720
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 15                               | 16
+
+Directory: /usr/lib/systemd/system-preset
+ Size      : 128                              | 168
+ Mtime     : 2022-03-07 13:49:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:49:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/lib/systemd/system-shutdown
+ Size      : 80                               | 112
+ Mtime     : 2022-03-07 13:50:32 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:32 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/lib/udev/rules.d
+ Size      : 3136                             | 3176
+ Mtime     : 2022-03-07 13:51:00 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:00 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share
+ Size      : 5128                             | 5184
+ Mtime     : 2022-03-07 13:49:28 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:49:28 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 191                              | 193
+
+Directory: /usr/share/bash-completion/completions
+ Size      : 24488                            | 24624
+ Mtime     : 2022-03-07 13:51:00 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:00 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/dbus-1/interfaces
+ Size      : 6544                             | 6592
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/dbus-1/system-services
+ Size      : 1152                             | 1200
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/dbus-1/system.d
+ Size      : 1456                             | 1504
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/doc
+ Size      : 5768                             | 5792
+ Mtime     : 2022-03-05 01:07:56 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-05 01:07:56 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 209                              | 210
+
+Directory: /usr/share/fish/vendor_completions.d
+ Size      : 224                              | 256
+ Mtime     : 2022-03-07 13:50:51 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:51 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/gir-1.0
+ Size      : 3536                             | 3832
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/gtk-doc/html
+ Size      : 1456                             | 1672
+ Mtime     : 2022-02-25 12:05:52 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-02-25 12:05:52 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 54                               | 62
+
+Directory: /usr/share/icons/hicolor
+ Mtime     : 2022-03-07 13:53:13 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:53:13 +0200        | 2022-03-07 14:35:15 +0200
+
+File: /usr/share/icons/hicolor/icon-theme.cache
+ Size      : 13840                            | 13888
+ Mtime     : 2022-03-07 13:53:13 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:53:13 +0200        | 2022-03-07 14:35:15 +0200
+ Inode     : 1096182                          | 1095952
+ MD5       : WRho1n/Zvh9OxnGioGo+ug==         | hhxvs1oPCE9pqohPwhlaKA==
+ SHA256    : pUT+KglI6xgWkrdMZ1sW1cvCqe9gWrjh | 3847ERjmq0rh94bvNZkS5bCWoGWmex0H
+             JfNHRb85n0M=                     | M2W/NxWtsnc=
+ RMD160    : WiAmlP3baduBimxGIxECKquwIEI=     | Z5zHV6Usv4yLmG0IbtK/a/a6TTQ=
+
+Directory: /usr/share/icons/hicolor/scalable/apps
+ Size      : 2800                             | 2848
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/licenses
+ Size      : 13000                            | 13064
+ Mtime     : 2022-03-07 13:50:54 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:54 +0200        | 2022-03-07 14:35:15 +0200
+ Linkcount : 403                              | 405
+
+Directory: /usr/share/locale/af/LC_MESSAGES
+ Size      : 1536                             | 1560
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/ast/LC_MESSAGES
+ Size      : 1896                             | 1920
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/bs/LC_MESSAGES
+ Size      : 1936                             | 1960
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/ca/LC_MESSAGES
+ Size      : 3976                             | 4000
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/cs/LC_MESSAGES
+ Size      : 4176                             | 4224
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/da/LC_MESSAGES
+ Size      : 4352                             | 4400
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/de/LC_MESSAGES
+ Size      : 5136                             | 5216
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/el/LC_MESSAGES
+ Size      : 3736                             | 3760
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/en/LC_MESSAGES
+ Size      : 272                              | 304
+ Mtime     : 2022-03-07 13:50:14 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:14 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/en@boldquot/LC_MESSAGES
+ Size      : 280                              | 312
+ Mtime     : 2022-03-07 13:50:22 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:22 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/en@quot/LC_MESSAGES
+ Size      : 304                              | 336
+ Mtime     : 2022-03-07 13:50:31 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:31 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/en_GB/LC_MESSAGES
+ Size      : 2464                             | 2512
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/eo/LC_MESSAGES
+ Size      : 3424                             | 3448
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/es/LC_MESSAGES
+ Size      : 4776                             | 4832
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/eu/LC_MESSAGES
+ Size      : 3184                             | 3232
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/fi/LC_MESSAGES
+ Size      : 4272                             | 4320
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/fr/LC_MESSAGES
+ Size      : 4968                             | 5048
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/fur/LC_MESSAGES
+ Size      : 1616                             | 1664
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/gl/LC_MESSAGES
+ Size      : 3512                             | 3560
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/he/LC_MESSAGES
+ Size      : 2744                             | 2768
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/hi/LC_MESSAGES
+ Size      : 2008                             | 2032
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/hr/LC_MESSAGES
+ Size      : 3488                             | 3512
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/hu/LC_MESSAGES
+ Size      : 4016                             | 4064
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/id/LC_MESSAGES
+ Size      : 4168                             | 4216
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/it/LC_MESSAGES
+ Size      : 4584                             | 4640
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/ja/LC_MESSAGES
+ Size      : 4296                             | 4352
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/kk/LC_MESSAGES
+ Size      : 1696                             | 1720
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/ko/LC_MESSAGES
+ Size      : 3504                             | 3560
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/ky/LC_MESSAGES
+ Size      : 560                              | 584
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/lt/LC_MESSAGES
+ Size      : 3040                             | 3088
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/lv/LC_MESSAGES
+ Size      : 2344                             | 2368
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/nb/LC_MESSAGES
+ Size      : 3200                             | 3224
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/nl/LC_MESSAGES
+ Size      : 4448                             | 4528
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/oc/LC_MESSAGES
+ Size      : 2048                             | 2096
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/pa/LC_MESSAGES
+ Size      : 2496                             | 2520
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/pl/LC_MESSAGES
+ Size      : 4672                             | 4720
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/pt/LC_MESSAGES
+ Size      : 3984                             | 4032
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/pt_BR/LC_MESSAGES
+ Size      : 4576                             | 4624
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/ro/LC_MESSAGES
+ Size      : 3816                             | 3840
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/ru/LC_MESSAGES
+ Size      : 4520                             | 4568
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/si/LC_MESSAGES
+ Size      : 1224                             | 1248
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/sk/LC_MESSAGES
+ Size      : 3416                             | 3440
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/sl/LC_MESSAGES
+ Size      : 3296                             | 3320
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/sr/LC_MESSAGES
+ Size      : 4232                             | 4280
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/sr@latin/LC_MESSAGES
+ Size      : 2376                             | 2400
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/sv/LC_MESSAGES
+ Size      : 4912                             | 4960
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/tg/LC_MESSAGES
+ Size      : 1216                             | 1240
+ Mtime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:14 +0200
+ Ctime     : 2022-03-07 13:50:59 +0200        | 2022-03-07 14:35:14 +0200
+
+Directory: /usr/share/locale/tr/LC_MESSAGES
+ Size      : 4336                             | 4384
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/uk/LC_MESSAGES
+ Size      : 4664                             | 4688
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/zh_CN/LC_MESSAGES
+ Size      : 4632                             | 4712
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/locale/zh_TW/LC_MESSAGES
+ Size      : 3976                             | 4032
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/man/man1
+ Size      : 73680                            | 74664
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/metainfo
+ Size      : 680                              | 736
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/polkit-1/actions
+ Size      : 1280                             | 1328
+ Mtime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:51:02 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/polkit-1/rules.d
+ Size      : 224                              | 272
+ Mtime     : 2022-03-07 13:50:32 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:32 +0200        | 2022-03-07 14:35:15 +0200
+
+Directory: /usr/share/vala/vapi
+ Size      : 2120                             | 2376
+ Mtime     : 2022-03-07 13:50:38 +0200        | 2022-03-07 14:35:15 +0200
+ Ctime     : 2022-03-07 13:50:38 +0200        | 2022-03-07 14:35:15 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : kvZJ247ZBnqhAobVZIZncQ==
+ SHA1      : L8xUk3ps14xOJOzcPee1BMQIEzI=
+ SHA256    : K9Nkur6SY3lelxu5FiUmiy2jp0IVfMvD
+             ndoK56yHY1U=
+ SHA512    : w6kUPr/go1Ix4zf8lcC5MrWpnzBhMQFg
+             feqnZkRX4tqOOKO8N7u6NtWQNAchJeU7
+             lHCrJQBkxNm/KRjuU7rd9g==
+ RMD160    : A+KhSaF9EKKYGe3zM23niwAnyhQ=
+ TIGER     : 0SnKkjxN/qnlyO/4cNRzvcbfIqUptm0b
+ CRC32     : b3ordA==
+ CRC32B    : eKIzjA==
+ HAVAL     : CCgglxeR660TmmhUd1XpI+fyTZpYtxGB
+             qktknTZ7X20=
+ WHIRLPOOL : kkbLHRLavOArUwWGvNmJDfwSv3uXnhoA
+             vE+pwSeiBSuBvTwM0gjjavAjZClKWPo8
+             pQX2zTT8jWtl2cLcFmNsvQ==
+ GOST      : iPgH0J/I4o97EN3RjqHFNZr+h5rbS+21
+             NWOiQeKc4yU=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : BFhd2ZvVKcr+8vGuE2v6Pg==
+ SHA1      : 4jYE8vm7Ov0jX/OIyEOF1oqxDwU=
+ SHA256    : 5YhNlsGKTULokn68XdCy0mU1J7mOMbWB
+             wDsTh9f6K9o=
+ SHA512    : KG12SCj6gkDFJX+lEZ9u8lc9pfYbQGvV
+             nG5E8nUT430GYFU/5EcaBMjcCgOyqM0b
+             pqGCR9VQpj9SRiynDua3Bw==
+ RMD160    : 75LmrJnzHmdLmPm/MyQ4Kv+hxqM=
+ TIGER     : JzhbpBpCVNwd7oYGY2AFBiP/l7EJtwUK
+ CRC32     : 3sezew==
+ CRC32B    : Q77Xng==
+ HAVAL     : 157Nba0D+D+0vSJCzhM93wO60L1z5+R5
+             ydW4dPV/XFg=
+ WHIRLPOOL : ZCP1482mVFpBFebMpnVJfs95h0JbrO0C
+             mJnA8KPS1ZjzfX0MlWnZXZq/CANwHPws
+             61JfTTvs/FgEfecSAMLt/A==
+ GOST      : UL9Uzkm+VqH9IKqugy6xa2WrXIvQgp0G
+             FA4gbI3vYbs=
+
+
+End timestamp: 2022-03-07 14:49:15 +0200 (run time: 5m 29s)

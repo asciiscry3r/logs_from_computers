@@ -1,0 +1,824 @@
+Start timestamp: 2022-02-03 23:15:43 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	463265
+  Added entries:		120
+  Removed entries:		237
+  Changed entries:		77
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+l+++++++++++++++: /etc/systemd/user/pipewire-session-manager.service
+d+++++++++++++++: /etc/systemd/user/pipewire.service.wants
+l+++++++++++++++: /etc/systemd/user/pipewire.service.wants/pipewire-media-session.service
+l+++++++++++++++: /etc/systemd/user/sockets.target.wants/pipewire-pulse.socket
+f+++++++++++++++: /usr/bin/paccapability
+f+++++++++++++++: /usr/bin/paccheck
+f+++++++++++++++: /usr/bin/pacconf
+f+++++++++++++++: /usr/bin/pacfile
+f+++++++++++++++: /usr/bin/pacinfo
+f+++++++++++++++: /usr/bin/pacini
+l+++++++++++++++: /usr/bin/pacinstall
+f+++++++++++++++: /usr/bin/paclock
+f+++++++++++++++: /usr/bin/paclog
+l+++++++++++++++: /usr/bin/pacremove
+f+++++++++++++++: /usr/bin/pacrepairdb
+f+++++++++++++++: /usr/bin/pacrepairfile
+f+++++++++++++++: /usr/bin/pacreport
+f+++++++++++++++: /usr/bin/pacsift
+f+++++++++++++++: /usr/bin/pacsync
+f+++++++++++++++: /usr/bin/pactrans
+f+++++++++++++++: /usr/bin/pipewire-media-session
+f+++++++++++++++: /usr/bin/pipewire-pulse
+d+++++++++++++++: /usr/include/pacutils
+f+++++++++++++++: /usr/include/pacutils/config.h
+f+++++++++++++++: /usr/include/pacutils/depends.h
+f+++++++++++++++: /usr/include/pacutils/log.h
+f+++++++++++++++: /usr/include/pacutils/mtree.h
+f+++++++++++++++: /usr/include/pacutils/ui.h
+f+++++++++++++++: /usr/include/pacutils/util.h
+f+++++++++++++++: /usr/include/pacutils.h
+f+++++++++++++++: /usr/lib/libpacutils.so
+f+++++++++++++++: /usr/lib/pipewire-0.3/libpipewire-module-protocol-pulse.so
+f+++++++++++++++: /usr/lib/pipewire-0.3/libpipewire-module-pulse-tunnel.so
+f+++++++++++++++: /usr/lib/systemd/user/pipewire-media-session.service
+f+++++++++++++++: /usr/lib/systemd/user/pipewire-pulse.service
+f+++++++++++++++: /usr/lib/systemd/user/pipewire-pulse.socket
+d+++++++++++++++: /usr/share/doc/pipewire-media-session
+f+++++++++++++++: /usr/share/doc/pipewire-media-session/NEWS
+f+++++++++++++++: /usr/share/doc/pipewire-media-session/README.md
+d+++++++++++++++: /usr/share/licenses/pacutils
+f+++++++++++++++: /usr/share/licenses/pacutils/COPYING
+d+++++++++++++++: /usr/share/licenses/pipewire-media-session
+f+++++++++++++++: /usr/share/licenses/pipewire-media-session/COPYING
+d+++++++++++++++: /usr/share/licenses/pipewire-pulse
+f+++++++++++++++: /usr/share/licenses/pipewire-pulse/COPYING
+f+++++++++++++++: /usr/share/locale/af/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/as/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/be/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/bg/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/bn_IN/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/ca/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/cs/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/da/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/de/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/de_CH/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/el/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/eo/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/es/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/fi/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/fr/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/gl/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/gu/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/he/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/hi/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/hr/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/hu/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/id/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/it/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/ja/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/kk/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/kn/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/ko/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/lt/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/ml/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/mr/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/my/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/nl/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/nn/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/oc/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/or/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/pa/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/pl/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/pt/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/pt_BR/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/ru/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/si/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/sk/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/sr/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/sr@latin/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/sv/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/ta/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/te/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/tr/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/uk/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/zh_CN/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/locale/zh_TW/LC_MESSAGES/media-session.mo
+f+++++++++++++++: /usr/share/man/man1/paccapability.1.gz
+f+++++++++++++++: /usr/share/man/man1/paccheck.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacconf.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacfile.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacinfo.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacini.1.gz
+l+++++++++++++++: /usr/share/man/man1/pacinstall.1.gz
+f+++++++++++++++: /usr/share/man/man1/paclock.1.gz
+f+++++++++++++++: /usr/share/man/man1/paclog.1.gz
+l+++++++++++++++: /usr/share/man/man1/pacremove.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacrepairdb.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacrepairfile.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacreport.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacsift.1.gz
+f+++++++++++++++: /usr/share/man/man1/pacsync.1.gz
+f+++++++++++++++: /usr/share/man/man1/pactrans.1.gz
+f+++++++++++++++: /usr/share/man/man3/pacutils-mtree.3.gz
+f+++++++++++++++: /usr/share/man/man7/pacutils-sysroot.7.gz
+d+++++++++++++++: /usr/share/pipewire/media-session.d
+f+++++++++++++++: /usr/share/pipewire/media-session.d/alsa-monitor.conf
+f+++++++++++++++: /usr/share/pipewire/media-session.d/bluez-monitor.conf
+f+++++++++++++++: /usr/share/pipewire/media-session.d/media-session.conf
+f+++++++++++++++: /usr/share/pipewire/media-session.d/v4l2-monitor.conf
+f+++++++++++++++: /usr/share/pipewire/media-session.d/with-pulseaudio
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+f---------------: /etc/pulse/daemon.conf
+f---------------: /etc/pulse/default.pa
+f---------------: /etc/pulse/system.pa
+l---------------: /etc/systemd/user/sockets.target.wants/pulseaudio.socket
+f---------------: /etc/xdg/Xwayland-session.d/00-pulseaudio-x11
+f---------------: /etc/xdg/autostart/pulseaudio.desktop
+f---------------: /usr/bin/pa-info
+f---------------: /usr/bin/pacmd
+f---------------: /usr/bin/pasuspender
+f---------------: /usr/bin/pax11publish
+f---------------: /usr/bin/pulseaudio
+f---------------: /usr/bin/start-pulseaudio-x11
+d---------------: /usr/lib/pulse
+f---------------: /usr/lib/pulse/gsettings-helper
+d---------------: /usr/lib/pulse-15.0
+d---------------: /usr/lib/pulse-15.0/modules
+f---------------: /usr/lib/pulse-15.0/modules/libalsa-util.so
+f---------------: /usr/lib/pulse-15.0/modules/libbluez5-util.so
+f---------------: /usr/lib/pulse-15.0/modules/libcli.so
+f---------------: /usr/lib/pulse-15.0/modules/liboss-util.so
+f---------------: /usr/lib/pulse-15.0/modules/libprotocol-cli.so
+f---------------: /usr/lib/pulse-15.0/modules/libprotocol-http.so
+f---------------: /usr/lib/pulse-15.0/modules/libprotocol-native.so
+f---------------: /usr/lib/pulse-15.0/modules/libprotocol-simple.so
+f---------------: /usr/lib/pulse-15.0/modules/libwebrtc-util.so
+f---------------: /usr/lib/pulse-15.0/modules/module-allow-passthrough.so
+f---------------: /usr/lib/pulse-15.0/modules/module-alsa-card.so
+f---------------: /usr/lib/pulse-15.0/modules/module-alsa-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-alsa-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-always-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-always-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-augment-properties.so
+f---------------: /usr/lib/pulse-15.0/modules/module-bluetooth-discover.so
+f---------------: /usr/lib/pulse-15.0/modules/module-bluetooth-policy.so
+f---------------: /usr/lib/pulse-15.0/modules/module-bluez5-device.so
+f---------------: /usr/lib/pulse-15.0/modules/module-bluez5-discover.so
+f---------------: /usr/lib/pulse-15.0/modules/module-card-restore.so
+f---------------: /usr/lib/pulse-15.0/modules/module-cli-protocol-tcp.so
+f---------------: /usr/lib/pulse-15.0/modules/module-cli-protocol-unix.so
+f---------------: /usr/lib/pulse-15.0/modules/module-cli.so
+f---------------: /usr/lib/pulse-15.0/modules/module-combine-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-combine.so
+f---------------: /usr/lib/pulse-15.0/modules/module-console-kit.so
+f---------------: /usr/lib/pulse-15.0/modules/module-dbus-protocol.so
+f---------------: /usr/lib/pulse-15.0/modules/module-default-device-restore.so
+f---------------: /usr/lib/pulse-15.0/modules/module-detect.so
+f---------------: /usr/lib/pulse-15.0/modules/module-device-manager.so
+f---------------: /usr/lib/pulse-15.0/modules/module-device-restore.so
+f---------------: /usr/lib/pulse-15.0/modules/module-echo-cancel.so
+f---------------: /usr/lib/pulse-15.0/modules/module-filter-apply.so
+f---------------: /usr/lib/pulse-15.0/modules/module-filter-heuristics.so
+f---------------: /usr/lib/pulse-15.0/modules/module-gsettings.so
+f---------------: /usr/lib/pulse-15.0/modules/module-hal-detect.so
+f---------------: /usr/lib/pulse-15.0/modules/module-http-protocol-tcp.so
+f---------------: /usr/lib/pulse-15.0/modules/module-http-protocol-unix.so
+f---------------: /usr/lib/pulse-15.0/modules/module-intended-roles.so
+f---------------: /usr/lib/pulse-15.0/modules/module-ladspa-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-loopback.so
+f---------------: /usr/lib/pulse-15.0/modules/module-match.so
+f---------------: /usr/lib/pulse-15.0/modules/module-mmkbd-evdev.so
+f---------------: /usr/lib/pulse-15.0/modules/module-native-protocol-fd.so
+f---------------: /usr/lib/pulse-15.0/modules/module-native-protocol-tcp.so
+f---------------: /usr/lib/pulse-15.0/modules/module-native-protocol-unix.so
+f---------------: /usr/lib/pulse-15.0/modules/module-null-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-null-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-oss.so
+f---------------: /usr/lib/pulse-15.0/modules/module-pipe-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-pipe-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-position-event-sounds.so
+f---------------: /usr/lib/pulse-15.0/modules/module-remap-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-remap-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-rescue-streams.so
+f---------------: /usr/lib/pulse-15.0/modules/module-role-cork.so
+f---------------: /usr/lib/pulse-15.0/modules/module-role-ducking.so
+f---------------: /usr/lib/pulse-15.0/modules/module-rygel-media-server.so
+f---------------: /usr/lib/pulse-15.0/modules/module-simple-protocol-tcp.so
+f---------------: /usr/lib/pulse-15.0/modules/module-simple-protocol-unix.so
+f---------------: /usr/lib/pulse-15.0/modules/module-sine-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-sine.so
+f---------------: /usr/lib/pulse-15.0/modules/module-stream-restore.so
+f---------------: /usr/lib/pulse-15.0/modules/module-suspend-on-idle.so
+f---------------: /usr/lib/pulse-15.0/modules/module-switch-on-connect.so
+f---------------: /usr/lib/pulse-15.0/modules/module-switch-on-port-available.so
+f---------------: /usr/lib/pulse-15.0/modules/module-systemd-login.so
+f---------------: /usr/lib/pulse-15.0/modules/module-tunnel-sink-new.so
+f---------------: /usr/lib/pulse-15.0/modules/module-tunnel-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-tunnel-source-new.so
+f---------------: /usr/lib/pulse-15.0/modules/module-tunnel-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-udev-detect.so
+f---------------: /usr/lib/pulse-15.0/modules/module-virtual-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-virtual-source.so
+f---------------: /usr/lib/pulse-15.0/modules/module-virtual-surround-sink.so
+f---------------: /usr/lib/pulse-15.0/modules/module-volume-restore.so
+f---------------: /usr/lib/pulse-15.0/modules/module-x11-bell.so
+f---------------: /usr/lib/pulse-15.0/modules/module-x11-cork-request.so
+f---------------: /usr/lib/pulse-15.0/modules/module-x11-publish.so
+f---------------: /usr/lib/pulse-15.0/modules/module-x11-xsmp.so
+f---------------: /usr/lib/pulseaudio/libpulsecore-15.0.so
+f---------------: /usr/lib/systemd/user/pulseaudio-x11.service
+f---------------: /usr/lib/systemd/user/pulseaudio.service
+f---------------: /usr/lib/systemd/user/pulseaudio.socket
+f---------------: /usr/lib/udev/rules.d/90-pulseaudio.rules
+f---------------: /usr/share/GConf/gsettings/pulseaudio.convert
+l---------------: /usr/share/bash-completion/completions/pacmd
+l---------------: /usr/share/bash-completion/completions/pasuspender
+f---------------: /usr/share/glib-2.0/schemas/org.freedesktop.pulseaudio.gschema.xml
+f---------------: /usr/share/locale/af/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/as/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/be/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/bg/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/bn_IN/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/ca/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/cs/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/da/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/de/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/de_CH/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/el/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/eo/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/es/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/fi/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/fr/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/gl/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/gu/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/he/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/hi/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/hr/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/hu/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/id/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/it/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/ja/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/kk/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/kn/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/ko/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/lt/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/ml/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/mr/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/nl/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/nn/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/oc/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/or/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/pa/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/pl/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/pt/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/pt_BR/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/ru/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/si/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/sk/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/sr/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/sr@latin/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/sv/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/ta/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/te/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/tr/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/uk/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/zh_CN/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/locale/zh_TW/LC_MESSAGES/pulseaudio.mo
+f---------------: /usr/share/man/man1/pacmd.1.gz
+f---------------: /usr/share/man/man1/pasuspender.1.gz
+f---------------: /usr/share/man/man1/pax11publish.1.gz
+f---------------: /usr/share/man/man1/pulseaudio.1.gz
+f---------------: /usr/share/man/man1/start-pulseaudio-x11.1.gz
+f---------------: /usr/share/man/man5/default.pa.5.gz
+f---------------: /usr/share/man/man5/pulse-cli-syntax.5.gz
+f---------------: /usr/share/man/man5/pulse-daemon.conf.5.gz
+d---------------: /usr/share/pulseaudio
+d---------------: /usr/share/pulseaudio/alsa-mixer
+d---------------: /usr/share/pulseaudio/alsa-mixer/paths
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input-video.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf.common
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-chat.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-10.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-8.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-9.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-input.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-chat-common.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-game-common.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-input.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-mono.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/paths/virtual-surround-7.1.conf
+d---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/audigy.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/behringer-umc22.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/dell-dock-tb16-usb-audio.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-120w-g2.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-audio-module.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-komplete-audio6.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/sennheiser-gsx.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/simple-headphones-mic.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/steelseries-arctis-common-usb-audio.conf
+f---------------: /usr/share/pulseaudio/alsa-mixer/profile-sets/usb-gaming-headset.conf
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i  .  : /etc/.updated
+f   ...   i  .  : /etc/ld.so.cache
+s   ...   i  .  : /etc/pacman.d/gnupg/S.gpg-agent
+s   ...   i  .  : /etc/pacman.d/gnupg/S.gpg-agent.browser
+s   ...   i  .  : /etc/pacman.d/gnupg/S.gpg-agent.extra
+s   ...   i  .  : /etc/pacman.d/gnupg/S.gpg-agent.ssh
+d = ... mc.. ...: /usr
+d = ... mc.. ...: /usr/bin
+d = ... mc.n ...: /usr/include
+d = ... mc.n ...: /usr/lib
+d = ... mc.. ...: /usr/lib/pipewire-0.3
+d = ... mc.. ...: /usr/lib/pulseaudio
+d = ... mc.. ...: /usr/lib/systemd/user
+d = ... mc.. ...: /usr/lib/udev/rules.d
+d = ... mc.n ...: /usr/share
+d = ... mc.. ...: /usr/share/GConf/gsettings
+d = ... mc.. ...: /usr/share/bash-completion/completions
+d = ... mc.n ...: /usr/share/doc
+d = ... mc.. ...: /usr/share/glib-2.0/schemas
+f < ... mci.H...: /usr/share/glib-2.0/schemas/gschemas.compiled
+d = ... mc.n ...: /usr/share/licenses
+d = ... mc.. ...: /usr/share/locale/af/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/as/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/be/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/bg/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/bn_IN/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/ca/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/cs/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/da/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/de/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/de_CH/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/el/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/eo/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/es/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/fi/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/fr/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/gl/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/gu/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/he/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/hi/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/hr/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/hu/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/id/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/it/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/ja/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/kk/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/kn/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/ko/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/lt/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/ml/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/mr/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/my/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/nl/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/nn/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/oc/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/or/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/pa/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/pl/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/pt/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/pt_BR/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/ru/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/si/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/sk/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/sr/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/sr@latin/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/sv/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/ta/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/te/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/tr/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/uk/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/zh_CN/LC_MESSAGES
+d = ... mc.. ...: /usr/share/locale/zh_TW/LC_MESSAGES
+d = ... mc.. ...: /usr/share/man/man1
+d = ... mc.. ...: /usr/share/man/man3
+d = ... mc.. ...: /usr/share/man/man5
+d = ... mc.. ...: /usr/share/man/man7
+d = ... mc.n ...: /usr/share/pipewire
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 9175720                          | 9175960
+
+File: /etc/ld.so.cache
+ Inode     : 9176232                          | 9175710
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 9175710                          | 9175720
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.browser
+ Inode     : 9176216                          | 9176218
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.extra
+ Inode     : 9175960                          | 9176216
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.ssh
+ Inode     : 9176218                          | 9176232
+
+Directory: /usr
+ Mtime     : 2022-02-03 22:35:40 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:40 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/bin
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/include
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Linkcount : 482                              | 483
+
+Directory: /usr/lib
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Linkcount : 206                              | 204
+
+Directory: /usr/lib/pipewire-0.3
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/lib/pulseaudio
+ Mtime     : 2022-02-03 21:36:10 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 21:36:10 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/lib/systemd/user
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/lib/udev/rules.d
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share
+ Mtime     : 2022-02-03 21:34:37 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 21:34:37 +0200        | 2022-02-03 22:49:05 +0200
+ Linkcount : 225                              | 224
+
+Directory: /usr/share/GConf/gsettings
+ Mtime     : 2022-02-03 21:36:10 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 21:36:10 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/bash-completion/completions
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/doc
+ Mtime     : 2022-02-02 21:54:14 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-02 21:54:14 +0200        | 2022-02-03 22:49:05 +0200
+ Linkcount : 256                              | 257
+
+Directory: /usr/share/glib-2.0/schemas
+ Mtime     : 2022-02-03 22:37:19 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:37:19 +0200        | 2022-02-03 22:49:05 +0200
+
+File: /usr/share/glib-2.0/schemas/gschemas.compiled
+ Size      : 53728                            | 51693
+ Mtime     : 2022-02-03 22:37:19 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:37:19 +0200        | 2022-02-03 22:49:05 +0200
+ Inode     : 16787139                         | 16780246
+ MD5       : l+J7fqFac6Imlt2Z5enfgA==         | jo/ImesZw0xOEyup20p4kQ==
+ SHA256    : 125PX9WTydFvKuzVWGJQF6l86Hlpx0Hf | ptN4HFdaeYSAIIC1GmRIDAEbHpt3WJm7
+             b2qTbl/YS2Y=                     | Xzj9S61CBwQ=
+ RMD160    : yjwLNswJFXy45TEp9TOjeQxjJxY=     | KBjy+R9reR/5YogMJFkPBxM35Eo=
+
+Directory: /usr/share/licenses
+ Mtime     : 2022-02-03 21:36:16 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 21:36:16 +0200        | 2022-02-03 22:49:05 +0200
+ Linkcount : 453                              | 456
+
+Directory: /usr/share/locale/af/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/as/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/be/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/bg/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/bn_IN/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/ca/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/cs/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/da/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/de/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/de_CH/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/el/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/eo/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/es/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/fi/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/fr/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/gl/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/gu/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/he/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/hi/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/hr/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/hu/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/id/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/it/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/ja/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/kk/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/kn/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/ko/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/lt/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/ml/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/mr/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/my/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/nl/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/nn/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/oc/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/or/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/pa/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/pl/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/pt/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/pt_BR/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/ru/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/si/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/sk/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/sr/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/sr@latin/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/sv/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/ta/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/te/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/tr/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/uk/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/zh_CN/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/locale/zh_TW/LC_MESSAGES
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/man/man1
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/man/man3
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/man/man5
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/man/man7
+ Mtime     : 2022-02-03 21:36:30 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 21:36:30 +0200        | 2022-02-03 22:49:05 +0200
+
+Directory: /usr/share/pipewire
+ Mtime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Ctime     : 2022-02-03 22:35:39 +0200        | 2022-02-03 22:49:05 +0200
+ Linkcount : 3                                | 4
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : jgmWtE4vLD3+HzsRrJEK2A==
+ SHA1      : 9wT9BpMQYeLbxtzckyvww4HXUxU=
+ SHA256    : v8PQ96AqDeg9cUyU/X+mYd2v8Zhi998D
+             Ot3TokW1e+8=
+ SHA512    : pJjorU/SIRvwxvL69LYGW9oFirnzNsUx
+             B6ob6ZYHIBldow/cdX3H6hBvrh8dSGdP
+             qoy1o0ytZmSV/E+7K2hC7g==
+ RMD160    : wa+vpwMOU6z5jyrzm82D2Jkr450=
+ TIGER     : I62ad+aqMksDXuJB3/Fu0IYhF370HjI1
+ CRC32     : QpqhGw==
+ CRC32B    : PIvJ0g==
+ HAVAL     : k6Qoj0e554yr2QOHKKWQxbUpPZxKyr4z
+             qsJhPOsBkNs=
+ WHIRLPOOL : n18d/FnlCdjhTQszE58hB6P6h+yzR/jM
+             gyJyLktEBiLMuPcnvnAAq6PVuhPtC+PQ
+             uS6P4M3LxoL7H+7pP2PGXw==
+ GOST      : EJBV9akGrv+cmly8akbLuijp/s+tzbyG
+             W4YJEI0T368=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : OFcBey8OebUZwl0UV1ptlA==
+ SHA1      : SkuH32q/k4zDn7e9VOCKoJlDTAI=
+ SHA256    : MwDOl/g2tUmRJb/JrvKlgdlNgkMn2719
+             YOLkMutj8rc=
+ SHA512    : Fu/c60ovwYfzKsJiOYKs7P0KFf7WIf1d
+             647kjN/2eVrYfu3Vn79COxuX//IlKjCh
+             sJ8oa+MHHSq5J5mZRFYgZw==
+ RMD160    : lLYeWw15IELHkirJhDARWMgLu8A=
+ TIGER     : mWKFStsNG7YH+b90Z3Okb1uMryxM/xTz
+ CRC32     : /RHLYw==
+ CRC32B    : uRwxdg==
+ HAVAL     : ZJqJXvYE2cf13SLtogxHkJDCNO4A/Qfa
+             G+sMwQL87Uk=
+ WHIRLPOOL : tFenQZgdLdslIU3TeGk/E/jFCjCCO9kI
+             Z0LkyDXjjx15iB1wfZqTk1Be/rOhFgsn
+             URQ60zmG78szfEfm1M8uDA==
+ GOST      : tL9oqG/4vFk9oNwn1QVRj+J64qWeoZlw
+             KAr2ysniTxY=
+
+
+End timestamp: 2022-02-03 23:29:52 +0200 (run time: 14m 9s)

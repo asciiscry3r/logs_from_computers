@@ -1,0 +1,229 @@
+Start timestamp: 2022-03-14 23:56:25 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	304454
+  Added entries:		0
+  Removed entries:		5
+  Changed entries:		28
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+l---------------: /etc/systemd/system/dbus-org.freedesktop.network1.service
+l---------------: /etc/systemd/system/multi-user.target.wants/systemd-networkd.service
+l---------------: /etc/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service
+d---------------: /etc/systemd/system/sockets.target.wants
+l---------------: /etc/systemd/system/sockets.target.wants/systemd-networkd.socket
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/audit/auditd.conf
+f > ... mci.H . : /etc/group
+f > ... mc..H . : /etc/group-
+f > ... mci.H . : /etc/gshadow
+f > ... mc..H . : /etc/gshadow-
+f   ...   i     : /etc/ld.so.cache
+d = ... mc..  . : /root
+d = ... mc..  . : /root/.cache/vim/backup
+d = ... mc..  . : /root/.cache/vim/swap
+f < ... mci.H . : /root/.viminfo
+d = ... mc..  . : /usr
+d = ... mc..  . : /usr/lib/python3.10/site-packages
+d = ... mc..  . : /usr/lib/python3.10/site-packages/__pycache__
+f = ... .c... . : /usr/lib/python3.10/site-packages/__pycache__/notify2.cpython-310.opt-1.pyc
+f = ... .c... . : /usr/lib/python3.10/site-packages/__pycache__/notify2.cpython-310.pyc
+f = ... .c... . : /usr/lib/python3.10/site-packages/notify2-0.3.1-py3.10.egg-info
+f = ... .c... . : /usr/lib/python3.10/site-packages/notify2.py
+d = ... mc..  . : /usr/share/doc/python-notify2/examples
+f = ... .c... . : /usr/share/doc/python-notify2/examples/README
+f = ... .c... . : /usr/share/doc/python-notify2/examples/applet-critical.png
+f = ... .c... . : /usr/share/doc/python-notify2/examples/basic.py
+f = ... .c... . : /usr/share/doc/python-notify2/examples/default-action.py
+f = ... .c... . : /usr/share/doc/python-notify2/examples/icon.py
+f = ... .c... . : /usr/share/doc/python-notify2/examples/multi-actions.py
+f = ... .c... . : /usr/share/doc/python-notify2/examples/notify2.py
+f = ... .c... . : /usr/share/doc/python-notify2/examples/qt-app.py
+d = ... mc..  . : /usr/share/licenses/python-notify2
+f = ... .c... . : /usr/share/licenses/python-notify2/LICENSE
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/audit/auditd.conf
+ Inode     : 941                              | 432844
+
+File: /etc/group
+ Size      : 970                              | 993
+ Mtime     : 2022-03-14 22:35:20 +0200        | 2022-03-14 23:53:32 +0200
+ Ctime     : 2022-03-14 22:35:20 +0200        | 2022-03-14 23:53:32 +0200
+ Inode     : 334490                           | 432981
+ MD5       : 5N2tyjoQZe4RwX/x3b07ow==         | UjTSGA5Og6OfBg7SnTG/9A==
+ SHA256    : 3OlBQvaCUFqp/ifKtwJCsLJhuxPdWfR9 | ONg9sXKsPbGhov46oDIhOf58H0P9I//X
+             lQq+8dabGq8=                     | 1V9fjZdaJ/Q=
+ RMD160    : pXnCT024YvrmDQlp0zAXI3KC1as=     | llI2IyR0pciHCTn9m931rDb7MuQ=
+
+File: /etc/group-
+ Size      : 960                              | 983
+ Mtime     : 2022-03-14 22:33:35 +0200        | 2022-03-14 23:53:20 +0200
+ Ctime     : 2022-03-14 22:35:20 +0200        | 2022-03-14 23:53:32 +0200
+ MD5       : NW+z9hQWpjeno/CyAYrrWg==         | 1oe1ku/+HukLd/KlTji2Bw==
+ SHA256    : eVQG6eXIIKTyM1tT/HTnAy9G+lZ3mKWs | lUI91Ytv1pcFPKUBDa9X2ovG143fyP6E
+             EkADGZZUMXU=                     | gAZvAoEOTAs=
+ RMD160    : TCUJuFWt3WXX+oy5wLU9b891dHw=     | VXJ+aESGKJlUzCKwDCul2CMHJoI=
+
+File: /etc/gshadow
+ Size      : 864                              | 884
+ Mtime     : 2022-03-14 22:35:20 +0200        | 2022-03-14 23:53:32 +0200
+ Ctime     : 2022-03-14 22:35:20 +0200        | 2022-03-14 23:53:32 +0200
+ Inode     : 334484                           | 53934
+ MD5       : yhZR4NedZLHd8S2NAn80wA==         | WuUFp1j+IJiGRsjwOqGGxQ==
+ SHA256    : NC7WnzghjfodRD4zsYHxkWvyMESILUPI | jHzkoeXcnHZDQcSOcau2AagqkH5TWi7X
+             NBiG+T2FC3Q=                     | sdf6RSrGKxg=
+ RMD160    : CKO8agzhqTXoaEdwRLl28Sz9e4o=     | 6oFPcco1C6++QUqkM3TvxHGG+9U=
+
+File: /etc/gshadow-
+ Size      : 854                              | 874
+ Mtime     : 2022-03-14 22:33:35 +0200        | 2022-03-14 23:53:20 +0200
+ Ctime     : 2022-03-14 22:35:20 +0200        | 2022-03-14 23:53:32 +0200
+ MD5       : bHUGfr50os68oeNpXucFmA==         | NF+ZFhUvj88DKsu1frLZcg==
+ SHA256    : oCdgBLCKaczWVUZTFVFdu59qJoYphjDe | v3B8a5ElV/tmpZ8oaoVVMxDn3JsdyOK7
+             +i1dNygMMDE=                     | UfnPBqrjSUE=
+ RMD160    : rCV7Khs34Tz+O2i6JcY/YJX164s=     | dSQJZ5InMnMzheIQhUvaawaZo/w=
+
+File: /etc/ld.so.cache
+ Inode     : 432936                           | 431466
+
+Directory: /root
+ Mtime     : 2022-03-14 23:38:16 +0200        | 2022-03-14 23:53:56 +0200
+ Ctime     : 2022-03-14 23:38:16 +0200        | 2022-03-14 23:53:56 +0200
+
+Directory: /root/.cache/vim/backup
+ Mtime     : 2022-03-14 23:34:33 +0200        | 2022-03-14 23:53:56 +0200
+ Ctime     : 2022-03-14 23:34:33 +0200        | 2022-03-14 23:53:56 +0200
+
+Directory: /root/.cache/vim/swap
+ Mtime     : 2022-03-14 23:38:16 +0200        | 2022-03-14 23:53:56 +0200
+ Ctime     : 2022-03-14 23:38:16 +0200        | 2022-03-14 23:53:56 +0200
+
+File: /root/.viminfo
+ Size      : 12686                            | 11088
+ Mtime     : 2022-03-14 23:38:16 +0200        | 2022-03-14 23:53:56 +0200
+ Ctime     : 2022-03-14 23:38:16 +0200        | 2022-03-14 23:53:56 +0200
+ Inode     : 431456                           | 941
+ MD5       : hwB19m0WeosNegQ45+/yCw==         | mvtVVLV2wAIS+02yME4oKA==
+ SHA256    : 0EYtX8UKo/gQ9lbizosDRwuAURxMzUKl | ctibK/j9HroxQx9V2lTTKsPef5wAVYck
+             ZVRLOpsND64=                     | hEVTyFUXJGg=
+ RMD160    : bF4OGBidC4JOgvxblYPvxcAl9QM=     | hsmqlW0Zhn3acO6H78LdmVDuEow=
+
+Directory: /usr
+ Mtime     : 2022-03-14 23:50:17 +0200        | 2022-03-14 23:54:37 +0200
+ Ctime     : 2022-03-14 23:50:17 +0200        | 2022-03-14 23:54:37 +0200
+
+Directory: /usr/lib/python3.10/site-packages
+ Mtime     : 2022-03-14 23:50:17 +0200        | 2022-03-14 23:54:37 +0200
+ Ctime     : 2022-03-14 23:50:17 +0200        | 2022-03-14 23:54:37 +0200
+
+Directory: /usr/lib/python3.10/site-packages/__pycache__
+ Mtime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/lib/python3.10/site-packages/__pycache__/notify2.cpython-310.opt-1.pyc
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/lib/python3.10/site-packages/__pycache__/notify2.cpython-310.pyc
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/lib/python3.10/site-packages/notify2-0.3.1-py3.10.egg-info
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/lib/python3.10/site-packages/notify2.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+Directory: /usr/share/doc/python-notify2/examples
+ Mtime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/README
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/applet-critical.png
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/basic.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/default-action.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/icon.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/multi-actions.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/notify2.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/doc/python-notify2/examples/qt-app.py
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+Directory: /usr/share/licenses/python-notify2
+ Mtime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+File: /usr/share/licenses/python-notify2/LICENSE
+ Ctime     : 2022-03-14 23:27:27 +0200        | 2022-03-14 23:54:37 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : 8gZ2a6shOnJSd9qCAGmCKA==
+ SHA1      : fjvZ8fx01FKwpGmJbL0MGSxESWM=
+ SHA256    : uMH1rQ//SsjEYN9Ou/Gl3/LmN/MQUHza
+             zNTtQgRCLwU=
+ SHA512    : JvlA4Sb1Mw3XOf6krzkDzWI3I7WBawm7
+             Sy4r1LOOwb+58mkW0yQcKXYU7yRikY+S
+             vBxOfMbXMlmh8aueVPcNYQ==
+ RMD160    : XoprIHrjWVow39b678wiiWMqQRM=
+ TIGER     : vKyFOAvxzS1fz17MMRV6/hYyN48zJa31
+ CRC32     : LboV6w==
+ CRC32B    : zX9T3g==
+ HAVAL     : TpM5aMnVPmm3T8p6GGAv+7qkuB42fP8L
+             Z0NlSwObKrM=
+ WHIRLPOOL : JjiFtD5d+VSJCXlyIaRzo3PWrpvuN2EG
+             0PLYV297ssGSCiEU73kNy5/9a32vJy71
+             NMSlIPr3BMX73og/kHdQFg==
+ GOST      : mKFAEXVGFeTMEqIC4Cjcq7VcWHZZtdXO
+             n2i4N7b9Gwc=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : fag7rLY2LsbJGF+Gi0s1GQ==
+ SHA1      : hur6SDUcxFHBUzyMuwFq/T87YMk=
+ SHA256    : +Uz26hr838ZL1llDXHhTkSmjRxClIjVp
+             /vR4HP/wEBA=
+ SHA512    : eXj1Z7FQATFnSrMiX4p3lG97QMY9NgQe
+             9Yr9mRk8sWnXGcuZUx48Z1BDtLIPvid5
+             IGoqBZWygF8Bsll0RYt3BQ==
+ RMD160    : K68Iq/r+0jkEsbx3aVaFn0MZxEY=
+ TIGER     : YCOoUsJqnfu/S0qjvf4nYRIW3ZPA3e4G
+ CRC32     : K0WmOQ==
+ CRC32B    : h6lzbw==
+ HAVAL     : zGfhwLa3h1RZh/vveDdP3xAtW6yKaWth
+             EQepkwPIyPU=
+ WHIRLPOOL : BchEIq+YrDOZ2bESlUNvbh5iXuS3nufU
+             BQgoIyUaPu2Td70cDsQ9ZdfZfNChtu5K
+             m3pxXp35vCNHg/C51SmjnQ==
+ GOST      : WY3g8iamLamuDLpf3crIyEdvoXjlANDG
+             aF8BN/2Qvkk=
+
+
+End timestamp: 2022-03-14 23:59:58 +0200 (run time: 3m 33s)

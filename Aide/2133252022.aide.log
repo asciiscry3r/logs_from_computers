@@ -1,0 +1,80 @@
+Start timestamp: 2022-04-25 21:33:46 +0300 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	274255
+  Added entries:		4
+  Removed entries:		0
+  Changed entries:		1
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /usr/share/man/man8/arch-chroot.8.gz
+f+++++++++++++++: /usr/share/man/man8/genfstab.8.gz
+f+++++++++++++++: /usr/share/man/man8/pacstrap.8.gz
+f+++++++++++++++: /usr/share/zsh/site-functions/_archinstallscripts
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc.. ...: /usr/share/zsh/site-functions
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /usr/share/zsh/site-functions
+ Mtime     : 2022-04-25 21:15:48 +0300        | 2022-04-25 21:36:32 +0300
+ Ctime     : 2022-04-25 21:15:48 +0300        | 2022-04-25 21:36:32 +0300
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : GasE8KiOa7K+ju/860WIyA==
+ SHA1      : aEsC2kCpNlIfA7U9xCHNJTyAs8s=
+ SHA256    : FCAh6yzP6g8QGej3+BWJNwY41zoihoxz
+             JWY0X5ORajw=
+ SHA512    : RyFDPQmLOiYvnVyAtifWDKQBeJGvm/F8
+             in0RFLWjw47MfheHwpU3t0yUFSWYV71Z
+             z7C/aKG97g5FHccWUkO39g==
+ RMD160    : 6d1SYi3NkrAf2gofjTZ3sJBbtyc=
+ TIGER     : lCxZnMyj8Q3io73A9dY/BHodPRUVv8fc
+ CRC32     : 3HzZ9Q==
+ CRC32B    : MDKZ7g==
+ HAVAL     : 5G2rQDvjJ5j/P2nnt2+EgOSUgQKfPgKn
+             NCi7HBxw2EE=
+ WHIRLPOOL : laMcIlXjZkGvI6XMhlh7fnkaBGQ+sP1s
+             zP46VPT6BQ/nw7eKhjykPGlVQw+naVdg
+             GDdxhHwzILVfcj19U97S2Q==
+ GOST      : l/M2WJ57B+f+y4Z8d3a0d0gwMxdY3Zuc
+             udLDoTywyz0=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : 2zVwaO0q6/rBeRxzgdM33A==
+ SHA1      : ilk8lkUdebRIOsRjKMPHrQTxDxc=
+ SHA256    : KbuQ4/05kbzaNxtpB567mxlw95bYx8MU
+             EgKflZyeNBE=
+ SHA512    : 60TLRQY1zC6pKBhqLJEtlsI05t4Wq3DO
+             jjFwfJFquW+4gs1chwVD8cuSD7ZH/ApT
+             veoXEnKf5B0206X3mwAFtA==
+ RMD160    : 59vTUsrVU9dWBms72Se7HjM5cJ8=
+ TIGER     : xTsywt0kzYr3p3OyBPnHgEea6qFh2mH0
+ CRC32     : U4NVKA==
+ CRC32B    : 5PA9sA==
+ HAVAL     : sPicORWj0EFcqCJsmOIcqusP0JuCruQ7
+             DKVUbzCz+hs=
+ WHIRLPOOL : vevPa2QPrrWfmMzHdZSar7/BC1JVw70v
+             VSXi/DybATH8uOIXikTDkCe4xmh8r8xO
+             0XLkjYln+5oJpJETd00GAQ==
+ GOST      : +Ge88vHpR+p3MKB2vqsp4kI6YiMxWUnD
+             F26DsmAZFHY=
+
+
+End timestamp: 2022-04-25 21:39:55 +0300 (run time: 6m 9s)

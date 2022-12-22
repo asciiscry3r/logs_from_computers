@@ -1,0 +1,1400 @@
+Start timestamp: 2022-03-04 03:19:39 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	311533
+  Added entries:		331
+  Removed entries:		0
+  Changed entries:		175
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++: /etc/mtools.conf
+f+++++++++++++++: /etc/pam.d/screen
+f+++++++++++++++: /etc/screenrc
+f+++++++++++++++: /etc/skel/.screenrc
+f+++++++++++++++: /usr/bin/amuFormat.sh
+f+++++++++++++++: /usr/bin/cdrwtool
+l+++++++++++++++: /usr/bin/defrag.f2fs
+f+++++++++++++++: /usr/bin/dump.exfat
+l+++++++++++++++: /usr/bin/dump.f2fs
+f+++++++++++++++: /usr/bin/exfatlabel
+f+++++++++++++++: /usr/bin/f2fs_io
+f+++++++++++++++: /usr/bin/f2fscrypt
+f+++++++++++++++: /usr/bin/f2fstat
+f+++++++++++++++: /usr/bin/fibmap.f2fs
+f+++++++++++++++: /usr/bin/floppyd
+f+++++++++++++++: /usr/bin/floppyd_installtest
+f+++++++++++++++: /usr/bin/fsck.exfat
+f+++++++++++++++: /usr/bin/fsck.f2fs
+f+++++++++++++++: /usr/bin/fsck.jfs
+f+++++++++++++++: /usr/bin/gpart
+f+++++++++++++++: /usr/bin/gparted
+f+++++++++++++++: /usr/bin/jfs_debugfs
+f+++++++++++++++: /usr/bin/jfs_fsck
+f+++++++++++++++: /usr/bin/jfs_fscklog
+f+++++++++++++++: /usr/bin/jfs_logdump
+f+++++++++++++++: /usr/bin/jfs_mkfs
+f+++++++++++++++: /usr/bin/jfs_tune
+l+++++++++++++++: /usr/bin/lz
+l+++++++++++++++: /usr/bin/mattrib
+l+++++++++++++++: /usr/bin/mbadblocks
+l+++++++++++++++: /usr/bin/mcat
+l+++++++++++++++: /usr/bin/mcd
+f+++++++++++++++: /usr/bin/mcheck
+f+++++++++++++++: /usr/bin/mcomp
+l+++++++++++++++: /usr/bin/mcopy
+l+++++++++++++++: /usr/bin/mdel
+l+++++++++++++++: /usr/bin/mdeltree
+l+++++++++++++++: /usr/bin/mdir
+l+++++++++++++++: /usr/bin/mdu
+l+++++++++++++++: /usr/bin/mformat
+l+++++++++++++++: /usr/bin/minfo
+f+++++++++++++++: /usr/bin/mkfs.exfat
+f+++++++++++++++: /usr/bin/mkfs.f2fs
+f+++++++++++++++: /usr/bin/mkfs.jfs
+l+++++++++++++++: /usr/bin/mkfs.udf
+f+++++++++++++++: /usr/bin/mkmanifest
+f+++++++++++++++: /usr/bin/mkudffs
+l+++++++++++++++: /usr/bin/mlabel
+l+++++++++++++++: /usr/bin/mmd
+l+++++++++++++++: /usr/bin/mmount
+l+++++++++++++++: /usr/bin/mmove
+l+++++++++++++++: /usr/bin/mpartition
+l+++++++++++++++: /usr/bin/mrd
+l+++++++++++++++: /usr/bin/mren
+l+++++++++++++++: /usr/bin/mshortname
+l+++++++++++++++: /usr/bin/mshowfat
+f+++++++++++++++: /usr/bin/mtools
+l+++++++++++++++: /usr/bin/mtoolstest
+l+++++++++++++++: /usr/bin/mtype
+f+++++++++++++++: /usr/bin/mxtar
+l+++++++++++++++: /usr/bin/mzip
+f+++++++++++++++: /usr/bin/parse.f2fs
+f+++++++++++++++: /usr/bin/pktcdvd-check
+f+++++++++++++++: /usr/bin/pktsetup
+l+++++++++++++++: /usr/bin/resize.f2fs
+l+++++++++++++++: /usr/bin/screen
+f+++++++++++++++: /usr/bin/screen-4.9.0
+l+++++++++++++++: /usr/bin/sload.f2fs
+f+++++++++++++++: /usr/bin/tgz
+f+++++++++++++++: /usr/bin/tune.exfat
+f+++++++++++++++: /usr/bin/udfinfo
+f+++++++++++++++: /usr/bin/udflabel
+f+++++++++++++++: /usr/bin/uz
+f+++++++++++++++: /usr/bin/wrudf
+f+++++++++++++++: /usr/include/f2fs_fs.h
+f+++++++++++++++: /usr/include/quota.h
+d+++++++++++++++: /usr/lib/gparted
+f+++++++++++++++: /usr/lib/gparted/gpartedbin
+l+++++++++++++++: /usr/lib/libf2fs.so
+l+++++++++++++++: /usr/lib/libf2fs.so.8
+f+++++++++++++++: /usr/lib/libf2fs.so.8.0.0
+l+++++++++++++++: /usr/lib/libf2fs_format.so
+l+++++++++++++++: /usr/lib/libf2fs_format.so.7
+f+++++++++++++++: /usr/lib/libf2fs_format.so.7.0.0
+f+++++++++++++++: /usr/lib/tmpfiles.d/screen.conf
+f+++++++++++++++: /usr/lib/udev/rules.d/80-pktsetup.rules
+f+++++++++++++++: /usr/share/appdata/gparted.appdata.xml
+f+++++++++++++++: /usr/share/applications/gparted.desktop
+d+++++++++++++++: /usr/share/doc/gpart
+f+++++++++++++++: /usr/share/doc/gpart/Changes
+f+++++++++++++++: /usr/share/doc/gpart/README.md
+d+++++++++++++++: /usr/share/doc/mtools
+f+++++++++++++++: /usr/share/doc/mtools/NEWS
+f+++++++++++++++: /usr/share/doc/mtools/README
+d+++++++++++++++: /usr/share/doc/udftools
+f+++++++++++++++: /usr/share/doc/udftools/AUTHORS
+f+++++++++++++++: /usr/share/doc/udftools/COPYING
+f+++++++++++++++: /usr/share/doc/udftools/HOWTO.udf
+f+++++++++++++++: /usr/share/doc/udftools/NEWS
+f+++++++++++++++: /usr/share/doc/udftools/README
+f+++++++++++++++: /usr/share/doc/udftools/UDF-Specifications
+d+++++++++++++++: /usr/share/help/C/gparted
+d+++++++++++++++: /usr/share/help/C/gparted/figures
+f+++++++++++++++: /usr/share/help/C/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/C/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/cs/gparted
+d+++++++++++++++: /usr/share/help/cs/gparted/figures
+f+++++++++++++++: /usr/share/help/cs/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/cs/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/de/gparted
+d+++++++++++++++: /usr/share/help/de/gparted/figures
+f+++++++++++++++: /usr/share/help/de/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/de/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/el/gparted
+d+++++++++++++++: /usr/share/help/el/gparted/figures
+f+++++++++++++++: /usr/share/help/el/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/el/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/es/gparted
+d+++++++++++++++: /usr/share/help/es/gparted/figures
+f+++++++++++++++: /usr/share/help/es/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/es/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/fr/gparted
+d+++++++++++++++: /usr/share/help/fr/gparted/figures
+f+++++++++++++++: /usr/share/help/fr/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/fr/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/gd
+d+++++++++++++++: /usr/share/help/gd/gparted
+d+++++++++++++++: /usr/share/help/gd/gparted/figures
+l+++++++++++++++: /usr/share/help/gd/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/gd/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/it
+d+++++++++++++++: /usr/share/help/it/gparted
+d+++++++++++++++: /usr/share/help/it/gparted/figures
+f+++++++++++++++: /usr/share/help/it/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/it/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/pt_BR/gparted
+d+++++++++++++++: /usr/share/help/pt_BR/gparted/figures
+f+++++++++++++++: /usr/share/help/pt_BR/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/pt_BR/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/ro
+d+++++++++++++++: /usr/share/help/ro/gparted
+d+++++++++++++++: /usr/share/help/ro/gparted/figures
+f+++++++++++++++: /usr/share/help/ro/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/ro/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/ru/gparted
+d+++++++++++++++: /usr/share/help/ru/gparted/figures
+f+++++++++++++++: /usr/share/help/ru/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/ru/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/sl/gparted
+d+++++++++++++++: /usr/share/help/sl/gparted/figures
+l+++++++++++++++: /usr/share/help/sl/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/sl/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/sr
+d+++++++++++++++: /usr/share/help/sr/gparted
+d+++++++++++++++: /usr/share/help/sr/gparted/figures
+f+++++++++++++++: /usr/share/help/sr/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/sr/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/sr@latin
+d+++++++++++++++: /usr/share/help/sr@latin/gparted
+d+++++++++++++++: /usr/share/help/sr@latin/gparted/figures
+f+++++++++++++++: /usr/share/help/sr@latin/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/sr@latin/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/sv/gparted
+d+++++++++++++++: /usr/share/help/sv/gparted/figures
+f+++++++++++++++: /usr/share/help/sv/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/sv/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/te
+d+++++++++++++++: /usr/share/help/te/gparted
+d+++++++++++++++: /usr/share/help/te/gparted/figures
+l+++++++++++++++: /usr/share/help/te/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/te/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/th
+d+++++++++++++++: /usr/share/help/th/gparted
+d+++++++++++++++: /usr/share/help/th/gparted/figures
+l+++++++++++++++: /usr/share/help/th/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/th/gparted/index.docbook
+d+++++++++++++++: /usr/share/help/uk/gparted
+d+++++++++++++++: /usr/share/help/uk/gparted/figures
+f+++++++++++++++: /usr/share/help/uk/gparted/figures/gparted_window.png
+f+++++++++++++++: /usr/share/help/uk/gparted/index.docbook
+f+++++++++++++++: /usr/share/icons/hicolor/16x16/apps/gparted.png
+f+++++++++++++++: /usr/share/icons/hicolor/22x22/apps/gparted.png
+f+++++++++++++++: /usr/share/icons/hicolor/24x24/apps/gparted.png
+f+++++++++++++++: /usr/share/icons/hicolor/32x32/apps/gparted.png
+f+++++++++++++++: /usr/share/icons/hicolor/48x48/apps/gparted.png
+f+++++++++++++++: /usr/share/icons/hicolor/scalable/apps/gparted.svg
+f+++++++++++++++: /usr/share/info/mtools.info.gz
+f+++++++++++++++: /usr/share/info/screen.info.gz
+f+++++++++++++++: /usr/share/locale/ar/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/be/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/bg/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/br/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/bs/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ca/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ca@valencia/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/cs/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/da/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/de/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/dz/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/el/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/en_CA/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/en_GB/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/eo/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/es/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/et/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/eu/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/fa/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/fi/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/fr/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/fur/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/gd/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/gl/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/gu/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/he/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/hr/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/hu/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/id/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/is/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/it/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ja/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/kk/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ko/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/lt/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/lv/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/mk/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ml/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/nb/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ne/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/nl/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/nn/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/oc/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/pa/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/pl/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/pt/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/pt_BR/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ro/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/ru/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/rw/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/si/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/sk/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/sl/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/sr/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/sr@latin/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/sv/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/te/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/th/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/tr/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/uk/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/vi/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/zh_CN/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/zh_HK/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/locale/zh_TW/LC_MESSAGES/gparted.mo
+f+++++++++++++++: /usr/share/man/man1/cdrwtool.1.gz
+f+++++++++++++++: /usr/share/man/man1/floppyd.1.gz
+f+++++++++++++++: /usr/share/man/man1/floppyd_installtest.1.gz
+f+++++++++++++++: /usr/share/man/man1/mattrib.1.gz
+f+++++++++++++++: /usr/share/man/man1/mbadblocks.1.gz
+f+++++++++++++++: /usr/share/man/man1/mcat.1.gz
+f+++++++++++++++: /usr/share/man/man1/mcd.1.gz
+f+++++++++++++++: /usr/share/man/man1/mcopy.1.gz
+f+++++++++++++++: /usr/share/man/man1/mdel.1.gz
+f+++++++++++++++: /usr/share/man/man1/mdeltree.1.gz
+f+++++++++++++++: /usr/share/man/man1/mdir.1.gz
+f+++++++++++++++: /usr/share/man/man1/mdu.1.gz
+f+++++++++++++++: /usr/share/man/man1/mformat.1.gz
+f+++++++++++++++: /usr/share/man/man1/minfo.1.gz
+f+++++++++++++++: /usr/share/man/man1/mkmanifest.1.gz
+f+++++++++++++++: /usr/share/man/man1/mlabel.1.gz
+f+++++++++++++++: /usr/share/man/man1/mmd.1.gz
+f+++++++++++++++: /usr/share/man/man1/mmount.1.gz
+f+++++++++++++++: /usr/share/man/man1/mmove.1.gz
+f+++++++++++++++: /usr/share/man/man1/mpartition.1.gz
+f+++++++++++++++: /usr/share/man/man1/mrd.1.gz
+f+++++++++++++++: /usr/share/man/man1/mren.1.gz
+f+++++++++++++++: /usr/share/man/man1/mshortname.1.gz
+f+++++++++++++++: /usr/share/man/man1/mshowfat.1.gz
+f+++++++++++++++: /usr/share/man/man1/mtools.1.gz
+f+++++++++++++++: /usr/share/man/man1/mtoolstest.1.gz
+f+++++++++++++++: /usr/share/man/man1/mtype.1.gz
+f+++++++++++++++: /usr/share/man/man1/mzip.1.gz
+f+++++++++++++++: /usr/share/man/man1/screen.1.gz
+f+++++++++++++++: /usr/share/man/man1/udfinfo.1.gz
+f+++++++++++++++: /usr/share/man/man1/wrudf.1.gz
+f+++++++++++++++: /usr/share/man/man5/mtools.5.gz
+f+++++++++++++++: /usr/share/man/man8/defrag.f2fs.8.gz
+f+++++++++++++++: /usr/share/man/man8/dump.exfat.8.gz
+f+++++++++++++++: /usr/share/man/man8/dump.f2fs.8.gz
+f+++++++++++++++: /usr/share/man/man8/exfatlabel.8.gz
+f+++++++++++++++: /usr/share/man/man8/f2fs_io.8.gz
+f+++++++++++++++: /usr/share/man/man8/f2fscrypt.8.gz
+f+++++++++++++++: /usr/share/man/man8/fsck.exfat.8.gz
+f+++++++++++++++: /usr/share/man/man8/fsck.f2fs.8.gz
+f+++++++++++++++: /usr/share/man/man8/fsck.jfs.8.gz
+f+++++++++++++++: /usr/share/man/man8/gpart.8.gz
+f+++++++++++++++: /usr/share/man/man8/gparted.8.gz
+f+++++++++++++++: /usr/share/man/man8/jfs_debugfs.8.gz
+f+++++++++++++++: /usr/share/man/man8/jfs_fsck.8.gz
+f+++++++++++++++: /usr/share/man/man8/jfs_fscklog.8.gz
+f+++++++++++++++: /usr/share/man/man8/jfs_logdump.8.gz
+f+++++++++++++++: /usr/share/man/man8/jfs_mkfs.8.gz
+f+++++++++++++++: /usr/share/man/man8/jfs_tune.8.gz
+f+++++++++++++++: /usr/share/man/man8/mkfs.exfat.8.gz
+f+++++++++++++++: /usr/share/man/man8/mkfs.f2fs.8.gz
+f+++++++++++++++: /usr/share/man/man8/mkfs.jfs.8.gz
+f+++++++++++++++: /usr/share/man/man8/mkfs.udf.8.gz
+f+++++++++++++++: /usr/share/man/man8/mkudffs.8.gz
+f+++++++++++++++: /usr/share/man/man8/pktsetup.8.gz
+f+++++++++++++++: /usr/share/man/man8/resize.f2fs.8.gz
+f+++++++++++++++: /usr/share/man/man8/sload.f2fs.8.gz
+f+++++++++++++++: /usr/share/man/man8/tune.exfat.8.gz
+f+++++++++++++++: /usr/share/man/man8/udflabel.8.gz
+f+++++++++++++++: /usr/share/polkit-1/actions/org.gnome.gparted.policy
+d+++++++++++++++: /usr/share/screen
+d+++++++++++++++: /usr/share/screen/utf8encodings
+f+++++++++++++++: /usr/share/screen/utf8encodings/01
+f+++++++++++++++: /usr/share/screen/utf8encodings/02
+f+++++++++++++++: /usr/share/screen/utf8encodings/03
+f+++++++++++++++: /usr/share/screen/utf8encodings/04
+f+++++++++++++++: /usr/share/screen/utf8encodings/18
+f+++++++++++++++: /usr/share/screen/utf8encodings/19
+f+++++++++++++++: /usr/share/screen/utf8encodings/a1
+f+++++++++++++++: /usr/share/screen/utf8encodings/bf
+f+++++++++++++++: /usr/share/screen/utf8encodings/c2
+f+++++++++++++++: /usr/share/screen/utf8encodings/c3
+f+++++++++++++++: /usr/share/screen/utf8encodings/c4
+f+++++++++++++++: /usr/share/screen/utf8encodings/c6
+f+++++++++++++++: /usr/share/screen/utf8encodings/c7
+f+++++++++++++++: /usr/share/screen/utf8encodings/c8
+f+++++++++++++++: /usr/share/screen/utf8encodings/cc
+f+++++++++++++++: /usr/share/screen/utf8encodings/cd
+f+++++++++++++++: /usr/share/screen/utf8encodings/d6
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/ld.so.cache
+d > ... mc..  . : /etc/skel
+f = ... mc... . : /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+d = ... mc..  . : /usr
+d > ... mc..  . : /usr/bin
+d > ... mc..  . : /usr/include
+d = ... mc..  . : /usr/include/isl
+f = ... mc... . : /usr/include/isl/aff.h
+f = ... mc... . : /usr/include/isl/aff_type.h
+f = ... mc... . : /usr/include/isl/arg.h
+f = ... mc... . : /usr/include/isl/ast.h
+f = ... mc... . : /usr/include/isl/ast_build.h
+f = ... mc... . : /usr/include/isl/ast_type.h
+f = ... mc... . : /usr/include/isl/constraint.h
+f = ... mc... . : /usr/include/isl/cpp.h
+f = ... mc... . : /usr/include/isl/ctx.h
+f = ... mc... . : /usr/include/isl/fixed_box.h
+f = ... mc... . : /usr/include/isl/flow.h
+f = ... mc... . : /usr/include/isl/hash.h
+f = ... mc... . : /usr/include/isl/hmap.h
+f = ... mc... . : /usr/include/isl/hmap_templ.c
+f = ... mc... . : /usr/include/isl/id.h
+f = ... mc... . : /usr/include/isl/id_to_ast_expr.h
+f = ... mc... . : /usr/include/isl/id_to_id.h
+f = ... mc... . : /usr/include/isl/id_to_pw_aff.h
+f = ... mc... . : /usr/include/isl/id_type.h
+f = ... mc... . : /usr/include/isl/ilp.h
+f = ... mc... . : /usr/include/isl/list.h
+f = ... mc... . : /usr/include/isl/local_space.h
+f = ... mc... . : /usr/include/isl/lp.h
+f = ... mc... . : /usr/include/isl/map.h
+f = ... mc... . : /usr/include/isl/map_to_basic_set.h
+f = ... mc... . : /usr/include/isl/map_type.h
+f = ... mc... . : /usr/include/isl/mat.h
+f = ... mc... . : /usr/include/isl/maybe.h
+f = ... mc... . : /usr/include/isl/maybe_ast_expr.h
+f = ... mc... . : /usr/include/isl/maybe_basic_set.h
+f = ... mc... . : /usr/include/isl/maybe_id.h
+f = ... mc... . : /usr/include/isl/maybe_pw_aff.h
+f = ... mc... . : /usr/include/isl/maybe_templ.h
+f = ... mc... . : /usr/include/isl/multi.h
+f = ... mc... . : /usr/include/isl/obj.h
+f = ... mc... . : /usr/include/isl/options.h
+f = ... mc... . : /usr/include/isl/point.h
+f = ... mc... . : /usr/include/isl/polynomial.h
+f = ... mc... . : /usr/include/isl/polynomial_type.h
+f = ... mc... . : /usr/include/isl/printer.h
+f = ... mc... . : /usr/include/isl/printer_type.h
+f = ... mc... . : /usr/include/isl/schedule.h
+f = ... mc... . : /usr/include/isl/schedule_node.h
+f = ... mc... . : /usr/include/isl/schedule_type.h
+f = ... mc... . : /usr/include/isl/set.h
+f = ... mc... . : /usr/include/isl/set_type.h
+f = ... mc... . : /usr/include/isl/space.h
+f = ... mc... . : /usr/include/isl/space_type.h
+f = ... mc... . : /usr/include/isl/stdint.h
+f = ... mc... . : /usr/include/isl/stream.h
+f = ... mc... . : /usr/include/isl/stride_info.h
+f = ... mc... . : /usr/include/isl/typed_cpp.h
+f = ... mc... . : /usr/include/isl/union_map.h
+f = ... mc... . : /usr/include/isl/union_map_type.h
+f = ... mc... . : /usr/include/isl/union_set.h
+f = ... mc... . : /usr/include/isl/union_set_type.h
+f = ... mc... . : /usr/include/isl/val.h
+f = ... mc... . : /usr/include/isl/val_gmp.h
+f = ... mc... . : /usr/include/isl/val_type.h
+f = ... mc... . : /usr/include/isl/vec.h
+f = ... mc... . : /usr/include/isl/version.h
+f = ... mc... . : /usr/include/isl/vertices.h
+d > ... mc.n  . : /usr/lib
+f = ... mc... . : /usr/lib/libisl.a
+l.= ... mc..  . : /usr/lib/libisl.so
+l.= ... mc..  . : /usr/lib/libisl.so.23
+f = ... mc... . : /usr/lib/libisl.so.23.1.0
+d = ... mc..  . : /usr/lib/pkgconfig
+f = ... mc... . : /usr/lib/pkgconfig/isl.pc
+d > ... mc..  . : /usr/lib/tmpfiles.d
+d > ... mc..  . : /usr/lib/udev/rules.d
+d > ... mc.n  . : /usr/share
+d > ... mc..  . : /usr/share/appdata
+d > ... mc..  . : /usr/share/applications
+f = ... mci.. . : /usr/share/applications/mimeinfo.cache
+d > ... mc.n  . : /usr/share/doc
+d = ... mc..  . : /usr/share/gdb/auto-load/usr/lib
+f = ... mc... . : /usr/share/gdb/auto-load/usr/lib/libisl.so.23.1.0-gdb.py
+d > ... mc.n  . : /usr/share/help
+d > ... mc.n  . : /usr/share/help/C
+d > ... mc.n  . : /usr/share/help/cs
+d > ... mc.n  . : /usr/share/help/de
+d > ... mc.n  . : /usr/share/help/el
+d > ... mc.n  . : /usr/share/help/es
+d > ... mc.n  . : /usr/share/help/fr
+d > ... mc.n  . : /usr/share/help/pt_BR
+d > ... mc.n  . : /usr/share/help/ru
+d > ... mc.n  . : /usr/share/help/sl
+d > ... mc.n  . : /usr/share/help/sv
+d > ... mc.n  . : /usr/share/help/uk
+d = ... mc..  . : /usr/share/icons/hicolor
+d > ... mc..  . : /usr/share/icons/hicolor/16x16/apps
+d > ... mc..  . : /usr/share/icons/hicolor/22x22/apps
+d > ... mc..  . : /usr/share/icons/hicolor/24x24/apps
+d > ... mc..  . : /usr/share/icons/hicolor/32x32/apps
+d > ... mc..  . : /usr/share/icons/hicolor/48x48/apps
+f > ... mci.H . : /usr/share/icons/hicolor/icon-theme.cache
+d > ... mc..  . : /usr/share/icons/hicolor/scalable/apps
+d > ... mc..  . : /usr/share/info
+f > ... mc..H . : /usr/share/info/dir
+d > ... mc..  . : /usr/share/locale/ar/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/be/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/bg/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/br/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/bs/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ca/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ca@valencia/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/cs/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/da/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/de/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/dz/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/el/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/en_CA/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/en_GB/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/eo/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/es/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/et/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/eu/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fa/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fi/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/fur/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/gd/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/gl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/gu/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/he/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/hr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/hu/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/id/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/is/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/it/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ja/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/kk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ko/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/lt/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/lv/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/mk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ml/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/nb/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ne/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/nl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/nn/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/oc/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pa/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pt/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/pt_BR/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ro/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/ru/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/rw/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/si/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sl/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sr@latin/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/sv/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/te/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/th/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/tr/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/uk/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/vi/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/zh_CN/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/zh_HK/LC_MESSAGES
+d > ... mc..  . : /usr/share/locale/zh_TW/LC_MESSAGES
+d > ... mc..  . : /usr/share/man/man1
+d > ... mc..  . : /usr/share/man/man5
+d > ... mc..  . : /usr/share/man/man8
+d > ... mc..  . : /usr/share/polkit-1/actions
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/ld.so.cache
+ Inode     : 880231                           | 882719
+
+Directory: /etc/skel
+ Size      : 184                              | 216
+ Mtime     : 2022-03-03 23:29:26 +0200        | 2022-03-04 03:17:38 +0200
+ Ctime     : 2022-03-03 23:29:26 +0200        | 2022-03-04 03:17:38 +0200
+
+File: /root/.parallel/tmp/sshlogin/mksredmibook14ii/cpuspec
+ Mtime     : 2022-03-03 23:33:50 +0200        | 2022-03-04 03:19:27 +0200
+ Ctime     : 2022-03-03 23:33:50 +0200        | 2022-03-04 03:19:27 +0200
+
+Directory: /usr
+ Mtime     : 2022-03-04 00:57:37 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-04 00:57:37 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/bin
+ Size      : 77640                            | 79536
+ Mtime     : 2022-03-04 00:57:36 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-04 00:57:36 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/include
+ Size      : 26816                            | 26872
+ Mtime     : 2022-03-03 23:30:59 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:59 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/include/isl
+ Mtime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/aff.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/aff_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/arg.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/ast.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/ast_build.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/ast_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/constraint.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/cpp.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/ctx.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/fixed_box.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/flow.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/hash.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/hmap.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/hmap_templ.c
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/id.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/id_to_ast_expr.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/id_to_id.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/id_to_pw_aff.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/id_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/ilp.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/list.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/local_space.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/lp.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/map.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/map_to_basic_set.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/map_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/mat.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/maybe.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/maybe_ast_expr.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/maybe_basic_set.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/maybe_id.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/maybe_pw_aff.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/maybe_templ.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/multi.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/obj.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/options.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/point.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/polynomial.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/polynomial_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/printer.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/printer_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/schedule.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/schedule_node.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/schedule_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/set.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/set_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/space.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/space_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/stdint.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/stream.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/stride_info.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/typed_cpp.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/union_map.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/union_map_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/union_set.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/union_set_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/val.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/val_gmp.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/val_type.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/vec.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/version.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/include/isl/vertices.h
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+Directory: /usr/lib
+ Size      : 134176                           | 134416
+ Mtime     : 2022-03-04 00:57:36 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-04 00:57:36 +0200        | 2022-03-04 03:19:26 +0200
+ Linkcount : 177                              | 178
+
+File: /usr/lib/libisl.a
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+Link: /usr/lib/libisl.so
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+Link: /usr/lib/libisl.so.23
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/lib/libisl.so.23.1.0
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+Directory: /usr/lib/pkgconfig
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 02:58:07 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/lib/pkgconfig/isl.pc
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+Directory: /usr/lib/tmpfiles.d
+ Size      : 1136                             | 1168
+ Mtime     : 2022-03-03 23:30:56 +0200        | 2022-03-04 03:17:38 +0200
+ Ctime     : 2022-03-03 23:30:56 +0200        | 2022-03-04 03:17:38 +0200
+
+Directory: /usr/lib/udev/rules.d
+ Size      : 3096                             | 3136
+ Mtime     : 2022-03-03 23:30:58 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:58 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share
+ Size      : 5080                             | 5104
+ Mtime     : 2022-03-03 23:29:20 +0200        | 2022-03-04 03:17:38 +0200
+ Ctime     : 2022-03-03 23:29:20 +0200        | 2022-03-04 03:17:38 +0200
+ Linkcount : 189                              | 190
+
+Directory: /usr/share/appdata
+ Size      : 400                              | 440
+ Mtime     : 2022-03-03 23:30:50 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:50 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/applications
+ Size      : 2456                             | 2488
+ Mtime     : 2022-03-04 00:57:38 +0200        | 2022-03-04 03:19:28 +0200
+ Ctime     : 2022-03-04 00:57:38 +0200        | 2022-03-04 03:19:28 +0200
+
+File: /usr/share/applications/mimeinfo.cache
+ Mtime     : 2022-03-04 00:57:38 +0200        | 2022-03-04 03:19:28 +0200
+ Ctime     : 2022-03-04 00:57:38 +0200        | 2022-03-04 03:19:28 +0200
+ Inode     : 63320                            | 882720
+
+Directory: /usr/share/doc
+ Size      : 5608                             | 5680
+ Mtime     : 2022-03-04 00:57:37 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-04 00:57:37 +0200        | 2022-03-04 03:19:26 +0200
+ Linkcount : 203                              | 206
+
+Directory: /usr/share/gdb/auto-load/usr/lib
+ Mtime     : 2022-03-03 23:30:07 +0200        | 2022-03-04 02:58:07 +0200
+ Ctime     : 2022-03-03 23:30:07 +0200        | 2022-03-04 02:58:07 +0200
+
+File: /usr/share/gdb/auto-load/usr/lib/libisl.so.23.1.0-gdb.py
+ Mtime     : 2022-02-27 23:35:30 +0200        | 2022-03-04 00:39:16 +0200
+ Ctime     : 2022-03-03 23:30:06 +0200        | 2022-03-04 02:58:07 +0200
+
+Directory: /usr/share/help
+ Size      : 600                              | 768
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 25                               | 32
+
+Directory: /usr/share/help/C
+ Size      : 120                              | 144
+ Mtime     : 2022-02-20 00:17:34 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-20 00:17:34 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 5                                | 6
+
+Directory: /usr/share/help/cs
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/de
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/el
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/es
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/fr
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/pt_BR
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/ru
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/sl
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/sv
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/help/uk
+ Size      : 72                               | 96
+ Mtime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Ctime     : 2022-02-13 01:32:49 +0200        | 2022-03-04 03:13:09 +0200
+ Linkcount : 3                                | 4
+
+Directory: /usr/share/icons/hicolor
+ Mtime     : 2022-03-03 23:33:50 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:33:50 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/icons/hicolor/16x16/apps
+ Size      : 1032                             | 1064
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/icons/hicolor/22x22/apps
+ Size      : 3504                             | 3536
+ Mtime     : 2022-03-03 23:30:43 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:43 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/icons/hicolor/24x24/apps
+ Size      : 648                              | 680
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/icons/hicolor/32x32/apps
+ Size      : 816                              | 848
+ Mtime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/icons/hicolor/48x48/apps
+ Size      : 1040                             | 1072
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+File: /usr/share/icons/hicolor/icon-theme.cache
+ Size      : 13768                            | 13840
+ Mtime     : 2022-03-03 23:33:50 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:33:50 +0200        | 2022-03-04 03:19:26 +0200
+ Inode     : 870573                           | 882482
+ MD5       : fz6eWmMrTWWnfwzlVBMhFA==         | WRho1n/Zvh9OxnGioGo+ug==
+ SHA256    : uA0TnAwGq9l7SLGcMh1uw7lvIeYpROWD | pUT+KglI6xgWkrdMZ1sW1cvCqe9gWrjh
+             L/WOUnVVY2w=                     | JfNHRb85n0M=
+ RMD160    : XIOb0HrI2euBeekGcFcGjC+Z08E=     | WiAmlP3baduBimxGIxECKquwIEI=
+
+Directory: /usr/share/icons/hicolor/scalable/apps
+ Size      : 2768                             | 2800
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/info
+ Size      : 7400                             | 7464
+ Mtime     : 2022-03-03 23:30:50 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:50 +0200        | 2022-03-04 03:19:26 +0200
+
+File: /usr/share/info/dir
+ Size      : 113502                           | 113580
+ Mtime     : 2022-03-03 23:34:23 +0200        | 2022-03-04 03:19:28 +0200
+ Ctime     : 2022-03-03 23:34:23 +0200        | 2022-03-04 03:19:28 +0200
+ MD5       : G1HN2jhtyIzgKh7wW5gpog==         | txGb+tmfhsyEe1S68Pam+A==
+ SHA256    : l7UrTjimkDUsQ4fpa40L0bLmpYVYvhK0 | XeE4dVU1gT3HxOE8SQDecdM9olZu3SW6
+             k6cqo1uxaw4=                     | O4gIJY9FYTo=
+ RMD160    : 839weKr5Q4W28T1jPnKu9j2tMsQ=     | l7rXXfea6yjvVXlES73BTooCvhA=
+
+Directory: /usr/share/locale/ar/LC_MESSAGES
+ Size      : 2344                             | 2376
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/be/LC_MESSAGES
+ Size      : 2544                             | 2576
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/bg/LC_MESSAGES
+ Size      : 3392                             | 3424
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/br/LC_MESSAGES
+ Size      : 816                              | 848
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/bs/LC_MESSAGES
+ Size      : 1904                             | 1936
+ Mtime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ca/LC_MESSAGES
+ Size      : 3944                             | 3976
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ca@valencia/LC_MESSAGES
+ Size      : 1480                             | 1512
+ Mtime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/cs/LC_MESSAGES
+ Size      : 4144                             | 4176
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/da/LC_MESSAGES
+ Size      : 4320                             | 4352
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/de/LC_MESSAGES
+ Size      : 5104                             | 5136
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/dz/LC_MESSAGES
+ Size      : 912                              | 944
+ Mtime     : 2022-03-03 23:30:59 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:59 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/el/LC_MESSAGES
+ Size      : 3704                             | 3736
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/en_CA/LC_MESSAGES
+ Size      : 856                              | 888
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/en_GB/LC_MESSAGES
+ Size      : 2432                             | 2464
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/eo/LC_MESSAGES
+ Size      : 3392                             | 3424
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/es/LC_MESSAGES
+ Size      : 4744                             | 4776
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/et/LC_MESSAGES
+ Size      : 2720                             | 2752
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/eu/LC_MESSAGES
+ Size      : 3152                             | 3184
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/fa/LC_MESSAGES
+ Size      : 1880                             | 1912
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/fi/LC_MESSAGES
+ Size      : 4240                             | 4272
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/fr/LC_MESSAGES
+ Size      : 4936                             | 4968
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/fur/LC_MESSAGES
+ Size      : 1584                             | 1616
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/gd/LC_MESSAGES
+ Size      : 704                              | 736
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/gl/LC_MESSAGES
+ Size      : 3480                             | 3512
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/gu/LC_MESSAGES
+ Size      : 1848                             | 1880
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/he/LC_MESSAGES
+ Size      : 2712                             | 2744
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/hr/LC_MESSAGES
+ Size      : 3456                             | 3488
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/hu/LC_MESSAGES
+ Size      : 3984                             | 4016
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/id/LC_MESSAGES
+ Size      : 4136                             | 4168
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/is/LC_MESSAGES
+ Size      : 1536                             | 1568
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/it/LC_MESSAGES
+ Size      : 4552                             | 4584
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ja/LC_MESSAGES
+ Size      : 4264                             | 4296
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/kk/LC_MESSAGES
+ Size      : 1664                             | 1696
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ko/LC_MESSAGES
+ Size      : 3472                             | 3504
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/lt/LC_MESSAGES
+ Size      : 3008                             | 3040
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/lv/LC_MESSAGES
+ Size      : 2312                             | 2344
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/mk/LC_MESSAGES
+ Size      : 1384                             | 1416
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ml/LC_MESSAGES
+ Size      : 1720                             | 1752
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/nb/LC_MESSAGES
+ Size      : 3168                             | 3200
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ne/LC_MESSAGES
+ Size      : 1280                             | 1312
+ Mtime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/nl/LC_MESSAGES
+ Size      : 4416                             | 4448
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/nn/LC_MESSAGES
+ Size      : 1744                             | 1776
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/oc/LC_MESSAGES
+ Size      : 2016                             | 2048
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/pa/LC_MESSAGES
+ Size      : 2464                             | 2496
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/pl/LC_MESSAGES
+ Size      : 4640                             | 4672
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/pt/LC_MESSAGES
+ Size      : 3952                             | 3984
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/pt_BR/LC_MESSAGES
+ Size      : 4544                             | 4576
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ro/LC_MESSAGES
+ Size      : 3744                             | 3776
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/ru/LC_MESSAGES
+ Size      : 4488                             | 4520
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/rw/LC_MESSAGES
+ Size      : 1200                             | 1232
+ Mtime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/si/LC_MESSAGES
+ Size      : 1192                             | 1224
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/sk/LC_MESSAGES
+ Size      : 3384                             | 3416
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/sl/LC_MESSAGES
+ Size      : 3264                             | 3296
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/sr/LC_MESSAGES
+ Size      : 4200                             | 4232
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/sr@latin/LC_MESSAGES
+ Size      : 2344                             | 2376
+ Mtime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:30:53 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/sv/LC_MESSAGES
+ Size      : 4880                             | 4912
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/te/LC_MESSAGES
+ Size      : 1984                             | 2016
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/th/LC_MESSAGES
+ Size      : 2144                             | 2176
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/tr/LC_MESSAGES
+ Size      : 4304                             | 4336
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/uk/LC_MESSAGES
+ Size      : 4632                             | 4664
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/vi/LC_MESSAGES
+ Size      : 3952                             | 3984
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/zh_CN/LC_MESSAGES
+ Size      : 4600                             | 4632
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/zh_HK/LC_MESSAGES
+ Size      : 1912                             | 1944
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/locale/zh_TW/LC_MESSAGES
+ Size      : 3944                             | 3976
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/man/man1
+ Size      : 70784                            | 71752
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/man/man5
+ Size      : 10720                            | 10752
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/man/man8
+ Size      : 34200                            | 35064
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+Directory: /usr/share/polkit-1/actions
+ Size      : 1240                             | 1280
+ Mtime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+ Ctime     : 2022-03-03 23:31:01 +0200        | 2022-03-04 03:19:26 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : OOMHwU+yUv3sz2XDHMVCVA==
+ SHA1      : Sq2W5WG7ciaqqgyZl/6lAhVgiuE=
+ SHA256    : B4JP3CJF1T4NpKwuHfU3q+56p5GGNzfl
+             wYLvjufm1jk=
+ SHA512    : oEvxgTSxlFDjd0cJkqZd60UksgyP1zLE
+             ZmeHxuWydAn+Mjc4iVQYDjBhYsZt+AVF
+             ksHA9Nm6X1cIR4VuMNLW5g==
+ RMD160    : CwyBO5HG5FfT3rUxHR6T7XwK3vc=
+ TIGER     : adMWE3m6u1UGwfZVGqyBSA4j25k7KIv+
+ CRC32     : /lP3rA==
+ CRC32B    : ASVUdg==
+ HAVAL     : mkNoVR9MqZH9gO3fTkMEQsyCUW5EJJcr
+             dM4B35aiaNU=
+ WHIRLPOOL : Q1++7GtA0GLdghlWj/J3nABn4g54S9pw
+             w7suo1ui3bGpCTmgqTscyAtqqyQAnepA
+             LRHMa+0nfS3yc0hZSw9g4A==
+ GOST      : jwVevNhvUsABDSBHY+GaQfY1k9QwDFf1
+             am1dTCGgfCU=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : miXvKl0SOg2/d1ULult/0A==
+ SHA1      : gK0SsAjrtlOIbSlwlE+9azPrZFE=
+ SHA256    : +fLHxgY/ZsVntvoJHI7bkmtfpE8YXPin
+             jj/qp2sCzGo=
+ SHA512    : Xrs2wTROcNSFOtRaxMnnz5A5oh3hx1CU
+             DA4OWcdEAwLInaOL13Gud/ZzSpe6s76w
+             qS45FY34wJCNfqS8Cae3lA==
+ RMD160    : skohfGuzGUzGMDLgxJNX4fN+5PY=
+ TIGER     : WWCcIn8oqkxe6j58gTbKmslokiyRc8wg
+ CRC32     : Kptxlg==
+ CRC32B    : 2m8qiw==
+ HAVAL     : wZpxzuv3g/8krv6++Gi2xCAv2jVW/2M0
+             107YG530T2Q=
+ WHIRLPOOL : Fw06htfjP28QBLSIHdouhf2n2hRBy3wB
+             FrhZvaC4xTf8Us4WoK19SWmN3hbl54kY
+             oHys70AinT4GQfnLFrmO1w==
+ GOST      : XTXJutovC9I4PRMNe75i81VZL9GZ4iZa
+             UB4TXaRYkZU=
+
+
+End timestamp: 2022-03-04 03:25:48 +0200 (run time: 6m 9s)

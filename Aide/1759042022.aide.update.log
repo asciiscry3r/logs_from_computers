@@ -1,0 +1,77 @@
+Start timestamp: 2022-03-04 17:59:20 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	311548
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		2
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc..  . : /root
+f = ... mci.. . : /root/.lesshst
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /root
+ Mtime     : 2022-03-04 17:48:35 +0200        | 2022-03-04 17:53:32 +0200
+ Ctime     : 2022-03-04 17:48:35 +0200        | 2022-03-04 17:53:32 +0200
+
+File: /root/.lesshst
+ Mtime     : 2022-03-04 07:10:24 +0200        | 2022-03-04 17:53:32 +0200
+ Ctime     : 2022-03-04 07:10:24 +0200        | 2022-03-04 17:53:32 +0200
+ Inode     : 885723                           | 888635
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : dhwL6sZ+3PO1GIqXmGnhZg==
+ SHA1      : bgButFgx3uDfueQ1crQQKR1eZW4=
+ SHA256    : 6a/zOzMh9FCEesxTIGFlzARliQfv4RSt
+             ooBlwqoDgj0=
+ SHA512    : mSyX5m/v/BAPML1FnrGj5jZuDWiMbv2N
+             vYK4aljwFpOB2pOHL0Q7wx8hy/X5eVmy
+             +Rk0PiumGZTUHVKrCeI4Eg==
+ RMD160    : WQEnfBGo8KgAlqOsGTLnw5Xozag=
+ TIGER     : OgbLBl1AGw84lNd4HV98/wYj2Uwi4puL
+ CRC32     : 7GfTIA==
+ CRC32B    : ef1plg==
+ HAVAL     : RIQSucCwtS42jmAK37zs6ChUz7j3KngJ
+             c5apTAqgNp8=
+ WHIRLPOOL : ss12ntutqxVbGOYpNNezMFQCZWDEDMht
+             cwJCX/SMzFLTr8UvOHq+KKaa9udUKHZM
+             +iAI6aW2tUT2aw3/oSpKrg==
+ GOST      : 1MBAxIUlnSJ/muZzk/dqSfq9uILIWVYt
+             Rn3pAoQXrgc=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : ith2dk9JX1utEdlok93bvQ==
+ SHA1      : dp54bLB7Ooex4HDltbzVSG6Q3io=
+ SHA256    : f7IUsjKieNSUCq8oDGgN0gSOH8jk48yr
+             4XbtXNd5Joo=
+ SHA512    : /QAbXzWLlJwS7UttY7m5Sjs4AZfdvmeb
+             kysrnoSyEzhueKikvX2xc1AlDCcvcuM5
+             v4Da1OnfBbMn5Avmp1190w==
+ RMD160    : EkbequUppZK39+qGzp/thV01mhA=
+ TIGER     : hiBii8up2hQqBwkcIEI5EH0qP5A+xkCw
+ CRC32     : M4LPBw==
+ CRC32B    : 1rCeAA==
+ HAVAL     : f4fgH2oymSid/QuPSY0I6zAawAErJqv5
+             nh0TxY62/r4=
+ WHIRLPOOL : /5cPkre8tqj4mLQJ6yPwxd3m14dQLFx3
+             I8pD2pBP61kyJVcfTQL9gOR4ZU25jvgU
+             PjCyZ7R3Br4KX+SXFKx0HA==
+ GOST      : Cn9utVA/q60Sfl4tsjc+FnZA7aOUlhYd
+             nhZCt9OXV2Q=
+
+
+End timestamp: 2022-03-04 18:02:58 +0200 (run time: 3m 38s)

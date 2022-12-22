@@ -1,0 +1,144 @@
+Start timestamp: 2022-04-25 21:26:59 +0300 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	274251
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		18
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i  .  : /etc/ld.so.cache
+f   ...   i  .  : /etc/rkhunter.conf
+d = ... mc.. ...: /usr
+d = ... mc.. ...: /usr/bin
+f = ... .c......: /usr/bin/rkhunter
+d = ... mc.. ...: /usr/lib/rkhunter/scripts
+f = ... .c......: /usr/lib/rkhunter/scripts/check_modules.pl
+f = ... .c......: /usr/lib/rkhunter/scripts/filehashsha.pl
+f = ... .c......: /usr/lib/rkhunter/scripts/readlink.sh
+f = ... .c......: /usr/lib/rkhunter/scripts/stat.pl
+d = ... mc.. ...: /usr/share/doc/rkhunter-1.4.6
+f = ... .c......: /usr/share/doc/rkhunter-1.4.6/ACKNOWLEDGMENTS
+f = ... .c......: /usr/share/doc/rkhunter-1.4.6/CHANGELOG
+f = ... .c......: /usr/share/doc/rkhunter-1.4.6/FAQ
+f = ... .c......: /usr/share/doc/rkhunter-1.4.6/LICENSE
+f = ... .c......: /usr/share/doc/rkhunter-1.4.6/README
+d = ... mc.. ...: /usr/share/man/man8
+f = ... .ci.....: /usr/share/man/man8/rkhunter.8.gz
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/ld.so.cache
+ Inode     : 2228934                          | 2231228
+
+File: /etc/rkhunter.conf
+ Inode     : 2231228                          | 2231219
+
+Directory: /usr
+ Mtime     : 2022-04-25 21:19:17 +0300        | 2022-04-25 21:26:20 +0300
+ Ctime     : 2022-04-25 21:19:17 +0300        | 2022-04-25 21:26:20 +0300
+
+Directory: /usr/bin
+ Mtime     : 2022-04-25 21:19:17 +0300        | 2022-04-25 21:26:20 +0300
+ Ctime     : 2022-04-25 21:19:17 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/bin/rkhunter
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+Directory: /usr/lib/rkhunter/scripts
+ Mtime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/lib/rkhunter/scripts/check_modules.pl
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/lib/rkhunter/scripts/filehashsha.pl
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/lib/rkhunter/scripts/readlink.sh
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/lib/rkhunter/scripts/stat.pl
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+Directory: /usr/share/doc/rkhunter-1.4.6
+ Mtime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/share/doc/rkhunter-1.4.6/ACKNOWLEDGMENTS
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/share/doc/rkhunter-1.4.6/CHANGELOG
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/share/doc/rkhunter-1.4.6/FAQ
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/share/doc/rkhunter-1.4.6/LICENSE
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/share/doc/rkhunter-1.4.6/README
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+
+Directory: /usr/share/man/man8
+ Mtime     : 2022-04-25 21:15:54 +0300        | 2022-04-25 21:26:20 +0300
+ Ctime     : 2022-04-25 21:15:54 +0300        | 2022-04-25 21:26:20 +0300
+
+File: /usr/share/man/man8/rkhunter.8.gz
+ Ctime     : 2022-04-25 21:15:47 +0300        | 2022-04-25 21:26:20 +0300
+ Inode     : 7889898                          | 7875167
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : eN6ZAP0Ds4s90kM0ve4Xww==
+ SHA1      : Rd4qZpc2zFLBRX/bVmNbTKEPBRQ=
+ SHA256    : +U3KCH331f2iUD5tm04DAHrXaVrZWRNi
+             tyYd5oFfuHM=
+ SHA512    : DLWNYKQpKZy7Ou68xPBOXssTsXFarC09
+             F2lNC7hnHz4eKzuaVygUsPVfKRaH3MNe
+             9QPBdKzKALlKeG3DUEO49A==
+ RMD160    : +Mvv3x+tzCOWp9ljzZ62ATXRms0=
+ TIGER     : QPPHGkK6eWdEh1Mb6vtdqR3H7xWmJYpY
+ CRC32     : llvubQ==
+ CRC32B    : 3QE8Jw==
+ HAVAL     : Tv+kcbYMbdH6Z6SbxI7waKR/tCWdJlP5
+             qSck3DBB2z0=
+ WHIRLPOOL : 4J8eFAHnjm2ZPyv3jK4vyR/CG3H90Y5F
+             y7DZnlV9axM5VI1Wdu3r/5t9/ogoZbIe
+             odsCes7hUOsyIC+B+baK2A==
+ GOST      : 8Dww5cFn4Kv+HQclqfqRplrEzQ3CvI/p
+             WGJuK4djF/M=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : GasE8KiOa7K+ju/860WIyA==
+ SHA1      : aEsC2kCpNlIfA7U9xCHNJTyAs8s=
+ SHA256    : FCAh6yzP6g8QGej3+BWJNwY41zoihoxz
+             JWY0X5ORajw=
+ SHA512    : RyFDPQmLOiYvnVyAtifWDKQBeJGvm/F8
+             in0RFLWjw47MfheHwpU3t0yUFSWYV71Z
+             z7C/aKG97g5FHccWUkO39g==
+ RMD160    : 6d1SYi3NkrAf2gofjTZ3sJBbtyc=
+ TIGER     : lCxZnMyj8Q3io73A9dY/BHodPRUVv8fc
+ CRC32     : 3HzZ9Q==
+ CRC32B    : MDKZ7g==
+ HAVAL     : 5G2rQDvjJ5j/P2nnt2+EgOSUgQKfPgKn
+             NCi7HBxw2EE=
+ WHIRLPOOL : laMcIlXjZkGvI6XMhlh7fnkaBGQ+sP1s
+             zP46VPT6BQ/nw7eKhjykPGlVQw+naVdg
+             GDdxhHwzILVfcj19U97S2Q==
+ GOST      : l/M2WJ57B+f+y4Z8d3a0d0gwMxdY3Zuc
+             udLDoTywyz0=
+
+
+End timestamp: 2022-04-25 21:33:36 +0300 (run time: 6m 37s)

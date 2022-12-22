@@ -1,0 +1,187 @@
+Start timestamp: 2022-03-02 02:13:10 +0200 (AIDE 0.17.3)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+
+Summary:
+  Total number of entries:	299325
+  Added entries:		0
+  Removed entries:		0
+  Changed entries:		20
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f   ...   i     : /etc/.updated
+f   ...   i     : /etc/NetworkManager/system-connections/MKSWIFI.nmconnection
+f   ...   i     : /etc/ld.so.cache
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.browser
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.extra
+s   ...   i     : /etc/pacman.d/gnupg/S.gpg-agent.ssh
+f < ...    .H . : /etc/resolv.conf
+f = p.. .c... X : /usr/bin/chage
+f = p.. .c... X : /usr/bin/chfn
+f = p.. .c... X : /usr/bin/chsh
+f = p.. .c... X : /usr/bin/expiry
+f = p.. .c... X : /usr/bin/gpasswd
+f = p.. .c... . : /usr/bin/ksu
+f = p.. .c... X : /usr/bin/newgrp
+f = p.. .c... X : /usr/bin/passwd
+f = p.. .c... . : /usr/bin/sg
+f = p.. .c... . : /usr/bin/su
+f = p.. .c... X : /usr/bin/unix_chkpwd
+f = p.. .c... . : /usr/lib/Xorg.wrap
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/.updated
+ Inode     : 117340                           | 71831
+
+File: /etc/NetworkManager/system-connections/MKSWIFI.nmconnection
+ Inode     : 43932                            | 801697
+
+File: /etc/ld.so.cache
+ Inode     : 801500                           | 66724
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent
+ Inode     : 66046                            | 118428
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.browser
+ Inode     : 66723                            | 118556
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.extra
+ Inode     : 66047                            | 118429
+
+Socket: /etc/pacman.d/gnupg/S.gpg-agent.ssh
+ Inode     : 66724                            | 118615
+
+File: /etc/resolv.conf
+ Size      : 68                               | 49
+ MD5       : 5sJxJkzuQONmgwbftxDMTw==         | bWQNuuXBWaIbyxSlpf1GVg==
+ SHA256    : SR0h3fhFku53xkS+X3d0J/0G4y9OY6b/ | NxfZibNn41iitzt6HyCtPaW9t/K+e23T
+             J4fnbh4ZVTM=                     | 5Killu0yqdI=
+ RMD160    : z8vJEHxwmF4R6zAN0DXyu9XnyMU=     | YbCou13CDBcBUWmGN9VQtf+Vf+w=
+ TIGER     : AUP0hEb1QIMhg5k83kdbaVwh95g/tlju | vNyllslL5mjPei2/fRBZREsCsbD0DxfP
+
+File: /usr/bin/chage
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chfn
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/chsh
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoEAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/expiry
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/gpasswd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AoMAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/ksu
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:42 +0200        | 2022-03-02 02:07:15 +0200
+
+File: /usr/bin/newgrp
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AkIAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/passwd
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgsAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/bin/sg
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+
+File: /usr/bin/su
+ Perm      : -rwsr-xr-x                       | -rwxr-xr-x
+ Ctime     : 2022-03-02 01:04:59 +0200        | 2022-03-02 02:07:15 +0200
+
+File: /usr/bin/unix_chkpwd
+ Perm      : -rwsr-sr-x                       | -rwxr-sr-x
+ Ctime     : 2022-03-02 01:04:51 +0200        | 2022-03-02 02:07:15 +0200
+ XAttrs    : num=0                            | num=1
+                                              | [1] security.capability <=> AQAA
+                                              | AgQAAAAAAAAAAAAAAAAAAAA=
+
+File: /usr/lib/Xorg.wrap
+ Perm      : -r-sr-xr-x                       | -r-xr-xr-x
+ Ctime     : 2022-03-02 01:06:35 +0200        | 2022-03-02 02:07:15 +0200
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.gz
+ MD5       : tUEJsH9N9t9WaN1VKaC0Cg==
+ SHA1      : znQiG31Q2QycqATClq9R9t1hrrY=
+ SHA256    : DL3y3m0mb3UCCbEl/IELre+HNMwjMmJF
+             dnMHTzY5Puo=
+ SHA512    : hmcnetsA7vGP9Ma7DRfdYuhec2TPez6g
+             +OTUOIip1tniH1IAJQuN3CURP+8JFaXJ
+             pvenDFBfXbxvRJPkuXoZAw==
+ RMD160    : 5ULGGgvcj65pZ+y6vyDjfdaPPVc=
+ TIGER     : sp7y5A9iKnyYWdQu0KWOzGDsPIDTY975
+ CRC32     : 0rOmQg==
+ CRC32B    : dy38Tw==
+ HAVAL     : UAnARc6aChgF/loCY7rmhDnAe5vRm3ym
+             kqipY5wr7ow=
+ WHIRLPOOL : VNGFMnoJ/eKewi4f34aVrwsBpUECZ8J5
+             8RLZiUxofvFeKef2sZeHcK2sY3kTD2Sx
+             3bWXq5z5m0QAjAiT7jV10Q==
+ GOST      : 5RlW8+EQArFVAebuGIrcaR862aJMCDkV
+             +IM8EfURTxY=
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : /UU+DxrgfqwTHyv3Zrpm4w==
+ SHA1      : lL41G0xTB6Biszb20NZJN3rhpYI=
+ SHA256    : Grd3n4jyoaurLUZigvsakCTbPzh4Awc6
+             MKvuV1OuLQU=
+ SHA512    : bjOp7J6xRsBJqesIYW/rbrOSyCi5HW3O
+             dZtzXNQ3y/VYeGwtaSrM7PFGYRLlpBVf
+             clVTwGm2W3u/GQWpJpKEqA==
+ RMD160    : FOnQlD/W2eI9R0QQUnrV6PGdwz0=
+ TIGER     : 2D90AIkO9G2VpPlRUjmLsQr1boo3hkb9
+ CRC32     : 3ZQn0Q==
+ CRC32B    : 3hEovA==
+ HAVAL     : ctd7WKhC71jR2pPADWI6K8GbmD3mS+ul
+             8rYkf2jielg=
+ WHIRLPOOL : qgysHoJhmMrNPZGKWK/9d4RalgNx0CLF
+             hPqXN1TPv+KIogDNHjaSJXoKfkNKq6Y4
+             y1yWHtSSlJza6Jcy/WctMA==
+ GOST      : hujMW+zWwSxGidPfbb2AvdAw7HxSTLiS
+             NLaMVLkTdEQ=
+
+
+End timestamp: 2022-03-02 02:19:42 +0200 (run time: 6m 32s)
