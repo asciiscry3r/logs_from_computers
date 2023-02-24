@@ -1,0 +1,1667 @@
+[лют24 19:32] Linux version 6.1.12-zen1-1-zen (linux-zen@archlinux) (gcc (GCC) 12.2.1 20230201, GNU ld (GNU Binutils) 2.40) #1 ZEN SMP PREEMPT_DYNAMIC Tue, 14 Feb 2023 22:08:11 +0000
+[  +0,000000] Command line: BOOT_IMAGE=/boot/vmlinuz-linux-zen root=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a rw rd.udev.log_priority=3 vt.global_cursor_default=0 resume=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a log_buf_len=1M print-fatal-signals=1 loglevel=3 audit=1 console=tty0 console=ttys0,115200n0 kvm-intel.nested=1 no_timer_check noreplace-smp rcupdate.rcu_expedited=1 tsc=reliable lsm=yama,safesetid,integrity,landlock,lockdown,apparmor,bpf l1tf=flush,nosmt mds=full,nosmt tsx_async_abort=full,nosmt mmio_stale_data=full,nosmt retbleed=auto,nosmt mitigations=auto,nosmt nosmt=force pcie_aspm=force init_on_alloc=1 init_on_free=1 page_alloc.shuffle=1 vsyscall=none mce=0 debugfs=on randomize_kstack_offset=on slab_nomerge pti=on slub_debug=ZF slub_debug=P page_poison=on fsck.mode=force fsck.repair=yes 915.modeset=1 i915.fastboot=1 i915.enable_fbc=1 i915.edp_vswing=2 nvidia_drm.modeset=1 iommu.strict=1 intremap=on intel_iommu=igfx_off efi=disable_early_pci_dma pci=use_crs
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+[  +0,000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[  +0,000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+[  +0,000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+[  +0,000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+[  +0,000000] signal: max sigframe size: 2032
+[  +0,000000] BIOS-provided physical RAM map:
+[  +0,000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000057fff] usable
+[  +0,000000] BIOS-e820: [mem 0x0000000000058000-0x0000000000058fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000000059000-0x000000000009dfff] usable
+[  +0,000000] BIOS-e820: [mem 0x000000000009e000-0x00000000000fffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000000100000-0x000000002a955fff] usable
+[  +0,000000] BIOS-e820: [mem 0x000000002a956000-0x000000002a956fff] ACPI NVS
+[  +0,000000] BIOS-e820: [mem 0x000000002a957000-0x000000002a980fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x000000002a981000-0x00000000389c2fff] usable
+[  +0,000000] BIOS-e820: [mem 0x00000000389c3000-0x0000000038d7efff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000038d7f000-0x0000000038dbcfff] ACPI data
+[  +0,000000] BIOS-e820: [mem 0x0000000038dbd000-0x0000000039426fff] ACPI NVS
+[  +0,000000] BIOS-e820: [mem 0x0000000039427000-0x000000003a425fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x000000003a426000-0x000000003a4fefff] type 20
+[  +0,000000] BIOS-e820: [mem 0x000000003a4ff000-0x000000003a4fffff] usable
+[  +0,000000] BIOS-e820: [mem 0x000000003a500000-0x000000003fffffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000fe000000-0x00000000fe010fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000100000000-0x00000008bdffffff] usable
+[  +0,000000] SMT: Force disabled
+[  +0,000000] NX (Execute Disable) protection: active
+[  +0,000000] efi: EFI v2.40 by American Megatrends
+[  +0,000000] efi: ACPI=0x38d8b000 ACPI 2.0=0x38d8b000 SMBIOS=0xf0000 ESRT=0x3a1c5018 MEMATTR=0x36615018 
+[  +0,000000] SMBIOS 2.8 present.
+[  +0,000000] DMI: Dell Inc. Precision 5510/08R8KJ, BIOS 1.23.0 07/06/2022
+[  +0,000000] tsc: Detected 2800.000 MHz processor
+[  +0,000000] tsc: Detected 2799.927 MHz TSC
+[  +0,000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[  +0,000003] e820: remove [mem 0x000a0000-0x000fffff] usable
+[  +0,000010] last_pfn = 0x8be000 max_arch_pfn = 0x400000000
+[  +0,000116] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[  +0,000489] last_pfn = 0x3a500 max_arch_pfn = 0x400000000
+[  +0,008203] esrt: Reserving ESRT space from 0x000000003a1c5018 to 0x000000003a1c5050.
+[  +0,000009] Using GB pages for direct mapping
+[  +0,000907] printk: log_buf_len: 1048576 bytes
+[  +0,000001] printk: early log buf free: 126808(96%)
+[  +0,000001] Secure boot disabled
+[  +0,000000] RAMDISK: [mem 0x3221f000-0x35106fff]
+[  +0,000004] ACPI: Early table checksum verification disabled
+[  +0,000003] ACPI: RSDP 0x0000000038D8B000 000024 (v02 DELL  )
+[  +0,000004] ACPI: XSDT 0x0000000038D8B0C8 00010C (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000006] ACPI: FACP 0x0000000038DABF90 00010C (v05 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000005] ACPI: DSDT 0x0000000038D8B260 020D2E (v02 DELL   CBX3     01072009 INTL 20120913)
+[  +0,000003] ACPI: FACS 0x0000000039420D80 000040
+[  +0,000003] ACPI: APIC 0x0000000038DAC0A0 000084 (v03 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000003] ACPI: FPDT 0x0000000038DAC128 000044 (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000002] ACPI: MCFG 0x0000000038DAC170 00003C (v01 DELL   CBX3     01072009 MSFT 00000097)
+[  +0,000003] ACPI: HPET 0x0000000038DAC1B0 000038 (v01 DELL   CBX3     01072009 AMI. 0005000B)
+[  +0,000003] ACPI: SSDT 0x0000000038DAC1E8 00046D (v01 SataRe SataTabl 00001000 INTL 20120913)
+[  +0,000003] ACPI: WSMT 0x0000000038DAC658 000028 (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000003] ACPI: LPIT 0x0000000038DAC680 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+[  +0,000003] ACPI: SSDT 0x0000000038DAC718 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DAC960 002BAE (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DAF510 000024 (v02 INTEL  OEM_RTD3 00001000 INTL 20120913)
+[  +0,000002] ACPI: SSDT 0x0000000038DAF538 000BE3 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DB0120 0004DC (v02 INTEL  zpodd    00001000 INTL 20120913)
+[  +0,000003] ACPI: DBGP 0x0000000038DB0600 000034 (v01 INTEL           00000000 MSFT 0000005F)
+[  +0,000003] ACPI: DBG2 0x0000000038DB0638 000054 (v00 INTEL           00000000 MSFT 0000005F)
+[  +0,000003] ACPI: SSDT 0x0000000038DB0690 000775 (v02 INTEL  xh_rvp10 00000000 INTL 20120913)
+[  +0,000003] ACPI: BOOT 0x0000000038DB0E08 000028 (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000003] ACPI: SSDT 0x0000000038DB0E30 0037D6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+[  +0,000002] ACPI: UEFI 0x0000000038DB4608 000042 (v01                 00000000      00000000)
+[  +0,000003] ACPI: SSDT 0x0000000038DB4650 000E73 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DB54C8 0044FA (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+[  +0,000003] ACPI: MSDM 0x0000000038DB99C8 000055 (v03 DELL   CBX3     06222004 AMI  00010013)
+[  +0,000003] ACPI: SLIC 0x0000000038DB9A20 000176 (v03 DELL   CBX3     01072009 MSFT 00010013)
+[  +0,000003] ACPI: TCPA 0x0000000038DB9B98 000032 (v02 ALASKA NAPAASF  00000000 MSFT 01000013)
+[  +0,000003] ACPI: BGRT 0x0000000038DB9BD0 000038 (v00 ?Hr;            01072009 AMI  00010013)
+[  +0,000003] ACPI: SSDT 0x0000000038DB9C08 0000C3 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+[  +0,000003] ACPI: DMAR 0x0000000038DB9CD0 0000F0 (v01 INTEL  SKL      00000001 INTL 00000001)
+[  +0,000002] ACPI: SSDT 0x0000000038DB9DC0 001868 (v01 OptRef OptTabl  00001000 INTL 20120913)
+[  +0,000003] ACPI: ASF! 0x0000000038DBB628 0000A5 (v32 INTEL   HCG     00000001 TFSM 000F4240)
+[  +0,000003] ACPI: Reserving FACP table memory at [mem 0x38dabf90-0x38dac09b]
+[  +0,000001] ACPI: Reserving DSDT table memory at [mem 0x38d8b260-0x38dabf8d]
+[  +0,000001] ACPI: Reserving FACS table memory at [mem 0x39420d80-0x39420dbf]
+[  +0,000001] ACPI: Reserving APIC table memory at [mem 0x38dac0a0-0x38dac123]
+[  +0,000001] ACPI: Reserving FPDT table memory at [mem 0x38dac128-0x38dac16b]
+[  +0,000001] ACPI: Reserving MCFG table memory at [mem 0x38dac170-0x38dac1ab]
+[  +0,000000] ACPI: Reserving HPET table memory at [mem 0x38dac1b0-0x38dac1e7]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38dac1e8-0x38dac654]
+[  +0,000001] ACPI: Reserving WSMT table memory at [mem 0x38dac658-0x38dac67f]
+[  +0,000001] ACPI: Reserving LPIT table memory at [mem 0x38dac680-0x38dac713]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38dac718-0x38dac95f]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38dac960-0x38daf50d]
+[  +0,000000] ACPI: Reserving SSDT table memory at [mem 0x38daf510-0x38daf533]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38daf538-0x38db011a]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db0120-0x38db05fb]
+[  +0,000001] ACPI: Reserving DBGP table memory at [mem 0x38db0600-0x38db0633]
+[  +0,000001] ACPI: Reserving DBG2 table memory at [mem 0x38db0638-0x38db068b]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db0690-0x38db0e04]
+[  +0,000000] ACPI: Reserving BOOT table memory at [mem 0x38db0e08-0x38db0e2f]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db0e30-0x38db4605]
+[  +0,000001] ACPI: Reserving UEFI table memory at [mem 0x38db4608-0x38db4649]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db4650-0x38db54c2]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db54c8-0x38db99c1]
+[  +0,000001] ACPI: Reserving MSDM table memory at [mem 0x38db99c8-0x38db9a1c]
+[  +0,000000] ACPI: Reserving SLIC table memory at [mem 0x38db9a20-0x38db9b95]
+[  +0,000001] ACPI: Reserving TCPA table memory at [mem 0x38db9b98-0x38db9bc9]
+[  +0,000001] ACPI: Reserving BGRT table memory at [mem 0x38db9bd0-0x38db9c07]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db9c08-0x38db9cca]
+[  +0,000001] ACPI: Reserving DMAR table memory at [mem 0x38db9cd0-0x38db9dbf]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db9dc0-0x38dbb627]
+[  +0,000001] ACPI: Reserving ASF! table memory at [mem 0x38dbb628-0x38dbb6cc]
+[  +0,000107] No NUMA configuration found
+[  +0,000001] Faking a node at [mem 0x0000000000000000-0x00000008bdffffff]
+[  +0,000003] NODE_DATA(0) allocated [mem 0x8bdb7b000-0x8bdb7ffff]
+[  +0,000052] Zone ranges:
+[  +0,000001]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[  +0,000002]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[  +0,000001]   Normal   [mem 0x0000000100000000-0x00000008bdffffff]
+[  +0,000002]   Device   empty
+[  +0,000001] Movable zone start for each node
+[  +0,000000] Early memory node ranges
+[  +0,000001]   node   0: [mem 0x0000000000001000-0x0000000000057fff]
+[  +0,000001]   node   0: [mem 0x0000000000059000-0x000000000009dfff]
+[  +0,000001]   node   0: [mem 0x0000000000100000-0x000000002a955fff]
+[  +0,000001]   node   0: [mem 0x000000002a981000-0x00000000389c2fff]
+[  +0,000001]   node   0: [mem 0x000000003a4ff000-0x000000003a4fffff]
+[  +0,000001]   node   0: [mem 0x0000000100000000-0x00000008bdffffff]
+[  +0,000004] Initmem setup node 0 [mem 0x0000000000001000-0x00000008bdffffff]
+[  +0,000004] On node 0, zone DMA: 1 pages in unavailable ranges
+[  +0,000002] On node 0, zone DMA: 1 pages in unavailable ranges
+[  +0,000021] On node 0, zone DMA: 98 pages in unavailable ranges
+[  +0,001161] On node 0, zone DMA32: 43 pages in unavailable ranges
+[  +0,000087] On node 0, zone DMA32: 6972 pages in unavailable ranges
+[  +0,042213] On node 0, zone Normal: 23296 pages in unavailable ranges
+[  +0,000106] On node 0, zone Normal: 8192 pages in unavailable ranges
+[  +0,000020] Reserving Intel graphics memory at [mem 0x3c000000-0x3fffffff]
+[  +0,000998] ACPI: PM-Timer IO Port: 0x1808
+[  +0,000007] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[  +0,000002] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[  +0,000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[  +0,000001] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[  +0,000026] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[  +0,000003] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[  +0,000002] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[  +0,000004] ACPI: Using ACPI (MADT) for SMP configuration information
+[  +0,000001] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[  +0,000006] e820: update [mem 0x36352000-0x363d5fff] usable ==> reserved
+[  +0,000014] TSC deadline timer available
+[  +0,000001] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[  +0,000017] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[  +0,000003] PM: hibernation: Registered nosave memory: [mem 0x00058000-0x00058fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x0009e000-0x000fffff]
+[  +0,000002] PM: hibernation: Registered nosave memory: [mem 0x2a956000-0x2a956fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x2a957000-0x2a980fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x36352000-0x363d5fff]
+[  +0,000002] PM: hibernation: Registered nosave memory: [mem 0x389c3000-0x38d7efff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x38d7f000-0x38dbcfff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x38dbd000-0x39426fff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0x39427000-0x3a425fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x3a426000-0x3a4fefff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x3a500000-0x3fffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x40000000-0xdfffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xefffffff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0xf0000000-0xfdffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfe000000-0xfe010fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfe011000-0xfebfffff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xffffffff]
+[  +0,000001] [mem 0x40000000-0xdfffffff] available for PCI devices
+[  +0,000002] Booting paravirtualized kernel on bare hardware
+[  +0,000002] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[  +0,006254] setup_percpu: NR_CPUS:320 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+[  +0,000141] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u524288
+[  +0,000006] pcpu-alloc: s221184 r8192 d28672 u524288 alloc=1*2097152
+[  +0,000002] pcpu-alloc: [0] 0 1 2 3 
+[  +0,000019] Fallback order for Node 0: 0 
+[  +0,000002] Built 1 zonelists, mobility grouping on.  Total pages: 8219378
+[  +0,000002] Policy zone: Normal
+[  +0,000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-zen root=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a rw rd.udev.log_priority=3 vt.global_cursor_default=0 resume=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a log_buf_len=1M print-fatal-signals=1 loglevel=3 audit=1 console=tty0 console=ttys0,115200n0 kvm-intel.nested=1 no_timer_check noreplace-smp rcupdate.rcu_expedited=1 tsc=reliable lsm=yama,safesetid,integrity,landlock,lockdown,apparmor,bpf l1tf=flush,nosmt mds=full,nosmt tsx_async_abort=full,nosmt mmio_stale_data=full,nosmt retbleed=auto,nosmt mitigations=auto,nosmt nosmt=force pcie_aspm=force init_on_alloc=1 init_on_free=1 page_alloc.shuffle=1 vsyscall=none mce=0 debugfs=on randomize_kstack_offset=on slab_nomerge pti=on slub_debug=ZF slub_debug=P page_poison=on fsck.mode=force fsck.repair=yes 915.modeset=1 i915.fastboot=1 i915.enable_fbc=1 i915.edp_vswing=2 nvidia_drm.modeset=1 iommu.strict=1 intremap=on intel_iommu=igfx_off efi=disable_early_pci_dma pci=use_crs
+[  +0,000114] audit: enabled (after initialization)
+[  +0,000169] PCIe ASPM is forcibly enabled
+[  +0,000138] mem auto-init: SLAB_POISON will take precedence over init_on_alloc/init_on_free
+[  +0,000151] DMAR: Disable GFX device mapping
+[  +0,000027] Unknown kernel command line parameters "BOOT_IMAGE=/boot/vmlinuz-linux-zen pti=on", will be passed to user space.
+[  +0,000046] random: crng init done
+[  +0,001415] Dentry cache hash table entries: 4194304 (order: 13, 33554432 bytes, linear)
+[  +0,000861] Inode-cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[  +0,000057] mem auto-init: CONFIG_PAGE_POISONING is on, will take precedence over init_on_alloc and init_on_free
+[  +0,000092] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[  +0,000009] software IO TLB: area num 4.
+[  +2,218285] Memory: 32621484K/33400020K available (18439K kernel code, 2180K rwdata, 11000K rodata, 2152K init, 3164K bss, 778276K reserved, 0K cma-reserved)
+[  +0,000011] **********************************************************
+[  +0,000001] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[  +0,000000] **                                                      **
+[  +0,000000] ** This system shows unhashed kernel memory addresses   **
+[  +0,000001] ** via the console, logs, and other interfaces. This    **
+[  +0,000000] ** might reduce the security of your system.            **
+[  +0,000001] **                                                      **
+[  +0,000000] ** If you see this message and you are not debugging    **
+[  +0,000001] ** the kernel, report this immediately to your system   **
+[  +0,000000] ** administrator!                                       **
+[  +0,000000] **                                                      **
+[  +0,000001] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[  +0,000000] **********************************************************
+[  +0,000116] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[  +0,000015] Kernel/User page tables isolation: enabled
+[  +0,000014] ftrace: allocating 44248 entries in 173 pages
+[  +0,007725] ftrace: allocated 173 pages with 5 groups
+[  +0,000072] Dynamic Preempt: full
+[  +0,000029] rcu: Preemptible hierarchical RCU implementation.
+[  +0,000001] rcu: 	RCU restricting CPUs from NR_CPUS=320 to nr_cpu_ids=4.
+[  +0,000001] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[  +0,000001] 	All grace periods are expedited (rcu_expedited).
+[  +0,000000] 	Trampoline variant of Tasks RCU enabled.
+[  +0,000001] 	Rude variant of Tasks RCU enabled.
+[  +0,000000] 	Tracing variant of Tasks RCU enabled.
+[  +0,000001] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[  +0,000001] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[  +0,004613] NR_IRQS: 20736, nr_irqs: 1024, preallocated irqs: 16
+[  +0,000203] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[  +0,000213] kfence: initialized - using 2097152 bytes for 255 objects at 0xffff921b1a600000-0xffff921b1a800000
+[  +0,000024] Console: colour dummy device 80x25
+[  +0,000019] printk: console [tty0] enabled
+[  +0,000020] ACPI: Core revision 20220331
+[  +0,000280] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635855245 ns
+[  +0,000068] APIC: Switch to symmetric I/O mode setup
+[  +0,000002] DMAR: Host address width 39
+[  +0,000001] DMAR: DRHD base: 0x000000fed90000 flags: 0x0
+[  +0,000006] DMAR: dmar0: reg_base_addr fed90000 ver 1:0 cap 1c0000c40660462 ecap 7e3ff0505e
+[  +0,000003] DMAR: DRHD base: 0x000000fed91000 flags: 0x1
+[  +0,000004] DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap d2008c40660462 ecap f050da
+[  +0,000002] DMAR: RMRR base: 0x00000038b12000 end: 0x00000038b31fff
+[  +0,000001] DMAR: RMRR base: 0x0000003b800000 end: 0x0000003fffffff
+[  +0,000002] DMAR: ANDD device: 1 name: \_SB.PCI0.I2C0
+[  +0,000001] DMAR: ANDD device: 2 name: \_SB.PCI0.I2C1
+[  +0,000001] DMAR-IR: IOAPIC id 2 under DRHD base  0xfed91000 IOMMU 1
+[  +0,000002] DMAR-IR: HPET id 0 under DRHD base 0xfed91000
+[  +0,000001] DMAR-IR: x2apic is disabled because BIOS sets x2apic opt out bit.
+[  +0,000001] DMAR-IR: Use 'intremap=no_x2apic_optout' to override the BIOS setting.
+[  +0,001900] DMAR-IR: Enabled IRQ remapping in xapic mode
+[  +0,000002] x2apic: IRQ remapping doesn't support X2APIC mode
+[  +0,003920] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[  +0,000006] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x285bfbafad2, max_idle_ns: 440795215530 ns
+[  +0,000004] Calibrating delay loop (skipped), value calculated using timer frequency.. 5599.85 BogoMIPS (lpj=2799927)
+[  +0,000003] pid_max: default: 32768 minimum: 301
+[  +0,005035] LSM: Security Framework initializing
+[  +0,000016] Yama: becoming mindful.
+[  +0,000008] landlock: Up and running.
+[  +0,000029] AppArmor: AppArmor initialized
+[  +0,000004] LSM support for eBPF active
+[  +0,000099] Mount-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[  +0,000082] Mountpoint-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[  +0,000278] x86/cpu: SGX disabled by BIOS.
+[  +0,000006] CPU0: Thermal monitoring enabled (TM1)
+[  +0,000047] process: using mwait in idle threads
+[  +0,000002] Last level iTLB entries: 4KB 128, 2MB 8, 4MB 8
+[  +0,000001] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+[  +0,000006] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[  +0,000006] Spectre V2 : Mitigation: IBRS
+[  +0,000000] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[  +0,000001] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+[  +0,000001] RETBleed: Mitigation: IBRS
+[  +0,000004] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[  +0,000005] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[  +0,000009] MDS: Mitigation: Clear CPU buffers
+[  +0,000001] TAA: Mitigation: TSX disabled
+[  +0,000001] MMIO Stale Data: Mitigation: Clear CPU buffers
+[  +0,000006] SRBDS: Mitigation: Microcode
+[  +0,025090] Freeing SMP alternatives memory: 48K
+[  +0,000340] smpboot: CPU0: Intel(R) Xeon(R) CPU E3-1505M v5 @ 2.80GHz (family: 0x6, model: 0x5e, stepping: 0x3)
+[  +0,000163] cblist_init_generic: Setting adjustable number of callback queues.
+[  +0,000002] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000016] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000019] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000015] Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver.
+[  +0,000022] ... version:                4
+[  +0,000001] ... bit width:              48
+[  +0,000001] ... generic registers:      8
+[  +0,000001] ... value mask:             0000ffffffffffff
+[  +0,000001] ... max period:             00007fffffffffff
+[  +0,000001] ... fixed-purpose events:   3
+[  +0,000000] ... event mask:             00000007000000ff
+[  +0,000136] Estimated ratio of average max frequency by base frequency (times 1024): 1206
+[  +0,000026] rcu: Hierarchical SRCU implementation.
+[  +0,000001] rcu: 	Max phase no-delay instances is 400.
+[  +0,000781] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[  +0,000073] smp: Bringing up secondary CPUs ...
+[  +0,000114] x86: Booting SMP configuration:
+[  +0,000001] .... node  #0, CPUs:      #1 #2 #3
+[  +0,006339] smp: Brought up 1 node, 4 CPUs
+[  +0,000000] smpboot: Max logical packages: 1
+[  +0,000000] smpboot: Total of 4 processors activated (22399.41 BogoMIPS)
+[  +0,003270] devtmpfs: initialized
+[  +0,000000] x86/mm: Memory block size: 128MB
+[  +0,003263] ACPI: PM: Registering ACPI NVS region [mem 0x2a956000-0x2a956fff] (4096 bytes)
+[  +0,000003] ACPI: PM: Registering ACPI NVS region [mem 0x38dbd000-0x39426fff] (6725632 bytes)
+[  +0,000281] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[  +0,000009] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[  +0,000045] pinctrl core: initialized pinctrl subsystem
+[  +0,000524] PM: RTC time: 17:32:06, date: 2023-02-24
+[  +0,000507] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[  +0,000762] DMA: preallocated 4096 KiB GFP_KERNEL pool for atomic allocations
+[  +0,000330] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[  +0,000334] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[  +0,000013] audit: initializing netlink subsys (enabled)
+[  +0,000008] audit: type=2000 audit(1677259926.050:1): state=initialized audit_enabled=1 res=1
+[  +0,000000] thermal_sys: Registered thermal governor 'fair_share'
+[  +0,000000] thermal_sys: Registered thermal governor 'bang_bang'
+[  +0,000000] thermal_sys: Registered thermal governor 'step_wise'
+[  +0,000000] thermal_sys: Registered thermal governor 'user_space'
+[  +0,000000] thermal_sys: Registered thermal governor 'power_allocator'
+[  +0,000000] cpuidle: using governor ladder
+[  +0,000000] cpuidle: using governor menu
+[  +0,000323] Simple Boot Flag at 0x47 set to 0x80
+[  +0,000000] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[  +0,000000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[  +0,000000] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[  +0,000000] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+[  +0,000000] PCI: Using configuration type 1 for base access
+[  +0,000787] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[  +0,002133] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[  +0,003642] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[  +0,000000] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+[  +0,000000] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[  +0,000000] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[  +0,000145] ACPI: Added _OSI(Module Device)
+[  +0,000000] ACPI: Added _OSI(Processor Device)
+[  +0,000000] ACPI: Added _OSI(3.0 _SCP Extensions)
+[  +0,000000] ACPI: Added _OSI(Processor Aggregator Device)
+[  +0,062968] ACPI: 13 ACPI AML tables successfully acquired and loaded
+[  +0,003947] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[  +0,015276] ACPI: Dynamic OEM Table Load:
+[  +0,000008] ACPI: SSDT 0xFFFF92186F3D0000 00061E (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+[  +0,001981] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+[  +0,002069] ACPI: Dynamic OEM Table Load:
+[  +0,000007] ACPI: SSDT 0xFFFF92186F32E800 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+[  +0,002708] ACPI: Dynamic OEM Table Load:
+[  +0,000007] ACPI: SSDT 0xFFFF92186F3D4000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+[  +0,002424] ACPI: Dynamic OEM Table Load:
+[  +0,000005] ACPI: SSDT 0xFFFF92186F360C00 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+[  +0,004805] ACPI: EC: EC started
+[  +0,000001] ACPI: EC: interrupt blocked
+[  +0,003495] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0,000002] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC used to handle transactions
+[  +0,000002] ACPI: Interpreter enabled
+[  +0,000053] ACPI: PM: (supports S0 S4 S5)
+[  +0,000001] ACPI: Using IOAPIC for interrupt routing
+[  +0,000053] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[  +0,000001] PCI: Using E820 reservations for host bridge windows
+[  +0,001091] ACPI: Enabled 9 GPEs in block 00 to 7F
+[  +0,002635] ACPI: PM: Power Resource [PG00]
+[  +0,037163] ACPI: PM: Power Resource [PG01]
+[  +0,000704] ACPI: PM: Power Resource [PG02]
+[  +0,002967] ACPI: PM: Power Resource [WRST]
+[  +0,000535] ACPI: PM: Power Resource [WRST]
+[  +0,000539] ACPI: PM: Power Resource [WRST]
+[  +0,000548] ACPI: PM: Power Resource [WRST]
+[  +0,000540] ACPI: PM: Power Resource [WRST]
+[  +0,000535] ACPI: PM: Power Resource [WRST]
+[  +0,000533] ACPI: PM: Power Resource [WRST]
+[  +0,000536] ACPI: PM: Power Resource [WRST]
+[  +0,000531] ACPI: PM: Power Resource [WRST]
+[  +0,000532] ACPI: PM: Power Resource [WRST]
+[  +0,000537] ACPI: PM: Power Resource [WRST]
+[  +0,000533] ACPI: PM: Power Resource [WRST]
+[  +0,000534] ACPI: PM: Power Resource [WRST]
+[  +0,000531] ACPI: PM: Power Resource [WRST]
+[  +0,000533] ACPI: PM: Power Resource [WRST]
+[  +0,000538] ACPI: PM: Power Resource [WRST]
+[  +0,000532] ACPI: PM: Power Resource [WRST]
+[  +0,000536] ACPI: PM: Power Resource [WRST]
+[  +0,000538] ACPI: PM: Power Resource [WRST]
+[  +0,001104] ACPI: PM: Power Resource [WRST]
+[  +0,026575] ACPI: PM: Power Resource [FN00]
+[  +0,000137] ACPI: PM: Power Resource [FN01]
+[  +0,000133] ACPI: PM: Power Resource [FN02]
+[  +0,000131] ACPI: PM: Power Resource [FN03]
+[  +0,000137] ACPI: PM: Power Resource [FN04]
+[  +0,001529] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[  +0,000009] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[  +0,000108] acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[  +0,000003] acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[  +0,000001] acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_ERROR)
+[  +0,001339] PCI host bridge to bus 0000:00
+[  +0,000002] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[  +0,000003] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]
+[  +0,000001] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0x40000000-0xdfffffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+[  +0,000001] pci_bus 0000:00: root bus resource [bus 00-fe]
+[  +0,000023] pci 0000:00:00.0: [8086:1918] type 00 class 0x060000
+[  +0,000101] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
+[  +0,000068] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[  +0,000814] pci 0000:00:02.0: [8086:191d] type 00 class 0x030000
+[  +0,000023] pci 0000:00:02.0: reg 0x10: [mem 0xdb000000-0xdbffffff 64bit]
+[  +0,000014] pci 0000:00:02.0: reg 0x18: [mem 0x70000000-0x7fffffff 64bit pref]
+[  +0,000010] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[  +0,000031] pci 0000:00:02.0: BAR 2: assigned to efifb
+[  +0,000004] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[  +0,000265] pci 0000:00:04.0: [8086:1903] type 00 class 0x118000
+[  +0,000017] pci 0000:00:04.0: reg 0x10: [mem 0xddd20000-0xddd27fff 64bit]
+[  +0,000494] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
+[  +0,000028] pci 0000:00:14.0: reg 0x10: [mem 0xddd10000-0xddd1ffff 64bit]
+[  +0,000092] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[  +0,000481] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
+[  +0,000027] pci 0000:00:14.2: reg 0x10: [mem 0xddd38000-0xddd38fff 64bit]
+[  +0,000236] pci 0000:00:15.0: [8086:a160] type 00 class 0x118000
+[  +0,000172] pci 0000:00:15.0: reg 0x10: [mem 0xddd37000-0xddd37fff 64bit]
+[  +0,001084] pci 0000:00:15.1: [8086:a161] type 00 class 0x118000
+[  +0,000196] pci 0000:00:15.1: reg 0x10: [mem 0xddd36000-0xddd36fff 64bit]
+[  +0,000945] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
+[  +0,000024] pci 0000:00:16.0: reg 0x10: [mem 0xddd35000-0xddd35fff 64bit]
+[  +0,000080] pci 0000:00:16.0: PME# supported from D3hot
+[  +0,000393] pci 0000:00:17.0: [8086:a102] type 00 class 0x010601
+[  +0,000028] pci 0000:00:17.0: reg 0x10: [mem 0xddd30000-0xddd31fff]
+[  +0,000016] pci 0000:00:17.0: reg 0x14: [mem 0xddd34000-0xddd340ff]
+[  +0,000015] pci 0000:00:17.0: reg 0x18: [io  0xf090-0xf097]
+[  +0,000015] pci 0000:00:17.0: reg 0x1c: [io  0xf080-0xf083]
+[  +0,000016] pci 0000:00:17.0: reg 0x20: [io  0xf060-0xf07f]
+[  +0,000015] pci 0000:00:17.0: reg 0x24: [mem 0xddd33000-0xddd337ff]
+[  +0,000048] pci 0000:00:17.0: PME# supported from D3hot
+[  +0,000459] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
+[  +0,000092] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[  +0,001008] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
+[  +0,000092] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[  +0,001020] pci 0000:00:1d.0: [8086:a118] type 01 class 0x060400
+[  +0,000094] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[  +0,001013] pci 0000:00:1d.4: [8086:a11c] type 01 class 0x060400
+[  +0,000087] pci 0000:00:1d.4: PME# supported from D0 D3hot D3cold
+[  +0,000982] pci 0000:00:1d.6: [8086:a11e] type 01 class 0x060400
+[  +0,000093] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[  +0,001002] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
+[  +0,000534] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
+[  +0,000018] pci 0000:00:1f.2: reg 0x10: [mem 0xddd2c000-0xddd2ffff]
+[  +0,000426] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
+[  +0,000028] pci 0000:00:1f.3: reg 0x10: [mem 0xddd28000-0xddd2bfff 64bit]
+[  +0,000034] pci 0000:00:1f.3: reg 0x20: [mem 0xddd00000-0xddd0ffff 64bit]
+[  +0,000050] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[  +0,000965] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
+[  +0,000059] pci 0000:00:1f.4: reg 0x10: [mem 0xddd32000-0xddd320ff 64bit]
+[  +0,000071] pci 0000:00:1f.4: reg 0x20: [io  0xf040-0xf05f]
+[  +0,000477] pci 0000:01:00.0: [10de:13b1] type 00 class 0x030200
+[  +0,000023] pci 0000:01:00.0: reg 0x10: [mem 0xdc000000-0xdcffffff]
+[  +0,000020] pci 0000:01:00.0: reg 0x14: [mem 0xb0000000-0xbfffffff 64bit pref]
+[  +0,000020] pci 0000:01:00.0: reg 0x1c: [mem 0xc0000000-0xc1ffffff 64bit pref]
+[  +0,000014] pci 0000:01:00.0: reg 0x24: [io  0xe000-0xe07f]
+[  +0,000014] pci 0000:01:00.0: reg 0x30: [mem 0xdd000000-0xdd07ffff pref]
+[  +0,000020] pci 0000:01:00.0: Enabling HDA controller
+[  +0,000055] pci 0000:01:00.0: 64.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
+[  +0,000618] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0,000003] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0,000003] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0,000003] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000111] pci 0000:02:00.0: [8086:24f3] type 00 class 0x028000
+[  +0,000051] pci 0000:02:00.0: reg 0x10: [mem 0xddc00000-0xddc01fff 64bit]
+[  +0,000211] pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+[  +0,000775] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0,000004] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0,000086] pci 0000:03:00.0: [10ec:525a] type 00 class 0xff0000
+[  +0,000040] pci 0000:03:00.0: reg 0x14: [mem 0xdd100000-0xdd100fff]
+[  +0,000145] pci 0000:03:00.0: supports D1 D2
+[  +0,000001] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[  +0,000639] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0,000004] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0,000002] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0,000004] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000069] pci 0000:04:00.0: [1179:010f] type 00 class 0x010802
+[  +0,000028] pci 0000:04:00.0: reg 0x10: [mem 0xddb00000-0xddb03fff 64bit]
+[  +0,000064] pci 0000:04:00.0: enabling Extended Tags
+[  +0,003256] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0,000005] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0,000061] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0,000058] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0,000005] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000004] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,003963] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[  +0,000103] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[  +0,000101] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+[  +0,000101] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[  +0,000102] ACPI: PCI: Interrupt link LNKE configured for IRQ 11
+[  +0,000100] ACPI: PCI: Interrupt link LNKF configured for IRQ 11
+[  +0,000101] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+[  +0,000101] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+[  +0,003272] ACPI: EC: interrupt unblocked
+[  +0,000002] ACPI: EC: event unblocked
+[  +0,000008] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0,000001] ACPI: EC: GPE=0x14
+[  +0,000002] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC initialization complete
+[  +0,000002] ACPI: \_SB_.PCI0.LPCB.ECDV: EC: Used to handle transactions and events
+[  +0,000089] iommu: Default domain type: Translated 
+[  +0,000000] iommu: DMA domain TLB invalidation policy: strict mode (set via kernel command line)
+[  +0,000000] SCSI subsystem initialized
+[  +0,000000] libata version 3.00 loaded.
+[  +0,000000] ACPI: bus type USB registered
+[  +0,000000] usbcore: registered new interface driver usbfs
+[  +0,000000] usbcore: registered new interface driver hub
+[  +0,000000] usbcore: registered new device driver usb
+[  +0,000000] pps_core: LinuxPPS API ver. 1 registered
+[  +0,000000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[  +0,000000] PTP clock support registered
+[  +0,000000] EDAC MC: Ver: 3.0.0
+[  +0,000014] Registered efivars operations
+[  +0,000875] NetLabel: Initializing
+[  +0,000001] NetLabel:  domain hash size = 128
+[  +0,000001] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[  +0,000028] NetLabel:  unlabeled traffic allowed by default
+[  -0,000002] audit: type=1409 audit(1677259926.272:2): netlabel: auid=0 ses=0 subj=unconfined nlbl_domain=(default) nlbl_protocol=unlbl res=1
+[  +0,000000] audit: type=1406 audit(1677259926.272:3): netlabel: auid=0 ses=0 subj=unconfined unlbl_accept=1 old=0
+[  +0,000007] mctp: management component transport protocol core
+[  +0,000001] NET: Registered PF_MCTP protocol family
+[  +0,000005] PCI: Using ACPI for IRQ routing
+[  +0,023541] PCI: pci_cache_line_size set to 64 bytes
+[  +0,000127] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+[  +0,000003] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x2a956000-0x2bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x36352000-0x37ffffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x389c3000-0x3bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x3a500000-0x3bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x8be000000-0x8bfffffff]
+[  +0,000015] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[  +0,000000] pci 0000:00:02.0: vgaarb: bridge control possible
+[  +0,000000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[  +0,000000] vgaarb: loaded
+[  +0,001847] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[  +0,000007] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+[  +0,001331] clocksource: Switched to clocksource tsc-early
+[  +0,000139] VFS: Disk quotas dquot_6.6.0
+[  +0,000011] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[  +0,000152] AppArmor: AppArmor Filesystem Enabled
+[  +0,000000] audit: type=1400 audit(1677259926.299:4): apparmor="STATUS" info="AppArmor Filesystem Enabled" pid=1 comm="swapper/0"
+[  +0,000035] pnp: PnP ACPI init
+[  +0,000318] system 00:00: [io  0x0680-0x069f] has been reserved
+[  +0,000004] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0xffff] has been reserved
+[  +0,000001] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0x1800-0x18fe] has been reserved
+[  +0,000002] system 00:00: [io  0x164e-0x164f] has been reserved
+[  +0,000137] system 00:01: [io  0x0800-0x087f] has been reserved
+[  +0,000081] system 00:03: [io  0x1854-0x1857] has been reserved
+[  +0,000687] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[  +0,000003] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[  +0,000003] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[  +0,000002] system 00:06: [mem 0xe0000000-0xefffffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[  +0,000001] system 00:06: [mem 0xfed90000-0xfed93fff] could not be reserved
+[  +0,000003] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[  +0,000001] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[  +0,000003] system 00:06: [mem 0xdffe0000-0xdfffffff] has been reserved
+[  +0,000061] system 00:07: [mem 0xfd000000-0xfdabffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfdad0000-0xfdadffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfdb00000-0xfdffffff] has been reserved
+[  +0,000004] system 00:07: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[  +0,000002] system 00:07: [mem 0xfe036000-0xfe03bfff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfe03d000-0xfe3fffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfe410000-0xfe7fffff] has been reserved
+[  +0,000488] system 00:08: [io  0xff00-0xfffe] has been reserved
+[  +0,002123] system 00:09: [mem 0xfdaf0000-0xfdafffff] has been reserved
+[  +0,000003] system 00:09: [mem 0xfdae0000-0xfdaeffff] has been reserved
+[  +0,000004] system 00:09: [mem 0xfdac0000-0xfdacffff] has been reserved
+[  +0,003480] pnp: PnP ACPI: found 11 devices
+[  +0,005852] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[  +0,000062] NET: Registered PF_INET protocol family
+[  +0,000321] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0,003049] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+[  +0,000055] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[  +0,000174] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0,000389] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[  +0,000277] TCP: Hash tables configured (established 262144 bind 65536)
+[  +0,000203] MPTCP token hash table entries: 32768 (order: 7, 786432 bytes, linear)
+[  +0,000162] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0,000095] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0,000077] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[  +0,000012] NET: Registered PF_XDP protocol family
+[  +0,000007] pci 0000:00:1d.6: bridge window [io  0x1000-0x0fff] to [bus 06-3e] add_size 1000
+[  +0,000007] pci 0000:00:1d.6: BAR 13: assigned [io  0x2000-0x2fff]
+[  +0,000003] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0,000003] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0,000007] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0,000005] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000010] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0,000007] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0,000013] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0,000002] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0,000007] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0,000006] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000009] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0,000007] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0,000014] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0,000019] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0,000002] pci 0000:00:1d.6:   bridge window [io  0x2000-0x2fff]
+[  +0,000007] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000005] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000010] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[  +0,000002] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[  +0,000002] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000dffff window]
+[  +0,000001] pci_bus 0000:00: resource 7 [mem 0x000e4000-0x000effff window]
+[  +0,000001] pci_bus 0000:00: resource 8 [mem 0x40000000-0xdfffffff window]
+[  +0,000002] pci_bus 0000:00: resource 9 [mem 0xfd000000-0xfe7fffff window]
+[  +0,000001] pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+[  +0,000002] pci_bus 0000:01: resource 1 [mem 0xdc000000-0xdd0fffff]
+[  +0,000001] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000002] pci_bus 0000:02: resource 1 [mem 0xddc00000-0xddcfffff]
+[  +0,000001] pci_bus 0000:03: resource 0 [io  0xd000-0xdfff]
+[  +0,000002] pci_bus 0000:03: resource 1 [mem 0xdd100000-0xddafffff]
+[  +0,000001] pci_bus 0000:03: resource 2 [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000002] pci_bus 0000:04: resource 1 [mem 0xddb00000-0xddbfffff]
+[  +0,000001] pci_bus 0000:06: resource 0 [io  0x2000-0x2fff]
+[  +0,000001] pci_bus 0000:06: resource 1 [mem 0xc4000000-0xda0fffff]
+[  +0,000002] pci_bus 0000:06: resource 2 [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000588] PCI: CLS 0 bytes, default 64
+[  +0,000010] DMAR: ACPI device "device:6f" under DMAR at fed91000 as 00:15.0
+[  +0,000005] DMAR: ACPI device "device:70" under DMAR at fed91000 as 00:15.1
+[  +0,000010] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[  +0,000000] software IO TLB: mapped [mem 0x000000002e21f000-0x000000003221f000] (64MB)
+[  +0,000022] Trying to unpack rootfs image as initramfs...
+[  +0,000904] Initialise system trusted keyrings
+[  +0,000010] Key type blacklist registered
+[  +0,000043] workingset: timestamp_bits=41 max_order=23 bucket_order=0
+[  +0,002127] zbud: loaded
+[  +0,000346] integrity: Platform Keyring initialized
+[  +0,000003] integrity: Machine keyring initialized
+[  +0,008239] Key type asymmetric registered
+[  +0,000001] Asymmetric key parser 'x509' registered
+[  +0,141926] Freeing initrd memory: 48032K
+[  +0,004166] alg: self-tests for CTR-KDF (hmac(sha256)) passed
+[  +0,000018] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[  +0,000036] io scheduler mq-deadline registered
+[  +0,000002] io scheduler kyber registered
+[  +0,000040] io scheduler bfq registered
+[  +0,001592] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[  +0,001335] ACPI: AC: AC Adapter [AC] (on-line)
+[  +0,000067] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[  +0,000150] ACPI: button: Lid Switch [LID0]
+[  +0,000039] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[  +0,000149] ACPI: button: Power Button [PBTN]
+[  +0,000038] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[  +0,000020] ACPI: button: Sleep Button [SBTN]
+[  +0,000031] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[  +0,000147] ACPI: button: Power Button [PWRF]
+[  +0,002580] thermal LNXTHERM:00: registered as thermal_zone0
+[  +0,000002] ACPI: thermal: Thermal Zone [THM] (25 C)
+[  +0,000239] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000008] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000240] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000005] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000097] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000005] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000095] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000005] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000412] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[  +0,002787] Non-volatile memory driver v1.3
+[  +0,000002] Linux agpgart interface v0.103
+[  +0,003861] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[  +0,007997] tpm tpm0: TPM is disabled/deactivated (0x7)
+[  +0,008144] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+[  +0,001031] ahci 0000:00:17.0: version 3.0
+[  +0,000423] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
+[  +0,000037] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x2 impl SATA mode
+[  +0,000003] ahci 0000:00:17.0: flags: 64bit ncq sntf stag pm led clo only pio slum part ems deso sadm sds apst 
+[  +0,001878] scsi host0: ahci
+[  +0,000280] scsi host1: ahci
+[  +0,000050] ata1: DUMMY
+[  +0,000003] ata2: SATA max UDMA/133 abar m2048@0xddd33000 port 0xddd33180 irq 128
+[  +0,000100] ACPI: bus type drm_connector registered
+[  +0,000564] usbcore: registered new interface driver usbserial_generic
+[  +0,000007] usbserial: USB Serial support registered for generic
+[  +0,000264] rtc_cmos 00:02: RTC can wake from S4
+[  +0,000976] rtc_cmos 00:02: registered as rtc0
+[  +0,000131] rtc_cmos 00:02: setting system clock to 2023-02-24T17:32:06 UTC (1677259926)
+[  +0,000026] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram
+[  +0,000195] intel_pstate: Intel P-state driver initializing
+[  +0,000622] intel_pstate: HWP enabled
+[  +0,000063] ledtrig-cpu: registered to indicate activity on CPUs
+[  +0,000325] efifb: probing for efifb
+[  +0,000011] efifb: framebuffer at 0x70000000, using 8128k, total 8128k
+[  +0,000001] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[  +0,000002] efifb: scrolling: redraw
+[  +0,000000] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[  +0,000184] fbcon: Deferring console take-over
+[  +0,000001] fb0: EFI VGA frame buffer device
+[  +0,000023] hid: raw HID events driver (C) Jiri Kosina
+[  +0,000165] intel_pmc_core INT33A1:00:  initialized
+[  +0,000087] drop_monitor: Initializing network drop monitor service
+[  +0,004553] ACPI: battery: Slot [BAT0] (battery present)
+[  +0,008000] Initializing XFRM netlink socket
+[  +0,000099] NET: Registered PF_INET6 protocol family
+[  +0,004517] Segment Routing with IPv6
+[  +0,000002] RPL Segment Routing with IPv6
+[  +0,000006] In-situ OAM (IOAM) with IPv6
+[  +0,000020] NET: Registered PF_PACKET protocol family
+[  +0,000692] microcode: sig=0x506e3, pf=0x20, revision=0xf0
+[  +0,000062] microcode: Microcode Update Driver: v2.2.
+[  +0,000004] IPI shorthand broadcast: enabled
+[  +0,000036] sched_clock: Marking stable (2827798878, 4357901)->(2836110816, -3954037)
+[  +0,000225] registered taskstats version 1
+[  +0,000079] Loading compiled-in X.509 certificates
+[  +0,002424] Loaded X.509 cert 'Build time autogenerated kernel key: a6d5846654a2fdcaac0fbc2e415d457981a23b15'
+[  +0,000481] zswap: loaded using pool lz4/z3fold
+[  +0,000330] Key type .fscrypt registered
+[  +0,000001] Key type fscrypt-provisioning registered
+[  +0,000036] AppArmor: AppArmor sha1 policy hashing enabled
+[  +0,000027] audit: type=1400 audit(1677259926.521:5): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[  +0,000382] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000018] integrity: Loaded X.509 cert 'Dell Inc. UEFI DB: 5ddb772dc880660055ba0bc131886bb630a639e7'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000031] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000014] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[  +0,002040] PM:   Magic number: 11:61:543
+[  +0,000148] RAS: Correctable Errors collector initialized.
+[  +0,292310] ata2: SATA link down (SStatus 4 SControl 300)
+[  +0,003595] Freeing unused decrypted memory: 2036K
+[  +0,000947] Freeing unused kernel image (initmem) memory: 2152K
+[  +0,001382] Write protecting the kernel read-only data: 32768k
+[  +0,001382] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[  +0,000738] Freeing unused kernel image (rodata/data gap) memory: 1288K
+[  +0,070898] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000003] rodata_test: all tests were successful
+[  +0,000001] x86/mm: Checking user space page tables
+[  +0,039530] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000009] Run /init as init process
+[  +0,000001]   with arguments:
+[  +0,000001]     /init
+[  +0,000001]   with environment:
+[  +0,000000]     HOME=/
+[  +0,000001]     TERM=linux
+[  +0,000000]     BOOT_IMAGE=/boot/vmlinuz-linux-zen
+[  +0,000001]     pti=on
+[  +0,040316] fbcon: Taking over console
+[  +0,000058] Console: switching to colour frame buffer device 240x67
+[  +0,039984] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[  +0,291859] Setting dangerous option enable_fbc - tainting kernel
+[  +0,000003] Setting dangerous option edp_vswing - tainting kernel
+[  +0,001778] Console: switching to colour dummy device 80x25
+[  +0,000021] i915 0000:00:02.0: vgaarb: deactivate vga console
+[  +0,002450] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[  +0,001965] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[  +0,034680] i915 0000:00:02.0: [drm] [ENCODER:102:DDI B/PHY B] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0,000004] i915 0000:00:02.0: [drm] [ENCODER:117:DDI C/PHY C] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0,013365] tsc: Refined TSC clocksource calibration: 2807.999 MHz
+[  +0,000006] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c523a63, max_idle_ns: 440795252908 ns
+[  +0,000051] clocksource: Switched to clocksource tsc
+[  +1,127775] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[  +0,007441] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[  +0,002211] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4
+[  +0,000215] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[  +0,000095] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input5
+[  +0,009540] fbcon: i915drmfb (fb0) is primary device
+[  +0,009519] Console: switching to colour frame buffer device 240x67
+[  +0,021999] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[  +0,184376] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[  +0,000364] i8042: Warning: Keylock active
+[  +0,002311] serio: i8042 KBD port at 0x60,0x64 irq 1
+[  +0,000054] serio: i8042 AUX port at 0x60,0x64 irq 12
+[  +0,015392] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000007] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[  +0,001075] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[  +0,000537] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000004] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[  +0,000002] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[  +0,000033] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[  +0,000003] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000001] usb usb1: Product: xHCI Host Controller
+[  +0,000001] usb usb1: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb1: SerialNumber: 0000:00:14.0
+[  +0,000193] hub 1-0:1.0: USB hub found
+[  +0,000019] hub 1-0:1.0: 16 ports detected
+[  +0,007707] nvme nvme0: pci function 0000:04:00.0
+[  +0,001428] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[  +0,000003] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb2: Product: xHCI Host Controller
+[  +0,000001] usb usb2: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb2: SerialNumber: 0000:00:14.0
+[  +0,000253] hub 2-0:1.0: USB hub found
+[  +0,001259] hub 2-0:1.0: 10 ports detected
+[  +0,001500] usb: port power management may be unreliable
+[  +0,001464] nvme nvme0: 4/0/0 default/read/poll queues
+[  +0,001486]  nvme0n1: p1 p2 p3
+[  +0,016829] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input6
+[  +0,049439] PM: Image not found (code -22)
+[  +0,169191] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[  +0,027718] SGI XFS with ACLs, security attributes, realtime, scrub, repair, quota, no debug enabled
+[  +0,002416] XFS (nvme0n1p2): Mounting V5 Filesystem
+[  +0,046695] XFS (nvme0n1p2): Starting recovery (logdev: internal)
+[  +0,050857] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[  +0,000011] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[  +0,099885] XFS (nvme0n1p2): Ending recovery (logdev: internal)
+[  +0,017411] usb 1-12: new high-speed USB device number 3 using xhci_hcd
+[  +0,078727] audit: type=1334 audit(1677259929.316:6): prog-id=1 op=LOAD
+[  +0,002022] audit: type=1334 audit(1677259929.316:6): prog-id=2 op=LOAD
+[  +0,003280] audit: type=1334 audit(1677259929.316:6): prog-id=3 op=LOAD
+[  +0,000161] audit: type=1300 audit(1677259929.316:6): arch=c000003e syscall=175 success=yes exit=0 a0=7f1e43eb6010 a1=4caf a2=5614c8840cb2 a3=30b1 items=0 ppid=11 pid=216 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="modprobe" exe="/usr/bin/kmod" subj=unconfined key=(null)
+[  +0,000003] audit: type=1327 audit(1677259929.316:6): proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D006270665F7072656C6F6164
+[  +0,003810] systemd[1]: systemd 253-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000008] systemd[1]: Detected architecture x86-64.
+[  +0,001415] systemd[1]: Hostname set to <mksprecision5510>.
+[  +0,072597] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[  +0,000022] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[  +0,000002] usb 1-12: Product: Integrated_Webcam_HD
+[  +0,000001] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[  +0,191741] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,141240] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001043] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,019042] systemd[1]: Queued start job for default target Graphical Interface.
+[  +0,001586] systemd[1]: Created slice Slice /system/getty.
+[  +0,000413] systemd[1]: Created slice Slice /system/modprobe.
+[  +0,000325] systemd[1]: Created slice Slice /system/systemd-fsck.
+[  +0,000276] systemd[1]: Created slice User and Session Slice.
+[  +0,000124] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[  +0,000120] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  +0,000272] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[  +0,000094] systemd[1]: Reached target Local Encrypted Volumes.
+[  +0,000064] systemd[1]: Reached target Login Prompts.
+[  +0,000058] systemd[1]: Reached target Local Integrity Protected Volumes.
+[  +0,000070] systemd[1]: Reached target Path Units.
+[  +0,000062] systemd[1]: Reached target Remote File Systems.
+[  +0,000058] systemd[1]: Reached target Slice Units.
+[  +0,000069] systemd[1]: Reached target Local Verity Protected Volumes.
+[  +0,000119] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[  +0,000660] systemd[1]: Listening on LVM2 poll daemon socket.
+[  +0,001178] systemd[1]: Listening on Process Core Dump Socket.
+[  +0,000312] systemd[1]: Listening on Journal Socket (/dev/log).
+[  +0,000228] systemd[1]: Listening on Journal Socket.
+[  +0,000165] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+[  +0,001086] systemd[1]: Listening on udev Control Socket.
+[  +0,000177] systemd[1]: Listening on udev Kernel Socket.
+[  +0,000944] systemd[1]: Mounting Huge Pages File System...
+[  +0,000973] systemd[1]: Mounting POSIX Message Queue File System...
+[  +0,000989] systemd[1]: Mounting Kernel Debug File System...
+[  +0,001112] systemd[1]: Mounting Kernel Trace File System...
+[  +0,000990] systemd[1]: Starting Load AppArmor profiles...
+[  +0,001163] systemd[1]: Starting Create List of Static Device Nodes...
+[  +0,000985] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[  +0,001128] systemd[1]: Starting Load Kernel Module configfs...
+[  +0,001031] systemd[1]: Starting Load Kernel Module dm_mod...
+[  +0,001104] systemd[1]: Starting Load Kernel Module drm...
+[  +0,001003] systemd[1]: Starting Load Kernel Module fuse...
+[  +0,001081] systemd[1]: Starting Load Kernel Module loop...
+[  +0,000148] systemd[1]: File System Check on Root Device was skipped because of an unmet condition check (ConditionPathIsReadWrite=!/).
+[  +0,001172] systemd[1]: Starting Load Kernel Modules...
+[  +0,000105] systemd[1]: TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+[  +0,000882] systemd[1]: Starting Remount Root and Kernel File Systems...
+[  +0,001017] systemd[1]: Starting Coldplug All udev Devices...
+[  +0,001643] systemd[1]: Mounted Huge Pages File System.
+[  +0,002615] systemd[1]: Mounted POSIX Message Queue File System.
+[  +0,003848] loop: module loaded
+[  +0,001094] device-mapper: uevent: version 1.0.3
+[  +0,002402] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+[  +0,000624] systemd[1]: Mounted Kernel Debug File System.
+[  +0,001863] systemd[1]: Mounted Kernel Trace File System.
+[  +0,001848] systemd[1]: Finished Create List of Static Device Nodes.
+[  +0,000560] fuse: init (API version 7.37)
+[  +0,000958] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[  +0,000271] systemd[1]: Finished Load Kernel Module configfs.
+[  +0,001332] systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+[  +0,000158] systemd[1]: Finished Load Kernel Module dm_mod.
+[  +0,001267] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[  +0,000220] systemd[1]: Finished Load Kernel Module drm.
+[  +0,001341] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[  +0,000182] systemd[1]: Finished Load Kernel Module fuse.
+[  +0,001553] systemd[1]: modprobe@loop.service: Deactivated successfully.
+[  +0,000148] systemd[1]: Finished Load Kernel Module loop.
+[  +0,000896] systemd[1]: Finished Remount Root and Kernel File Systems.
+[  +0,001951] systemd[1]: Mounting FUSE Control File System...
+[  +0,001856] systemd[1]: Mounting Kernel Configuration File System...
+[  +0,000954] systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,005422] systemd[1]: Rebuild Hardware Database was skipped because no trigger condition checks were met.
+[  +0,000964] systemd[1]: Starting Load/Save OS Random Seed...
+[  +0,000596] systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+[  +0,001005] systemd[1]: Starting Create System Users...
+[  +0,003212] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[  +0,001102] systemd[1]: Mounted FUSE Control File System.
+[  +0,001016] systemd[1]: Mounted Kernel Configuration File System.
+[  +0,014983] systemd[1]: Finished Load/Save OS Random Seed.
+[  +0,000653] systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,019421] systemd[1]: Finished Create System Users.
+[  +0,001597] systemd[1]: Starting Create Static Device Nodes in /dev...
+[  +0,057424] systemd[1]: Finished Create Static Device Nodes in /dev.
+[  +0,000671] systemd[1]: Reached target Preparation for Local File Systems.
+[  +0,000559] systemd[1]: Entropy Daemon based on the HAVEGE algorithm was skipped because of an unmet condition check (ConditionKernelVersion=<5.6).
+[  +0,001314] systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+[  +0,002295] systemd[1]: Starting Journal Service...
+[  +0,001941] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[  +0,013792] systemd-journald[275]: Collecting audit messages is disabled.
+[  +0,059253] systemd[1]: Started Journal Service.
+[  +0,010795] systemd-journald[275]: Received client request to flush runtime journal.
+[  +0,023187] systemd-journald[275]: /var/log/journal/a00d35d06714446a883a8f6db7dae9e1/system.journal: Montonic clock jumped backwards relative to last journal entry, rotating.
+[  +0,000005] systemd-journald[275]: Rotating system journal.
+[  +0,253711] Adding 35992492k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35992492k SSFS
+[  +0,059894] nvidia: loading out-of-tree module taints kernel.
+[  +0,000011] nvidia: module license 'NVIDIA' taints kernel.
+[  +0,000001] Disabling lock debugging due to kernel taint
+[  +0,022537] nvidia: module verification failed: signature and/or required key missing - tainting kernel
+[  +0,416893] nvidia-nvlink: Nvlink Core is being initialized, major device number 511
+
+[  +0,000923] nvidia 0000:01:00.0: enabling device (0006 -> 0007)
+[  +0,072790] Consider using thermal netlink events interface
+[  +0,016544] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[  +0,000008] _ART package 0 is invalid, ignored
+[  +0,000010] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[  +0,025225] acpi INT33D5:00: intel-hid: created platform device
+[  +0,000114] input: Intel HID events as /devices/platform/INT33D5:00/input/input8
+[  +0,113138] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  525.89.02  Wed Feb  1 23:23:25 UTC 2023
+[  +0,044216] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[  +0,018037] auditfilter: audit rule for LSM 'crond_t' is invalid
+[  +0,000036] auditfilter: audit rule for LSM 'crond_t' is invalid
+[  +0,001959] auditfilter: audit rule for LSM 'initrc_t' is invalid
+[  +0,000218] auditfilter: audit rule for LSM 'initrc_t' is invalid
+[  +0,000032] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[  +0,004304] nvidia_uvm: module uses symbols nvUvmInterfaceDisableAccessCntr from proprietary module nvidia, inheriting taint.
+[  +0,106501] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[  +0,059725] nvidia-uvm: Loaded the UVM driver, major device number 509.
+[  +0,062946] nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  525.89.02  Wed Feb  1 23:09:40 UTC 2023
+[  +0,053221] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[  +0,000029] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[  +0,000047] pci 0000:00:1f.1: [8086:a120] type 00 class 0x058000
+[  +0,000058] pci 0000:00:1f.1: reg 0x10: [mem 0xfd000000-0xfdffffff 64bit]
+[  +0,020597] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[  +0,000546] vboxdrv: Found 4 processor cores/threads
+[  +0,008968] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[  +0,004729] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[  +0,010146] vboxdrv: TSC mode is Invariant, tentative frequency 2807998892 Hz
+[  +0,000003] vboxdrv: Successfully loaded version 7.0.6 r155176 (interface 0x00330004)
+[  +0,413813] i2c i2c-7: 2/2 memory slots populated (from DMI)
+[  +0,000399] i2c i2c-7: Successfully instantiated SPD at 0x50
+[  +0,000126] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[  +0,001946] VBoxNetAdp: Successfully started.
+[  +0,002609] VBoxNetFlt: Successfully started.
+[  +0,067755] [drm] [nvidia-drm] [GPU ID 0x00000100] Loading driver
+[  +0,054825] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[  +0,020213] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[  +0,000002] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain package 2^-14 Joules
+[  +0,000000] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[  +0,014389] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[  +0,001379] Intel(R) Wireless WiFi driver for Linux
+[  +0,000081] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[  +0,006101] cryptd: max_cpu_qlen set to 1000
+[  +0,010026] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[  +0,026238] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input10
+[  +0,030994] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[  +0,009060] AVX2 version of gcm_enc/dec engaged.
+[  +0,000029] AES CTR mode by8 optimization enabled
+[  +0,044842] intel_rapl_common: Found RAPL domain package
+[  +0,000003] intel_rapl_common: Found RAPL domain core
+[  +0,000001] intel_rapl_common: Found RAPL domain uncore
+[  +0,000001] intel_rapl_common: Found RAPL domain dram
+[  +0,067953] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input11
+[  +0,000061] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input12
+[  +0,000051] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,042815] iTCO_vendor_support: vendor-support=0
+[  +0,216266] intel_rapl_common: Found RAPL domain package
+[  +0,000003] intel_rapl_common: Found RAPL domain dram
+[  +0,015811] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[  +0,006664] thermal thermal_zone10: failed to read out thermal zone (-61)
+[  +0,005859] ee1004 7-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[  +0,060554] dell_laptop: Using i8042 filter function for receiving events
+[  +0,009405] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[  +0,056341] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[  +0,018756] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[  +0,003698] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[  +0,056563] psmouse serio1: synaptics: device claims to have max coordinates query, but I'm not able to read it.
+[  +0,038806] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[  +0,006455] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[  +0,000017] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[  +0,000193] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[  +0,035436] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input14
+[  +0,004684] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[  +0,000005] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[  +0,001175] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-8/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input15
+[  +0,000157] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,021158] mousedev: PS/2 mouse device common for all mice
+[  +0,019920] intel_tcc_cooling: Programmable TCC Offset detected
+[  +0,037260] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+[  +0,000131] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[  +0,000038] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[  +0,000039] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+[  +0,043573] psmouse serio1: synaptics: device claims to have min coordinates query, but I'm not able to read it.
+[  +0,000006] psmouse serio1: synaptics: Your touchpad (PNP: DLL06e5 PNP0f13) says it can support a different bus. If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to linux-input@vger.kernel.org.
+[  +0,158117] [drm] Initialized nvidia-drm 0.0.0 20160202 for 0000:01:00.0 on minor 1
+[  +0,048823] psmouse serio1: synaptics: Unable to initialize device.
+[  +0,228627] Bluetooth: Core ver 2.22
+[  +0,004030] NET: Registered PF_BLUETOOTH protocol family
+[  +0,000002] Bluetooth: HCI device and connection manager initialized
+[  +0,000003] Bluetooth: HCI socket layer initialized
+[  +0,000002] Bluetooth: L2CAP socket layer initialized
+[  +0,000005] Bluetooth: SCO socket layer initialized
+[  +0,006849] mc: Linux media interface: v0.10
+[  +0,015186] videodev: Linux video capture interface: v2.00
+[  +0,005986] usbcore: registered new interface driver btusb
+[  +0,008082] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[  +0,006882] Bluetooth: hci0: Device revision is 5
+[  +0,000004] Bluetooth: hci0: Secure boot is enabled
+[  +0,000001] Bluetooth: hci0: OTP lock is enabled
+[  +0,000001] Bluetooth: hci0: API lock is enabled
+[  +0,000000] Bluetooth: hci0: Debug lock is disabled
+[  +0,000001] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[  +0,001265] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[  +0,034925] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[  +0,035110] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input21
+[  +0,000134] usbcore: registered new interface driver uvcvideo
+[  +0,035245] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[  +0,000003] Bluetooth: BNEP filters: protocol multicast
+[  +0,000004] Bluetooth: BNEP socket layer initialized
+[  +0,047563] NET: Registered PF_QIPCRTR protocol family
+[  +0,132655] xt_connbytes: Forcing CT accounting to be enabled
+[  +0,109449] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 
+[  +0,576369] Iptables: v4Deny: IN= OUT=lo SRC=0.0.0.0 DST=224.0.0.22 LEN=40 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 MARK=0xfeb0 
+[  +0,517931] Bluetooth: hci0: Waiting for firmware download to complete
+[  +0,000327] Bluetooth: hci0: Firmware loaded in 1454798 usecs
+[  +0,000076] Bluetooth: hci0: Waiting for device to boot
+[  +0,011905] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[  +0,000035] Bluetooth: hci0: Device booted in 11682 usecs
+[  +0,000143] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[  +0,003883] Bluetooth: hci0: Applying Intel DDC parameters completed
+[  +0,001002] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[  +0,046294] Bluetooth: MGMT ver 1.22
+[  +0,006527] NET: Registered PF_ALG protocol family
+[  +3,747888] input: PS/2 Synaptics TouchPad as /devices/platform/i8042/serio1/input/input9
+[  +0,207773] psmouse serio1: Failed to enable mouse on isa0060/serio1
+[  +4,720868] systemd-journald[275]: /var/log/journal/a00d35d06714446a883a8f6db7dae9e1/user-1000.journal: Montonic clock jumped backwards relative to last journal entry, rotating.
+[  +0,000023] systemd-journald[275]: Failed to write entry to /var/log/journal/a00d35d06714446a883a8f6db7dae9e1/user-1000.journal (30 items, 811 bytes), rotating before retrying: Not a XENIX named type file
+[  +0,112616] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,008261] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,004903] wlp2s0: authenticated
+[  +0,001212] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002441] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,003043] wlp2s0: associated
+[  +0,035285] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +0,020217] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,498982] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff59:5b9a LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0,096178] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +1,635733] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=196 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=156 
+[  +1,085317] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +0,513891] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E42.SPRT], AE_ALREADY_EXISTS (20220331/dswload2-326)
+[  +0,000010] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20220331/psobject-220)
+[  +0,000002] ACPI Error: Aborting method \_GPE._E42 due to previous error (AE_ALREADY_EXISTS) (20220331/psparse-529)
+[  +0,000005] ACPI Error: Aborting method \_GPE._E42 due to previous error (AE_ALREADY_EXISTS) (20220331/psparse-529)
+[  +0,000007] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E42] (20220331/evgpe-511)
+[  +0,076151] pci 0000:06:00.0: [8086:1576] type 01 class 0x060400
+[  +0,000066] pci 0000:06:00.0: enabling Extended Tags
+[  +0,000085] pci 0000:06:00.0: supports D1 D2
+[  +0,000001] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000069] pci 0000:06:00.0: 15.752 Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe x2 link at 0000:00:1d.6 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[  +0,003736] pci 0000:07:00.0: [8086:1576] type 01 class 0x060400
+[  +0,000068] pci 0000:07:00.0: enabling Extended Tags
+[  +0,000089] pci 0000:07:00.0: supports D1 D2
+[  +0,000001] pci 0000:07:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000199] pci 0000:07:01.0: [8086:1576] type 01 class 0x060400
+[  +0,000066] pci 0000:07:01.0: enabling Extended Tags
+[  +0,000084] pci 0000:07:01.0: supports D1 D2
+[  +0,000001] pci 0000:07:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000178] pci 0000:07:02.0: [8086:1576] type 01 class 0x060400
+[  +0,000069] pci 0000:07:02.0: enabling Extended Tags
+[  +0,000085] pci 0000:07:02.0: supports D1 D2
+[  +0,000001] pci 0000:07:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000188] pci 0000:06:00.0: PCI bridge to [bus 07-3e]
+[  +0,000009] pci 0000:06:00.0:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000005] pci 0000:06:00.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000078] pci 0000:08:00.0: [8086:1575] type 00 class 0x088000
+[  +0,000026] pci 0000:08:00.0: reg 0x10: [mem 0xda000000-0xda03ffff]
+[  +0,000015] pci 0000:08:00.0: reg 0x14: [mem 0xda040000-0xda040fff]
+[  +0,000077] pci 0000:08:00.0: enabling Extended Tags
+[  +0,000102] pci 0000:08:00.0: supports D1 D2
+[  +0,000001] pci 0000:08:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000324] pci 0000:07:00.0: PCI bridge to [bus 08]
+[  +0,000008] pci 0000:07:00.0:   bridge window [mem 0xda000000-0xda0fffff]
+[  +0,001097] pci 0000:07:01.0: PCI bridge to [bus 09-3d]
+[  +0,000009] pci 0000:07:01.0:   bridge window [mem 0xc4000000-0xd9efffff]
+[  +0,000005] pci 0000:07:01.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000091] pci 0000:3e:00.0: [8086:15b5] type 00 class 0x0c0330
+[  +0,000028] pci 0000:3e:00.0: reg 0x10: [mem 0xd9f00000-0xd9f0ffff]
+[  +0,000204] pci 0000:3e:00.0: supports D1 D2
+[  +0,000002] pci 0000:3e:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000091] pci 0000:3e:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:07:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[  +0,000174] pci 0000:07:02.0: PCI bridge to [bus 3e]
+[  +0,000008] pci 0000:07:02.0:   bridge window [mem 0xd9f00000-0xd9ffffff]
+[  +0,000036] pci_bus 0000:07: Allocating resources
+[  +0,000016] pci 0000:07:01.0: bridge window [io  0x1000-0x0fff] to [bus 09-3d] add_size 1000
+[  +0,000003] pci 0000:07:02.0: bridge window [io  0x1000-0x0fff] to [bus 3e] add_size 1000
+[  +0,000002] pci 0000:07:02.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 3e] add_size 200000 add_align 100000
+[  +0,000002] pci 0000:06:00.0: bridge window [io  0x1000-0x0fff] to [bus 07-3e] add_size 3000
+[  +0,000004] pci 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000001] pci 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000002] pci 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000001] pci 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000004] pci 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000001] pci 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000002] pci 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pci 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000003] pci 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000001] pci 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000001] pci 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pci 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000002] pci 0000:07:00.0: PCI bridge to [bus 08]
+[  +0,000008] pci 0000:07:00.0:   bridge window [mem 0xda000000-0xda0fffff]
+[  +0,000014] pci 0000:07:01.0: PCI bridge to [bus 09-3d]
+[  +0,000007] pci 0000:07:01.0:   bridge window [mem 0xc4000000-0xd9efffff]
+[  +0,000006] pci 0000:07:01.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000010] pci 0000:07:02.0: PCI bridge to [bus 3e]
+[  +0,000007] pci 0000:07:02.0:   bridge window [mem 0xd9f00000-0xd9ffffff]
+[  +0,000014] pci 0000:06:00.0: PCI bridge to [bus 07-3e]
+[  +0,000007] pci 0000:06:00.0:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000005] pci 0000:06:00.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,021667] xhci_hcd 0000:3e:00.0: xHCI Host Controller
+[  +0,000007] xhci_hcd 0000:3e:00.0: new USB bus registered, assigned bus number 3
+[  +0,001116] xhci_hcd 0000:3e:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[  +0,000253] xhci_hcd 0000:3e:00.0: xHCI Host Controller
+[  +0,000003] xhci_hcd 0000:3e:00.0: new USB bus registered, assigned bus number 4
+[  +0,000002] xhci_hcd 0000:3e:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[  +0,000034] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[  +0,000002] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb3: Product: xHCI Host Controller
+[  +0,000001] usb usb3: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb3: SerialNumber: 0000:3e:00.0
+[  +0,003104] hub 3-0:1.0: USB hub found
+[  +0,000994] hub 3-0:1.0: 2 ports detected
+[  +0,001834] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[  +0,000004] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000001] usb usb4: Product: xHCI Host Controller
+[  +0,000002] usb usb4: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb4: SerialNumber: 0000:3e:00.0
+[  +0,009230] hub 4-0:1.0: USB hub found
+[  +0,000017] hub 4-0:1.0: 2 ports detected
+[  +0,054672] ACPI: bus type thunderbolt registered
+[  +0,311121] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +0,152894] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=196 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=156 
+[ +13,853909] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +6,089350] xhci_hcd 0000:3e:00.0: Unable to change power state from D3hot to D0, device inaccessible
+[  +0,059871] xhci_hcd 0000:3e:00.0: Unable to change power state from D3cold to D0, device inaccessible
+[  +0,000012] xhci_hcd 0000:3e:00.0: Controller not ready at resume -19
+[  +0,000002] xhci_hcd 0000:3e:00.0: PCI post-resume error -19!
+[  +0,000001] xhci_hcd 0000:3e:00.0: HC died; cleaning up
+[  +0,000027] xhci_hcd 0000:3e:00.0: remove, state 4
+[  +0,000001] usb usb4: USB disconnect, device number 1
+[  +0,000275] xhci_hcd 0000:3e:00.0: USB bus 4 deregistered
+[  +0,000006] xhci_hcd 0000:3e:00.0: remove, state 4
+[  +0,000002] usb usb3: USB disconnect, device number 1
+[  +0,001513] xhci_hcd 0000:3e:00.0: Host halt failed, -19
+[  +0,000003] xhci_hcd 0000:3e:00.0: Host not accessible, reset failed.
+[  +0,000078] xhci_hcd 0000:3e:00.0: USB bus 3 deregistered
+[  +0,502578] pci_bus 0000:07: Allocating resources
+[  +0,000011] pcieport 0000:07:01.0: bridge window [io  0x1000-0x0fff] to [bus 09-3d] add_size 1000
+[  +0,000020] pcieport 0000:07:02.0: bridge window [io  0x1000-0x0fff] to [bus 3e] add_size 1000
+[  +0,000002] pcieport 0000:07:02.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 3e] add_size 200000 add_align 100000
+[  +0,000003] pcieport 0000:06:00.0: bridge window [io  0x1000-0x0fff] to [bus 07-3e] add_size 3000
+[  +0,000003] pcieport 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000002] pcieport 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000003] pcieport 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000001] pcieport 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000004] pcieport 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000001] pcieport 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000001] pcieport 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000002] pcieport 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000019] pcieport 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000001] pcieport 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000001] pcieport 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000002] pcieport 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +4,491648] pcieport 0000:07:00.0: Unable to change power state from D3hot to D0, device inaccessible
+[  +0,001485] pci_bus 0000:08: busn_res: [bus 08] is released
+[  +0,004430] pci_bus 0000:09: busn_res: [bus 09-3d] is released
+[  +0,001009] pci_bus 0000:3e: busn_res: [bus 3e] is released
+[  +0,000069] pci_bus 0000:07: busn_res: [bus 07-3e] is released
+[  +4,728288] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 19:33] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 19:34] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=138 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=98 
+[  +1,001353] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=138 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=98 
+[  +2,001625] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=138 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=98 
+[  +1,663816] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 19:36] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 19:40] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 19:49] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 20:06] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют24 20:24] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,010545] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,965989] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,011667] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[лют24 20:25] kauditd_printk_skb: 1002 callbacks suppressed
+[  +0,000020] audit: type=1327 audit(1677263103.534:229729): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,624013] audit: type=1327 audit(1677263103.534:229729): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000004] audit: type=1300 audit(1677263103.508:229730): arch=40000003 syscall=256 success=yes exit=0 a0=1f a1=dc579d2c a2=1 a3=31 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677263103.508:229730): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263103.558:229731): arch=40000003 syscall=3 success=no exit=-11 a0=26 a1=dc579c78 a2=8 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677263103.558:229731): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263103.558:229732): arch=40000003 syscall=168 success=yes exit=0 a0=dc5799f8 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677263103.558:229732): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263103.558:229733): arch=40000003 syscall=168 success=yes exit=0 a0=dc579b58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677263103.558:229733): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +5,927977] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=198 TOS=0x00 PREC=0x00 TTL=64 ID=48186 DF PROTO=UDP SPT=27036 DPT=27036 LEN=178 
+[  +0,000979] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=48187 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +4,140953] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=198 TOS=0x00 PREC=0x00 TTL=64 ID=52182 DF PROTO=UDP SPT=27036 DPT=27036 LEN=178 
+[  +0,000924] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=52183 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +4,003268] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=52831 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[ +19,547774] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=198 TOS=0x00 PREC=0x00 TTL=64 ID=2863 DF PROTO=UDP SPT=27036 DPT=27036 LEN=178 
+[лют24 20:26] kauditd_printk_skb: 2069 callbacks suppressed
+[  +0,000017] audit: type=1327 audit(1677263178.378:537676): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,623910] audit: type=1327 audit(1677263178.378:537676): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000020] audit: type=1300 audit(1677263178.378:537677): arch=40000003 syscall=168 success=yes exit=0 a0=dc579b58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677263178.378:537677): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263178.378:537678): arch=40000003 syscall=168 success=yes exit=0 a0=dc579b58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677263178.378:537678): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263178.148:537679): arch=40000003 syscall=240 success=no exit=-110 a0=d0847f9c a1=89 a2=0 a3=cf4f9b18 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=434E657420456E63727970743A30 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677263178.148:537679): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263178.398:537680): arch=40000003 syscall=240 success=yes exit=0 a0=d0847f5c a1=81 a2=1 a3=0 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=434E657420456E63727970743A30 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677263178.398:537680): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[лют24 20:27] kauditd_printk_skb: 5329 callbacks suppressed
+[  +0,000002] audit: type=1327 audit(1677263272.996:805942): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000003] audit: type=1300 audit(1677263272.996:805943): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263272.996:805943): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_010_wpn_0120.png" inode=541470893 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263272.996:805943): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263272.996:805944): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677263272.996:805944): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_010_wpn_0130.png" inode=541470894 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263272.996:805944): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263272.996:805945): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263272.996:805945): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_010_wpn_0130.png" inode=541470894 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263272.996:805945): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[лют24 20:29] kauditd_printk_skb: 7207 callbacks suppressed
+[  +0,000002] audit: type=1302 audit(1677263366.487:1063668): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_035_magic_0308.png" inode=541471011 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677263366.487:1063668): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000002] audit: type=1300 audit(1677263366.487:1063669): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263366.487:1063669): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_035_magic_0309.png" inode=541471012 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000014] audit: type=1327 audit(1677263366.487:1063669): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263366.487:1063670): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263366.487:1063670): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_035_magic_0309.png" inode=541471012 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263366.487:1063670): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000002] audit: type=1300 audit(1677263366.487:1063671): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263366.487:1063671): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_035_magic_0310.png" inode=541471013 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют24 20:30] kauditd_printk_skb: 9035 callbacks suppressed
+[  +0,000002] audit: type=1327 audit(1677263457.241:1321702): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000003] audit: type=1300 audit(1677263457.241:1321703): arch=40000003 syscall=372 success=no exit=-11 a0=69 a1=ff9cbba4 a2=0 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677263457.241:1321703): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263457.242:1321704): arch=40000003 syscall=4 success=yes exit=8 a0=29 a1=ff9cb778 a2=8 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677263457.242:1321704): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000002] audit: type=1300 audit(1677263457.219:1321705): arch=40000003 syscall=256 success=yes exit=1 a0=1f a1=dc579d2c a2=1 a3=30 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677263457.219:1321705): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263457.242:1321706): arch=40000003 syscall=3 success=no exit=-11 a0=26 a1=dc579c78 a2=8 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677263457.242:1321706): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263457.242:1321707): arch=40000003 syscall=168 success=yes exit=0 a0=dc5799f8 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 20:32] kauditd_printk_skb: 5503 callbacks suppressed
+[  +0,000003] audit: type=1302 audit(1677263550.908:1586074): item=0 name="/home/max/.local/share/Steam/steamui/localization/steamui_latam-json.js" inode=805542944 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677263550.908:1586074): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000002] audit: type=1300 audit(1677263550.908:1586075): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000324] audit: type=1302 audit(1677263550.908:1586075): item=0 name="/home/max/.local/share/Steam/steamui/localization/steamui_latam-json.js" inode=805542944 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263550.908:1586075): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000002] audit: type=1300 audit(1677263550.908:1586076): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263550.908:1586076): item=0 name="/home/max/.local/share/Steam/steamui/localization/steamui_norwegian-json.js" inode=805542945 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263550.908:1586076): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263550.908:1586077): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677263550.908:1586077): item=0 name="/home/max/.local/share/Steam/steamui/localization/steamui_norwegian-json.js" inode=805542945 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют24 20:34] kauditd_printk_skb: 2685 callbacks suppressed
+[  +0,000007] audit: type=1302 audit(1677263643.847:1854322): item=0 name="/home/max/.local/share/Steam/steamui/68.js" inode=541470850 dev=103:02 mode=0100755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000008] audit: type=1327 audit(1677263643.847:1854322): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000005] audit: type=1300 audit(1677263643.847:1854323): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000006] audit: type=1302 audit(1677263643.847:1854323): item=0 name="/home/max/.local/share/Steam/steamui/69.js" inode=541470852 dev=103:02 mode=0100755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677263643.847:1854323): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000005] audit: type=1300 audit(1677263643.847:1854324): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000005] audit: type=1302 audit(1677263643.847:1854324): item=0 name="/home/max/.local/share/Steam/steamui/69.js" inode=541470852 dev=103:02 mode=0100755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677263643.847:1854324): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000004] audit: type=1300 audit(1677263643.847:1854325): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000006] audit: type=1302 audit(1677263643.847:1854325): item=0 name="/home/max/.local/share/Steam/steamui/awardicon.js" inode=537487451 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют24 20:37] kauditd_printk_skb: 5132 callbacks suppressed
+[  +0,000018] audit: type=1300 audit(1677263833.018:2387160): arch=40000003 syscall=33 success=yes exit=0 a0=c9bfbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677263833.018:2387160): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_110_social_0300.png" inode=541471191 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677263833.018:2387160): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263833.018:2387161): arch=40000003 syscall=196 success=yes exit=0 a0=c9bfbcac a1=c9bfbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677263833.018:2387161): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_110_social_0300.png" inode=541471191 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263833.018:2387161): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000002] audit: type=1300 audit(1677263833.018:2387162): arch=40000003 syscall=33 success=yes exit=0 a0=c9bfbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000017] audit: type=1302 audit(1677263833.018:2387162): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_110_social_0301.png" inode=541471192 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677263833.018:2387162): proctitle=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F7562756E747531325F33322F737465616D00737465616D3A2F2F72756E67616D6569642F353838363530
+[  +0,000001] audit: type=1300 audit(1677263833.018:2387163): arch=40000003 syscall=196 success=yes exit=0 a0=c9bfbcac a1=c9bfbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=7399 pid=7536 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 20:38] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=325 TOS=0x00 PREC=0x00 TTL=64 ID=49478 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000020] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=329 TOS=0x00 PREC=0x00 TTL=64 ID=49479 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000014] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=358 TOS=0x00 PREC=0x00 TTL=64 ID=49480 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000018] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=362 TOS=0x00 PREC=0x00 TTL=64 ID=49481 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000013] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=395 TOS=0x00 PREC=0x00 TTL=64 ID=49482 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000014] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=399 TOS=0x00 PREC=0x00 TTL=64 ID=49483 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000016] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49484 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000949] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49485 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,203221] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49486 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,408004] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49487 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,848952] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49488 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +1,664015] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49489 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +2,906623] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49490 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000023] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=412 TOS=0x00 PREC=0x00 TTL=64 ID=49491 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,003453] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=424 TOS=0x00 PREC=0x00 TTL=64 ID=49492 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,027929] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=416 TOS=0x00 PREC=0x00 TTL=64 ID=49493 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000019] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49494 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,180938] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49495 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000084] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=430 TOS=0x00 PREC=0x00 TTL=64 ID=49496 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,207932] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49497 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,200074] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=430 TOS=0x00 PREC=0x00 TTL=64 ID=49498 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,207935] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49499 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,407992] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49500 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,208005] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=430 TOS=0x00 PREC=0x00 TTL=64 ID=49501 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,207963] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49502 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,407998] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49503 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,856114] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49504 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,192028] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=430 TOS=0x00 PREC=0x00 TTL=64 ID=49505 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,207794] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49506 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,408072] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49507 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,856002] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49508 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +1,664278] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49509 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,127728] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=430 TOS=0x00 PREC=0x00 TTL=64 ID=49510 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,207937] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49511 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,409012] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=418 TOS=0x00 PREC=0x00 TTL=64 ID=49512 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,455405] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=422 TOS=0x00 PREC=0x00 TTL=64 ID=49513 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000025] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49514 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,399522] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49515 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +1,664055] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49516 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +3,264046] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49517 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,448845] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=435 TOS=0x00 PREC=0x00 TTL=64 ID=49518 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,207983] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49519 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,407069] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49520 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,855952] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49521 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +1,664094] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49522 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +3,263820] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49523 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +6,911984] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49524 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,000070] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=435 TOS=0x00 PREC=0x00 TTL=64 ID=49525 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,208869] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49526 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,406997] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49527 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +0,855960] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49528 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +1,663998] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49529 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +3,264012] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49530 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH URGP=0 
+[  +4,540677] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49531 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +2,371240] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49532 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[лют24 20:39] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=435 TOS=0x00 PREC=0x00 TTL=64 ID=49533 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,208959] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49534 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,407002] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49535 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,855960] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49536 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,664121] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49537 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +3,263691] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49538 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +6,911870] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49539 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[ +13,311885] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49540 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[ +25,600639] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=435 TOS=0x00 PREC=0x00 TTL=64 ID=49541 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,206977] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49542 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,408042] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49543 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,855937] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49544 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[лют24 20:40] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49545 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +3,262958] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49546 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +6,911901] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49547 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[ +13,311858] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49548 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[ +17,127428] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=382072 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +8,984302] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49549 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[лют24 20:41] kauditd_printk_skb: 4840 callbacks suppressed
+[  +0,000002] audit: type=1327 audit(1677264073.661:2965817): proctitle="./deadcells"
+[  +0,000003] audit: type=1300 audit(1677264073.661:2965818): arch=c000003e syscall=101 success=yes exit=0 a0=2 a1=23e8 a2=7ffd24456608 a3=7fb002672968 items=0 ppid=9192 pid=17614 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="deadcells" exe=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F737465616D617070732F636F6D6D6F6E2F446561642043656C6C732F6465616463656C6C73202864656C6574656429 subj=unconfined key="tracing"
+[  +0,000001] audit: type=1327 audit(1677264073.661:2965818): proctitle="./deadcells"
+[  +0,000001] audit: type=1300 audit(1677264073.661:2965819): arch=c000003e syscall=101 success=yes exit=0 a0=2 a1=23e8 a2=7ffd24456610 a3=7fb002672968 items=0 ppid=9192 pid=17614 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="deadcells" exe=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F737465616D617070732F636F6D6D6F6E2F446561642043656C6C732F6465616463656C6C73202864656C6574656429 subj=unconfined key="tracing"
+[  +0,000001] audit: type=1327 audit(1677264073.661:2965819): proctitle="./deadcells"
+[  +0,000001] audit: type=1300 audit(1677264073.661:2965820): arch=c000003e syscall=101 success=yes exit=0 a0=2 a1=23e8 a2=7ffd24456618 a3=7fb002672968 items=0 ppid=9192 pid=17614 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="deadcells" exe=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F737465616D617070732F636F6D6D6F6E2F446561642043656C6C732F6465616463656C6C73202864656C6574656429 subj=unconfined key="tracing"
+[  +0,000002] audit: type=1327 audit(1677264073.661:2965820): proctitle="./deadcells"
+[  +0,000001] audit: type=1300 audit(1677264073.661:2965821): arch=c000003e syscall=101 success=yes exit=0 a0=2 a1=23e8 a2=7ffd24456620 a3=7fb002672968 items=0 ppid=9192 pid=17614 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="deadcells" exe=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F737465616D617070732F636F6D6D6F6E2F446561642043656C6C732F6465616463656C6C73202864656C6574656429 subj=unconfined key="tracing"
+[  +0,000001] audit: type=1327 audit(1677264073.661:2965821): proctitle="./deadcells"
+[  +0,000001] audit: type=1300 audit(1677264073.661:2965822): arch=c000003e syscall=101 success=yes exit=0 a0=2 a1=23e8 a2=7ffd24456628 a3=7fb002672968 items=0 ppid=9192 pid=17614 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="deadcells" exe=2F686F6D652F6D61782F2E6C6F63616C2F73686172652F537465616D2F737465616D617070732F636F6D6D6F6E2F446561642043656C6C732F6465616463656C6C73202864656C6574656429 subj=unconfined key="tracing"
+[  +1,271371] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49551 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,208449] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49552 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,408006] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49553 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,823923] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49554 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,664339] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49555 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +0,513690] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=2932 TOS=0x00 PREC=0x00 TTL=64 ID=18624 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,000016] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=2932 TOS=0x00 PREC=0x00 TTL=64 ID=18626 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,176992] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=2932 TOS=0x00 PREC=0x00 TTL=64 ID=18628 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,000025] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=2932 TOS=0x00 PREC=0x00 TTL=64 ID=18630 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,000009] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=2932 TOS=0x00 PREC=0x00 TTL=64 ID=18632 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,588913] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18634 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,088838] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18635 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,895045] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49556 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +1,279937] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18636 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +4,479910] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18637 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,024165] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49557 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[  +7,679852] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18638 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +5,631782] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49558 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[ +11,775953] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18639 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[лют24 20:42] Iptables: v4Deny: IN= OUT=lo SRC=127.0.0.1 DST=127.0.0.1 LEN=423 TOS=0x00 PREC=0x00 TTL=64 ID=49559 DF PROTO=TCP SPT=57343 DPT=34904 WINDOW=512 RES=0x00 ACK PSH FIN URGP=0 
+[ +11,215671] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18640 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,549635] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18641 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK URGP=0 
+[  +0,549666] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18642 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK URGP=0 
+[  +0,548944] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18643 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,503373] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18644 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,585487] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18645 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,087450] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18646 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,556688] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18647 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,594962] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18648 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,087994] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18649 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +2,175961] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18650 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,471970] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18651 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,552843] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18652 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,087147] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18653 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +2,176846] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18654 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +4,414872] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18655 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,224438] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18656 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +0,543551] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18657 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,088038] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18658 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +2,175906] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18659 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +4,672068] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18660 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +8,703878] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18661 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[лют24 20:43] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18662 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[ +36,351319] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18663 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +7,535859] kauditd_printk_skb: 1417 callbacks suppressed
+[  +0,000002] audit: type=1302 audit(1677264234.616:3286591): item=0 name="package/tmp/ubuntu12_64/video/libavutil.so.56_" nametype=UNKNOWN cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677264234.616:3286591): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264234.616:3286592): arch=40000003 syscall=33 success=no exit=-2 a0=e7cf54b8 a1=0 a2=f7a1fe34 a3=e7cf573c items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677264234.616:3286592): item=0 name="package/tmp/ubuntu12_64/video/libavutil.so.56_" nametype=UNKNOWN cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677264234.616:3286592): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264234.616:3286593): arch=40000003 syscall=33 success=yes exit=0 a0=e7cf54b8 a1=0 a2=f7a1fe34 a3=2f items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677264234.616:3286593): item=0 name="package" inode=270563636 dev=103:02 mode=040750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000000] audit: type=1327 audit(1677264234.616:3286593): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000002] audit: type=1300 audit(1677264234.616:3286594): arch=40000003 syscall=33 success=yes exit=0 a0=e7cf54b8 a1=0 a2=f7a1fe34 a3=2f items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677264234.616:3286594): item=0 name="package/tmp" inode=537329251 dev=103:02 mode=040750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют24 20:44] kauditd_printk_skb: 313 callbacks suppressed
+[  +0,000023] audit: type=1302 audit(1677264260.016:3384013): item=0 name="/home/max/.local/share/Steam/controller_base/images/api" inode=808077591 dev=103:02 mode=040750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677264260.016:3384013): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264260.016:3384014): arch=40000003 syscall=33 success=yes exit=0 a0=e7cda248 a1=0 a2=f7a1fe34 a3=2f items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677264260.016:3384014): item=0 name="/home/max/.local/share/Steam/controller_base/images/api/knockout" inode=272453118 dev=103:02 mode=040750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677264260.016:3384014): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264260.016:3384015): arch=40000003 syscall=33 success=no exit=-2 a0=e7cda248 a1=0 a2=f7a1fe34 a3=0 items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677264260.016:3384015): item=0 name="/home/max/.local/share/Steam/controller_base/images/api/knockout/sc_rt_md.png" nametype=UNKNOWN cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677264260.016:3384015): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264260.016:3384016): arch=40000003 syscall=439 success=no exit=-2 a0=0 a1=e7cda248 a2=0 a3=100 items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677264260.016:3384016): item=0 name="/home/max/.local/share/Steam/controller_base/images/api/knockout/sc_rt_md.png" nametype=UNKNOWN cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[ +36,744165] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18664 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[лют24 20:45] kauditd_printk_skb: 1158 callbacks suppressed
+[  +0,000002] audit: type=1302 audit(1677264301.902:3536343): item=3 name="/home/max/.local/share/Steam/resource/layout/gamespage_details_turnnotifications_item.layout" inode=808059367 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677264301.902:3536343): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000002] audit: type=1300 audit(1677264301.902:3536344): arch=40000003 syscall=33 success=yes exit=0 a0=e7ce561c a1=0 a2=f7a1fe34 a3=e7ce55b0 items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677264301.902:3536344): item=0 name="/home/max/.local/share/Steam/package/tmp/resource/layout/gamespage_details_turnnotifications.layout_" inode=808059366 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677264301.902:3536344): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264301.902:3536345): arch=40000003 syscall=196 success=yes exit=0 a0=e7ce561c a1=e7ce55b0 a2=f7a1fe34 a3=e7ce55b0 items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677264301.902:3536345): item=0 name="/home/max/.local/share/Steam/package/tmp/resource/layout/gamespage_details_turnnotifications.layout_" inode=808059366 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677264301.902:3536345): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264301.902:3536346): arch=40000003 syscall=85 success=no exit=-22 a0=e7ce9700 a1=e7ce6700 a2=fff a3=f7a1fe34 items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677264301.902:3536346): item=0 name="package/tmp/./resource/layout/gamespage_details_turnnotifications.layout_" inode=808059366 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[ +21,511825] kauditd_printk_skb: 3884 callbacks suppressed
+[  +0,000002] audit: type=1300 audit(1677264323.876:3616802): arch=40000003 syscall=383 success=yes exit=0 a0=d a1=f79b9d47 a2=1800 a3=7ff items=1 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,104343] audit: audit_lost=1977 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000003] audit: kauditd retry queue overflow
+[  +0,000003] audit: type=1300 audit(1677264323.908:3619047): arch=40000003 syscall=220 success=yes exit=5136 a0=d a1=e741b64c a2=8000 a3=f7a1fe34 items=0 ppid=9517 pid=17508 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: audit_lost=1978 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000001] audit: kauditd retry queue overflow
+[лют24 20:46] audit: type=1327 audit(1677264394.429:3842984): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000004] audit: type=1300 audit(1677264394.429:3842985): arch=40000003 syscall=224 success=yes exit=18383 a0=e57a51dc a1=e57a51e0 a2=e57c668f a3=e57a51dc items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264394.429:3842985): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264394.429:3842986): arch=40000003 syscall=224 success=yes exit=18383 a0=0 a1=20 a2=e5771ca0 a3=5923dd60 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264394.429:3842986): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000002] audit: type=1300 audit(1677264394.429:3842987): arch=40000003 syscall=224 success=yes exit=18383 a0=e57a51dc a1=e57a51e0 a2=e57c668f a3=e57a51dc items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264394.429:3842987): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264394.429:3842988): arch=40000003 syscall=224 success=yes exit=18383 a0=0 a1=20 a2=e5771ca0 a3=5923dd60 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264394.429:3842988): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264394.429:3842989): arch=40000003 syscall=224 success=yes exit=18383 a0=e57a51dc a1=e57a51e0 a2=e57c668f a3=e57a51dc items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[ +11,311952] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,009351] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +1,294544] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,012245] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[лют24 20:47] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1480 TOS=0x00 PREC=0x00 TTL=64 ID=18665 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +1,709923] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18667 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +4,357806] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18668 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +8,694199] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18669 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[ +17,406807] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18670 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[ +15,413919] kauditd_printk_skb: 4007 callbacks suppressed
+[  +0,000003] audit: type=1327 audit(1677264469.386:4111153): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,105592] audit: type=1327 audit(1677264469.712:4113850): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000003] audit: audit_lost=1983 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000002] audit: kauditd retry queue overflow
+[  +0,000001] audit: audit_lost=1984 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000001] audit: kauditd retry queue overflow
+[ +10,837735] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=196 TOS=0x00 PREC=0x00 TTL=64 ID=46001 DF PROTO=UDP SPT=27036 DPT=27036 LEN=176 
+[  +0,000105] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=46002 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[лют24 20:48] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=46645 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +4,180160] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=200 TOS=0x00 PREC=0x00 TTL=64 ID=49648 DF PROTO=UDP SPT=27036 DPT=27036 LEN=180 
+[  +0,002101] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=49650 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +3,751799] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18671 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[ +13,245592] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=200 TOS=0x00 PREC=0x00 TTL=64 ID=59890 DF PROTO=UDP SPT=27036 DPT=27036 LEN=180 
+[ +37,677651] audit: type=1327 audit(1677264539.515:4456680): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000004] audit: type=1300 audit(1677264539.515:4456681): arch=40000003 syscall=168 success=yes exit=1 a0=fffdce4c a1=1 a2=ffffffff a3=f7c1fe34 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677264539.515:4456681): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264539.515:4456682): arch=40000003 syscall=372 success=yes exit=76 a0=13 a1=fffdcd94 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264539.515:4456682): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264539.515:4456683): arch=40000003 syscall=372 success=no exit=-11 a0=13 a1=fffdce84 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264539.515:4456683): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264539.515:4456684): arch=40000003 syscall=372 success=no exit=-11 a0=13 a1=fffdce84 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677264539.515:4456684): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264539.515:4456685): arch=40000003 syscall=372 success=no exit=-11 a0=13 a1=fffdce84 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 20:49] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=16322 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +0,856925] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=16350 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +1,027067] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=17128 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +6,003789] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=19266 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +0,945552] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18672 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[  +7,267339] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=25967 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +1,030764] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=26470 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +1,304321] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=200 TOS=0x00 PREC=0x00 TTL=64 ID=27294 DF PROTO=UDP SPT=27036 DPT=27036 LEN=180 
+[  +2,706927] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=29663 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +2,420446] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=200 TOS=0x00 PREC=0x00 TTL=64 ID=31589 DF PROTO=UDP SPT=27036 DPT=27036 LEN=180 
+[ +20,044991] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=200 TOS=0x00 PREC=0x00 TTL=64 ID=44405 DF PROTO=UDP SPT=27036 DPT=27036 LEN=180 
+[лют24 20:50] kauditd_printk_skb: 1765 callbacks suppressed
+[  +0,000002] audit: type=1300 audit(1677264612.722:4767015): arch=40000003 syscall=3 success=yes exit=8 a0=26 a1=dc579b68 a2=8 a3=f7c1fe34 items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000003] audit: type=1327 audit(1677264612.722:4767015): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,104479] audit: audit_lost=1987 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000003] audit: kauditd retry queue overflow
+[  +0,000002] audit: type=1300 audit(1677264613.218:4769725): arch=40000003 syscall=224 success=yes exit=18383 a0=599e4600 a1=fffdd2a8 a2=dd790d85 a3=5a30d9dc items=0 ppid=9517 pid=18383 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: audit_lost=1988 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000001] audit: kauditd retry queue overflow
+[ +26,749140] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=63 TOS=0x00 PREC=0x00 TTL=64 ID=21915 DF PROTO=UDP SPT=27036 DPT=27036 LEN=43 
+[лют24 20:51] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,008755] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +1,357059] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,012522] [drm:nv_drm_fence_context_create_ioctl [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00000100] Failed to allocate fence signaling event
+[  +0,375275] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18673 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[ +12,701337] audit: type=1303 audit(1677264694.426:5050650): ouid=1000 ogid=1000 mode=0666
+[  +0,000003] audit: type=1327 audit(1677264694.426:5050650): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264694.426:5050651): arch=40000003 syscall=267 success=yes exit=0 a0=0 a1=0 a2=ffe4bb78 a3=ffe4bb84 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677264694.426:5050651): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264694.426:5050652): arch=40000003 syscall=284 success=yes exit=0 a0=0 a1=0 a2=ffe4bb50 a3=1000005 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264694.426:5050652): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264694.426:5050653): arch=40000003 syscall=224 success=yes exit=19979 a0=f7fd1dfe a1=e7114d28 a2=dd790d85 a3=5837123c items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264694.426:5050653): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264694.426:5050654): arch=40000003 syscall=3 success=yes exit=0 a0=5 a1=57d4d184 a2=3ff a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264694.426:5050654): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[ +11,176089] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=198 TOS=0x00 PREC=0x00 TTL=64 ID=6393 DF PROTO=UDP SPT=27036 DPT=27036 LEN=178 
+[  +0,000193] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=6394 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +4,268296] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=198 TOS=0x00 PREC=0x00 TTL=64 ID=9670 DF PROTO=UDP SPT=27036 DPT=27036 LEN=178 
+[  +0,000094] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=9671 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[  +4,016412] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=69 TOS=0x00 PREC=0x00 TTL=64 ID=10132 DF PROTO=UDP SPT=27036 DPT=27036 LEN=49 
+[лют24 20:52] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=192.168.1.0 LEN=198 TOS=0x00 PREC=0x00 TTL=64 ID=25736 DF PROTO=UDP SPT=27036 DPT=27036 LEN=178 
+[лют24 20:53] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18674 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[лют24 20:55] kauditd_printk_skb: 1646 callbacks suppressed
+[  +0,000002] audit: type=1300 audit(1677264908.382:6066531): arch=40000003 syscall=284 success=yes exit=0 a0=0 a1=0 a2=ffe4aa20 a3=1000005 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000003] audit: type=1327 audit(1677264908.382:6066531): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000022] audit: type=1300 audit(1677264908.382:6066532): arch=40000003 syscall=4 success=yes exit=8 a0=26 a1=ffe46da8 a2=8 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264908.382:6066532): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264908.380:6066533): arch=40000003 syscall=256 success=yes exit=1 a0=1f a1=dc62fd2c a2=1 a3=31 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677264908.380:6066533): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264908.382:6066534): arch=40000003 syscall=3 success=no exit=-11 a0=27 a1=dc62fc78 a2=8 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677264908.382:6066534): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677264908.382:6066535): arch=40000003 syscall=168 success=yes exit=0 a0=dc62f9f8 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000018] audit: type=1327 audit(1677264908.382:6066535): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[ +19,195016] Iptables: v4Deny: IN= OUT=wlp2s0 SRC=192.168.1.249 DST=208.64.203.140 LEN=1492 TOS=0x00 PREC=0x00 TTL=64 ID=18675 DF PROTO=TCP SPT=54804 DPT=80 WINDOW=502 RES=0x00 ACK PSH URGP=0 
+[лют24 20:57] kauditd_printk_skb: 72 callbacks suppressed
+[  +0,000003] audit: type=1327 audit(1677265035.232:6667193): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000003] audit: type=1300 audit(1677265035.232:6667194): arch=40000003 syscall=255 success=yes exit=0 a0=21 a1=3 a2=79 a3=dce30b24 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=494F4350205468726561642030 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265035.232:6667194): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000002] audit: type=1300 audit(1677265035.232:6667195): arch=40000003 syscall=255 success=yes exit=0 a0=21 a1=3 a2=79 a3=dce30d28 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=494F4350205468726561642030 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265035.232:6667195): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265035.232:6667196): arch=40000003 syscall=256 success=yes exit=1 a0=21 a1=584383a0 a2=1 a3=ffffffff items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=494F4350205468726561642030 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265035.232:6667196): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265035.232:6667197): arch=40000003 syscall=372 success=yes exit=2880 a0=7c a1=dce30c64 a2=40 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=494F4350205468726561642030 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677265035.232:6667197): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265035.232:6667198): arch=40000003 syscall=255 success=yes exit=0 a0=21 a1=3 a2=7c a3=dce30b24 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=494F4350205468726561642030 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 20:59] kauditd_printk_skb: 754 callbacks suppressed
+[  +0,000002] audit: type=1300 audit(1677265156.896:7235065): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000018] audit: type=1302 audit(1677265156.896:7235065): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_030_inv_0302.png" inode=301599026 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677265156.896:7235065): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265156.896:7235066): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677265156.896:7235066): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_030_inv_0302.png" inode=301599026 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265156.896:7235066): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265156.896:7235067): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677265156.896:7235067): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_030_inv_0303.png" inode=301599027 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677265156.896:7235067): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265156.896:7235068): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 21:01] kauditd_printk_skb: 19321 callbacks suppressed
+[  +0,000002] audit: type=1302 audit(1677265279.420:7788546): item=0 name="/home/max/.local/share/Steam/steamui/images/interstitial_controller_magnify.png" inode=2531958 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000024] audit: type=1327 audit(1677265279.420:7788546): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265279.420:7788547): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677265279.420:7788547): item=0 name="/home/max/.local/share/Steam/steamui/images/interstitial_controller_osk.png" inode=2531959 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265279.420:7788547): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265279.420:7788548): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677265279.420:7788548): item=0 name="/home/max/.local/share/Steam/steamui/images/interstitial_controller_osk.png" inode=2531959 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677265279.420:7788548): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265279.420:7788549): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677265279.420:7788549): item=0 name="/home/max/.local/share/Steam/steamui/images/launcher.png" inode=2531960 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют24 21:02] kauditd_printk_skb: 13452 callbacks suppressed
+[  +0,000002] audit: type=1300 audit(1677265336.760:8065170): arch=40000003 syscall=168 success=yes exit=0 a0=dc62f9f8 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000003] audit: type=1327 audit(1677265336.760:8065170): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265336.760:8065171): arch=40000003 syscall=3 success=yes exit=8 a0=26 a1=dc62fb68 a2=8 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265336.760:8065171): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265336.760:8065172): arch=40000003 syscall=224 success=yes exit=20084 a0=dc62e388 a1=f7fb9090 a2=df351fd8 a3=0 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265336.760:8065172): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265336.761:8065173): arch=40000003 syscall=224 success=yes exit=20084 a0=23706d72 a1=0 a2=dfac8000 a3=e7114d28 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677265336.761:8065173): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265336.761:8065174): arch=40000003 syscall=240 success=yes exit=1 a0=5846989c a1=81 a2=7fffffff a3=0 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265336.761:8065174): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[лют24 21:03] kauditd_printk_skb: 505 callbacks suppressed
+[  +0,000019] audit: type=1300 audit(1677265399.705:8357187): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000003] audit: type=1302 audit(1677265399.705:8357187): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_050_menu_0070.png" inode=271850437 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265399.705:8357187): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000002] audit: type=1300 audit(1677265399.705:8357188): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677265399.705:8357188): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_050_menu_0070.png" inode=271850437 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265399.705:8357188): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265399.705:8357189): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677265399.705:8357189): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_050_menu_0090.png" inode=271850438 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265399.705:8357189): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265399.705:8357190): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 21:04] kauditd_printk_skb: 1885 callbacks suppressed
+[  +0,000002] audit: type=1327 audit(1677265461.412:8635615): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000003] audit: type=1300 audit(1677265461.412:8635616): arch=40000003 syscall=240 success=yes exit=0 a0=5846989c a1=89 a2=0 a3=ffe491d8 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265461.412:8635616): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000002] audit: type=1300 audit(1677265461.412:8635617): arch=40000003 syscall=168 success=yes exit=0 a0=dc62fb58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265461.412:8635617): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265461.412:8635618): arch=40000003 syscall=240 success=yes exit=0 a0=5846985c a1=81 a2=1 a3=0 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265461.412:8635618): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265461.412:8635619): arch=40000003 syscall=168 success=yes exit=0 a0=dc62fb58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677265461.412:8635619): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000000] audit: type=1300 audit(1677265461.412:8635620): arch=40000003 syscall=4 success=yes exit=8 a0=26 a1=ffe49338 a2=8 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 21:05] kauditd_printk_skb: 3250 callbacks suppressed
+[  +0,000002] audit: type=1327 audit(1677265521.681:8904336): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,105471] audit: audit_lost=10042 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000004] audit: kauditd retry queue overflow
+[  +0,000001] audit: type=1300 audit(1677265522.210:8907062): arch=40000003 syscall=372 success=no exit=-11 a0=13 a1=ffe4b0b4 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: audit_lost=10043 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000001] audit: kauditd retry queue overflow
+[лют24 21:06] audit: type=1327 audit(1677265580.227:9168485): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000004] audit: type=1300 audit(1677265580.227:9168486): arch=40000003 syscall=240 success=yes exit=0 a0=5846989c a1=89 a2=0 a3=ffe4acf8 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1300 audit(1677265580.227:9168487): arch=40000003 syscall=168 success=yes exit=0 a0=dc62fb58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1327 audit(1677265580.227:9168486): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1327 audit(1677265580.227:9168487): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265580.227:9168488): arch=40000003 syscall=168 success=yes exit=0 a0=dc62f9f8 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265580.227:9168488): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265580.227:9168489): arch=40000003 syscall=240 success=yes exit=0 a0=5846985c a1=81 a2=1 a3=0 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1327 audit(1677265580.227:9168489): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265580.227:9168490): arch=40000003 syscall=168 success=yes exit=0 a0=dc62fb58 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[лют24 21:07] kauditd_printk_skb: 1908 callbacks suppressed
+[  +0,000003] audit: type=1300 audit(1677265642.067:9445498): arch=40000003 syscall=224 success=yes exit=19979 a0=581aec30 a1=ffe4b438 a2=dd790d85 a3=588a9a3c items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000003] audit: type=1327 audit(1677265642.067:9445498): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265642.067:9445499): arch=40000003 syscall=224 success=yes exit=19979 a0=581ad740 a1=ffe4b438 a2=dd790d85 a3=58bcbc6c items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="steam" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000019] audit: type=1327 audit(1677265642.067:9445499): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,104471] audit: audit_lost=10048 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000003] audit: kauditd retry queue overflow
+[  +0,000002] audit: type=1300 audit(1677265642.329:9447888): arch=40000003 syscall=168 success=yes exit=1 a0=dc62fa08 a1=1 a2=0 a3=f7c1fe34 items=0 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="CIPCServer::Thr" exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: audit_lost=10049 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000000] audit: kauditd retry queue overflow
+[лют24 21:08] audit: type=1327 audit(1677265704.017:9726593): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000004] audit: type=1300 audit(1677265704.017:9726594): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677265704.017:9726594): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_010_wpn_0409.png" inode=301592876 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265704.017:9726594): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000018] audit: type=1300 audit(1677265704.017:9726595): arch=40000003 syscall=196 success=yes exit=0 a0=cd6fbcac a1=cd6fbc4c a2=f7c1fe34 a3=e7062fa8 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000001] audit: type=1302 audit(1677265704.017:9726595): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_010_wpn_0409.png" inode=301592876 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265704.017:9726595): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
+[  +0,000001] audit: type=1300 audit(1677265704.017:9726596): arch=40000003 syscall=33 success=yes exit=0 a0=cd6fbcac a1=0 a2=f7c1fe34 a3=0 items=1 ppid=9517 pid=19979 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm=537465616D202D2044697257617463 exe="/home/max/.local/share/Steam/ubuntu12_32/steam" subj=unconfined key="32bit_api"
+[  +0,000002] audit: type=1302 audit(1677265704.017:9726596): item=0 name="/home/max/.local/share/Steam/steamui/images/controller/ghost_010_wpn_0410.png" inode=301592878 dev=103:02 mode=0100750 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677265704.017:9726596): proctitle="/home/max/.local/share/Steam/ubuntu12_32/steam"
