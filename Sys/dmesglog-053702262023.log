@@ -1,0 +1,1669 @@
+[лют25 20:01] Linux version 6.1.12-zen1-1-zen (linux-zen@archlinux) (gcc (GCC) 12.2.1 20230201, GNU ld (GNU Binutils) 2.40) #1 ZEN SMP PREEMPT_DYNAMIC Tue, 14 Feb 2023 22:08:11 +0000
+[  +0,000000] Command line: BOOT_IMAGE=/boot/vmlinuz-linux-zen root=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a rw rd.udev.log_priority=3 vt.global_cursor_default=0 resume=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a log_buf_len=1M print-fatal-signals=1 loglevel=3 audit=1 console=tty0 console=ttys0,115200n0 kvm-intel.nested=1 no_timer_check noreplace-smp rcupdate.rcu_expedited=1 tsc=reliable lsm=yama,safesetid,integrity,landlock,lockdown,apparmor,bpf l1tf=flush,nosmt mds=full,nosmt tsx_async_abort=full,nosmt mmio_stale_data=full,nosmt retbleed=auto,nosmt mitigations=auto,nosmt nosmt=force pcie_aspm=force init_on_alloc=1 init_on_free=1 page_alloc.shuffle=1 vsyscall=none mce=0 debugfs=on randomize_kstack_offset=on slab_nomerge pti=on slub_debug=ZF slub_debug=P page_poison=on fsck.mode=force fsck.repair=yes 915.modeset=1 i915.fastboot=1 i915.enable_fbc=1 i915.edp_vswing=2 nvidia_drm.modeset=1 iommu.strict=1 intremap=on intel_iommu=igfx_off efi=disable_early_pci_dma pci=use_crs
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[  +0,000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+[  +0,000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[  +0,000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+[  +0,000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+[  +0,000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+[  +0,000000] signal: max sigframe size: 2032
+[  +0,000000] BIOS-provided physical RAM map:
+[  +0,000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000057fff] usable
+[  +0,000000] BIOS-e820: [mem 0x0000000000058000-0x0000000000058fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000000059000-0x000000000009dfff] usable
+[  +0,000000] BIOS-e820: [mem 0x000000000009e000-0x00000000000fffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000000100000-0x000000002a955fff] usable
+[  +0,000000] BIOS-e820: [mem 0x000000002a956000-0x000000002a956fff] ACPI NVS
+[  +0,000000] BIOS-e820: [mem 0x000000002a957000-0x000000002a980fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x000000002a981000-0x00000000389c2fff] usable
+[  +0,000000] BIOS-e820: [mem 0x00000000389c3000-0x0000000038d7efff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000038d7f000-0x0000000038dbcfff] ACPI data
+[  +0,000000] BIOS-e820: [mem 0x0000000038dbd000-0x0000000039426fff] ACPI NVS
+[  +0,000000] BIOS-e820: [mem 0x0000000039427000-0x000000003a425fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x000000003a426000-0x000000003a4fefff] type 20
+[  +0,000000] BIOS-e820: [mem 0x000000003a4ff000-0x000000003a4fffff] usable
+[  +0,000000] BIOS-e820: [mem 0x000000003a500000-0x000000003fffffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000fe000000-0x00000000fe010fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[  +0,000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[  +0,000000] BIOS-e820: [mem 0x0000000100000000-0x00000008bdffffff] usable
+[  +0,000000] SMT: Force disabled
+[  +0,000000] NX (Execute Disable) protection: active
+[  +0,000000] efi: EFI v2.40 by American Megatrends
+[  +0,000000] efi: ACPI=0x38d8b000 ACPI 2.0=0x38d8b000 SMBIOS=0xf0000 ESRT=0x3a1c5018 MEMATTR=0x36615018 
+[  +0,000000] SMBIOS 2.8 present.
+[  +0,000000] DMI: Dell Inc. Precision 5510/08R8KJ, BIOS 1.23.0 07/06/2022
+[  +0,000000] tsc: Detected 2800.000 MHz processor
+[  +0,000000] tsc: Detected 2799.927 MHz TSC
+[  +0,000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[  +0,000003] e820: remove [mem 0x000a0000-0x000fffff] usable
+[  +0,000010] last_pfn = 0x8be000 max_arch_pfn = 0x400000000
+[  +0,000108] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[  +0,000491] last_pfn = 0x3a500 max_arch_pfn = 0x400000000
+[  +0,008208] esrt: Reserving ESRT space from 0x000000003a1c5018 to 0x000000003a1c5050.
+[  +0,000009] Using GB pages for direct mapping
+[  +0,000929] printk: log_buf_len: 1048576 bytes
+[  +0,000001] printk: early log buf free: 126808(96%)
+[  +0,000001] Secure boot disabled
+[  +0,000001] RAMDISK: [mem 0x3221f000-0x35106fff]
+[  +0,000003] ACPI: Early table checksum verification disabled
+[  +0,000003] ACPI: RSDP 0x0000000038D8B000 000024 (v02 DELL  )
+[  +0,000004] ACPI: XSDT 0x0000000038D8B0C8 00010C (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000005] ACPI: FACP 0x0000000038DABF90 00010C (v05 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000006] ACPI: DSDT 0x0000000038D8B260 020D2E (v02 DELL   CBX3     01072009 INTL 20120913)
+[  +0,000003] ACPI: FACS 0x0000000039420D80 000040
+[  +0,000003] ACPI: APIC 0x0000000038DAC0A0 000084 (v03 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000003] ACPI: FPDT 0x0000000038DAC128 000044 (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000002] ACPI: MCFG 0x0000000038DAC170 00003C (v01 DELL   CBX3     01072009 MSFT 00000097)
+[  +0,000003] ACPI: HPET 0x0000000038DAC1B0 000038 (v01 DELL   CBX3     01072009 AMI. 0005000B)
+[  +0,000003] ACPI: SSDT 0x0000000038DAC1E8 00046D (v01 SataRe SataTabl 00001000 INTL 20120913)
+[  +0,000003] ACPI: WSMT 0x0000000038DAC658 000028 (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000003] ACPI: LPIT 0x0000000038DAC680 000094 (v01 INTEL  SKL      00000000 MSFT 0000005F)
+[  +0,000003] ACPI: SSDT 0x0000000038DAC718 000248 (v02 INTEL  sensrhub 00000000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DAC960 002BAE (v02 INTEL  PtidDevc 00001000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DAF510 000024 (v02 INTEL  OEM_RTD3 00001000 INTL 20120913)
+[  +0,000002] ACPI: SSDT 0x0000000038DAF538 000BE3 (v02 INTEL  Ther_Rvp 00001000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DB0120 0004DC (v02 INTEL  zpodd    00001000 INTL 20120913)
+[  +0,000003] ACPI: DBGP 0x0000000038DB0600 000034 (v01 INTEL           00000000 MSFT 0000005F)
+[  +0,000003] ACPI: DBG2 0x0000000038DB0638 000054 (v00 INTEL           00000000 MSFT 0000005F)
+[  +0,000003] ACPI: SSDT 0x0000000038DB0690 000775 (v02 INTEL  xh_rvp10 00000000 INTL 20120913)
+[  +0,000003] ACPI: BOOT 0x0000000038DB0E08 000028 (v01 DELL   CBX3     01072009 AMI  00010013)
+[  +0,000003] ACPI: SSDT 0x0000000038DB0E30 0037D6 (v02 SaSsdt SaSsdt   00003000 INTL 20120913)
+[  +0,000003] ACPI: UEFI 0x0000000038DB4608 000042 (v01                 00000000      00000000)
+[  +0,000002] ACPI: SSDT 0x0000000038DB4650 000E73 (v02 CpuRef CpuSsdt  00003000 INTL 20120913)
+[  +0,000003] ACPI: SSDT 0x0000000038DB54C8 0044FA (v02 DptfTa DptfTabl 00001000 INTL 20120913)
+[  +0,000003] ACPI: MSDM 0x0000000038DB99C8 000055 (v03 DELL   CBX3     06222004 AMI  00010013)
+[  +0,000003] ACPI: SLIC 0x0000000038DB9A20 000176 (v03 DELL   CBX3     01072009 MSFT 00010013)
+[  +0,000003] ACPI: TCPA 0x0000000038DB9B98 000032 (v02 ALASKA NAPAASF  00000000 MSFT 01000013)
+[  +0,000003] ACPI: BGRT 0x0000000038DB9BD0 000038 (v00 ?Hr;            01072009 AMI  00010013)
+[  +0,000003] ACPI: SSDT 0x0000000038DB9C08 0000C3 (v02 SgRef  SgPeg    00001000 INTL 20120913)
+[  +0,000003] ACPI: DMAR 0x0000000038DB9CD0 0000F0 (v01 INTEL  SKL      00000001 INTL 00000001)
+[  +0,000003] ACPI: SSDT 0x0000000038DB9DC0 001868 (v01 OptRef OptTabl  00001000 INTL 20120913)
+[  +0,000002] ACPI: ASF! 0x0000000038DBB628 0000A5 (v32 INTEL   HCG     00000001 TFSM 000F4240)
+[  +0,000003] ACPI: Reserving FACP table memory at [mem 0x38dabf90-0x38dac09b]
+[  +0,000001] ACPI: Reserving DSDT table memory at [mem 0x38d8b260-0x38dabf8d]
+[  +0,000001] ACPI: Reserving FACS table memory at [mem 0x39420d80-0x39420dbf]
+[  +0,000001] ACPI: Reserving APIC table memory at [mem 0x38dac0a0-0x38dac123]
+[  +0,000001] ACPI: Reserving FPDT table memory at [mem 0x38dac128-0x38dac16b]
+[  +0,000001] ACPI: Reserving MCFG table memory at [mem 0x38dac170-0x38dac1ab]
+[  +0,000001] ACPI: Reserving HPET table memory at [mem 0x38dac1b0-0x38dac1e7]
+[  +0,000000] ACPI: Reserving SSDT table memory at [mem 0x38dac1e8-0x38dac654]
+[  +0,000001] ACPI: Reserving WSMT table memory at [mem 0x38dac658-0x38dac67f]
+[  +0,000001] ACPI: Reserving LPIT table memory at [mem 0x38dac680-0x38dac713]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38dac718-0x38dac95f]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38dac960-0x38daf50d]
+[  +0,000000] ACPI: Reserving SSDT table memory at [mem 0x38daf510-0x38daf533]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38daf538-0x38db011a]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db0120-0x38db05fb]
+[  +0,000001] ACPI: Reserving DBGP table memory at [mem 0x38db0600-0x38db0633]
+[  +0,000001] ACPI: Reserving DBG2 table memory at [mem 0x38db0638-0x38db068b]
+[  +0,000000] ACPI: Reserving SSDT table memory at [mem 0x38db0690-0x38db0e04]
+[  +0,000001] ACPI: Reserving BOOT table memory at [mem 0x38db0e08-0x38db0e2f]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db0e30-0x38db4605]
+[  +0,000001] ACPI: Reserving UEFI table memory at [mem 0x38db4608-0x38db4649]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db4650-0x38db54c2]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db54c8-0x38db99c1]
+[  +0,000000] ACPI: Reserving MSDM table memory at [mem 0x38db99c8-0x38db9a1c]
+[  +0,000001] ACPI: Reserving SLIC table memory at [mem 0x38db9a20-0x38db9b95]
+[  +0,000001] ACPI: Reserving TCPA table memory at [mem 0x38db9b98-0x38db9bc9]
+[  +0,000001] ACPI: Reserving BGRT table memory at [mem 0x38db9bd0-0x38db9c07]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db9c08-0x38db9cca]
+[  +0,000001] ACPI: Reserving DMAR table memory at [mem 0x38db9cd0-0x38db9dbf]
+[  +0,000001] ACPI: Reserving SSDT table memory at [mem 0x38db9dc0-0x38dbb627]
+[  +0,000000] ACPI: Reserving ASF! table memory at [mem 0x38dbb628-0x38dbb6cc]
+[  +0,000110] No NUMA configuration found
+[  +0,000001] Faking a node at [mem 0x0000000000000000-0x00000008bdffffff]
+[  +0,000003] NODE_DATA(0) allocated [mem 0x8bdb7b000-0x8bdb7ffff]
+[  +0,000052] Zone ranges:
+[  +0,000001]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[  +0,000002]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[  +0,000001]   Normal   [mem 0x0000000100000000-0x00000008bdffffff]
+[  +0,000001]   Device   empty
+[  +0,000001] Movable zone start for each node
+[  +0,000001] Early memory node ranges
+[  +0,000000]   node   0: [mem 0x0000000000001000-0x0000000000057fff]
+[  +0,000002]   node   0: [mem 0x0000000000059000-0x000000000009dfff]
+[  +0,000001]   node   0: [mem 0x0000000000100000-0x000000002a955fff]
+[  +0,000001]   node   0: [mem 0x000000002a981000-0x00000000389c2fff]
+[  +0,000001]   node   0: [mem 0x000000003a4ff000-0x000000003a4fffff]
+[  +0,000000]   node   0: [mem 0x0000000100000000-0x00000008bdffffff]
+[  +0,000005] Initmem setup node 0 [mem 0x0000000000001000-0x00000008bdffffff]
+[  +0,000003] On node 0, zone DMA: 1 pages in unavailable ranges
+[  +0,000002] On node 0, zone DMA: 1 pages in unavailable ranges
+[  +0,000020] On node 0, zone DMA: 98 pages in unavailable ranges
+[  +0,001159] On node 0, zone DMA32: 43 pages in unavailable ranges
+[  +0,000087] On node 0, zone DMA32: 6972 pages in unavailable ranges
+[  +0,042250] On node 0, zone Normal: 23296 pages in unavailable ranges
+[  +0,000104] On node 0, zone Normal: 8192 pages in unavailable ranges
+[  +0,000020] Reserving Intel graphics memory at [mem 0x3c000000-0x3fffffff]
+[  +0,000909] ACPI: PM-Timer IO Port: 0x1808
+[  +0,000006] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[  +0,000002] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[  +0,000001] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[  +0,000001] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[  +0,000026] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[  +0,000002] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[  +0,000003] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[  +0,000004] ACPI: Using ACPI (MADT) for SMP configuration information
+[  +0,000001] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[  +0,000006] e820: update [mem 0x36352000-0x363d5fff] usable ==> reserved
+[  +0,000014] TSC deadline timer available
+[  +0,000001] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[  +0,000017] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[  +0,000003] PM: hibernation: Registered nosave memory: [mem 0x00058000-0x00058fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x0009e000-0x000fffff]
+[  +0,000002] PM: hibernation: Registered nosave memory: [mem 0x2a956000-0x2a956fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x2a957000-0x2a980fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x36352000-0x363d5fff]
+[  +0,000002] PM: hibernation: Registered nosave memory: [mem 0x389c3000-0x38d7efff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x38d7f000-0x38dbcfff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0x38dbd000-0x39426fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x39427000-0x3a425fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x3a426000-0x3a4fefff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x3a500000-0x3fffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0x40000000-0xdfffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xefffffff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0xf0000000-0xfdffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfe000000-0xfe010fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfe011000-0xfebfffff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[  +0,000000] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+[  +0,000001] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xffffffff]
+[  +0,000001] [mem 0x40000000-0xdfffffff] available for PCI devices
+[  +0,000001] Booting paravirtualized kernel on bare hardware
+[  +0,000002] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[  +0,006245] setup_percpu: NR_CPUS:320 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+[  +0,000140] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u524288
+[  +0,000006] pcpu-alloc: s221184 r8192 d28672 u524288 alloc=1*2097152
+[  +0,000002] pcpu-alloc: [0] 0 1 2 3 
+[  +0,000018] Fallback order for Node 0: 0 
+[  +0,000003] Built 1 zonelists, mobility grouping on.  Total pages: 8219378
+[  +0,000001] Policy zone: Normal
+[  +0,000001] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-zen root=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a rw rd.udev.log_priority=3 vt.global_cursor_default=0 resume=UUID=703e84f3-1201-4bfe-8c5d-f2a70a0de41a log_buf_len=1M print-fatal-signals=1 loglevel=3 audit=1 console=tty0 console=ttys0,115200n0 kvm-intel.nested=1 no_timer_check noreplace-smp rcupdate.rcu_expedited=1 tsc=reliable lsm=yama,safesetid,integrity,landlock,lockdown,apparmor,bpf l1tf=flush,nosmt mds=full,nosmt tsx_async_abort=full,nosmt mmio_stale_data=full,nosmt retbleed=auto,nosmt mitigations=auto,nosmt nosmt=force pcie_aspm=force init_on_alloc=1 init_on_free=1 page_alloc.shuffle=1 vsyscall=none mce=0 debugfs=on randomize_kstack_offset=on slab_nomerge pti=on slub_debug=ZF slub_debug=P page_poison=on fsck.mode=force fsck.repair=yes 915.modeset=1 i915.fastboot=1 i915.enable_fbc=1 i915.edp_vswing=2 nvidia_drm.modeset=1 iommu.strict=1 intremap=on intel_iommu=igfx_off efi=disable_early_pci_dma pci=use_crs
+[  +0,000113] audit: enabled (after initialization)
+[  +0,000170] PCIe ASPM is forcibly enabled
+[  +0,000137] mem auto-init: SLAB_POISON will take precedence over init_on_alloc/init_on_free
+[  +0,000152] DMAR: Disable GFX device mapping
+[  +0,000027] Unknown kernel command line parameters "BOOT_IMAGE=/boot/vmlinuz-linux-zen pti=on", will be passed to user space.
+[  +0,000046] random: crng init done
+[  +0,001407] Dentry cache hash table entries: 4194304 (order: 13, 33554432 bytes, linear)
+[  +0,000871] Inode-cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[  +0,000058] mem auto-init: CONFIG_PAGE_POISONING is on, will take precedence over init_on_alloc and init_on_free
+[  +0,000101] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[  +0,000009] software IO TLB: area num 4.
+[  +2,218750] Memory: 32621484K/33400020K available (18439K kernel code, 2180K rwdata, 11000K rodata, 2152K init, 3164K bss, 778276K reserved, 0K cma-reserved)
+[  +0,000004] **********************************************************
+[  +0,000001] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[  +0,000000] **                                                      **
+[  +0,000000] ** This system shows unhashed kernel memory addresses   **
+[  +0,000001] ** via the console, logs, and other interfaces. This    **
+[  +0,000000] ** might reduce the security of your system.            **
+[  +0,000001] **                                                      **
+[  +0,000000] ** If you see this message and you are not debugging    **
+[  +0,000000] ** the kernel, report this immediately to your system   **
+[  +0,000001] ** administrator!                                       **
+[  +0,000000] **                                                      **
+[  +0,000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[  +0,000001] **********************************************************
+[  +0,000116] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[  +0,000015] Kernel/User page tables isolation: enabled
+[  +0,000015] ftrace: allocating 44248 entries in 173 pages
+[  +0,007748] ftrace: allocated 173 pages with 5 groups
+[  +0,000074] Dynamic Preempt: full
+[  +0,000029] rcu: Preemptible hierarchical RCU implementation.
+[  +0,000001] rcu: 	RCU restricting CPUs from NR_CPUS=320 to nr_cpu_ids=4.
+[  +0,000001] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[  +0,000001] 	All grace periods are expedited (rcu_expedited).
+[  +0,000000] 	Trampoline variant of Tasks RCU enabled.
+[  +0,000001] 	Rude variant of Tasks RCU enabled.
+[  +0,000000] 	Tracing variant of Tasks RCU enabled.
+[  +0,000001] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[  +0,000001] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[  +0,004696] NR_IRQS: 20736, nr_irqs: 1024, preallocated irqs: 16
+[  +0,000204] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[  +0,000213] kfence: initialized - using 2097152 bytes for 255 objects at 0xffff9996da600000-0xffff9996da800000
+[  +0,000024] Console: colour dummy device 80x25
+[  +0,000019] printk: console [tty0] enabled
+[  +0,000019] ACPI: Core revision 20220331
+[  +0,000278] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635855245 ns
+[  +0,000068] APIC: Switch to symmetric I/O mode setup
+[  +0,000002] DMAR: Host address width 39
+[  +0,000001] DMAR: DRHD base: 0x000000fed90000 flags: 0x0
+[  +0,000007] DMAR: dmar0: reg_base_addr fed90000 ver 1:0 cap 1c0000c40660462 ecap 7e3ff0505e
+[  +0,000002] DMAR: DRHD base: 0x000000fed91000 flags: 0x1
+[  +0,000004] DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap d2008c40660462 ecap f050da
+[  +0,000001] DMAR: RMRR base: 0x00000038b12000 end: 0x00000038b31fff
+[  +0,000002] DMAR: RMRR base: 0x0000003b800000 end: 0x0000003fffffff
+[  +0,000001] DMAR: ANDD device: 1 name: \_SB.PCI0.I2C0
+[  +0,000001] DMAR: ANDD device: 2 name: \_SB.PCI0.I2C1
+[  +0,000002] DMAR-IR: IOAPIC id 2 under DRHD base  0xfed91000 IOMMU 1
+[  +0,000002] DMAR-IR: HPET id 0 under DRHD base 0xfed91000
+[  +0,000001] DMAR-IR: x2apic is disabled because BIOS sets x2apic opt out bit.
+[  +0,000000] DMAR-IR: Use 'intremap=no_x2apic_optout' to override the BIOS setting.
+[  +0,001890] DMAR-IR: Enabled IRQ remapping in xapic mode
+[  +0,000001] x2apic: IRQ remapping doesn't support X2APIC mode
+[  +0,003897] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[  +0,000010] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x285bfbafad2, max_idle_ns: 440795215530 ns
+[  +0,000005] Calibrating delay loop (skipped), value calculated using timer frequency.. 5599.85 BogoMIPS (lpj=2799927)
+[  +0,000002] pid_max: default: 32768 minimum: 301
+[  +0,005035] LSM: Security Framework initializing
+[  +0,000016] Yama: becoming mindful.
+[  +0,000009] landlock: Up and running.
+[  +0,000029] AppArmor: AppArmor initialized
+[  +0,000003] LSM support for eBPF active
+[  +0,000108] Mount-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[  +0,000082] Mountpoint-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[  +0,000273] x86/cpu: SGX disabled by BIOS.
+[  +0,000005] CPU0: Thermal monitoring enabled (TM1)
+[  +0,000049] process: using mwait in idle threads
+[  +0,000002] Last level iTLB entries: 4KB 128, 2MB 8, 4MB 8
+[  +0,000002] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+[  +0,000006] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[  +0,000005] Spectre V2 : Mitigation: IBRS
+[  +0,000001] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[  +0,000001] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+[  +0,000001] RETBleed: Mitigation: IBRS
+[  +0,000003] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[  +0,000005] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[  +0,000008] MDS: Mitigation: Clear CPU buffers
+[  +0,000001] TAA: Mitigation: TSX disabled
+[  +0,000001] MMIO Stale Data: Mitigation: Clear CPU buffers
+[  +0,000005] SRBDS: Mitigation: Microcode
+[  +0,025056] Freeing SMP alternatives memory: 48K
+[  +0,000371] smpboot: CPU0: Intel(R) Xeon(R) CPU E3-1505M v5 @ 2.80GHz (family: 0x6, model: 0x5e, stepping: 0x3)
+[  +0,000163] cblist_init_generic: Setting adjustable number of callback queues.
+[  +0,000002] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000018] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000020] cblist_init_generic: Setting shift to 2 and lim to 1.
+[  +0,000014] Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver.
+[  +0,000022] ... version:                4
+[  +0,000001] ... bit width:              48
+[  +0,000001] ... generic registers:      8
+[  +0,000001] ... value mask:             0000ffffffffffff
+[  +0,000001] ... max period:             00007fffffffffff
+[  +0,000001] ... fixed-purpose events:   3
+[  +0,000000] ... event mask:             00000007000000ff
+[  +0,000132] Estimated ratio of average max frequency by base frequency (times 1024): 1206
+[  +0,000026] rcu: Hierarchical SRCU implementation.
+[  +0,000000] rcu: 	Max phase no-delay instances is 400.
+[  +0,000775] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[  +0,000065] smp: Bringing up secondary CPUs ...
+[  +0,000114] x86: Booting SMP configuration:
+[  +0,000001] .... node  #0, CPUs:      #1 #2 #3
+[  +0,006329] smp: Brought up 1 node, 4 CPUs
+[  +0,000000] smpboot: Max logical packages: 1
+[  +0,000000] smpboot: Total of 4 processors activated (22399.41 BogoMIPS)
+[  +0,003285] devtmpfs: initialized
+[  +0,000000] x86/mm: Memory block size: 128MB
+[  +0,003274] ACPI: PM: Registering ACPI NVS region [mem 0x2a956000-0x2a956fff] (4096 bytes)
+[  +0,000003] ACPI: PM: Registering ACPI NVS region [mem 0x38dbd000-0x39426fff] (6725632 bytes)
+[  +0,000278] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[  +0,000009] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[  +0,000046] pinctrl core: initialized pinctrl subsystem
+[  +0,000508] PM: RTC time: 18:01:14, date: 2023-02-25
+[  +0,000511] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[  +0,000762] DMA: preallocated 4096 KiB GFP_KERNEL pool for atomic allocations
+[  +0,000335] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[  +0,000334] DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[  +0,000013] audit: initializing netlink subsys (enabled)
+[  +0,000008] audit: type=2000 audit(1677348074.050:1): state=initialized audit_enabled=1 res=1
+[  +0,000000] thermal_sys: Registered thermal governor 'fair_share'
+[  +0,000000] thermal_sys: Registered thermal governor 'bang_bang'
+[  +0,000000] thermal_sys: Registered thermal governor 'step_wise'
+[  +0,000000] thermal_sys: Registered thermal governor 'user_space'
+[  +0,000000] thermal_sys: Registered thermal governor 'power_allocator'
+[  +0,000000] cpuidle: using governor ladder
+[  +0,000000] cpuidle: using governor menu
+[  +0,000331] Simple Boot Flag at 0x47 set to 0x80
+[  +0,000000] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[  +0,000000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[  +0,000000] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[  +0,000000] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+[  +0,000000] PCI: Using configuration type 1 for base access
+[  +0,000774] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+[  +0,002146] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[  +0,004360] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[  +0,000000] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+[  +0,000000] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[  +0,000000] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[  +0,000396] ACPI: Added _OSI(Module Device)
+[  +0,000002] ACPI: Added _OSI(Processor Device)
+[  +0,000001] ACPI: Added _OSI(3.0 _SCP Extensions)
+[  +0,000001] ACPI: Added _OSI(Processor Aggregator Device)
+[  +0,064709] ACPI: 13 ACPI AML tables successfully acquired and loaded
+[  +0,003913] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[  +0,014596] ACPI: Dynamic OEM Table Load:
+[  +0,000007] ACPI: SSDT 0xFFFF9995F3895000 00061E (v02 PmRef  Cpu0Ist  00003000 INTL 20120913)
+[  +0,001970] ACPI: \_PR_.CPU0: _OSC native thermal LVT Acked
+[  +0,002090] ACPI: Dynamic OEM Table Load:
+[  +0,000006] ACPI: SSDT 0xFFFF999135B29000 00037F (v02 PmRef  Cpu0Cst  00003001 INTL 20120913)
+[  +0,002690] ACPI: Dynamic OEM Table Load:
+[  +0,000007] ACPI: SSDT 0xFFFF9995F3892000 0005AA (v02 PmRef  ApIst    00003000 INTL 20120913)
+[  +0,002425] ACPI: Dynamic OEM Table Load:
+[  +0,000006] ACPI: SSDT 0xFFFF998F402DF400 000119 (v02 PmRef  ApCst    00003000 INTL 20120913)
+[  +0,004750] ACPI: EC: EC started
+[  +0,000001] ACPI: EC: interrupt blocked
+[  +0,003410] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0,000003] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC used to handle transactions
+[  +0,000002] ACPI: Interpreter enabled
+[  +0,000054] ACPI: PM: (supports S0 S4 S5)
+[  +0,000001] ACPI: Using IOAPIC for interrupt routing
+[  +0,000059] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[  +0,000001] PCI: Using E820 reservations for host bridge windows
+[  +0,001078] ACPI: Enabled 9 GPEs in block 00 to 7F
+[  +0,002628] ACPI: PM: Power Resource [PG00]
+[  +0,037298] ACPI: PM: Power Resource [PG01]
+[  +0,000703] ACPI: PM: Power Resource [PG02]
+[  +0,002940] ACPI: PM: Power Resource [WRST]
+[  +0,000534] ACPI: PM: Power Resource [WRST]
+[  +0,000539] ACPI: PM: Power Resource [WRST]
+[  +0,000541] ACPI: PM: Power Resource [WRST]
+[  +0,000534] ACPI: PM: Power Resource [WRST]
+[  +0,000531] ACPI: PM: Power Resource [WRST]
+[  +0,000527] ACPI: PM: Power Resource [WRST]
+[  +0,000532] ACPI: PM: Power Resource [WRST]
+[  +0,000526] ACPI: PM: Power Resource [WRST]
+[  +0,000526] ACPI: PM: Power Resource [WRST]
+[  +0,000532] ACPI: PM: Power Resource [WRST]
+[  +0,000528] ACPI: PM: Power Resource [WRST]
+[  +0,000530] ACPI: PM: Power Resource [WRST]
+[  +0,000528] ACPI: PM: Power Resource [WRST]
+[  +0,000526] ACPI: PM: Power Resource [WRST]
+[  +0,000533] ACPI: PM: Power Resource [WRST]
+[  +0,000524] ACPI: PM: Power Resource [WRST]
+[  +0,000533] ACPI: PM: Power Resource [WRST]
+[  +0,000531] ACPI: PM: Power Resource [WRST]
+[  +0,001090] ACPI: PM: Power Resource [WRST]
+[  +0,025699] ACPI: PM: Power Resource [FN00]
+[  +0,000134] ACPI: PM: Power Resource [FN01]
+[  +0,000132] ACPI: PM: Power Resource [FN02]
+[  +0,000130] ACPI: PM: Power Resource [FN03]
+[  +0,000134] ACPI: PM: Power Resource [FN04]
+[  +0,001540] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[  +0,000008] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[  +0,000073] acpi PNP0A08:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[  +0,000003] acpi PNP0A08:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[  +0,000001] acpi PNP0A08:00: _OSC: platform retains control of PCIe features (AE_ERROR)
+[  +0,001370] PCI host bridge to bus 0000:00
+[  +0,000003] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[  +0,000002] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000effff window]
+[  +0,000001] pci_bus 0000:00: root bus resource [mem 0x40000000-0xdfffffff window]
+[  +0,000002] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+[  +0,000001] pci_bus 0000:00: root bus resource [bus 00-fe]
+[  +0,000029] pci 0000:00:00.0: [8086:1918] type 00 class 0x060000
+[  +0,000101] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
+[  +0,000066] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[  +0,000786] pci 0000:00:02.0: [8086:191d] type 00 class 0x030000
+[  +0,000019] pci 0000:00:02.0: reg 0x10: [mem 0xdb000000-0xdbffffff 64bit]
+[  +0,000015] pci 0000:00:02.0: reg 0x18: [mem 0x70000000-0x7fffffff 64bit pref]
+[  +0,000009] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[  +0,000030] pci 0000:00:02.0: BAR 2: assigned to efifb
+[  +0,000005] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[  +0,000256] pci 0000:00:04.0: [8086:1903] type 00 class 0x118000
+[  +0,000017] pci 0000:00:04.0: reg 0x10: [mem 0xddd20000-0xddd27fff 64bit]
+[  +0,000462] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
+[  +0,000027] pci 0000:00:14.0: reg 0x10: [mem 0xddd10000-0xddd1ffff 64bit]
+[  +0,000091] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[  +0,000471] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
+[  +0,000026] pci 0000:00:14.2: reg 0x10: [mem 0xddd38000-0xddd38fff 64bit]
+[  +0,000199] pci 0000:00:15.0: [8086:a160] type 00 class 0x118000
+[  +0,000178] pci 0000:00:15.0: reg 0x10: [mem 0xddd37000-0xddd37fff 64bit]
+[  +0,001034] pci 0000:00:15.1: [8086:a161] type 00 class 0x118000
+[  +0,000195] pci 0000:00:15.1: reg 0x10: [mem 0xddd36000-0xddd36fff 64bit]
+[  +0,001055] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
+[  +0,000027] pci 0000:00:16.0: reg 0x10: [mem 0xddd35000-0xddd35fff 64bit]
+[  +0,000078] pci 0000:00:16.0: PME# supported from D3hot
+[  +0,000379] pci 0000:00:17.0: [8086:a102] type 00 class 0x010601
+[  +0,000026] pci 0000:00:17.0: reg 0x10: [mem 0xddd30000-0xddd31fff]
+[  +0,000016] pci 0000:00:17.0: reg 0x14: [mem 0xddd34000-0xddd340ff]
+[  +0,000015] pci 0000:00:17.0: reg 0x18: [io  0xf090-0xf097]
+[  +0,000016] pci 0000:00:17.0: reg 0x1c: [io  0xf080-0xf083]
+[  +0,000015] pci 0000:00:17.0: reg 0x20: [io  0xf060-0xf07f]
+[  +0,000016] pci 0000:00:17.0: reg 0x24: [mem 0xddd33000-0xddd337ff]
+[  +0,000048] pci 0000:00:17.0: PME# supported from D3hot
+[  +0,000450] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
+[  +0,000090] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[  +0,000982] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
+[  +0,000092] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[  +0,000989] pci 0000:00:1d.0: [8086:a118] type 01 class 0x060400
+[  +0,000094] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[  +0,000984] pci 0000:00:1d.4: [8086:a11c] type 01 class 0x060400
+[  +0,000086] pci 0000:00:1d.4: PME# supported from D0 D3hot D3cold
+[  +0,000956] pci 0000:00:1d.6: [8086:a11e] type 01 class 0x060400
+[  +0,000093] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[  +0,000972] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
+[  +0,000531] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
+[  +0,000018] pci 0000:00:1f.2: reg 0x10: [mem 0xddd2c000-0xddd2ffff]
+[  +0,000417] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
+[  +0,000028] pci 0000:00:1f.3: reg 0x10: [mem 0xddd28000-0xddd2bfff 64bit]
+[  +0,000034] pci 0000:00:1f.3: reg 0x20: [mem 0xddd00000-0xddd0ffff 64bit]
+[  +0,000049] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[  +0,000963] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
+[  +0,000059] pci 0000:00:1f.4: reg 0x10: [mem 0xddd32000-0xddd320ff 64bit]
+[  +0,000067] pci 0000:00:1f.4: reg 0x20: [io  0xf040-0xf05f]
+[  +0,000473] pci 0000:01:00.0: [10de:13b1] type 00 class 0x030200
+[  +0,000022] pci 0000:01:00.0: reg 0x10: [mem 0xdc000000-0xdcffffff]
+[  +0,000021] pci 0000:01:00.0: reg 0x14: [mem 0xb0000000-0xbfffffff 64bit pref]
+[  +0,000020] pci 0000:01:00.0: reg 0x1c: [mem 0xc0000000-0xc1ffffff 64bit pref]
+[  +0,000014] pci 0000:01:00.0: reg 0x24: [io  0xe000-0xe07f]
+[  +0,000013] pci 0000:01:00.0: reg 0x30: [mem 0xdd000000-0xdd07ffff pref]
+[  +0,000021] pci 0000:01:00.0: Enabling HDA controller
+[  +0,000054] pci 0000:01:00.0: 64.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
+[  +0,000596] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0,000004] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0,000002] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0,000003] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000111] pci 0000:02:00.0: [8086:24f3] type 00 class 0x028000
+[  +0,000052] pci 0000:02:00.0: reg 0x10: [mem 0xddc00000-0xddc01fff 64bit]
+[  +0,000211] pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+[  +0,000751] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0,000004] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0,000082] pci 0000:03:00.0: [10ec:525a] type 00 class 0xff0000
+[  +0,000040] pci 0000:03:00.0: reg 0x14: [mem 0xdd100000-0xdd100fff]
+[  +0,000145] pci 0000:03:00.0: supports D1 D2
+[  +0,000001] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[  +0,000627] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0,000003] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0,000003] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0,000004] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000068] pci 0000:04:00.0: [1179:010f] type 00 class 0x010802
+[  +0,000028] pci 0000:04:00.0: reg 0x10: [mem 0xddb00000-0xddb03fff 64bit]
+[  +0,000063] pci 0000:04:00.0: enabling Extended Tags
+[  +0,003590] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0,000005] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0,000061] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0,000057] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0,000005] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000004] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,003935] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[  +0,000102] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[  +0,000098] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+[  +0,000097] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[  +0,000098] ACPI: PCI: Interrupt link LNKE configured for IRQ 11
+[  +0,000096] ACPI: PCI: Interrupt link LNKF configured for IRQ 11
+[  +0,000097] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+[  +0,000097] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+[  +0,003218] ACPI: EC: interrupt unblocked
+[  +0,000001] ACPI: EC: event unblocked
+[  +0,000008] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[  +0,000002] ACPI: EC: GPE=0x14
+[  +0,000001] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC initialization complete
+[  +0,000003] ACPI: \_SB_.PCI0.LPCB.ECDV: EC: Used to handle transactions and events
+[  +0,000088] iommu: Default domain type: Translated 
+[  +0,000000] iommu: DMA domain TLB invalidation policy: strict mode (set via kernel command line)
+[  +0,000067] SCSI subsystem initialized
+[  +0,000010] libata version 3.00 loaded.
+[  +0,000000] ACPI: bus type USB registered
+[  +0,000000] usbcore: registered new interface driver usbfs
+[  +0,000000] usbcore: registered new interface driver hub
+[  +0,000000] usbcore: registered new device driver usb
+[  +0,000000] pps_core: LinuxPPS API ver. 1 registered
+[  +0,000000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[  +0,000000] PTP clock support registered
+[  +0,000000] EDAC MC: Ver: 3.0.0
+[  +0,000053] Registered efivars operations
+[  +0,000000] NetLabel: Initializing
+[  +0,000000] NetLabel:  domain hash size = 128
+[  +0,000000] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[  +0,000000] NetLabel:  unlabeled traffic allowed by default
+[  +0,000739] audit: type=1409 audit(1677348074.273:2): netlabel: auid=0 ses=0 subj=unconfined nlbl_domain=(default) nlbl_protocol=unlbl res=1
+[  +0,000002] audit: type=1406 audit(1677348074.273:3): netlabel: auid=0 ses=0 subj=unconfined unlbl_accept=1 old=0
+[  -0,000741] mctp: management component transport protocol core
+[  +0,000000] NET: Registered PF_MCTP protocol family
+[  +0,000000] PCI: Using ACPI for IRQ routing
+[  +0,024566] PCI: pci_cache_line_size set to 64 bytes
+[  +0,000128] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x2a956000-0x2bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x36352000-0x37ffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x389c3000-0x3bffffff]
+[  +0,000002] e820: reserve RAM buffer [mem 0x3a500000-0x3bffffff]
+[  +0,000001] e820: reserve RAM buffer [mem 0x8be000000-0x8bfffffff]
+[  +0,000045] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[  +0,000000] pci 0000:00:02.0: vgaarb: bridge control possible
+[  +0,000000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[  +0,000001] vgaarb: loaded
+[  +0,001837] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[  +0,000007] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+[  +0,001197] clocksource: Switched to clocksource tsc-early
+[  +0,011827] VFS: Disk quotas dquot_6.6.0
+[  +0,000011] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[  +0,000133] AppArmor: AppArmor Filesystem Enabled
+[  +0,000003] audit: type=1400 audit(1677348074.311:4): apparmor="STATUS" info="AppArmor Filesystem Enabled" pid=1 comm="swapper/0"
+[  +0,000034] pnp: PnP ACPI init
+[  +0,000337] system 00:00: [io  0x0680-0x069f] has been reserved
+[  +0,000003] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0xffff] has been reserved
+[  +0,000002] system 00:00: [io  0xffff] has been reserved
+[  +0,000001] system 00:00: [io  0x1800-0x18fe] has been reserved
+[  +0,000002] system 00:00: [io  0x164e-0x164f] has been reserved
+[  +0,000136] system 00:01: [io  0x0800-0x087f] has been reserved
+[  +0,000078] system 00:03: [io  0x1854-0x1857] has been reserved
+[  +0,000731] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[  +0,000003] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[  +0,000002] system 00:06: [mem 0xe0000000-0xefffffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[  +0,000002] system 00:06: [mem 0xfed90000-0xfed93fff] could not be reserved
+[  +0,000002] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[  +0,000003] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[  +0,000005] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[  +0,000002] system 00:06: [mem 0xdffe0000-0xdfffffff] has been reserved
+[  +0,000061] system 00:07: [mem 0xfd000000-0xfdabffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfdad0000-0xfdadffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfdb00000-0xfdffffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[  +0,000002] system 00:07: [mem 0xfe036000-0xfe03bfff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfe03d000-0xfe3fffff] has been reserved
+[  +0,000002] system 00:07: [mem 0xfe410000-0xfe7fffff] has been reserved
+[  +0,000478] system 00:08: [io  0xff00-0xfffe] has been reserved
+[  +0,002086] system 00:09: [mem 0xfdaf0000-0xfdafffff] has been reserved
+[  +0,000003] system 00:09: [mem 0xfdae0000-0xfdaeffff] has been reserved
+[  +0,000001] system 00:09: [mem 0xfdac0000-0xfdacffff] has been reserved
+[  +0,003443] pnp: PnP ACPI: found 11 devices
+[  +0,005827] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[  +0,000062] NET: Registered PF_INET protocol family
+[  +0,000304] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0,003062] tcp_listen_portaddr_hash hash table entries: 16384 (order: 6, 262144 bytes, linear)
+[  +0,000047] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[  +0,000170] TCP established hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0,000392] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[  +0,000281] TCP: Hash tables configured (established 262144 bind 65536)
+[  +0,000192] MPTCP token hash table entries: 32768 (order: 7, 786432 bytes, linear)
+[  +0,000158] UDP hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0,000105] UDP-Lite hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[  +0,000077] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[  +0,000011] NET: Registered PF_XDP protocol family
+[  +0,000007] pci 0000:00:1d.6: bridge window [io  0x1000-0x0fff] to [bus 06-3e] add_size 1000
+[  +0,000008] pci 0000:00:1d.6: BAR 13: assigned [io  0x2000-0x2fff]
+[  +0,000003] pci 0000:00:01.0: PCI bridge to [bus 01]
+[  +0,000002] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[  +0,000007] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[  +0,000005] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000010] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[  +0,000007] pci 0000:00:1c.0:   bridge window [mem 0xddc00000-0xddcfffff]
+[  +0,000014] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[  +0,000002] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[  +0,000007] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[  +0,000005] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000010] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[  +0,000007] pci 0000:00:1d.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[  +0,000013] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[  +0,000019] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[  +0,000002] pci 0000:00:1d.6:   bridge window [io  0x2000-0x2fff]
+[  +0,000007] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000006] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000009] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[  +0,000002] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[  +0,000002] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000dffff window]
+[  +0,000001] pci_bus 0000:00: resource 7 [mem 0x000e4000-0x000effff window]
+[  +0,000002] pci_bus 0000:00: resource 8 [mem 0x40000000-0xdfffffff window]
+[  +0,000001] pci_bus 0000:00: resource 9 [mem 0xfd000000-0xfe7fffff window]
+[  +0,000002] pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+[  +0,000001] pci_bus 0000:01: resource 1 [mem 0xdc000000-0xdd0fffff]
+[  +0,000002] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xc1ffffff 64bit pref]
+[  +0,000001] pci_bus 0000:02: resource 1 [mem 0xddc00000-0xddcfffff]
+[  +0,000002] pci_bus 0000:03: resource 0 [io  0xd000-0xdfff]
+[  +0,000001] pci_bus 0000:03: resource 1 [mem 0xdd100000-0xddafffff]
+[  +0,000001] pci_bus 0000:03: resource 2 [mem 0xc2100000-0xc2afffff 64bit pref]
+[  +0,000002] pci_bus 0000:04: resource 1 [mem 0xddb00000-0xddbfffff]
+[  +0,000002] pci_bus 0000:06: resource 0 [io  0x2000-0x2fff]
+[  +0,000001] pci_bus 0000:06: resource 1 [mem 0xc4000000-0xda0fffff]
+[  +0,000001] pci_bus 0000:06: resource 2 [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000568] PCI: CLS 0 bytes, default 64
+[  +0,000009] DMAR: ACPI device "device:6f" under DMAR at fed91000 as 00:15.0
+[  +0,000005] DMAR: ACPI device "device:70" under DMAR at fed91000 as 00:15.1
+[  +0,000015] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[  +0,000001] software IO TLB: mapped [mem 0x000000002e21f000-0x000000003221f000] (64MB)
+[  +0,000023] Trying to unpack rootfs image as initramfs...
+[  +0,000907] Initialise system trusted keyrings
+[  +0,000011] Key type blacklist registered
+[  +0,000030] workingset: timestamp_bits=41 max_order=23 bucket_order=0
+[  +0,002153] zbud: loaded
+[  +0,000345] integrity: Platform Keyring initialized
+[  +0,000002] integrity: Machine keyring initialized
+[  +0,008470] Key type asymmetric registered
+[  +0,000002] Asymmetric key parser 'x509' registered
+[  +0,141816] Freeing initrd memory: 48032K
+[  +0,004050] alg: self-tests for CTR-KDF (hmac(sha256)) passed
+[  +0,000025] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[  +0,000030] io scheduler mq-deadline registered
+[  +0,000001] io scheduler kyber registered
+[  +0,000040] io scheduler bfq registered
+[  +0,001589] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[  +0,001393] ACPI: AC: AC Adapter [AC] (on-line)
+[  +0,000069] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[  +0,003350] ACPI: button: Lid Switch [LID0]
+[  +0,000038] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[  +0,000932] ACPI: button: Power Button [PBTN]
+[  +0,000037] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[  +0,000021] ACPI: button: Sleep Button [SBTN]
+[  +0,000031] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[  +0,003999] ACPI: button: Power Button [PWRF]
+[  +0,002568] thermal LNXTHERM:00: registered as thermal_zone0
+[  +0,000003] ACPI: thermal: Thermal Zone [THM] (25 C)
+[  +0,000237] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000009] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,002794] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000008] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000102] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000006] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000090] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000005] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000660] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[  +0,004102] Non-volatile memory driver v1.3
+[  +0,000002] Linux agpgart interface v0.103
+[  +0,003883] tpm_tis 00:0a: 1.2 TPM (device-id 0xFE, rev-id 2)
+[  +0,010410] tpm tpm0: TPM is disabled/deactivated (0x7)
+[  +0,008105] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+[  +0,000965] ahci 0000:00:17.0: version 3.0
+[  +0,000489] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
+[  +0,000068] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x2 impl SATA mode
+[  +0,000003] ahci 0000:00:17.0: flags: 64bit ncq sntf stag pm led clo only pio slum part ems deso sadm sds apst 
+[  +0,001641] scsi host0: ahci
+[  +0,000318] scsi host1: ahci
+[  +0,000047] ata1: DUMMY
+[  +0,000003] ata2: SATA max UDMA/133 abar m2048@0xddd33000 port 0xddd33180 irq 128
+[  +0,000157] ACPI: bus type drm_connector registered
+[  +0,000669] usbcore: registered new interface driver usbserial_generic
+[  +0,000007] usbserial: USB Serial support registered for generic
+[  +0,000244] rtc_cmos 00:02: RTC can wake from S4
+[  +0,000932] rtc_cmos 00:02: registered as rtc0
+[  +0,000127] rtc_cmos 00:02: setting system clock to 2023-02-25T18:01:14 UTC (1677348074)
+[  +0,000033] ACPI: battery: Slot [BAT0] (battery present)
+[  +0,000001] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram
+[  +0,000251] intel_pstate: Intel P-state driver initializing
+[  +0,000263] intel_pstate: HWP enabled
+[  +0,000114] ledtrig-cpu: registered to indicate activity on CPUs
+[  +0,000376] efifb: probing for efifb
+[  +0,000011] efifb: framebuffer at 0x70000000, using 8128k, total 8128k
+[  +0,000002] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[  +0,000002] efifb: scrolling: redraw
+[  +0,000000] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[  +0,000100] fbcon: Deferring console take-over
+[  +0,000001] fb0: EFI VGA frame buffer device
+[  +0,000025] hid: raw HID events driver (C) Jiri Kosina
+[  +0,000055] intel_pmc_core INT33A1:00:  initialized
+[  +0,000094] drop_monitor: Initializing network drop monitor service
+[  +0,014937] Initializing XFRM netlink socket
+[  +0,000131] NET: Registered PF_INET6 protocol family
+[  +0,004692] Segment Routing with IPv6
+[  +0,000002] RPL Segment Routing with IPv6
+[  +0,000008] In-situ OAM (IOAM) with IPv6
+[  +0,000023] NET: Registered PF_PACKET protocol family
+[  +0,000981] microcode: sig=0x506e3, pf=0x20, revision=0xf0
+[  +0,000126] microcode: Microcode Update Driver: v2.2.
+[  +0,000004] IPI shorthand broadcast: enabled
+[  +0,000027] sched_clock: Marking stable (2857967613, 4323963)->(2866220427, -3928851)
+[  +0,000287] registered taskstats version 1
+[  +0,000280] Loading compiled-in X.509 certificates
+[  +0,002763] Loaded X.509 cert 'Build time autogenerated kernel key: a6d5846654a2fdcaac0fbc2e415d457981a23b15'
+[  +0,000424] zswap: loaded using pool lz4/z3fold
+[  +0,000315] Key type .fscrypt registered
+[  +0,000001] Key type fscrypt-provisioning registered
+[  +0,000043] AppArmor: AppArmor sha1 policy hashing enabled
+[  +0,000039] audit: type=1400 audit(1677348074.525:5): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[  +0,000208] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000023] integrity: Loaded X.509 cert 'Dell Inc. UEFI DB: 5ddb772dc880660055ba0bc131886bb630a639e7'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000022] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[  +0,000001] integrity: Loading X.509 certificate: UEFI:db
+[  +0,000018] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[  +0,002310] PM:   Magic number: 11:724:39
+[  +0,000058] memory memory208: hash matches
+[  +0,000014] memory memory75: hash matches
+[  +0,000100] RAS: Correctable Errors collector initialized.
+[  +0,286064] ata2: SATA link down (SStatus 4 SControl 300)
+[  +0,003442] Freeing unused decrypted memory: 2036K
+[  +0,000949] Freeing unused kernel image (initmem) memory: 2152K
+[  +0,001528] Write protecting the kernel read-only data: 32768k
+[  +0,001277] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[  +0,000676] Freeing unused kernel image (rodata/data gap) memory: 1288K
+[  +0,045902] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000003] rodata_test: all tests were successful
+[  +0,000001] x86/mm: Checking user space page tables
+[  +0,040950] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[  +0,000015] Run /init as init process
+[  +0,000001]   with arguments:
+[  +0,000001]     /init
+[  +0,000001]   with environment:
+[  +0,000000]     HOME=/
+[  +0,000001]     TERM=linux
+[  +0,000000]     BOOT_IMAGE=/boot/vmlinuz-linux-zen
+[  +0,000001]     pti=on
+[  +0,039429] fbcon: Taking over console
+[  +0,000049] Console: switching to colour frame buffer device 240x67
+[  +0,039921] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[  +0,290721] Setting dangerous option enable_fbc - tainting kernel
+[  +0,000003] Setting dangerous option edp_vswing - tainting kernel
+[  +0,001789] Console: switching to colour dummy device 80x25
+[  +0,000022] i915 0000:00:02.0: vgaarb: deactivate vga console
+[  +0,002753] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[  +0,001794] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[  +0,035471] i915 0000:00:02.0: [drm] [ENCODER:102:DDI B/PHY B] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0,000005] i915 0000:00:02.0: [drm] [ENCODER:117:DDI C/PHY C] is disabled/in DSI mode with an ungated DDI clock, gate it
+[  +0,014284] tsc: Refined TSC clocksource calibration: 2807.999 MHz
+[  +0,000004] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2879c523a63, max_idle_ns: 440795252908 ns
+[  +0,000055] clocksource: Switched to clocksource tsc
+[  +1,125847] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[  +0,007296] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[  +0,002181] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4
+[  +0,000262] ACPI: video: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[  +0,000095] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input5
+[  +0,009080] fbcon: i915drmfb (fb0) is primary device
+[  +0,011245] Console: switching to colour frame buffer device 240x67
+[  +0,021887] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[  +0,180846] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[  +0,000671] i8042: Warning: Keylock active
+[  +0,002699] serio: i8042 KBD port at 0x60,0x64 irq 1
+[  +0,000055] serio: i8042 AUX port at 0x60,0x64 irq 12
+[  +0,008389] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000007] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[  +0,001236] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[  +0,000309] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[  +0,000003] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[  +0,000002] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[  +0,000034] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[  +0,000002] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000001] usb usb1: Product: xHCI Host Controller
+[  +0,000001] usb usb1: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000002] usb usb1: SerialNumber: 0000:00:14.0
+[  +0,001148] hub 1-0:1.0: USB hub found
+[  +0,000017] hub 1-0:1.0: 16 ports detected
+[  +0,003337] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[  +0,000003] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000001] usb usb2: Product: xHCI Host Controller
+[  +0,000002] usb usb2: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb2: SerialNumber: 0000:00:14.0
+[  +0,000680] hub 2-0:1.0: USB hub found
+[  +0,000013] hub 2-0:1.0: 10 ports detected
+[  +0,001039] usb: port power management may be unreliable
+[  +0,012090] nvme nvme0: pci function 0000:04:00.0
+[  +0,006582] nvme nvme0: 4/0/0 default/read/poll queues
+[  +0,001331]  nvme0n1: p1 p2 p3
+[  +0,023563] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input6
+[  +0,040888] PM: Image not found (code -22)
+[  +0,155982] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[  +0,048021] SGI XFS with ACLs, security attributes, realtime, scrub, repair, quota, no debug enabled
+[  +0,002181] XFS (nvme0n1p2): Mounting V5 Filesystem
+[  +0,011023] XFS (nvme0n1p2): Ending clean mount
+[  +0,066300] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[  +0,000003] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[  +0,036552] audit: type=1334 audit(1677348077.113:6): prog-id=1 op=LOAD
+[  +0,002572] audit: type=1334 audit(1677348077.113:6): prog-id=2 op=LOAD
+[  +0,004295] audit: type=1334 audit(1677348077.113:6): prog-id=3 op=LOAD
+[  +0,000108] audit: type=1300 audit(1677348077.113:6): arch=c000003e syscall=175 success=yes exit=0 a0=7fae69681010 a1=4caf a2=56425af9ccb2 a3=30b1 items=0 ppid=11 pid=214 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="modprobe" exe="/usr/bin/kmod" subj=unconfined key=(null)
+[  +0,000005] audit: type=1327 audit(1677348077.113:6): proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D006270665F7072656C6F6164
+[  +0,004403] systemd[1]: systemd 253-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000010] systemd[1]: Detected architecture x86-64.
+[  +0,001640] systemd[1]: Hostname set to <mksprecision5510>.
+[  +0,066854] usb 1-12: new high-speed USB device number 3 using xhci_hcd
+[  +0,169702] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[  +0,000006] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[  +0,000002] usb 1-12: Product: Integrated_Webcam_HD
+[  +0,000002] usb 1-12: Manufacturer: CN045G2872487664B1NNA01
+[  +0,039982] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,150305] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001067] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,019282] systemd[1]: Queued start job for default target Graphical Interface.
+[  +0,001493] systemd[1]: Created slice Slice /system/getty.
+[  +0,000396] systemd[1]: Created slice Slice /system/modprobe.
+[  +0,000318] systemd[1]: Created slice Slice /system/systemd-fsck.
+[  +0,000281] systemd[1]: Created slice User and Session Slice.
+[  +0,000121] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[  +0,000144] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  +0,000209] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[  +0,000089] systemd[1]: Reached target Local Encrypted Volumes.
+[  +0,000059] systemd[1]: Reached target Login Prompts.
+[  +0,000055] systemd[1]: Reached target Local Integrity Protected Volumes.
+[  +0,000064] systemd[1]: Reached target Path Units.
+[  +0,000058] systemd[1]: Reached target Remote File Systems.
+[  +0,000055] systemd[1]: Reached target Slice Units.
+[  +0,000064] systemd[1]: Reached target Local Verity Protected Volumes.
+[  +0,000110] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[  +0,000610] systemd[1]: Listening on LVM2 poll daemon socket.
+[  +0,001267] systemd[1]: Listening on Process Core Dump Socket.
+[  +0,000338] systemd[1]: Listening on Journal Socket (/dev/log).
+[  +0,000171] systemd[1]: Listening on Journal Socket.
+[  +0,000155] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+[  +0,001013] systemd[1]: Listening on udev Control Socket.
+[  +0,000165] systemd[1]: Listening on udev Kernel Socket.
+[  +0,000894] systemd[1]: Mounting Huge Pages File System...
+[  +0,000953] systemd[1]: Mounting POSIX Message Queue File System...
+[  +0,000967] systemd[1]: Mounting Kernel Debug File System...
+[  +0,001043] systemd[1]: Mounting Kernel Trace File System...
+[  +0,000986] systemd[1]: Starting Load AppArmor profiles...
+[  +0,001106] systemd[1]: Starting Create List of Static Device Nodes...
+[  +0,000934] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[  +0,001049] systemd[1]: Starting Load Kernel Module configfs...
+[  +0,001080] systemd[1]: Starting Load Kernel Module dm_mod...
+[  +0,001016] systemd[1]: Starting Load Kernel Module drm...
+[  +0,001006] systemd[1]: Starting Load Kernel Module fuse...
+[  +0,001110] systemd[1]: Starting Load Kernel Module loop...
+[  +0,000155] systemd[1]: File System Check on Root Device was skipped because of an unmet condition check (ConditionPathIsReadWrite=!/).
+[  +0,001136] systemd[1]: Starting Load Kernel Modules...
+[  +0,000107] systemd[1]: TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+[  +0,000854] systemd[1]: Starting Remount Root and Kernel File Systems...
+[  +0,000983] systemd[1]: Starting Coldplug All udev Devices...
+[  +0,001579] systemd[1]: Mounted Huge Pages File System.
+[  +0,000158] systemd[1]: Mounted POSIX Message Queue File System.
+[  +0,001044] systemd[1]: Mounted Kernel Debug File System.
+[  +0,000004] loop: module loaded
+[  +0,001045] systemd[1]: Mounted Kernel Trace File System.
+[  +0,001133] systemd[1]: Finished Create List of Static Device Nodes.
+[  +0,007974] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[  +0,000437] device-mapper: uevent: version 1.0.3
+[  +0,000037] systemd[1]: Finished Load Kernel Module configfs.
+[  +0,000053] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+[  +0,002965] fuse: init (API version 7.37)
+[  +0,000706] systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+[  +0,000228] systemd[1]: Finished Load Kernel Module dm_mod.
+[  +0,001827] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[  +0,000168] systemd[1]: Finished Load Kernel Module drm.
+[  +0,001375] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[  +0,001256] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[  +0,000237] systemd[1]: Finished Load Kernel Module fuse.
+[  +0,001389] systemd[1]: modprobe@loop.service: Deactivated successfully.
+[  +0,000170] systemd[1]: Finished Load Kernel Module loop.
+[  +0,001446] systemd[1]: Finished Remount Root and Kernel File Systems.
+[  +0,002380] systemd[1]: Mounting FUSE Control File System...
+[  +0,001968] systemd[1]: Mounting Kernel Configuration File System...
+[  +0,000984] systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,000770] systemd[1]: Rebuild Hardware Database was skipped because no trigger condition checks were met.
+[  +0,001668] systemd[1]: Starting Load/Save OS Random Seed...
+[  +0,001664] systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+[  +0,001558] systemd[1]: Starting Create System Users...
+[  +0,008894] systemd[1]: Mounted FUSE Control File System.
+[  +0,001065] systemd[1]: Mounted Kernel Configuration File System.
+[  +0,006119] systemd[1]: Finished Load/Save OS Random Seed.
+[  +0,000674] systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+[  +0,025464] systemd[1]: Finished Create System Users.
+[  +0,001583] systemd[1]: Starting Create Static Device Nodes in /dev...
+[  +0,048335] systemd[1]: Finished Create Static Device Nodes in /dev.
+[  +0,000687] systemd[1]: Reached target Preparation for Local File Systems.
+[  +0,000561] systemd[1]: Virtual Machine and Container Storage (Compatibility) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/machines.raw).
+[  +0,000020] systemd[1]: Entropy Daemon based on the HAVEGE algorithm was skipped because of an unmet condition check (ConditionKernelVersion=<5.6).
+[  +0,001268] systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+[  +0,002660] systemd[1]: Starting Journal Service...
+[  +0,001954] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[  +0,009181] systemd-journald[275]: Collecting audit messages is disabled.
+[  +0,069427] systemd[1]: Started Rule-based Manager for Device Events and Files.
+[  +0,010555] systemd[1]: Started Journal Service.
+[  +0,009492] systemd-journald[275]: Received client request to flush runtime journal.
+[  +0,018142] systemd-journald[275]: /var/log/journal/a00d35d06714446a883a8f6db7dae9e1/system.journal: Montonic clock jumped backwards relative to last journal entry, rotating.
+[  +0,000006] systemd-journald[275]: Rotating system journal.
+[  +0,279165] Adding 35992492k swap on /dev/nvme0n1p3.  Priority:-2 extents:1 across:35992492k SSFS
+[  +0,008073] nvidia: loading out-of-tree module taints kernel.
+[  +0,000010] nvidia: module license 'NVIDIA' taints kernel.
+[  +0,000000] Disabling lock debugging due to kernel taint
+[  +0,020138] nvidia: module verification failed: signature and/or required key missing - tainting kernel
+[  +0,424339] nvidia-nvlink: Nvlink Core is being initialized, major device number 511
+
+[  +0,006166] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20220331/nspredef-260)
+[  +0,000009] _ART package 0 is invalid, ignored
+[  +0,000011] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20220331/nsprepkg-94)
+[  +0,000200] nvidia 0000:01:00.0: enabling device (0006 -> 0007)
+[  +0,001712] Consider using thermal netlink events interface
+[  +0,073486] acpi INT33D5:00: intel-hid: created platform device
+[  +0,000121] input: Intel HID events as /devices/platform/INT33D5:00/input/input8
+[  +0,125475] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[  +0,056471] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[  +0,000052] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  525.89.02  Wed Feb  1 23:23:25 UTC 2023
+[  +0,010881] EDAC MC0: Giving out device to module ie31200_edac controller IE31200: DEV 0000:00:00.0 (POLLED)
+[  +0,043245] nvidia_uvm: module uses symbols nvUvmInterfaceDisableAccessCntr from proprietary module nvidia, inheriting taint.
+[  +0,059347] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[  +0,006172] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[  +0,062779] kauditd_printk_skb: 1104 callbacks suppressed
+[  +0,000002] audit: type=1334 audit(1677348079.003:149): prog-id=30 op=LOAD
+[  +0,000002] audit: audit_lost=384 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000001] audit: kauditd hold queue overflow
+[  +0,000002] audit: type=1300 audit(1677348079.003:149): arch=c000003e syscall=321 success=yes exit=55 a0=5 a1=7ffd4e0bbe00 a2=90 a3=0 items=0 ppid=0 pid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd" subj=unconfined key=(null)
+[  +0,000001] audit: audit_lost=385 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000001] audit: kauditd hold queue overflow
+[  +0,000001] audit: type=1327 audit(1677348079.003:149): proctitle="/sbin/init"
+[  +0,000000] audit: audit_lost=386 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,000001] audit: kauditd hold queue overflow
+[  +0,000001] audit: audit_lost=387 audit_rate_limit=0 audit_backlog_limit=64
+[  +0,002939] nvidia-uvm: Loaded the UVM driver, major device number 508.
+[  +0,108550] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[  +0,001216] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[  +0,000392] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[  +0,004890] auditfilter: audit rule for LSM 'crond_t' is invalid
+[  +0,000029] auditfilter: audit rule for LSM 'crond_t' is invalid
+[  +0,003945] auditfilter: audit rule for LSM 'initrc_t' is invalid
+[  +0,000218] auditfilter: audit rule for LSM 'initrc_t' is invalid
+[  +0,043930] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input10
+[  +0,000567] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input11
+[  +0,000064] hid-generic 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,056412] vboxdrv: Found 4 processor cores/threads
+[  +0,021123] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[  +0,000028] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[  +0,000046] pci 0000:00:1f.1: [8086:a120] type 00 class 0x058000
+[  +0,000058] pci 0000:00:1f.1: reg 0x10: [mem 0xfd000000-0xfdffffff 64bit]
+[  +0,010728] vboxdrv: TSC mode is Invariant, tentative frequency 2807998995 Hz
+[  +0,000003] vboxdrv: Successfully loaded version 7.0.6 r155176 (interface 0x00330004)
+[  +0,212358] i2c i2c-8: 2/2 memory slots populated (from DMI)
+[  +0,000394] i2c i2c-8: Successfully instantiated SPD at 0x50
+[  +0,011007] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[  +0,000003] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain package 2^-14 Joules
+[  +0,000000] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[  +0,000001] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[  +0,011906] VBoxNetAdp: Successfully started.
+[  +0,002396] VBoxNetFlt: Successfully started.
+[  +0,000690] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input13
+[  +0,000138] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[  +0,004848] cryptd: max_cpu_qlen set to 1000
+[  +0,000843] intel_rapl_common: Found RAPL domain package
+[  +0,000002] intel_rapl_common: Found RAPL domain dram
+[  +0,149543] intel_rapl_common: Found RAPL domain package
+[  +0,000003] intel_rapl_common: Found RAPL domain core
+[  +0,000001] intel_rapl_common: Found RAPL domain uncore
+[  +0,000001] intel_rapl_common: Found RAPL domain dram
+[  +0,008656] Intel(R) Wireless WiFi driver for Linux
+[  +0,007965] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[  +0,033551] iwlwifi 0000:02:00.0: loaded firmware version 36.ca7b901d.0 8000C-36.ucode op_mode iwlmvm
+[  +0,036383] iTCO_vendor_support: vendor-support=0
+[  +0,041478] AVX2 version of gcm_enc/dec engaged.
+[  +0,019097] AES CTR mode by8 optimization enabled
+[  +0,034951] ee1004 8-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[  +0,044686] iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[  +0,003538] iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[  +0,009356] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input14
+[  +0,000055] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-7/i2c-DLL06E5:01/0018:06CB:7A13.0001/input/input15
+[  +0,000483] hid-multitouch 0018:06CB:7A13.0001: input,hidraw0: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[  +0,021631] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x201
+[  +0,000065] thermal thermal_zone10: failed to read out thermal zone (-61)
+[  +0,007016] dell_laptop: Using i8042 filter function for receiving events
+[  +0,004802] mousedev: PS/2 mouse device common for all mice
+[  +0,062010] iwlwifi 0000:02:00.0: base HW address: e4:a4:71:37:3b:d3, OTP minor version: 0x0
+[  +0,077697] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[  +0,000018] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[  +0,002394] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[  +0,006120] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[  +0,004026] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[  +0,043205] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3266: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
+[  +0,000004] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x18
+[  +0,000002] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[  +0,000001] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12
+[  +0,005502] intel_tcc_cooling: Programmable TCC Offset detected
+[  +0,069521] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+[  +0,000050] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+[  +0,000045] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+[  +0,000037] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+[  +0,063351] nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  525.89.02  Wed Feb  1 23:09:40 UTC 2023
+[  +0,004290] [drm] [nvidia-drm] [GPU ID 0x00000100] Loading driver
+[  +0,021060] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20220331/nsarguments-61)
+[  +0,477762] [drm] Initialized nvidia-drm 0.0.0 20160202 for 0000:01:00.0 on minor 1
+[  +0,244511] mc: Linux media interface: v0.10
+[  +0,017196] videodev: Linux video capture interface: v2.00
+[  +0,009423] NET: Registered PF_QIPCRTR protocol family
+[  +0,059813] Bluetooth: Core ver 2.22
+[  +0,000043] NET: Registered PF_BLUETOOTH protocol family
+[  +0,000001] Bluetooth: HCI device and connection manager initialized
+[  +0,000003] Bluetooth: HCI socket layer initialized
+[  +0,000002] Bluetooth: L2CAP socket layer initialized
+[  +0,000004] Bluetooth: SCO socket layer initialized
+[  +0,017721] usb 1-12: Found UVC 1.00 device Integrated_Webcam_HD (0c45:6713)
+[  +0,037748] input: Integrated_Webcam_HD: Integrate as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/input/input21
+[  +0,000236] usbcore: registered new interface driver uvcvideo
+[  +0,021561] xt_connbytes: Forcing CT accounting to be enabled
+[  +0,015254] usbcore: registered new interface driver btusb
+[  +0,000930] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[  +0,007020] Bluetooth: hci0: Device revision is 5
+[  +0,000004] Bluetooth: hci0: Secure boot is enabled
+[  +0,000000] Bluetooth: hci0: OTP lock is enabled
+[  +0,000001] Bluetooth: hci0: API lock is enabled
+[  +0,000001] Bluetooth: hci0: Debug lock is disabled
+[  +0,000001] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[  +0,001373] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[  +0,044750] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[  +0,000003] Bluetooth: BNEP filters: protocol multicast
+[  +0,000002] Bluetooth: BNEP socket layer initialized
+[  +0,090198] Iptables: v6Deny: IN= OUT=lo SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 
+[  +0,313240] Iptables: v4Deny: IN= OUT=lo SRC=0.0.0.0 DST=224.0.0.22 LEN=40 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 MARK=0xfeb0 
+[  +1,083426] Bluetooth: hci0: Waiting for firmware download to complete
+[  +0,001008] Bluetooth: hci0: Firmware loaded in 1496704 usecs
+[  +0,000134] Bluetooth: hci0: Waiting for device to boot
+[  +0,011857] Bluetooth: hci0: Device booted in 11650 usecs
+[  +0,000043] Bluetooth: hci0: Malformed MSFT vendor event: 0x02
+[  +0,000153] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[  +0,003795] Bluetooth: hci0: Applying Intel DDC parameters completed
+[  +0,000996] Bluetooth: hci0: Firmware revision 0.0 build 14 week 44 2021
+[  +0,045467] Bluetooth: MGMT ver 1.22
+[  +0,006836] NET: Registered PF_ALG protocol family
+[  +8,487133] systemd-journald[275]: /var/log/journal/a00d35d06714446a883a8f6db7dae9e1/user-1000.journal: Montonic clock jumped backwards relative to last journal entry, rotating.
+[  +0,000011] systemd-journald[275]: Failed to write entry to /var/log/journal/a00d35d06714446a883a8f6db7dae9e1/user-1000.journal (30 items, 811 bytes), rotating before retrying: Not a XENIX named type file
+[  +0,603252] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,009047] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,006104] wlp2s0: authenticated
+[  +0,001478] wlp2s0: associate with 08:55:31:cf:3d:6c (try 1/3)
+[  +0,002682] wlp2s0: RX AssocResp from 08:55:31:cf:3d:6c (capab=0x431 status=0 aid=1)
+[  +0,003865] wlp2s0: associated
+[  +0,033833] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  +0,018825] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,001990] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff59:5b9a LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[  +0,357004] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +1,860645] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=196 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=156 
+[  +0,537766] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +0,529527] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E42.SPRT], AE_ALREADY_EXISTS (20220331/dswload2-326)
+[  +0,000009] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20220331/psobject-220)
+[  +0,000002] ACPI Error: Aborting method \_GPE._E42 due to previous error (AE_ALREADY_EXISTS) (20220331/psparse-529)
+[  +0,000005] ACPI Error: Aborting method \_GPE._E42 due to previous error (AE_ALREADY_EXISTS) (20220331/psparse-529)
+[  +0,000007] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E42] (20220331/evgpe-511)
+[  +0,072216] pci 0000:06:00.0: [8086:1576] type 01 class 0x060400
+[  +0,000066] pci 0000:06:00.0: enabling Extended Tags
+[  +0,000086] pci 0000:06:00.0: supports D1 D2
+[  +0,000002] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000069] pci 0000:06:00.0: 15.752 Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe x2 link at 0000:00:1d.6 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[  +0,000727] pci 0000:07:00.0: [8086:1576] type 01 class 0x060400
+[  +0,000068] pci 0000:07:00.0: enabling Extended Tags
+[  +0,000088] pci 0000:07:00.0: supports D1 D2
+[  +0,000001] pci 0000:07:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000186] pci 0000:07:01.0: [8086:1576] type 01 class 0x060400
+[  +0,000067] pci 0000:07:01.0: enabling Extended Tags
+[  +0,000085] pci 0000:07:01.0: supports D1 D2
+[  +0,000001] pci 0000:07:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000194] pci 0000:07:02.0: [8086:1576] type 01 class 0x060400
+[  +0,000066] pci 0000:07:02.0: enabling Extended Tags
+[  +0,000085] pci 0000:07:02.0: supports D1 D2
+[  +0,000001] pci 0000:07:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000189] pci 0000:06:00.0: PCI bridge to [bus 07-3e]
+[  +0,000008] pci 0000:06:00.0:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000006] pci 0000:06:00.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000081] pci 0000:08:00.0: [8086:1575] type 00 class 0x088000
+[  +0,000025] pci 0000:08:00.0: reg 0x10: [mem 0xda000000-0xda03ffff]
+[  +0,000016] pci 0000:08:00.0: reg 0x14: [mem 0xda040000-0xda040fff]
+[  +0,000077] pci 0000:08:00.0: enabling Extended Tags
+[  +0,000103] pci 0000:08:00.0: supports D1 D2
+[  +0,000001] pci 0000:08:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000336] pci 0000:07:00.0: PCI bridge to [bus 08]
+[  +0,000009] pci 0000:07:00.0:   bridge window [mem 0xda000000-0xda0fffff]
+[  +0,000049] pci 0000:07:01.0: PCI bridge to [bus 09-3d]
+[  +0,000007] pci 0000:07:01.0:   bridge window [mem 0xc4000000-0xd9efffff]
+[  +0,000006] pci 0000:07:01.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000078] pci 0000:3e:00.0: [8086:15b5] type 00 class 0x0c0330
+[  +0,000027] pci 0000:3e:00.0: reg 0x10: [mem 0xd9f00000-0xd9f0ffff]
+[  +0,000201] pci 0000:3e:00.0: supports D1 D2
+[  +0,000001] pci 0000:3e:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[  +0,000090] pci 0000:3e:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:07:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[  +0,000162] pci 0000:07:02.0: PCI bridge to [bus 3e]
+[  +0,000008] pci 0000:07:02.0:   bridge window [mem 0xd9f00000-0xd9ffffff]
+[  +0,000035] pci_bus 0000:07: Allocating resources
+[  +0,000016] pci 0000:07:01.0: bridge window [io  0x1000-0x0fff] to [bus 09-3d] add_size 1000
+[  +0,000003] pci 0000:07:02.0: bridge window [io  0x1000-0x0fff] to [bus 3e] add_size 1000
+[  +0,000002] pci 0000:07:02.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 3e] add_size 200000 add_align 100000
+[  +0,000002] pci 0000:06:00.0: bridge window [io  0x1000-0x0fff] to [bus 07-3e] add_size 3000
+[  +0,000003] pci 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000002] pci 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000002] pci 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000001] pci 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000003] pci 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000002] pci 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000001] pci 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pci 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000003] pci 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000001] pci 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000001] pci 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pci 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pci 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000002] pci 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pci 0000:07:00.0: PCI bridge to [bus 08]
+[  +0,000008] pci 0000:07:00.0:   bridge window [mem 0xda000000-0xda0fffff]
+[  +0,000014] pci 0000:07:01.0: PCI bridge to [bus 09-3d]
+[  +0,000007] pci 0000:07:01.0:   bridge window [mem 0xc4000000-0xd9efffff]
+[  +0,000006] pci 0000:07:01.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000010] pci 0000:07:02.0: PCI bridge to [bus 3e]
+[  +0,000007] pci 0000:07:02.0:   bridge window [mem 0xd9f00000-0xd9ffffff]
+[  +0,000014] pci 0000:06:00.0: PCI bridge to [bus 07-3e]
+[  +0,000007] pci 0000:06:00.0:   bridge window [mem 0xc4000000-0xda0fffff]
+[  +0,000005] pci 0000:06:00.0:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[  +0,000960] xhci_hcd 0000:3e:00.0: xHCI Host Controller
+[  +0,000006] xhci_hcd 0000:3e:00.0: new USB bus registered, assigned bus number 3
+[  +0,001114] xhci_hcd 0000:3e:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[  +0,006275] xhci_hcd 0000:3e:00.0: xHCI Host Controller
+[  +0,000006] xhci_hcd 0000:3e:00.0: new USB bus registered, assigned bus number 4
+[  +0,000004] xhci_hcd 0000:3e:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[  +0,000092] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[  +0,000002] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb3: Product: xHCI Host Controller
+[  +0,000001] usb usb3: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb3: SerialNumber: 0000:3e:00.0
+[  +0,000298] hub 3-0:1.0: USB hub found
+[  +0,000114] hub 3-0:1.0: 2 ports detected
+[  +0,000121] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[  +0,000002] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  +0,000002] usb usb4: Product: xHCI Host Controller
+[  +0,000001] usb usb4: Manufacturer: Linux 6.1.12-zen1-1-zen xhci-hcd
+[  +0,000001] usb usb4: SerialNumber: 0000:3e:00.0
+[  +0,002342] hub 4-0:1.0: USB hub found
+[  +0,000023] hub 4-0:1.0: 2 ports detected
+[  +0,046888] ACPI: bus type thunderbolt registered
+[  +0,338619] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +5,088912] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +0,912181] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +8,006622] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[  +6,125922] xhci_hcd 0000:3e:00.0: Unable to change power state from D3hot to D0, device inaccessible
+[  +0,059854] xhci_hcd 0000:3e:00.0: Unable to change power state from D3cold to D0, device inaccessible
+[  +0,000010] xhci_hcd 0000:3e:00.0: Controller not ready at resume -19
+[  +0,000002] xhci_hcd 0000:3e:00.0: PCI post-resume error -19!
+[  +0,000001] xhci_hcd 0000:3e:00.0: HC died; cleaning up
+[  +0,000027] xhci_hcd 0000:3e:00.0: remove, state 4
+[  +0,000002] usb usb4: USB disconnect, device number 1
+[  +0,000554] xhci_hcd 0000:3e:00.0: USB bus 4 deregistered
+[  +0,000006] xhci_hcd 0000:3e:00.0: remove, state 4
+[  +0,000002] usb usb3: USB disconnect, device number 1
+[  +0,000139] xhci_hcd 0000:3e:00.0: Host halt failed, -19
+[  +0,000015] xhci_hcd 0000:3e:00.0: Host not accessible, reset failed.
+[  +0,000070] xhci_hcd 0000:3e:00.0: USB bus 3 deregistered
+[  +0,528503] pci_bus 0000:07: Allocating resources
+[  +0,000024] pcieport 0000:07:01.0: bridge window [io  0x1000-0x0fff] to [bus 09-3d] add_size 1000
+[  +0,000003] pcieport 0000:07:02.0: bridge window [io  0x1000-0x0fff] to [bus 3e] add_size 1000
+[  +0,000002] pcieport 0000:07:02.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 3e] add_size 200000 add_align 100000
+[  +0,000003] pcieport 0000:06:00.0: bridge window [io  0x1000-0x0fff] to [bus 07-3e] add_size 3000
+[  +0,000003] pcieport 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000001] pcieport 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000002] pcieport 0000:06:00.0: BAR 13: no space for [io  size 0x3000]
+[  +0,000001] pcieport 0000:06:00.0: BAR 13: failed to assign [io  size 0x3000]
+[  +0,000003] pcieport 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000002] pcieport 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000014] pcieport 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000002] pcieport 0000:07:02.0: BAR 15: no space for [mem size 0x00200000 64bit pref]
+[  +0,000001] pcieport 0000:07:02.0: BAR 15: failed to assign [mem size 0x00200000 64bit pref]
+[  +0,000002] pcieport 0000:07:02.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:02.0: BAR 13: failed to assign [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:01.0: BAR 13: no space for [io  size 0x1000]
+[  +0,000001] pcieport 0000:07:01.0: BAR 13: failed to assign [io  size 0x1000]
+[лют25 20:02] pcieport 0000:07:00.0: Unable to change power state from D3hot to D0, device inaccessible
+[  +0,001526] pci_bus 0000:08: busn_res: [bus 08] is released
+[  +0,000109] pci_bus 0000:09: busn_res: [bus 09-3d] is released
+[  +0,000070] pci_bus 0000:3e: busn_res: [bus 3e] is released
+[  +0,000094] pci_bus 0000:07: busn_res: [bus 07-3e] is released
+[  +4,560495] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[ +31,851618] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[ +20,669822] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=138 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=98 
+[  +1,001148] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=138 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=98 
+[лют25 20:03] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=138 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=98 
+[ +40,295966] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 20:05] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 20:10] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 20:18] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 20:35] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 21:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 21:39] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.CHRG], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000055] ACPI Error: Aborting method \PNOT due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000323] ACPI Error: Aborting method \_SB.AC._PSR due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[лют25 22:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют25 23:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 00:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 00:24] kauditd_printk_skb: 62 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677363859.243:363105): arch=c000003e syscall=87 success=no exit=-2 a0=558b8c921a10 a1=558b8c921a24 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000008] audit: type=1302 audit(1677363859.243:363105): item=0 name="/usr/share/man/man3/" inode=805568712 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363859.243:363105): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677363859.243:363106): arch=c000003e syscall=94 success=yes exit=0 a0=558b8c921a10 a1=0 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677363859.243:363106): item=0 name="/usr/share/man/man3/SSL_select_current_cert.3ssl.gz" inode=805450506 dev=103:02 mode=0120777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677363859.243:363106): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363859.243:363107): arch=c000003e syscall=87 success=no exit=-2 a0=558b8cbbe800 a1=558b8cbbe814 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677363859.243:363107): item=0 name="/usr/share/man/man3/" inode=805568712 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363859.243:363107): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677363859.243:363108): arch=c000003e syscall=94 success=yes exit=0 a0=558b8cbbe800 a1=0 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[ +24,701702] systemd[1]: systemd 253-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[  +0,000270] systemd[1]: Detected architecture x86-64.
+[  +0,513618] systemd[1]: bpf-lsm: LSM BPF program attached
+[  +0,167860] kauditd_printk_skb: 9277 callbacks suppressed
+[  +0,000006] audit: type=1300 audit(1677363885.075:419327): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000008] audit: type=1302 audit(1677363885.075:419327): item=0 name=(null) inode=806708780 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363885.075:419327): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677363885.075:419328): arch=c000003e syscall=87 success=no exit=-2 a0=558b8cef01c0 a1=558b8cef01de a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677363885.075:419328): item=0 name="/usr/share/zsh/site-functions/" inode=806475112 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363885.075:419328): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677363885.075:419329): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677363885.075:419329): item=0 name=(null) inode=806708781 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363885.075:419329): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677363885.076:419330): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,075329] systemd[1]: Configuration file /usr/lib/systemd/system/lkrg.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[  +0,001090] systemd[1]: Configuration file /usr/lib/systemd/system/havegedd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[лют26 00:25] kauditd_printk_skb: 239 callbacks suppressed
+[  +0,000008] audit: type=1302 audit(1677363908.452:467324): item=0 name="/usr/bin/" inode=805306530 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000008] audit: type=1302 audit(1677363908.452:467324): item=1 name="/usr/bin/ld.bfd" inode=805308008 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677363908.452:467324): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363908.452:467325): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677363908.452:467325): item=0 name="/usr/bin/" inode=805306530 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677363908.452:467325): item=1 name="/usr/bin/ld" inode=805308008 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363908.452:467325): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363908.453:467326): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677363908.453:467326): item=0 name="/usr/bin/" inode=805306530 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677363908.453:467326): item=1 name="/usr/bin/gprofng" inode=805307614 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[ +43,416453] kauditd_printk_skb: 35246 callbacks suppressed
+[  +0,000008] audit: type=1327 audit(1677363951.299:556143): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000009] audit: type=1300 audit(1677363951.299:556144): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677363951.299:556144): item=0 name=(null) inode=568851827 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363951.299:556144): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363951.299:556145): arch=c000003e syscall=87 success=no exit=-2 a0=558b8d31c800 a1=558b8d31c862 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677363951.299:556145): item=0 name="/usr/lib/python3.10/site-packages/ansible_collections/arista/eos/plugins/module_utils/network/eos/" inode=820040073 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363951.299:556145): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363951.299:556146): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677363951.299:556146): item=0 name=(null) inode=820040072 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363951.299:556146): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[лют26 00:26] kauditd_printk_skb: 14974 callbacks suppressed
+[  +0,000008] audit: type=1300 audit(1677363986.904:659202): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000009] audit: type=1302 audit(1677363986.904:659202): item=0 name=(null) inode=819086464 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677363986.904:659202): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363986.904:659203): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677363986.904:659203): item=0 name=(null) inode=819086464 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363986.904:659203): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677363986.904:659204): arch=c000003e syscall=87 success=no exit=-2 a0=558b8d31c800 a1=558b8d31c864 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe="/usr/bin/pacman" subj=unconfined key="delete"
+[  +0,000004] audit: type=1300 audit(1677363987.215:659205): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe="/usr/bin/htop" subj=unconfined key="file_access"
+[  +0,000005] audit: type=1302 audit(1677363987.215:659205): item=0 name="maps" inode=62280 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677363987.215:659205): proctitle="htop"
+[ +29,503631] kauditd_printk_skb: 6529 callbacks suppressed
+[  +0,000007] audit: type=1302 audit(1677364016.123:707285): item=1 name="/usr/lib/python3.10/site-packages/botocore/errorfactory.py" inode=285583330 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000008] audit: type=1327 audit(1677364016.123:707285): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364016.123:707286): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364016.123:707286): item=0 name="/usr/lib/python3.10/site-packages/botocore/" inode=285583332 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1302 audit(1677364016.123:707286): item=1 name="/usr/lib/python3.10/site-packages/botocore/endpoint_provider.py" inode=285583329 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364016.123:707286): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364016.123:707287): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364016.123:707287): item=0 name="/usr/lib/python3.10/site-packages/botocore/" inode=285583332 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364016.123:707287): item=1 name="/usr/lib/python3.10/site-packages/botocore/endpoint.py" inode=285583328 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364016.123:707287): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[лют26 00:27] kauditd_printk_skb: 31525 callbacks suppressed
+[  +0,000007] audit: type=1302 audit(1677364053.317:783932): item=1 name="/usr/lib/qt/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri" inode=877809 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000008] audit: type=1327 audit(1677364053.317:783932): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000005] audit: type=1300 audit(1677364053.318:783933): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364053.318:783933): item=0 name="/usr/lib/qt/mkspecs/modules/" inode=875364 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364053.318:783933): item=1 name="/usr/lib/qt/mkspecs/modules/qt_lib_kms_support_private.pri" inode=877808 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364053.318:783933): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364053.318:783934): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364053.318:783934): item=0 name="/usr/lib/qt/mkspecs/modules/" inode=875364 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364053.318:783934): item=1 name="/usr/lib/qt/mkspecs/modules/qt_lib_input_support_private.pri" inode=877807 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364053.318:783934): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[лют26 00:28] kauditd_printk_skb: 12297 callbacks suppressed
+[  +0,000008] audit: type=1300 audit(1677364081.167:846326): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000009] audit: type=1302 audit(1677364081.167:846326): item=0 name=(null) inode=537732135 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364081.167:846326): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364081.168:846327): arch=c000003e syscall=87 success=no exit=-2 a0=558b8e8c2c40 a1=558b8e8c2c61 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364081.168:846327): item=0 name="/usr/share/locale/pt/LC_MESSAGES/" inode=537757158 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364081.168:846327): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364081.168:846328): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364081.168:846328): item=0 name=(null) inode=537722443 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364081.168:846328): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364081.168:846329): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +6,247860] kauditd_printk_skb: 26406 callbacks suppressed
+[  +0,000007] audit: type=1302 audit(1677364088.082:856136): item=1 name="/usr/share/emacs/28.2/lisp/org/ox-latex.el.gz" inode=563732727 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000008] audit: type=1327 audit(1677364088.082:856136): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000005] audit: type=1300 audit(1677364088.082:856137): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364088.082:856137): item=0 name="/usr/share/emacs/28.2/lisp/org/" inode=569625163 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364088.082:856137): item=1 name="/usr/share/emacs/28.2/lisp/org/ox-koma-letter.elc" inode=563732726 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364088.082:856137): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364088.082:856138): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364088.082:856138): item=0 name="/usr/share/emacs/28.2/lisp/org/" inode=569625163 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364088.082:856138): item=1 name="/usr/share/emacs/28.2/lisp/org/ox-koma-letter.el.gz" inode=563732725 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364088.082:856138): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +5,087894] kauditd_printk_skb: 3497 callbacks suppressed
+[  +0,000007] audit: type=1327 audit(1677364093.568:875692): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,106136] audit: type=1302 audit(1677364093.794:877616): item=0 name="/usr/share/locale/hy/LC_MESSAGES/" inode=63673 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000012] audit: audit_lost=33788 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000005] audit: kauditd retry queue overflow
+[  +0,000005] audit: type=1327 audit(1677364093.794:877616): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: audit_lost=33789 audit_rate_limit=0 audit_backlog_limit=8192
+[  +0,000004] audit: kauditd retry queue overflow
+[  +1,325791] audit: type=1327 audit(1677364093.627:876225): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000012] audit: type=1300 audit(1677364093.627:876226): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=7fff7d4f33d0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000006] audit: type=1302 audit(1677364093.627:876226): item=0 name=(null) inode=268850827 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[ +21,503786] kauditd_printk_skb: 4522 callbacks suppressed
+[  +0,000008] audit: type=1327 audit(1677364116.178:931752): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000008] audit: type=1300 audit(1677364116.178:931753): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1ed a2=0 a3=1e8 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000006] audit: type=1302 audit(1677364116.178:931753): item=0 name=(null) inode=874604 dev=103:02 mode=0100750 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364116.178:931753): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364116.178:931754): arch=c000003e syscall=87 success=no exit=-2 a0=558b8ecb91f0 a1=558b8ecb9202 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364116.178:931754): item=0 name="/usr/lib/git-core/" inode=873827 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364116.178:931754): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364116.178:931755): arch=c000003e syscall=94 success=yes exit=0 a0=558b8ecb91f0 a1=0 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364116.178:931755): item=0 name="/usr/lib/git-core/git-range-diff" inode=874605 dev=103:02 mode=0120777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364116.178:931755): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[лют26 00:29] kauditd_printk_skb: 23656 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677364142.850:988065): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000008] audit: type=1302 audit(1677364142.850:988065): item=0 name=(null) inode=805384886 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364142.850:988065): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364142.850:988066): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677364142.850:988066): item=0 name=(null) inode=805384886 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364142.850:988066): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364142.850:988067): arch=c000003e syscall=87 success=no exit=-2 a0=558b8edc74e0 a1=558b8edc74fe a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364142.850:988067): item=0 name="/usr/include/gnuradio/digital/" inode=805308233 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364142.850:988067): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364142.850:988068): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[ +12,487836] kauditd_printk_skb: 482 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677364155.568:1013047): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000009] audit: type=1302 audit(1677364155.568:1013047): item=0 name=(null) inode=563587319 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364155.568:1013047): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364155.568:1013048): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364155.568:1013048): item=0 name=(null) inode=563587319 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364155.568:1013048): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364155.568:1013049): arch=c000003e syscall=87 success=no exit=-2 a0=558b8f11d110 a1=558b8f11d143 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364155.568:1013049): item=0 name="/usr/include/qt6/QtNetwork/6.4.2/QtNetwork/private/" inode=563026251 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364155.568:1013049): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364155.568:1013050): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +5,648013] kauditd_printk_skb: 1362 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677364161.531:1039247): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000010] audit: type=1302 audit(1677364161.531:1039247): item=0 name=(null) inode=805546729 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364161.531:1039247): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364161.531:1039248): arch=c000003e syscall=87 success=no exit=-2 a0=558b8f2d4510 a1=558b8f2d4524 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364161.531:1039248): item=0 name="/usr/share/man/man3/" inode=805568712 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364161.531:1039248): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364161.531:1039249): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364161.531:1039249): item=0 name=(null) inode=805546730 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364161.531:1039249): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364161.532:1039250): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +6,087793] kauditd_printk_skb: 16764 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677364165.965:1046629): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000010] audit: type=1302 audit(1677364165.965:1046629): item=0 name=(null) inode=820050241 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364165.965:1046629): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364165.966:1046630): arch=c000003e syscall=87 success=no exit=-2 a0=558b8f21b2c0 a1=558b8f21b30a a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364165.966:1046630): item=0 name="/usr/lib/python3.10/site-packages/future/backports/email/mime/__pycache__/" inode=820049517 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364165.966:1046630): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364165.966:1046631): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364165.966:1046631): item=0 name=(null) inode=820050242 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364165.966:1046631): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364165.966:1046632): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[ +11,663821] kauditd_printk_skb: 8806 callbacks suppressed
+[  +0,000007] audit: type=1327 audit(1677364178.866:1069180): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000009] audit: type=1300 audit(1677364178.867:1069181): arch=c000003e syscall=87 success=no exit=-2 a0=558b8f477d40 a1=558b8f477d5b a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364178.867:1069181): item=0 name="/usr/share/doc/libcdr/html/" inode=1295703 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364178.867:1069181): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364178.867:1069182): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=7fff7d4f33d0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364178.867:1069182): item=0 name=(null) inode=1295736 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364178.867:1069182): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364178.867:1069183): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=7fff7d4f33d0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364178.867:1069183): item=0 name=(null) inode=1295736 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364178.867:1069183): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[лют26 00:30] kauditd_printk_skb: 30094 callbacks suppressed
+[  +0,000008] audit: type=1300 audit(1677364204.575:1120854): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000010] audit: type=1302 audit(1677364204.575:1120854): item=0 name="/usr/lib/libreoffice/help/en-US/text/shared/01/" inode=819556039 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1302 audit(1677364204.575:1120854): item=1 name="/usr/lib/libreoffice/help/en-US/text/shared/01/06130001.html" inode=819558782 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364204.575:1120854): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364204.575:1120855): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364204.575:1120855): item=0 name="/usr/lib/libreoffice/help/en-US/text/shared/01/" inode=819556039 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364204.575:1120855): item=1 name="/usr/lib/libreoffice/help/en-US/text/shared/01/06130000.html" inode=819558781 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364204.575:1120855): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364204.575:1120856): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364204.575:1120856): item=0 name="/usr/lib/libreoffice/help/en-US/text/shared/01/" inode=819556039 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[ +20,655606] kauditd_printk_skb: 5436 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677364226.433:1174856): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000009] audit: type=1302 audit(1677364226.433:1174856): item=0 name="/usr/lib/modules/6.1.12-arch1-1/kernel/drivers/hwmon/" inode=12357 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1302 audit(1677364226.433:1174856): item=1 name="/usr/lib/modules/6.1.12-arch1-1/kernel/drivers/hwmon/iio_hwmon.ko.zst" inode=38520 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364226.433:1174856): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364226.433:1174857): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364226.433:1174857): item=0 name="/usr/lib/modules/6.1.12-arch1-1/kernel/drivers/hwmon/" inode=12357 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364226.433:1174857): item=1 name="/usr/lib/modules/6.1.12-arch1-1/kernel/drivers/hwmon/ibmpex.ko.zst" inode=38519 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364226.433:1174857): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364226.433:1174858): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364226.433:1174858): item=0 name="/usr/lib/modules/6.1.12-arch1-1/kernel/drivers/hwmon/" inode=12357 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +8,792038] kauditd_printk_skb: 6438 callbacks suppressed
+[  +0,000007] audit: type=1327 audit(1677364235.220:1200198): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,727788] audit: type=1327 audit(1677364235.220:1200198): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000011] audit: type=1300 audit(1677364235.255:1200492): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000006] audit: type=1302 audit(1677364235.255:1200492): item=0 name=(null) inode=537599280 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364235.255:1200492): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364235.255:1200493): arch=c000003e syscall=87 success=no exit=-2 a0=558b8fad8640 a1=558b8fad865d a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364235.255:1200493): item=0 name="/usr/lib/firmware/meson/vdec/" inode=537599413 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364235.255:1200493): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364235.255:1200494): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677364235.255:1200494): item=0 name=(null) inode=537599281 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +5,095957] kauditd_printk_skb: 11771 callbacks suppressed
+[  +0,000008] audit: type=1302 audit(1677364239.904:1215795): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/" inode=806707890 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000009] audit: type=1302 audit(1677364239.904:1215795): item=1 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/MFD_MT6360" inode=809326069 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364239.904:1215795): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364239.904:1215796): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364239.904:1215796): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/" inode=806707890 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364239.904:1215796): item=1 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/MFD_MP2629" inode=809326068 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364239.904:1215796): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364239.904:1215797): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364239.904:1215797): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/" inode=806707890 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364239.904:1215797): item=1 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/MFD_MENF21BMC" inode=809326067 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +6,583847] kauditd_printk_skb: 32305 callbacks suppressed
+[  +0,000007] audit: type=1302 audit(1677364246.218:1220468): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/drivers/net/wireless/realtek/rtl818x/" inode=68854 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000009] audit: type=1302 audit(1677364246.218:1220468): item=1 name="/usr/lib/modules/6.1.12-arch1-1/build/drivers/net/wireless/realtek/rtl818x/Kconfig" inode=68884 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364246.218:1220468): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364246.218:1220469): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364246.218:1220469): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/drivers/net/wireless/realtek/" inode=806286907 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364246.218:1220469): item=1 name="/usr/lib/modules/6.1.12-arch1-1/build/drivers/net/wireless/realtek/Kconfig" inode=806286908 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364246.218:1220469): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364246.218:1220470): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364246.218:1220470): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/drivers/net/wireless/ralink/rt2x00/" inode=537548767 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1302 audit(1677364246.218:1220470): item=1 name="/usr/lib/modules/6.1.12-arch1-1/build/drivers/net/wireless/ralink/rt2x00/Kconfig" inode=537548768 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют26 00:31] kauditd_printk_skb: 17844 callbacks suppressed
+[  +0,000006] audit: type=1300 audit(1677364261.299:1253861): arch=c000003e syscall=87 success=no exit=-2 a0=558b8fb6a310 a1=558b8fb6a345 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000008] audit: type=1302 audit(1677364261.299:1253861): item=0 name="/usr/lib/modules/6.1.12-arch1-1/build/include/config/" inode=806707890 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364261.299:1253861): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364261.299:1253862): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677364261.299:1253862): item=0 name=(null) inode=808829731 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364261.299:1253862): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364261.299:1253863): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677364261.299:1253863): item=0 name=(null) inode=808829731 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364261.299:1253863): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364261.300:1253864): arch=c000003e syscall=87 success=no exit=-2 a0=558b8c992100 a1=558b8c992135 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[ +21,448709] kauditd_printk_skb: 14272 callbacks suppressed
+[  +0,000007] audit: type=1327 audit(1677364282.579:1305435): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000009] audit: type=1300 audit(1677364282.579:1305436): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000006] audit: type=1302 audit(1677364282.579:1305436): item=0 name="/usr/lib/modules/6.1.12-zen1-1-zen/build/include/config/" inode=806459306 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364282.579:1305436): item=1 name="/usr/lib/modules/6.1.12-zen1-1-zen/build/include/config/TI_ADS1015" inode=809271347 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364282.579:1305436): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364282.579:1305437): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364282.579:1305437): item=0 name="/usr/lib/modules/6.1.12-zen1-1-zen/build/include/config/" inode=806459306 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1302 audit(1677364282.579:1305437): item=1 name="/usr/lib/modules/6.1.12-zen1-1-zen/build/include/config/TI_ADC161S626" inode=809271346 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364282.579:1305437): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364282.579:1305438): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[ +24,166760] kauditd_printk_skb: 15366 callbacks suppressed
+[  +0,000009] audit: type=1300 audit(1677364307.367:1361450): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000008] audit: type=1302 audit(1677364307.367:1361450): item=0 name=(null) inode=537623842 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364307.367:1361450): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364307.367:1361451): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364307.367:1361451): item=0 name=(null) inode=537623842 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364307.367:1361451): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364307.367:1361452): arch=c000003e syscall=87 success=no exit=-2 a0=558b8ffa54b0 a1=558b8ffa54e7 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364307.367:1361452): item=0 name="/usr/lib/modules/6.1.12-zen1-1-zen/build/include/sound/" inode=537620905 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364307.367:1361452): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,106097] audit: audit_lost=74123 audit_rate_limit=0 audit_backlog_limit=8192
+[  +6,205976] kauditd_printk_skb: 8 callbacks suppressed
+[  +0,000008] audit: type=1327 audit(1677364312.287:1372057): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000008] audit: type=1300 audit(1677364312.287:1372058): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000006] audit: type=1302 audit(1677364312.287:1372058): item=0 name="/usr/lib/ruby/3.0.0/rubygems/resolver/" inode=820057094 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364312.287:1372058): item=1 name="/usr/lib/ruby/3.0.0/rubygems/resolver/molinillo.rb" inode=820057593 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364312.287:1372058): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364312.287:1372059): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364312.287:1372059): item=0 name="/usr/lib/ruby/3.0.0/rubygems/resolver/" inode=820057094 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364312.287:1372059): item=1 name="/usr/lib/ruby/3.0.0/rubygems/resolver/lock_specification.rb" inode=820057592 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364312.287:1372059): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364312.287:1372060): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[лют26 00:32] kauditd_printk_skb: 14496 callbacks suppressed
+[  +0,000008] audit: type=1302 audit(1677364326.430:1400477): item=1 name="/usr/lib/ruby/gems/3.0.0/doc/rdoc-6.4.0/ri/RDoc/Generator/Darkfish/gen_sub_directories-i.ri" inode=283781599 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000010] audit: type=1327 audit(1677364326.430:1400477): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364326.430:1400478): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364326.430:1400478): item=0 name="/usr/lib/ruby/gems/3.0.0/doc/rdoc-6.4.0/ri/RDoc/Generator/Darkfish/" inode=283781288 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364326.430:1400478): item=1 name="/usr/lib/ruby/gems/3.0.0/doc/rdoc-6.4.0/ri/RDoc/Generator/Darkfish/files-i.ri" inode=283781598 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364326.430:1400478): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364326.430:1400479): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364326.430:1400479): item=0 name="/usr/lib/ruby/gems/3.0.0/doc/rdoc-6.4.0/ri/RDoc/Generator/Darkfish/" inode=283781288 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364326.430:1400479): item=1 name="/usr/lib/ruby/gems/3.0.0/doc/rdoc-6.4.0/ri/RDoc/Generator/Darkfish/file_output-i.ri" inode=283781595 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364326.430:1400479): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[ +17,767805] kauditd_printk_skb: 1908 callbacks suppressed
+[  +0,000008] audit: type=1327 audit(1677364344.518:1439124): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000008] audit: type=1300 audit(1677364344.518:1439125): arch=c000003e syscall=87 success=no exit=-2 a0=558b9074f500 a1=558b9074f514 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000006] audit: type=1302 audit(1677364344.518:1439125): item=0 name="/usr/share/man/man2/" inode=537757516 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364344.518:1439125): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364344.518:1439126): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364344.518:1439126): item=0 name=(null) inode=537801871 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364344.518:1439126): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364344.518:1439127): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000005] audit: type=1302 audit(1677364344.518:1439127): item=0 name=(null) inode=537801871 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364344.518:1439127): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[ +30,496647] kauditd_printk_skb: 42902 callbacks suppressed
+[  +0,000006] audit: type=1300 audit(1677364374.351:1496905): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000008] audit: type=1302 audit(1677364374.351:1496905): item=0 name="/usr/share/icons/Numix/24/mimetypes/" inode=821198876 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1302 audit(1677364374.351:1496905): item=1 name="/usr/share/icons/Numix/24/mimetypes/text-x-fortran.svg" inode=818919918 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364374.351:1496905): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364374.351:1496906): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364374.351:1496906): item=0 name="/usr/share/icons/Numix/24/mimetypes/" inode=821198876 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1302 audit(1677364374.351:1496906): item=1 name="/usr/share/icons/Numix/24/mimetypes/text-x-erlang.svg" inode=818919917 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364374.351:1496906): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364374.351:1496907): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364374.351:1496907): item=0 name="/usr/share/icons/Numix/24/mimetypes/" inode=821198876 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют26 00:33] kauditd_printk_skb: 5325 callbacks suppressed
+[  +0,000006] audit: type=1300 audit(1677364389.067:1536083): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000008] audit: type=1302 audit(1677364389.067:1536083): item=0 name=(null) inode=285528009 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364389.067:1536083): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364389.067:1536084): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677364389.067:1536084): item=0 name=(null) inode=285528009 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364389.067:1536084): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364389.068:1536085): arch=c000003e syscall=87 success=no exit=-2 a0=558b908f0d50 a1=558b908f0d74 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364389.068:1536085): item=0 name="/usr/share/icons/Numix/16/mimetypes/" inode=285147230 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364389.068:1536085): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364389.068:1536086): arch=c000003e syscall=94 success=yes exit=0 a0=558b908f0d50 a1=0 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[ +42,191607] kauditd_printk_skb: 7507 callbacks suppressed
+[  +0,000007] audit: type=1302 audit(1677364431.149:1631494): item=0 name="/usr/share/obs/obs-plugins/rtmp-services/locale/" inode=807205332 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000009] audit: type=1302 audit(1677364431.149:1631494): item=1 name="/usr/share/obs/obs-plugins/rtmp-services/locale/nn-NO.ini" inode=807205350 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1327 audit(1677364431.149:1631494): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364431.149:1631495): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364431.149:1631495): item=0 name="/usr/share/obs/obs-plugins/rtmp-services/locale/" inode=807205332 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000005] audit: type=1302 audit(1677364431.149:1631495): item=1 name="/usr/share/obs/obs-plugins/rtmp-services/locale/nl-NL.ini" inode=807205349 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364431.149:1631495): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364431.149:1631496): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364431.149:1631496): item=0 name="/usr/share/obs/obs-plugins/rtmp-services/locale/" inode=807205332 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364431.149:1631496): item=1 name="/usr/share/obs/obs-plugins/rtmp-services/locale/nb-NO.ini" inode=807205348 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют26 00:34] kauditd_printk_skb: 33274 callbacks suppressed
+[  +0,000007] audit: type=1327 audit(1677364442.346:1650782): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000008] audit: type=1300 audit(1677364442.347:1650783): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000005] audit: type=1302 audit(1677364442.347:1650783): item=0 name="/usr/lib/python3.10/site-packages/unidecode/" inode=60277 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364442.347:1650783): item=1 name="/usr/lib/python3.10/site-packages/unidecode/x01d.py" inode=777649 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364442.347:1650783): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000004] audit: type=1300 audit(1677364442.347:1650784): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364442.347:1650784): item=0 name="/usr/lib/python3.10/site-packages/unidecode/" inode=60277 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364442.347:1650784): item=1 name="/usr/lib/python3.10/site-packages/unidecode/x018.py" inode=777648 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364442.347:1650784): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364442.347:1650785): arch=c000003e syscall=87 success=yes exit=0 a0=7fff7d4f15c0 a1=4 a2=3 a3=558b8a73bbd0 items=2 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[ +40,295540] kauditd_printk_skb: 608 callbacks suppressed
+[  +0,000007] audit: type=1300 audit(1677364483.384:1751602): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000008] audit: type=1302 audit(1677364483.384:1751602): item=0 name=(null) inode=539653308 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364483.384:1751602): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364483.384:1751603): arch=c000003e syscall=87 success=no exit=-2 a0=558b916b7690 a1=558b916b76b1 a2=0 a3=100 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="delete"
+[  +0,000004] audit: type=1302 audit(1677364483.384:1751603): item=0 name="/usr/share/man/fr.ISO8859-1/man7/" inode=807157496 dev=103:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364483.384:1751603): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364483.384:1751604): arch=c000003e syscall=93 success=yes exit=0 a0=9 a1=0 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[  +0,000004] audit: type=1302 audit(1677364483.384:1751604): item=0 name=(null) inode=807157452 dev=103:02 mode=0100640 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364483.384:1751604): proctitle=7061636D616E002D53002D2D6F76657277726974653D2A002D
+[  +0,000003] audit: type=1300 audit(1677364483.384:1751605): arch=c000003e syscall=91 success=yes exit=0 a0=9 a1=1a4 a2=0 a3=1a0 items=1 ppid=13798 pid=13802 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pacman" exe=2F7573722F62696E2F7061636D616E202864656C6574656429 subj=unconfined key="perm_mod"
+[лют26 00:35] kauditd_printk_skb: 17911 callbacks suppressed
+[  +0,000003] audit: type=1302 audit(1677364510.293:1763768): item=0 name=(null) inode=822426446 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364510.293:1763768): proctitle=72706D002D7166002F7573722F6C69622F6D6F64756C65732F362E312E31322D61726368312D31
+[  +0,784012] audit: type=1309 audit(1677364511.082:1763845): argc=4 a0="cp" a1="-a" a2="/var/lib/dkms/nvidia/525.89.02/source/" a3="/var/lib/dkms/nvidia/525.89.02/build"
+[лют26 00:36] audit: type=1300 audit(1677364575.182:1773712): arch=c000003e syscall=59 success=yes exit=0 a0=55de29a5c0b0 a1=55de29a68e10 a2=55de29a0f2a0 a3=8 items=2 ppid=30319 pid=36961 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="sh" exe="/usr/bin/bash" subj=unconfined key="rootcmd"
+[  +0,623059] audit: type=1300 audit(1677364575.182:1773712): arch=c000003e syscall=59 success=yes exit=0 a0=55de29a5c0b0 a1=55de29a68e10 a2=55de29a0f2a0 a3=8 items=2 ppid=30319 pid=36961 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="sh" exe="/usr/bin/bash" subj=unconfined key="rootcmd"
+[  +0,000011] audit: type=1309 audit(1677364575.182:1773712): argc=3 a0="/bin/sh" a1="-c" a2_len=12448 a2[0]=736574202D653B20206563686F202720204343205B4D5D20202F7661722F6C69622F646B6D732F6E76696469612F3532352E38392E30322F6275696C642F6E76696469612D75766D2F75766D5F747572696E672E6F273B20202020747261702027726D202D66202F7661722F6C69622F646B6D732F6E76696469612F3532352E38392E30322F6275696C642F6E76696469612D75766D2F75766D5F747572696E672E6F3B2074726170202D204855503B206B696C6C202D732048555020242427204855503B2020747261702027726D202D66202F7661722F6C69622F646B6D732F6E76696469612F3532352E38392E30322F6275696C642F6E76696469612D75766D2F75766D5F747572696E672E6F3B2074726170202D20494E543B206B696C6C202D7320494E542024242720494E543B2020747261702027726D202D66202F7661722F6C69622F646B6D732F6E76696469612F3532352E38392E30322F6275696C642F6E76696469612D75766D2F75766D5F747572696E672E6F3B2074726170202D20515549543B206B696C6C202D7320515549542024242720515549543B2020747261702027726D202D66202F7661722F6C69622F646B6D732F6E7669
+[  +0,000053] audit: type=1309 audit(1677364575.182:1773712):  a2[1]=68202D696E636C756465202E2F696E636C7564652F6C696E75782F6B636F6E6669672E68202D696E636C756465202E2F696E636C7564652F6C696E75782F636F6D70696C65725F74797065732E68202D445F5F4B45524E454C5F5F202D666D6163726F2D7072656669782D6D61703D2E2F3D202D57616C6C202D57756E646566202D576572726F723D7374726963742D70726F746F7479706573202D576E6F2D747269677261706873202D666E6F2D7374726963742D616C696173696E67202D666E6F2D636F6D6D6F6E202D6673686F72742D7763686172202D666E6F2D504945202D576572726F723D696D706C696369742D66756E6374696F6E2D6465636C61726174696F6E202D576572726F723D696D706C696369742D696E74202D576572726F723D72657475726E2D74797065202D576E6F2D666F726D61742D7365637572697479202D7374643D676E753131202D6D6E6F2D737365202D6D6E6F2D6D6D78202D6D6E6F2D73736532202D6D6E6F2D33646E6F77202D6D6E6F2D617678202D6663662D70726F74656374696F6E3D6272616E6368202D666E6F2D6A756D702D7461626C6573202D6D3634202D66616C69676E2D6A756D70733D31202D66616C69676E2D6C6F6F70733D31202D6D6E6F2D
+[  +0,000036] audit: type=1302 audit(1677364575.182:1773712): item=0 name="/bin/sh" inode=805355732 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364575.182:1773712): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=537346028 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1327 audit(1677364575.182:1773712): proctitle=2F62696E2F7368002D6300736574202D653B20206563686F202720204343205B4D5D20202F7661722F6C69622F646B6D732F6E76696469612F3532352E38392E30322F6275696C642F6E76696469612D75766D2F75766D5F747572696E672E6F273B20202020747261702027726D202D66202F7661722F6C69622F646B6D732F
+[  +0,000004] audit: type=1300 audit(1677364575.189:1773713): arch=c000003e syscall=59 success=yes exit=0 a0=56228bfc5940 a1=56228bfb3270 a2=56228bfcf8a0 a3=8 items=2 ppid=36961 pid=36962 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="cc" exe="/usr/bin/gcc" subj=unconfined key="rootcmd"
+[  +0,000004] audit: type=1309 audit(1677364575.189:1773713): argc=130 a0="cc" a1="-Wp,-MMD,/var/lib/dkms/nvidia/525.89.02/build/nvidia-uvm/.uvm_turing.o.d" a2="-nostdinc" a3="-I./arch/x86/include" a4="-I./arch/x86/include/generated" a5="-I./include" a6="-I./arch/x86/include/uapi" a7="-I./arch/x86/include/generated/uapi" a8="-I./include/uapi" a9="-I./include/generated/uapi" a10="-include" a11="./include/linux/compiler-version.h" a12="-include" a13="./include/linux/kconfig.h" a14="-include" a15="./include/linux/compiler_types.h" a16="-D__KERNEL__" a17="-fmacro-prefix-map=./=" a18="-Wall" a19="-Wundef" a20="-Werror=strict-prototypes" a21="-Wno-trigraphs" a22="-fno-strict-aliasing" a23="-fno-common" a24="-fshort-wchar" a25="-fno-PIE" a26="-Werror=implicit-function-declaration" a27="-Werror=implicit-int" a28="-Werror=return-type" a29="-Wno-format-security" a30="-std=gnu11" a31="-mno-sse" a32="-mno-mmx" a33="-mno-sse2" a34="-mno-3dnow" a35="-mno-avx" a36="-fcf-protection=branch" a37="-fno-jump
+[  +0,000026] audit: type=1302 audit(1677364575.189:1773713): item=0 name="/usr/bin/cc" inode=805308095 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +5,976737] kauditd_printk_skb: 25 callbacks suppressed
+[  +0,000004] audit: type=1302 audit(1677364581.780:1774237): item=1 name="/var/lib/dkms/nvidia/525.89.02/build/nvidia-uvm/.uvm_populate_pageable.o.d" inode=538742990 dev=103:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +6,222934] audit: type=1309 audit(1677364588.005:1774759):  a2[1]=64652F67656E6572617465642F75617069202D492E2F696E636C7564652F75617069202D492E2F696E636C7564652F67656E6572617465642F75617069202D696E636C756465202E2F696E636C7564652F6C696E75782F636F6D70696C65722D76657273696F6E2E68202D696E636C756465202E2F696E636C7564652F6C696E75782F6B636F6E6669672E68202D696E636C756465202E2F696E636C7564652F6C696E75782F636F6D70696C65725F74797065732E68202D445F5F4B45524E454C5F5F202D666D6163726F2D7072656669782D6D61703D2E2F3D202D57616C6C202D57756E646566202D576572726F723D7374726963742D70726F746F7479706573202D576E6F2D747269677261706873202D666E6F2D7374726963742D616C696173696E67202D666E6F2D636F6D6D6F6E202D6673686F72742D7763686172202D666E6F2D504945202D576572726F723D696D706C696369742D66756E6374696F6E2D6465636C61726174696F6E202D576572726F723D696D706C696369742D696E74202D576572726F723D72657475726E2D74797065202D576E6F2D666F726D61742D7365637572697479202D7374643D676E753131202D6D6E6F2D737365202D6D6E6F2D6D6D78202D6D6E6F2D737365
+[  +1,815983] audit: type=1302 audit(1677364589.822:1774869): item=0 name="/bin/sh" inode=805355732 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +1,047988] audit: type=1327 audit(1677364590.133:1774904): proctitle="htop"
+[  +0,000005] audit: type=1300 audit(1677364590.134:1774905): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000002] audit: type=1302 audit(1677364590.134:1774905): item=0 name="maps" inode=62345 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677364590.134:1774905): proctitle="htop"
+[  +0,000001] audit: type=1300 audit(1677364590.134:1774906): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000002] audit: type=1302 audit(1677364590.134:1774906): item=0 name="maps" inode=62347 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677364590.134:1774906): proctitle="htop"
+[  +0,000001] audit: type=1300 audit(1677364590.152:1774907): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +2,553667] kauditd_printk_skb: 38 callbacks suppressed
+[  +0,000003] audit: type=1300 audit(1677364593.424:1775122): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000004] audit: type=1302 audit(1677364593.424:1775122): item=0 name="maps" inode=62289 dev=00:14 mode=0100444 ouid=976 ogid=976 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +1,271270] audit: type=1300 audit(1677364593.424:1775122): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000006] audit: type=1300 audit(1677364593.758:1775166): arch=c000003e syscall=59 success=yes exit=0 a0=561e51f663a0 a1=561e51f64e20 a2=561e51f69210 a3=561e51f64fd0 items=2 ppid=37792 pid=37794 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="awk" exe="/usr/bin/gawk" subj=unconfined key="rootcmd"
+[  +0,000001] audit: type=1309 audit(1677364593.758:1775166): argc=4 a0="awk" a1="-v" a2="file=/var/lib/dkms/nvidia/525.89.02/build/nvidia-uvm/uvm_perf_utils_test.o" a3=0A424547494E207B0A0969203D20300A7D0A0A2320536B697020746865206C696E6520696620746865206E756D626572206F66206669656C6473206973206C657373207468616E20332E0A230A2320636173652031290A23202020466F7220756E646566696E65642073796D626F6C732C20746865206669727374206669656C64202876616C75652920697320656D7074792E0A23202020546865206F75746F7574206C6F6F6B73206C696B6520746869733A0A23202020202022202020202020202020202020202020202055205F7072696E746B220A23202020497420697320756E6E656564656420746F207265636F726420756E646566696E65642073796D626F6C732E0A230A2320636173652032290A23202020466F7220436C616E67204C544F2C206C6C766D2D6E6D206F7574707574732061206C696E652077697468207479706520742062757420656D707479206E616D653A0A232020202020222D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2074220A216C656E67746828243329207B0A096E6578740A7D0A0A23207361766520286E616D652C20747970652920696E
+[  +0,000006] audit: type=1302 audit(1677364593.758:1775166): item=0 name="/usr/bin/awk" inode=805307076 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1302 audit(1677364593.758:1775166): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=537346028 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677364593.758:1775166): proctitle=61776B002D760066696C653D2F7661722F6C69622F646B6D732F6E76696469612F3532352E38392E30322F6275696C642F6E76696469612D75766D2F75766D5F706572665F7574696C735F746573742E6F000A424547494E207B0A0969203D20300A7D0A0A2320536B697020746865206C696E6520696620746865206E756D62
+[  +0,000002] audit: type=1300 audit(1677364593.763:1775167): arch=c000003e syscall=59 success=yes exit=0 a0=561e51f66360 a1=561e51f665b0 a2=561e51f69230 a3=1b6 items=2 ppid=37793 pid=37795 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="nm" exe="/usr/bin/nm" subj=unconfined key="rootcmd"
+[  +0,000001] audit: type=1309 audit(1677364593.763:1775167): argc=2 a0="nm" a1="/var/lib/dkms/nvidia/525.89.02/build/nvidia-uvm/uvm_perf_utils_test.o"
+[лют26 00:38] kauditd_printk_skb: 54 callbacks suppressed
+[  +0,000006] audit: type=1327 audit(1677364681.765:1783972): proctitle="htop"
+[  +1,143944] audit: type=1327 audit(1677364681.765:1783972): proctitle="htop"
+[  +0,000004] audit: type=1300 audit(1677364681.766:1783973): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000001] audit: type=1302 audit(1677364681.766:1783973): item=0 name="maps" inode=62294 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677364681.766:1783973): proctitle="htop"
+[  +0,000001] audit: type=1300 audit(1677364681.767:1783974): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000002] audit: type=1302 audit(1677364681.767:1783974): item=0 name="maps" inode=62295 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677364681.767:1783974): proctitle="htop"
+[  +0,000001] audit: type=1300 audit(1677364681.766:1783975): arch=c000003e syscall=59 success=yes exit=0 a0=561bc9b04ae0 a1=561bc9b04f80 a2=561bc9b088e0 a3=561bc9b05080 items=2 ppid=41809 pid=41812 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="pahole" exe="/usr/bin/pahole" subj=unconfined key="rootcmd"
+[  +0,000002] audit: type=1309 audit(1677364681.766:1783975): argc=2 a0="pahole" a1="--version"
+[лют26 00:41] kauditd_printk_skb: 3024 callbacks suppressed
+[  +0,000006] audit: type=1327 audit(1677364883.176:1807302): proctitle=2F62696E2F7368002D6300676574636F6E66204C46535F4C49425320323E2F6465762F6E756C6C
+[  +0,624005] audit: type=1327 audit(1677364883.176:1807302): proctitle=2F62696E2F7368002D6300676574636F6E66204C46535F4C49425320323E2F6465762F6E756C6C
+[  +0,000011] audit: type=1300 audit(1677364883.188:1807303): arch=c000003e syscall=59 success=yes exit=0 a0=561543ddee70 a1=561543ddcdc0 a2=561543ddc2b0 a3=1b6 items=2 ppid=56340 pid=56341 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="getconf" exe="/usr/bin/getconf" subj=unconfined key="rootcmd"
+[  +0,000005] audit: type=1309 audit(1677364883.188:1807303): argc=2 a0="getconf" a1="LFS_LIBS"
+[  +0,000003] audit: type=1302 audit(1677364883.188:1807303): item=0 name="/usr/bin/getconf" inode=805308798 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1302 audit(1677364883.188:1807303): item=1 name="/usr/lib/ld-linux-x86-64.so.2" inode=537346028 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000003] audit: type=1327 audit(1677364883.188:1807303): proctitle=676574636F6E66004C46535F4C494253
+[  +0,000004] audit: type=1300 audit(1677364883.194:1807304): arch=c000003e syscall=59 success=yes exit=0 a0=55facab97c00 a1=55facab87b00 a2=55facab99c60 a3=8 items=2 ppid=56324 pid=56342 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="sh" exe="/usr/bin/bash" subj=unconfined key="rootcmd"
+[  +0,000004] audit: type=1309 audit(1677364883.194:1807304): argc=3 a0="/bin/sh" a1="-c" a2=63617420696E636C7564652F636F6E6669672F6B65726E656C2E72656C6561736520323E202F6465762F6E756C6C
+[  +0,000003] audit: type=1302 audit(1677364883.194:1807304): item=0 name="/bin/sh" inode=805355732 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[лют26 00:42] kauditd_printk_skb: 326 callbacks suppressed
+[  +0,000007] audit: type=1327 audit(1677364966.000:1842984): proctitle=7265616C70617468002D2D002F7573722F6C69622F6669726D776172652F6E76696469612F67703130372F736563322F646573632E62696E2E787A
+[  +1,399978] audit: type=1302 audit(1677364967.395:1843581): item=0 name="maps" inode=62306 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000010] audit: type=1327 audit(1677364967.395:1843581): proctitle="htop"
+[  +1,144958] audit: type=1302 audit(1677364967.395:1843581): item=0 name="maps" inode=62306 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000004] audit: type=1300 audit(1677364967.396:1843582): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000002] audit: type=1302 audit(1677364967.396:1843582): item=0 name="maps" inode=62308 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677364967.396:1843582): proctitle="htop"
+[  +0,000001] audit: type=1300 audit(1677364967.397:1843583): arch=c000003e syscall=257 success=no exit=-13 a0=4 a1=55b51a33b063 a2=0 a3=0 items=1 ppid=2676 pid=3121 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=2 comm="htop" exe=2F7573722F62696E2F68746F70202864656C6574656429 subj=unconfined key="file_access"
+[  +0,000002] audit: type=1302 audit(1677364967.397:1843583): item=0 name="maps" inode=62309 dev=00:14 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677364967.397:1843583): proctitle="htop"
+[лют26 00:44] kauditd_printk_skb: 1266 callbacks suppressed
+[  +0,000003] audit: type=1300 audit(1677365092.045:1897276): arch=c000003e syscall=92 success=yes exit=0 a0=555a3c8ea940 a1=0 a2=ffffffff a3=0 items=1 ppid=83401 pid=88061 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="zstd" exe="/usr/bin/zstd" subj=unconfined key="perm_mod"
+[  +0,000003] audit: type=1302 audit(1677365092.045:1897276): item=0 name="/tmp/mkinitcpio.bcVdIr/root//lib/modules/6.1.12-zen1-1-zen/kernel/drivers/misc/cb710/cb710.ko" inode=21805 dev=00:25 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677365092.045:1897276): proctitle=7A737464002D64002D2D726D002D71002F746D702F6D6B696E69746370696F2E6263566449722F726F6F742F2F6C69622F6D6F64756C65732F362E312E31322D7A656E312D312D7A656E2F6B65726E656C2F66732F6E66732F6E667376322E6B6F2E7A7374002F746D702F6D6B696E69746370696F2E6263566449722F726F6F
+[  +0,000002] audit: type=1300 audit(1677365092.045:1897277): arch=c000003e syscall=87 success=yes exit=0 a0=7ffeb8a76894 a1=7ffeb8a76894 a2=7ffeb8a67240 a3=0 items=2 ppid=83401 pid=88061 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="zstd" exe="/usr/bin/zstd" subj=unconfined key="delete"
+[  +0,000001] audit: type=1302 audit(1677365092.045:1897277): item=0 name="/tmp/mkinitcpio.bcVdIr/root//lib/modules/6.1.12-zen1-1-zen/kernel/drivers/misc/cb710/" inode=21002 dev=00:25 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1302 audit(1677365092.045:1897277): item=1 name="/tmp/mkinitcpio.bcVdIr/root//lib/modules/6.1.12-zen1-1-zen/kernel/drivers/misc/cb710/cb710.ko.zst" inode=21003 dev=00:25 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000001] audit: type=1327 audit(1677365092.045:1897277): proctitle=7A737464002D64002D2D726D002D71002F746D702F6D6B696E69746370696F2E6263566449722F726F6F742F2F6C69622F6D6F64756C65732F362E312E31322D7A656E312D312D7A656E2F6B65726E656C2F66732F6E66732F6E667376322E6B6F2E7A7374002F746D702F6D6B696E69746370696F2E6263566449722F726F6F
+[  +0,000002] audit: type=1300 audit(1677365092.045:1897278): arch=c000003e syscall=92 success=yes exit=0 a0=555a3c8ea940 a1=ffffffff a2=0 a3=0 items=1 ppid=83401 pid=88061 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="zstd" exe="/usr/bin/zstd" subj=unconfined key="perm_mod"
+[  +0,000001] audit: type=1302 audit(1677365092.045:1897278): item=0 name="/tmp/mkinitcpio.bcVdIr/root//lib/modules/6.1.12-zen1-1-zen/kernel/drivers/hid/hid-roccat-savu.ko" inode=21806 dev=00:25 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+[  +0,000002] audit: type=1327 audit(1677365092.045:1897278): proctitle=7A737464002D64002D2D726D002D71002F746D702F6D6B696E69746370696F2E6263566449722F726F6F742F2F6C69622F6D6F64756C65732F362E312E31322D7A656E312D312D7A656E2F6B65726E656C2F66732F6E66732F6E667376322E6B6F2E7A7374002F746D702F6D6B696E69746370696F2E6263566449722F726F6F
+[лют26 01:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 01:55] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.CHRG], AE_NOT_FOUND (20220331/psargs-330)
+[  +0,000032] ACPI Error: Aborting method \PNOT due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[  +0,000019] ACPI Error: Aborting method \_SB.AC._PSR due to previous error (AE_NOT_FOUND) (20220331/psparse-529)
+[лют26 02:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 03:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 04:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 05:09] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=fe80:0000:0000:0000:503d:dba5:3259:5b9a DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=90 TC=0 HOPLIMIT=255 FLOWLBL=326968 PROTO=UDP SPT=5353 DPT=5353 LEN=50 
+[лют26 05:33] wlp2s0: authenticate with 08:55:31:cf:3d:6c
+[  +0,006548] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 1/3)
+[  +0,046885] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 2/3)
+[  +0,043758] wlp2s0: send auth to 08:55:31:cf:3d:6c (try 3/3)
+[  +0,037560] wlp2s0: authentication with 08:55:31:cf:3d:6c timed out
+[ +13,030377] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=116 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
+[  +0,552021] Iptables: v6Deny: IN= OUT=wlp2s0 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=116 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x94 
