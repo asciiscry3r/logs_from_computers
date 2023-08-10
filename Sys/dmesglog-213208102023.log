@@ -1,7 +1,4 @@
-[Aug10 15:25] system 00:04: [mem 0xfec00000-0xfec00fff] could not be reserved
-[  +0.000002] system 00:04: [mem 0xfec01000-0xfec01fff] could not be reserved
-[  +0.000002] system 00:04: [mem 0xfedc0000-0xfedc0fff] has been reserved
-[  +0.000002] system 00:04: [mem 0xfee00000-0xfee00fff] has been reserved
+[Aug10 15:25] system 00:04: [mem 0xfee00000-0xfee00fff] has been reserved
 [  +0.000001] system 00:04: [mem 0xfed80000-0xfed8ffff] could not be reserved
 [  +0.000002] system 00:04: [mem 0xfec10000-0xfec10fff] has been reserved
 [  +0.000002] system 00:04: [mem 0xff000000-0xffffffff] has been reserved
@@ -1783,3 +1780,4 @@
 [ +19.961498] Iptables: IPT OUTPUT packet dIN= OUT=ppp0 SRC=195.64.182.160 DST=216.58.209.14 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=51894 DF PROTO=UDP SPT=54521 DPT=443 LEN=48 
 [ +20.193283] Iptables: IPT OUTPUT packet dIN= OUT=ppp0 SRC=195.64.182.160 DST=142.250.203.142 LEN=1272 TOS=0x00 PREC=0x00 TTL=64 ID=60223 DF PROTO=UDP SPT=62204 DPT=443 LEN=1252 
 [Aug10 21:32] Iptables: IPT OUTPUT packet dIN= OUT=ppp0 SRC=195.64.182.160 DST=142.250.75.14 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=30505 DF PROTO=UDP SPT=63998 DPT=443 LEN=37 
+[ +20.024017] Iptables: IPT OUTPUT packet dIN= OUT=ppp0 SRC=195.64.182.160 DST=142.250.75.14 LEN=57 TOS=0x00 PREC=0x00 TTL=64 ID=30541 DF PROTO=UDP SPT=63998 DPT=443 LEN=37 
